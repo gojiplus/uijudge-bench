@@ -37,6 +37,8 @@ LICENSE = "W3C Software and Document Notice and License"
 LICENSE_URL = "https://www.w3.org/copyright/software-license-2023/"
 BUCKET = "ingested"
 DEFAULT_LIMIT = 200
+# Steady spacing between uncached downloads (seconds) to stay under w3.org rate limiting.
+REQUEST_SPACING_SECONDS = 1.2
 
 _SC_KEY = re.compile(r"^wcag\d+:(\d+\.\d+\.\d+)$")
 
@@ -54,14 +56,17 @@ def _primary_success_criteria(case: dict) -> list[str]:
 def _select(cases: list[dict], limit: int | None) -> list[dict]:
     """Select up to ``limit`` ingestable cases, round-robin across rules for diversity.
 
-    Within each rule, cases are interleaved by outcome so both ``passed`` and ``failed``
-    examples are represented. ``limit=None`` selects all ingestable cases.
+    Within each rule the ``failed`` and ``passed`` examples are genuinely *interleaved*
+    (f, p, f, p, ...) before the round-robin, so early picks alternate outcome and the
+    slice approaches outcome balance as far as upstream supply allows (ACT has more
+    failed than passed cases, so it will not reach 50/50 — it gets as close as supply
+    permits). ``limit=None`` selects all ingestable cases.
     """
     by_rule: dict[str, list[dict]] = defaultdict(list)
     for case in cases:
         by_rule[case["ruleId"]].append(case)
-    for rule_cases in by_rule.values():
-        rule_cases.sort(key=lambda c: (c["expected"], c["testcaseId"]))
+    for rule in by_rule:
+        by_rule[rule] = _interleave_by_outcome(by_rule[rule])
 
     ordered_rules = sorted(by_rule)
     selected: list[dict] = []
@@ -79,6 +84,24 @@ def _select(cases: list[dict], limit: int | None) -> list[dict]:
             break
         index += 1
     return selected
+
+
+def _interleave_by_outcome(cases: list[dict]) -> list[dict]:
+    """Interleave a rule's cases as failed, passed, failed, passed, ... (deterministic).
+
+    Each outcome bucket is ordered by ``testcaseId`` for reproducibility, then the two
+    buckets are zipped together so consecutive picks alternate outcome; the longer bucket's
+    remainder is appended at the end.
+    """
+    failed = sorted((c for c in cases if c["expected"] == "failed"), key=lambda c: c["testcaseId"])
+    passed = sorted((c for c in cases if c["expected"] == "passed"), key=lambda c: c["testcaseId"])
+    interleaved: list[dict] = []
+    for f, p in zip(failed, passed, strict=False):
+        interleaved.append(f)
+        interleaved.append(p)
+    longer = failed if len(failed) > len(passed) else passed
+    interleaved.extend(longer[min(len(failed), len(passed)) :])
+    return interleaved
 
 
 def _deterministic_split(key: str) -> str:
@@ -175,6 +198,7 @@ def _build_item(case: dict, scs: list[str], retrieval_date: str) -> Item:
             "retrieval_date": retrieval_date,
             "url": case["url"],
         },
+        annotation_unit="page",  # ACT native unit: page-level rule verdicts.
         anchor=None,
         metadata={
             "all_mapped_success_criteria": scs,
@@ -210,6 +234,17 @@ async def _run_async(limit: int | None) -> IngestStats:
         selected = _select(ingestable, limit)
         stats.notes["ingestable_total"] = len(ingestable)
         stats.notes["selected"] = len(selected)
+        stats.notes["native_annotation_unit"] = "page"
+        stats.notes["annotation_unit_mapping"] = "ACT page-level rule verdict -> annotation_unit=page"
+        sel_failed = sum(1 for c in selected if c["expected"] == "failed")
+        sel_passed = len(selected) - sel_failed
+        ingestable_failed = sum(1 for c in ingestable if c["expected"] == "failed")
+        stats.notes["selected_outcomes"] = {"failed": sel_failed, "passed": sel_passed}
+        stats.notes["selected_passed_fraction"] = round(sel_passed / len(selected), 4) if selected else 0.0
+        stats.notes["upstream_ingestable_outcomes"] = {
+            "failed": ingestable_failed,
+            "passed": len(ingestable) - ingestable_failed,
+        }
 
         semaphore = asyncio.Semaphore(1)
         items: list[Item] = []
@@ -233,6 +268,9 @@ async def _run_async(limit: int | None) -> IngestStats:
                 html = cached.read_bytes()
             else:
                 async with semaphore:
+                    # Pace requests so downloads trickle steadily under w3.org's rate
+                    # limit rather than bursting and tripping 429s.
+                    await asyncio.sleep(REQUEST_SPACING_SECONDS)
                     try:
                         html = await _download(client, case["url"])
                     except RuntimeError:
@@ -248,6 +286,10 @@ async def _run_async(limit: int | None) -> IngestStats:
         await asyncio.gather(*(handle(case) for case in selected))
 
     stats.ingested = replace_source_items(SOURCE, items)
+    ing_failed = sum(1 for it in items if it.ground_truth == "no")
+    ing_passed = len(items) - ing_failed
+    stats.notes["ingested_outcomes"] = {"failed": ing_failed, "passed": ing_passed}
+    stats.notes["ingested_passed_fraction"] = round(ing_passed / len(items), 4) if items else 0.0
     return stats
 
 

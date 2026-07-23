@@ -89,6 +89,8 @@ def run(download: bool = False) -> IngestStats:
         license_url=LICENSE_URL,
         redistributable=True,
         decision="download-at-build (LAION model): 552 MB dataset not committed; ship the script",
+        native_annotation_unit="element",
+        annotation_unit_mapping="AccessGuru violation-level annotations -> annotation_unit=element (when mapped in P2)",
         p1_status="license verified; label mapping deferred to P2",
         attribution="Fathallah, Hernández, Staab (2024), DaRUS DOI 10.18419/DARUS-5177, CC BY 4.0",
     )
