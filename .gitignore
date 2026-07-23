@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+.env
+
+# Test / tooling caches
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Superpowers workspace
+.superpowers/
+
+# Local ingestion downloads that are not redistributed in-repo (LAION model).
+# See docs/LICENSING.md. Redistributable corpus (ACT/GDS) IS committed under corpus/.
+corpus/_downloads/
+reports/*.local.json
