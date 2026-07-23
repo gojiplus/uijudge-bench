@@ -122,3 +122,29 @@ def test_l4_true_false_balance(monkeypatch, tmp_path):
     frac = report["l4_balance"]["true_fraction"]
     assert report["l4_balance"]["total"] >= 20
     assert 0.4 <= frac <= 0.6, f"L4 true fraction out of band: {frac}"
+
+
+def test_clean_twin_receipts_are_measured_not_fabricated(monkeypatch, tmp_path):
+    """Clean-twin negative-control receipts carry MEASURED values, never a bare verified:true."""
+    report, labels_text, _ = _build_small(monkeypatch, tmp_path, seed_count=3)
+    lines = [json.loads(x) for x in labels_text.splitlines() if x.strip()]
+    clean = [
+        i
+        for i in lines
+        if i["task_level"] == "L1" and i["ground_truth"] == "yes" and i["receipt"].get("control") is True
+    ]
+    assert clean, "expected clean-twin negative-control L1 items"
+    for it in clean:
+        r = it["receipt"]
+        # the check must have been actually RUN and NOT fired on the clean page
+        assert r.get("fires") is False, f"clean-twin control must not fire: {r}"
+        # receipt must carry real measured values, not the old fabricated placeholder
+        measured = r.get("measured")
+        assert isinstance(measured, dict) and measured, "clean-twin receipt must carry measured values"
+        assert measured != {"negative_control": True}, "receipt must not be the fabricated placeholder"
+        # no bare verified:true on a negative-control receipt
+        assert "verified" not in r, "clean-twin receipt must not assert a bare verified:true"
+    # negative-control accounting is consistent: ran = passed + discarded
+    c = report["clean_negative_controls"]
+    assert c["ran"] >= 1
+    assert c["passed"] == c["ran"] - c["discarded"]
