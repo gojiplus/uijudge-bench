@@ -98,19 +98,19 @@ async def _download(client: httpx.AsyncClient, url: str) -> bytes:
     rate-limits aggressive concurrency, so callers keep concurrency low too.
     """
     last_exc: Exception | None = None
-    for attempt in range(6):
+    for attempt in range(4):
         try:
             resp = await client.get(url, timeout=30.0)
             if resp.status_code == 429:
                 retry_after = resp.headers.get("Retry-After")
                 delay = float(retry_after) if retry_after and retry_after.isdigit() else 2.0 * (2**attempt)
-                await asyncio.sleep(min(delay, 30.0))
+                await asyncio.sleep(min(delay, 10.0))
                 continue
             resp.raise_for_status()
             return resp.content
         except Exception as exc:  # noqa: BLE001 - retried
             last_exc = exc
-            await asyncio.sleep(1.0 * (2**attempt))
+            await asyncio.sleep(min(1.0 * (2**attempt), 10.0))
     raise RuntimeError(f"failed to download {url}: {last_exc}")
 
 
