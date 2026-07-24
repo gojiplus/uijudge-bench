@@ -86,7 +86,7 @@ gated on owner decisions (rater pool, LLM spend), not on missing engineering.
 | # | Practice | Status | Evidence |
 |---|---|---|---|
 | M1 | Code usability was checked within the last year | **Met** | CI green; active 2026 development; `docs/REPRODUCING.md` clean-checkout run |
-| M2 | Maintained feedback channel for users is available | **Partial** | Issue-tracker URL configured in `pyproject.toml`; the tracker goes live when the repo is published (no remote yet in this pre-release) |
+| M2 | Maintained feedback channel for users is available | **Met** | Public issue tracker live at <https://github.com/gojiplus/uijudge-bench/issues> |
 | M3 | Contact person is listed | **Met** | Gaurav Sood, contact@gsood.com (`pyproject.toml`, `CITATION.cff`, `datasheet.md`) |
 
 ## The 6 non-gradable (category (b)) criteria
@@ -112,6 +112,7 @@ than claiming a checkbox:
 
 ## Reconciliation
 
-40 gradable (32 Met / 5 Partial / 2 Pending / 1 N-A) + 6 non-gradable (addressed
-qualitatively) = **46 BetterBench criteria**. The gaps are honest and gated on owner
-decisions, not on undocumented shortcuts.
+40 gradable (33 Met / 4 Partial / 2 Pending / 1 N-A) + 6 non-gradable (addressed
+qualitatively) = **46 BetterBench criteria**. (M2 moved Partial→Met at publication:
+the issue tracker is live.) The gaps are honest and gated on owner decisions, not on
+undocumented shortcuts.
