@@ -74,13 +74,18 @@ clearly permitted we ship the download script instead of the data (the "LAION mo
   *"AccessGuru: Leveraging LLMs to Detect and Correct Web Accessibility Violations in
   HTML Code"*, DaRUS, DOI 10.18419/DARUS-5177, CC BY 4.0.
 - **Status (P3):** license verified; the download-at-build module
-  (`uijudge/engine/ingest/accessguru.py`) now also **maps a curated slice of 133 violations**
+  (`uijudge/engine/ingest/accessguru.py`) maps a curated slice of 133 violations
   (Layout 50, Semantic 33, Syntax 50, across 62 pages) into `ingested`-door L1 items.
   Because the tabular data gives the affected element only as an HTML fragment (no CSS
   selector, no bbox), items map to `annotation_unit=page` with the element fragment + axe
   rule + taxonomy class preserved in the receipt (see `docs/UNITS.md`). Attribution is
   recorded in every item's provenance. Bulk data (screenshots + page archive) is never
   committed; the ~20 MB tabular file lands under `corpus/_downloads/` (git-ignored).
+- **Quarantined in v0.1.0 (composition, not license):** the mapped slice is **held out of the
+  scored corpus** because its pages are not materialized (no `page.html`) and every ground
+  truth is `"no"`. The ingest emits to `labels/quarantined/accessguru_items.jsonl`; the CC BY
+  4.0 grant above still governs the data. See `labels/quarantined/README.md` and `datasheet.md`
+  Known limitations #11.
 
 ## Real-page policy (P3)
 
