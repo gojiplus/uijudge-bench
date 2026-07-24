@@ -49,8 +49,13 @@ def bootstrap_ci(
     Works for any per-item metric expressed as a value vector (accuracy from a 0/1
     correctness vector, or F1 via a custom ``statistic`` over resampled indices).
 
+    When ``statistic`` is None the values are coerced to floats and the mean is taken;
+    when a ``statistic`` callable is supplied the raw items are resampled untouched, so
+    non-scalar per-item records (e.g. ``(gold, pred)`` pairs feeding an F1) are supported.
+
     Args:
-        values: Per-item values (numbers, or bools treated as 0/1).
+        values: Per-item values (numbers/bools for the default mean; any objects when a
+            ``statistic`` is given).
         n_resamples: Number of bootstrap resamples.
         alpha: Two-sided miss rate; ``alpha=0.05`` -> a 95% interval.
         seed: RNG seed for reproducibility.
@@ -59,11 +64,13 @@ def bootstrap_ci(
     Returns:
         ``(low, high)`` percentile bounds; ``(0.0, 0.0)`` if ``values`` is empty.
     """
-    data = _as_floats(values)
-    if not data:
+    if not values:
         return (0.0, 0.0)
     if statistic is None:
+        data = _as_floats(values)
         statistic = lambda xs: sum(xs) / len(xs)  # noqa: E731 - trivial default
+    else:
+        data = list(values)
     rng = random.Random(seed)
     n = len(data)
     stats = []
@@ -136,7 +143,14 @@ def mcnemar(model_a_correct: Sequence[bool], model_b_correct: Sequence[bool]) ->
     if n == 0:
         return {"b": 0, "c": 0, "n_discordant": 0, "method": "none", "statistic": 0.0, "p_value": 1.0}
     if n < 25:
-        return {"b": b, "c": c, "n_discordant": n, "method": "exact", "statistic": None, "p_value": _exact_mcnemar_p(b, c)}
+        return {
+            "b": b,
+            "c": c,
+            "n_discordant": n,
+            "method": "exact",
+            "statistic": None,
+            "p_value": _exact_mcnemar_p(b, c),
+        }
     stat = (abs(b - c) - 1) ** 2 / n
     return {"b": b, "c": c, "n_discordant": n, "method": "chi2_cc", "statistic": stat, "p_value": _chi2_sf_df1(stat)}
 
