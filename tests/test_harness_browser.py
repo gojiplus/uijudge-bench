@@ -77,3 +77,24 @@ def test_axe_judge_detects_contrast_failure(tmp_path):
     # Both correct: 1 TP (bad), 1 TN (good) -> perfect scores.
     assert report.overall.f1 == 1.0
     assert report.overall.accuracy == 1.0
+
+
+def test_audit_stats_counts_missing_html_pages(tmp_path):
+    """A page with no page.html on disk is counted as skipped-missing-HTML, not silently dropped."""
+    corpus_root = tmp_path / "corpus"
+    _write_page(corpus_root, "good", _GOOD_HTML)  # only "good" exists on disk
+
+    items = [
+        validate_item(_contrast_item("good", "yes")),
+        validate_item(_contrast_item("ghost", "no")),  # no page.html written for "ghost"
+    ]
+    audit_stats: dict = {}
+    results = asyncio.run(run_items(items, AxeJudge(), corpus_root=corpus_root, audit_stats=audit_stats))
+
+    assert audit_stats["pages_requested"] == 2
+    assert audit_stats["pages_audited"] == 1
+    assert audit_stats["pages_skipped_missing_html"] == 1
+    assert audit_stats["pages_skipped_missing_html_ids"] == ["ghost"]
+    # The missing page still yields a result row (abstention), not a crash.
+    by_id = {r["item_id"]: r for r in results}
+    assert by_id["ghost"]["answer"] == "unknown"
