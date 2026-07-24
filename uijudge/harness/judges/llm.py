@@ -34,6 +34,7 @@ from random import Random
 from typing import Any
 
 from ...schema import Item
+from .aggregate import aggregate_runs
 
 PROMPTS_DIR = Path(__file__).resolve().parents[1] / "prompts"
 DEFAULT_CORPUS_ROOT = Path(__file__).resolve().parents[3] / "corpus"
@@ -229,7 +230,7 @@ class LLMJudge:
                 parsed = parse_response(text, item.task_level)
                 parsed["image_order"] = order
                 runs.append(parsed)
-            rows.append(self._aggregate(item, runs))
+            rows.append(aggregate_runs(item, runs, self.name))
         return rows
 
     async def _complete(self, messages: list[dict[str, Any]]) -> str:
@@ -238,30 +239,6 @@ class LLMJudge:
 
         response = await litellm.acompletion(model=self.model, messages=messages, temperature=self.temperature)
         return response["choices"][0]["message"]["content"] or ""
-
-    def _aggregate(self, item: Item, runs: list[dict[str, Any]]) -> dict[str, Any]:
-        """Aggregate ``n_runs`` parsed responses into one result row with agreement stats."""
-        answers = [json.dumps(r["answer"], sort_keys=True) for r in runs]
-        # majority vote on the serialized answer; ties resolved by first occurrence
-        counts: dict[str, int] = {}
-        for a in answers:
-            counts[a] = counts.get(a, 0) + 1
-        best = max(counts, key=lambda k: (counts[k], -answers.index(k)))
-        majority_run = next(r for r in runs if json.dumps(r["answer"], sort_keys=True) == best)
-        agreement = counts[best] / len(runs) if runs else 0.0
-        return {
-            "item_id": item.item_id,
-            "page_id": item.page_id,
-            "task_level": item.task_level,
-            "criterion_code": item.criterion_code,
-            "answer": majority_run["answer"],
-            "confidence": majority_run.get("confidence", 0.0),
-            "refused": any(r.get("refused") for r in runs),
-            "judge": self.name,
-            "n_runs": len(runs),
-            "agreement": round(agreement, 4),
-            "runs": runs,
-        }
 
 
 # ---------------------------------------------------------------------------
