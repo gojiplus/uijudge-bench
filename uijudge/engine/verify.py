@@ -21,6 +21,7 @@ Every receipt is a plain dict (satisfies the schema's non-empty-receipt rule) sh
 
 from __future__ import annotations
 
+import logging
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
@@ -30,6 +31,8 @@ from playwright.async_api import Browser, BrowserContext, Page, async_playwright
 from ..vendor.a11y import AxeAuditor
 from ..vendor.browser import resolve_viewport
 from .wcag import AA_NORMAL_TEXT, contrast_ratio, parse_css_color
+
+logger = logging.getLogger("uijudge.engine.verify")
 
 DOOR = "mutation"
 
@@ -477,6 +480,28 @@ class Verifier:
         """
         defect_class = injection_record["defect_class"]
         fires, measured, primary_bbox, axe_info = await self._collect(source, injection_record)
+        # Empty-measurement guard: a clean-twin control certifies compliance by recording the
+        # measured compliant value (e.g. the actual contrast ratio). If the measurement produced
+        # nothing (empty dict), there is no evidence the page is clean for this class, so the
+        # control is discarded (fires forced True → caller drops + logs it), never emitted with a
+        # bare receipt. Signaled via ``fires=True`` so it flows through the existing discard path.
+        if not measured:
+            logger.warning(
+                "verify_control: empty measurement for %s on %s; discarding clean-twin control",
+                defect_class,
+                source,
+            )
+            control_empty: dict[str, Any] = {
+                "door": DOOR,
+                "control": True,
+                "defect_class": f"{defect_class}:clean-control",
+                "criterion_code": injection_record["criterion_code"],
+                "selector": injection_record.get("selector"),
+                "fires": True,
+                "measured": {},
+                "discard_reason": "empty measurement (no compliant value recorded); control not emitted",
+            }
+            return control_empty, True
         control: dict[str, Any] = {
             "door": DOOR,
             "control": True,
