@@ -1,0 +1,4322 @@
+{
+  "engine": "axe-core",
+  "engine_version": "4.10.3",
+  "violations": [
+    {
+      "rule_id": "image-redundant-alt",
+      "impact": "minor",
+      "tags": [],
+      "description": "Ensure image alternative is not repeated as text",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/image-redundant-alt?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e407"
+          ],
+          "selector": "#uij-e407",
+          "bbox": [
+            975,
+            188,
+            216,
+            120
+          ],
+          "html": "<img alt=\"Save Money\" class=\"img-responsive img-rounded img-home hidden-xs\" id=\"uij-e407\" src=\"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/4TIpaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLwA8P3hwYWNrZX"
+        }
+      ]
+    },
+    {
+      "rule_id": "landmark-one-main",
+      "impact": "moderate",
+      "tags": [],
+      "description": "Ensure the document has a main landmark",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/landmark-one-main?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "html"
+          ],
+          "selector": "html",
+          "bbox": [
+            0,
+            0,
+            1920,
+            809
+          ],
+          "html": "<html lang=\"en\">"
+        }
+      ]
+    },
+    {
+      "rule_id": "landmark-unique",
+      "impact": "moderate",
+      "tags": [],
+      "description": "Ensure landmarks are unique",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/landmark-unique?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e14"
+          ],
+          "selector": "#uij-e14",
+          "bbox": [
+            975,
+            55,
+            457,
+            19
+          ],
+          "html": "<nav id=\"uij-e14\">"
+        }
+      ]
+    },
+    {
+      "rule_id": "link-name",
+      "impact": "serious",
+      "tags": [
+        "wcag2a",
+        "wcag244",
+        "wcag412",
+        "section508",
+        "section508.22.a"
+      ],
+      "description": "Ensure links have discernible text",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/link-name?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#search-link-menu"
+          ],
+          "selector": "#search-link-menu",
+          "bbox": [
+            1177,
+            85,
+            38,
+            29
+          ],
+          "html": "<a class=\"dropdown-toggle\" data-toggle=\"dropdown\" href=\"javascript: void(0);\" id=\"search-link-menu\" style=\"padding-top: 8px; padding-bottom: 8px\">"
+        }
+      ]
+    },
+    {
+      "rule_id": "region",
+      "impact": "moderate",
+      "tags": [],
+      "description": "Ensure all page content is contained by landmarks",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/region?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e358"
+          ],
+          "selector": "#uij-e358",
+          "bbox": [
+            482,
+            134,
+            1,
+            1
+          ],
+          "html": "<h1 class=\"sr-only\" id=\"uij-e358\">Fuel Economy Home Page</h1>"
+        },
+        {
+          "target": [
+            "#uij-e361"
+          ],
+          "selector": "#uij-e361",
+          "bbox": [
+            479,
+            136,
+            962,
+            1
+          ],
+          "html": "<div class=\"item active\" id=\"uij-e361\">"
+        },
+        {
+          "target": [
+            "#uij-e367"
+          ],
+          "selector": "#uij-e367",
+          "bbox": [
+            479,
+            119,
+            25,
+            35
+          ],
+          "html": "<a class=\"left carousel-control\" data-slide=\"prev\" href=\"#carousel-home\" id=\"uij-e367\">\n\t\t\t\t\t\t\t❮<span class=\"sr-only\" id=\"uij-e368\">View previous slide</span></a>"
+        },
+        {
+          "target": [
+            "#uij-e369"
+          ],
+          "selector": "#uij-e369",
+          "bbox": [
+            1416,
+            119,
+            25,
+            35
+          ],
+          "html": "<a class=\"right carousel-control\" data-slide=\"next\" href=\"#carousel-home\" id=\"uij-e369\">\n\t\t\t\t\t\t\t❯<span class=\"sr-only\" id=\"uij-e370\">View next slide</span>\n</a>"
+        },
+        {
+          "target": [
+            "#row2"
+          ],
+          "selector": "#row2",
+          "bbox": [
+            468,
+            163,
+            984,
+            231
+          ],
+          "html": "<div class=\"row\" id=\"row2\">"
+        },
+        {
+          "target": [
+            "#row3"
+          ],
+          "selector": "#row3",
+          "bbox": [
+            468,
+            394,
+            984,
+            271
+          ],
+          "html": "<div class=\"row\" id=\"row3\">"
+        },
+        {
+          "target": [
+            "#uij-e511"
+          ],
+          "selector": "#uij-e511",
+          "bbox": [
+            473,
+            725,
+            974,
+            26
+          ],
+          "html": "<div class=\"row\" id=\"uij-e511\">\n<div class=\"hidden-xs\" id=\"uij-e512\">\n<p class=\"ornlft\" id=\"uij-e513\">This website is administered by Oak Ridge National Laboratory for the U.S. Department of Energy an"
+        },
+        {
+          "target": [
+            "#uij-e524"
+          ],
+          "selector": "#uij-e524",
+          "bbox": [
+            488,
+            751,
+            944,
+            16
+          ],
+          "html": "<p class=\"date-modified ornlft\" id=\"uij-e524\">Site modified: Wednesday January 21 2026</p>"
+        }
+      ]
+    }
+  ],
+  "incomplete": [
+    {
+      "rule_id": "color-contrast",
+      "impact": "serious",
+      "tags": [
+        "wcag2aa",
+        "wcag143"
+      ],
+      "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e367"
+          ],
+          "selector": "#uij-e367",
+          "bbox": null,
+          "html": "<a class=\"left carousel-control\" data-slide=\"prev\" href=\"#carousel-home\" id=\"uij-e367\">\n\t\t\t\t\t\t\t❮<span class=\"sr-only\" id=\"uij-e368\">View previous slide</span></a>"
+        },
+        {
+          "target": [
+            "#uij-e369"
+          ],
+          "selector": "#uij-e369",
+          "bbox": null,
+          "html": "<a class=\"right carousel-control\" data-slide=\"next\" href=\"#carousel-home\" id=\"uij-e369\">\n\t\t\t\t\t\t\t❯<span class=\"sr-only\" id=\"uij-e370\">View next slide</span>\n</a>"
+        }
+      ]
+    }
+  ],
+  "passes": [
+    {
+      "rule_id": "aria-allowed-attr",
+      "impact": "",
+      "tags": [
+        "wcag2a",
+        "wcag412"
+      ],
+      "description": "Ensure an element's role supports its ARIA attributes",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/aria-allowed-attr?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e526"
+          ],
+          "selector": "#uij-e526",
+          "bbox": null,
+          "html": "<div aria-live=\"assertive\" aria-relevant=\"additions\" class=\"ui-helper-hidden-accessible\" id=\"uij-e526\" role=\"status\"></div>"
+        }
+      ]
+    },
+    {
+      "rule_id": "aria-allowed-role",
+      "impact": "",
+      "tags": [],
+      "description": "Ensure role attribute has an appropriate value for the element",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/aria-allowed-role?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e28"
+          ],
+          "selector": "#uij-e28",
+          "bbox": null,
+          "html": "<div class=\"main-nav navbar navbar-default\" id=\"uij-e28\" role=\"navigation\">"
+        },
+        {
+          "target": [
+            "#ft"
+          ],
+          "selector": "#ft",
+          "bbox": null,
+          "html": "<div id=\"ft\" role=\"contentinfo\">"
+        },
+        {
+          "target": [
+            "#uij-e526"
+          ],
+          "selector": "#uij-e526",
+          "bbox": null,
+          "html": "<div aria-live=\"assertive\" aria-relevant=\"additions\" class=\"ui-helper-hidden-accessible\" id=\"uij-e526\" role=\"status\"></div>"
+        }
+      ]
+    },
+    {
+      "rule_id": "aria-conditional-attr",
+      "impact": "",
+      "tags": [
+        "wcag2a",
+        "wcag412"
+      ],
+      "description": "Ensure ARIA attributes are used as described in the specification of the element's role",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/aria-conditional-attr?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e526"
+          ],
+          "selector": "#uij-e526",
+          "bbox": null,
+          "html": "<div aria-live=\"assertive\" aria-relevant=\"additions\" class=\"ui-helper-hidden-accessible\" id=\"uij-e526\" role=\"status\"></div>"
+        }
+      ]
+    },
+    {
+      "rule_id": "aria-deprecated-role",
+      "impact": "",
+      "tags": [
+        "wcag2a",
+        "wcag412"
+      ],
+      "description": "Ensure elements do not use deprecated roles",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/aria-deprecated-role?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e28"
+          ],
+          "selector": "#uij-e28",
+          "bbox": null,
+          "html": "<div class=\"main-nav navbar navbar-default\" id=\"uij-e28\" role=\"navigation\">"
+        },
+        {
+          "target": [
+            "#ft"
+          ],
+          "selector": "#ft",
+          "bbox": null,
+          "html": "<div id=\"ft\" role=\"contentinfo\">"
+        },
+        {
+          "target": [
+            "#uij-e526"
+          ],
+          "selector": "#uij-e526",
+          "bbox": null,
+          "html": "<div aria-live=\"assertive\" aria-relevant=\"additions\" class=\"ui-helper-hidden-accessible\" id=\"uij-e526\" role=\"status\"></div>"
+        }
+      ]
+    },
+    {
+      "rule_id": "aria-hidden-body",
+      "impact": "",
+      "tags": [
+        "wcag2a",
+        "wcag131",
+        "wcag412"
+      ],
+      "description": "Ensure aria-hidden=\"true\" is not present on the document body.",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/aria-hidden-body?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "body"
+          ],
+          "selector": "body",
+          "bbox": null,
+          "html": "<body>"
+        }
+      ]
+    },
+    {
+      "rule_id": "aria-prohibited-attr",
+      "impact": "",
+      "tags": [
+        "wcag2a",
+        "wcag412"
+      ],
+      "description": "Ensure ARIA attributes are not prohibited for an element's role",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/aria-prohibited-attr?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e526"
+          ],
+          "selector": "#uij-e526",
+          "bbox": null,
+          "html": "<div aria-live=\"assertive\" aria-relevant=\"additions\" class=\"ui-helper-hidden-accessible\" id=\"uij-e526\" role=\"status\"></div>"
+        }
+      ]
+    },
+    {
+      "rule_id": "aria-required-attr",
+      "impact": "",
+      "tags": [
+        "wcag2a",
+        "wcag412"
+      ],
+      "description": "Ensure elements with ARIA roles have all required ARIA attributes",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/aria-required-attr?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e28"
+          ],
+          "selector": "#uij-e28",
+          "bbox": null,
+          "html": "<div class=\"main-nav navbar navbar-default\" id=\"uij-e28\" role=\"navigation\">"
+        },
+        {
+          "target": [
+            "#ft"
+          ],
+          "selector": "#ft",
+          "bbox": null,
+          "html": "<div id=\"ft\" role=\"contentinfo\">"
+        },
+        {
+          "target": [
+            "#uij-e526"
+          ],
+          "selector": "#uij-e526",
+          "bbox": null,
+          "html": "<div aria-live=\"assertive\" aria-relevant=\"additions\" class=\"ui-helper-hidden-accessible\" id=\"uij-e526\" role=\"status\"></div>"
+        }
+      ]
+    },
+    {
+      "rule_id": "aria-roles",
+      "impact": "",
+      "tags": [
+        "wcag2a",
+        "wcag412"
+      ],
+      "description": "Ensure all elements with a role attribute use a valid value",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/aria-roles?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e28"
+          ],
+          "selector": "#uij-e28",
+          "bbox": null,
+          "html": "<div class=\"main-nav navbar navbar-default\" id=\"uij-e28\" role=\"navigation\">"
+        },
+        {
+          "target": [
+            "#ft"
+          ],
+          "selector": "#ft",
+          "bbox": null,
+          "html": "<div id=\"ft\" role=\"contentinfo\">"
+        },
+        {
+          "target": [
+            "#uij-e526"
+          ],
+          "selector": "#uij-e526",
+          "bbox": null,
+          "html": "<div aria-live=\"assertive\" aria-relevant=\"additions\" class=\"ui-helper-hidden-accessible\" id=\"uij-e526\" role=\"status\"></div>"
+        }
+      ]
+    },
+    {
+      "rule_id": "aria-valid-attr-value",
+      "impact": "",
+      "tags": [
+        "wcag2a",
+        "wcag412"
+      ],
+      "description": "Ensure all ARIA attributes have valid values",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/aria-valid-attr-value?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e526"
+          ],
+          "selector": "#uij-e526",
+          "bbox": null,
+          "html": "<div aria-live=\"assertive\" aria-relevant=\"additions\" class=\"ui-helper-hidden-accessible\" id=\"uij-e526\" role=\"status\"></div>"
+        }
+      ]
+    },
+    {
+      "rule_id": "aria-valid-attr",
+      "impact": "",
+      "tags": [
+        "wcag2a",
+        "wcag412"
+      ],
+      "description": "Ensure attributes that begin with aria- are valid ARIA attributes",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/aria-valid-attr?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e526"
+          ],
+          "selector": "#uij-e526",
+          "bbox": null,
+          "html": "<div aria-live=\"assertive\" aria-relevant=\"additions\" class=\"ui-helper-hidden-accessible\" id=\"uij-e526\" role=\"status\"></div>"
+        }
+      ]
+    },
+    {
+      "rule_id": "avoid-inline-spacing",
+      "impact": "",
+      "tags": [
+        "wcag21aa",
+        "wcag1412"
+      ],
+      "description": "Ensure that text spacing set through style attributes can be adjusted with custom stylesheets",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/avoid-inline-spacing?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#sponsor-head"
+          ],
+          "selector": "#sponsor-head",
+          "bbox": null,
+          "html": "<div class=\"row hidden-xs\" id=\"sponsor-head\" style=\"margin-bottom: 2px; margin-top: 5px\">"
+        },
+        {
+          "target": [
+            "#uij-e5"
+          ],
+          "selector": "#uij-e5",
+          "bbox": null,
+          "html": "<div class=\"col-sm-12\" id=\"uij-e5\" style=\"display: flex; justify-content: space-between; align-items: center\">"
+        },
+        {
+          "target": [
+            "#uij-e7"
+          ],
+          "selector": "#uij-e7",
+          "bbox": null,
+          "html": "<img alt=\"U.S. Department of Energy - Energy Efficiency and Renewable Energy\" id=\"uij-e7\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk+P+/HgAFhAJ/wlseKgAAAAB"
+        },
+        {
+          "target": [
+            "#uij-e9"
+          ],
+          "selector": "#uij-e9",
+          "bbox": null,
+          "html": "<img alt=\"U.S. Environmental Protection Agency - Office of Transportation and Air Quality\" id=\"uij-e9\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMsAAAAdCAYAAAAEnJgBAAAABHNCSVQICAgIfAhkiAAAAA"
+        },
+        {
+          "target": [
+            "#uij-e12"
+          ],
+          "selector": "#uij-e12",
+          "bbox": null,
+          "html": "<a href=\"https://www.fueleconomy.gov\" id=\"uij-e12\" style=\"text-decoration: none;\">"
+        },
+        {
+          "target": [
+            "#uij-e13"
+          ],
+          "selector": "#uij-e13",
+          "bbox": null,
+          "html": "<img alt=\"www.fueleconomy.gov - the official government source for fuel economy information\" class=\"img-responsive\" id=\"uij-e13\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwC"
+        },
+        {
+          "target": [
+            "#search-link-menu"
+          ],
+          "selector": "#search-link-menu",
+          "bbox": null,
+          "html": "<a class=\"dropdown-toggle\" data-toggle=\"dropdown\" href=\"javascript: void(0);\" id=\"search-link-menu\" style=\"padding-top: 8px; padding-bottom: 8px\">"
+        },
+        {
+          "target": [
+            "#search-icon"
+          ],
+          "selector": "#search-icon",
+          "bbox": null,
+          "html": "<div class=\"search-icon-topnav hidden-xs\" id=\"search-icon\" style=\"margin-left: 5px; margin-right: 5px\"></div>"
+        },
+        {
+          "target": [
+            "#uij-e503"
+          ],
+          "selector": "#uij-e503",
+          "bbox": null,
+          "html": "<span class=\"hidden-xs\" id=\"uij-e503\" style=\"display: inline\">"
+        },
+        {
+          "target": [
+            "#uij-e525"
+          ],
+          "selector": "#uij-e525",
+          "bbox": null,
+          "html": "<div id=\"uij-e525\" style=\"height: 2.5em\"></div>"
+        }
+      ]
+    },
+    {
+      "rule_id": "bypass",
+      "impact": "",
+      "tags": [
+        "wcag2a",
+        "wcag241",
+        "section508",
+        "section508.22.o"
+      ],
+      "description": "Ensure each page has at least one mechanism for a user to bypass navigation and jump straight to the content",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/bypass?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "html"
+          ],
+          "selector": "html",
+          "bbox": null,
+          "html": "<html lang=\"en\">"
+        }
+      ]
+    },
+    {
+      "rule_id": "color-contrast",
+      "impact": "serious",
+      "tags": [
+        "wcag2aa",
+        "wcag143"
+      ],
+      "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e17"
+          ],
+          "selector": "#uij-e17",
+          "bbox": null,
+          "html": "<a href=\"/feg/esIndex.shtml\" id=\"uij-e17\">Español</a>"
+        },
+        {
+          "target": [
+            "#uij-e19"
+          ],
+          "selector": "#uij-e19",
+          "bbox": null,
+          "html": "<a href=\"/feg/sitemap.shtml\" id=\"uij-e19\">Site Map</a>"
+        },
+        {
+          "target": [
+            "#uij-e21"
+          ],
+          "selector": "#uij-e21",
+          "bbox": null,
+          "html": "<a href=\"/feg/links.shtml\" id=\"uij-e21\"><span class=\"sr-only\" id=\"uij-e22\">General </span>Links</a>"
+        },
+        {
+          "target": [
+            "#uij-e24"
+          ],
+          "selector": "#uij-e24",
+          "bbox": null,
+          "html": "<a href=\"/feg/info.shtml\" id=\"uij-e24\">FAQ</a>"
+        },
+        {
+          "target": [
+            "#uij-e26"
+          ],
+          "selector": "#uij-e26",
+          "bbox": null,
+          "html": "<a href=\"/feg/videos.shtml\" id=\"uij-e26\">Videos</a>"
+        },
+        {
+          "target": [
+            "#uij-e41"
+          ],
+          "selector": "#uij-e41",
+          "bbox": null,
+          "html": "<a class=\"dropdown-toggle\" data-toggle=\"dropdown\" href=\"/feg/findacar.shtml\" id=\"uij-e41\">Find a Car</a>"
+        },
+        {
+          "target": [
+            "#uij-e90"
+          ],
+          "selector": "#uij-e90",
+          "bbox": null,
+          "html": "<a class=\"dropdown-toggle\" data-toggle=\"dropdown\" href=\"javascript:void(0);\" id=\"uij-e90\">Save Money &amp; Fuel</a>"
+        },
+        {
+          "target": [
+            "#uij-e140"
+          ],
+          "selector": "#uij-e140",
+          "bbox": null,
+          "html": "<a class=\"dropdown-toggle\" data-toggle=\"dropdown\" href=\"/feg/why.shtml\" id=\"uij-e140\">Benefits</a>"
+        },
+        {
+          "target": [
+            "#uij-e150"
+          ],
+          "selector": "#uij-e150",
+          "bbox": null,
+          "html": "<a class=\"dropdown-toggle\" data-toggle=\"dropdown\" href=\"/mpg/MPG.do\" id=\"uij-e150\">My MPG</a>"
+        },
+        {
+          "target": [
+            "#uij-e170"
+          ],
+          "selector": "#uij-e170",
+          "bbox": null,
+          "html": "<a class=\"dropdown-toggle\" data-toggle=\"dropdown\" href=\"javascript:void(0);\" id=\"uij-e170\">Advanced Cars &amp; Fuels</a>"
+        },
+        {
+          "target": [
+            "#uij-e275"
+          ],
+          "selector": "#uij-e275",
+          "bbox": null,
+          "html": "<a class=\"dropdown-toggle\" data-toggle=\"dropdown\" href=\"javascript:void(0);\" id=\"uij-e275\">About EPA Ratings</a>"
+        },
+        {
+          "target": [
+            "#uij-e320"
+          ],
+          "selector": "#uij-e320",
+          "bbox": null,
+          "html": "<a class=\"dropdown-toggle\" data-toggle=\"dropdown\" href=\"javascript:void(0);\" id=\"uij-e320\">More<span class=\"sr-only\" id=\"uij-e321\"> Topics</span></a>"
+        },
+        {
+          "target": [
+            "#search-text"
+          ],
+          "selector": "#search-text",
+          "bbox": null,
+          "html": "<input autocomplete=\"off\" class=\"form-control input-sm ui-autocomplete-input\" id=\"search-text\" name=\"words\" placeholder=\"Enter vehicle or phrase\" type=\"text\">"
+        },
+        {
+          "target": [
+            "#uij-e388"
+          ],
+          "selector": "#uij-e388",
+          "bbox": null,
+          "html": "<h2 id=\"uij-e388\">Find &amp; Compare Cars</h2>"
+        },
+        {
+          "target": [
+            "#uij-e392"
+          ],
+          "selector": "#uij-e392",
+          "bbox": null,
+          "html": "<a href=\"/feg/Find.do?action=sbsSelect\" id=\"uij-e392\">Compare Side-by-Side</a>"
+        },
+        {
+          "target": [
+            "#uij-e394"
+          ],
+          "selector": "#uij-e394",
+          "bbox": null,
+          "html": "<a href=\"/feg/powerSearch.jsp\" id=\"uij-e394\">Power Search</a>"
+        },
+        {
+          "target": [
+            "#uij-e397"
+          ],
+          "selector": "#uij-e397",
+          "bbox": null,
+          "html": "<h2 id=\"uij-e397\">My MPG</h2>"
+        },
+        {
+          "target": [
+            "#uij-e401"
+          ],
+          "selector": "#uij-e401",
+          "bbox": null,
+          "html": "<a href=\"https://www.fueleconomy.gov/mpg/MPG.do?action=garage\" id=\"uij-e401\">Calculate or Share Your MPG</a>"
+        },
+        {
+          "target": [
+            "#uij-e403"
+          ],
+          "selector": "#uij-e403",
+          "bbox": null,
+          "html": "<a href=\"https://www.fueleconomy.gov/feg/browseList.jsp?src=feg\" id=\"uij-e403\">Estimates from Drivers Like You</a>"
+        },
+        {
+          "target": [
+            "#uij-e406"
+          ],
+          "selector": "#uij-e406",
+          "bbox": null,
+          "html": "<h2 id=\"uij-e406\">Save Money</h2>"
+        },
+        {
+          "target": [
+            "#uij-e410"
+          ],
+          "selector": "#uij-e410",
+          "bbox": null,
+          "html": "<a href=\"/feg/drive.shtml\" id=\"uij-e410\">Gas Mileage Tips</a>"
+        },
+        {
+          "target": [
+            "#uij-e412"
+          ],
+          "selector": "#uij-e412",
+          "bbox": null,
+          "html": "<a href=\"/feg/savemoney.jsp\" id=\"uij-e412\">Fuel Cost Calculator</a>"
+        },
+        {
+          "target": [
+            "#uij-e414"
+          ],
+          "selector": "#uij-e414",
+          "bbox": null,
+          "html": "<a href=\"/feg/gasprices\" id=\"uij-e414\">Find the Cheapest Gas</a>"
+        },
+        {
+          "target": [
+            "#uij-e417"
+          ],
+          "selector": "#uij-e417",
+          "bbox": null,
+          "html": "<h2 id=\"uij-e417\">Hybrids &amp; Electrics</h2>"
+        },
+        {
+          "target": [
+            "#uij-e421"
+          ],
+          "selector": "#uij-e421",
+          "bbox": null,
+          "html": "<a href=\"/feg/hybridtech.shtml\" id=\"uij-e421\">Hybrids</a>"
+        },
+        {
+          "target": [
+            "#uij-e423"
+          ],
+          "selector": "#uij-e423",
+          "bbox": null,
+          "html": "<a href=\"/feg/phevtech.shtml\" id=\"uij-e423\">Plug-in Hybrids</a>"
+        },
+        {
+          "target": [
+            "#uij-e425"
+          ],
+          "selector": "#uij-e425",
+          "bbox": null,
+          "html": "<a href=\"/feg/evtech.shtml\" id=\"uij-e425\">All-Electric Vehicles</a>"
+        },
+        {
+          "target": [
+            "#uij-e428"
+          ],
+          "selector": "#uij-e428",
+          "bbox": null,
+          "html": "<h2 id=\"uij-e428\">Calculators and Other Tools</h2>"
+        },
+        {
+          "target": [
+            "#uij-e431"
+          ],
+          "selector": "#uij-e431",
+          "bbox": null,
+          "html": "<a href=\"/feg/savemoney.jsp\" id=\"uij-e431\">Fuel Savings Calculator</a>"
+        },
+        {
+          "target": [
+            "#uij-e433"
+          ],
+          "selector": "#uij-e433",
+          "bbox": null,
+          "html": "<a href=\"/trip/\" id=\"uij-e433\">Trip Calculator</a>"
+        },
+        {
+          "target": [
+            "#uij-e435"
+          ],
+          "selector": "#uij-e435",
+          "bbox": null,
+          "html": "<a href=\"/feg/UsedCarLabel.jsp\" id=\"uij-e435\">Used Car Label Tool</a>"
+        },
+        {
+          "target": [
+            "#uij-e437"
+          ],
+          "selector": "#uij-e437",
+          "bbox": null,
+          "html": "<a href=\"/feg/ws/\" id=\"uij-e437\">Developer Tools</a>"
+        },
+        {
+          "target": [
+            "#uij-e439"
+          ],
+          "selector": "#uij-e439",
+          "bbox": null,
+          "html": "<a href=\"/widgets/\" id=\"uij-e439\">Find a Car Widget</a>"
+        },
+        {
+          "target": [
+            "#uij-e441"
+          ],
+          "selector": "#uij-e441",
+          "bbox": null,
+          "html": "<a href=\"/feg/Find.do?action=bt2\" id=\"uij-e441\">GHG Emissions Calculator</a>"
+        },
+        {
+          "target": [
+            "#uij-e443"
+          ],
+          "selector": "#uij-e443",
+          "bbox": null,
+          "html": "<a href=\"/feg/hybridCompare.jsp\" id=\"uij-e443\">Can a Hybrid Save Me Money?</a>"
+        },
+        {
+          "target": [
+            "#uij-e445"
+          ],
+          "selector": "#uij-e445",
+          "bbox": null,
+          "html": "<a href=\"/feg/Find.do?action=phev1Prompt\" id=\"uij-e445\">My Plug-in Hybrid Calculator</a>"
+        },
+        {
+          "target": [
+            "#uij-e448"
+          ],
+          "selector": "#uij-e448",
+          "bbox": null,
+          "html": "<h2 id=\"uij-e448\">New on fueleconomy.gov…</h2>"
+        },
+        {
+          "target": [
+            "#uij-e451"
+          ],
+          "selector": "#uij-e451",
+          "bbox": null,
+          "html": "<a href=\"/feg/printGuides.shtml\" id=\"uij-e451\"> 2027 Fuel Economy Guide (Preliminary) </a>"
+        },
+        {
+          "target": [
+            "#uij-e453"
+          ],
+          "selector": "#uij-e453",
+          "bbox": null,
+          "html": "<a href=\"/feg/printGuides.shtml\" id=\"uij-e453\"> 2026 Fuel Economy Guide </a>"
+        },
+        {
+          "target": [
+            "#uij-e455"
+          ],
+          "selector": "#uij-e455",
+          "bbox": null,
+          "html": "<a href=\"/feg/best-worst.shtml\" id=\"uij-e455\">2026 Best and Worst Fuel Economy</a>"
+        },
+        {
+          "target": [
+            "#uij-e457"
+          ],
+          "selector": "#uij-e457",
+          "bbox": null,
+          "html": "<a href=\"/feg/topten.jsp\" id=\"uij-e457\">2026 Top Ten Vehicle Lists</a>"
+        },
+        {
+          "target": [
+            "#uij-e459"
+          ],
+          "selector": "#uij-e459",
+          "bbox": null,
+          "html": "<a href=\"/feg/findacar.shtml\" id=\"uij-e459\">2026–27 Fuel Economy Data</a>"
+        },
+        {
+          "target": [
+            "#uij-e462"
+          ],
+          "selector": "#uij-e462",
+          "bbox": null,
+          "html": "<h2 id=\"uij-e462\">Quick Picks</h2>"
+        },
+        {
+          "target": [
+            "#uij-e465"
+          ],
+          "selector": "#uij-e465",
+          "bbox": null,
+          "html": "<a href=\"/feg/topten.jsp\" id=\"uij-e465\">Top 10 - Most Efficient Vehicles</a>"
+        },
+        {
+          "target": [
+            "#uij-e467"
+          ],
+          "selector": "#uij-e467",
+          "bbox": null,
+          "html": "<a href=\"/feg/comparempg.shtml\" id=\"uij-e467\">Compare Old vs. New EPA MPG</a>"
+        },
+        {
+          "target": [
+            "#uij-e469"
+          ],
+          "selector": "#uij-e469",
+          "bbox": null,
+          "html": "<a href=\"/feg/SmartWay.do\" id=\"uij-e469\">Find a SmartWay Vehicle</a>"
+        },
+        {
+          "target": [
+            "#uij-e471"
+          ],
+          "selector": "#uij-e471",
+          "bbox": null,
+          "html": "<a href=\"/feg/extremeMPG.jsp\" id=\"uij-e471\">Extreme MPG</a>"
+        },
+        {
+          "target": [
+            "#uij-e474"
+          ],
+          "selector": "#uij-e474",
+          "bbox": null,
+          "html": "<h2 id=\"uij-e474\">Related Links</h2>"
+        },
+        {
+          "target": [
+            "#uij-e477"
+          ],
+          "selector": "#uij-e477",
+          "bbox": null,
+          "html": "<a href=\"https://www.epa.gov/greenvehicles/getting-started-home-ev-charging\" id=\"uij-e477\">Getting Started with Home EV Charging</a>"
+        },
+        {
+          "target": [
+            "#uij-e479"
+          ],
+          "selector": "#uij-e479",
+          "bbox": null,
+          "html": "<a href=\"https://www.epa.gov/greenvehicles/watts-important-seven-tips-every-ev-driver-should-know\" id=\"uij-e479\">Seven Tips Every EV Driver Should Know!</a>"
+        },
+        {
+          "target": [
+            "#uij-e481"
+          ],
+          "selector": "#uij-e481",
+          "bbox": null,
+          "html": "<a href=\"https://www.epa.gov/greenvehicles/home-ev-charger-calculator\" id=\"uij-e481\">Home EV Charger Calculator</a>"
+        },
+        {
+          "target": [
+            "#uij-e483"
+          ],
+          "selector": "#uij-e483",
+          "bbox": null,
+          "html": "<a href=\"https://cleancities.energy.gov/\" id=\"uij-e483\">Clean Cities and Communities</a>"
+        },
+        {
+          "target": [
+            "#uij-e485"
+          ],
+          "selector": "#uij-e485",
+          "bbox": null,
+          "html": "<a href=\"http://www.afdc.energy.gov/afdc/\" id=\"uij-e485\">Alternative Fuels Data Center</a>"
+        },
+        {
+          "target": [
+            "#uij-e488"
+          ],
+          "selector": "#uij-e488",
+          "bbox": null,
+          "html": "<a href=\"http://www.afdc.energy.gov/calc/\" id=\"uij-e488\">Vehicle Cost Calculator</a>"
+        },
+        {
+          "target": [
+            "#uij-e490"
+          ],
+          "selector": "#uij-e490",
+          "bbox": null,
+          "html": "<a href=\"http://www.afdc.energy.gov/afdc/locator/stations/\" id=\"uij-e490\">Station Locator</a>"
+        },
+        {
+          "target": [
+            "#uij-e492"
+          ],
+          "selector": "#uij-e492",
+          "bbox": null,
+          "html": "<a href=\"http://gis.its.ucdavis.edu/evexplorer/\" id=\"uij-e492\">EV Explorer</a>"
+        },
+        {
+          "target": [
+            "#uij-e503"
+          ],
+          "selector": "#uij-e503",
+          "bbox": null,
+          "html": "<span class=\"hidden-xs\" id=\"uij-e503\" style=\"display: inline\">"
+        },
+        {
+          "target": [
+            "#uij-e504"
+          ],
+          "selector": "#uij-e504",
+          "bbox": null,
+          "html": "<a href=\"/feg/contacts.shtml\" id=\"uij-e504\">Contacts</a>"
+        },
+        {
+          "target": [
+            "#uij-e505"
+          ],
+          "selector": "#uij-e505",
+          "bbox": null,
+          "html": "<a href=\"/feg/download.shtml\" id=\"uij-e505\">Download&nbsp;EPA's&nbsp;MPG Ratings</a>"
+        },
+        {
+          "target": [
+            "#uij-e506"
+          ],
+          "selector": "#uij-e506",
+          "bbox": null,
+          "html": "<a href=\"/feg/bymake/bymanuNF.shtml\" id=\"uij-e506\">Find&nbsp;and&nbsp;Compare&nbsp;Cars</a>"
+        },
+        {
+          "target": [
+            "#uij-e507"
+          ],
+          "selector": "#uij-e507",
+          "bbox": null,
+          "html": "<a href=\"//www.usa.gov\" id=\"uij-e507\">USA.gov</a>"
+        },
+        {
+          "target": [
+            "#uij-e508"
+          ],
+          "selector": "#uij-e508",
+          "bbox": null,
+          "html": "<a href=\"/feg/dealers.shtml\" id=\"uij-e508\">Info&nbsp;for&nbsp;Auto&nbsp;Dealers</a>"
+        },
+        {
+          "target": [
+            "#uij-e509"
+          ],
+          "selector": "#uij-e509",
+          "bbox": null,
+          "html": "<a href=\"/feg/ORNL-disclaimer.htm\" id=\"uij-e509\">Privacy/Security</a>"
+        },
+        {
+          "target": [
+            "#uij-e510"
+          ],
+          "selector": "#uij-e510",
+          "bbox": null,
+          "html": "<a href=\"mailto:fueleconomy@ornl.gov\" id=\"uij-e510\">Feedback</a>"
+        },
+        {
+          "target": [
+            "#uij-e513"
+          ],
+          "selector": "#uij-e513",
+          "bbox": null,
+          "html": "<p class=\"ornlft\" id=\"uij-e513\">This website is administered by Oak Ridge National Laboratory for the U.S. Department of Energy and the U.S. Environmental Protection Agency.</p>"
+        },
+        {
+          "target": [
+            "#uij-e524"
+          ],
+          "selector": "#uij-e524",
+          "bbox": null,
+          "html": "<p class=\"date-modified ornlft\" id=\"uij-e524\">Site modified: Wednesday January 21 2026</p>"
+        }
+      ]
+    },
+    {
+      "rule_id": "document-title",
+      "impact": "",
+      "tags": [
+        "wcag2a",
+        "wcag242"
+      ],
+      "description": "Ensure each HTML document contains a non-empty <title> element",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/document-title?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "html"
+          ],
+          "selector": "html",
+          "bbox": null,
+          "html": "<html lang=\"en\">"
+        }
+      ]
+    },
+    {
+      "rule_id": "duplicate-id-aria",
+      "impact": "",
+      "tags": [
+        "wcag2a",
+        "wcag412"
+      ],
+      "description": "Ensure every id attribute value used in ARIA and in labels is unique",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/duplicate-id-aria?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#search-text"
+          ],
+          "selector": "#search-text",
+          "bbox": null,
+          "html": "<input autocomplete=\"off\" class=\"form-control input-sm ui-autocomplete-input\" id=\"search-text\" name=\"words\" placeholder=\"Enter vehicle or phrase\" type=\"text\">"
+        }
+      ]
+    },
+    {
+      "rule_id": "empty-heading",
+      "impact": "",
+      "tags": [],
+      "description": "Ensure headings have discernible text",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/empty-heading?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e358"
+          ],
+          "selector": "#uij-e358",
+          "bbox": null,
+          "html": "<h1 class=\"sr-only\" id=\"uij-e358\">Fuel Economy Home Page</h1>"
+        },
+        {
+          "target": [
+            "#uij-e388"
+          ],
+          "selector": "#uij-e388",
+          "bbox": null,
+          "html": "<h2 id=\"uij-e388\">Find &amp; Compare Cars</h2>"
+        },
+        {
+          "target": [
+            "#uij-e397"
+          ],
+          "selector": "#uij-e397",
+          "bbox": null,
+          "html": "<h2 id=\"uij-e397\">My MPG</h2>"
+        },
+        {
+          "target": [
+            "#uij-e406"
+          ],
+          "selector": "#uij-e406",
+          "bbox": null,
+          "html": "<h2 id=\"uij-e406\">Save Money</h2>"
+        },
+        {
+          "target": [
+            "#uij-e417"
+          ],
+          "selector": "#uij-e417",
+          "bbox": null,
+          "html": "<h2 id=\"uij-e417\">Hybrids &amp; Electrics</h2>"
+        },
+        {
+          "target": [
+            "#uij-e428"
+          ],
+          "selector": "#uij-e428",
+          "bbox": null,
+          "html": "<h2 id=\"uij-e428\">Calculators and Other Tools</h2>"
+        },
+        {
+          "target": [
+            "#uij-e448"
+          ],
+          "selector": "#uij-e448",
+          "bbox": null,
+          "html": "<h2 id=\"uij-e448\">New on fueleconomy.gov…</h2>"
+        },
+        {
+          "target": [
+            "#uij-e462"
+          ],
+          "selector": "#uij-e462",
+          "bbox": null,
+          "html": "<h2 id=\"uij-e462\">Quick Picks</h2>"
+        },
+        {
+          "target": [
+            "#uij-e474"
+          ],
+          "selector": "#uij-e474",
+          "bbox": null,
+          "html": "<h2 id=\"uij-e474\">Related Links</h2>"
+        }
+      ]
+    },
+    {
+      "rule_id": "heading-order",
+      "impact": "",
+      "tags": [],
+      "description": "Ensure the order of headings is semantically correct",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/heading-order?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e358"
+          ],
+          "selector": "#uij-e358",
+          "bbox": null,
+          "html": "<h1 class=\"sr-only\" id=\"uij-e358\">Fuel Economy Home Page</h1>"
+        },
+        {
+          "target": [
+            "#uij-e388"
+          ],
+          "selector": "#uij-e388",
+          "bbox": null,
+          "html": "<h2 id=\"uij-e388\">Find &amp; Compare Cars</h2>"
+        },
+        {
+          "target": [
+            "#uij-e397"
+          ],
+          "selector": "#uij-e397",
+          "bbox": null,
+          "html": "<h2 id=\"uij-e397\">My MPG</h2>"
+        },
+        {
+          "target": [
+            "#uij-e406"
+          ],
+          "selector": "#uij-e406",
+          "bbox": null,
+          "html": "<h2 id=\"uij-e406\">Save Money</h2>"
+        },
+        {
+          "target": [
+            "#uij-e417"
+          ],
+          "selector": "#uij-e417",
+          "bbox": null,
+          "html": "<h2 id=\"uij-e417\">Hybrids &amp; Electrics</h2>"
+        },
+        {
+          "target": [
+            "#uij-e428"
+          ],
+          "selector": "#uij-e428",
+          "bbox": null,
+          "html": "<h2 id=\"uij-e428\">Calculators and Other Tools</h2>"
+        },
+        {
+          "target": [
+            "#uij-e448"
+          ],
+          "selector": "#uij-e448",
+          "bbox": null,
+          "html": "<h2 id=\"uij-e448\">New on fueleconomy.gov…</h2>"
+        },
+        {
+          "target": [
+            "#uij-e462"
+          ],
+          "selector": "#uij-e462",
+          "bbox": null,
+          "html": "<h2 id=\"uij-e462\">Quick Picks</h2>"
+        },
+        {
+          "target": [
+            "#uij-e474"
+          ],
+          "selector": "#uij-e474",
+          "bbox": null,
+          "html": "<h2 id=\"uij-e474\">Related Links</h2>"
+        }
+      ]
+    },
+    {
+      "rule_id": "html-has-lang",
+      "impact": "",
+      "tags": [
+        "wcag2a",
+        "wcag311"
+      ],
+      "description": "Ensure every HTML document has a lang attribute",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/html-has-lang?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "html"
+          ],
+          "selector": "html",
+          "bbox": null,
+          "html": "<html lang=\"en\">"
+        }
+      ]
+    },
+    {
+      "rule_id": "html-lang-valid",
+      "impact": "",
+      "tags": [
+        "wcag2a",
+        "wcag311"
+      ],
+      "description": "Ensure the lang attribute of the <html> element has a valid value",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/html-lang-valid?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "html"
+          ],
+          "selector": "html",
+          "bbox": null,
+          "html": "<html lang=\"en\">"
+        }
+      ]
+    },
+    {
+      "rule_id": "image-alt",
+      "impact": "",
+      "tags": [
+        "wcag2a",
+        "wcag111",
+        "section508",
+        "section508.22.a"
+      ],
+      "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/image-alt?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e7"
+          ],
+          "selector": "#uij-e7",
+          "bbox": null,
+          "html": "<img alt=\"U.S. Department of Energy - Energy Efficiency and Renewable Energy\" id=\"uij-e7\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk+P+/HgAFhAJ/wlseKgAAAAB"
+        },
+        {
+          "target": [
+            "#uij-e9"
+          ],
+          "selector": "#uij-e9",
+          "bbox": null,
+          "html": "<img alt=\"U.S. Environmental Protection Agency - Office of Transportation and Air Quality\" id=\"uij-e9\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMsAAAAdCAYAAAAEnJgBAAAABHNCSVQICAgIfAhkiAAAAA"
+        },
+        {
+          "target": [
+            "#uij-e13"
+          ],
+          "selector": "#uij-e13",
+          "bbox": null,
+          "html": "<img alt=\"www.fueleconomy.gov - the official government source for fuel economy information\" class=\"img-responsive\" id=\"uij-e13\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwC"
+        },
+        {
+          "target": [
+            "#uij-e363"
+          ],
+          "selector": "#uij-e363",
+          "bbox": null,
+          "html": "<img alt=\"2026-2027 Fuel Economy Estimates Now Available! Includes plug-in hybrid and electric vehicles.  Fuel economy leaders lists. More vehicles added weekly\" class=\"img-responsive\" id=\"uij-e363\" s"
+        },
+        {
+          "target": [
+            "#uij-e389"
+          ],
+          "selector": "#uij-e389",
+          "bbox": null,
+          "html": "<img alt=\"Woman shopping for new car\" class=\"img-responsive img-rounded img-home hidden-xs\" id=\"uij-e389\" src=\"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAXwBfAAD/4TIiaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS"
+        },
+        {
+          "target": [
+            "#uij-e398"
+          ],
+          "selector": "#uij-e398",
+          "bbox": null,
+          "html": "<img alt=\"Refueling vehicle\" class=\"img-responsive img-rounded img-home hidden-xs\" id=\"uij-e398\" src=\"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEA8ADwAAD/4TIpaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLwA8P3h"
+        },
+        {
+          "target": [
+            "#uij-e407"
+          ],
+          "selector": "#uij-e407",
+          "bbox": null,
+          "html": "<img alt=\"Save Money\" class=\"img-responsive img-rounded img-home hidden-xs\" id=\"uij-e407\" src=\"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/4TIpaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLwA8P3hwYWNrZX"
+        },
+        {
+          "target": [
+            "#uij-e418"
+          ],
+          "selector": "#uij-e418",
+          "bbox": null,
+          "html": "<img alt=\"Charging a car\" class=\"img-responsive img-rounded img-home hidden-xs\" id=\"uij-e418\" src=\"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAXwBfAAD/4TIiaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLwA8P3hwYW"
+        }
+      ]
+    },
+    {
+      "rule_id": "image-redundant-alt",
+      "impact": "minor",
+      "tags": [],
+      "description": "Ensure image alternative is not repeated as text",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/image-redundant-alt?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e7"
+          ],
+          "selector": "#uij-e7",
+          "bbox": null,
+          "html": "<img alt=\"U.S. Department of Energy - Energy Efficiency and Renewable Energy\" id=\"uij-e7\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk+P+/HgAFhAJ/wlseKgAAAAB"
+        },
+        {
+          "target": [
+            "#uij-e9"
+          ],
+          "selector": "#uij-e9",
+          "bbox": null,
+          "html": "<img alt=\"U.S. Environmental Protection Agency - Office of Transportation and Air Quality\" id=\"uij-e9\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMsAAAAdCAYAAAAEnJgBAAAABHNCSVQICAgIfAhkiAAAAA"
+        },
+        {
+          "target": [
+            "#uij-e13"
+          ],
+          "selector": "#uij-e13",
+          "bbox": null,
+          "html": "<img alt=\"www.fueleconomy.gov - the official government source for fuel economy information\" class=\"img-responsive\" id=\"uij-e13\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwC"
+        },
+        {
+          "target": [
+            "#uij-e363"
+          ],
+          "selector": "#uij-e363",
+          "bbox": null,
+          "html": "<img alt=\"2026-2027 Fuel Economy Estimates Now Available! Includes plug-in hybrid and electric vehicles.  Fuel economy leaders lists. More vehicles added weekly\" class=\"img-responsive\" id=\"uij-e363\" s"
+        },
+        {
+          "target": [
+            "#uij-e389"
+          ],
+          "selector": "#uij-e389",
+          "bbox": null,
+          "html": "<img alt=\"Woman shopping for new car\" class=\"img-responsive img-rounded img-home hidden-xs\" id=\"uij-e389\" src=\"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAXwBfAAD/4TIiaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS"
+        },
+        {
+          "target": [
+            "#uij-e398"
+          ],
+          "selector": "#uij-e398",
+          "bbox": null,
+          "html": "<img alt=\"Refueling vehicle\" class=\"img-responsive img-rounded img-home hidden-xs\" id=\"uij-e398\" src=\"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEA8ADwAAD/4TIpaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLwA8P3h"
+        },
+        {
+          "target": [
+            "#uij-e418"
+          ],
+          "selector": "#uij-e418",
+          "bbox": null,
+          "html": "<img alt=\"Charging a car\" class=\"img-responsive img-rounded img-home hidden-xs\" id=\"uij-e418\" src=\"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAXwBfAAD/4TIiaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLwA8P3hwYW"
+        }
+      ]
+    },
+    {
+      "rule_id": "landmark-banner-is-top-level",
+      "impact": "",
+      "tags": [],
+      "description": "Ensure the banner landmark is at top level",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/landmark-banner-is-top-level?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e2"
+          ],
+          "selector": "#uij-e2",
+          "bbox": null,
+          "html": "<header id=\"uij-e2\">"
+        }
+      ]
+    },
+    {
+      "rule_id": "landmark-contentinfo-is-top-level",
+      "impact": "",
+      "tags": [],
+      "description": "Ensure the contentinfo landmark is at top level",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/landmark-contentinfo-is-top-level?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#ft"
+          ],
+          "selector": "#ft",
+          "bbox": null,
+          "html": "<div id=\"ft\" role=\"contentinfo\">"
+        }
+      ]
+    },
+    {
+      "rule_id": "landmark-no-duplicate-banner",
+      "impact": "",
+      "tags": [],
+      "description": "Ensure the document has at most one banner landmark",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/landmark-no-duplicate-banner?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e2"
+          ],
+          "selector": "#uij-e2",
+          "bbox": null,
+          "html": "<header id=\"uij-e2\">"
+        }
+      ]
+    },
+    {
+      "rule_id": "landmark-no-duplicate-contentinfo",
+      "impact": "",
+      "tags": [],
+      "description": "Ensure the document has at most one contentinfo landmark",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/landmark-no-duplicate-contentinfo?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#ft"
+          ],
+          "selector": "#ft",
+          "bbox": null,
+          "html": "<div id=\"ft\" role=\"contentinfo\">"
+        }
+      ]
+    },
+    {
+      "rule_id": "landmark-unique",
+      "impact": "moderate",
+      "tags": [],
+      "description": "Ensure landmarks are unique",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/landmark-unique?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e2"
+          ],
+          "selector": "#uij-e2",
+          "bbox": null,
+          "html": "<header id=\"uij-e2\">"
+        },
+        {
+          "target": [
+            "#ft"
+          ],
+          "selector": "#ft",
+          "bbox": null,
+          "html": "<div id=\"ft\" role=\"contentinfo\">"
+        }
+      ]
+    },
+    {
+      "rule_id": "link-name",
+      "impact": "serious",
+      "tags": [
+        "wcag2a",
+        "wcag244",
+        "wcag412",
+        "section508",
+        "section508.22.a"
+      ],
+      "description": "Ensure links have discernible text",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/link-name?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e1"
+          ],
+          "selector": "#uij-e1",
+          "bbox": null,
+          "html": "<a href=\"#main-content\" id=\"uij-e1\">Skip to main content</a>"
+        },
+        {
+          "target": [
+            "#uij-e6"
+          ],
+          "selector": "#uij-e6",
+          "bbox": null,
+          "html": "<a href=\"https://www.eere.energy.gov\" id=\"uij-e6\" target=\"_parent\">"
+        },
+        {
+          "target": [
+            "#uij-e8"
+          ],
+          "selector": "#uij-e8",
+          "bbox": null,
+          "html": "<a href=\"https://www.epa.gov/otaq/\" id=\"uij-e8\" target=\"_parent\">"
+        },
+        {
+          "target": [
+            "#uij-e12"
+          ],
+          "selector": "#uij-e12",
+          "bbox": null,
+          "html": "<a href=\"https://www.fueleconomy.gov\" id=\"uij-e12\" style=\"text-decoration: none;\">"
+        },
+        {
+          "target": [
+            "#uij-e17"
+          ],
+          "selector": "#uij-e17",
+          "bbox": null,
+          "html": "<a href=\"/feg/esIndex.shtml\" id=\"uij-e17\">Español</a>"
+        },
+        {
+          "target": [
+            "#uij-e19"
+          ],
+          "selector": "#uij-e19",
+          "bbox": null,
+          "html": "<a href=\"/feg/sitemap.shtml\" id=\"uij-e19\">Site Map</a>"
+        },
+        {
+          "target": [
+            "#uij-e21"
+          ],
+          "selector": "#uij-e21",
+          "bbox": null,
+          "html": "<a href=\"/feg/links.shtml\" id=\"uij-e21\"><span class=\"sr-only\" id=\"uij-e22\">General </span>Links</a>"
+        },
+        {
+          "target": [
+            "#uij-e24"
+          ],
+          "selector": "#uij-e24",
+          "bbox": null,
+          "html": "<a href=\"/feg/info.shtml\" id=\"uij-e24\">FAQ</a>"
+        },
+        {
+          "target": [
+            "#uij-e26"
+          ],
+          "selector": "#uij-e26",
+          "bbox": null,
+          "html": "<a href=\"/feg/videos.shtml\" id=\"uij-e26\">Videos</a>"
+        },
+        {
+          "target": [
+            "#uij-e41"
+          ],
+          "selector": "#uij-e41",
+          "bbox": null,
+          "html": "<a class=\"dropdown-toggle\" data-toggle=\"dropdown\" href=\"/feg/findacar.shtml\" id=\"uij-e41\">Find a Car</a>"
+        },
+        {
+          "target": [
+            "#uij-e90"
+          ],
+          "selector": "#uij-e90",
+          "bbox": null,
+          "html": "<a class=\"dropdown-toggle\" data-toggle=\"dropdown\" href=\"javascript:void(0);\" id=\"uij-e90\">Save Money &amp; Fuel</a>"
+        },
+        {
+          "target": [
+            "#uij-e140"
+          ],
+          "selector": "#uij-e140",
+          "bbox": null,
+          "html": "<a class=\"dropdown-toggle\" data-toggle=\"dropdown\" href=\"/feg/why.shtml\" id=\"uij-e140\">Benefits</a>"
+        },
+        {
+          "target": [
+            "#uij-e150"
+          ],
+          "selector": "#uij-e150",
+          "bbox": null,
+          "html": "<a class=\"dropdown-toggle\" data-toggle=\"dropdown\" href=\"/mpg/MPG.do\" id=\"uij-e150\">My MPG</a>"
+        },
+        {
+          "target": [
+            "#uij-e170"
+          ],
+          "selector": "#uij-e170",
+          "bbox": null,
+          "html": "<a class=\"dropdown-toggle\" data-toggle=\"dropdown\" href=\"javascript:void(0);\" id=\"uij-e170\">Advanced Cars &amp; Fuels</a>"
+        },
+        {
+          "target": [
+            "#uij-e275"
+          ],
+          "selector": "#uij-e275",
+          "bbox": null,
+          "html": "<a class=\"dropdown-toggle\" data-toggle=\"dropdown\" href=\"javascript:void(0);\" id=\"uij-e275\">About EPA Ratings</a>"
+        },
+        {
+          "target": [
+            "#uij-e320"
+          ],
+          "selector": "#uij-e320",
+          "bbox": null,
+          "html": "<a class=\"dropdown-toggle\" data-toggle=\"dropdown\" href=\"javascript:void(0);\" id=\"uij-e320\">More<span class=\"sr-only\" id=\"uij-e321\"> Topics</span></a>"
+        },
+        {
+          "target": [
+            "#uij-e362"
+          ],
+          "selector": "#uij-e362",
+          "bbox": null,
+          "html": "<a href=\"/feg/findacar.shtml\" id=\"uij-e362\" target=\"_self\">"
+        },
+        {
+          "target": [
+            "#uij-e367"
+          ],
+          "selector": "#uij-e367",
+          "bbox": null,
+          "html": "<a class=\"left carousel-control\" data-slide=\"prev\" href=\"#carousel-home\" id=\"uij-e367\">\n\t\t\t\t\t\t\t❮<span class=\"sr-only\" id=\"uij-e368\">View previous slide</span></a>"
+        },
+        {
+          "target": [
+            "#uij-e369"
+          ],
+          "selector": "#uij-e369",
+          "bbox": null,
+          "html": "<a class=\"right carousel-control\" data-slide=\"next\" href=\"#carousel-home\" id=\"uij-e369\">\n\t\t\t\t\t\t\t❯<span class=\"sr-only\" id=\"uij-e370\">View next slide</span>\n</a>"
+        },
+        {
+          "target": [
+            "#uij-e387"
+          ],
+          "selector": "#uij-e387",
+          "bbox": null,
+          "html": "<a href=\"/feg/findacar.shtml\" id=\"uij-e387\">"
+        },
+        {
+          "target": [
+            "#uij-e392"
+          ],
+          "selector": "#uij-e392",
+          "bbox": null,
+          "html": "<a href=\"/feg/Find.do?action=sbsSelect\" id=\"uij-e392\">Compare Side-by-Side</a>"
+        },
+        {
+          "target": [
+            "#uij-e394"
+          ],
+          "selector": "#uij-e394",
+          "bbox": null,
+          "html": "<a href=\"/feg/powerSearch.jsp\" id=\"uij-e394\">Power Search</a>"
+        },
+        {
+          "target": [
+            "#uij-e396"
+          ],
+          "selector": "#uij-e396",
+          "bbox": null,
+          "html": "<a href=\"https://www.fueleconomy.gov/mpg/MPG.do?action=garage\" id=\"uij-e396\">"
+        },
+        {
+          "target": [
+            "#uij-e401"
+          ],
+          "selector": "#uij-e401",
+          "bbox": null,
+          "html": "<a href=\"https://www.fueleconomy.gov/mpg/MPG.do?action=garage\" id=\"uij-e401\">Calculate or Share Your MPG</a>"
+        },
+        {
+          "target": [
+            "#uij-e403"
+          ],
+          "selector": "#uij-e403",
+          "bbox": null,
+          "html": "<a href=\"https://www.fueleconomy.gov/feg/browseList.jsp?src=feg\" id=\"uij-e403\">Estimates from Drivers Like You</a>"
+        },
+        {
+          "target": [
+            "#uij-e405"
+          ],
+          "selector": "#uij-e405",
+          "bbox": null,
+          "html": "<a href=\"/feg/gasprices\" id=\"uij-e405\">"
+        },
+        {
+          "target": [
+            "#uij-e410"
+          ],
+          "selector": "#uij-e410",
+          "bbox": null,
+          "html": "<a href=\"/feg/drive.shtml\" id=\"uij-e410\">Gas Mileage Tips</a>"
+        },
+        {
+          "target": [
+            "#uij-e412"
+          ],
+          "selector": "#uij-e412",
+          "bbox": null,
+          "html": "<a href=\"/feg/savemoney.jsp\" id=\"uij-e412\">Fuel Cost Calculator</a>"
+        },
+        {
+          "target": [
+            "#uij-e414"
+          ],
+          "selector": "#uij-e414",
+          "bbox": null,
+          "html": "<a href=\"/feg/gasprices\" id=\"uij-e414\">Find the Cheapest Gas</a>"
+        },
+        {
+          "target": [
+            "#uij-e416"
+          ],
+          "selector": "#uij-e416",
+          "bbox": null,
+          "html": "<a href=\"/feg/evsplash.shtml\" id=\"uij-e416\">"
+        },
+        {
+          "target": [
+            "#uij-e421"
+          ],
+          "selector": "#uij-e421",
+          "bbox": null,
+          "html": "<a href=\"/feg/hybridtech.shtml\" id=\"uij-e421\">Hybrids</a>"
+        },
+        {
+          "target": [
+            "#uij-e423"
+          ],
+          "selector": "#uij-e423",
+          "bbox": null,
+          "html": "<a href=\"/feg/phevtech.shtml\" id=\"uij-e423\">Plug-in Hybrids</a>"
+        },
+        {
+          "target": [
+            "#uij-e425"
+          ],
+          "selector": "#uij-e425",
+          "bbox": null,
+          "html": "<a href=\"/feg/evtech.shtml\" id=\"uij-e425\">All-Electric Vehicles</a>"
+        },
+        {
+          "target": [
+            "#uij-e431"
+          ],
+          "selector": "#uij-e431",
+          "bbox": null,
+          "html": "<a href=\"/feg/savemoney.jsp\" id=\"uij-e431\">Fuel Savings Calculator</a>"
+        },
+        {
+          "target": [
+            "#uij-e433"
+          ],
+          "selector": "#uij-e433",
+          "bbox": null,
+          "html": "<a href=\"/trip/\" id=\"uij-e433\">Trip Calculator</a>"
+        },
+        {
+          "target": [
+            "#uij-e435"
+          ],
+          "selector": "#uij-e435",
+          "bbox": null,
+          "html": "<a href=\"/feg/UsedCarLabel.jsp\" id=\"uij-e435\">Used Car Label Tool</a>"
+        },
+        {
+          "target": [
+            "#uij-e437"
+          ],
+          "selector": "#uij-e437",
+          "bbox": null,
+          "html": "<a href=\"/feg/ws/\" id=\"uij-e437\">Developer Tools</a>"
+        },
+        {
+          "target": [
+            "#uij-e439"
+          ],
+          "selector": "#uij-e439",
+          "bbox": null,
+          "html": "<a href=\"/widgets/\" id=\"uij-e439\">Find a Car Widget</a>"
+        },
+        {
+          "target": [
+            "#uij-e441"
+          ],
+          "selector": "#uij-e441",
+          "bbox": null,
+          "html": "<a href=\"/feg/Find.do?action=bt2\" id=\"uij-e441\">GHG Emissions Calculator</a>"
+        },
+        {
+          "target": [
+            "#uij-e443"
+          ],
+          "selector": "#uij-e443",
+          "bbox": null,
+          "html": "<a href=\"/feg/hybridCompare.jsp\" id=\"uij-e443\">Can a Hybrid Save Me Money?</a>"
+        },
+        {
+          "target": [
+            "#uij-e445"
+          ],
+          "selector": "#uij-e445",
+          "bbox": null,
+          "html": "<a href=\"/feg/Find.do?action=phev1Prompt\" id=\"uij-e445\">My Plug-in Hybrid Calculator</a>"
+        },
+        {
+          "target": [
+            "#uij-e451"
+          ],
+          "selector": "#uij-e451",
+          "bbox": null,
+          "html": "<a href=\"/feg/printGuides.shtml\" id=\"uij-e451\"> 2027 Fuel Economy Guide (Preliminary) </a>"
+        },
+        {
+          "target": [
+            "#uij-e453"
+          ],
+          "selector": "#uij-e453",
+          "bbox": null,
+          "html": "<a href=\"/feg/printGuides.shtml\" id=\"uij-e453\"> 2026 Fuel Economy Guide </a>"
+        },
+        {
+          "target": [
+            "#uij-e455"
+          ],
+          "selector": "#uij-e455",
+          "bbox": null,
+          "html": "<a href=\"/feg/best-worst.shtml\" id=\"uij-e455\">2026 Best and Worst Fuel Economy</a>"
+        },
+        {
+          "target": [
+            "#uij-e457"
+          ],
+          "selector": "#uij-e457",
+          "bbox": null,
+          "html": "<a href=\"/feg/topten.jsp\" id=\"uij-e457\">2026 Top Ten Vehicle Lists</a>"
+        },
+        {
+          "target": [
+            "#uij-e459"
+          ],
+          "selector": "#uij-e459",
+          "bbox": null,
+          "html": "<a href=\"/feg/findacar.shtml\" id=\"uij-e459\">2026–27 Fuel Economy Data</a>"
+        },
+        {
+          "target": [
+            "#uij-e465"
+          ],
+          "selector": "#uij-e465",
+          "bbox": null,
+          "html": "<a href=\"/feg/topten.jsp\" id=\"uij-e465\">Top 10 - Most Efficient Vehicles</a>"
+        },
+        {
+          "target": [
+            "#uij-e467"
+          ],
+          "selector": "#uij-e467",
+          "bbox": null,
+          "html": "<a href=\"/feg/comparempg.shtml\" id=\"uij-e467\">Compare Old vs. New EPA MPG</a>"
+        },
+        {
+          "target": [
+            "#uij-e469"
+          ],
+          "selector": "#uij-e469",
+          "bbox": null,
+          "html": "<a href=\"/feg/SmartWay.do\" id=\"uij-e469\">Find a SmartWay Vehicle</a>"
+        },
+        {
+          "target": [
+            "#uij-e471"
+          ],
+          "selector": "#uij-e471",
+          "bbox": null,
+          "html": "<a href=\"/feg/extremeMPG.jsp\" id=\"uij-e471\">Extreme MPG</a>"
+        },
+        {
+          "target": [
+            "#uij-e477"
+          ],
+          "selector": "#uij-e477",
+          "bbox": null,
+          "html": "<a href=\"https://www.epa.gov/greenvehicles/getting-started-home-ev-charging\" id=\"uij-e477\">Getting Started with Home EV Charging</a>"
+        },
+        {
+          "target": [
+            "#uij-e479"
+          ],
+          "selector": "#uij-e479",
+          "bbox": null,
+          "html": "<a href=\"https://www.epa.gov/greenvehicles/watts-important-seven-tips-every-ev-driver-should-know\" id=\"uij-e479\">Seven Tips Every EV Driver Should Know!</a>"
+        },
+        {
+          "target": [
+            "#uij-e481"
+          ],
+          "selector": "#uij-e481",
+          "bbox": null,
+          "html": "<a href=\"https://www.epa.gov/greenvehicles/home-ev-charger-calculator\" id=\"uij-e481\">Home EV Charger Calculator</a>"
+        },
+        {
+          "target": [
+            "#uij-e483"
+          ],
+          "selector": "#uij-e483",
+          "bbox": null,
+          "html": "<a href=\"https://cleancities.energy.gov/\" id=\"uij-e483\">Clean Cities and Communities</a>"
+        },
+        {
+          "target": [
+            "#uij-e485"
+          ],
+          "selector": "#uij-e485",
+          "bbox": null,
+          "html": "<a href=\"http://www.afdc.energy.gov/afdc/\" id=\"uij-e485\">Alternative Fuels Data Center</a>"
+        },
+        {
+          "target": [
+            "#uij-e488"
+          ],
+          "selector": "#uij-e488",
+          "bbox": null,
+          "html": "<a href=\"http://www.afdc.energy.gov/calc/\" id=\"uij-e488\">Vehicle Cost Calculator</a>"
+        },
+        {
+          "target": [
+            "#uij-e490"
+          ],
+          "selector": "#uij-e490",
+          "bbox": null,
+          "html": "<a href=\"http://www.afdc.energy.gov/afdc/locator/stations/\" id=\"uij-e490\">Station Locator</a>"
+        },
+        {
+          "target": [
+            "#uij-e492"
+          ],
+          "selector": "#uij-e492",
+          "bbox": null,
+          "html": "<a href=\"http://gis.its.ucdavis.edu/evexplorer/\" id=\"uij-e492\">EV Explorer</a>"
+        },
+        {
+          "target": [
+            "#uij-e504"
+          ],
+          "selector": "#uij-e504",
+          "bbox": null,
+          "html": "<a href=\"/feg/contacts.shtml\" id=\"uij-e504\">Contacts</a>"
+        },
+        {
+          "target": [
+            "#uij-e505"
+          ],
+          "selector": "#uij-e505",
+          "bbox": null,
+          "html": "<a href=\"/feg/download.shtml\" id=\"uij-e505\">Download&nbsp;EPA's&nbsp;MPG Ratings</a>"
+        },
+        {
+          "target": [
+            "#uij-e506"
+          ],
+          "selector": "#uij-e506",
+          "bbox": null,
+          "html": "<a href=\"/feg/bymake/bymanuNF.shtml\" id=\"uij-e506\">Find&nbsp;and&nbsp;Compare&nbsp;Cars</a>"
+        },
+        {
+          "target": [
+            "#uij-e507"
+          ],
+          "selector": "#uij-e507",
+          "bbox": null,
+          "html": "<a href=\"//www.usa.gov\" id=\"uij-e507\">USA.gov</a>"
+        },
+        {
+          "target": [
+            "#uij-e508"
+          ],
+          "selector": "#uij-e508",
+          "bbox": null,
+          "html": "<a href=\"/feg/dealers.shtml\" id=\"uij-e508\">Info&nbsp;for&nbsp;Auto&nbsp;Dealers</a>"
+        },
+        {
+          "target": [
+            "#uij-e509"
+          ],
+          "selector": "#uij-e509",
+          "bbox": null,
+          "html": "<a href=\"/feg/ORNL-disclaimer.htm\" id=\"uij-e509\">Privacy/Security</a>"
+        },
+        {
+          "target": [
+            "#uij-e510"
+          ],
+          "selector": "#uij-e510",
+          "bbox": null,
+          "html": "<a href=\"mailto:fueleconomy@ornl.gov\" id=\"uij-e510\">Feedback</a>"
+        }
+      ]
+    },
+    {
+      "rule_id": "list",
+      "impact": "",
+      "tags": [
+        "wcag2a",
+        "wcag131"
+      ],
+      "description": "Ensure that lists are structured correctly",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/list?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e15"
+          ],
+          "selector": "#uij-e15",
+          "bbox": null,
+          "html": "<ul class=\"inline text-right\" id=\"uij-e15\">"
+        },
+        {
+          "target": [
+            "#uij-e39"
+          ],
+          "selector": "#uij-e39",
+          "bbox": null,
+          "html": "<ul class=\"nav navbar-nav\" id=\"uij-e39\">"
+        },
+        {
+          "target": [
+            "#uij-e390"
+          ],
+          "selector": "#uij-e390",
+          "bbox": null,
+          "html": "<ul class=\"home-link-list\" id=\"uij-e390\">\n<li id=\"uij-e391\"><a href=\"/feg/Find.do?action=sbsSelect\" id=\"uij-e392\">Compare Side-by-Side</a></li>\n<li id=\"uij-e393\"><a href=\"/feg/powerSearch.jsp\" id=\"uij"
+        },
+        {
+          "target": [
+            "#uij-e399"
+          ],
+          "selector": "#uij-e399",
+          "bbox": null,
+          "html": "<ul class=\"home-link-list\" id=\"uij-e399\">"
+        },
+        {
+          "target": [
+            "#uij-e408"
+          ],
+          "selector": "#uij-e408",
+          "bbox": null,
+          "html": "<ul class=\"home-link-list\" id=\"uij-e408\">"
+        },
+        {
+          "target": [
+            "#uij-e419"
+          ],
+          "selector": "#uij-e419",
+          "bbox": null,
+          "html": "<ul class=\"home-link-list\" id=\"uij-e419\">"
+        },
+        {
+          "target": [
+            "#uij-e429"
+          ],
+          "selector": "#uij-e429",
+          "bbox": null,
+          "html": "<ul class=\"home-link-list\" id=\"uij-e429\">"
+        },
+        {
+          "target": [
+            "#uij-e449"
+          ],
+          "selector": "#uij-e449",
+          "bbox": null,
+          "html": "<ul class=\"home-link-list\" id=\"uij-e449\">"
+        },
+        {
+          "target": [
+            "#uij-e463"
+          ],
+          "selector": "#uij-e463",
+          "bbox": null,
+          "html": "<ul class=\"home-link-list\" id=\"uij-e463\">"
+        },
+        {
+          "target": [
+            "#uij-e475"
+          ],
+          "selector": "#uij-e475",
+          "bbox": null,
+          "html": "<ul class=\"home-link-list\" id=\"uij-e475\">"
+        },
+        {
+          "target": [
+            "#uij-e486"
+          ],
+          "selector": "#uij-e486",
+          "bbox": null,
+          "html": "<ul class=\"home-link-list2\" id=\"uij-e486\">\n<li id=\"uij-e487\"><a href=\"http://www.afdc.energy.gov/calc/\" id=\"uij-e488\">Vehicle Cost Calculator</a></li>\n<li id=\"uij-e489\"><a href=\"http://www.afdc.energy"
+        }
+      ]
+    },
+    {
+      "rule_id": "listitem",
+      "impact": "",
+      "tags": [
+        "wcag2a",
+        "wcag131"
+      ],
+      "description": "Ensure <li> elements are used semantically",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/listitem?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e16"
+          ],
+          "selector": "#uij-e16",
+          "bbox": null,
+          "html": "<li id=\"uij-e16\"><a href=\"/feg/esIndex.shtml\" id=\"uij-e17\">Español</a></li>"
+        },
+        {
+          "target": [
+            "#uij-e18"
+          ],
+          "selector": "#uij-e18",
+          "bbox": null,
+          "html": "<li id=\"uij-e18\"><a href=\"/feg/sitemap.shtml\" id=\"uij-e19\">Site Map</a></li>"
+        },
+        {
+          "target": [
+            "#uij-e20"
+          ],
+          "selector": "#uij-e20",
+          "bbox": null,
+          "html": "<li id=\"uij-e20\"><a href=\"/feg/links.shtml\" id=\"uij-e21\"><span class=\"sr-only\" id=\"uij-e22\">General </span>Links</a></li>"
+        },
+        {
+          "target": [
+            "#uij-e23"
+          ],
+          "selector": "#uij-e23",
+          "bbox": null,
+          "html": "<li id=\"uij-e23\"><a href=\"/feg/info.shtml\" id=\"uij-e24\">FAQ</a></li>"
+        },
+        {
+          "target": [
+            "#uij-e25"
+          ],
+          "selector": "#uij-e25",
+          "bbox": null,
+          "html": "<li id=\"uij-e25\"><a href=\"/feg/videos.shtml\" id=\"uij-e26\">Videos</a></li>"
+        },
+        {
+          "target": [
+            "#uij-e40"
+          ],
+          "selector": "#uij-e40",
+          "bbox": null,
+          "html": "<li class=\"dropdown\" id=\"uij-e40\">"
+        },
+        {
+          "target": [
+            "#uij-e89"
+          ],
+          "selector": "#uij-e89",
+          "bbox": null,
+          "html": "<li class=\"dropdown\" id=\"uij-e89\">"
+        },
+        {
+          "target": [
+            "#uij-e139"
+          ],
+          "selector": "#uij-e139",
+          "bbox": null,
+          "html": "<li class=\"dropdown\" id=\"uij-e139\">"
+        },
+        {
+          "target": [
+            "#uij-e149"
+          ],
+          "selector": "#uij-e149",
+          "bbox": null,
+          "html": "<li class=\"dropdown\" id=\"uij-e149\">"
+        },
+        {
+          "target": [
+            "#uij-e169"
+          ],
+          "selector": "#uij-e169",
+          "bbox": null,
+          "html": "<li class=\"dropdown\" id=\"uij-e169\">"
+        },
+        {
+          "target": [
+            "#uij-e274"
+          ],
+          "selector": "#uij-e274",
+          "bbox": null,
+          "html": "<li class=\"dropdown\" id=\"uij-e274\">"
+        },
+        {
+          "target": [
+            "#uij-e319"
+          ],
+          "selector": "#uij-e319",
+          "bbox": null,
+          "html": "<li class=\"dropdown\" id=\"uij-e319\">"
+        },
+        {
+          "target": [
+            "#searchDdParent"
+          ],
+          "selector": "#searchDdParent",
+          "bbox": null,
+          "html": "<li class=\"dropdown\" id=\"searchDdParent\">"
+        },
+        {
+          "target": [
+            "#uij-e391"
+          ],
+          "selector": "#uij-e391",
+          "bbox": null,
+          "html": "<li id=\"uij-e391\"><a href=\"/feg/Find.do?action=sbsSelect\" id=\"uij-e392\">Compare Side-by-Side</a></li>"
+        },
+        {
+          "target": [
+            "#uij-e393"
+          ],
+          "selector": "#uij-e393",
+          "bbox": null,
+          "html": "<li id=\"uij-e393\"><a href=\"/feg/powerSearch.jsp\" id=\"uij-e394\">Power Search</a></li>"
+        },
+        {
+          "target": [
+            "#uij-e400"
+          ],
+          "selector": "#uij-e400",
+          "bbox": null,
+          "html": "<li id=\"uij-e400\"><a href=\"https://www.fueleconomy.gov/mpg/MPG.do?action=garage\" id=\"uij-e401\">Calculate or Share Your MPG</a></li>"
+        },
+        {
+          "target": [
+            "#uij-e402"
+          ],
+          "selector": "#uij-e402",
+          "bbox": null,
+          "html": "<li id=\"uij-e402\"><a href=\"https://www.fueleconomy.gov/feg/browseList.jsp?src=feg\" id=\"uij-e403\">Estimates from Drivers Like You</a></li>"
+        },
+        {
+          "target": [
+            "#uij-e409"
+          ],
+          "selector": "#uij-e409",
+          "bbox": null,
+          "html": "<li id=\"uij-e409\"><a href=\"/feg/drive.shtml\" id=\"uij-e410\">Gas Mileage Tips</a></li>"
+        },
+        {
+          "target": [
+            "#uij-e411"
+          ],
+          "selector": "#uij-e411",
+          "bbox": null,
+          "html": "<li id=\"uij-e411\"><a href=\"/feg/savemoney.jsp\" id=\"uij-e412\">Fuel Cost Calculator</a></li>"
+        },
+        {
+          "target": [
+            "#uij-e413"
+          ],
+          "selector": "#uij-e413",
+          "bbox": null,
+          "html": "<li id=\"uij-e413\"><a href=\"/feg/gasprices\" id=\"uij-e414\">Find the Cheapest Gas</a></li>"
+        },
+        {
+          "target": [
+            "#uij-e420"
+          ],
+          "selector": "#uij-e420",
+          "bbox": null,
+          "html": "<li id=\"uij-e420\"><a href=\"/feg/hybridtech.shtml\" id=\"uij-e421\">Hybrids</a></li>"
+        },
+        {
+          "target": [
+            "#uij-e422"
+          ],
+          "selector": "#uij-e422",
+          "bbox": null,
+          "html": "<li id=\"uij-e422\"><a href=\"/feg/phevtech.shtml\" id=\"uij-e423\">Plug-in Hybrids</a></li>"
+        },
+        {
+          "target": [
+            "#uij-e424"
+          ],
+          "selector": "#uij-e424",
+          "bbox": null,
+          "html": "<li id=\"uij-e424\"><a href=\"/feg/evtech.shtml\" id=\"uij-e425\">All-Electric Vehicles</a></li>"
+        },
+        {
+          "target": [
+            "#uij-e430"
+          ],
+          "selector": "#uij-e430",
+          "bbox": null,
+          "html": "<li id=\"uij-e430\"><a href=\"/feg/savemoney.jsp\" id=\"uij-e431\">Fuel Savings Calculator</a></li>"
+        },
+        {
+          "target": [
+            "#uij-e432"
+          ],
+          "selector": "#uij-e432",
+          "bbox": null,
+          "html": "<li id=\"uij-e432\"><a href=\"/trip/\" id=\"uij-e433\">Trip Calculator</a></li>"
+        },
+        {
+          "target": [
+            "#uij-e434"
+          ],
+          "selector": "#uij-e434",
+          "bbox": null,
+          "html": "<li id=\"uij-e434\"><a href=\"/feg/UsedCarLabel.jsp\" id=\"uij-e435\">Used Car Label Tool</a></li>"
+        },
+        {
+          "target": [
+            "#uij-e436"
+          ],
+          "selector": "#uij-e436",
+          "bbox": null,
+          "html": "<li id=\"uij-e436\"><a href=\"/feg/ws/\" id=\"uij-e437\">Developer Tools</a></li>"
+        },
+        {
+          "target": [
+            "#uij-e438"
+          ],
+          "selector": "#uij-e438",
+          "bbox": null,
+          "html": "<li id=\"uij-e438\"><a href=\"/widgets/\" id=\"uij-e439\">Find a Car Widget</a></li>"
+        },
+        {
+          "target": [
+            "#uij-e440"
+          ],
+          "selector": "#uij-e440",
+          "bbox": null,
+          "html": "<li id=\"uij-e440\"><a href=\"/feg/Find.do?action=bt2\" id=\"uij-e441\">GHG Emissions Calculator</a></li>"
+        },
+        {
+          "target": [
+            "#uij-e442"
+          ],
+          "selector": "#uij-e442",
+          "bbox": null,
+          "html": "<li id=\"uij-e442\"><a href=\"/feg/hybridCompare.jsp\" id=\"uij-e443\">Can a Hybrid Save Me Money?</a></li>"
+        },
+        {
+          "target": [
+            "#uij-e444"
+          ],
+          "selector": "#uij-e444",
+          "bbox": null,
+          "html": "<li id=\"uij-e444\"><a href=\"/feg/Find.do?action=phev1Prompt\" id=\"uij-e445\">My Plug-in Hybrid Calculator</a></li>"
+        },
+        {
+          "target": [
+            "#uij-e450"
+          ],
+          "selector": "#uij-e450",
+          "bbox": null,
+          "html": "<li id=\"uij-e450\"><a href=\"/feg/printGuides.shtml\" id=\"uij-e451\"> 2027 Fuel Economy Guide (Preliminary) </a></li>"
+        },
+        {
+          "target": [
+            "#uij-e452"
+          ],
+          "selector": "#uij-e452",
+          "bbox": null,
+          "html": "<li id=\"uij-e452\"><a href=\"/feg/printGuides.shtml\" id=\"uij-e453\"> 2026 Fuel Economy Guide </a></li>"
+        },
+        {
+          "target": [
+            "#uij-e454"
+          ],
+          "selector": "#uij-e454",
+          "bbox": null,
+          "html": "<li id=\"uij-e454\"><a href=\"/feg/best-worst.shtml\" id=\"uij-e455\">2026 Best and Worst Fuel Economy</a></li>"
+        },
+        {
+          "target": [
+            "#uij-e456"
+          ],
+          "selector": "#uij-e456",
+          "bbox": null,
+          "html": "<li id=\"uij-e456\"><a href=\"/feg/topten.jsp\" id=\"uij-e457\">2026 Top Ten Vehicle Lists</a></li>"
+        },
+        {
+          "target": [
+            "#uij-e458"
+          ],
+          "selector": "#uij-e458",
+          "bbox": null,
+          "html": "<li id=\"uij-e458\"><a href=\"/feg/findacar.shtml\" id=\"uij-e459\">2026–27 Fuel Economy Data</a></li>"
+        },
+        {
+          "target": [
+            "#uij-e464"
+          ],
+          "selector": "#uij-e464",
+          "bbox": null,
+          "html": "<li id=\"uij-e464\"><a href=\"/feg/topten.jsp\" id=\"uij-e465\">Top 10 - Most Efficient Vehicles</a></li>"
+        },
+        {
+          "target": [
+            "#uij-e466"
+          ],
+          "selector": "#uij-e466",
+          "bbox": null,
+          "html": "<li id=\"uij-e466\"><a href=\"/feg/comparempg.shtml\" id=\"uij-e467\">Compare Old vs. New EPA MPG</a></li>"
+        },
+        {
+          "target": [
+            "#uij-e468"
+          ],
+          "selector": "#uij-e468",
+          "bbox": null,
+          "html": "<li id=\"uij-e468\"><a href=\"/feg/SmartWay.do\" id=\"uij-e469\">Find a SmartWay Vehicle</a></li>"
+        },
+        {
+          "target": [
+            "#uij-e470"
+          ],
+          "selector": "#uij-e470",
+          "bbox": null,
+          "html": "<li id=\"uij-e470\"><a href=\"/feg/extremeMPG.jsp\" id=\"uij-e471\">Extreme MPG</a></li>"
+        },
+        {
+          "target": [
+            "#uij-e476"
+          ],
+          "selector": "#uij-e476",
+          "bbox": null,
+          "html": "<li id=\"uij-e476\"><a href=\"https://www.epa.gov/greenvehicles/getting-started-home-ev-charging\" id=\"uij-e477\">Getting Started with Home EV Charging</a></li>"
+        },
+        {
+          "target": [
+            "#uij-e478"
+          ],
+          "selector": "#uij-e478",
+          "bbox": null,
+          "html": "<li id=\"uij-e478\"><a href=\"https://www.epa.gov/greenvehicles/watts-important-seven-tips-every-ev-driver-should-know\" id=\"uij-e479\">Seven Tips Every EV Driver Should Know!</a></li>"
+        },
+        {
+          "target": [
+            "#uij-e480"
+          ],
+          "selector": "#uij-e480",
+          "bbox": null,
+          "html": "<li id=\"uij-e480\"><a href=\"https://www.epa.gov/greenvehicles/home-ev-charger-calculator\" id=\"uij-e481\">Home EV Charger Calculator</a></li>"
+        },
+        {
+          "target": [
+            "#uij-e482"
+          ],
+          "selector": "#uij-e482",
+          "bbox": null,
+          "html": "<li id=\"uij-e482\"><a href=\"https://cleancities.energy.gov/\" id=\"uij-e483\">Clean Cities and Communities</a></li>"
+        },
+        {
+          "target": [
+            "#uij-e484"
+          ],
+          "selector": "#uij-e484",
+          "bbox": null,
+          "html": "<li id=\"uij-e484\">"
+        },
+        {
+          "target": [
+            "#uij-e487"
+          ],
+          "selector": "#uij-e487",
+          "bbox": null,
+          "html": "<li id=\"uij-e487\"><a href=\"http://www.afdc.energy.gov/calc/\" id=\"uij-e488\">Vehicle Cost Calculator</a></li>"
+        },
+        {
+          "target": [
+            "#uij-e489"
+          ],
+          "selector": "#uij-e489",
+          "bbox": null,
+          "html": "<li id=\"uij-e489\"><a href=\"http://www.afdc.energy.gov/afdc/locator/stations/\" id=\"uij-e490\">Station Locator</a></li>"
+        },
+        {
+          "target": [
+            "#uij-e491"
+          ],
+          "selector": "#uij-e491",
+          "bbox": null,
+          "html": "<li id=\"uij-e491\"><a href=\"http://gis.its.ucdavis.edu/evexplorer/\" id=\"uij-e492\">EV Explorer</a></li>"
+        }
+      ]
+    },
+    {
+      "rule_id": "meta-viewport-large",
+      "impact": "",
+      "tags": [],
+      "description": "Ensure <meta name=\"viewport\"> can scale a significant amount",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/meta-viewport-large?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "meta[name=\"viewport\"]"
+          ],
+          "selector": "meta[name=\"viewport\"]",
+          "bbox": null,
+          "html": "<meta content=\"width=device-width, initial-scale=1\" name=\"viewport\">"
+        }
+      ]
+    },
+    {
+      "rule_id": "meta-viewport",
+      "impact": "",
+      "tags": [
+        "wcag2aa",
+        "wcag144"
+      ],
+      "description": "Ensure <meta name=\"viewport\"> does not disable text scaling and zooming",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/meta-viewport?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "meta[name=\"viewport\"]"
+          ],
+          "selector": "meta[name=\"viewport\"]",
+          "bbox": null,
+          "html": "<meta content=\"width=device-width, initial-scale=1\" name=\"viewport\">"
+        }
+      ]
+    },
+    {
+      "rule_id": "nested-interactive",
+      "impact": "",
+      "tags": [
+        "wcag2a",
+        "wcag412"
+      ],
+      "description": "Ensure interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/nested-interactive?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e7"
+          ],
+          "selector": "#uij-e7",
+          "bbox": null,
+          "html": "<img alt=\"U.S. Department of Energy - Energy Efficiency and Renewable Energy\" id=\"uij-e7\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk+P+/HgAFhAJ/wlseKgAAAAB"
+        },
+        {
+          "target": [
+            "#uij-e9"
+          ],
+          "selector": "#uij-e9",
+          "bbox": null,
+          "html": "<img alt=\"U.S. Environmental Protection Agency - Office of Transportation and Air Quality\" id=\"uij-e9\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMsAAAAdCAYAAAAEnJgBAAAABHNCSVQICAgIfAhkiAAAAA"
+        },
+        {
+          "target": [
+            "#uij-e13"
+          ],
+          "selector": "#uij-e13",
+          "bbox": null,
+          "html": "<img alt=\"www.fueleconomy.gov - the official government source for fuel economy information\" class=\"img-responsive\" id=\"uij-e13\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwC"
+        },
+        {
+          "target": [
+            "#uij-e363"
+          ],
+          "selector": "#uij-e363",
+          "bbox": null,
+          "html": "<img alt=\"2026-2027 Fuel Economy Estimates Now Available! Includes plug-in hybrid and electric vehicles.  Fuel economy leaders lists. More vehicles added weekly\" class=\"img-responsive\" id=\"uij-e363\" s"
+        },
+        {
+          "target": [
+            "#uij-e389"
+          ],
+          "selector": "#uij-e389",
+          "bbox": null,
+          "html": "<img alt=\"Woman shopping for new car\" class=\"img-responsive img-rounded img-home hidden-xs\" id=\"uij-e389\" src=\"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAXwBfAAD/4TIiaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS"
+        },
+        {
+          "target": [
+            "#uij-e398"
+          ],
+          "selector": "#uij-e398",
+          "bbox": null,
+          "html": "<img alt=\"Refueling vehicle\" class=\"img-responsive img-rounded img-home hidden-xs\" id=\"uij-e398\" src=\"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEA8ADwAAD/4TIpaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLwA8P3h"
+        },
+        {
+          "target": [
+            "#uij-e407"
+          ],
+          "selector": "#uij-e407",
+          "bbox": null,
+          "html": "<img alt=\"Save Money\" class=\"img-responsive img-rounded img-home hidden-xs\" id=\"uij-e407\" src=\"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/4TIpaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLwA8P3hwYWNrZX"
+        },
+        {
+          "target": [
+            "#uij-e418"
+          ],
+          "selector": "#uij-e418",
+          "bbox": null,
+          "html": "<img alt=\"Charging a car\" class=\"img-responsive img-rounded img-home hidden-xs\" id=\"uij-e418\" src=\"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAXwBfAAD/4TIiaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLwA8P3hwYW"
+        }
+      ]
+    },
+    {
+      "rule_id": "page-has-heading-one",
+      "impact": "",
+      "tags": [],
+      "description": "Ensure that the page, or at least one of its frames contains a level-one heading",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/page-has-heading-one?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "html"
+          ],
+          "selector": "html",
+          "bbox": null,
+          "html": "<html lang=\"en\">"
+        }
+      ]
+    },
+    {
+      "rule_id": "region",
+      "impact": "moderate",
+      "tags": [],
+      "description": "Ensure all page content is contained by landmarks",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/region?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e0"
+          ],
+          "selector": "#uij-e0",
+          "bbox": null,
+          "html": "<div class=\"skipnav\" id=\"uij-e0\"><a href=\"#main-content\" id=\"uij-e1\">Skip to main content</a></div>"
+        },
+        {
+          "target": [
+            "#uij-e1"
+          ],
+          "selector": "#uij-e1",
+          "bbox": null,
+          "html": "<a href=\"#main-content\" id=\"uij-e1\">Skip to main content</a>"
+        },
+        {
+          "target": [
+            "#uij-e2"
+          ],
+          "selector": "#uij-e2",
+          "bbox": null,
+          "html": "<header id=\"uij-e2\">"
+        },
+        {
+          "target": [
+            "#uij-e3"
+          ],
+          "selector": "#uij-e3",
+          "bbox": null,
+          "html": "<div class=\"sponsor\" id=\"uij-e3\">"
+        },
+        {
+          "target": [
+            "#uij-e4"
+          ],
+          "selector": "#uij-e4",
+          "bbox": null,
+          "html": "<div class=\"container\" id=\"uij-e4\">"
+        },
+        {
+          "target": [
+            "#sponsor-head"
+          ],
+          "selector": "#sponsor-head",
+          "bbox": null,
+          "html": "<div class=\"row hidden-xs\" id=\"sponsor-head\" style=\"margin-bottom: 2px; margin-top: 5px\">"
+        },
+        {
+          "target": [
+            "#uij-e5"
+          ],
+          "selector": "#uij-e5",
+          "bbox": null,
+          "html": "<div class=\"col-sm-12\" id=\"uij-e5\" style=\"display: flex; justify-content: space-between; align-items: center\">"
+        },
+        {
+          "target": [
+            "#uij-e6"
+          ],
+          "selector": "#uij-e6",
+          "bbox": null,
+          "html": "<a href=\"https://www.eere.energy.gov\" id=\"uij-e6\" target=\"_parent\">"
+        },
+        {
+          "target": [
+            "#uij-e7"
+          ],
+          "selector": "#uij-e7",
+          "bbox": null,
+          "html": "<img alt=\"U.S. Department of Energy - Energy Efficiency and Renewable Energy\" id=\"uij-e7\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk+P+/HgAFhAJ/wlseKgAAAAB"
+        },
+        {
+          "target": [
+            "#uij-e8"
+          ],
+          "selector": "#uij-e8",
+          "bbox": null,
+          "html": "<a href=\"https://www.epa.gov/otaq/\" id=\"uij-e8\" target=\"_parent\">"
+        },
+        {
+          "target": [
+            "#uij-e9"
+          ],
+          "selector": "#uij-e9",
+          "bbox": null,
+          "html": "<img alt=\"U.S. Environmental Protection Agency - Office of Transportation and Air Quality\" id=\"uij-e9\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMsAAAAdCAYAAAAEnJgBAAAABHNCSVQICAgIfAhkiAAAAA"
+        },
+        {
+          "target": [
+            "#uij-e10"
+          ],
+          "selector": "#uij-e10",
+          "bbox": null,
+          "html": "<div class=\"logo-row hidden-xs\" id=\"uij-e10\">"
+        },
+        {
+          "target": [
+            "#uij-e11"
+          ],
+          "selector": "#uij-e11",
+          "bbox": null,
+          "html": "<div class=\"container\" id=\"uij-e11\">"
+        },
+        {
+          "target": [
+            "#hd"
+          ],
+          "selector": "#hd",
+          "bbox": null,
+          "html": "<div class=\"row hidden-xs\" id=\"hd\">"
+        },
+        {
+          "target": [
+            "#feg-logo"
+          ],
+          "selector": "#feg-logo",
+          "bbox": null,
+          "html": "<div class=\"col-sm-6\" id=\"feg-logo\">"
+        },
+        {
+          "target": [
+            "#uij-e12"
+          ],
+          "selector": "#uij-e12",
+          "bbox": null,
+          "html": "<a href=\"https://www.fueleconomy.gov\" id=\"uij-e12\" style=\"text-decoration: none;\">"
+        },
+        {
+          "target": [
+            "#uij-e13"
+          ],
+          "selector": "#uij-e13",
+          "bbox": null,
+          "html": "<img alt=\"www.fueleconomy.gov - the official government source for fuel economy information\" class=\"img-responsive\" id=\"uij-e13\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwC"
+        },
+        {
+          "target": [
+            "#mini-menu"
+          ],
+          "selector": "#mini-menu",
+          "bbox": null,
+          "html": "<div class=\"col-sm-6 hidden-xs\" id=\"mini-menu\">"
+        },
+        {
+          "target": [
+            "#uij-e14"
+          ],
+          "selector": "#uij-e14",
+          "bbox": null,
+          "html": "<nav id=\"uij-e14\">"
+        },
+        {
+          "target": [
+            "#uij-e15"
+          ],
+          "selector": "#uij-e15",
+          "bbox": null,
+          "html": "<ul class=\"inline text-right\" id=\"uij-e15\">"
+        },
+        {
+          "target": [
+            "#uij-e16"
+          ],
+          "selector": "#uij-e16",
+          "bbox": null,
+          "html": "<li id=\"uij-e16\"><a href=\"/feg/esIndex.shtml\" id=\"uij-e17\">Español</a></li>"
+        },
+        {
+          "target": [
+            "#uij-e17"
+          ],
+          "selector": "#uij-e17",
+          "bbox": null,
+          "html": "<a href=\"/feg/esIndex.shtml\" id=\"uij-e17\">Español</a>"
+        },
+        {
+          "target": [
+            "#uij-e18"
+          ],
+          "selector": "#uij-e18",
+          "bbox": null,
+          "html": "<li id=\"uij-e18\"><a href=\"/feg/sitemap.shtml\" id=\"uij-e19\">Site Map</a></li>"
+        },
+        {
+          "target": [
+            "#uij-e19"
+          ],
+          "selector": "#uij-e19",
+          "bbox": null,
+          "html": "<a href=\"/feg/sitemap.shtml\" id=\"uij-e19\">Site Map</a>"
+        },
+        {
+          "target": [
+            "#uij-e20"
+          ],
+          "selector": "#uij-e20",
+          "bbox": null,
+          "html": "<li id=\"uij-e20\"><a href=\"/feg/links.shtml\" id=\"uij-e21\"><span class=\"sr-only\" id=\"uij-e22\">General </span>Links</a></li>"
+        },
+        {
+          "target": [
+            "#uij-e21"
+          ],
+          "selector": "#uij-e21",
+          "bbox": null,
+          "html": "<a href=\"/feg/links.shtml\" id=\"uij-e21\"><span class=\"sr-only\" id=\"uij-e22\">General </span>Links</a>"
+        },
+        {
+          "target": [
+            "#uij-e22"
+          ],
+          "selector": "#uij-e22",
+          "bbox": null,
+          "html": "<span class=\"sr-only\" id=\"uij-e22\">General </span>"
+        },
+        {
+          "target": [
+            "#uij-e23"
+          ],
+          "selector": "#uij-e23",
+          "bbox": null,
+          "html": "<li id=\"uij-e23\"><a href=\"/feg/info.shtml\" id=\"uij-e24\">FAQ</a></li>"
+        },
+        {
+          "target": [
+            "#uij-e24"
+          ],
+          "selector": "#uij-e24",
+          "bbox": null,
+          "html": "<a href=\"/feg/info.shtml\" id=\"uij-e24\">FAQ</a>"
+        },
+        {
+          "target": [
+            "#uij-e25"
+          ],
+          "selector": "#uij-e25",
+          "bbox": null,
+          "html": "<li id=\"uij-e25\"><a href=\"/feg/videos.shtml\" id=\"uij-e26\">Videos</a></li>"
+        },
+        {
+          "target": [
+            "#uij-e26"
+          ],
+          "selector": "#uij-e26",
+          "bbox": null,
+          "html": "<a href=\"/feg/videos.shtml\" id=\"uij-e26\">Videos</a>"
+        },
+        {
+          "target": [
+            "#uij-e27"
+          ],
+          "selector": "#uij-e27",
+          "bbox": null,
+          "html": "<nav id=\"uij-e27\">"
+        },
+        {
+          "target": [
+            "#uij-e28"
+          ],
+          "selector": "#uij-e28",
+          "bbox": null,
+          "html": "<div class=\"main-nav navbar navbar-default\" id=\"uij-e28\" role=\"navigation\">"
+        },
+        {
+          "target": [
+            "#uij-e29"
+          ],
+          "selector": "#uij-e29",
+          "bbox": null,
+          "html": "<div class=\"container nav-container\" id=\"uij-e29\">"
+        },
+        {
+          "target": [
+            "#uij-e30"
+          ],
+          "selector": "#uij-e30",
+          "bbox": null,
+          "html": "<div class=\"navbar-header\" id=\"uij-e30\">"
+        },
+        {
+          "target": [
+            "#uij-e38"
+          ],
+          "selector": "#uij-e38",
+          "bbox": null,
+          "html": "<div class=\"collapse navbar-collapse navbar-ex1-collapse\" id=\"uij-e38\">"
+        },
+        {
+          "target": [
+            "#uij-e39"
+          ],
+          "selector": "#uij-e39",
+          "bbox": null,
+          "html": "<ul class=\"nav navbar-nav\" id=\"uij-e39\">"
+        },
+        {
+          "target": [
+            "#uij-e40"
+          ],
+          "selector": "#uij-e40",
+          "bbox": null,
+          "html": "<li class=\"dropdown\" id=\"uij-e40\">"
+        },
+        {
+          "target": [
+            "#uij-e41"
+          ],
+          "selector": "#uij-e41",
+          "bbox": null,
+          "html": "<a class=\"dropdown-toggle\" data-toggle=\"dropdown\" href=\"/feg/findacar.shtml\" id=\"uij-e41\">Find a Car</a>"
+        },
+        {
+          "target": [
+            "#uij-e89"
+          ],
+          "selector": "#uij-e89",
+          "bbox": null,
+          "html": "<li class=\"dropdown\" id=\"uij-e89\">"
+        },
+        {
+          "target": [
+            "#uij-e90"
+          ],
+          "selector": "#uij-e90",
+          "bbox": null,
+          "html": "<a class=\"dropdown-toggle\" data-toggle=\"dropdown\" href=\"javascript:void(0);\" id=\"uij-e90\">Save Money &amp; Fuel</a>"
+        },
+        {
+          "target": [
+            "#uij-e139"
+          ],
+          "selector": "#uij-e139",
+          "bbox": null,
+          "html": "<li class=\"dropdown\" id=\"uij-e139\">"
+        },
+        {
+          "target": [
+            "#uij-e140"
+          ],
+          "selector": "#uij-e140",
+          "bbox": null,
+          "html": "<a class=\"dropdown-toggle\" data-toggle=\"dropdown\" href=\"/feg/why.shtml\" id=\"uij-e140\">Benefits</a>"
+        },
+        {
+          "target": [
+            "#uij-e149"
+          ],
+          "selector": "#uij-e149",
+          "bbox": null,
+          "html": "<li class=\"dropdown\" id=\"uij-e149\">"
+        },
+        {
+          "target": [
+            "#uij-e150"
+          ],
+          "selector": "#uij-e150",
+          "bbox": null,
+          "html": "<a class=\"dropdown-toggle\" data-toggle=\"dropdown\" href=\"/mpg/MPG.do\" id=\"uij-e150\">My MPG</a>"
+        },
+        {
+          "target": [
+            "#uij-e169"
+          ],
+          "selector": "#uij-e169",
+          "bbox": null,
+          "html": "<li class=\"dropdown\" id=\"uij-e169\">"
+        },
+        {
+          "target": [
+            "#uij-e170"
+          ],
+          "selector": "#uij-e170",
+          "bbox": null,
+          "html": "<a class=\"dropdown-toggle\" data-toggle=\"dropdown\" href=\"javascript:void(0);\" id=\"uij-e170\">Advanced Cars &amp; Fuels</a>"
+        },
+        {
+          "target": [
+            "#uij-e274"
+          ],
+          "selector": "#uij-e274",
+          "bbox": null,
+          "html": "<li class=\"dropdown\" id=\"uij-e274\">"
+        },
+        {
+          "target": [
+            "#uij-e275"
+          ],
+          "selector": "#uij-e275",
+          "bbox": null,
+          "html": "<a class=\"dropdown-toggle\" data-toggle=\"dropdown\" href=\"javascript:void(0);\" id=\"uij-e275\">About EPA Ratings</a>"
+        },
+        {
+          "target": [
+            "#uij-e319"
+          ],
+          "selector": "#uij-e319",
+          "bbox": null,
+          "html": "<li class=\"dropdown\" id=\"uij-e319\">"
+        },
+        {
+          "target": [
+            "#uij-e320"
+          ],
+          "selector": "#uij-e320",
+          "bbox": null,
+          "html": "<a class=\"dropdown-toggle\" data-toggle=\"dropdown\" href=\"javascript:void(0);\" id=\"uij-e320\">More<span class=\"sr-only\" id=\"uij-e321\"> Topics</span></a>"
+        },
+        {
+          "target": [
+            "#uij-e321"
+          ],
+          "selector": "#uij-e321",
+          "bbox": null,
+          "html": "<span class=\"sr-only\" id=\"uij-e321\"> Topics</span>"
+        },
+        {
+          "target": [
+            "#searchDdParent"
+          ],
+          "selector": "#searchDdParent",
+          "bbox": null,
+          "html": "<li class=\"dropdown\" id=\"searchDdParent\">"
+        },
+        {
+          "target": [
+            "#search-link-menu"
+          ],
+          "selector": "#search-link-menu",
+          "bbox": null,
+          "html": "<a class=\"dropdown-toggle\" data-toggle=\"dropdown\" href=\"javascript: void(0);\" id=\"search-link-menu\" style=\"padding-top: 8px; padding-bottom: 8px\">"
+        },
+        {
+          "target": [
+            "#search-icon"
+          ],
+          "selector": "#search-icon",
+          "bbox": null,
+          "html": "<div class=\"search-icon-topnav hidden-xs\" id=\"search-icon\" style=\"margin-left: 5px; margin-right: 5px\"></div>"
+        },
+        {
+          "target": [
+            "#main-container"
+          ],
+          "selector": "#main-container",
+          "bbox": null,
+          "html": "<div class=\"container\" id=\"main-container\">"
+        },
+        {
+          "target": [
+            "#uij-e357"
+          ],
+          "selector": "#uij-e357",
+          "bbox": null,
+          "html": "<div class=\"row\" id=\"uij-e357\">"
+        },
+        {
+          "target": [
+            "#main-content"
+          ],
+          "selector": "#main-content",
+          "bbox": null,
+          "html": "<div class=\"col-sm-12\" id=\"main-content\">"
+        },
+        {
+          "target": [
+            "#content"
+          ],
+          "selector": "#content",
+          "bbox": null,
+          "html": "<a id=\"content\"></a>"
+        },
+        {
+          "target": [
+            "#uij-e359"
+          ],
+          "selector": "#uij-e359",
+          "bbox": null,
+          "html": "<div class=\"row row1\" id=\"uij-e359\">"
+        },
+        {
+          "target": [
+            "#carousel-home"
+          ],
+          "selector": "#carousel-home",
+          "bbox": null,
+          "html": "<div class=\"carousel slide hidden-xs\" data-ride=\"carousel\" id=\"carousel-home\">"
+        },
+        {
+          "target": [
+            "#uij-e360"
+          ],
+          "selector": "#uij-e360",
+          "bbox": null,
+          "html": "<div class=\"carousel-inner\" id=\"uij-e360\">"
+        },
+        {
+          "target": [
+            "#uij-e362"
+          ],
+          "selector": "#uij-e362",
+          "bbox": null,
+          "html": "<a href=\"/feg/findacar.shtml\" id=\"uij-e362\" target=\"_self\">"
+        },
+        {
+          "target": [
+            "#uij-e363"
+          ],
+          "selector": "#uij-e363",
+          "bbox": null,
+          "html": "<img alt=\"2026-2027 Fuel Economy Estimates Now Available! Includes plug-in hybrid and electric vehicles.  Fuel economy leaders lists. More vehicles added weekly\" class=\"img-responsive\" id=\"uij-e363\" s"
+        },
+        {
+          "target": [
+            "#uij-e368"
+          ],
+          "selector": "#uij-e368",
+          "bbox": null,
+          "html": "<span class=\"sr-only\" id=\"uij-e368\">View previous slide</span>"
+        },
+        {
+          "target": [
+            "#uij-e370"
+          ],
+          "selector": "#uij-e370",
+          "bbox": null,
+          "html": "<span class=\"sr-only\" id=\"uij-e370\">View next slide</span>"
+        },
+        {
+          "target": [
+            "#uij-e386"
+          ],
+          "selector": "#uij-e386",
+          "bbox": null,
+          "html": "<div class=\"col-sm-3\" id=\"uij-e386\">"
+        },
+        {
+          "target": [
+            "#uij-e387"
+          ],
+          "selector": "#uij-e387",
+          "bbox": null,
+          "html": "<a href=\"/feg/findacar.shtml\" id=\"uij-e387\">"
+        },
+        {
+          "target": [
+            "#uij-e388"
+          ],
+          "selector": "#uij-e388",
+          "bbox": null,
+          "html": "<h2 id=\"uij-e388\">Find &amp; Compare Cars</h2>"
+        },
+        {
+          "target": [
+            "#uij-e389"
+          ],
+          "selector": "#uij-e389",
+          "bbox": null,
+          "html": "<img alt=\"Woman shopping for new car\" class=\"img-responsive img-rounded img-home hidden-xs\" id=\"uij-e389\" src=\"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAXwBfAAD/4TIiaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS"
+        },
+        {
+          "target": [
+            "#uij-e390"
+          ],
+          "selector": "#uij-e390",
+          "bbox": null,
+          "html": "<ul class=\"home-link-list\" id=\"uij-e390\">\n<li id=\"uij-e391\"><a href=\"/feg/Find.do?action=sbsSelect\" id=\"uij-e392\">Compare Side-by-Side</a></li>\n<li id=\"uij-e393\"><a href=\"/feg/powerSearch.jsp\" id=\"uij"
+        },
+        {
+          "target": [
+            "#uij-e391"
+          ],
+          "selector": "#uij-e391",
+          "bbox": null,
+          "html": "<li id=\"uij-e391\"><a href=\"/feg/Find.do?action=sbsSelect\" id=\"uij-e392\">Compare Side-by-Side</a></li>"
+        },
+        {
+          "target": [
+            "#uij-e392"
+          ],
+          "selector": "#uij-e392",
+          "bbox": null,
+          "html": "<a href=\"/feg/Find.do?action=sbsSelect\" id=\"uij-e392\">Compare Side-by-Side</a>"
+        },
+        {
+          "target": [
+            "#uij-e393"
+          ],
+          "selector": "#uij-e393",
+          "bbox": null,
+          "html": "<li id=\"uij-e393\"><a href=\"/feg/powerSearch.jsp\" id=\"uij-e394\">Power Search</a></li>"
+        },
+        {
+          "target": [
+            "#uij-e394"
+          ],
+          "selector": "#uij-e394",
+          "bbox": null,
+          "html": "<a href=\"/feg/powerSearch.jsp\" id=\"uij-e394\">Power Search</a>"
+        },
+        {
+          "target": [
+            "#uij-e395"
+          ],
+          "selector": "#uij-e395",
+          "bbox": null,
+          "html": "<div class=\"col-sm-3\" id=\"uij-e395\">"
+        },
+        {
+          "target": [
+            "#uij-e396"
+          ],
+          "selector": "#uij-e396",
+          "bbox": null,
+          "html": "<a href=\"https://www.fueleconomy.gov/mpg/MPG.do?action=garage\" id=\"uij-e396\">"
+        },
+        {
+          "target": [
+            "#uij-e397"
+          ],
+          "selector": "#uij-e397",
+          "bbox": null,
+          "html": "<h2 id=\"uij-e397\">My MPG</h2>"
+        },
+        {
+          "target": [
+            "#uij-e398"
+          ],
+          "selector": "#uij-e398",
+          "bbox": null,
+          "html": "<img alt=\"Refueling vehicle\" class=\"img-responsive img-rounded img-home hidden-xs\" id=\"uij-e398\" src=\"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEA8ADwAAD/4TIpaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLwA8P3h"
+        },
+        {
+          "target": [
+            "#uij-e399"
+          ],
+          "selector": "#uij-e399",
+          "bbox": null,
+          "html": "<ul class=\"home-link-list\" id=\"uij-e399\">"
+        },
+        {
+          "target": [
+            "#uij-e400"
+          ],
+          "selector": "#uij-e400",
+          "bbox": null,
+          "html": "<li id=\"uij-e400\"><a href=\"https://www.fueleconomy.gov/mpg/MPG.do?action=garage\" id=\"uij-e401\">Calculate or Share Your MPG</a></li>"
+        },
+        {
+          "target": [
+            "#uij-e401"
+          ],
+          "selector": "#uij-e401",
+          "bbox": null,
+          "html": "<a href=\"https://www.fueleconomy.gov/mpg/MPG.do?action=garage\" id=\"uij-e401\">Calculate or Share Your MPG</a>"
+        },
+        {
+          "target": [
+            "#uij-e402"
+          ],
+          "selector": "#uij-e402",
+          "bbox": null,
+          "html": "<li id=\"uij-e402\"><a href=\"https://www.fueleconomy.gov/feg/browseList.jsp?src=feg\" id=\"uij-e403\">Estimates from Drivers Like You</a></li>"
+        },
+        {
+          "target": [
+            "#uij-e403"
+          ],
+          "selector": "#uij-e403",
+          "bbox": null,
+          "html": "<a href=\"https://www.fueleconomy.gov/feg/browseList.jsp?src=feg\" id=\"uij-e403\">Estimates from Drivers Like You</a>"
+        },
+        {
+          "target": [
+            "#uij-e404"
+          ],
+          "selector": "#uij-e404",
+          "bbox": null,
+          "html": "<div class=\"col-sm-3\" id=\"uij-e404\">"
+        },
+        {
+          "target": [
+            "#uij-e405"
+          ],
+          "selector": "#uij-e405",
+          "bbox": null,
+          "html": "<a href=\"/feg/gasprices\" id=\"uij-e405\">"
+        },
+        {
+          "target": [
+            "#uij-e406"
+          ],
+          "selector": "#uij-e406",
+          "bbox": null,
+          "html": "<h2 id=\"uij-e406\">Save Money</h2>"
+        },
+        {
+          "target": [
+            "#uij-e407"
+          ],
+          "selector": "#uij-e407",
+          "bbox": null,
+          "html": "<img alt=\"Save Money\" class=\"img-responsive img-rounded img-home hidden-xs\" id=\"uij-e407\" src=\"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/4TIpaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLwA8P3hwYWNrZX"
+        },
+        {
+          "target": [
+            "#uij-e408"
+          ],
+          "selector": "#uij-e408",
+          "bbox": null,
+          "html": "<ul class=\"home-link-list\" id=\"uij-e408\">"
+        },
+        {
+          "target": [
+            "#uij-e409"
+          ],
+          "selector": "#uij-e409",
+          "bbox": null,
+          "html": "<li id=\"uij-e409\"><a href=\"/feg/drive.shtml\" id=\"uij-e410\">Gas Mileage Tips</a></li>"
+        },
+        {
+          "target": [
+            "#uij-e410"
+          ],
+          "selector": "#uij-e410",
+          "bbox": null,
+          "html": "<a href=\"/feg/drive.shtml\" id=\"uij-e410\">Gas Mileage Tips</a>"
+        },
+        {
+          "target": [
+            "#uij-e411"
+          ],
+          "selector": "#uij-e411",
+          "bbox": null,
+          "html": "<li id=\"uij-e411\"><a href=\"/feg/savemoney.jsp\" id=\"uij-e412\">Fuel Cost Calculator</a></li>"
+        },
+        {
+          "target": [
+            "#uij-e412"
+          ],
+          "selector": "#uij-e412",
+          "bbox": null,
+          "html": "<a href=\"/feg/savemoney.jsp\" id=\"uij-e412\">Fuel Cost Calculator</a>"
+        },
+        {
+          "target": [
+            "#uij-e413"
+          ],
+          "selector": "#uij-e413",
+          "bbox": null,
+          "html": "<li id=\"uij-e413\"><a href=\"/feg/gasprices\" id=\"uij-e414\">Find the Cheapest Gas</a></li>"
+        },
+        {
+          "target": [
+            "#uij-e414"
+          ],
+          "selector": "#uij-e414",
+          "bbox": null,
+          "html": "<a href=\"/feg/gasprices\" id=\"uij-e414\">Find the Cheapest Gas</a>"
+        },
+        {
+          "target": [
+            "#uij-e415"
+          ],
+          "selector": "#uij-e415",
+          "bbox": null,
+          "html": "<div class=\"col-sm-3\" id=\"uij-e415\">"
+        },
+        {
+          "target": [
+            "#uij-e416"
+          ],
+          "selector": "#uij-e416",
+          "bbox": null,
+          "html": "<a href=\"/feg/evsplash.shtml\" id=\"uij-e416\">"
+        },
+        {
+          "target": [
+            "#uij-e417"
+          ],
+          "selector": "#uij-e417",
+          "bbox": null,
+          "html": "<h2 id=\"uij-e417\">Hybrids &amp; Electrics</h2>"
+        },
+        {
+          "target": [
+            "#uij-e418"
+          ],
+          "selector": "#uij-e418",
+          "bbox": null,
+          "html": "<img alt=\"Charging a car\" class=\"img-responsive img-rounded img-home hidden-xs\" id=\"uij-e418\" src=\"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAXwBfAAD/4TIiaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLwA8P3hwYW"
+        },
+        {
+          "target": [
+            "#uij-e419"
+          ],
+          "selector": "#uij-e419",
+          "bbox": null,
+          "html": "<ul class=\"home-link-list\" id=\"uij-e419\">"
+        },
+        {
+          "target": [
+            "#uij-e420"
+          ],
+          "selector": "#uij-e420",
+          "bbox": null,
+          "html": "<li id=\"uij-e420\"><a href=\"/feg/hybridtech.shtml\" id=\"uij-e421\">Hybrids</a></li>"
+        },
+        {
+          "target": [
+            "#uij-e421"
+          ],
+          "selector": "#uij-e421",
+          "bbox": null,
+          "html": "<a href=\"/feg/hybridtech.shtml\" id=\"uij-e421\">Hybrids</a>"
+        },
+        {
+          "target": [
+            "#uij-e422"
+          ],
+          "selector": "#uij-e422",
+          "bbox": null,
+          "html": "<li id=\"uij-e422\"><a href=\"/feg/phevtech.shtml\" id=\"uij-e423\">Plug-in Hybrids</a></li>"
+        },
+        {
+          "target": [
+            "#uij-e423"
+          ],
+          "selector": "#uij-e423",
+          "bbox": null,
+          "html": "<a href=\"/feg/phevtech.shtml\" id=\"uij-e423\">Plug-in Hybrids</a>"
+        },
+        {
+          "target": [
+            "#uij-e424"
+          ],
+          "selector": "#uij-e424",
+          "bbox": null,
+          "html": "<li id=\"uij-e424\"><a href=\"/feg/evtech.shtml\" id=\"uij-e425\">All-Electric Vehicles</a></li>"
+        },
+        {
+          "target": [
+            "#uij-e425"
+          ],
+          "selector": "#uij-e425",
+          "bbox": null,
+          "html": "<a href=\"/feg/evtech.shtml\" id=\"uij-e425\">All-Electric Vehicles</a>"
+        },
+        {
+          "target": [
+            "#uij-e426"
+          ],
+          "selector": "#uij-e426",
+          "bbox": null,
+          "html": "<div class=\"col-sm-3\" id=\"uij-e426\">"
+        },
+        {
+          "target": [
+            "#uij-e427"
+          ],
+          "selector": "#uij-e427",
+          "bbox": null,
+          "html": "<div class=\"header\" id=\"uij-e427\">\n<h2 id=\"uij-e428\">Calculators and Other Tools</h2>\n</div>"
+        },
+        {
+          "target": [
+            "#uij-e428"
+          ],
+          "selector": "#uij-e428",
+          "bbox": null,
+          "html": "<h2 id=\"uij-e428\">Calculators and Other Tools</h2>"
+        },
+        {
+          "target": [
+            "#uij-e429"
+          ],
+          "selector": "#uij-e429",
+          "bbox": null,
+          "html": "<ul class=\"home-link-list\" id=\"uij-e429\">"
+        },
+        {
+          "target": [
+            "#uij-e430"
+          ],
+          "selector": "#uij-e430",
+          "bbox": null,
+          "html": "<li id=\"uij-e430\"><a href=\"/feg/savemoney.jsp\" id=\"uij-e431\">Fuel Savings Calculator</a></li>"
+        },
+        {
+          "target": [
+            "#uij-e431"
+          ],
+          "selector": "#uij-e431",
+          "bbox": null,
+          "html": "<a href=\"/feg/savemoney.jsp\" id=\"uij-e431\">Fuel Savings Calculator</a>"
+        },
+        {
+          "target": [
+            "#uij-e432"
+          ],
+          "selector": "#uij-e432",
+          "bbox": null,
+          "html": "<li id=\"uij-e432\"><a href=\"/trip/\" id=\"uij-e433\">Trip Calculator</a></li>"
+        },
+        {
+          "target": [
+            "#uij-e433"
+          ],
+          "selector": "#uij-e433",
+          "bbox": null,
+          "html": "<a href=\"/trip/\" id=\"uij-e433\">Trip Calculator</a>"
+        },
+        {
+          "target": [
+            "#uij-e434"
+          ],
+          "selector": "#uij-e434",
+          "bbox": null,
+          "html": "<li id=\"uij-e434\"><a href=\"/feg/UsedCarLabel.jsp\" id=\"uij-e435\">Used Car Label Tool</a></li>"
+        },
+        {
+          "target": [
+            "#uij-e435"
+          ],
+          "selector": "#uij-e435",
+          "bbox": null,
+          "html": "<a href=\"/feg/UsedCarLabel.jsp\" id=\"uij-e435\">Used Car Label Tool</a>"
+        },
+        {
+          "target": [
+            "#uij-e436"
+          ],
+          "selector": "#uij-e436",
+          "bbox": null,
+          "html": "<li id=\"uij-e436\"><a href=\"/feg/ws/\" id=\"uij-e437\">Developer Tools</a></li>"
+        },
+        {
+          "target": [
+            "#uij-e437"
+          ],
+          "selector": "#uij-e437",
+          "bbox": null,
+          "html": "<a href=\"/feg/ws/\" id=\"uij-e437\">Developer Tools</a>"
+        },
+        {
+          "target": [
+            "#uij-e438"
+          ],
+          "selector": "#uij-e438",
+          "bbox": null,
+          "html": "<li id=\"uij-e438\"><a href=\"/widgets/\" id=\"uij-e439\">Find a Car Widget</a></li>"
+        },
+        {
+          "target": [
+            "#uij-e439"
+          ],
+          "selector": "#uij-e439",
+          "bbox": null,
+          "html": "<a href=\"/widgets/\" id=\"uij-e439\">Find a Car Widget</a>"
+        },
+        {
+          "target": [
+            "#uij-e440"
+          ],
+          "selector": "#uij-e440",
+          "bbox": null,
+          "html": "<li id=\"uij-e440\"><a href=\"/feg/Find.do?action=bt2\" id=\"uij-e441\">GHG Emissions Calculator</a></li>"
+        },
+        {
+          "target": [
+            "#uij-e441"
+          ],
+          "selector": "#uij-e441",
+          "bbox": null,
+          "html": "<a href=\"/feg/Find.do?action=bt2\" id=\"uij-e441\">GHG Emissions Calculator</a>"
+        },
+        {
+          "target": [
+            "#uij-e442"
+          ],
+          "selector": "#uij-e442",
+          "bbox": null,
+          "html": "<li id=\"uij-e442\"><a href=\"/feg/hybridCompare.jsp\" id=\"uij-e443\">Can a Hybrid Save Me Money?</a></li>"
+        },
+        {
+          "target": [
+            "#uij-e443"
+          ],
+          "selector": "#uij-e443",
+          "bbox": null,
+          "html": "<a href=\"/feg/hybridCompare.jsp\" id=\"uij-e443\">Can a Hybrid Save Me Money?</a>"
+        },
+        {
+          "target": [
+            "#uij-e444"
+          ],
+          "selector": "#uij-e444",
+          "bbox": null,
+          "html": "<li id=\"uij-e444\"><a href=\"/feg/Find.do?action=phev1Prompt\" id=\"uij-e445\">My Plug-in Hybrid Calculator</a></li>"
+        },
+        {
+          "target": [
+            "#uij-e445"
+          ],
+          "selector": "#uij-e445",
+          "bbox": null,
+          "html": "<a href=\"/feg/Find.do?action=phev1Prompt\" id=\"uij-e445\">My Plug-in Hybrid Calculator</a>"
+        },
+        {
+          "target": [
+            "#uij-e446"
+          ],
+          "selector": "#uij-e446",
+          "bbox": null,
+          "html": "<div class=\"col-sm-3\" id=\"uij-e446\">"
+        },
+        {
+          "target": [
+            "#uij-e447"
+          ],
+          "selector": "#uij-e447",
+          "bbox": null,
+          "html": "<div class=\"header\" id=\"uij-e447\">\n<h2 id=\"uij-e448\">New on fueleconomy.gov…</h2>\n</div>"
+        },
+        {
+          "target": [
+            "#uij-e448"
+          ],
+          "selector": "#uij-e448",
+          "bbox": null,
+          "html": "<h2 id=\"uij-e448\">New on fueleconomy.gov…</h2>"
+        },
+        {
+          "target": [
+            "#uij-e449"
+          ],
+          "selector": "#uij-e449",
+          "bbox": null,
+          "html": "<ul class=\"home-link-list\" id=\"uij-e449\">"
+        },
+        {
+          "target": [
+            "#uij-e450"
+          ],
+          "selector": "#uij-e450",
+          "bbox": null,
+          "html": "<li id=\"uij-e450\"><a href=\"/feg/printGuides.shtml\" id=\"uij-e451\"> 2027 Fuel Economy Guide (Preliminary) </a></li>"
+        },
+        {
+          "target": [
+            "#uij-e451"
+          ],
+          "selector": "#uij-e451",
+          "bbox": null,
+          "html": "<a href=\"/feg/printGuides.shtml\" id=\"uij-e451\"> 2027 Fuel Economy Guide (Preliminary) </a>"
+        },
+        {
+          "target": [
+            "#uij-e452"
+          ],
+          "selector": "#uij-e452",
+          "bbox": null,
+          "html": "<li id=\"uij-e452\"><a href=\"/feg/printGuides.shtml\" id=\"uij-e453\"> 2026 Fuel Economy Guide </a></li>"
+        },
+        {
+          "target": [
+            "#uij-e453"
+          ],
+          "selector": "#uij-e453",
+          "bbox": null,
+          "html": "<a href=\"/feg/printGuides.shtml\" id=\"uij-e453\"> 2026 Fuel Economy Guide </a>"
+        },
+        {
+          "target": [
+            "#uij-e454"
+          ],
+          "selector": "#uij-e454",
+          "bbox": null,
+          "html": "<li id=\"uij-e454\"><a href=\"/feg/best-worst.shtml\" id=\"uij-e455\">2026 Best and Worst Fuel Economy</a></li>"
+        },
+        {
+          "target": [
+            "#uij-e455"
+          ],
+          "selector": "#uij-e455",
+          "bbox": null,
+          "html": "<a href=\"/feg/best-worst.shtml\" id=\"uij-e455\">2026 Best and Worst Fuel Economy</a>"
+        },
+        {
+          "target": [
+            "#uij-e456"
+          ],
+          "selector": "#uij-e456",
+          "bbox": null,
+          "html": "<li id=\"uij-e456\"><a href=\"/feg/topten.jsp\" id=\"uij-e457\">2026 Top Ten Vehicle Lists</a></li>"
+        },
+        {
+          "target": [
+            "#uij-e457"
+          ],
+          "selector": "#uij-e457",
+          "bbox": null,
+          "html": "<a href=\"/feg/topten.jsp\" id=\"uij-e457\">2026 Top Ten Vehicle Lists</a>"
+        },
+        {
+          "target": [
+            "#uij-e458"
+          ],
+          "selector": "#uij-e458",
+          "bbox": null,
+          "html": "<li id=\"uij-e458\"><a href=\"/feg/findacar.shtml\" id=\"uij-e459\">2026–27 Fuel Economy Data</a></li>"
+        },
+        {
+          "target": [
+            "#uij-e459"
+          ],
+          "selector": "#uij-e459",
+          "bbox": null,
+          "html": "<a href=\"/feg/findacar.shtml\" id=\"uij-e459\">2026–27 Fuel Economy Data</a>"
+        },
+        {
+          "target": [
+            "#uij-e460"
+          ],
+          "selector": "#uij-e460",
+          "bbox": null,
+          "html": "<div class=\"col-sm-3\" id=\"uij-e460\">"
+        },
+        {
+          "target": [
+            "#uij-e461"
+          ],
+          "selector": "#uij-e461",
+          "bbox": null,
+          "html": "<div class=\"header\" id=\"uij-e461\">\n<h2 id=\"uij-e462\">Quick Picks</h2>\n</div>"
+        },
+        {
+          "target": [
+            "#uij-e462"
+          ],
+          "selector": "#uij-e462",
+          "bbox": null,
+          "html": "<h2 id=\"uij-e462\">Quick Picks</h2>"
+        },
+        {
+          "target": [
+            "#uij-e463"
+          ],
+          "selector": "#uij-e463",
+          "bbox": null,
+          "html": "<ul class=\"home-link-list\" id=\"uij-e463\">"
+        },
+        {
+          "target": [
+            "#uij-e464"
+          ],
+          "selector": "#uij-e464",
+          "bbox": null,
+          "html": "<li id=\"uij-e464\"><a href=\"/feg/topten.jsp\" id=\"uij-e465\">Top 10 - Most Efficient Vehicles</a></li>"
+        },
+        {
+          "target": [
+            "#uij-e465"
+          ],
+          "selector": "#uij-e465",
+          "bbox": null,
+          "html": "<a href=\"/feg/topten.jsp\" id=\"uij-e465\">Top 10 - Most Efficient Vehicles</a>"
+        },
+        {
+          "target": [
+            "#uij-e466"
+          ],
+          "selector": "#uij-e466",
+          "bbox": null,
+          "html": "<li id=\"uij-e466\"><a href=\"/feg/comparempg.shtml\" id=\"uij-e467\">Compare Old vs. New EPA MPG</a></li>"
+        },
+        {
+          "target": [
+            "#uij-e467"
+          ],
+          "selector": "#uij-e467",
+          "bbox": null,
+          "html": "<a href=\"/feg/comparempg.shtml\" id=\"uij-e467\">Compare Old vs. New EPA MPG</a>"
+        },
+        {
+          "target": [
+            "#uij-e468"
+          ],
+          "selector": "#uij-e468",
+          "bbox": null,
+          "html": "<li id=\"uij-e468\"><a href=\"/feg/SmartWay.do\" id=\"uij-e469\">Find a SmartWay Vehicle</a></li>"
+        },
+        {
+          "target": [
+            "#uij-e469"
+          ],
+          "selector": "#uij-e469",
+          "bbox": null,
+          "html": "<a href=\"/feg/SmartWay.do\" id=\"uij-e469\">Find a SmartWay Vehicle</a>"
+        },
+        {
+          "target": [
+            "#uij-e470"
+          ],
+          "selector": "#uij-e470",
+          "bbox": null,
+          "html": "<li id=\"uij-e470\"><a href=\"/feg/extremeMPG.jsp\" id=\"uij-e471\">Extreme MPG</a></li>"
+        },
+        {
+          "target": [
+            "#uij-e471"
+          ],
+          "selector": "#uij-e471",
+          "bbox": null,
+          "html": "<a href=\"/feg/extremeMPG.jsp\" id=\"uij-e471\">Extreme MPG</a>"
+        },
+        {
+          "target": [
+            "#uij-e472"
+          ],
+          "selector": "#uij-e472",
+          "bbox": null,
+          "html": "<div class=\"col-sm-3\" id=\"uij-e472\">"
+        },
+        {
+          "target": [
+            "#uij-e473"
+          ],
+          "selector": "#uij-e473",
+          "bbox": null,
+          "html": "<div class=\"header\" id=\"uij-e473\">\n<h2 id=\"uij-e474\">Related Links</h2>\n</div>"
+        },
+        {
+          "target": [
+            "#uij-e474"
+          ],
+          "selector": "#uij-e474",
+          "bbox": null,
+          "html": "<h2 id=\"uij-e474\">Related Links</h2>"
+        },
+        {
+          "target": [
+            "#uij-e475"
+          ],
+          "selector": "#uij-e475",
+          "bbox": null,
+          "html": "<ul class=\"home-link-list\" id=\"uij-e475\">"
+        },
+        {
+          "target": [
+            "#uij-e476"
+          ],
+          "selector": "#uij-e476",
+          "bbox": null,
+          "html": "<li id=\"uij-e476\"><a href=\"https://www.epa.gov/greenvehicles/getting-started-home-ev-charging\" id=\"uij-e477\">Getting Started with Home EV Charging</a></li>"
+        },
+        {
+          "target": [
+            "#uij-e477"
+          ],
+          "selector": "#uij-e477",
+          "bbox": null,
+          "html": "<a href=\"https://www.epa.gov/greenvehicles/getting-started-home-ev-charging\" id=\"uij-e477\">Getting Started with Home EV Charging</a>"
+        },
+        {
+          "target": [
+            "#uij-e478"
+          ],
+          "selector": "#uij-e478",
+          "bbox": null,
+          "html": "<li id=\"uij-e478\"><a href=\"https://www.epa.gov/greenvehicles/watts-important-seven-tips-every-ev-driver-should-know\" id=\"uij-e479\">Seven Tips Every EV Driver Should Know!</a></li>"
+        },
+        {
+          "target": [
+            "#uij-e479"
+          ],
+          "selector": "#uij-e479",
+          "bbox": null,
+          "html": "<a href=\"https://www.epa.gov/greenvehicles/watts-important-seven-tips-every-ev-driver-should-know\" id=\"uij-e479\">Seven Tips Every EV Driver Should Know!</a>"
+        },
+        {
+          "target": [
+            "#uij-e480"
+          ],
+          "selector": "#uij-e480",
+          "bbox": null,
+          "html": "<li id=\"uij-e480\"><a href=\"https://www.epa.gov/greenvehicles/home-ev-charger-calculator\" id=\"uij-e481\">Home EV Charger Calculator</a></li>"
+        },
+        {
+          "target": [
+            "#uij-e481"
+          ],
+          "selector": "#uij-e481",
+          "bbox": null,
+          "html": "<a href=\"https://www.epa.gov/greenvehicles/home-ev-charger-calculator\" id=\"uij-e481\">Home EV Charger Calculator</a>"
+        },
+        {
+          "target": [
+            "#uij-e482"
+          ],
+          "selector": "#uij-e482",
+          "bbox": null,
+          "html": "<li id=\"uij-e482\"><a href=\"https://cleancities.energy.gov/\" id=\"uij-e483\">Clean Cities and Communities</a></li>"
+        },
+        {
+          "target": [
+            "#uij-e483"
+          ],
+          "selector": "#uij-e483",
+          "bbox": null,
+          "html": "<a href=\"https://cleancities.energy.gov/\" id=\"uij-e483\">Clean Cities and Communities</a>"
+        },
+        {
+          "target": [
+            "#uij-e484"
+          ],
+          "selector": "#uij-e484",
+          "bbox": null,
+          "html": "<li id=\"uij-e484\">"
+        },
+        {
+          "target": [
+            "#uij-e485"
+          ],
+          "selector": "#uij-e485",
+          "bbox": null,
+          "html": "<a href=\"http://www.afdc.energy.gov/afdc/\" id=\"uij-e485\">Alternative Fuels Data Center</a>"
+        },
+        {
+          "target": [
+            "#uij-e486"
+          ],
+          "selector": "#uij-e486",
+          "bbox": null,
+          "html": "<ul class=\"home-link-list2\" id=\"uij-e486\">\n<li id=\"uij-e487\"><a href=\"http://www.afdc.energy.gov/calc/\" id=\"uij-e488\">Vehicle Cost Calculator</a></li>\n<li id=\"uij-e489\"><a href=\"http://www.afdc.energy"
+        },
+        {
+          "target": [
+            "#uij-e487"
+          ],
+          "selector": "#uij-e487",
+          "bbox": null,
+          "html": "<li id=\"uij-e487\"><a href=\"http://www.afdc.energy.gov/calc/\" id=\"uij-e488\">Vehicle Cost Calculator</a></li>"
+        },
+        {
+          "target": [
+            "#uij-e488"
+          ],
+          "selector": "#uij-e488",
+          "bbox": null,
+          "html": "<a href=\"http://www.afdc.energy.gov/calc/\" id=\"uij-e488\">Vehicle Cost Calculator</a>"
+        },
+        {
+          "target": [
+            "#uij-e489"
+          ],
+          "selector": "#uij-e489",
+          "bbox": null,
+          "html": "<li id=\"uij-e489\"><a href=\"http://www.afdc.energy.gov/afdc/locator/stations/\" id=\"uij-e490\">Station Locator</a></li>"
+        },
+        {
+          "target": [
+            "#uij-e490"
+          ],
+          "selector": "#uij-e490",
+          "bbox": null,
+          "html": "<a href=\"http://www.afdc.energy.gov/afdc/locator/stations/\" id=\"uij-e490\">Station Locator</a>"
+        },
+        {
+          "target": [
+            "#uij-e491"
+          ],
+          "selector": "#uij-e491",
+          "bbox": null,
+          "html": "<li id=\"uij-e491\"><a href=\"http://gis.its.ucdavis.edu/evexplorer/\" id=\"uij-e492\">EV Explorer</a></li>"
+        },
+        {
+          "target": [
+            "#uij-e492"
+          ],
+          "selector": "#uij-e492",
+          "bbox": null,
+          "html": "<a href=\"http://gis.its.ucdavis.edu/evexplorer/\" id=\"uij-e492\">EV Explorer</a>"
+        },
+        {
+          "target": [
+            "#ft"
+          ],
+          "selector": "#ft",
+          "bbox": null,
+          "html": "<div id=\"ft\" role=\"contentinfo\">"
+        },
+        {
+          "target": [
+            "#uij-e493"
+          ],
+          "selector": "#uij-e493",
+          "bbox": null,
+          "html": "<nav id=\"uij-e493\">"
+        },
+        {
+          "target": [
+            "#uij-e503"
+          ],
+          "selector": "#uij-e503",
+          "bbox": null,
+          "html": "<span class=\"hidden-xs\" id=\"uij-e503\" style=\"display: inline\">"
+        },
+        {
+          "target": [
+            "#uij-e504"
+          ],
+          "selector": "#uij-e504",
+          "bbox": null,
+          "html": "<a href=\"/feg/contacts.shtml\" id=\"uij-e504\">Contacts</a>"
+        },
+        {
+          "target": [
+            "#uij-e505"
+          ],
+          "selector": "#uij-e505",
+          "bbox": null,
+          "html": "<a href=\"/feg/download.shtml\" id=\"uij-e505\">Download&nbsp;EPA's&nbsp;MPG Ratings</a>"
+        },
+        {
+          "target": [
+            "#uij-e506"
+          ],
+          "selector": "#uij-e506",
+          "bbox": null,
+          "html": "<a href=\"/feg/bymake/bymanuNF.shtml\" id=\"uij-e506\">Find&nbsp;and&nbsp;Compare&nbsp;Cars</a>"
+        },
+        {
+          "target": [
+            "#uij-e507"
+          ],
+          "selector": "#uij-e507",
+          "bbox": null,
+          "html": "<a href=\"//www.usa.gov\" id=\"uij-e507\">USA.gov</a>"
+        },
+        {
+          "target": [
+            "#uij-e508"
+          ],
+          "selector": "#uij-e508",
+          "bbox": null,
+          "html": "<a href=\"/feg/dealers.shtml\" id=\"uij-e508\">Info&nbsp;for&nbsp;Auto&nbsp;Dealers</a>"
+        },
+        {
+          "target": [
+            "#uij-e509"
+          ],
+          "selector": "#uij-e509",
+          "bbox": null,
+          "html": "<a href=\"/feg/ORNL-disclaimer.htm\" id=\"uij-e509\">Privacy/Security</a>"
+        },
+        {
+          "target": [
+            "#uij-e510"
+          ],
+          "selector": "#uij-e510",
+          "bbox": null,
+          "html": "<a href=\"mailto:fueleconomy@ornl.gov\" id=\"uij-e510\">Feedback</a>"
+        },
+        {
+          "target": [
+            "#uij-e512"
+          ],
+          "selector": "#uij-e512",
+          "bbox": null,
+          "html": "<div class=\"hidden-xs\" id=\"uij-e512\">\n<p class=\"ornlft\" id=\"uij-e513\">This website is administered by Oak Ridge National Laboratory for the U.S. Department of Energy and the U.S. Environmental Protect"
+        },
+        {
+          "target": [
+            "#uij-e513"
+          ],
+          "selector": "#uij-e513",
+          "bbox": null,
+          "html": "<p class=\"ornlft\" id=\"uij-e513\">This website is administered by Oak Ridge National Laboratory for the U.S. Department of Energy and the U.S. Environmental Protection Agency.</p>"
+        },
+        {
+          "target": [
+            "#uij-e525"
+          ],
+          "selector": "#uij-e525",
+          "bbox": null,
+          "html": "<div id=\"uij-e525\" style=\"height: 2.5em\"></div>"
+        },
+        {
+          "target": [
+            "#uij-e526"
+          ],
+          "selector": "#uij-e526",
+          "bbox": null,
+          "html": "<div aria-live=\"assertive\" aria-relevant=\"additions\" class=\"ui-helper-hidden-accessible\" id=\"uij-e526\" role=\"status\"></div>"
+        }
+      ]
+    },
+    {
+      "rule_id": "skip-link",
+      "impact": "",
+      "tags": [],
+      "description": "Ensure all skip links have a focusable target",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/skip-link?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e1"
+          ],
+          "selector": "#uij-e1",
+          "bbox": null,
+          "html": "<a href=\"#main-content\" id=\"uij-e1\">Skip to main content</a>"
+        }
+      ]
+    }
+  ]
+}

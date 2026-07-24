@@ -1,0 +1,7811 @@
+{
+  "element_count": 476,
+  "doc_width": 1920,
+  "doc_height": 3422,
+  "captured": [
+    {
+      "selector": "#uij-e0",
+      "tag": "a",
+      "id": "uij-e0",
+      "class": "usa-skipnav usa-sr-only focusable",
+      "role": null,
+      "text_prefix": "Skip to main content",
+      "bbox": {
+        "desktop": [
+          0,
+          -61,
+          199,
+          44
+        ],
+        "mobile": [
+          0,
+          -61,
+          199,
+          44
+        ]
+      }
+    },
+    {
+      "selector": "#header",
+      "tag": "header",
+      "id": "header",
+      "class": "usa-header usa-header--extended",
+      "role": null,
+      "text_prefix": "An official website of the United States government Here's how you know Here's h",
+      "bbox": {
+        "desktop": [
+          0,
+          0,
+          1920,
+          245
+        ],
+        "mobile": [
+          0,
+          0,
+          375,
+          125
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e2",
+      "tag": "div",
+      "id": "uij-e2",
+      "class": "usa-banner-inner",
+      "role": null,
+      "text_prefix": "An official website of the United States government Here's how you know Here's h",
+      "bbox": {
+        "desktop": [
+          0,
+          0,
+          1920,
+          52
+        ],
+        "mobile": [
+          0,
+          0,
+          375,
+          57
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e3",
+      "tag": "div",
+      "id": "uij-e3",
+      "class": null,
+      "role": null,
+      "text_prefix": "An official website of the United States government Here's how you know Here's h",
+      "bbox": {
+        "desktop": [
+          0,
+          0,
+          1920,
+          52
+        ],
+        "mobile": [
+          0,
+          0,
+          375,
+          57
+        ]
+      }
+    },
+    {
+      "selector": "#usagov-banner",
+      "tag": "section",
+      "id": "usagov-banner",
+      "class": "usa-banner",
+      "role": null,
+      "text_prefix": "An official website of the United States government Here's how you know Here's h",
+      "bbox": {
+        "desktop": [
+          0,
+          0,
+          1920,
+          52
+        ],
+        "mobile": [
+          0,
+          0,
+          375,
+          57
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e4",
+      "tag": "div",
+      "id": "uij-e4",
+      "class": "usa-accordion",
+      "role": null,
+      "text_prefix": "An official website of the United States government Here's how you know Here's h",
+      "bbox": {
+        "desktop": [
+          0,
+          0,
+          1920,
+          52
+        ],
+        "mobile": [
+          0,
+          0,
+          375,
+          57
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e5",
+      "tag": "div",
+      "id": "uij-e5",
+      "class": "usa-banner__header",
+      "role": "banner",
+      "text_prefix": "An official website of the United States government Here's how you know Here's h",
+      "bbox": {
+        "desktop": [
+          0,
+          0,
+          1920,
+          52
+        ],
+        "mobile": [
+          0,
+          0,
+          375,
+          57
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e6",
+      "tag": "div",
+      "id": "uij-e6",
+      "class": "usa-banner__inner",
+      "role": null,
+      "text_prefix": "An official website of the United States government Here's how you know Here's h",
+      "bbox": {
+        "desktop": [
+          366,
+          4,
+          1188,
+          44
+        ],
+        "mobile": [
+          0,
+          8,
+          375,
+          41
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e9",
+      "tag": "div",
+      "id": "uij-e9",
+      "class": "grid-col-fill tablet:grid-col-auto",
+      "role": null,
+      "text_prefix": "An official website of the United States government Here's how you know",
+      "bbox": {
+        "desktop": [
+          422,
+          16,
+          294,
+          19
+        ],
+        "mobile": [
+          40,
+          8,
+          335,
+          41
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e10",
+      "tag": "p",
+      "id": "uij-e10",
+      "class": "usa-banner__header-text",
+      "role": null,
+      "text_prefix": "An official website of the United States government",
+      "bbox": {
+        "desktop": [
+          422,
+          16,
+          294,
+          19
+        ],
+        "mobile": [
+          40,
+          8,
+          335,
+          19
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e15",
+      "tag": "button",
+      "id": "uij-e15",
+      "class": "usa-accordion__button usa-banner__button",
+      "role": null,
+      "text_prefix": "Here's how you know",
+      "bbox": {
+        "desktop": [
+          724,
+          4,
+          140,
+          44
+        ],
+        "mobile": [
+          0,
+          0,
+          375,
+          57
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e16",
+      "tag": "span",
+      "id": "uij-e16",
+      "class": "usa-banner__button-text",
+      "role": null,
+      "text_prefix": "Here's how you know",
+      "bbox": {
+        "desktop": [
+          724,
+          16,
+          124,
+          19
+        ],
+        "mobile": [
+          -12787,
+          28,
+          124,
+          19
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e20",
+      "tag": "div",
+      "id": "uij-e20",
+      "class": "grid-row grid-gap-lg",
+      "role": null,
+      "text_prefix": "Official websites use .gov A .gov website belongs to an official government orga",
+      "bbox": {
+        "desktop": [
+          436,
+          52,
+          1048,
+          96
+        ],
+        "mobile": [
+          -12,
+          57,
+          399,
+          248
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e21",
+      "tag": "div",
+      "id": "uij-e21",
+      "class": "usa-banner__guidance tablet:grid-col-6",
+      "role": null,
+      "text_prefix": "Official websites use .gov A .gov website belongs to an official government orga",
+      "bbox": {
+        "desktop": [
+          436,
+          52,
+          524,
+          96
+        ],
+        "mobile": [
+          -12,
+          57,
+          399,
+          112
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e22",
+      "tag": "img",
+      "id": "uij-e22",
+      "class": "usa-banner__icon usa-media-block__img",
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          448,
+          52,
+          40,
+          40
+        ],
+        "mobile": [
+          0,
+          73,
+          40,
+          40
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e23",
+      "tag": "div",
+      "id": "uij-e23",
+      "class": "usa-media-block__body",
+      "role": null,
+      "text_prefix": "Official websites use .gov A .gov website belongs to an official government orga",
+      "bbox": {
+        "desktop": [
+          496,
+          52,
+          452,
+          72
+        ],
+        "mobile": [
+          48,
+          73,
+          327,
+          96
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e24",
+      "tag": "p",
+      "id": "uij-e24",
+      "class": null,
+      "role": null,
+      "text_prefix": "Official websites use .gov A .gov website belongs to an official government orga",
+      "bbox": {
+        "desktop": [
+          496,
+          52,
+          452,
+          72
+        ],
+        "mobile": [
+          48,
+          73,
+          327,
+          96
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e25",
+      "tag": "strong",
+      "id": "uij-e25",
+      "class": null,
+      "role": null,
+      "text_prefix": "Official websites use .gov",
+      "bbox": {
+        "desktop": [
+          496,
+          54,
+          194,
+          19
+        ],
+        "mobile": [
+          48,
+          75,
+          194,
+          19
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e27",
+      "tag": "strong",
+      "id": "uij-e27",
+      "class": null,
+      "role": null,
+      "text_prefix": ".gov",
+      "bbox": {
+        "desktop": [
+          511,
+          78,
+          32,
+          19
+        ],
+        "mobile": [
+          63,
+          99,
+          32,
+          19
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e28",
+      "tag": "div",
+      "id": "uij-e28",
+      "class": "usa-banner__guidance tablet:grid-col-6",
+      "role": null,
+      "text_prefix": "Secure .gov websites use HTTPS A lock ( Lock Locked padlock icon ) or https:// m",
+      "bbox": {
+        "desktop": [
+          960,
+          52,
+          524,
+          96
+        ],
+        "mobile": [
+          -12,
+          169,
+          399,
+          136
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e29",
+      "tag": "img",
+      "id": "uij-e29",
+      "class": "usa-banner__icon usa-media-block__img",
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          972,
+          52,
+          40,
+          40
+        ],
+        "mobile": [
+          0,
+          185,
+          40,
+          40
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e30",
+      "tag": "div",
+      "id": "uij-e30",
+      "class": "usa-media-block__body",
+      "role": null,
+      "text_prefix": "Secure .gov websites use HTTPS A lock ( Lock Locked padlock icon ) or https:// m",
+      "bbox": {
+        "desktop": [
+          1020,
+          52,
+          452,
+          96
+        ],
+        "mobile": [
+          48,
+          185,
+          327,
+          120
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e31",
+      "tag": "p",
+      "id": "uij-e31",
+      "class": null,
+      "role": null,
+      "text_prefix": "Secure .gov websites use HTTPS A lock ( Lock Locked padlock icon ) or https:// m",
+      "bbox": {
+        "desktop": [
+          1020,
+          52,
+          452,
+          96
+        ],
+        "mobile": [
+          48,
+          185,
+          327,
+          120
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e32",
+      "tag": "strong",
+      "id": "uij-e32",
+      "class": null,
+      "role": null,
+      "text_prefix": "Secure .gov websites use HTTPS",
+      "bbox": {
+        "desktop": [
+          1020,
+          54,
+          251,
+          19
+        ],
+        "mobile": [
+          48,
+          187,
+          251,
+          19
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e34",
+      "tag": "strong",
+      "id": "uij-e34",
+      "class": null,
+      "role": null,
+      "text_prefix": "lock",
+      "bbox": {
+        "desktop": [
+          1035,
+          78,
+          32,
+          19
+        ],
+        "mobile": [
+          63,
+          211,
+          32,
+          19
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e39",
+      "tag": "strong",
+      "id": "uij-e39",
+      "class": null,
+      "role": null,
+      "text_prefix": "https://",
+      "bbox": {
+        "desktop": [
+          1122,
+          78,
+          55,
+          19
+        ],
+        "mobile": [
+          150,
+          211,
+          55,
+          19
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e101",
+      "tag": "div",
+      "id": "uij-e101",
+      "class": "usa-navbar",
+      "role": null,
+      "text_prefix": "Español Menu Call us at 1-844-USAGOV1 Search",
+      "bbox": {
+        "desktop": [
+          366,
+          52,
+          1188,
+          148
+        ],
+        "mobile": [
+          0,
+          57,
+          375,
+          68
+        ]
+      }
+    },
+    {
+      "selector": "#extended-logo",
+      "tag": "div",
+      "id": "extended-logo",
+      "class": "usa-logo",
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          398,
+          60,
+          80,
+          80
+        ],
+        "mobile": [
+          16,
+          65,
+          164,
+          51
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e102",
+      "tag": "em",
+      "id": "uij-e102",
+      "class": "usa-logo-text",
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          398,
+          60,
+          80,
+          80
+        ],
+        "mobile": [
+          16,
+          65,
+          164,
+          51
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e103",
+      "tag": "a",
+      "id": "uij-e103",
+      "class": null,
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          398,
+          60,
+          80,
+          80
+        ],
+        "mobile": [
+          16,
+          65,
+          51,
+          51
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e104",
+      "tag": "img",
+      "id": "uij-e104",
+      "class": null,
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          398,
+          60,
+          80,
+          80
+        ],
+        "mobile": [
+          16,
+          65,
+          51,
+          51
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e105",
+      "tag": "div",
+      "id": "uij-e105",
+      "class": "navbar-right",
+      "role": null,
+      "text_prefix": "Español Menu Call us at 1-844-USAGOV1 Search",
+      "bbox": {
+        "desktop": [
+          979,
+          60,
+          543,
+          132
+        ],
+        "mobile": [
+          180,
+          66,
+          179,
+          48
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e106",
+      "tag": "a",
+      "id": "uij-e106",
+      "class": "usa-button language-link",
+      "role": "button",
+      "text_prefix": "Español",
+      "bbox": {
+        "desktop": [
+          1421,
+          60,
+          101,
+          44
+        ],
+        "mobile": [
+          180,
+          66,
+          105,
+          48
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e108",
+      "tag": "div",
+      "id": "uij-e108",
+      "class": "usa-nav__secondary",
+      "role": null,
+      "text_prefix": "Call us at 1-844-USAGOV1 Search",
+      "bbox": {
+        "desktop": [
+          979,
+          104,
+          543,
+          88
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e109",
+      "tag": "div",
+      "id": "uij-e109",
+      "class": "usa-nav__secondary-links",
+      "role": null,
+      "text_prefix": "Call us at 1-844-USAGOV1",
+      "bbox": {
+        "desktop": [
+          979,
+          110,
+          228,
+          82
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e110",
+      "tag": "div",
+      "id": "uij-e110",
+      "class": null,
+      "role": null,
+      "text_prefix": "Call us at 1-844-USAGOV1",
+      "bbox": {
+        "desktop": [
+          979,
+          110,
+          228,
+          44
+        ]
+      }
+    },
+    {
+      "selector": "#top-phone",
+      "tag": "span",
+      "id": "top-phone",
+      "class": "usa-nav__secondary-item",
+      "role": null,
+      "text_prefix": "Call us at 1-844-USAGOV1",
+      "bbox": {
+        "desktop": [
+          979,
+          126,
+          228,
+          17
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e111",
+      "tag": "a",
+      "id": "uij-e111",
+      "class": null,
+      "role": null,
+      "text_prefix": "Call us at 1-844-USAGOV1",
+      "bbox": {
+        "desktop": [
+          979,
+          110,
+          228,
+          44
+        ]
+      }
+    },
+    {
+      "selector": "#usagov_all_gov-desktop",
+      "tag": "form",
+      "id": "usagov_all_gov-desktop",
+      "class": "usa-search usa-search--small",
+      "role": "search",
+      "text_prefix": "Search",
+      "bbox": {
+        "desktop": [
+          1206,
+          112,
+          316,
+          44
+        ]
+      }
+    },
+    {
+      "selector": "#top-srch",
+      "tag": "label",
+      "id": "top-srch",
+      "class": "usa-sr-only",
+      "role": null,
+      "text_prefix": "Search",
+      "bbox": {
+        "desktop": [
+          -16856,
+          112,
+          57,
+          27
+        ]
+      }
+    },
+    {
+      "selector": "#search-field-small",
+      "tag": "input",
+      "id": "search-field-small",
+      "class": "usa-input text usagov-search-autocomplete ui-autocomplete-input",
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          1206,
+          112,
+          271,
+          44
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e112",
+      "tag": "button",
+      "id": "uij-e112",
+      "class": "usa-button",
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          1478,
+          112,
+          44,
+          44
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e113",
+      "tag": "img",
+      "id": "uij-e113",
+      "class": "usa-search__submit-icon",
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          1490,
+          122,
+          20,
+          24
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e114",
+      "tag": "nav",
+      "id": "uij-e114",
+      "class": "usa-nav",
+      "role": null,
+      "text_prefix": "All topics and services The U.S. and its government Government benefits Immigrat",
+      "bbox": {
+        "desktop": [
+          0,
+          200,
+          1920,
+          45
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e115",
+      "tag": "div",
+      "id": "uij-e115",
+      "class": "usa-nav__inner",
+      "role": null,
+      "text_prefix": "All topics and services The U.S. and its government Government benefits Immigrat",
+      "bbox": {
+        "desktop": [
+          366,
+          201,
+          1188,
+          44
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e118",
+      "tag": "ul",
+      "id": "uij-e118",
+      "class": "usa-nav__primary usa-accordion",
+      "role": null,
+      "text_prefix": "All topics and services The U.S. and its government Government benefits Immigrat",
+      "bbox": {
+        "desktop": [
+          387,
+          201,
+          1135,
+          44
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e119",
+      "tag": "li",
+      "id": "uij-e119",
+      "class": "usa-nav__primary-item usa-nav___primary-item-smaller-padding",
+      "role": null,
+      "text_prefix": "All topics and services",
+      "bbox": {
+        "desktop": [
+          387,
+          201,
+          182,
+          44
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e120",
+      "tag": "a",
+      "id": "uij-e120",
+      "class": "usa-nav__link",
+      "role": null,
+      "text_prefix": "All topics and services",
+      "bbox": {
+        "desktop": [
+          387,
+          201,
+          182,
+          44
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e121",
+      "tag": "span",
+      "id": "uij-e121",
+      "class": null,
+      "role": null,
+      "text_prefix": "All topics and services",
+      "bbox": {
+        "desktop": [
+          398,
+          215,
+          160,
+          16
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e122",
+      "tag": "li",
+      "id": "uij-e122",
+      "class": "usa-nav__primary-item usa-nav___primary-item-smaller-padding",
+      "role": null,
+      "text_prefix": "The U.S. and its government",
+      "bbox": {
+        "desktop": [
+          574,
+          201,
+          223,
+          44
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e123",
+      "tag": "a",
+      "id": "uij-e123",
+      "class": "usa-nav__link",
+      "role": null,
+      "text_prefix": "The U.S. and its government",
+      "bbox": {
+        "desktop": [
+          574,
+          201,
+          223,
+          44
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e124",
+      "tag": "span",
+      "id": "uij-e124",
+      "class": null,
+      "role": null,
+      "text_prefix": "The U.S. and its government",
+      "bbox": {
+        "desktop": [
+          585,
+          215,
+          201,
+          16
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e125",
+      "tag": "li",
+      "id": "uij-e125",
+      "class": "usa-nav__primary-item usa-nav___primary-item-smaller-padding",
+      "role": null,
+      "text_prefix": "Government benefits",
+      "bbox": {
+        "desktop": [
+          803,
+          201,
+          171,
+          44
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e126",
+      "tag": "a",
+      "id": "uij-e126",
+      "class": "usa-nav__link",
+      "role": null,
+      "text_prefix": "Government benefits",
+      "bbox": {
+        "desktop": [
+          803,
+          201,
+          171,
+          44
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e127",
+      "tag": "span",
+      "id": "uij-e127",
+      "class": null,
+      "role": null,
+      "text_prefix": "Government benefits",
+      "bbox": {
+        "desktop": [
+          814,
+          215,
+          149,
+          16
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e128",
+      "tag": "li",
+      "id": "uij-e128",
+      "class": "usa-nav__primary-item usa-nav___primary-item-smaller-padding",
+      "role": null,
+      "text_prefix": "Immigration and U.S. citizenship",
+      "bbox": {
+        "desktop": [
+          980,
+          201,
+          252,
+          44
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e129",
+      "tag": "a",
+      "id": "uij-e129",
+      "class": "usa-nav__link",
+      "role": null,
+      "text_prefix": "Immigration and U.S. citizenship",
+      "bbox": {
+        "desktop": [
+          980,
+          201,
+          252,
+          44
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e130",
+      "tag": "span",
+      "id": "uij-e130",
+      "class": null,
+      "role": null,
+      "text_prefix": "Immigration and U.S. citizenship",
+      "bbox": {
+        "desktop": [
+          991,
+          215,
+          230,
+          16
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e131",
+      "tag": "li",
+      "id": "uij-e131",
+      "class": "usa-nav__primary-item usa-nav___primary-item-smaller-padding",
+      "role": null,
+      "text_prefix": "Money and credit",
+      "bbox": {
+        "desktop": [
+          1238,
+          201,
+          146,
+          44
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e132",
+      "tag": "a",
+      "id": "uij-e132",
+      "class": "usa-nav__link",
+      "role": null,
+      "text_prefix": "Money and credit",
+      "bbox": {
+        "desktop": [
+          1238,
+          201,
+          146,
+          44
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e133",
+      "tag": "span",
+      "id": "uij-e133",
+      "class": null,
+      "role": null,
+      "text_prefix": "Money and credit",
+      "bbox": {
+        "desktop": [
+          1249,
+          215,
+          123,
+          16
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e134",
+      "tag": "li",
+      "id": "uij-e134",
+      "class": "usa-nav__primary-item usa-nav___primary-item-smaller-padding",
+      "role": null,
+      "text_prefix": "Taxes",
+      "bbox": {
+        "desktop": [
+          1389,
+          201,
+          63,
+          44
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e135",
+      "tag": "a",
+      "id": "uij-e135",
+      "class": "usa-nav__link",
+      "role": null,
+      "text_prefix": "Taxes",
+      "bbox": {
+        "desktop": [
+          1389,
+          201,
+          63,
+          44
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e136",
+      "tag": "span",
+      "id": "uij-e136",
+      "class": null,
+      "role": null,
+      "text_prefix": "Taxes",
+      "bbox": {
+        "desktop": [
+          1400,
+          215,
+          41,
+          16
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e137",
+      "tag": "li",
+      "id": "uij-e137",
+      "class": "usa-nav__primary-item usa-nav___primary-item-smaller-padding",
+      "role": null,
+      "text_prefix": "Travel",
+      "bbox": {
+        "desktop": [
+          1457,
+          201,
+          65,
+          44
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e138",
+      "tag": "a",
+      "id": "uij-e138",
+      "class": "usa-nav__link",
+      "role": null,
+      "text_prefix": "Travel",
+      "bbox": {
+        "desktop": [
+          1457,
+          201,
+          65,
+          44
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e139",
+      "tag": "span",
+      "id": "uij-e139",
+      "class": null,
+      "role": null,
+      "text_prefix": "Travel",
+      "bbox": {
+        "desktop": [
+          1469,
+          215,
+          42,
+          16
+        ]
+      }
+    },
+    {
+      "selector": "#main-content",
+      "tag": "main",
+      "id": "main-content",
+      "class": "main-content usa-layout-docs no-footer-gap",
+      "role": null,
+      "text_prefix": ".banner-div { background-image: none; } /* Tablet 1x */ @media(min-width: 640px)",
+      "bbox": {
+        "desktop": [
+          0,
+          245,
+          1920,
+          2542
+        ],
+        "mobile": [
+          0,
+          125,
+          375,
+          6639
+        ]
+      }
+    },
+    {
+      "selector": "#block-usagov-content",
+      "tag": "div",
+      "id": "block-usagov-content",
+      "class": "block block-system block-system-main-block",
+      "role": null,
+      "text_prefix": ".banner-div { background-image: none; } /* Tablet 1x */ @media(min-width: 640px)",
+      "bbox": {
+        "desktop": [
+          0,
+          246,
+          1920,
+          812
+        ],
+        "mobile": [
+          0,
+          125,
+          375,
+          1322
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e140",
+      "tag": "div",
+      "id": "uij-e140",
+      "class": "main-grid",
+      "role": null,
+      "text_prefix": ".banner-div { background-image: none; } /* Tablet 1x */ @media(min-width: 640px)",
+      "bbox": {
+        "desktop": [
+          0,
+          246,
+          1920,
+          812
+        ],
+        "mobile": [
+          0,
+          125,
+          375,
+          1322
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e141",
+      "tag": "div",
+      "id": "uij-e141",
+      "class": "banner-wrapper",
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          0,
+          246,
+          1920,
+          327
+        ],
+        "mobile": [
+          0,
+          125,
+          375,
+          516
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e142",
+      "tag": "div",
+      "id": "uij-e142",
+      "class": "banner-div",
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          0,
+          246,
+          1920,
+          327
+        ],
+        "mobile": [
+          0,
+          125,
+          375,
+          516
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e143",
+      "tag": "div",
+      "id": "uij-e143",
+      "class": "welcome-box-wrapper",
+      "role": null,
+      "text_prefix": "Making government services easier to find USA.gov helps you locate and understan",
+      "bbox": {
+        "desktop": [
+          398,
+          246,
+          1124,
+          232
+        ],
+        "mobile": [
+          0,
+          125,
+          375,
+          331
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e144",
+      "tag": "div",
+      "id": "uij-e144",
+      "class": "welcome-box",
+      "role": null,
+      "text_prefix": "Making government services easier to find USA.gov helps you locate and understan",
+      "bbox": {
+        "desktop": [
+          960,
+          271,
+          562,
+          207
+        ],
+        "mobile": [
+          19,
+          150,
+          338,
+          306
+        ]
+      }
+    },
+    {
+      "selector": "#skip-to-h1",
+      "tag": "h1",
+      "id": "skip-to-h1",
+      "class": null,
+      "role": null,
+      "text_prefix": "Making government services easier to find",
+      "bbox": {
+        "desktop": [
+          990,
+          301,
+          504,
+          72
+        ],
+        "mobile": [
+          49,
+          180,
+          280,
+          144
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e145",
+      "tag": "p",
+      "id": "uij-e145",
+      "class": null,
+      "role": null,
+      "text_prefix": "USA.gov helps you locate and understand government benefits, programs, and infor",
+      "bbox": {
+        "desktop": [
+          990,
+          389,
+          504,
+          54
+        ],
+        "mobile": [
+          49,
+          340,
+          280,
+          81
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e146",
+      "tag": "div",
+      "id": "uij-e146",
+      "class": "blue-back",
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          0,
+          573,
+          1920,
+          311
+        ],
+        "mobile": [
+          0,
+          641,
+          375,
+          532
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e147",
+      "tag": "div",
+      "id": "uij-e147",
+      "class": "how-box",
+      "role": null,
+      "text_prefix": "How do I ... Check my tax refund Get or renew a passport Get housing help Find u",
+      "bbox": {
+        "desktop": [
+          398,
+          518,
+          1124,
+          150
+        ],
+        "mobile": [
+          19,
+          491,
+          338,
+          335
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e148",
+      "tag": "h2",
+      "id": "uij-e148",
+      "class": null,
+      "role": null,
+      "text_prefix": "How do I ...",
+      "bbox": {
+        "desktop": [
+          448,
+          536,
+          1024,
+          27
+        ],
+        "mobile": [
+          69,
+          521,
+          238,
+          27
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e149",
+      "tag": "ul",
+      "id": "uij-e149",
+      "class": "how-button-list",
+      "role": null,
+      "text_prefix": "Check my tax refund Get or renew a passport Get housing help Find unclaimed mone",
+      "bbox": {
+        "desktop": [
+          448,
+          583,
+          1024,
+          75
+        ],
+        "mobile": [
+          69,
+          568,
+          238,
+          236
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e150",
+      "tag": "li",
+      "id": "uij-e150",
+      "class": "how-button",
+      "role": null,
+      "text_prefix": "Check my tax refund",
+      "bbox": {
+        "desktop": [
+          448,
+          583,
+          256,
+          60
+        ],
+        "mobile": [
+          69,
+          568,
+          238,
+          44
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e151",
+      "tag": "a",
+      "id": "uij-e151",
+      "class": null,
+      "role": null,
+      "text_prefix": "Check my tax refund",
+      "bbox": {
+        "desktop": [
+          464,
+          591,
+          149,
+          44
+        ],
+        "mobile": [
+          85,
+          568,
+          149,
+          44
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e152",
+      "tag": "li",
+      "id": "uij-e152",
+      "class": "how-button",
+      "role": null,
+      "text_prefix": "Get or renew a passport",
+      "bbox": {
+        "desktop": [
+          704,
+          583,
+          256,
+          60
+        ],
+        "mobile": [
+          69,
+          627,
+          238,
+          44
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e153",
+      "tag": "a",
+      "id": "uij-e153",
+      "class": null,
+      "role": null,
+      "text_prefix": "Get or renew a passport",
+      "bbox": {
+        "desktop": [
+          720,
+          591,
+          173,
+          44
+        ],
+        "mobile": [
+          85,
+          627,
+          173,
+          44
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e154",
+      "tag": "li",
+      "id": "uij-e154",
+      "class": "how-button",
+      "role": null,
+      "text_prefix": "Get housing help",
+      "bbox": {
+        "desktop": [
+          960,
+          583,
+          256,
+          60
+        ],
+        "mobile": [
+          69,
+          686,
+          238,
+          44
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e155",
+      "tag": "a",
+      "id": "uij-e155",
+      "class": null,
+      "role": null,
+      "text_prefix": "Get housing help",
+      "bbox": {
+        "desktop": [
+          976,
+          591,
+          122,
+          44
+        ],
+        "mobile": [
+          85,
+          686,
+          122,
+          44
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e156",
+      "tag": "li",
+      "id": "uij-e156",
+      "class": "how-button",
+      "role": null,
+      "text_prefix": "Find unclaimed money",
+      "bbox": {
+        "desktop": [
+          1216,
+          583,
+          256,
+          60
+        ],
+        "mobile": [
+          69,
+          745,
+          238,
+          44
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e157",
+      "tag": "a",
+      "id": "uij-e157",
+      "class": null,
+      "role": null,
+      "text_prefix": "Find unclaimed money",
+      "bbox": {
+        "desktop": [
+          1232,
+          591,
+          162,
+          44
+        ],
+        "mobile": [
+          85,
+          745,
+          162,
+          44
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e158",
+      "tag": "div",
+      "id": "uij-e158",
+      "class": "jump jump1",
+      "role": null,
+      "text_prefix": "Jump to all topics and services",
+      "bbox": {
+        "desktop": [
+          0,
+          668,
+          1920,
+          102
+        ],
+        "mobile": [
+          0,
+          826,
+          375,
+          102
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e159",
+      "tag": "a",
+      "id": "uij-e159",
+      "class": null,
+      "role": null,
+      "text_prefix": "Jump to all topics and services",
+      "bbox": {
+        "desktop": [
+          842,
+          688,
+          235,
+          72
+        ],
+        "mobile": [
+          70,
+          846,
+          235,
+          72
+        ]
+      }
+    },
+    {
+      "selector": "#jump_block",
+      "tag": "div",
+      "id": "jump_block",
+      "class": null,
+      "role": null,
+      "text_prefix": "Jump to all topics and services",
+      "bbox": {
+        "desktop": [
+          842,
+          688,
+          235,
+          72
+        ],
+        "mobile": [
+          70,
+          846,
+          235,
+          72
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e160",
+      "tag": "span",
+      "id": "uij-e160",
+      "class": null,
+      "role": null,
+      "text_prefix": "Jump to all topics and services",
+      "bbox": {
+        "desktop": [
+          842,
+          688,
+          235,
+          25
+        ],
+        "mobile": [
+          70,
+          846,
+          235,
+          25
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e161",
+      "tag": "img",
+      "id": "uij-e161",
+      "class": null,
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          940,
+          720,
+          40,
+          40
+        ],
+        "mobile": [
+          167,
+          878,
+          40,
+          40
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e162",
+      "tag": "div",
+      "id": "uij-e162",
+      "class": "benefits-block-bg",
+      "role": null,
+      "text_prefix": "Government benefits and financial assistance Discover government benefits that y",
+      "bbox": {
+        "desktop": [
+          398,
+          786,
+          1124,
+          156
+        ],
+        "mobile": [
+          0,
+          944,
+          375,
+          351
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e163",
+      "tag": "div",
+      "id": "uij-e163",
+      "class": "benefits-block",
+      "role": null,
+      "text_prefix": "Government benefits and financial assistance Discover government benefits that y",
+      "bbox": {
+        "desktop": [
+          434,
+          806,
+          1052,
+          116
+        ],
+        "mobile": [
+          20,
+          964,
+          335,
+          311
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e164",
+      "tag": "img",
+      "id": "uij-e164",
+      "class": null,
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          434,
+          806,
+          56,
+          56
+        ],
+        "mobile": [
+          20,
+          964,
+          56,
+          56
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e165",
+      "tag": "div",
+      "id": "uij-e165",
+      "class": "benefits-text",
+      "role": null,
+      "text_prefix": "Government benefits and financial assistance Discover government benefits that y",
+      "bbox": {
+        "desktop": [
+          506,
+          806,
+          704,
+          116
+        ],
+        "mobile": [
+          92,
+          964,
+          263,
+          243
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e166",
+      "tag": "h2",
+      "id": "uij-e166",
+      "class": null,
+      "role": null,
+      "text_prefix": "Government benefits and financial assistance",
+      "bbox": {
+        "desktop": [
+          506,
+          806,
+          664,
+          73
+        ],
+        "mobile": [
+          92,
+          964,
+          263,
+          146
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e167",
+      "tag": "div",
+      "id": "uij-e167",
+      "class": "benefits-block__content",
+      "role": null,
+      "text_prefix": "Discover government benefits that you may be eligible for and learn how to apply",
+      "bbox": {
+        "desktop": [
+          506,
+          895,
+          664,
+          27
+        ],
+        "mobile": [
+          92,
+          1126,
+          263,
+          81
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e168",
+      "tag": "p",
+      "id": "uij-e168",
+      "class": null,
+      "role": null,
+      "text_prefix": "Discover government benefits that you may be eligible for and learn how to apply",
+      "bbox": {
+        "desktop": [
+          506,
+          895,
+          664,
+          27
+        ],
+        "mobile": [
+          92,
+          1126,
+          263,
+          81
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e169",
+      "tag": "a",
+      "id": "uij-e169",
+      "class": "usa-button benefits-link",
+      "role": "button",
+      "text_prefix": "Find benefits",
+      "bbox": {
+        "desktop": [
+          1226,
+          838,
+          260,
+          52
+        ],
+        "mobile": [
+          20,
+          1223,
+          335,
+          52
+        ]
+      }
+    },
+    {
+      "selector": "#all-topics-header",
+      "tag": "div",
+      "id": "all-topics-header",
+      "class": "all-topics-header",
+      "role": null,
+      "text_prefix": "All topics and services",
+      "bbox": {
+        "desktop": [
+          0,
+          942,
+          1920,
+          116
+        ],
+        "mobile": [
+          0,
+          1295,
+          375,
+          152
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e170",
+      "tag": "h2",
+      "id": "uij-e170",
+      "class": null,
+      "role": null,
+      "text_prefix": "All topics and services",
+      "bbox": {
+        "desktop": [
+          398,
+          1007,
+          1124,
+          41
+        ],
+        "mobile": [
+          19,
+          1360,
+          338,
+          77
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e172",
+      "tag": "div",
+      "id": "uij-e172",
+      "class": "all-topics-background",
+      "role": null,
+      "text_prefix": "The U.S. and its government Learn about U.S. laws, history, and more. Buy govern",
+      "bbox": {
+        "desktop": [
+          0,
+          1058,
+          1920,
+          1729
+        ],
+        "mobile": [
+          0,
+          1447,
+          375,
+          5317
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e173",
+      "tag": "div",
+      "id": "uij-e173",
+      "class": "smaller-width-div",
+      "role": null,
+      "text_prefix": "The U.S. and its government Learn about U.S. laws, history, and more. Buy govern",
+      "bbox": {
+        "desktop": [
+          398,
+          1078,
+          1124,
+          1609
+        ],
+        "mobile": [
+          19,
+          1467,
+          338,
+          5197
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e174",
+      "tag": "ul",
+      "id": "uij-e174",
+      "class": "homepage-card-group usa-card-group",
+      "role": null,
+      "text_prefix": "The U.S. and its government Learn about U.S. laws, history, and more. Buy govern",
+      "bbox": {
+        "desktop": [
+          398,
+          1078,
+          1124,
+          1609
+        ],
+        "mobile": [
+          19,
+          1467,
+          338,
+          5197
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e175",
+      "tag": "li",
+      "id": "uij-e175",
+      "class": "homepage-card usa-card__container",
+      "role": null,
+      "text_prefix": "The U.S. and its government Learn about U.S. laws, history, and more. Buy govern",
+      "bbox": {
+        "desktop": [
+          398,
+          1078,
+          275,
+          313
+        ],
+        "mobile": [
+          19,
+          1467,
+          338,
+          262
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e176",
+      "tag": "a",
+      "id": "uij-e176",
+      "class": null,
+      "role": null,
+      "text_prefix": "The U.S. and its government Learn about U.S. laws, history, and more. Buy govern",
+      "bbox": {
+        "desktop": [
+          400,
+          1080,
+          271,
+          309
+        ],
+        "mobile": [
+          21,
+          1469,
+          334,
+          258
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e177",
+      "tag": "div",
+      "id": "uij-e177",
+      "class": "homepage-icon topic-icon icon-about lazyload",
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          513,
+          1090,
+          45,
+          45
+        ],
+        "mobile": [
+          165,
+          1479,
+          45,
+          45
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e178",
+      "tag": "div",
+      "id": "uij-e178",
+      "class": "usa-card__header homepage-card_header",
+      "role": null,
+      "text_prefix": "The U.S. and its government",
+      "bbox": {
+        "desktop": [
+          415,
+          1145,
+          241,
+          78
+        ],
+        "mobile": [
+          36,
+          1534,
+          304,
+          55
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e179",
+      "tag": "h2",
+      "id": "uij-e179",
+      "class": null,
+      "role": null,
+      "text_prefix": "The U.S. and its government",
+      "bbox": {
+        "desktop": [
+          415,
+          1161,
+          241,
+          47
+        ],
+        "mobile": [
+          36,
+          1550,
+          304,
+          24
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e180",
+      "tag": "div",
+      "id": "uij-e180",
+      "class": "usa-card__body homepage-card-description",
+      "role": null,
+      "text_prefix": "Learn about U.S. laws, history, and more. Buy government property. Contact elect",
+      "bbox": {
+        "desktop": [
+          400,
+          1223,
+          271,
+          166
+        ],
+        "mobile": [
+          21,
+          1588,
+          334,
+          138
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e181",
+      "tag": "p",
+      "id": "uij-e181",
+      "class": null,
+      "role": null,
+      "text_prefix": "Learn about U.S. laws, history, and more. Buy government property. Contact elect",
+      "bbox": {
+        "desktop": [
+          415,
+          1223,
+          241,
+          136
+        ],
+        "mobile": [
+          36,
+          1588,
+          304,
+          108
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e182",
+      "tag": "li",
+      "id": "uij-e182",
+      "class": "homepage-card usa-card__container",
+      "role": null,
+      "text_prefix": "Complaints File complaints involving government agencies, telemarketers, product",
+      "bbox": {
+        "desktop": [
+          681,
+          1078,
+          275,
+          313
+        ],
+        "mobile": [
+          19,
+          1737,
+          338,
+          262
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e183",
+      "tag": "a",
+      "id": "uij-e183",
+      "class": null,
+      "role": null,
+      "text_prefix": "Complaints File complaints involving government agencies, telemarketers, product",
+      "bbox": {
+        "desktop": [
+          683,
+          1080,
+          271,
+          309
+        ],
+        "mobile": [
+          21,
+          1739,
+          334,
+          258
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e184",
+      "tag": "div",
+      "id": "uij-e184",
+      "class": "homepage-icon topic-icon icon-complaints lazyload",
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          796,
+          1090,
+          45,
+          45
+        ],
+        "mobile": [
+          165,
+          1749,
+          45,
+          45
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e185",
+      "tag": "div",
+      "id": "uij-e185",
+      "class": "usa-card__header homepage-card_header",
+      "role": null,
+      "text_prefix": "Complaints",
+      "bbox": {
+        "desktop": [
+          698,
+          1145,
+          241,
+          55
+        ],
+        "mobile": [
+          36,
+          1804,
+          304,
+          55
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e186",
+      "tag": "h2",
+      "id": "uij-e186",
+      "class": null,
+      "role": null,
+      "text_prefix": "Complaints",
+      "bbox": {
+        "desktop": [
+          698,
+          1161,
+          241,
+          24
+        ],
+        "mobile": [
+          36,
+          1820,
+          304,
+          24
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e187",
+      "tag": "div",
+      "id": "uij-e187",
+      "class": "usa-card__body homepage-card-description",
+      "role": null,
+      "text_prefix": "File complaints involving government agencies, telemarketers, products and servi",
+      "bbox": {
+        "desktop": [
+          683,
+          1199,
+          271,
+          166
+        ],
+        "mobile": [
+          21,
+          1858,
+          334,
+          138
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e188",
+      "tag": "p",
+      "id": "uij-e188",
+      "class": null,
+      "role": null,
+      "text_prefix": "File complaints involving government agencies, telemarketers, products and servi",
+      "bbox": {
+        "desktop": [
+          698,
+          1199,
+          241,
+          136
+        ],
+        "mobile": [
+          36,
+          1858,
+          304,
+          108
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e189",
+      "tag": "li",
+      "id": "uij-e189",
+      "class": "homepage-card usa-card__container",
+      "role": null,
+      "text_prefix": "Disability services Find government benefits and programs for people with disabi",
+      "bbox": {
+        "desktop": [
+          964,
+          1078,
+          275,
+          313
+        ],
+        "mobile": [
+          19,
+          2007,
+          338,
+          235
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e190",
+      "tag": "a",
+      "id": "uij-e190",
+      "class": null,
+      "role": null,
+      "text_prefix": "Disability services Find government benefits and programs for people with disabi",
+      "bbox": {
+        "desktop": [
+          966,
+          1080,
+          271,
+          309
+        ],
+        "mobile": [
+          21,
+          2009,
+          334,
+          231
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e191",
+      "tag": "div",
+      "id": "uij-e191",
+      "class": "homepage-icon topic-icon icon-disability lazyload",
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          1079,
+          1090,
+          45,
+          45
+        ],
+        "mobile": [
+          165,
+          2019,
+          45,
+          45
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e192",
+      "tag": "div",
+      "id": "uij-e192",
+      "class": "usa-card__header homepage-card_header",
+      "role": null,
+      "text_prefix": "Disability services",
+      "bbox": {
+        "desktop": [
+          981,
+          1145,
+          241,
+          55
+        ],
+        "mobile": [
+          36,
+          2074,
+          304,
+          55
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e193",
+      "tag": "h2",
+      "id": "uij-e193",
+      "class": null,
+      "role": null,
+      "text_prefix": "Disability services",
+      "bbox": {
+        "desktop": [
+          981,
+          1161,
+          241,
+          24
+        ],
+        "mobile": [
+          36,
+          2090,
+          304,
+          24
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e194",
+      "tag": "div",
+      "id": "uij-e194",
+      "class": "usa-card__body homepage-card-description",
+      "role": null,
+      "text_prefix": "Find government benefits and programs for people with disabilities and their fam",
+      "bbox": {
+        "desktop": [
+          966,
+          1199,
+          271,
+          111
+        ],
+        "mobile": [
+          21,
+          2128,
+          334,
+          111
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e195",
+      "tag": "p",
+      "id": "uij-e195",
+      "class": null,
+      "role": null,
+      "text_prefix": "Find government benefits and programs for people with disabilities and their fam",
+      "bbox": {
+        "desktop": [
+          981,
+          1199,
+          241,
+          81
+        ],
+        "mobile": [
+          36,
+          2128,
+          304,
+          81
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e196",
+      "tag": "li",
+      "id": "uij-e196",
+      "class": "homepage-card usa-card__container",
+      "role": null,
+      "text_prefix": "Disasters and emergencies Learn about disaster assistance and find government be",
+      "bbox": {
+        "desktop": [
+          1247,
+          1078,
+          275,
+          313
+        ],
+        "mobile": [
+          19,
+          2249,
+          338,
+          235
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e197",
+      "tag": "a",
+      "id": "uij-e197",
+      "class": null,
+      "role": null,
+      "text_prefix": "Disasters and emergencies Learn about disaster assistance and find government be",
+      "bbox": {
+        "desktop": [
+          1249,
+          1080,
+          271,
+          309
+        ],
+        "mobile": [
+          21,
+          2251,
+          334,
+          231
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e198",
+      "tag": "div",
+      "id": "uij-e198",
+      "class": "homepage-icon topic-icon icon-disasters lazyload",
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          1362,
+          1090,
+          45,
+          45
+        ],
+        "mobile": [
+          165,
+          2261,
+          45,
+          45
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e199",
+      "tag": "div",
+      "id": "uij-e199",
+      "class": "usa-card__header homepage-card_header",
+      "role": null,
+      "text_prefix": "Disasters and emergencies",
+      "bbox": {
+        "desktop": [
+          1264,
+          1145,
+          241,
+          55
+        ],
+        "mobile": [
+          36,
+          2316,
+          304,
+          55
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e200",
+      "tag": "h2",
+      "id": "uij-e200",
+      "class": null,
+      "role": null,
+      "text_prefix": "Disasters and emergencies",
+      "bbox": {
+        "desktop": [
+          1264,
+          1161,
+          241,
+          24
+        ],
+        "mobile": [
+          36,
+          2332,
+          304,
+          24
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e201",
+      "tag": "div",
+      "id": "uij-e201",
+      "class": "usa-card__body homepage-card-description",
+      "role": null,
+      "text_prefix": "Learn about disaster assistance and find government benefits for other emergenci",
+      "bbox": {
+        "desktop": [
+          1249,
+          1199,
+          271,
+          138
+        ],
+        "mobile": [
+          21,
+          2371,
+          334,
+          111
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e202",
+      "tag": "p",
+      "id": "uij-e202",
+      "class": null,
+      "role": null,
+      "text_prefix": "Learn about disaster assistance and find government benefits for other emergenci",
+      "bbox": {
+        "desktop": [
+          1264,
+          1199,
+          241,
+          108
+        ],
+        "mobile": [
+          36,
+          2371,
+          304,
+          81
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e203",
+      "tag": "li",
+      "id": "uij-e203",
+      "class": "homepage-card usa-card__container",
+      "role": null,
+      "text_prefix": "Education Learn about Federal Student Aid and studying in the U.S. Find early in",
+      "bbox": {
+        "desktop": [
+          398,
+          1399,
+          275,
+          289
+        ],
+        "mobile": [
+          19,
+          2492,
+          338,
+          262
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e204",
+      "tag": "a",
+      "id": "uij-e204",
+      "class": null,
+      "role": null,
+      "text_prefix": "Education Learn about Federal Student Aid and studying in the U.S. Find early in",
+      "bbox": {
+        "desktop": [
+          400,
+          1401,
+          271,
+          285
+        ],
+        "mobile": [
+          21,
+          2494,
+          334,
+          258
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e205",
+      "tag": "div",
+      "id": "uij-e205",
+      "class": "homepage-icon topic-icon icon-education lazyload",
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          513,
+          1411,
+          45,
+          45
+        ],
+        "mobile": [
+          165,
+          2504,
+          45,
+          45
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e206",
+      "tag": "div",
+      "id": "uij-e206",
+      "class": "usa-card__header homepage-card_header",
+      "role": null,
+      "text_prefix": "Education",
+      "bbox": {
+        "desktop": [
+          415,
+          1466,
+          241,
+          55
+        ],
+        "mobile": [
+          36,
+          2559,
+          304,
+          55
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e207",
+      "tag": "h2",
+      "id": "uij-e207",
+      "class": null,
+      "role": null,
+      "text_prefix": "Education",
+      "bbox": {
+        "desktop": [
+          415,
+          1482,
+          241,
+          24
+        ],
+        "mobile": [
+          36,
+          2575,
+          304,
+          24
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e208",
+      "tag": "div",
+      "id": "uij-e208",
+      "class": "usa-card__body homepage-card-description",
+      "role": null,
+      "text_prefix": "Learn about Federal Student Aid and studying in the U.S. Find early intervention",
+      "bbox": {
+        "desktop": [
+          400,
+          1520,
+          271,
+          166
+        ],
+        "mobile": [
+          21,
+          2614,
+          334,
+          138
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e209",
+      "tag": "p",
+      "id": "uij-e209",
+      "class": null,
+      "role": null,
+      "text_prefix": "Learn about Federal Student Aid and studying in the U.S. Find early intervention",
+      "bbox": {
+        "desktop": [
+          415,
+          1520,
+          241,
+          136
+        ],
+        "mobile": [
+          36,
+          2614,
+          304,
+          108
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e210",
+      "tag": "li",
+      "id": "uij-e210",
+      "class": "homepage-card usa-card__container",
+      "role": null,
+      "text_prefix": "Government benefits Find government programs that may help pay for food, housing",
+      "bbox": {
+        "desktop": [
+          681,
+          1399,
+          275,
+          289
+        ],
+        "mobile": [
+          19,
+          2762,
+          338,
+          235
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e211",
+      "tag": "a",
+      "id": "uij-e211",
+      "class": null,
+      "role": null,
+      "text_prefix": "Government benefits Find government programs that may help pay for food, housing",
+      "bbox": {
+        "desktop": [
+          683,
+          1401,
+          271,
+          285
+        ],
+        "mobile": [
+          21,
+          2764,
+          334,
+          231
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e212",
+      "tag": "div",
+      "id": "uij-e212",
+      "class": "homepage-icon topic-icon icon-benefits lazyload",
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          796,
+          1411,
+          45,
+          45
+        ],
+        "mobile": [
+          165,
+          2774,
+          45,
+          45
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e213",
+      "tag": "div",
+      "id": "uij-e213",
+      "class": "usa-card__header homepage-card_header",
+      "role": null,
+      "text_prefix": "Government benefits",
+      "bbox": {
+        "desktop": [
+          698,
+          1466,
+          241,
+          55
+        ],
+        "mobile": [
+          36,
+          2829,
+          304,
+          55
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e214",
+      "tag": "h2",
+      "id": "uij-e214",
+      "class": null,
+      "role": null,
+      "text_prefix": "Government benefits",
+      "bbox": {
+        "desktop": [
+          698,
+          1482,
+          241,
+          24
+        ],
+        "mobile": [
+          36,
+          2845,
+          304,
+          24
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e215",
+      "tag": "div",
+      "id": "uij-e215",
+      "class": "usa-card__body homepage-card-description",
+      "role": null,
+      "text_prefix": "Find government programs that may help pay for food, housing, health care, and m",
+      "bbox": {
+        "desktop": [
+          683,
+          1520,
+          271,
+          138
+        ],
+        "mobile": [
+          21,
+          2884,
+          334,
+          111
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e216",
+      "tag": "p",
+      "id": "uij-e216",
+      "class": null,
+      "role": null,
+      "text_prefix": "Find government programs that may help pay for food, housing, health care, and m",
+      "bbox": {
+        "desktop": [
+          698,
+          1520,
+          241,
+          108
+        ],
+        "mobile": [
+          36,
+          2884,
+          304,
+          81
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e217",
+      "tag": "li",
+      "id": "uij-e217",
+      "class": "homepage-card usa-card__container",
+      "role": null,
+      "text_prefix": "Health Get information about health insurance. Find help for mental health and o",
+      "bbox": {
+        "desktop": [
+          964,
+          1399,
+          275,
+          289
+        ],
+        "mobile": [
+          19,
+          3005,
+          338,
+          262
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e218",
+      "tag": "a",
+      "id": "uij-e218",
+      "class": null,
+      "role": null,
+      "text_prefix": "Health Get information about health insurance. Find help for mental health and o",
+      "bbox": {
+        "desktop": [
+          966,
+          1401,
+          271,
+          285
+        ],
+        "mobile": [
+          21,
+          3007,
+          334,
+          258
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e219",
+      "tag": "div",
+      "id": "uij-e219",
+      "class": "homepage-icon topic-icon icon-health lazyload",
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          1079,
+          1411,
+          45,
+          45
+        ],
+        "mobile": [
+          165,
+          3017,
+          45,
+          45
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e220",
+      "tag": "div",
+      "id": "uij-e220",
+      "class": "usa-card__header homepage-card_header",
+      "role": null,
+      "text_prefix": "Health",
+      "bbox": {
+        "desktop": [
+          981,
+          1466,
+          241,
+          55
+        ],
+        "mobile": [
+          36,
+          3072,
+          304,
+          55
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e221",
+      "tag": "h2",
+      "id": "uij-e221",
+      "class": null,
+      "role": null,
+      "text_prefix": "Health",
+      "bbox": {
+        "desktop": [
+          981,
+          1482,
+          241,
+          24
+        ],
+        "mobile": [
+          36,
+          3088,
+          304,
+          24
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e222",
+      "tag": "div",
+      "id": "uij-e222",
+      "class": "usa-card__body homepage-card-description",
+      "role": null,
+      "text_prefix": "Get information about health insurance. Find help for mental health and other me",
+      "bbox": {
+        "desktop": [
+          966,
+          1520,
+          271,
+          166
+        ],
+        "mobile": [
+          21,
+          3126,
+          334,
+          138
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e223",
+      "tag": "p",
+      "id": "uij-e223",
+      "class": null,
+      "role": null,
+      "text_prefix": "Get information about health insurance. Find help for mental health and other me",
+      "bbox": {
+        "desktop": [
+          981,
+          1520,
+          241,
+          136
+        ],
+        "mobile": [
+          36,
+          3126,
+          304,
+          108
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e224",
+      "tag": "li",
+      "id": "uij-e224",
+      "class": "homepage-card usa-card__container",
+      "role": null,
+      "text_prefix": "Housing help Learn about rental and buyer assistance programs. Find emergency ho",
+      "bbox": {
+        "desktop": [
+          1247,
+          1399,
+          275,
+          289
+        ],
+        "mobile": [
+          19,
+          3275,
+          338,
+          262
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e225",
+      "tag": "a",
+      "id": "uij-e225",
+      "class": null,
+      "role": null,
+      "text_prefix": "Housing help Learn about rental and buyer assistance programs. Find emergency ho",
+      "bbox": {
+        "desktop": [
+          1249,
+          1401,
+          271,
+          285
+        ],
+        "mobile": [
+          21,
+          3277,
+          334,
+          258
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e226",
+      "tag": "div",
+      "id": "uij-e226",
+      "class": "homepage-icon topic-icon icon-housing lazyload",
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          1362,
+          1411,
+          45,
+          45
+        ],
+        "mobile": [
+          165,
+          3287,
+          45,
+          45
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e227",
+      "tag": "div",
+      "id": "uij-e227",
+      "class": "usa-card__header homepage-card_header",
+      "role": null,
+      "text_prefix": "Housing help",
+      "bbox": {
+        "desktop": [
+          1264,
+          1466,
+          241,
+          55
+        ],
+        "mobile": [
+          36,
+          3342,
+          304,
+          55
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e228",
+      "tag": "h2",
+      "id": "uij-e228",
+      "class": null,
+      "role": null,
+      "text_prefix": "Housing help",
+      "bbox": {
+        "desktop": [
+          1264,
+          1482,
+          241,
+          24
+        ],
+        "mobile": [
+          36,
+          3358,
+          304,
+          24
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e229",
+      "tag": "div",
+      "id": "uij-e229",
+      "class": "usa-card__body homepage-card-description",
+      "role": null,
+      "text_prefix": "Learn about rental and buyer assistance programs. Find emergency housing and avo",
+      "bbox": {
+        "desktop": [
+          1249,
+          1520,
+          271,
+          138
+        ],
+        "mobile": [
+          21,
+          3396,
+          334,
+          138
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e230",
+      "tag": "p",
+      "id": "uij-e230",
+      "class": null,
+      "role": null,
+      "text_prefix": "Learn about rental and buyer assistance programs. Find emergency housing and avo",
+      "bbox": {
+        "desktop": [
+          1264,
+          1520,
+          241,
+          108
+        ],
+        "mobile": [
+          36,
+          3396,
+          304,
+          108
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e231",
+      "tag": "li",
+      "id": "uij-e231",
+      "class": "homepage-card usa-card__container",
+      "role": null,
+      "text_prefix": "Immigration and U.S. citizenship Learn about U.S. residency, Green Cards, citize",
+      "bbox": {
+        "desktop": [
+          398,
+          1696,
+          275,
+          343
+        ],
+        "mobile": [
+          19,
+          3545,
+          338,
+          235
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e232",
+      "tag": "a",
+      "id": "uij-e232",
+      "class": null,
+      "role": null,
+      "text_prefix": "Immigration and U.S. citizenship Learn about U.S. residency, Green Cards, citize",
+      "bbox": {
+        "desktop": [
+          400,
+          1698,
+          271,
+          339
+        ],
+        "mobile": [
+          21,
+          3547,
+          334,
+          231
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e233",
+      "tag": "div",
+      "id": "uij-e233",
+      "class": "homepage-icon topic-icon icon-immigration lazyload",
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          513,
+          1708,
+          45,
+          45
+        ],
+        "mobile": [
+          165,
+          3557,
+          45,
+          45
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e234",
+      "tag": "div",
+      "id": "uij-e234",
+      "class": "usa-card__header homepage-card_header",
+      "role": null,
+      "text_prefix": "Immigration and U.S. citizenship",
+      "bbox": {
+        "desktop": [
+          415,
+          1763,
+          241,
+          78
+        ],
+        "mobile": [
+          36,
+          3612,
+          304,
+          55
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e235",
+      "tag": "h2",
+      "id": "uij-e235",
+      "class": null,
+      "role": null,
+      "text_prefix": "Immigration and U.S. citizenship",
+      "bbox": {
+        "desktop": [
+          415,
+          1779,
+          241,
+          47
+        ],
+        "mobile": [
+          36,
+          3628,
+          304,
+          24
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e236",
+      "tag": "div",
+      "id": "uij-e236",
+      "class": "usa-card__body homepage-card-description",
+      "role": null,
+      "text_prefix": "Learn about U.S. residency, Green Cards, citizenship requirements, and related i",
+      "bbox": {
+        "desktop": [
+          400,
+          1841,
+          271,
+          138
+        ],
+        "mobile": [
+          21,
+          3666,
+          334,
+          111
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e237",
+      "tag": "p",
+      "id": "uij-e237",
+      "class": null,
+      "role": null,
+      "text_prefix": "Learn about U.S. residency, Green Cards, citizenship requirements, and related i",
+      "bbox": {
+        "desktop": [
+          415,
+          1841,
+          241,
+          108
+        ],
+        "mobile": [
+          36,
+          3666,
+          304,
+          81
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e238",
+      "tag": "li",
+      "id": "uij-e238",
+      "class": "homepage-card usa-card__container",
+      "role": null,
+      "text_prefix": "Innovation Find ways you can participate through citizen science projects and ch",
+      "bbox": {
+        "desktop": [
+          681,
+          1696,
+          275,
+          343
+        ],
+        "mobile": [
+          19,
+          3788,
+          338,
+          316
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e239",
+      "tag": "a",
+      "id": "uij-e239",
+      "class": null,
+      "role": null,
+      "text_prefix": "Innovation Find ways you can participate through citizen science projects and ch",
+      "bbox": {
+        "desktop": [
+          683,
+          1698,
+          271,
+          339
+        ],
+        "mobile": [
+          21,
+          3790,
+          334,
+          312
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e240",
+      "tag": "div",
+      "id": "uij-e240",
+      "class": "homepage-icon topic-icon icon-innovation lazyload",
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          796,
+          1708,
+          45,
+          45
+        ],
+        "mobile": [
+          165,
+          3800,
+          45,
+          45
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e241",
+      "tag": "div",
+      "id": "uij-e241",
+      "class": "usa-card__header homepage-card_header",
+      "role": null,
+      "text_prefix": "Innovation",
+      "bbox": {
+        "desktop": [
+          698,
+          1763,
+          241,
+          55
+        ],
+        "mobile": [
+          36,
+          3855,
+          304,
+          55
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e242",
+      "tag": "h2",
+      "id": "uij-e242",
+      "class": null,
+      "role": null,
+      "text_prefix": "Innovation",
+      "bbox": {
+        "desktop": [
+          698,
+          1779,
+          241,
+          24
+        ],
+        "mobile": [
+          36,
+          3871,
+          304,
+          24
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e243",
+      "tag": "div",
+      "id": "uij-e243",
+      "class": "usa-card__body homepage-card-description",
+      "role": null,
+      "text_prefix": "Find ways you can participate through citizen science projects and challenges. E",
+      "bbox": {
+        "desktop": [
+          683,
+          1817,
+          271,
+          220
+        ],
+        "mobile": [
+          21,
+          3909,
+          334,
+          193
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e244",
+      "tag": "p",
+      "id": "uij-e244",
+      "class": null,
+      "role": null,
+      "text_prefix": "Find ways you can participate through citizen science projects and challenges. E",
+      "bbox": {
+        "desktop": [
+          698,
+          1817,
+          241,
+          190
+        ],
+        "mobile": [
+          36,
+          3909,
+          304,
+          163
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e245",
+      "tag": "li",
+      "id": "uij-e245",
+      "class": "homepage-card usa-card__container",
+      "role": null,
+      "text_prefix": "Jobs, labor laws, and unemployment Get resources for finding a job. Learn about ",
+      "bbox": {
+        "desktop": [
+          964,
+          1696,
+          275,
+          343
+        ],
+        "mobile": [
+          19,
+          4112,
+          338,
+          258
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e246",
+      "tag": "a",
+      "id": "uij-e246",
+      "class": null,
+      "role": null,
+      "text_prefix": "Jobs, labor laws, and unemployment Get resources for finding a job. Learn about ",
+      "bbox": {
+        "desktop": [
+          966,
+          1698,
+          271,
+          339
+        ],
+        "mobile": [
+          21,
+          4114,
+          334,
+          254
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e247",
+      "tag": "div",
+      "id": "uij-e247",
+      "class": "homepage-icon topic-icon icon-jobs lazyload",
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          1079,
+          1708,
+          45,
+          45
+        ],
+        "mobile": [
+          165,
+          4124,
+          45,
+          45
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e248",
+      "tag": "div",
+      "id": "uij-e248",
+      "class": "usa-card__header homepage-card_header",
+      "role": null,
+      "text_prefix": "Jobs, labor laws, and unemployment",
+      "bbox": {
+        "desktop": [
+          981,
+          1763,
+          241,
+          78
+        ],
+        "mobile": [
+          36,
+          4179,
+          304,
+          78
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e249",
+      "tag": "h2",
+      "id": "uij-e249",
+      "class": null,
+      "role": null,
+      "text_prefix": "Jobs, labor laws, and unemployment",
+      "bbox": {
+        "desktop": [
+          981,
+          1779,
+          241,
+          47
+        ],
+        "mobile": [
+          36,
+          4195,
+          304,
+          47
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e250",
+      "tag": "div",
+      "id": "uij-e250",
+      "class": "usa-card__body homepage-card-description",
+      "role": null,
+      "text_prefix": "Get resources for finding a job. Learn about unemployment insurance and importan",
+      "bbox": {
+        "desktop": [
+          966,
+          1841,
+          271,
+          138
+        ],
+        "mobile": [
+          21,
+          4257,
+          334,
+          111
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e251",
+      "tag": "p",
+      "id": "uij-e251",
+      "class": null,
+      "role": null,
+      "text_prefix": "Get resources for finding a job. Learn about unemployment insurance and importan",
+      "bbox": {
+        "desktop": [
+          981,
+          1841,
+          241,
+          108
+        ],
+        "mobile": [
+          36,
+          4257,
+          304,
+          81
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e252",
+      "tag": "li",
+      "id": "uij-e252",
+      "class": "homepage-card usa-card__container",
+      "role": null,
+      "text_prefix": "Laws and legal issues Learn how to replace vital records, get child support enfo",
+      "bbox": {
+        "desktop": [
+          1247,
+          1696,
+          275,
+          343
+        ],
+        "mobile": [
+          19,
+          4378,
+          338,
+          235
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e253",
+      "tag": "a",
+      "id": "uij-e253",
+      "class": null,
+      "role": null,
+      "text_prefix": "Laws and legal issues Learn how to replace vital records, get child support enfo",
+      "bbox": {
+        "desktop": [
+          1249,
+          1698,
+          271,
+          339
+        ],
+        "mobile": [
+          21,
+          4380,
+          334,
+          231
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e254",
+      "tag": "div",
+      "id": "uij-e254",
+      "class": "homepage-icon topic-icon icon-laws lazyload",
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          1362,
+          1708,
+          45,
+          45
+        ],
+        "mobile": [
+          165,
+          4390,
+          45,
+          45
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e255",
+      "tag": "div",
+      "id": "uij-e255",
+      "class": "usa-card__header homepage-card_header",
+      "role": null,
+      "text_prefix": "Laws and legal issues",
+      "bbox": {
+        "desktop": [
+          1264,
+          1763,
+          241,
+          55
+        ],
+        "mobile": [
+          36,
+          4445,
+          304,
+          55
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e256",
+      "tag": "h2",
+      "id": "uij-e256",
+      "class": null,
+      "role": null,
+      "text_prefix": "Laws and legal issues",
+      "bbox": {
+        "desktop": [
+          1264,
+          1779,
+          241,
+          24
+        ],
+        "mobile": [
+          36,
+          4461,
+          304,
+          24
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e257",
+      "tag": "div",
+      "id": "uij-e257",
+      "class": "usa-card__body homepage-card-description",
+      "role": null,
+      "text_prefix": "Learn how to replace vital records, get child support enforcement, find legal he",
+      "bbox": {
+        "desktop": [
+          1249,
+          1817,
+          271,
+          138
+        ],
+        "mobile": [
+          21,
+          4500,
+          334,
+          111
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e258",
+      "tag": "p",
+      "id": "uij-e258",
+      "class": null,
+      "role": null,
+      "text_prefix": "Learn how to replace vital records, get child support enforcement, find legal he",
+      "bbox": {
+        "desktop": [
+          1264,
+          1817,
+          241,
+          108
+        ],
+        "mobile": [
+          36,
+          4500,
+          304,
+          81
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e259",
+      "tag": "li",
+      "id": "uij-e259",
+      "class": "homepage-card usa-card__container",
+      "role": null,
+      "text_prefix": "Military and veterans Learn how to join the military. Find benefits and services",
+      "bbox": {
+        "desktop": [
+          398,
+          2047,
+          275,
+          316
+        ],
+        "mobile": [
+          19,
+          4621,
+          338,
+          289
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e260",
+      "tag": "a",
+      "id": "uij-e260",
+      "class": null,
+      "role": null,
+      "text_prefix": "Military and veterans Learn how to join the military. Find benefits and services",
+      "bbox": {
+        "desktop": [
+          400,
+          2049,
+          271,
+          312
+        ],
+        "mobile": [
+          21,
+          4623,
+          334,
+          285
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e261",
+      "tag": "div",
+      "id": "uij-e261",
+      "class": "homepage-icon topic-icon icon-military lazyload",
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          513,
+          2059,
+          45,
+          45
+        ],
+        "mobile": [
+          165,
+          4633,
+          45,
+          45
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e262",
+      "tag": "div",
+      "id": "uij-e262",
+      "class": "usa-card__header homepage-card_header",
+      "role": null,
+      "text_prefix": "Military and veterans",
+      "bbox": {
+        "desktop": [
+          415,
+          2114,
+          241,
+          55
+        ],
+        "mobile": [
+          36,
+          4688,
+          304,
+          55
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e263",
+      "tag": "h2",
+      "id": "uij-e263",
+      "class": null,
+      "role": null,
+      "text_prefix": "Military and veterans",
+      "bbox": {
+        "desktop": [
+          415,
+          2130,
+          241,
+          24
+        ],
+        "mobile": [
+          36,
+          4704,
+          304,
+          24
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e264",
+      "tag": "div",
+      "id": "uij-e264",
+      "class": "usa-card__body homepage-card-description",
+      "role": null,
+      "text_prefix": "Learn how to join the military. Find benefits and services as a member or vetera",
+      "bbox": {
+        "desktop": [
+          400,
+          2168,
+          271,
+          193
+        ],
+        "mobile": [
+          21,
+          4742,
+          334,
+          166
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e265",
+      "tag": "p",
+      "id": "uij-e265",
+      "class": null,
+      "role": null,
+      "text_prefix": "Learn how to join the military. Find benefits and services as a member or vetera",
+      "bbox": {
+        "desktop": [
+          415,
+          2168,
+          241,
+          163
+        ],
+        "mobile": [
+          36,
+          4742,
+          304,
+          136
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e266",
+      "tag": "li",
+      "id": "uij-e266",
+      "class": "homepage-card usa-card__container",
+      "role": null,
+      "text_prefix": "Money and credit Find government grants, loans, and unclaimed money. Learn about",
+      "bbox": {
+        "desktop": [
+          681,
+          2047,
+          275,
+          316
+        ],
+        "mobile": [
+          19,
+          4918,
+          338,
+          235
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e267",
+      "tag": "a",
+      "id": "uij-e267",
+      "class": null,
+      "role": null,
+      "text_prefix": "Money and credit Find government grants, loans, and unclaimed money. Learn about",
+      "bbox": {
+        "desktop": [
+          683,
+          2049,
+          271,
+          312
+        ],
+        "mobile": [
+          21,
+          4920,
+          334,
+          231
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e268",
+      "tag": "div",
+      "id": "uij-e268",
+      "class": "homepage-icon topic-icon icon-money lazyload",
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          796,
+          2059,
+          45,
+          45
+        ],
+        "mobile": [
+          165,
+          4930,
+          45,
+          45
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e269",
+      "tag": "div",
+      "id": "uij-e269",
+      "class": "usa-card__header homepage-card_header",
+      "role": null,
+      "text_prefix": "Money and credit",
+      "bbox": {
+        "desktop": [
+          698,
+          2114,
+          241,
+          55
+        ],
+        "mobile": [
+          36,
+          4985,
+          304,
+          55
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e270",
+      "tag": "h2",
+      "id": "uij-e270",
+      "class": null,
+      "role": null,
+      "text_prefix": "Money and credit",
+      "bbox": {
+        "desktop": [
+          698,
+          2130,
+          241,
+          24
+        ],
+        "mobile": [
+          36,
+          5001,
+          304,
+          24
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e271",
+      "tag": "div",
+      "id": "uij-e271",
+      "class": "usa-card__body homepage-card-description",
+      "role": null,
+      "text_prefix": "Find government grants, loans, and unclaimed money. Learn about taxes. Get credi",
+      "bbox": {
+        "desktop": [
+          683,
+          2168,
+          271,
+          138
+        ],
+        "mobile": [
+          21,
+          5040,
+          334,
+          111
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e272",
+      "tag": "p",
+      "id": "uij-e272",
+      "class": null,
+      "role": null,
+      "text_prefix": "Find government grants, loans, and unclaimed money. Learn about taxes. Get credi",
+      "bbox": {
+        "desktop": [
+          698,
+          2168,
+          241,
+          108
+        ],
+        "mobile": [
+          36,
+          5040,
+          304,
+          81
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e273",
+      "tag": "li",
+      "id": "uij-e273",
+      "class": "homepage-card usa-card__container",
+      "role": null,
+      "text_prefix": "Scams and fraud Learn about identity theft, Social Security scams, and how to re",
+      "bbox": {
+        "desktop": [
+          964,
+          2047,
+          275,
+          316
+        ],
+        "mobile": [
+          19,
+          5161,
+          338,
+          235
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e274",
+      "tag": "a",
+      "id": "uij-e274",
+      "class": null,
+      "role": null,
+      "text_prefix": "Scams and fraud Learn about identity theft, Social Security scams, and how to re",
+      "bbox": {
+        "desktop": [
+          966,
+          2049,
+          271,
+          312
+        ],
+        "mobile": [
+          21,
+          5163,
+          334,
+          231
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e275",
+      "tag": "div",
+      "id": "uij-e275",
+      "class": "homepage-icon topic-icon icon-scams lazyload",
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          1079,
+          2059,
+          45,
+          45
+        ],
+        "mobile": [
+          165,
+          5173,
+          45,
+          45
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e276",
+      "tag": "div",
+      "id": "uij-e276",
+      "class": "usa-card__header homepage-card_header",
+      "role": null,
+      "text_prefix": "Scams and fraud",
+      "bbox": {
+        "desktop": [
+          981,
+          2114,
+          241,
+          55
+        ],
+        "mobile": [
+          36,
+          5228,
+          304,
+          55
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e277",
+      "tag": "h2",
+      "id": "uij-e277",
+      "class": null,
+      "role": null,
+      "text_prefix": "Scams and fraud",
+      "bbox": {
+        "desktop": [
+          981,
+          2130,
+          241,
+          24
+        ],
+        "mobile": [
+          36,
+          5244,
+          304,
+          24
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e278",
+      "tag": "div",
+      "id": "uij-e278",
+      "class": "usa-card__body homepage-card-description",
+      "role": null,
+      "text_prefix": "Learn about identity theft, Social Security scams, and how to report scams and f",
+      "bbox": {
+        "desktop": [
+          966,
+          2168,
+          271,
+          138
+        ],
+        "mobile": [
+          21,
+          5282,
+          334,
+          111
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e279",
+      "tag": "p",
+      "id": "uij-e279",
+      "class": null,
+      "role": null,
+      "text_prefix": "Learn about identity theft, Social Security scams, and how to report scams and f",
+      "bbox": {
+        "desktop": [
+          981,
+          2168,
+          241,
+          108
+        ],
+        "mobile": [
+          36,
+          5282,
+          304,
+          81
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e280",
+      "tag": "li",
+      "id": "uij-e280",
+      "class": "homepage-card usa-card__container",
+      "role": null,
+      "text_prefix": "Small business Learn how to start, fund, and manage your own business. Understan",
+      "bbox": {
+        "desktop": [
+          1247,
+          2047,
+          275,
+          316
+        ],
+        "mobile": [
+          19,
+          5404,
+          338,
+          262
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e281",
+      "tag": "a",
+      "id": "uij-e281",
+      "class": null,
+      "role": null,
+      "text_prefix": "Small business Learn how to start, fund, and manage your own business. Understan",
+      "bbox": {
+        "desktop": [
+          1249,
+          2049,
+          271,
+          312
+        ],
+        "mobile": [
+          21,
+          5406,
+          334,
+          258
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e282",
+      "tag": "div",
+      "id": "uij-e282",
+      "class": "homepage-icon topic-icon icon-business lazyload",
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          1362,
+          2059,
+          45,
+          45
+        ],
+        "mobile": [
+          165,
+          5416,
+          45,
+          45
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e283",
+      "tag": "div",
+      "id": "uij-e283",
+      "class": "usa-card__header homepage-card_header",
+      "role": null,
+      "text_prefix": "Small business",
+      "bbox": {
+        "desktop": [
+          1264,
+          2114,
+          241,
+          55
+        ],
+        "mobile": [
+          36,
+          5471,
+          304,
+          55
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e284",
+      "tag": "h2",
+      "id": "uij-e284",
+      "class": null,
+      "role": null,
+      "text_prefix": "Small business",
+      "bbox": {
+        "desktop": [
+          1264,
+          2130,
+          241,
+          24
+        ],
+        "mobile": [
+          36,
+          5487,
+          304,
+          24
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e285",
+      "tag": "div",
+      "id": "uij-e285",
+      "class": "usa-card__body homepage-card-description",
+      "role": null,
+      "text_prefix": "Learn how to start, fund, and manage your own business. Understand how to get im",
+      "bbox": {
+        "desktop": [
+          1249,
+          2168,
+          271,
+          138
+        ],
+        "mobile": [
+          21,
+          5525,
+          334,
+          138
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e286",
+      "tag": "p",
+      "id": "uij-e286",
+      "class": null,
+      "role": null,
+      "text_prefix": "Learn how to start, fund, and manage your own business. Understand how to get im",
+      "bbox": {
+        "desktop": [
+          1264,
+          2168,
+          241,
+          108
+        ],
+        "mobile": [
+          36,
+          5525,
+          304,
+          108
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e287",
+      "tag": "li",
+      "id": "uij-e287",
+      "class": "homepage-card usa-card__container",
+      "role": null,
+      "text_prefix": "Taxes Learn about filing federal income tax. Find out how to pay, how to check y",
+      "bbox": {
+        "desktop": [
+          398,
+          2371,
+          275,
+          316
+        ],
+        "mobile": [
+          19,
+          5674,
+          338,
+          235
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e288",
+      "tag": "a",
+      "id": "uij-e288",
+      "class": null,
+      "role": null,
+      "text_prefix": "Taxes Learn about filing federal income tax. Find out how to pay, how to check y",
+      "bbox": {
+        "desktop": [
+          400,
+          2373,
+          271,
+          312
+        ],
+        "mobile": [
+          21,
+          5676,
+          334,
+          231
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e289",
+      "tag": "div",
+      "id": "uij-e289",
+      "class": "homepage-icon topic-icon icon-taxes lazyload",
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          513,
+          2383,
+          45,
+          45
+        ],
+        "mobile": [
+          165,
+          5686,
+          45,
+          45
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e290",
+      "tag": "div",
+      "id": "uij-e290",
+      "class": "usa-card__header homepage-card_header",
+      "role": null,
+      "text_prefix": "Taxes",
+      "bbox": {
+        "desktop": [
+          415,
+          2438,
+          241,
+          55
+        ],
+        "mobile": [
+          36,
+          5741,
+          304,
+          55
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e291",
+      "tag": "h2",
+      "id": "uij-e291",
+      "class": null,
+      "role": null,
+      "text_prefix": "Taxes",
+      "bbox": {
+        "desktop": [
+          415,
+          2454,
+          241,
+          24
+        ],
+        "mobile": [
+          36,
+          5757,
+          304,
+          24
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e292",
+      "tag": "div",
+      "id": "uij-e292",
+      "class": "usa-card__body homepage-card-description",
+      "role": null,
+      "text_prefix": "Learn about filing federal income tax. Find out how to pay, how to check your re",
+      "bbox": {
+        "desktop": [
+          400,
+          2493,
+          271,
+          138
+        ],
+        "mobile": [
+          21,
+          5795,
+          334,
+          111
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e293",
+      "tag": "p",
+      "id": "uij-e293",
+      "class": null,
+      "role": null,
+      "text_prefix": "Learn about filing federal income tax. Find out how to pay, how to check your re",
+      "bbox": {
+        "desktop": [
+          415,
+          2493,
+          241,
+          108
+        ],
+        "mobile": [
+          36,
+          5795,
+          304,
+          81
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e294",
+      "tag": "li",
+      "id": "uij-e294",
+      "class": "homepage-card usa-card__container",
+      "role": null,
+      "text_prefix": "Travel Learn about passports, travel documents for minors, and travel to, from, ",
+      "bbox": {
+        "desktop": [
+          681,
+          2371,
+          275,
+          316
+        ],
+        "mobile": [
+          19,
+          5916,
+          338,
+          235
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e295",
+      "tag": "a",
+      "id": "uij-e295",
+      "class": null,
+      "role": null,
+      "text_prefix": "Travel Learn about passports, travel documents for minors, and travel to, from, ",
+      "bbox": {
+        "desktop": [
+          683,
+          2373,
+          271,
+          312
+        ],
+        "mobile": [
+          21,
+          5918,
+          334,
+          231
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e296",
+      "tag": "div",
+      "id": "uij-e296",
+      "class": "homepage-icon topic-icon icon-travel lazyload",
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          796,
+          2383,
+          45,
+          45
+        ],
+        "mobile": [
+          165,
+          5928,
+          45,
+          45
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e297",
+      "tag": "div",
+      "id": "uij-e297",
+      "class": "usa-card__header homepage-card_header",
+      "role": null,
+      "text_prefix": "Travel",
+      "bbox": {
+        "desktop": [
+          698,
+          2438,
+          241,
+          55
+        ],
+        "mobile": [
+          36,
+          5983,
+          304,
+          55
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e298",
+      "tag": "h2",
+      "id": "uij-e298",
+      "class": null,
+      "role": null,
+      "text_prefix": "Travel",
+      "bbox": {
+        "desktop": [
+          698,
+          2454,
+          241,
+          24
+        ],
+        "mobile": [
+          36,
+          5999,
+          304,
+          24
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e299",
+      "tag": "div",
+      "id": "uij-e299",
+      "class": "usa-card__body homepage-card-description",
+      "role": null,
+      "text_prefix": "Learn about passports, travel documents for minors, and travel to, from, and wit",
+      "bbox": {
+        "desktop": [
+          683,
+          2493,
+          271,
+          138
+        ],
+        "mobile": [
+          21,
+          6038,
+          334,
+          111
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e300",
+      "tag": "p",
+      "id": "uij-e300",
+      "class": null,
+      "role": null,
+      "text_prefix": "Learn about passports, travel documents for minors, and travel to, from, and wit",
+      "bbox": {
+        "desktop": [
+          698,
+          2493,
+          241,
+          108
+        ],
+        "mobile": [
+          36,
+          6038,
+          304,
+          81
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e301",
+      "tag": "li",
+      "id": "uij-e301",
+      "class": "homepage-card usa-card__container",
+      "role": null,
+      "text_prefix": "Voting and elections Find out how to register to vote, where your voting locatio",
+      "bbox": {
+        "desktop": [
+          964,
+          2371,
+          275,
+          316
+        ],
+        "mobile": [
+          19,
+          6159,
+          338,
+          262
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e302",
+      "tag": "a",
+      "id": "uij-e302",
+      "class": null,
+      "role": null,
+      "text_prefix": "Voting and elections Find out how to register to vote, where your voting locatio",
+      "bbox": {
+        "desktop": [
+          966,
+          2373,
+          271,
+          312
+        ],
+        "mobile": [
+          21,
+          6161,
+          334,
+          258
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e303",
+      "tag": "div",
+      "id": "uij-e303",
+      "class": "homepage-icon topic-icon icon-voting lazyload",
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          1079,
+          2383,
+          45,
+          45
+        ],
+        "mobile": [
+          165,
+          6171,
+          45,
+          45
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e304",
+      "tag": "div",
+      "id": "uij-e304",
+      "class": "usa-card__header homepage-card_header",
+      "role": null,
+      "text_prefix": "Voting and elections",
+      "bbox": {
+        "desktop": [
+          981,
+          2438,
+          241,
+          55
+        ],
+        "mobile": [
+          36,
+          6226,
+          304,
+          55
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e305",
+      "tag": "h2",
+      "id": "uij-e305",
+      "class": null,
+      "role": null,
+      "text_prefix": "Voting and elections",
+      "bbox": {
+        "desktop": [
+          981,
+          2454,
+          241,
+          24
+        ],
+        "mobile": [
+          36,
+          6242,
+          304,
+          24
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e306",
+      "tag": "div",
+      "id": "uij-e306",
+      "class": "usa-card__body homepage-card-description",
+      "role": null,
+      "text_prefix": "Find out how to register to vote, where your voting location is, how presidentia",
+      "bbox": {
+        "desktop": [
+          966,
+          2493,
+          271,
+          193
+        ],
+        "mobile": [
+          21,
+          6281,
+          334,
+          138
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e307",
+      "tag": "p",
+      "id": "uij-e307",
+      "class": null,
+      "role": null,
+      "text_prefix": "Find out how to register to vote, where your voting location is, how presidentia",
+      "bbox": {
+        "desktop": [
+          981,
+          2493,
+          241,
+          163
+        ],
+        "mobile": [
+          36,
+          6281,
+          304,
+          108
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e308",
+      "tag": "li",
+      "id": "uij-e308",
+      "class": "homepage-card usa-card__container",
+      "role": null,
+      "text_prefix": "Life events Discover government benefits and services to help you and your famil",
+      "bbox": {
+        "desktop": [
+          1247,
+          2371,
+          275,
+          316
+        ],
+        "mobile": [
+          19,
+          6429,
+          338,
+          235
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e309",
+      "tag": "a",
+      "id": "uij-e309",
+      "class": null,
+      "role": null,
+      "text_prefix": "Life events Discover government benefits and services to help you and your famil",
+      "bbox": {
+        "desktop": [
+          1249,
+          2373,
+          271,
+          312
+        ],
+        "mobile": [
+          21,
+          6431,
+          334,
+          231
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e310",
+      "tag": "div",
+      "id": "uij-e310",
+      "class": "homepage-icon topic-icon icon-life-events lazyload",
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          1362,
+          2383,
+          45,
+          45
+        ],
+        "mobile": [
+          165,
+          6441,
+          45,
+          45
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e311",
+      "tag": "div",
+      "id": "uij-e311",
+      "class": "usa-card__header homepage-card_header",
+      "role": null,
+      "text_prefix": "Life events",
+      "bbox": {
+        "desktop": [
+          1264,
+          2438,
+          241,
+          55
+        ],
+        "mobile": [
+          36,
+          6496,
+          304,
+          55
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e312",
+      "tag": "h2",
+      "id": "uij-e312",
+      "class": null,
+      "role": null,
+      "text_prefix": "Life events",
+      "bbox": {
+        "desktop": [
+          1264,
+          2454,
+          241,
+          24
+        ],
+        "mobile": [
+          36,
+          6512,
+          304,
+          24
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e313",
+      "tag": "div",
+      "id": "uij-e313",
+      "class": "usa-card__body homepage-card-description",
+      "role": null,
+      "text_prefix": "Discover government benefits and services to help you and your family through ev",
+      "bbox": {
+        "desktop": [
+          1249,
+          2493,
+          271,
+          138
+        ],
+        "mobile": [
+          21,
+          6551,
+          334,
+          111
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e314",
+      "tag": "p",
+      "id": "uij-e314",
+      "class": null,
+      "role": null,
+      "text_prefix": "Discover government benefits and services to help you and your family through ev",
+      "bbox": {
+        "desktop": [
+          1264,
+          2493,
+          241,
+          108
+        ],
+        "mobile": [
+          36,
+          6551,
+          304,
+          81
+        ]
+      }
+    },
+    {
+      "selector": "#back-to-top",
+      "tag": "a",
+      "id": "back-to-top",
+      "class": null,
+      "role": null,
+      "text_prefix": "Top",
+      "bbox": {
+        "desktop": [
+          1930,
+          950,
+          90,
+          50
+        ],
+        "mobile": [
+          385,
+          537,
+          90,
+          50
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e317",
+      "tag": "footer",
+      "id": "uij-e317",
+      "class": "usa-footer usa-footer--big",
+      "role": null,
+      "text_prefix": "Government information All topics and services Directory of U.S. government agen",
+      "bbox": {
+        "desktop": [
+          0,
+          2755,
+          1920,
+          667
+        ],
+        "mobile": [
+          0,
+          6732,
+          375,
+          1232
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e318",
+      "tag": "div",
+      "id": "uij-e318",
+      "class": "usa-footer__primary-section",
+      "role": null,
+      "text_prefix": "Government information All topics and services Directory of U.S. government agen",
+      "bbox": {
+        "desktop": [
+          0,
+          2787,
+          1920,
+          336
+        ],
+        "mobile": [
+          0,
+          6764,
+          375,
+          662
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e319",
+      "tag": "div",
+      "id": "uij-e319",
+      "class": "grid-container",
+      "role": null,
+      "text_prefix": "Government information All topics and services Directory of U.S. government agen",
+      "bbox": {
+        "desktop": [
+          366,
+          2787,
+          1188,
+          336
+        ],
+        "mobile": [
+          0,
+          6764,
+          375,
+          662
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e320",
+      "tag": "div",
+      "id": "uij-e320",
+      "class": "grid-row grid-gap",
+      "role": null,
+      "text_prefix": "Government information All topics and services Directory of U.S. government agen",
+      "bbox": {
+        "desktop": [
+          382,
+          2787,
+          1156,
+          304
+        ],
+        "mobile": [
+          11,
+          6764,
+          354,
+          630
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e321",
+      "tag": "div",
+      "id": "uij-e321",
+      "class": "tablet:grid-col-12",
+      "role": null,
+      "text_prefix": "Government information All topics and services Directory of U.S. government agen",
+      "bbox": {
+        "desktop": [
+          382,
+          2787,
+          1156,
+          304
+        ],
+        "mobile": [
+          11,
+          6764,
+          354,
+          630
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e322",
+      "tag": "nav",
+      "id": "uij-e322",
+      "class": "usa-footer__nav",
+      "role": null,
+      "text_prefix": "Government information All topics and services Directory of U.S. government agen",
+      "bbox": {
+        "desktop": [
+          398,
+          2787,
+          1024,
+          304
+        ],
+        "mobile": [
+          3,
+          6764,
+          370,
+          630
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e323",
+      "tag": "div",
+      "id": "uij-e323",
+      "class": "grid-row grid-gap-4",
+      "role": null,
+      "text_prefix": "Government information All topics and services Directory of U.S. government agen",
+      "bbox": {
+        "desktop": [
+          382,
+          2819,
+          1056,
+          272
+        ],
+        "mobile": [
+          -13,
+          6764,
+          402,
+          629
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e324",
+      "tag": "div",
+      "id": "uij-e324",
+      "class": "mobile-lg:grid-col-6 desktop:grid-col-3",
+      "role": null,
+      "text_prefix": "Government information All topics and services Directory of U.S. government agen",
+      "bbox": {
+        "desktop": [
+          382,
+          2819,
+          264,
+          272
+        ],
+        "mobile": [
+          -13,
+          6764,
+          402,
+          199
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e325",
+      "tag": "section",
+      "id": "uij-e325",
+      "class": "usa-footer__primary-content usa-footer__primary-content--collapsible",
+      "role": null,
+      "text_prefix": "Government information All topics and services Directory of U.S. government agen",
+      "bbox": {
+        "desktop": [
+          398,
+          2819,
+          232,
+          272
+        ],
+        "mobile": [
+          3,
+          6764,
+          370,
+          199
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e326",
+      "tag": "h3",
+      "id": "uij-e326",
+      "class": "usa-gov-footer__primary-link",
+      "role": null,
+      "text_prefix": "Government information",
+      "bbox": {
+        "desktop": [
+          398,
+          2819,
+          232,
+          44
+        ],
+        "mobile": [
+          3,
+          6765,
+          370,
+          22
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e327",
+      "tag": "ul",
+      "id": "uij-e327",
+      "class": "usa-list usa-list--unstyled",
+      "role": null,
+      "text_prefix": "All topics and services Directory of U.S. government agencies and departments Br",
+      "bbox": {
+        "desktop": [
+          398,
+          2879,
+          232,
+          212
+        ],
+        "mobile": [
+          3,
+          6803,
+          370,
+          160
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e328",
+      "tag": "li",
+      "id": "uij-e328",
+      "class": "usa-footer__secondary-link",
+      "role": null,
+      "text_prefix": "All topics and services",
+      "bbox": {
+        "desktop": [
+          398,
+          2891,
+          232,
+          27
+        ],
+        "mobile": [
+          35,
+          6803,
+          322,
+          27
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e329",
+      "tag": "a",
+      "id": "uij-e329",
+      "class": null,
+      "role": null,
+      "text_prefix": "All topics and services",
+      "bbox": {
+        "desktop": [
+          398,
+          2894,
+          181,
+          21
+        ],
+        "mobile": [
+          35,
+          6806,
+          181,
+          21
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e330",
+      "tag": "li",
+      "id": "uij-e330",
+      "class": "usa-footer__secondary-link",
+      "role": null,
+      "text_prefix": "Directory of U.S. government agencies and departments",
+      "bbox": {
+        "desktop": [
+          398,
+          2918,
+          232,
+          97
+        ],
+        "mobile": [
+          35,
+          6830,
+          322,
+          70
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e331",
+      "tag": "a",
+      "id": "uij-e331",
+      "class": null,
+      "role": null,
+      "text_prefix": "Directory of U.S. government agencies and departments",
+      "bbox": {
+        "desktop": [
+          398,
+          2937,
+          210,
+          75
+        ],
+        "mobile": [
+          35,
+          6849,
+          313,
+          48
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e332",
+      "tag": "li",
+      "id": "uij-e332",
+      "class": "usa-footer__secondary-link",
+      "role": null,
+      "text_prefix": "Branches of government",
+      "bbox": {
+        "desktop": [
+          398,
+          3016,
+          232,
+          43
+        ],
+        "mobile": [
+          35,
+          6900,
+          322,
+          43
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e333",
+      "tag": "a",
+      "id": "uij-e333",
+      "class": null,
+      "role": null,
+      "text_prefix": "Branches of government",
+      "bbox": {
+        "desktop": [
+          398,
+          3035,
+          199,
+          21
+        ],
+        "mobile": [
+          35,
+          6919,
+          199,
+          21
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e334",
+      "tag": "div",
+      "id": "uij-e334",
+      "class": "mobile-lg:grid-col-6 desktop:grid-col-3",
+      "role": null,
+      "text_prefix": "About us About USAGov Report a website issue Website usage data",
+      "bbox": {
+        "desktop": [
+          646,
+          2819,
+          264,
+          272
+        ],
+        "mobile": [
+          -13,
+          6963,
+          402,
+          172
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e335",
+      "tag": "section",
+      "id": "uij-e335",
+      "class": "usa-footer__primary-content usa-footer__primary-content--collapsible",
+      "role": null,
+      "text_prefix": "About us About USAGov Report a website issue Website usage data",
+      "bbox": {
+        "desktop": [
+          662,
+          2819,
+          232,
+          217
+        ],
+        "mobile": [
+          3,
+          6963,
+          370,
+          172
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e336",
+      "tag": "h3",
+      "id": "uij-e336",
+      "class": "usa-gov-footer__primary-link",
+      "role": null,
+      "text_prefix": "About us",
+      "bbox": {
+        "desktop": [
+          662,
+          2819,
+          232,
+          44
+        ],
+        "mobile": [
+          3,
+          6964,
+          370,
+          22
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e337",
+      "tag": "ul",
+      "id": "uij-e337",
+      "class": "usa-list usa-list--unstyled",
+      "role": null,
+      "text_prefix": "About USAGov Report a website issue Website usage data",
+      "bbox": {
+        "desktop": [
+          662,
+          2879,
+          232,
+          157
+        ],
+        "mobile": [
+          3,
+          7002,
+          370,
+          133
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e338",
+      "tag": "li",
+      "id": "uij-e338",
+      "class": "usa-footer__secondary-link",
+      "role": null,
+      "text_prefix": "About USAGov",
+      "bbox": {
+        "desktop": [
+          662,
+          2891,
+          232,
+          27
+        ],
+        "mobile": [
+          35,
+          7002,
+          322,
+          27
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e339",
+      "tag": "a",
+      "id": "uij-e339",
+      "class": null,
+      "role": null,
+      "text_prefix": "About USAGov",
+      "bbox": {
+        "desktop": [
+          662,
+          2894,
+          123,
+          21
+        ],
+        "mobile": [
+          35,
+          7005,
+          123,
+          21
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e340",
+      "tag": "li",
+      "id": "uij-e340",
+      "class": "usa-footer__secondary-link",
+      "role": null,
+      "text_prefix": "Report a website issue",
+      "bbox": {
+        "desktop": [
+          662,
+          2918,
+          232,
+          43
+        ],
+        "mobile": [
+          35,
+          7029,
+          322,
+          43
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e341",
+      "tag": "a",
+      "id": "uij-e341",
+      "class": null,
+      "role": null,
+      "text_prefix": "Report a website issue",
+      "bbox": {
+        "desktop": [
+          662,
+          2937,
+          184,
+          21
+        ],
+        "mobile": [
+          35,
+          7048,
+          184,
+          21
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e342",
+      "tag": "li",
+      "id": "uij-e342",
+      "class": "usa-footer__secondary-link",
+      "role": null,
+      "text_prefix": "Website usage data",
+      "bbox": {
+        "desktop": [
+          662,
+          2961,
+          232,
+          43
+        ],
+        "mobile": [
+          35,
+          7072,
+          322,
+          43
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e343",
+      "tag": "a",
+      "id": "uij-e343",
+      "class": null,
+      "role": null,
+      "text_prefix": "Website usage data",
+      "bbox": {
+        "desktop": [
+          662,
+          2980,
+          159,
+          21
+        ],
+        "mobile": [
+          35,
+          7091,
+          159,
+          21
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e344",
+      "tag": "div",
+      "id": "uij-e344",
+      "class": "mobile-lg:grid-col-6 desktop:grid-col-3",
+      "role": null,
+      "text_prefix": "For federal agencies Partner with us Read our blog",
+      "bbox": {
+        "desktop": [
+          910,
+          2819,
+          264,
+          272
+        ],
+        "mobile": [
+          -13,
+          7135,
+          402,
+          129
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e345",
+      "tag": "section",
+      "id": "uij-e345",
+      "class": "usa-footer__primary-content usa-footer__primary-content--collapsible",
+      "role": null,
+      "text_prefix": "For federal agencies Partner with us Read our blog",
+      "bbox": {
+        "desktop": [
+          926,
+          2819,
+          232,
+          174
+        ],
+        "mobile": [
+          3,
+          7135,
+          370,
+          129
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e346",
+      "tag": "h3",
+      "id": "uij-e346",
+      "class": "usa-gov-footer__primary-link",
+      "role": null,
+      "text_prefix": "For federal agencies",
+      "bbox": {
+        "desktop": [
+          926,
+          2819,
+          232,
+          44
+        ],
+        "mobile": [
+          3,
+          7136,
+          370,
+          22
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e347",
+      "tag": "ul",
+      "id": "uij-e347",
+      "class": "usa-list usa-list--unstyled",
+      "role": null,
+      "text_prefix": "Partner with us Read our blog",
+      "bbox": {
+        "desktop": [
+          926,
+          2879,
+          232,
+          114
+        ],
+        "mobile": [
+          3,
+          7174,
+          370,
+          90
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e348",
+      "tag": "li",
+      "id": "uij-e348",
+      "class": "usa-footer__secondary-link",
+      "role": null,
+      "text_prefix": "Partner with us",
+      "bbox": {
+        "desktop": [
+          926,
+          2891,
+          232,
+          27
+        ],
+        "mobile": [
+          35,
+          7174,
+          322,
+          27
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e349",
+      "tag": "a",
+      "id": "uij-e349",
+      "class": null,
+      "role": null,
+      "text_prefix": "Partner with us",
+      "bbox": {
+        "desktop": [
+          926,
+          2894,
+          122,
+          21
+        ],
+        "mobile": [
+          35,
+          7177,
+          122,
+          21
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e350",
+      "tag": "li",
+      "id": "uij-e350",
+      "class": "usa-footer__secondary-link",
+      "role": null,
+      "text_prefix": "Read our blog",
+      "bbox": {
+        "desktop": [
+          926,
+          2918,
+          232,
+          43
+        ],
+        "mobile": [
+          35,
+          7201,
+          322,
+          43
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e351",
+      "tag": "a",
+      "id": "uij-e351",
+      "class": null,
+      "role": null,
+      "text_prefix": "Read our blog",
+      "bbox": {
+        "desktop": [
+          926,
+          2937,
+          115,
+          21
+        ],
+        "mobile": [
+          35,
+          7220,
+          115,
+          21
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e352",
+      "tag": "div",
+      "id": "uij-e352",
+      "class": "mobile-lg:grid-col-6 desktop:grid-col-3",
+      "role": null,
+      "text_prefix": "For media USAGov Outreach Feature articles",
+      "bbox": {
+        "desktop": [
+          1174,
+          2819,
+          264,
+          272
+        ],
+        "mobile": [
+          -13,
+          7264,
+          402,
+          129
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e353",
+      "tag": "section",
+      "id": "uij-e353",
+      "class": "usa-footer__primary-content usa-footer__primary-content--collapsible",
+      "role": null,
+      "text_prefix": "For media USAGov Outreach Feature articles",
+      "bbox": {
+        "desktop": [
+          1190,
+          2819,
+          232,
+          174
+        ],
+        "mobile": [
+          3,
+          7264,
+          370,
+          129
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e354",
+      "tag": "h3",
+      "id": "uij-e354",
+      "class": "usa-gov-footer__primary-link",
+      "role": null,
+      "text_prefix": "For media",
+      "bbox": {
+        "desktop": [
+          1190,
+          2819,
+          232,
+          44
+        ],
+        "mobile": [
+          3,
+          7265,
+          370,
+          22
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e355",
+      "tag": "ul",
+      "id": "uij-e355",
+      "class": "usa-list usa-list--unstyled",
+      "role": null,
+      "text_prefix": "USAGov Outreach Feature articles",
+      "bbox": {
+        "desktop": [
+          1190,
+          2879,
+          232,
+          114
+        ],
+        "mobile": [
+          3,
+          7303,
+          370,
+          90
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e356",
+      "tag": "li",
+      "id": "uij-e356",
+      "class": "usa-footer__secondary-link",
+      "role": null,
+      "text_prefix": "USAGov Outreach",
+      "bbox": {
+        "desktop": [
+          1190,
+          2891,
+          232,
+          27
+        ],
+        "mobile": [
+          35,
+          7303,
+          322,
+          27
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e357",
+      "tag": "a",
+      "id": "uij-e357",
+      "class": null,
+      "role": null,
+      "text_prefix": "USAGov Outreach",
+      "bbox": {
+        "desktop": [
+          1190,
+          2894,
+          149,
+          21
+        ],
+        "mobile": [
+          35,
+          7306,
+          149,
+          21
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e358",
+      "tag": "li",
+      "id": "uij-e358",
+      "class": "usa-footer__secondary-link",
+      "role": null,
+      "text_prefix": "Feature articles",
+      "bbox": {
+        "desktop": [
+          1190,
+          2918,
+          232,
+          43
+        ],
+        "mobile": [
+          35,
+          7330,
+          322,
+          43
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e359",
+      "tag": "a",
+      "id": "uij-e359",
+      "class": null,
+      "role": null,
+      "text_prefix": "Feature articles",
+      "bbox": {
+        "desktop": [
+          1190,
+          2937,
+          124,
+          21
+        ],
+        "mobile": [
+          35,
+          7349,
+          124,
+          21
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e360",
+      "tag": "div",
+      "id": "uij-e360",
+      "class": "usa-footer__secondary-section",
+      "role": null,
+      "text_prefix": "USAGov Contact Center Ask USA.gov a question at 1-844-USAGOV1 (1-844-872-4681)",
+      "bbox": {
+        "desktop": [
+          0,
+          3123,
+          1920,
+          169
+        ],
+        "mobile": [
+          0,
+          7426,
+          375,
+          240
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e361",
+      "tag": "div",
+      "id": "uij-e361",
+      "class": "grid-container",
+      "role": null,
+      "text_prefix": "USAGov Contact Center Ask USA.gov a question at 1-844-USAGOV1 (1-844-872-4681)",
+      "bbox": {
+        "desktop": [
+          366,
+          3143,
+          1188,
+          129
+        ],
+        "mobile": [
+          0,
+          7446,
+          375,
+          200
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e362",
+      "tag": "div",
+      "id": "uij-e362",
+      "class": "grid-row grid-gap",
+      "role": null,
+      "text_prefix": "USAGov Contact Center Ask USA.gov a question at 1-844-USAGOV1 (1-844-872-4681)",
+      "bbox": {
+        "desktop": [
+          382,
+          3143,
+          1156,
+          97
+        ],
+        "mobile": [
+          11,
+          7446,
+          354,
+          168
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e363",
+      "tag": "div",
+      "id": "uij-e363",
+      "class": "usa-footer__logo grid-row mobile-lg:grid-col-6",
+      "role": null,
+      "text_prefix": "USAGov Contact Center Ask USA.gov a question at 1-844-USAGOV1 (1-844-872-4681)",
+      "bbox": {
+        "desktop": [
+          382,
+          3143,
+          578,
+          97
+        ],
+        "mobile": [
+          11,
+          7454,
+          354,
+          117
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e364",
+      "tag": "div",
+      "id": "uij-e364",
+      "class": null,
+      "role": null,
+      "text_prefix": "USAGov Contact Center Ask USA.gov a question at 1-844-USAGOV1 (1-844-872-4681)",
+      "bbox": {
+        "desktop": [
+          398,
+          3143,
+          285,
+          97
+        ],
+        "mobile": [
+          19,
+          7454,
+          285,
+          97
+        ]
+      }
+    },
+    {
+      "selector": "#footer-phone",
+      "tag": "div",
+      "id": "footer-phone",
+      "class": null,
+      "role": null,
+      "text_prefix": "USAGov Contact Center Ask USA.gov a question at 1-844-USAGOV1 (1-844-872-4681)",
+      "bbox": {
+        "desktop": [
+          398,
+          3151,
+          285,
+          89
+        ],
+        "mobile": [
+          19,
+          7462,
+          285,
+          89
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e365",
+      "tag": "div",
+      "id": "uij-e365",
+      "class": "mobile-lg:grid-col-auto",
+      "role": null,
+      "text_prefix": "USAGov Contact Center",
+      "bbox": {
+        "desktop": [
+          398,
+          3151,
+          285,
+          16
+        ],
+        "mobile": [
+          19,
+          7462,
+          285,
+          16
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e366",
+      "tag": "h4",
+      "id": "uij-e366",
+      "class": "usa-footer__logo-heading",
+      "role": null,
+      "text_prefix": "USAGov Contact Center",
+      "bbox": {
+        "desktop": [
+          398,
+          3151,
+          285,
+          16
+        ],
+        "mobile": [
+          19,
+          7462,
+          285,
+          16
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e367",
+      "tag": "div",
+      "id": "uij-e367",
+      "class": "mobile-lg:grid-col-auto",
+      "role": null,
+      "text_prefix": "Ask USA.gov a question at 1-844-USAGOV1 (1-844-872-4681)",
+      "bbox": {
+        "desktop": [
+          398,
+          3185,
+          285,
+          54
+        ],
+        "mobile": [
+          19,
+          7496,
+          285,
+          54
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e368",
+      "tag": "p",
+      "id": "uij-e368",
+      "class": "footer-question",
+      "role": null,
+      "text_prefix": "Ask USA.gov a question at",
+      "bbox": {
+        "desktop": [
+          398,
+          3185,
+          285,
+          27
+        ],
+        "mobile": [
+          19,
+          7496,
+          285,
+          27
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e369",
+      "tag": "address",
+      "id": "uij-e369",
+      "class": "usa-footer__address",
+      "role": null,
+      "text_prefix": "1-844-USAGOV1 (1-844-872-4681)",
+      "bbox": {
+        "desktop": [
+          398,
+          3212,
+          285,
+          27
+        ],
+        "mobile": [
+          19,
+          7523,
+          285,
+          27
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e370",
+      "tag": "div",
+      "id": "uij-e370",
+      "class": "usa-footer__contact-info",
+      "role": null,
+      "text_prefix": "1-844-USAGOV1 (1-844-872-4681)",
+      "bbox": {
+        "desktop": [
+          398,
+          3212,
+          285,
+          27
+        ],
+        "mobile": [
+          19,
+          7523,
+          285,
+          27
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e371",
+      "tag": "a",
+      "id": "uij-e371",
+      "class": null,
+      "role": null,
+      "text_prefix": "1-844-USAGOV1 (1-844-872-4681)",
+      "bbox": {
+        "desktop": [
+          398,
+          3215,
+          285,
+          21
+        ],
+        "mobile": [
+          19,
+          7526,
+          285,
+          21
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e372",
+      "tag": "div",
+      "id": "uij-e372",
+      "class": "usa-footer__contact-links mobile-lg:grid-col-6",
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          960,
+          3143,
+          578,
+          97
+        ],
+        "mobile": [
+          11,
+          7579,
+          354,
+          35
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e374",
+      "tag": "div",
+      "id": "uij-e374",
+      "class": "usa-identifier",
+      "role": null,
+      "text_prefix": "USAGov is the official guide to government information and services An official ",
+      "bbox": {
+        "desktop": [
+          0,
+          3291,
+          1920,
+          131
+        ],
+        "mobile": [
+          0,
+          7666,
+          375,
+          298
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e375",
+      "tag": "section",
+      "id": "uij-e375",
+      "class": "usa-identifier__section usa-identifier__section--usagov",
+      "role": null,
+      "text_prefix": "USAGov is the official guide to government information and services An official ",
+      "bbox": {
+        "desktop": [
+          0,
+          3291,
+          1920,
+          67
+        ],
+        "mobile": [
+          0,
+          7666,
+          375,
+          150
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e376",
+      "tag": "div",
+      "id": "uij-e376",
+      "class": "usa-identifier__container",
+      "role": null,
+      "text_prefix": "USAGov is the official guide to government information and services An official ",
+      "bbox": {
+        "desktop": [
+          366,
+          3307,
+          1188,
+          51
+        ],
+        "mobile": [
+          0,
+          7698,
+          375,
+          118
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e377",
+      "tag": "section",
+      "id": "uij-e377",
+      "class": "usa-identifier__identity",
+      "role": null,
+      "text_prefix": "USAGov is the official guide to government information and services An official ",
+      "bbox": {
+        "desktop": [
+          398,
+          3307,
+          1124,
+          51
+        ],
+        "mobile": [
+          19,
+          7698,
+          338,
+          118
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e378",
+      "tag": "p",
+      "id": "uij-e378",
+      "class": "usa-identifier__identity-disclaimer",
+      "role": null,
+      "text_prefix": "USAGov is the official guide to government information and services",
+      "bbox": {
+        "desktop": [
+          398,
+          3307,
+          1124,
+          25
+        ],
+        "mobile": [
+          19,
+          7698,
+          338,
+          51
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e379",
+      "tag": "p",
+      "id": "uij-e379",
+      "class": "usa-identifier__identity-disclaimer",
+      "role": null,
+      "text_prefix": "An official website of the U.S. General Services Administration",
+      "bbox": {
+        "desktop": [
+          398,
+          3333,
+          1124,
+          25
+        ],
+        "mobile": [
+          19,
+          7748,
+          338,
+          67
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e380",
+      "tag": "a",
+      "id": "uij-e380",
+      "class": null,
+      "role": null,
+      "text_prefix": "U.S. General Services Administration",
+      "bbox": {
+        "desktop": [
+          588,
+          3335,
+          280,
+          20
+        ],
+        "mobile": [
+          19,
+          7766,
+          287,
+          45
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e381",
+      "tag": "nav",
+      "id": "uij-e381",
+      "class": "usa-identifier__section usa-identifier__section--required-links",
+      "role": null,
+      "text_prefix": "Accessibility policy Privacy and security policies FOIA requests",
+      "bbox": {
+        "desktop": [
+          0,
+          3358,
+          1920,
+          32
+        ],
+        "mobile": [
+          0,
+          7815,
+          375,
+          116
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e382",
+      "tag": "div",
+      "id": "uij-e382",
+      "class": "usa-identifier__container",
+      "role": null,
+      "text_prefix": "Accessibility policy Privacy and security policies FOIA requests",
+      "bbox": {
+        "desktop": [
+          366,
+          3366,
+          1188,
+          24
+        ],
+        "mobile": [
+          0,
+          7831,
+          375,
+          100
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e383",
+      "tag": "ul",
+      "id": "uij-e383",
+      "class": "usa-identifier__required-links-list",
+      "role": null,
+      "text_prefix": "Accessibility policy Privacy and security policies FOIA requests",
+      "bbox": {
+        "desktop": [
+          398,
+          3366,
+          1124,
+          24
+        ],
+        "mobile": [
+          19,
+          7831,
+          338,
+          100
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e384",
+      "tag": "li",
+      "id": "uij-e384",
+      "class": "usa-identifier__required-links-item",
+      "role": null,
+      "text_prefix": "Accessibility policy",
+      "bbox": {
+        "desktop": [
+          398,
+          3366,
+          257,
+          24
+        ],
+        "mobile": [
+          19,
+          7831,
+          338,
+          25
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e385",
+      "tag": "a",
+      "id": "uij-e385",
+      "class": "usa-identifier__required-link usa-link",
+      "role": null,
+      "text_prefix": "Accessibility policy",
+      "bbox": {
+        "desktop": [
+          398,
+          3366,
+          136,
+          24
+        ],
+        "mobile": [
+          19,
+          7831,
+          144,
+          25
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e386",
+      "tag": "li",
+      "id": "uij-e386",
+      "class": "usa-identifier__required-links-item",
+      "role": null,
+      "text_prefix": "Privacy and security policies",
+      "bbox": {
+        "desktop": [
+          687,
+          3366,
+          257,
+          24
+        ],
+        "mobile": [
+          19,
+          7869,
+          338,
+          25
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e387",
+      "tag": "a",
+      "id": "uij-e387",
+      "class": "usa-identifier__required-link usa-link",
+      "role": null,
+      "text_prefix": "Privacy and security policies",
+      "bbox": {
+        "desktop": [
+          687,
+          3366,
+          203,
+          24
+        ],
+        "mobile": [
+          19,
+          7869,
+          215,
+          25
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e388",
+      "tag": "li",
+      "id": "uij-e388",
+      "class": "usa-identifier__required-links-item",
+      "role": null,
+      "text_prefix": "FOIA requests",
+      "bbox": {
+        "desktop": [
+          976,
+          3366,
+          257,
+          24
+        ],
+        "mobile": [
+          19,
+          7906,
+          338,
+          25
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e389",
+      "tag": "a",
+      "id": "uij-e389",
+      "class": "usa-identifier__required-link usa-link",
+      "role": null,
+      "text_prefix": "FOIA requests",
+      "bbox": {
+        "desktop": [
+          976,
+          3366,
+          102,
+          24
+        ],
+        "mobile": [
+          19,
+          7906,
+          108,
+          25
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e391",
+      "tag": "div",
+      "id": "uij-e391",
+      "class": null,
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          708,
+          338,
+          504,
+          404
+        ],
+        "mobile": [
+          708,
+          338,
+          504,
+          404
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e392",
+      "tag": "img",
+      "id": "uij-e392",
+      "class": null,
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          658,
+          298,
+          604,
+          484
+        ],
+        "mobile": [
+          658,
+          298,
+          604,
+          484
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e393",
+      "tag": "div",
+      "id": "uij-e393",
+      "class": null,
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          710,
+          340,
+          500,
+          400
+        ],
+        "mobile": [
+          710,
+          340,
+          500,
+          400
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e394",
+      "tag": "div",
+      "id": "uij-e394",
+      "class": null,
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          1181,
+          344,
+          26,
+          26
+        ],
+        "mobile": [
+          1181,
+          344,
+          26,
+          26
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e395",
+      "tag": "div",
+      "id": "uij-e395",
+      "class": null,
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          1181,
+          344,
+          26,
+          26
+        ],
+        "mobile": [
+          1181,
+          344,
+          26,
+          26
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e397",
+      "tag": "img",
+      "id": "uij-e397",
+      "class": null,
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          1181,
+          344,
+          25,
+          25
+        ],
+        "mobile": [
+          1181,
+          344,
+          25,
+          25
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e398",
+      "tag": "div",
+      "id": "uij-e398",
+      "class": null,
+      "role": null,
+      "text_prefix": "After you are done, help us improve USA.gov!Choose \"Yes, I'll help\" to open a ne",
+      "bbox": {
+        "desktop": [
+          742,
+          372,
+          435,
+          190
+        ],
+        "mobile": [
+          742,
+          372,
+          435,
+          190
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e399",
+      "tag": "div",
+      "id": "uij-e399",
+      "class": null,
+      "role": null,
+      "text_prefix": "After you are done, help us improve USA.gov!Choose \"Yes, I'll help\" to open a ne",
+      "bbox": {
+        "desktop": [
+          742,
+          372,
+          435,
+          190
+        ],
+        "mobile": [
+          742,
+          372,
+          435,
+          190
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e400",
+      "tag": "p",
+      "id": "uij-e400",
+      "class": "firstpara",
+      "role": null,
+      "text_prefix": "After you are done, help us improve USA.gov!",
+      "bbox": {
+        "desktop": [
+          760,
+          372,
+          400,
+          26
+        ],
+        "mobile": [
+          760,
+          372,
+          400,
+          26
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e401",
+      "tag": "span",
+      "id": "uij-e401",
+      "class": null,
+      "role": null,
+      "text_prefix": "After you are done, help us improve USA.gov!",
+      "bbox": {
+        "desktop": [
+          787,
+          374,
+          345,
+          20
+        ],
+        "mobile": [
+          787,
+          374,
+          345,
+          20
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e402",
+      "tag": "span",
+      "id": "uij-e402",
+      "class": null,
+      "role": null,
+      "text_prefix": "After you are done, help us improve USA.gov!",
+      "bbox": {
+        "desktop": [
+          787,
+          375,
+          345,
+          18
+        ],
+        "mobile": [
+          787,
+          375,
+          345,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e403",
+      "tag": "strong",
+      "id": "uij-e403",
+      "class": null,
+      "role": null,
+      "text_prefix": "After you are done, help us improve USA.gov!",
+      "bbox": {
+        "desktop": [
+          787,
+          374,
+          345,
+          19
+        ],
+        "mobile": [
+          787,
+          374,
+          345,
+          19
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e404",
+      "tag": "p",
+      "id": "uij-e404",
+      "class": null,
+      "role": null,
+      "text_prefix": "Choose \"Yes, I'll help\" to open a new survey window. When you are ready, go ther",
+      "bbox": {
+        "desktop": [
+          760,
+          418,
+          400,
+          51
+        ],
+        "mobile": [
+          760,
+          418,
+          400,
+          51
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e405",
+      "tag": "span",
+      "id": "uij-e405",
+      "class": null,
+      "role": null,
+      "text_prefix": "Choose \"Yes, I'll help\" to open a new survey window. When you are ready, go ther",
+      "bbox": {
+        "desktop": [
+          762,
+          420,
+          394,
+          46
+        ],
+        "mobile": [
+          762,
+          420,
+          394,
+          46
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e406",
+      "tag": "span",
+      "id": "uij-e406",
+      "class": null,
+      "role": null,
+      "text_prefix": "Choose \"Yes, I'll help\" to open a new survey window. When you are ready, go ther",
+      "bbox": {
+        "desktop": [
+          762,
+          421,
+          394,
+          44
+        ],
+        "mobile": [
+          762,
+          421,
+          394,
+          44
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e407",
+      "tag": "p",
+      "id": "uij-e407",
+      "class": null,
+      "role": null,
+      "text_prefix": "The survey should take less than four minutes.",
+      "bbox": {
+        "desktop": [
+          760,
+          489,
+          400,
+          26
+        ],
+        "mobile": [
+          760,
+          489,
+          400,
+          26
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e408",
+      "tag": "span",
+      "id": "uij-e408",
+      "class": null,
+      "role": null,
+      "text_prefix": "The survey should take less than four minutes.",
+      "bbox": {
+        "desktop": [
+          794,
+          491,
+          332,
+          20
+        ],
+        "mobile": [
+          794,
+          491,
+          332,
+          20
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e409",
+      "tag": "span",
+      "id": "uij-e409",
+      "class": null,
+      "role": null,
+      "text_prefix": "The survey should take less than four minutes.",
+      "bbox": {
+        "desktop": [
+          794,
+          492,
+          332,
+          18
+        ],
+        "mobile": [
+          794,
+          492,
+          332,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e410",
+      "tag": "p",
+      "id": "uij-e410",
+      "class": null,
+      "role": null,
+      "text_prefix": "Thank you!",
+      "bbox": {
+        "desktop": [
+          760,
+          534,
+          400,
+          26
+        ],
+        "mobile": [
+          760,
+          534,
+          400,
+          26
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e411",
+      "tag": "span",
+      "id": "uij-e411",
+      "class": null,
+      "role": null,
+      "text_prefix": "Thank you!",
+      "bbox": {
+        "desktop": [
+          920,
+          536,
+          79,
+          20
+        ],
+        "mobile": [
+          920,
+          536,
+          79,
+          20
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e412",
+      "tag": "span",
+      "id": "uij-e412",
+      "class": null,
+      "role": null,
+      "text_prefix": "Thank you!",
+      "bbox": {
+        "desktop": [
+          920,
+          537,
+          79,
+          18
+        ],
+        "mobile": [
+          920,
+          537,
+          79,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e413",
+      "tag": "div",
+      "id": "uij-e413",
+      "class": null,
+      "role": null,
+      "text_prefix": "​​​​​Yes, I'll help",
+      "bbox": {
+        "desktop": [
+          791,
+          572,
+          145,
+          45
+        ],
+        "mobile": [
+          791,
+          572,
+          145,
+          45
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e414",
+      "tag": "div",
+      "id": "uij-e414",
+      "class": null,
+      "role": null,
+      "text_prefix": "​​​​​Yes, I'll help",
+      "bbox": {
+        "desktop": [
+          791,
+          572,
+          145,
+          45
+        ],
+        "mobile": [
+          791,
+          572,
+          145,
+          45
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e415",
+      "tag": "div",
+      "id": "uij-e415",
+      "class": null,
+      "role": null,
+      "text_prefix": "​​​​​Yes, I'll help",
+      "bbox": {
+        "desktop": [
+          791,
+          572,
+          145,
+          44
+        ],
+        "mobile": [
+          791,
+          572,
+          145,
+          44
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e416",
+      "tag": "div",
+      "id": "uij-e416",
+      "class": null,
+      "role": null,
+      "text_prefix": "​​​​​Yes, I'll help",
+      "bbox": {
+        "desktop": [
+          791,
+          572,
+          145,
+          44
+        ],
+        "mobile": [
+          791,
+          572,
+          145,
+          44
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e425",
+      "tag": "span",
+      "id": "uij-e425",
+      "class": null,
+      "role": null,
+      "text_prefix": "Yes, I'll help",
+      "bbox": {
+        "desktop": [
+          814,
+          588,
+          99,
+          17
+        ],
+        "mobile": [
+          814,
+          588,
+          99,
+          17
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e426",
+      "tag": "span",
+      "id": "uij-e426",
+      "class": null,
+      "role": null,
+      "text_prefix": "Yes, I'll help",
+      "bbox": {
+        "desktop": [
+          814,
+          586,
+          99,
+          19
+        ],
+        "mobile": [
+          814,
+          586,
+          99,
+          19
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e427",
+      "tag": "span",
+      "id": "uij-e427",
+      "class": null,
+      "role": null,
+      "text_prefix": "Yes, I'll help",
+      "bbox": {
+        "desktop": [
+          814,
+          586,
+          99,
+          19
+        ],
+        "mobile": [
+          814,
+          586,
+          99,
+          19
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e428",
+      "tag": "strong",
+      "id": "uij-e428",
+      "class": null,
+      "role": null,
+      "text_prefix": "Yes, I'll help",
+      "bbox": {
+        "desktop": [
+          814,
+          586,
+          99,
+          19
+        ],
+        "mobile": [
+          814,
+          586,
+          99,
+          19
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e429",
+      "tag": "span",
+      "id": "uij-e429",
+      "class": null,
+      "role": "button",
+      "text_prefix": "Yes, I'll help",
+      "bbox": {
+        "desktop": [
+          814,
+          588,
+          99,
+          19
+        ],
+        "mobile": [
+          814,
+          588,
+          99,
+          19
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e430",
+      "tag": "div",
+      "id": "uij-e430",
+      "class": null,
+      "role": null,
+      "text_prefix": "​​No Thanks",
+      "bbox": {
+        "desktop": [
+          982,
+          572,
+          123,
+          45
+        ],
+        "mobile": [
+          982,
+          572,
+          123,
+          45
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e431",
+      "tag": "div",
+      "id": "uij-e431",
+      "class": null,
+      "role": null,
+      "text_prefix": "​​No Thanks",
+      "bbox": {
+        "desktop": [
+          982,
+          572,
+          123,
+          45
+        ],
+        "mobile": [
+          982,
+          572,
+          123,
+          45
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e432",
+      "tag": "div",
+      "id": "uij-e432",
+      "class": null,
+      "role": null,
+      "text_prefix": "​​No Thanks",
+      "bbox": {
+        "desktop": [
+          982,
+          572,
+          123,
+          34
+        ],
+        "mobile": [
+          982,
+          572,
+          123,
+          34
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e436",
+      "tag": "span",
+      "id": "uij-e436",
+      "class": null,
+      "role": null,
+      "text_prefix": "No Thanks",
+      "bbox": {
+        "desktop": [
+          996,
+          588,
+          95,
+          17
+        ],
+        "mobile": [
+          996,
+          588,
+          95,
+          17
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e437",
+      "tag": "span",
+      "id": "uij-e437",
+      "class": null,
+      "role": "button",
+      "text_prefix": "No Thanks",
+      "bbox": {
+        "desktop": [
+          996,
+          588,
+          95,
+          17
+        ],
+        "mobile": [
+          996,
+          588,
+          95,
+          17
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e438",
+      "tag": "strong",
+      "id": "uij-e438",
+      "class": null,
+      "role": null,
+      "text_prefix": "No Thanks",
+      "bbox": {
+        "desktop": [
+          996,
+          588,
+          95,
+          17
+        ],
+        "mobile": [
+          996,
+          588,
+          95,
+          17
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e439",
+      "tag": "span",
+      "id": "uij-e439",
+      "class": null,
+      "role": null,
+      "text_prefix": "No Thanks",
+      "bbox": {
+        "desktop": [
+          996,
+          586,
+          95,
+          19
+        ],
+        "mobile": [
+          996,
+          586,
+          95,
+          19
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e440",
+      "tag": "div",
+      "id": "uij-e440",
+      "class": null,
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          982,
+          572,
+          123,
+          45
+        ],
+        "mobile": [
+          982,
+          572,
+          123,
+          45
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e441",
+      "tag": "div",
+      "id": "uij-e441",
+      "class": null,
+      "role": null,
+      "text_prefix": "​",
+      "bbox": {
+        "desktop": [
+          926,
+          627,
+          68,
+          68
+        ],
+        "mobile": [
+          926,
+          627,
+          68,
+          68
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e442",
+      "tag": "div",
+      "id": "uij-e442",
+      "class": null,
+      "role": null,
+      "text_prefix": "​",
+      "bbox": {
+        "desktop": [
+          926,
+          627,
+          68,
+          68
+        ],
+        "mobile": [
+          926,
+          627,
+          68,
+          68
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e443",
+      "tag": "img",
+      "id": "uij-e443",
+      "class": null,
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          926,
+          627,
+          68,
+          68
+        ],
+        "mobile": [
+          926,
+          627,
+          68,
+          68
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e444",
+      "tag": "div",
+      "id": "uij-e444",
+      "class": null,
+      "role": null,
+      "text_prefix": "​​​Form Approved OMB#3090-0325 Exp. Date 07/31/2028",
+      "bbox": {
+        "desktop": [
+          815,
+          707,
+          303,
+          20
+        ],
+        "mobile": [
+          815,
+          707,
+          303,
+          20
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e445",
+      "tag": "div",
+      "id": "uij-e445",
+      "class": null,
+      "role": null,
+      "text_prefix": "​​​Form Approved OMB#3090-0325 Exp. Date 07/31/2028",
+      "bbox": {
+        "desktop": [
+          815,
+          707,
+          303,
+          20
+        ],
+        "mobile": [
+          815,
+          707,
+          303,
+          20
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e446",
+      "tag": "a",
+      "id": "uij-e446",
+      "class": null,
+      "role": null,
+      "text_prefix": "​​​Form Approved OMB#3090-0325 Exp. Date 07/31/2028",
+      "bbox": {
+        "desktop": [
+          815,
+          709,
+          296,
+          14
+        ],
+        "mobile": [
+          815,
+          709,
+          296,
+          14
+        ]
+      }
+    }
+  ]
+}

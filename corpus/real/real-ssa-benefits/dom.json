@@ -1,0 +1,6299 @@
+{
+  "element_count": 432,
+  "doc_width": 1920,
+  "doc_height": 2780,
+  "captured": [
+    {
+      "selector": "#uij-e0",
+      "tag": "a",
+      "id": "uij-e0",
+      "class": "usa-sr-only focusable",
+      "role": null,
+      "text_prefix": "Skip to main content",
+      "bbox": {
+        "desktop": [
+          8,
+          8,
+          133,
+          18
+        ],
+        "mobile": [
+          8,
+          8,
+          133,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e1",
+      "tag": "div",
+      "id": "uij-e1",
+      "class": "dialog-off-canvas-main-canvas",
+      "role": null,
+      "text_prefix": "An official website of the United States government Here's how you know Here's h",
+      "bbox": {
+        "desktop": [
+          8,
+          26,
+          1904,
+          2516
+        ],
+        "mobile": [
+          8,
+          26,
+          359,
+          2832
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e2",
+      "tag": "section",
+      "id": "uij-e2",
+      "class": "usa-banner",
+      "role": null,
+      "text_prefix": "An official website of the United States government Here's how you know Here's h",
+      "bbox": {
+        "desktop": [
+          8,
+          26,
+          1904,
+          123
+        ],
+        "mobile": [
+          8,
+          26,
+          359,
+          123
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e3",
+      "tag": "div",
+      "id": "uij-e3",
+      "class": "usa-banner",
+      "role": null,
+      "text_prefix": "An official website of the United States government Here's how you know Here's h",
+      "bbox": {
+        "desktop": [
+          8,
+          26,
+          1904,
+          123
+        ],
+        "mobile": [
+          8,
+          26,
+          359,
+          123
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e4",
+      "tag": "div",
+      "id": "uij-e4",
+      "class": "usa-accordion",
+      "role": null,
+      "text_prefix": "An official website of the United States government Here's how you know Here's h",
+      "bbox": {
+        "desktop": [
+          8,
+          26,
+          1904,
+          123
+        ],
+        "mobile": [
+          8,
+          26,
+          359,
+          123
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e5",
+      "tag": "header",
+      "id": "uij-e5",
+      "class": "usa-banner__header",
+      "role": null,
+      "text_prefix": "An official website of the United States government Here's how you know Here's h",
+      "bbox": {
+        "desktop": [
+          8,
+          26,
+          1904,
+          123
+        ],
+        "mobile": [
+          8,
+          26,
+          359,
+          123
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e6",
+      "tag": "div",
+      "id": "uij-e6",
+      "class": "usa-banner__inner",
+      "role": null,
+      "text_prefix": "An official website of the United States government Here's how you know Here's h",
+      "bbox": {
+        "desktop": [
+          8,
+          26,
+          1904,
+          123
+        ],
+        "mobile": [
+          8,
+          26,
+          359,
+          123
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e7",
+      "tag": "div",
+      "id": "uij-e7",
+      "class": "grid-col-auto",
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          8,
+          26,
+          1904,
+          18
+        ],
+        "mobile": [
+          8,
+          26,
+          359,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e9",
+      "tag": "div",
+      "id": "uij-e9",
+      "class": "grid-col-fill tablet:grid-col-auto",
+      "role": null,
+      "text_prefix": "An official website of the United States government Here's how you know",
+      "bbox": {
+        "desktop": [
+          8,
+          60,
+          1904,
+          52
+        ],
+        "mobile": [
+          8,
+          60,
+          359,
+          52
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e10",
+      "tag": "p",
+      "id": "uij-e10",
+      "class": "usa-banner__header-text",
+      "role": null,
+      "text_prefix": "An official website of the United States government",
+      "bbox": {
+        "desktop": [
+          8,
+          60,
+          1904,
+          18
+        ],
+        "mobile": [
+          8,
+          60,
+          359,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e11",
+      "tag": "p",
+      "id": "uij-e11",
+      "class": "usa-banner__header-action",
+      "role": null,
+      "text_prefix": "Here's how you know",
+      "bbox": {
+        "desktop": [
+          8,
+          94,
+          1904,
+          18
+        ],
+        "mobile": [
+          8,
+          94,
+          359,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e12",
+      "tag": "button",
+      "id": "uij-e12",
+      "class": "usa-accordion__button usa-banner__button",
+      "role": null,
+      "text_prefix": "Here's how you know",
+      "bbox": {
+        "desktop": [
+          8,
+          128,
+          142,
+          21
+        ],
+        "mobile": [
+          8,
+          128,
+          142,
+          21
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e13",
+      "tag": "span",
+      "id": "uij-e13",
+      "class": "usa-banner__button-text",
+      "role": null,
+      "text_prefix": "Here's how you know",
+      "bbox": {
+        "desktop": [
+          16,
+          131,
+          126,
+          15
+        ],
+        "mobile": [
+          16,
+          131,
+          126,
+          15
+        ]
+      }
+    },
+    {
+      "selector": "#header",
+      "tag": "header",
+      "id": "header",
+      "class": "usa-header usa-header--basic",
+      "role": "banner",
+      "text_prefix": "Social Security EnglishEspañol Sign in Account Menu Benefits By Phase Prepare Ap",
+      "bbox": {
+        "desktop": [
+          8,
+          149,
+          1904,
+          424
+        ],
+        "mobile": [
+          8,
+          149,
+          359,
+          442
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e38",
+      "tag": "div",
+      "id": "uij-e38",
+      "class": "usa-nav-container",
+      "role": null,
+      "text_prefix": "Social Security EnglishEspañol Sign in Account Menu Benefits By Phase Prepare Ap",
+      "bbox": {
+        "desktop": [
+          8,
+          149,
+          1904,
+          424
+        ],
+        "mobile": [
+          8,
+          149,
+          359,
+          442
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e39",
+      "tag": "div",
+      "id": "uij-e39",
+      "class": "region region-header usa-navbar",
+      "role": null,
+      "text_prefix": "Social Security EnglishEspañol Sign in Account Menu",
+      "bbox": {
+        "desktop": [
+          8,
+          149,
+          1904,
+          159
+        ],
+        "mobile": [
+          8,
+          149,
+          359,
+          159
+        ]
+      }
+    },
+    {
+      "selector": "#logo",
+      "tag": "div",
+      "id": "logo",
+      "class": "usa-logo site-logo",
+      "role": null,
+      "text_prefix": "Social Security",
+      "bbox": {
+        "desktop": [
+          8,
+          149,
+          1904,
+          18
+        ],
+        "mobile": [
+          8,
+          149,
+          359,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e40",
+      "tag": "a",
+      "id": "uij-e40",
+      "class": "usa-logo__text ssa-logo__text",
+      "role": null,
+      "text_prefix": "Social Security",
+      "bbox": {
+        "desktop": [
+          8,
+          149,
+          102,
+          18
+        ],
+        "mobile": [
+          8,
+          149,
+          102,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e43",
+      "tag": "span",
+      "id": "uij-e43",
+      "class": "ssa-logo__link",
+      "role": null,
+      "text_prefix": "Social Security",
+      "bbox": {
+        "desktop": [
+          13,
+          149,
+          97,
+          18
+        ],
+        "mobile": [
+          13,
+          149,
+          97,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e44",
+      "tag": "div",
+      "id": "uij-e44",
+      "class": "usa-nav__sign-in",
+      "role": null,
+      "text_prefix": "EnglishEspañol Sign in Account",
+      "bbox": {
+        "desktop": [
+          8,
+          183,
+          1904,
+          88
+        ],
+        "mobile": [
+          8,
+          183,
+          359,
+          88
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e45",
+      "tag": "div",
+      "id": "uij-e45",
+      "class": "language-switcher-language-url block block-language block-language-blocklanguage-content",
+      "role": null,
+      "text_prefix": "EnglishEspañol",
+      "bbox": {
+        "desktop": [
+          8,
+          183,
+          1904,
+          36
+        ],
+        "mobile": [
+          8,
+          183,
+          359,
+          36
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e46",
+      "tag": "ul",
+      "id": "uij-e46",
+      "class": "links usa-nav__primary usa-accordion",
+      "role": null,
+      "text_prefix": "EnglishEspañol",
+      "bbox": {
+        "desktop": [
+          8,
+          183,
+          1904,
+          36
+        ],
+        "mobile": [
+          8,
+          183,
+          359,
+          36
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e47",
+      "tag": "li",
+      "id": "uij-e47",
+      "class": "usa-nav__primary-item",
+      "role": null,
+      "text_prefix": "English",
+      "bbox": {
+        "desktop": [
+          48,
+          183,
+          1864,
+          18
+        ],
+        "mobile": [
+          48,
+          183,
+          319,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e48",
+      "tag": "a",
+      "id": "uij-e48",
+      "class": "language-link",
+      "role": null,
+      "text_prefix": "English",
+      "bbox": {
+        "desktop": [
+          48,
+          183,
+          49,
+          18
+        ],
+        "mobile": [
+          48,
+          183,
+          49,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e49",
+      "tag": "li",
+      "id": "uij-e49",
+      "class": "usa-nav__primary-item",
+      "role": null,
+      "text_prefix": "Español",
+      "bbox": {
+        "desktop": [
+          48,
+          201,
+          1864,
+          18
+        ],
+        "mobile": [
+          48,
+          201,
+          319,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e50",
+      "tag": "a",
+      "id": "uij-e50",
+      "class": "language-link",
+      "role": null,
+      "text_prefix": "Español",
+      "bbox": {
+        "desktop": [
+          48,
+          201,
+          52,
+          18
+        ],
+        "mobile": [
+          48,
+          201,
+          52,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e51",
+      "tag": "ul",
+      "id": "uij-e51",
+      "class": "usa-nav__primary usa-nav_primary--account",
+      "role": null,
+      "text_prefix": "Sign in Account",
+      "bbox": {
+        "desktop": [
+          8,
+          235,
+          1904,
+          36
+        ],
+        "mobile": [
+          8,
+          235,
+          359,
+          36
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e52",
+      "tag": "li",
+      "id": "uij-e52",
+      "class": "js-sign-in users-block",
+      "role": null,
+      "text_prefix": "Sign in",
+      "bbox": {
+        "desktop": [
+          48,
+          235,
+          1864,
+          18
+        ],
+        "mobile": [
+          48,
+          235,
+          319,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e53",
+      "tag": "a",
+      "id": "uij-e53",
+      "class": "usa-mobile-header-button ext",
+      "role": null,
+      "text_prefix": "Sign in",
+      "bbox": {
+        "desktop": [
+          48,
+          235,
+          46,
+          18
+        ],
+        "mobile": [
+          48,
+          235,
+          46,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e54",
+      "tag": "li",
+      "id": "uij-e54",
+      "class": "js-task-link--auth users-block hidden",
+      "role": null,
+      "text_prefix": "Account",
+      "bbox": {
+        "desktop": [
+          48,
+          253,
+          1864,
+          18
+        ],
+        "mobile": [
+          48,
+          253,
+          319,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e55",
+      "tag": "a",
+      "id": "uij-e55",
+      "class": "js-task-link--auth usa-mobile-header-button datalayer-event-click ext hidden",
+      "role": null,
+      "text_prefix": "Account",
+      "bbox": {
+        "desktop": [
+          48,
+          253,
+          54,
+          18
+        ],
+        "mobile": [
+          48,
+          253,
+          54,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e56",
+      "tag": "span",
+      "id": "uij-e56",
+      "class": null,
+      "role": null,
+      "text_prefix": "Account",
+      "bbox": {
+        "desktop": [
+          48,
+          253,
+          54,
+          18
+        ],
+        "mobile": [
+          48,
+          253,
+          54,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e57",
+      "tag": "button",
+      "id": "uij-e57",
+      "class": "usa-menu-btn",
+      "role": null,
+      "text_prefix": "Menu",
+      "bbox": {
+        "desktop": [
+          8,
+          287,
+          49,
+          21
+        ],
+        "mobile": [
+          8,
+          287,
+          49,
+          21
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e58",
+      "tag": "nav",
+      "id": "uij-e58",
+      "class": "usa-nav",
+      "role": null,
+      "text_prefix": "Benefits By Phase Prepare Apply Manage benefits By Type Retirement Disability Su",
+      "bbox": {
+        "desktop": [
+          8,
+          308,
+          1904,
+          265
+        ],
+        "mobile": [
+          8,
+          308,
+          359,
+          283
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e61",
+      "tag": "ul",
+      "id": "uij-e61",
+      "class": "usa-nav__primary usa-accordion",
+      "role": null,
+      "text_prefix": "Benefits By Phase Prepare Apply Manage benefits By Type Retirement Disability Su",
+      "bbox": {
+        "desktop": [
+          8,
+          345,
+          1904,
+          63
+        ],
+        "mobile": [
+          8,
+          345,
+          359,
+          63
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e62",
+      "tag": "li",
+      "id": "uij-e62",
+      "class": "usa-nav__primary-item",
+      "role": null,
+      "text_prefix": "Benefits By Phase Prepare Apply Manage benefits By Type Retirement Disability Su",
+      "bbox": {
+        "desktop": [
+          48,
+          345,
+          1864,
+          21
+        ],
+        "mobile": [
+          48,
+          345,
+          319,
+          21
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e63",
+      "tag": "button",
+      "id": "uij-e63",
+      "class": "usa-accordion__button usa-nav__link usa-current",
+      "role": null,
+      "text_prefix": "Benefits",
+      "bbox": {
+        "desktop": [
+          48,
+          345,
+          64,
+          21
+        ],
+        "mobile": [
+          48,
+          345,
+          64,
+          21
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e64",
+      "tag": "span",
+      "id": "uij-e64",
+      "class": null,
+      "role": null,
+      "text_prefix": "Benefits",
+      "bbox": {
+        "desktop": [
+          56,
+          348,
+          48,
+          15
+        ],
+        "mobile": [
+          56,
+          348,
+          48,
+          15
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e102",
+      "tag": "li",
+      "id": "uij-e102",
+      "class": "usa-nav__primary-item",
+      "role": null,
+      "text_prefix": "Medicare Plan for Medicare Sign up for Medicare Request to lower IRMAA Apply for",
+      "bbox": {
+        "desktop": [
+          48,
+          366,
+          1864,
+          21
+        ],
+        "mobile": [
+          48,
+          366,
+          319,
+          21
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e103",
+      "tag": "button",
+      "id": "uij-e103",
+      "class": "usa-accordion__button usa-nav__link",
+      "role": null,
+      "text_prefix": "Medicare",
+      "bbox": {
+        "desktop": [
+          48,
+          366,
+          71,
+          21
+        ],
+        "mobile": [
+          48,
+          366,
+          71,
+          21
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e104",
+      "tag": "span",
+      "id": "uij-e104",
+      "class": null,
+      "role": null,
+      "text_prefix": "Medicare",
+      "bbox": {
+        "desktop": [
+          56,
+          369,
+          55,
+          15
+        ],
+        "mobile": [
+          56,
+          369,
+          55,
+          15
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e120",
+      "tag": "li",
+      "id": "uij-e120",
+      "class": "usa-nav__primary-item",
+      "role": null,
+      "text_prefix": "Card & record Number & card Personal record",
+      "bbox": {
+        "desktop": [
+          48,
+          387,
+          1864,
+          21
+        ],
+        "mobile": [
+          48,
+          387,
+          319,
+          21
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e121",
+      "tag": "button",
+      "id": "uij-e121",
+      "class": "usa-accordion__button usa-nav__link",
+      "role": null,
+      "text_prefix": "Card & record",
+      "bbox": {
+        "desktop": [
+          48,
+          387,
+          99,
+          21
+        ],
+        "mobile": [
+          48,
+          387,
+          99,
+          21
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e122",
+      "tag": "span",
+      "id": "uij-e122",
+      "class": null,
+      "role": null,
+      "text_prefix": "Card & record",
+      "bbox": {
+        "desktop": [
+          56,
+          390,
+          83,
+          15
+        ],
+        "mobile": [
+          56,
+          390,
+          83,
+          15
+        ]
+      }
+    },
+    {
+      "selector": "#block-ssasearchblock",
+      "tag": "div",
+      "id": "block-ssasearchblock",
+      "class": "ssa-search-block-form usa-search block block-ssa-search block-search-block",
+      "role": "search",
+      "text_prefix": "Search",
+      "bbox": {
+        "desktop": [
+          8,
+          424,
+          1904,
+          42
+        ],
+        "mobile": [
+          8,
+          424,
+          359,
+          60
+        ]
+      }
+    },
+    {
+      "selector": "#ssa-search-block-form",
+      "tag": "form",
+      "id": "ssa-search-block-form",
+      "class": "usa-form",
+      "role": null,
+      "text_prefix": "Search",
+      "bbox": {
+        "desktop": [
+          8,
+          424,
+          1904,
+          42
+        ],
+        "mobile": [
+          8,
+          424,
+          359,
+          60
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e129",
+      "tag": "div",
+      "id": "uij-e129",
+      "class": "form-item js-form-item form-type-search js-form-type-search form-item-query js-form-item-query form-no-label",
+      "role": null,
+      "text_prefix": "Search",
+      "bbox": {
+        "desktop": [
+          8,
+          424,
+          1904,
+          21
+        ],
+        "mobile": [
+          8,
+          424,
+          359,
+          39
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e130",
+      "tag": "label",
+      "id": "uij-e130",
+      "class": "usa-label control-label usa-sr-only",
+      "role": null,
+      "text_prefix": "Search",
+      "bbox": {
+        "desktop": [
+          8,
+          425,
+          44,
+          18
+        ],
+        "mobile": [
+          8,
+          424,
+          44,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#edit-query",
+      "tag": "input",
+      "id": "edit-query",
+      "class": "form-search usa-input",
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          56,
+          424,
+          909,
+          21
+        ],
+        "mobile": [
+          8,
+          442,
+          909,
+          21
+        ]
+      }
+    },
+    {
+      "selector": "#edit-actions",
+      "tag": "div",
+      "id": "edit-actions",
+      "class": "form-actions js-form-wrapper form-wrapper",
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          8,
+          445,
+          1904,
+          21
+        ],
+        "mobile": [
+          8,
+          463,
+          359,
+          21
+        ]
+      }
+    },
+    {
+      "selector": "#edit-submit",
+      "tag": "input",
+      "id": "edit-submit",
+      "class": "button js-form-submit form-submit usa-button",
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          8,
+          445,
+          58,
+          21
+        ],
+        "mobile": [
+          8,
+          463,
+          58,
+          21
+        ]
+      }
+    },
+    {
+      "selector": "#block-languageswitchercontent",
+      "tag": "div",
+      "id": "block-languageswitchercontent",
+      "class": "language-switcher-language-url block block-language block-language-blocklanguage-content",
+      "role": null,
+      "text_prefix": "EnglishEspañol",
+      "bbox": {
+        "desktop": [
+          8,
+          482,
+          1904,
+          36
+        ],
+        "mobile": [
+          8,
+          500,
+          359,
+          36
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e133",
+      "tag": "ul",
+      "id": "uij-e133",
+      "class": "links usa-nav__primary usa-accordion",
+      "role": null,
+      "text_prefix": "EnglishEspañol",
+      "bbox": {
+        "desktop": [
+          8,
+          482,
+          1904,
+          36
+        ],
+        "mobile": [
+          8,
+          500,
+          359,
+          36
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e134",
+      "tag": "li",
+      "id": "uij-e134",
+      "class": "usa-nav__primary-item",
+      "role": null,
+      "text_prefix": "English",
+      "bbox": {
+        "desktop": [
+          48,
+          482,
+          1864,
+          18
+        ],
+        "mobile": [
+          48,
+          500,
+          319,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e135",
+      "tag": "a",
+      "id": "uij-e135",
+      "class": "language-link",
+      "role": null,
+      "text_prefix": "English",
+      "bbox": {
+        "desktop": [
+          48,
+          482,
+          49,
+          18
+        ],
+        "mobile": [
+          48,
+          500,
+          49,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e136",
+      "tag": "li",
+      "id": "uij-e136",
+      "class": "usa-nav__primary-item",
+      "role": null,
+      "text_prefix": "Español",
+      "bbox": {
+        "desktop": [
+          48,
+          500,
+          1864,
+          18
+        ],
+        "mobile": [
+          48,
+          518,
+          319,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e137",
+      "tag": "a",
+      "id": "uij-e137",
+      "class": "language-link",
+      "role": null,
+      "text_prefix": "Español",
+      "bbox": {
+        "desktop": [
+          48,
+          500,
+          52,
+          18
+        ],
+        "mobile": [
+          48,
+          518,
+          52,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e138",
+      "tag": "ul",
+      "id": "uij-e138",
+      "class": "usa-nav__primary usa-nav__primary--account usa-accordion",
+      "role": null,
+      "text_prefix": "Sign in My account Account home Sign out",
+      "bbox": {
+        "desktop": [
+          8,
+          534,
+          1904,
+          39
+        ],
+        "mobile": [
+          8,
+          552,
+          359,
+          39
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e139",
+      "tag": "li",
+      "id": "uij-e139",
+      "class": "js-sign-in usa-nav__primary-item",
+      "role": null,
+      "text_prefix": "Sign in",
+      "bbox": {
+        "desktop": [
+          48,
+          534,
+          1864,
+          18
+        ],
+        "mobile": [
+          48,
+          552,
+          319,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e140",
+      "tag": "a",
+      "id": "uij-e140",
+      "class": "usa-mobile-header-button js-sign-in usa-nav__link ext datalayer-event-click",
+      "role": null,
+      "text_prefix": "Sign in",
+      "bbox": {
+        "desktop": [
+          48,
+          534,
+          46,
+          18
+        ],
+        "mobile": [
+          48,
+          552,
+          46,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e141",
+      "tag": "span",
+      "id": "uij-e141",
+      "class": null,
+      "role": null,
+      "text_prefix": "Sign in",
+      "bbox": {
+        "desktop": [
+          48,
+          534,
+          46,
+          18
+        ],
+        "mobile": [
+          48,
+          552,
+          46,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e142",
+      "tag": "li",
+      "id": "uij-e142",
+      "class": "js-my-account disabled usa-nav__primary-item hidden",
+      "role": null,
+      "text_prefix": "My account Account home Sign out",
+      "bbox": {
+        "desktop": [
+          48,
+          552,
+          1864,
+          21
+        ],
+        "mobile": [
+          48,
+          570,
+          319,
+          21
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e143",
+      "tag": "button",
+      "id": "uij-e143",
+      "class": "usa-accordion__button usa-nav__link",
+      "role": null,
+      "text_prefix": "My account",
+      "bbox": {
+        "desktop": [
+          48,
+          552,
+          84,
+          21
+        ],
+        "mobile": [
+          48,
+          570,
+          84,
+          21
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e144",
+      "tag": "span",
+      "id": "uij-e144",
+      "class": null,
+      "role": null,
+      "text_prefix": "My account",
+      "bbox": {
+        "desktop": [
+          56,
+          555,
+          68,
+          15
+        ],
+        "mobile": [
+          56,
+          573,
+          68,
+          15
+        ]
+      }
+    },
+    {
+      "selector": "#main-content",
+      "tag": "main",
+      "id": "main-content",
+      "class": "main-content usa-layout-docs",
+      "role": "main",
+      "text_prefix": "Breadcrumb Home Retirement benefits Retirement Plan for Retirement Timing your f",
+      "bbox": {
+        "desktop": [
+          8,
+          593,
+          1904,
+          859
+        ],
+        "mobile": [
+          8,
+          611,
+          359,
+          1121
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e151",
+      "tag": "div",
+      "id": "uij-e151",
+      "class": "grid-container",
+      "role": null,
+      "text_prefix": "Breadcrumb Home Retirement benefits",
+      "bbox": {
+        "desktop": [
+          8,
+          593,
+          1904,
+          84
+        ],
+        "mobile": [
+          8,
+          611,
+          359,
+          84
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e152",
+      "tag": "div",
+      "id": "uij-e152",
+      "class": "grid-row",
+      "role": null,
+      "text_prefix": "Breadcrumb Home Retirement benefits",
+      "bbox": {
+        "desktop": [
+          8,
+          593,
+          1904,
+          84
+        ],
+        "mobile": [
+          8,
+          611,
+          359,
+          84
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e153",
+      "tag": "div",
+      "id": "uij-e153",
+      "class": null,
+      "role": null,
+      "text_prefix": "Breadcrumb Home Retirement benefits",
+      "bbox": {
+        "desktop": [
+          8,
+          593,
+          1904,
+          84
+        ],
+        "mobile": [
+          8,
+          611,
+          359,
+          84
+        ]
+      }
+    },
+    {
+      "selector": "#block-ssa-core-breadcrumbs",
+      "tag": "div",
+      "id": "block-ssa-core-breadcrumbs",
+      "class": "block block-system block-system-breadcrumb-block",
+      "role": null,
+      "text_prefix": "Breadcrumb Home Retirement benefits",
+      "bbox": {
+        "desktop": [
+          8,
+          593,
+          1904,
+          84
+        ],
+        "mobile": [
+          8,
+          611,
+          359,
+          84
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e154",
+      "tag": "nav",
+      "id": "uij-e154",
+      "class": "usa-breadcrumb",
+      "role": "navigation",
+      "text_prefix": "Breadcrumb Home Retirement benefits",
+      "bbox": {
+        "desktop": [
+          8,
+          593,
+          1904,
+          84
+        ],
+        "mobile": [
+          8,
+          611,
+          359,
+          84
+        ]
+      }
+    },
+    {
+      "selector": "#system-breadcrumb",
+      "tag": "h2",
+      "id": "system-breadcrumb",
+      "class": "usa-sr-only",
+      "role": null,
+      "text_prefix": "Breadcrumb",
+      "bbox": {
+        "desktop": [
+          8,
+          593,
+          1904,
+          28
+        ],
+        "mobile": [
+          8,
+          611,
+          359,
+          28
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e155",
+      "tag": "ol",
+      "id": "uij-e155",
+      "class": "usa-breadcrumb__list",
+      "role": null,
+      "text_prefix": "Home Retirement benefits",
+      "bbox": {
+        "desktop": [
+          8,
+          641,
+          1904,
+          36
+        ],
+        "mobile": [
+          8,
+          659,
+          359,
+          36
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e156",
+      "tag": "li",
+      "id": "uij-e156",
+      "class": "usa-breadcrumb__list-item",
+      "role": null,
+      "text_prefix": "Home",
+      "bbox": {
+        "desktop": [
+          48,
+          641,
+          1864,
+          18
+        ],
+        "mobile": [
+          48,
+          659,
+          319,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e157",
+      "tag": "a",
+      "id": "uij-e157",
+      "class": "usa-breadcrumb__link",
+      "role": null,
+      "text_prefix": "Home",
+      "bbox": {
+        "desktop": [
+          48,
+          641,
+          39,
+          18
+        ],
+        "mobile": [
+          48,
+          659,
+          39,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e158",
+      "tag": "span",
+      "id": "uij-e158",
+      "class": null,
+      "role": null,
+      "text_prefix": "Home",
+      "bbox": {
+        "desktop": [
+          48,
+          641,
+          39,
+          18
+        ],
+        "mobile": [
+          48,
+          659,
+          39,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e159",
+      "tag": "li",
+      "id": "uij-e159",
+      "class": "usa-breadcrumb__list-item",
+      "role": null,
+      "text_prefix": "Retirement benefits",
+      "bbox": {
+        "desktop": [
+          48,
+          659,
+          1864,
+          18
+        ],
+        "mobile": [
+          48,
+          677,
+          319,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e162",
+      "tag": "div",
+      "id": "uij-e162",
+      "class": "grid-container",
+      "role": null,
+      "text_prefix": "Retirement Plan for Retirement Timing your first payment What you must report wh",
+      "bbox": {
+        "desktop": [
+          8,
+          693,
+          1904,
+          759
+        ],
+        "mobile": [
+          8,
+          711,
+          359,
+          1021
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e163",
+      "tag": "div",
+      "id": "uij-e163",
+      "class": "grid-row grid-gap",
+      "role": null,
+      "text_prefix": "Retirement Plan for Retirement Timing your first payment What you must report wh",
+      "bbox": {
+        "desktop": [
+          8,
+          693,
+          1904,
+          759
+        ],
+        "mobile": [
+          8,
+          711,
+          359,
+          1021
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e164",
+      "tag": "aside",
+      "id": "uij-e164",
+      "class": "usa-layout-docs__sidenav desktop:grid-col-3 layout-sidebar-first",
+      "role": "complementary",
+      "text_prefix": "Retirement Plan for Retirement Timing your first payment What you must report wh",
+      "bbox": {
+        "desktop": [
+          8,
+          693,
+          1904,
+          144
+        ],
+        "mobile": [
+          8,
+          711,
+          359,
+          162
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e165",
+      "tag": "div",
+      "id": "uij-e165",
+      "class": "usa-section",
+      "role": null,
+      "text_prefix": "Retirement Plan for Retirement Timing your first payment What you must report wh",
+      "bbox": {
+        "desktop": [
+          8,
+          693,
+          1904,
+          144
+        ],
+        "mobile": [
+          8,
+          711,
+          359,
+          162
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e166",
+      "tag": "ul",
+      "id": "uij-e166",
+      "class": "usa-sidenav ssa-sidenav",
+      "role": null,
+      "text_prefix": "Retirement Plan for Retirement Timing your first payment What you must report wh",
+      "bbox": {
+        "desktop": [
+          8,
+          693,
+          1904,
+          144
+        ],
+        "mobile": [
+          8,
+          711,
+          359,
+          162
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e167",
+      "tag": "li",
+      "id": "uij-e167",
+      "class": "usa-sidenav__item ssa-sidenav__item expanded dropdown active active-trail first",
+      "role": null,
+      "text_prefix": "Retirement",
+      "bbox": {
+        "desktop": [
+          48,
+          693,
+          1864,
+          18
+        ],
+        "mobile": [
+          48,
+          711,
+          319,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e168",
+      "tag": "a",
+      "id": "uij-e168",
+      "class": "usa-current",
+      "role": null,
+      "text_prefix": "Retirement",
+      "bbox": {
+        "desktop": [
+          48,
+          693,
+          71,
+          18
+        ],
+        "mobile": [
+          48,
+          711,
+          71,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e169",
+      "tag": "span",
+      "id": "uij-e169",
+      "class": null,
+      "role": null,
+      "text_prefix": "Retirement",
+      "bbox": {
+        "desktop": [
+          48,
+          693,
+          71,
+          18
+        ],
+        "mobile": [
+          48,
+          711,
+          71,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e170",
+      "tag": "ul",
+      "id": "uij-e170",
+      "class": "usa-sidenav__sublist",
+      "role": null,
+      "text_prefix": "Plan for Retirement Timing your first payment What you must report while getting",
+      "bbox": {
+        "desktop": [
+          48,
+          711,
+          1864,
+          54
+        ],
+        "mobile": [
+          48,
+          729,
+          319,
+          72
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e171",
+      "tag": "li",
+      "id": "uij-e171",
+      "class": "usa-sidenav__item ssa-sidenav__item first",
+      "role": null,
+      "text_prefix": "Plan for Retirement",
+      "bbox": {
+        "desktop": [
+          88,
+          711,
+          1824,
+          18
+        ],
+        "mobile": [
+          88,
+          729,
+          279,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e172",
+      "tag": "a",
+      "id": "uij-e172",
+      "class": null,
+      "role": null,
+      "text_prefix": "Plan for Retirement",
+      "bbox": {
+        "desktop": [
+          88,
+          711,
+          126,
+          18
+        ],
+        "mobile": [
+          88,
+          729,
+          126,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e173",
+      "tag": "span",
+      "id": "uij-e173",
+      "class": null,
+      "role": null,
+      "text_prefix": "Plan for Retirement",
+      "bbox": {
+        "desktop": [
+          88,
+          711,
+          126,
+          18
+        ],
+        "mobile": [
+          88,
+          729,
+          126,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e174",
+      "tag": "li",
+      "id": "uij-e174",
+      "class": "usa-sidenav__item ssa-sidenav__item",
+      "role": null,
+      "text_prefix": "Timing your first payment",
+      "bbox": {
+        "desktop": [
+          88,
+          729,
+          1824,
+          18
+        ],
+        "mobile": [
+          88,
+          747,
+          279,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e175",
+      "tag": "a",
+      "id": "uij-e175",
+      "class": null,
+      "role": null,
+      "text_prefix": "Timing your first payment",
+      "bbox": {
+        "desktop": [
+          88,
+          729,
+          168,
+          18
+        ],
+        "mobile": [
+          88,
+          747,
+          168,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e176",
+      "tag": "span",
+      "id": "uij-e176",
+      "class": null,
+      "role": null,
+      "text_prefix": "Timing your first payment",
+      "bbox": {
+        "desktop": [
+          88,
+          729,
+          168,
+          18
+        ],
+        "mobile": [
+          88,
+          747,
+          168,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e177",
+      "tag": "li",
+      "id": "uij-e177",
+      "class": "usa-sidenav__item ssa-sidenav__item last",
+      "role": null,
+      "text_prefix": "What you must report while getting Retirement",
+      "bbox": {
+        "desktop": [
+          88,
+          747,
+          1824,
+          18
+        ],
+        "mobile": [
+          88,
+          765,
+          279,
+          36
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e178",
+      "tag": "a",
+      "id": "uij-e178",
+      "class": null,
+      "role": null,
+      "text_prefix": "What you must report while getting Retirement",
+      "bbox": {
+        "desktop": [
+          88,
+          747,
+          303,
+          18
+        ],
+        "mobile": [
+          88,
+          765,
+          228,
+          36
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e179",
+      "tag": "span",
+      "id": "uij-e179",
+      "class": null,
+      "role": null,
+      "text_prefix": "What you must report while getting Retirement",
+      "bbox": {
+        "desktop": [
+          88,
+          747,
+          303,
+          18
+        ],
+        "mobile": [
+          88,
+          765,
+          228,
+          36
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e180",
+      "tag": "li",
+      "id": "uij-e180",
+      "class": "usa-sidenav__item ssa-sidenav__item",
+      "role": null,
+      "text_prefix": "Disability",
+      "bbox": {
+        "desktop": [
+          48,
+          765,
+          1864,
+          18
+        ],
+        "mobile": [
+          48,
+          801,
+          319,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e181",
+      "tag": "a",
+      "id": "uij-e181",
+      "class": null,
+      "role": null,
+      "text_prefix": "Disability",
+      "bbox": {
+        "desktop": [
+          48,
+          765,
+          63,
+          18
+        ],
+        "mobile": [
+          48,
+          801,
+          63,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e182",
+      "tag": "span",
+      "id": "uij-e182",
+      "class": null,
+      "role": null,
+      "text_prefix": "Disability",
+      "bbox": {
+        "desktop": [
+          48,
+          765,
+          63,
+          18
+        ],
+        "mobile": [
+          48,
+          801,
+          63,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e183",
+      "tag": "li",
+      "id": "uij-e183",
+      "class": "usa-sidenav__item ssa-sidenav__item",
+      "role": null,
+      "text_prefix": "Survivor",
+      "bbox": {
+        "desktop": [
+          48,
+          783,
+          1864,
+          18
+        ],
+        "mobile": [
+          48,
+          819,
+          319,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e184",
+      "tag": "a",
+      "id": "uij-e184",
+      "class": null,
+      "role": null,
+      "text_prefix": "Survivor",
+      "bbox": {
+        "desktop": [
+          48,
+          783,
+          56,
+          18
+        ],
+        "mobile": [
+          48,
+          819,
+          56,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e185",
+      "tag": "span",
+      "id": "uij-e185",
+      "class": null,
+      "role": null,
+      "text_prefix": "Survivor",
+      "bbox": {
+        "desktop": [
+          48,
+          783,
+          56,
+          18
+        ],
+        "mobile": [
+          48,
+          819,
+          56,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e186",
+      "tag": "li",
+      "id": "uij-e186",
+      "class": "usa-sidenav__item ssa-sidenav__item",
+      "role": null,
+      "text_prefix": "Family",
+      "bbox": {
+        "desktop": [
+          48,
+          801,
+          1864,
+          18
+        ],
+        "mobile": [
+          48,
+          837,
+          319,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e187",
+      "tag": "a",
+      "id": "uij-e187",
+      "class": null,
+      "role": null,
+      "text_prefix": "Family",
+      "bbox": {
+        "desktop": [
+          48,
+          801,
+          45,
+          18
+        ],
+        "mobile": [
+          48,
+          837,
+          45,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e188",
+      "tag": "span",
+      "id": "uij-e188",
+      "class": null,
+      "role": null,
+      "text_prefix": "Family",
+      "bbox": {
+        "desktop": [
+          48,
+          801,
+          45,
+          18
+        ],
+        "mobile": [
+          48,
+          837,
+          45,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e189",
+      "tag": "li",
+      "id": "uij-e189",
+      "class": "usa-sidenav__item ssa-sidenav__item last",
+      "role": null,
+      "text_prefix": "Supplemental Security Income (SSI)",
+      "bbox": {
+        "desktop": [
+          48,
+          819,
+          1864,
+          18
+        ],
+        "mobile": [
+          48,
+          855,
+          319,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e190",
+      "tag": "a",
+      "id": "uij-e190",
+      "class": null,
+      "role": null,
+      "text_prefix": "Supplemental Security Income (SSI)",
+      "bbox": {
+        "desktop": [
+          48,
+          819,
+          235,
+          18
+        ],
+        "mobile": [
+          48,
+          855,
+          235,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e191",
+      "tag": "span",
+      "id": "uij-e191",
+      "class": null,
+      "role": null,
+      "text_prefix": "Supplemental Security Income (SSI)",
+      "bbox": {
+        "desktop": [
+          48,
+          819,
+          235,
+          18
+        ],
+        "mobile": [
+          48,
+          855,
+          235,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e192",
+      "tag": "div",
+      "id": "uij-e192",
+      "class": "usa-layout-docs__main ssa-layout-docs__main--sidebar-layout desktop:grid-col-8",
+      "role": null,
+      "text_prefix": "Retirement benefits You can typically get monthly Retirement benefits starting a",
+      "bbox": {
+        "desktop": [
+          8,
+          858,
+          1904,
+          594
+        ],
+        "mobile": [
+          8,
+          894,
+          359,
+          838
+        ]
+      }
+    },
+    {
+      "selector": "#block-ssa-core-content",
+      "tag": "div",
+      "id": "block-ssa-core-content",
+      "class": "block block-system block-system-main-block",
+      "role": null,
+      "text_prefix": "Retirement benefits You can typically get monthly Retirement benefits starting a",
+      "bbox": {
+        "desktop": [
+          8,
+          858,
+          1904,
+          594
+        ],
+        "mobile": [
+          8,
+          894,
+          359,
+          838
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e193",
+      "tag": "article",
+      "id": "uij-e193",
+      "class": null,
+      "role": null,
+      "text_prefix": "Retirement benefits You can typically get monthly Retirement benefits starting a",
+      "bbox": {
+        "desktop": [
+          8,
+          858,
+          1904,
+          594
+        ],
+        "mobile": [
+          8,
+          894,
+          359,
+          838
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e194",
+      "tag": "div",
+      "id": "uij-e194",
+      "class": "ssa-task ssa-task--multiple",
+      "role": null,
+      "text_prefix": "Retirement benefits You can typically get monthly Retirement benefits starting a",
+      "bbox": {
+        "desktop": [
+          8,
+          858,
+          1904,
+          594
+        ],
+        "mobile": [
+          8,
+          894,
+          359,
+          838
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e195",
+      "tag": "section",
+      "id": "uij-e195",
+      "class": "usa-section usa-prose",
+      "role": null,
+      "text_prefix": "Retirement benefits You can typically get monthly Retirement benefits starting a",
+      "bbox": {
+        "desktop": [
+          8,
+          858,
+          1904,
+          594
+        ],
+        "mobile": [
+          8,
+          894,
+          359,
+          838
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e196",
+      "tag": "h1",
+      "id": "uij-e196",
+      "class": null,
+      "role": null,
+      "text_prefix": "Retirement benefits",
+      "bbox": {
+        "desktop": [
+          8,
+          858,
+          1904,
+          37
+        ],
+        "mobile": [
+          8,
+          894,
+          359,
+          37
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e197",
+      "tag": "span",
+      "id": "uij-e197",
+      "class": null,
+      "role": null,
+      "text_prefix": "Retirement benefits",
+      "bbox": {
+        "desktop": [
+          8,
+          858,
+          267,
+          37
+        ],
+        "mobile": [
+          8,
+          894,
+          267,
+          37
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e198",
+      "tag": "div",
+      "id": "uij-e198",
+      "class": "ssa-task__context",
+      "role": null,
+      "text_prefix": "You can typically get monthly Retirement benefits starting at age 62 if you've w",
+      "bbox": {
+        "desktop": [
+          8,
+          917,
+          1904,
+          18
+        ],
+        "mobile": [
+          8,
+          953,
+          359,
+          72
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e199",
+      "tag": "div",
+      "id": "uij-e199",
+      "class": "field field--name-field-task-context field--type-entity-reference-revisions field--label-hidden field__item",
+      "role": null,
+      "text_prefix": "You can typically get monthly Retirement benefits starting at age 62 if you've w",
+      "bbox": {
+        "desktop": [
+          8,
+          917,
+          1904,
+          18
+        ],
+        "mobile": [
+          8,
+          953,
+          359,
+          72
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e200",
+      "tag": "div",
+      "id": "uij-e200",
+      "class": "paragraph paragraph--type--task-context paragraph--view-mode--default ssa-task-context usa-prose",
+      "role": null,
+      "text_prefix": "You can typically get monthly Retirement benefits starting at age 62 if you've w",
+      "bbox": {
+        "desktop": [
+          8,
+          917,
+          1904,
+          18
+        ],
+        "mobile": [
+          8,
+          953,
+          359,
+          72
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e202",
+      "tag": "div",
+      "id": "uij-e202",
+      "class": "ssa-task-context__body",
+      "role": null,
+      "text_prefix": "You can typically get monthly Retirement benefits starting at age 62 if you've w",
+      "bbox": {
+        "desktop": [
+          8,
+          917,
+          1904,
+          18
+        ],
+        "mobile": [
+          8,
+          953,
+          359,
+          72
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e203",
+      "tag": "div",
+      "id": "uij-e203",
+      "class": "field field--name-field-context-description field--type-text-long field--label-hidden field__item",
+      "role": null,
+      "text_prefix": "You can typically get monthly Retirement benefits starting at age 62 if you've w",
+      "bbox": {
+        "desktop": [
+          8,
+          917,
+          1904,
+          18
+        ],
+        "mobile": [
+          8,
+          953,
+          359,
+          72
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e204",
+      "tag": "p",
+      "id": "uij-e204",
+      "class": null,
+      "role": null,
+      "text_prefix": "You can typically get monthly Retirement benefits starting at age 62 if you've w",
+      "bbox": {
+        "desktop": [
+          8,
+          917,
+          1904,
+          18
+        ],
+        "mobile": [
+          8,
+          953,
+          359,
+          72
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e205",
+      "tag": "div",
+      "id": "uij-e205",
+      "class": "ssa-task__inline-action ssa-task__inline-action--primary",
+      "role": null,
+      "text_prefix": "Learn how to apply",
+      "bbox": {
+        "desktop": [
+          8,
+          955,
+          1904,
+          18
+        ],
+        "mobile": [
+          8,
+          1045,
+          359,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e206",
+      "tag": "div",
+      "id": "uij-e206",
+      "class": "field field--name-field-primary-inline-action field--type-entity-reference-revisions field--label-hidden field__item",
+      "role": null,
+      "text_prefix": "Learn how to apply",
+      "bbox": {
+        "desktop": [
+          8,
+          955,
+          1904,
+          18
+        ],
+        "mobile": [
+          8,
+          1045,
+          359,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e207",
+      "tag": "div",
+      "id": "uij-e207",
+      "class": "ssa-inline-action ssa-inline-action--multiple-tasks usa-prose",
+      "role": null,
+      "text_prefix": "Learn how to apply",
+      "bbox": {
+        "desktop": [
+          8,
+          955,
+          1904,
+          18
+        ],
+        "mobile": [
+          8,
+          1045,
+          359,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e209",
+      "tag": "div",
+      "id": "uij-e209",
+      "class": null,
+      "role": null,
+      "text_prefix": "Learn how to apply",
+      "bbox": {
+        "desktop": [
+          8,
+          955,
+          1904,
+          18
+        ],
+        "mobile": [
+          8,
+          1045,
+          359,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e210",
+      "tag": "a",
+      "id": "uij-e210",
+      "class": "microcontent-primary-button usa-button",
+      "role": null,
+      "text_prefix": "Learn how to apply",
+      "bbox": {
+        "desktop": [
+          8,
+          955,
+          125,
+          18
+        ],
+        "mobile": [
+          8,
+          1045,
+          125,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e211",
+      "tag": "div",
+      "id": "uij-e211",
+      "class": "ssa-task__action-list",
+      "role": null,
+      "text_prefix": "Plan for Retirement Estimate your benefit amount, determine when to apply, and e",
+      "bbox": {
+        "desktop": [
+          8,
+          993,
+          1904,
+          459
+        ],
+        "mobile": [
+          8,
+          1083,
+          359,
+          649
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e212",
+      "tag": "div",
+      "id": "uij-e212",
+      "class": "paragraph paragraph--type--inline-action-list paragraph--view-mode--default ssa-inline-action-list usa-prose",
+      "role": null,
+      "text_prefix": "Plan for Retirement Estimate your benefit amount, determine when to apply, and e",
+      "bbox": {
+        "desktop": [
+          8,
+          993,
+          1904,
+          459
+        ],
+        "mobile": [
+          8,
+          1083,
+          359,
+          649
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e214",
+      "tag": "div",
+      "id": "uij-e214",
+      "class": "field field--name-field-inline-action-list-actions field--type-entity-reference-revisions field--label-hidden field__items",
+      "role": null,
+      "text_prefix": "Plan for Retirement Estimate your benefit amount, determine when to apply, and e",
+      "bbox": {
+        "desktop": [
+          8,
+          993,
+          1904,
+          459
+        ],
+        "mobile": [
+          8,
+          1083,
+          359,
+          649
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e215",
+      "tag": "div",
+      "id": "uij-e215",
+      "class": "field__item",
+      "role": null,
+      "text_prefix": "Plan for Retirement Estimate your benefit amount, determine when to apply, and e",
+      "bbox": {
+        "desktop": [
+          8,
+          993,
+          1904,
+          100
+        ],
+        "mobile": [
+          8,
+          1083,
+          359,
+          136
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e216",
+      "tag": "div",
+      "id": "uij-e216",
+      "class": "ssa-inline-action ssa-inline-action--multiple-tasks usa-prose",
+      "role": null,
+      "text_prefix": "Plan for Retirement Estimate your benefit amount, determine when to apply, and e",
+      "bbox": {
+        "desktop": [
+          8,
+          993,
+          1904,
+          100
+        ],
+        "mobile": [
+          8,
+          1083,
+          359,
+          136
+        ]
+      }
+    },
+    {
+      "selector": "#plan-for-retirement",
+      "tag": "h2",
+      "id": "plan-for-retirement",
+      "class": "ssa-inline-action__heading",
+      "role": null,
+      "text_prefix": "Plan for Retirement",
+      "bbox": {
+        "desktop": [
+          8,
+          993,
+          1904,
+          28
+        ],
+        "mobile": [
+          8,
+          1083,
+          359,
+          28
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e218",
+      "tag": "p",
+      "id": "uij-e218",
+      "class": null,
+      "role": null,
+      "text_prefix": "Estimate your benefit amount, determine when to apply, and explore other factors",
+      "bbox": {
+        "desktop": [
+          8,
+          1040,
+          1904,
+          18
+        ],
+        "mobile": [
+          8,
+          1130,
+          359,
+          54
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e220",
+      "tag": "div",
+      "id": "uij-e220",
+      "class": "field field--name-field-primary-action-link field--type-link field--label-hidden field__item",
+      "role": null,
+      "text_prefix": "Learn about retirement planning",
+      "bbox": {
+        "desktop": [
+          8,
+          1074,
+          1904,
+          18
+        ],
+        "mobile": [
+          8,
+          1200,
+          359,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e221",
+      "tag": "a",
+      "id": "uij-e221",
+      "class": null,
+      "role": null,
+      "text_prefix": "Learn about retirement planning",
+      "bbox": {
+        "desktop": [
+          8,
+          1074,
+          207,
+          18
+        ],
+        "mobile": [
+          8,
+          1200,
+          207,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e222",
+      "tag": "div",
+      "id": "uij-e222",
+      "class": "field__item",
+      "role": null,
+      "text_prefix": "Time your first payment Learn how to time your application so your first benefit",
+      "bbox": {
+        "desktop": [
+          8,
+          1112,
+          1904,
+          100
+        ],
+        "mobile": [
+          8,
+          1238,
+          359,
+          118
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e223",
+      "tag": "div",
+      "id": "uij-e223",
+      "class": "ssa-inline-action ssa-inline-action--multiple-tasks usa-prose",
+      "role": null,
+      "text_prefix": "Time your first payment Learn how to time your application so your first benefit",
+      "bbox": {
+        "desktop": [
+          8,
+          1112,
+          1904,
+          100
+        ],
+        "mobile": [
+          8,
+          1238,
+          359,
+          118
+        ]
+      }
+    },
+    {
+      "selector": "#time-your-first-payment",
+      "tag": "h2",
+      "id": "time-your-first-payment",
+      "class": "ssa-inline-action__heading",
+      "role": null,
+      "text_prefix": "Time your first payment",
+      "bbox": {
+        "desktop": [
+          8,
+          1112,
+          1904,
+          28
+        ],
+        "mobile": [
+          8,
+          1238,
+          359,
+          28
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e225",
+      "tag": "p",
+      "id": "uij-e225",
+      "class": null,
+      "role": null,
+      "text_prefix": "Learn how to time your application so your first benefit payment arrives when yo",
+      "bbox": {
+        "desktop": [
+          8,
+          1160,
+          1904,
+          18
+        ],
+        "mobile": [
+          8,
+          1286,
+          359,
+          36
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e227",
+      "tag": "div",
+      "id": "uij-e227",
+      "class": "field field--name-field-primary-action-link field--type-link field--label-hidden field__item",
+      "role": null,
+      "text_prefix": "See when to apply",
+      "bbox": {
+        "desktop": [
+          8,
+          1194,
+          1904,
+          18
+        ],
+        "mobile": [
+          8,
+          1338,
+          359,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e228",
+      "tag": "a",
+      "id": "uij-e228",
+      "class": null,
+      "role": null,
+      "text_prefix": "See when to apply",
+      "bbox": {
+        "desktop": [
+          8,
+          1194,
+          118,
+          18
+        ],
+        "mobile": [
+          8,
+          1338,
+          118,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e229",
+      "tag": "div",
+      "id": "uij-e229",
+      "class": "field__item",
+      "role": null,
+      "text_prefix": "Report changes Report changes to your earnings if you're working before Full Ret",
+      "bbox": {
+        "desktop": [
+          8,
+          1232,
+          1904,
+          100
+        ],
+        "mobile": [
+          8,
+          1376,
+          359,
+          136
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e230",
+      "tag": "div",
+      "id": "uij-e230",
+      "class": "ssa-inline-action ssa-inline-action--multiple-tasks usa-prose",
+      "role": null,
+      "text_prefix": "Report changes Report changes to your earnings if you're working before Full Ret",
+      "bbox": {
+        "desktop": [
+          8,
+          1232,
+          1904,
+          100
+        ],
+        "mobile": [
+          8,
+          1376,
+          359,
+          136
+        ]
+      }
+    },
+    {
+      "selector": "#report-changes",
+      "tag": "h2",
+      "id": "report-changes",
+      "class": "ssa-inline-action__heading",
+      "role": null,
+      "text_prefix": "Report changes",
+      "bbox": {
+        "desktop": [
+          8,
+          1232,
+          1904,
+          28
+        ],
+        "mobile": [
+          8,
+          1376,
+          359,
+          28
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e232",
+      "tag": "p",
+      "id": "uij-e232",
+      "class": null,
+      "role": null,
+      "text_prefix": "Report changes to your earnings if you're working before Full Retirement Age (be",
+      "bbox": {
+        "desktop": [
+          8,
+          1280,
+          1904,
+          18
+        ],
+        "mobile": [
+          8,
+          1424,
+          359,
+          54
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e233",
+      "tag": "a",
+      "id": "uij-e233",
+      "class": null,
+      "role": null,
+      "text_prefix": "Full Retirement Age",
+      "bbox": {
+        "desktop": [
+          378,
+          1280,
+          131,
+          18
+        ],
+        "mobile": [
+          53,
+          1442,
+          131,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e235",
+      "tag": "div",
+      "id": "uij-e235",
+      "class": "field field--name-field-primary-action-link field--type-link field--label-hidden field__item",
+      "role": null,
+      "text_prefix": "See how to report changes to your situation",
+      "bbox": {
+        "desktop": [
+          8,
+          1314,
+          1904,
+          18
+        ],
+        "mobile": [
+          8,
+          1494,
+          359,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e236",
+      "tag": "a",
+      "id": "uij-e236",
+      "class": null,
+      "role": null,
+      "text_prefix": "See how to report changes to your situation",
+      "bbox": {
+        "desktop": [
+          8,
+          1314,
+          278,
+          18
+        ],
+        "mobile": [
+          8,
+          1494,
+          278,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e237",
+      "tag": "div",
+      "id": "uij-e237",
+      "class": "field__item",
+      "role": null,
+      "text_prefix": "Explore Retirement options from family members’ work You might qualify for Famil",
+      "bbox": {
+        "desktop": [
+          8,
+          1352,
+          1904,
+          100
+        ],
+        "mobile": [
+          8,
+          1532,
+          359,
+          200
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e238",
+      "tag": "div",
+      "id": "uij-e238",
+      "class": "ssa-inline-action ssa-inline-action--multiple-tasks usa-prose",
+      "role": null,
+      "text_prefix": "Explore Retirement options from family members’ work You might qualify for Famil",
+      "bbox": {
+        "desktop": [
+          8,
+          1352,
+          1904,
+          100
+        ],
+        "mobile": [
+          8,
+          1532,
+          359,
+          200
+        ]
+      }
+    },
+    {
+      "selector": "#explore-retirement-options-from-family-members’-work",
+      "tag": "h2",
+      "id": "explore-retirement-options-from-family-members’-work",
+      "class": "ssa-inline-action__heading",
+      "role": null,
+      "text_prefix": "Explore Retirement options from family members’ work",
+      "bbox": {
+        "desktop": [
+          8,
+          1352,
+          1904,
+          28
+        ],
+        "mobile": [
+          8,
+          1532,
+          359,
+          56
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e240",
+      "tag": "p",
+      "id": "uij-e240",
+      "class": null,
+      "role": null,
+      "text_prefix": "You might qualify for Family or Survivor benefits based on a family member’s wor",
+      "bbox": {
+        "desktop": [
+          8,
+          1400,
+          1904,
+          18
+        ],
+        "mobile": [
+          8,
+          1608,
+          359,
+          90
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e241",
+      "tag": "a",
+      "id": "uij-e241",
+      "class": null,
+      "role": null,
+      "text_prefix": "Family",
+      "bbox": {
+        "desktop": [
+          151,
+          1400,
+          45,
+          18
+        ],
+        "mobile": [
+          151,
+          1608,
+          45,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e243",
+      "tag": "a",
+      "id": "uij-e243",
+      "class": null,
+      "role": null,
+      "text_prefix": "Survivor",
+      "bbox": {
+        "desktop": [
+          218,
+          1400,
+          56,
+          18
+        ],
+        "mobile": [
+          218,
+          1608,
+          56,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e245",
+      "tag": "div",
+      "id": "uij-e245",
+      "class": "field field--name-field-primary-action-link field--type-link field--label-hidden field__item",
+      "role": null,
+      "text_prefix": "Check your eligibility for all our benefits",
+      "bbox": {
+        "desktop": [
+          8,
+          1434,
+          1904,
+          18
+        ],
+        "mobile": [
+          8,
+          1714,
+          359,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e246",
+      "tag": "a",
+      "id": "uij-e246",
+      "class": null,
+      "role": null,
+      "text_prefix": "Check your eligibility for all our benefits",
+      "bbox": {
+        "desktop": [
+          8,
+          1434,
+          262,
+          18
+        ],
+        "mobile": [
+          8,
+          1714,
+          262,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#footer",
+      "tag": "footer",
+      "id": "footer",
+      "class": "usa-footer usa-footer--big",
+      "role": "contentinfo",
+      "text_prefix": "Return to top Support Contact us Find an office Forms Publications Report fraud ",
+      "bbox": {
+        "desktop": [
+          8,
+          1452,
+          1904,
+          1090
+        ],
+        "mobile": [
+          8,
+          1732,
+          359,
+          1126
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e248",
+      "tag": "div",
+      "id": "uij-e248",
+      "class": "grid-container usa-footer__return-to-top",
+      "role": null,
+      "text_prefix": "Return to top",
+      "bbox": {
+        "desktop": [
+          8,
+          1452,
+          1904,
+          18
+        ],
+        "mobile": [
+          8,
+          1732,
+          359,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e249",
+      "tag": "a",
+      "id": "uij-e249",
+      "class": null,
+      "role": null,
+      "text_prefix": "Return to top",
+      "bbox": {
+        "desktop": [
+          8,
+          1452,
+          84,
+          18
+        ],
+        "mobile": [
+          8,
+          1732,
+          84,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e250",
+      "tag": "div",
+      "id": "uij-e250",
+      "class": "usa-footer__primary-section",
+      "role": null,
+      "text_prefix": "Support Contact us Find an office Forms Publications Report fraud Languages Espa",
+      "bbox": {
+        "desktop": [
+          8,
+          1491,
+          1904,
+          545
+        ],
+        "mobile": [
+          8,
+          1771,
+          359,
+          545
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e251",
+      "tag": "div",
+      "id": "uij-e251",
+      "class": "usa-footer__primary-content",
+      "role": null,
+      "text_prefix": "Support Contact us Find an office Forms Publications Report fraud Languages Espa",
+      "bbox": {
+        "desktop": [
+          8,
+          1491,
+          1904,
+          545
+        ],
+        "mobile": [
+          8,
+          1771,
+          359,
+          545
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e254",
+      "tag": "div",
+      "id": "uij-e254",
+      "class": "grid-container",
+      "role": null,
+      "text_prefix": "Support Contact us Find an office Forms Publications Report fraud Languages Espa",
+      "bbox": {
+        "desktop": [
+          8,
+          1491,
+          1904,
+          545
+        ],
+        "mobile": [
+          8,
+          1771,
+          359,
+          545
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e255",
+      "tag": "div",
+      "id": "uij-e255",
+      "class": "grid-row grid-gap-4",
+      "role": null,
+      "text_prefix": "Support Contact us Find an office Forms Publications Report fraud Languages Espa",
+      "bbox": {
+        "desktop": [
+          8,
+          1491,
+          1904,
+          545
+        ],
+        "mobile": [
+          8,
+          1771,
+          359,
+          545
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e256",
+      "tag": "div",
+      "id": "uij-e256",
+      "class": "desktop:grid-col-12",
+      "role": null,
+      "text_prefix": "Support Contact us Find an office Forms Publications Report fraud Languages Espa",
+      "bbox": {
+        "desktop": [
+          8,
+          1491,
+          1904,
+          545
+        ],
+        "mobile": [
+          8,
+          1771,
+          359,
+          545
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e257",
+      "tag": "div",
+      "id": "uij-e257",
+      "class": null,
+      "role": null,
+      "text_prefix": "Support Contact us Find an office Forms Publications Report fraud Languages Espa",
+      "bbox": {
+        "desktop": [
+          8,
+          1491,
+          1904,
+          545
+        ],
+        "mobile": [
+          8,
+          1771,
+          359,
+          545
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e258",
+      "tag": "div",
+      "id": "uij-e258",
+      "class": "tablet:grid-col-12",
+      "role": null,
+      "text_prefix": "Support Contact us Find an office Forms Publications Report fraud Languages Espa",
+      "bbox": {
+        "desktop": [
+          8,
+          1491,
+          1904,
+          545
+        ],
+        "mobile": [
+          8,
+          1771,
+          359,
+          545
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e259",
+      "tag": "nav",
+      "id": "uij-e259",
+      "class": "usa-footer__nav",
+      "role": null,
+      "text_prefix": "Support Contact us Find an office Forms Publications Report fraud Languages Espa",
+      "bbox": {
+        "desktop": [
+          8,
+          1491,
+          1904,
+          545
+        ],
+        "mobile": [
+          8,
+          1771,
+          359,
+          545
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e260",
+      "tag": "div",
+      "id": "uij-e260",
+      "class": "grid-row grid-gap-6",
+      "role": null,
+      "text_prefix": "Support Contact us Find an office Forms Publications Report fraud Languages Espa",
+      "bbox": {
+        "desktop": [
+          8,
+          1491,
+          1904,
+          545
+        ],
+        "mobile": [
+          8,
+          1771,
+          359,
+          545
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e261",
+      "tag": "div",
+      "id": "uij-e261",
+      "class": "grid-col-12 mobile-lg:grid-col-6 tablet:grid-col-6 desktop:grid-col-auto",
+      "role": null,
+      "text_prefix": "Support Contact us Find an office Forms Publications Report fraud",
+      "bbox": {
+        "desktop": [
+          8,
+          1491,
+          1904,
+          129
+        ],
+        "mobile": [
+          8,
+          1771,
+          359,
+          129
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e262",
+      "tag": "section",
+      "id": "uij-e262",
+      "class": "usa-footer__primary-content usa-footer__primary-content--collapsible",
+      "role": null,
+      "text_prefix": "Support Contact us Find an office Forms Publications Report fraud",
+      "bbox": {
+        "desktop": [
+          8,
+          1491,
+          1904,
+          129
+        ],
+        "mobile": [
+          8,
+          1771,
+          359,
+          129
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e263",
+      "tag": "h4",
+      "id": "uij-e263",
+      "class": "usa-footer__primary-link",
+      "role": null,
+      "text_prefix": "Support",
+      "bbox": {
+        "desktop": [
+          8,
+          1491,
+          1904,
+          18
+        ],
+        "mobile": [
+          8,
+          1771,
+          359,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e264",
+      "tag": "ul",
+      "id": "uij-e264",
+      "class": "usa-list usa-list--unstyled",
+      "role": null,
+      "text_prefix": "Contact us Find an office Forms Publications Report fraud",
+      "bbox": {
+        "desktop": [
+          8,
+          1530,
+          1904,
+          90
+        ],
+        "mobile": [
+          8,
+          1810,
+          359,
+          90
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e265",
+      "tag": "li",
+      "id": "uij-e265",
+      "class": "usa-footer__secondary-link",
+      "role": null,
+      "text_prefix": "Contact us",
+      "bbox": {
+        "desktop": [
+          48,
+          1530,
+          1864,
+          18
+        ],
+        "mobile": [
+          48,
+          1810,
+          319,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e266",
+      "tag": "a",
+      "id": "uij-e266",
+      "class": null,
+      "role": null,
+      "text_prefix": "Contact us",
+      "bbox": {
+        "desktop": [
+          48,
+          1530,
+          68,
+          18
+        ],
+        "mobile": [
+          48,
+          1810,
+          68,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e267",
+      "tag": "li",
+      "id": "uij-e267",
+      "class": "usa-footer__secondary-link",
+      "role": null,
+      "text_prefix": "Find an office",
+      "bbox": {
+        "desktop": [
+          48,
+          1548,
+          1864,
+          18
+        ],
+        "mobile": [
+          48,
+          1828,
+          319,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e268",
+      "tag": "a",
+      "id": "uij-e268",
+      "class": null,
+      "role": null,
+      "text_prefix": "Find an office",
+      "bbox": {
+        "desktop": [
+          48,
+          1548,
+          89,
+          18
+        ],
+        "mobile": [
+          48,
+          1828,
+          89,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e269",
+      "tag": "li",
+      "id": "uij-e269",
+      "class": "usa-footer__secondary-link",
+      "role": null,
+      "text_prefix": "Forms",
+      "bbox": {
+        "desktop": [
+          48,
+          1566,
+          1864,
+          18
+        ],
+        "mobile": [
+          48,
+          1846,
+          319,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e270",
+      "tag": "a",
+      "id": "uij-e270",
+      "class": null,
+      "role": null,
+      "text_prefix": "Forms",
+      "bbox": {
+        "desktop": [
+          48,
+          1566,
+          41,
+          18
+        ],
+        "mobile": [
+          48,
+          1846,
+          41,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e271",
+      "tag": "li",
+      "id": "uij-e271",
+      "class": "usa-footer__secondary-link",
+      "role": null,
+      "text_prefix": "Publications",
+      "bbox": {
+        "desktop": [
+          48,
+          1584,
+          1864,
+          18
+        ],
+        "mobile": [
+          48,
+          1864,
+          319,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e272",
+      "tag": "a",
+      "id": "uij-e272",
+      "class": null,
+      "role": null,
+      "text_prefix": "Publications",
+      "bbox": {
+        "desktop": [
+          48,
+          1584,
+          79,
+          18
+        ],
+        "mobile": [
+          48,
+          1864,
+          79,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e273",
+      "tag": "li",
+      "id": "uij-e273",
+      "class": "usa-footer__secondary-link",
+      "role": null,
+      "text_prefix": "Report fraud",
+      "bbox": {
+        "desktop": [
+          48,
+          1602,
+          1864,
+          18
+        ],
+        "mobile": [
+          48,
+          1882,
+          319,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e274",
+      "tag": "a",
+      "id": "uij-e274",
+      "class": "ext",
+      "role": null,
+      "text_prefix": "Report fraud",
+      "bbox": {
+        "desktop": [
+          48,
+          1602,
+          81,
+          18
+        ],
+        "mobile": [
+          48,
+          1882,
+          81,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e275",
+      "tag": "div",
+      "id": "uij-e275",
+      "class": "grid-col-12 mobile-lg:grid-col-6 tablet:grid-col-6 desktop:grid-col-auto",
+      "role": null,
+      "text_prefix": "Languages Español Other languages Plain language",
+      "bbox": {
+        "desktop": [
+          8,
+          1642,
+          1904,
+          93
+        ],
+        "mobile": [
+          8,
+          1922,
+          359,
+          93
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e276",
+      "tag": "section",
+      "id": "uij-e276",
+      "class": "usa-footer__primary-content usa-footer__primary-content--collapsible",
+      "role": null,
+      "text_prefix": "Languages Español Other languages Plain language",
+      "bbox": {
+        "desktop": [
+          8,
+          1642,
+          1904,
+          93
+        ],
+        "mobile": [
+          8,
+          1922,
+          359,
+          93
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e277",
+      "tag": "h4",
+      "id": "uij-e277",
+      "class": "usa-footer__primary-link",
+      "role": null,
+      "text_prefix": "Languages",
+      "bbox": {
+        "desktop": [
+          8,
+          1642,
+          1904,
+          18
+        ],
+        "mobile": [
+          8,
+          1922,
+          359,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e278",
+      "tag": "ul",
+      "id": "uij-e278",
+      "class": "usa-list usa-list--unstyled",
+      "role": null,
+      "text_prefix": "Español Other languages Plain language",
+      "bbox": {
+        "desktop": [
+          8,
+          1681,
+          1904,
+          54
+        ],
+        "mobile": [
+          8,
+          1961,
+          359,
+          54
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e279",
+      "tag": "li",
+      "id": "uij-e279",
+      "class": "usa-footer__secondary-link",
+      "role": null,
+      "text_prefix": "Español",
+      "bbox": {
+        "desktop": [
+          48,
+          1681,
+          1864,
+          18
+        ],
+        "mobile": [
+          48,
+          1961,
+          319,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e280",
+      "tag": "a",
+      "id": "uij-e280",
+      "class": null,
+      "role": null,
+      "text_prefix": "Español",
+      "bbox": {
+        "desktop": [
+          48,
+          1681,
+          52,
+          18
+        ],
+        "mobile": [
+          48,
+          1961,
+          52,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e281",
+      "tag": "li",
+      "id": "uij-e281",
+      "class": "usa-footer__secondary-link",
+      "role": null,
+      "text_prefix": "Other languages",
+      "bbox": {
+        "desktop": [
+          48,
+          1699,
+          1864,
+          18
+        ],
+        "mobile": [
+          48,
+          1979,
+          319,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e282",
+      "tag": "a",
+      "id": "uij-e282",
+      "class": null,
+      "role": null,
+      "text_prefix": "Other languages",
+      "bbox": {
+        "desktop": [
+          48,
+          1699,
+          104,
+          18
+        ],
+        "mobile": [
+          48,
+          1979,
+          104,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e283",
+      "tag": "li",
+      "id": "uij-e283",
+      "class": "usa-footer__secondary-link",
+      "role": null,
+      "text_prefix": "Plain language",
+      "bbox": {
+        "desktop": [
+          48,
+          1717,
+          1864,
+          18
+        ],
+        "mobile": [
+          48,
+          1997,
+          319,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e284",
+      "tag": "a",
+      "id": "uij-e284",
+      "class": null,
+      "role": null,
+      "text_prefix": "Plain language",
+      "bbox": {
+        "desktop": [
+          48,
+          1717,
+          95,
+          18
+        ],
+        "mobile": [
+          48,
+          1997,
+          95,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e285",
+      "tag": "div",
+      "id": "uij-e285",
+      "class": "grid-col-12 mobile-lg:grid-col-6 tablet:grid-col-6 desktop:grid-col-auto",
+      "role": null,
+      "text_prefix": "Services for Employers & businesses Government agencies Other groups Representat",
+      "bbox": {
+        "desktop": [
+          8,
+          1756,
+          1904,
+          111
+        ],
+        "mobile": [
+          8,
+          2036,
+          359,
+          111
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e286",
+      "tag": "section",
+      "id": "uij-e286",
+      "class": "usa-footer__primary-content usa-footer__primary-content--collapsible",
+      "role": null,
+      "text_prefix": "Services for Employers & businesses Government agencies Other groups Representat",
+      "bbox": {
+        "desktop": [
+          8,
+          1756,
+          1904,
+          111
+        ],
+        "mobile": [
+          8,
+          2036,
+          359,
+          111
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e287",
+      "tag": "h4",
+      "id": "uij-e287",
+      "class": "usa-footer__primary-link",
+      "role": null,
+      "text_prefix": "Services for",
+      "bbox": {
+        "desktop": [
+          8,
+          1756,
+          1904,
+          18
+        ],
+        "mobile": [
+          8,
+          2036,
+          359,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e288",
+      "tag": "ul",
+      "id": "uij-e288",
+      "class": "usa-list usa-list--unstyled",
+      "role": null,
+      "text_prefix": "Employers & businesses Government agencies Other groups Representatives",
+      "bbox": {
+        "desktop": [
+          8,
+          1795,
+          1904,
+          72
+        ],
+        "mobile": [
+          8,
+          2075,
+          359,
+          72
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e289",
+      "tag": "li",
+      "id": "uij-e289",
+      "class": "usa-footer__secondary-link",
+      "role": null,
+      "text_prefix": "Employers & businesses",
+      "bbox": {
+        "desktop": [
+          48,
+          1795,
+          1864,
+          18
+        ],
+        "mobile": [
+          48,
+          2075,
+          319,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e290",
+      "tag": "a",
+      "id": "uij-e290",
+      "class": null,
+      "role": null,
+      "text_prefix": "Employers & businesses",
+      "bbox": {
+        "desktop": [
+          48,
+          1795,
+          157,
+          18
+        ],
+        "mobile": [
+          48,
+          2075,
+          157,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e291",
+      "tag": "li",
+      "id": "uij-e291",
+      "class": "usa-footer__secondary-link",
+      "role": null,
+      "text_prefix": "Government agencies",
+      "bbox": {
+        "desktop": [
+          48,
+          1813,
+          1864,
+          18
+        ],
+        "mobile": [
+          48,
+          2093,
+          319,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e292",
+      "tag": "a",
+      "id": "uij-e292",
+      "class": null,
+      "role": null,
+      "text_prefix": "Government agencies",
+      "bbox": {
+        "desktop": [
+          48,
+          1813,
+          139,
+          18
+        ],
+        "mobile": [
+          48,
+          2093,
+          139,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e293",
+      "tag": "li",
+      "id": "uij-e293",
+      "class": "usa-footer__secondary-link",
+      "role": null,
+      "text_prefix": "Other groups",
+      "bbox": {
+        "desktop": [
+          48,
+          1831,
+          1864,
+          18
+        ],
+        "mobile": [
+          48,
+          2111,
+          319,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e294",
+      "tag": "a",
+      "id": "uij-e294",
+      "class": null,
+      "role": null,
+      "text_prefix": "Other groups",
+      "bbox": {
+        "desktop": [
+          48,
+          1831,
+          84,
+          18
+        ],
+        "mobile": [
+          48,
+          2111,
+          84,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e295",
+      "tag": "li",
+      "id": "uij-e295",
+      "class": "usa-footer__secondary-link",
+      "role": null,
+      "text_prefix": "Representatives",
+      "bbox": {
+        "desktop": [
+          48,
+          1849,
+          1864,
+          18
+        ],
+        "mobile": [
+          48,
+          2129,
+          319,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e296",
+      "tag": "a",
+      "id": "uij-e296",
+      "class": null,
+      "role": null,
+      "text_prefix": "Representatives",
+      "bbox": {
+        "desktop": [
+          48,
+          1849,
+          101,
+          18
+        ],
+        "mobile": [
+          48,
+          2129,
+          101,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e297",
+      "tag": "div",
+      "id": "uij-e297",
+      "class": "grid-col-12 mobile-lg:grid-col-6 tablet:grid-col-6 desktop:grid-col-auto",
+      "role": null,
+      "text_prefix": "Resources Careers Chief actuary data Communications Financial reports Initiative",
+      "bbox": {
+        "desktop": [
+          8,
+          1889,
+          1904,
+          147
+        ],
+        "mobile": [
+          8,
+          2169,
+          359,
+          147
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e298",
+      "tag": "section",
+      "id": "uij-e298",
+      "class": "usa-footer__primary-content usa-footer__primary-content--collapsible",
+      "role": null,
+      "text_prefix": "Resources Careers Chief actuary data Communications Financial reports Initiative",
+      "bbox": {
+        "desktop": [
+          8,
+          1889,
+          1904,
+          147
+        ],
+        "mobile": [
+          8,
+          2169,
+          359,
+          147
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e299",
+      "tag": "h4",
+      "id": "uij-e299",
+      "class": "usa-footer__primary-link",
+      "role": null,
+      "text_prefix": "Resources",
+      "bbox": {
+        "desktop": [
+          8,
+          1889,
+          1904,
+          18
+        ],
+        "mobile": [
+          8,
+          2169,
+          359,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e300",
+      "tag": "ul",
+      "id": "uij-e300",
+      "class": "usa-list usa-list--unstyled",
+      "role": null,
+      "text_prefix": "Careers Chief actuary data Communications Financial reports Initiatives Research",
+      "bbox": {
+        "desktop": [
+          8,
+          1928,
+          1904,
+          108
+        ],
+        "mobile": [
+          8,
+          2208,
+          359,
+          108
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e301",
+      "tag": "li",
+      "id": "uij-e301",
+      "class": "usa-footer__secondary-link",
+      "role": null,
+      "text_prefix": "Careers",
+      "bbox": {
+        "desktop": [
+          48,
+          1928,
+          1864,
+          18
+        ],
+        "mobile": [
+          48,
+          2208,
+          319,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e302",
+      "tag": "a",
+      "id": "uij-e302",
+      "class": null,
+      "role": null,
+      "text_prefix": "Careers",
+      "bbox": {
+        "desktop": [
+          48,
+          1928,
+          49,
+          18
+        ],
+        "mobile": [
+          48,
+          2208,
+          49,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e303",
+      "tag": "li",
+      "id": "uij-e303",
+      "class": "usa-footer__secondary-link",
+      "role": null,
+      "text_prefix": "Chief actuary data",
+      "bbox": {
+        "desktop": [
+          48,
+          1946,
+          1864,
+          18
+        ],
+        "mobile": [
+          48,
+          2226,
+          319,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e304",
+      "tag": "a",
+      "id": "uij-e304",
+      "class": null,
+      "role": null,
+      "text_prefix": "Chief actuary data",
+      "bbox": {
+        "desktop": [
+          48,
+          1946,
+          117,
+          18
+        ],
+        "mobile": [
+          48,
+          2226,
+          117,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e305",
+      "tag": "li",
+      "id": "uij-e305",
+      "class": "usa-footer__secondary-link",
+      "role": null,
+      "text_prefix": "Communications",
+      "bbox": {
+        "desktop": [
+          48,
+          1964,
+          1864,
+          18
+        ],
+        "mobile": [
+          48,
+          2244,
+          319,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e306",
+      "tag": "a",
+      "id": "uij-e306",
+      "class": null,
+      "role": null,
+      "text_prefix": "Communications",
+      "bbox": {
+        "desktop": [
+          48,
+          1964,
+          109,
+          18
+        ],
+        "mobile": [
+          48,
+          2244,
+          109,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e307",
+      "tag": "li",
+      "id": "uij-e307",
+      "class": "usa-footer__secondary-link",
+      "role": null,
+      "text_prefix": "Financial reports",
+      "bbox": {
+        "desktop": [
+          48,
+          1982,
+          1864,
+          18
+        ],
+        "mobile": [
+          48,
+          2262,
+          319,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e308",
+      "tag": "a",
+      "id": "uij-e308",
+      "class": null,
+      "role": null,
+      "text_prefix": "Financial reports",
+      "bbox": {
+        "desktop": [
+          48,
+          1982,
+          108,
+          18
+        ],
+        "mobile": [
+          48,
+          2262,
+          108,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e309",
+      "tag": "li",
+      "id": "uij-e309",
+      "class": "usa-footer__secondary-link",
+      "role": null,
+      "text_prefix": "Initiatives",
+      "bbox": {
+        "desktop": [
+          48,
+          2000,
+          1864,
+          18
+        ],
+        "mobile": [
+          48,
+          2280,
+          319,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e310",
+      "tag": "a",
+      "id": "uij-e310",
+      "class": null,
+      "role": null,
+      "text_prefix": "Initiatives",
+      "bbox": {
+        "desktop": [
+          48,
+          2000,
+          64,
+          18
+        ],
+        "mobile": [
+          48,
+          2280,
+          64,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e311",
+      "tag": "li",
+      "id": "uij-e311",
+      "class": "usa-footer__secondary-link",
+      "role": null,
+      "text_prefix": "Research & policy",
+      "bbox": {
+        "desktop": [
+          48,
+          2018,
+          1864,
+          18
+        ],
+        "mobile": [
+          48,
+          2298,
+          319,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e312",
+      "tag": "a",
+      "id": "uij-e312",
+      "class": null,
+      "role": null,
+      "text_prefix": "Research & policy",
+      "bbox": {
+        "desktop": [
+          48,
+          2018,
+          119,
+          18
+        ],
+        "mobile": [
+          48,
+          2298,
+          119,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e313",
+      "tag": "div",
+      "id": "uij-e313",
+      "class": "usa-social-links",
+      "role": null,
+      "text_prefix": "Social Security Administration",
+      "bbox": {
+        "desktop": [
+          8,
+          2052,
+          1904,
+          124
+        ],
+        "mobile": [
+          8,
+          2332,
+          359,
+          124
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e314",
+      "tag": "section",
+      "id": "uij-e314",
+      "class": "usa-social-links__section usa-identifier__section--masthead",
+      "role": null,
+      "text_prefix": "Social Security Administration",
+      "bbox": {
+        "desktop": [
+          8,
+          2052,
+          1904,
+          124
+        ],
+        "mobile": [
+          8,
+          2332,
+          359,
+          124
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e315",
+      "tag": "div",
+      "id": "uij-e315",
+      "class": "usa-social-links__container",
+      "role": null,
+      "text_prefix": "Social Security Administration",
+      "bbox": {
+        "desktop": [
+          8,
+          2052,
+          1904,
+          124
+        ],
+        "mobile": [
+          8,
+          2332,
+          359,
+          124
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e316",
+      "tag": "div",
+      "id": "uij-e316",
+      "class": "usa-social-links-label",
+      "role": null,
+      "text_prefix": "Social Security Administration",
+      "bbox": {
+        "desktop": [
+          8,
+          2052,
+          1904,
+          18
+        ],
+        "mobile": [
+          8,
+          2332,
+          359,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e317",
+      "tag": "p",
+      "id": "uij-e317",
+      "class": null,
+      "role": null,
+      "text_prefix": "Social Security Administration",
+      "bbox": {
+        "desktop": [
+          8,
+          2052,
+          1904,
+          18
+        ],
+        "mobile": [
+          8,
+          2332,
+          359,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#block-socialmedialinks",
+      "tag": "div",
+      "id": "block-socialmedialinks",
+      "class": "block-social-media-links block block-social-media-links-block",
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          8,
+          2086,
+          1904,
+          90
+        ],
+        "mobile": [
+          8,
+          2366,
+          359,
+          90
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e318",
+      "tag": "ul",
+      "id": "uij-e318",
+      "class": "social-media-links--platforms platforms inline horizontal",
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          8,
+          2086,
+          1904,
+          90
+        ],
+        "mobile": [
+          8,
+          2366,
+          359,
+          90
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e319",
+      "tag": "li",
+      "id": "uij-e319",
+      "class": null,
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          48,
+          2086,
+          1864,
+          18
+        ],
+        "mobile": [
+          48,
+          2366,
+          319,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e322",
+      "tag": "li",
+      "id": "uij-e322",
+      "class": null,
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          48,
+          2104,
+          1864,
+          18
+        ],
+        "mobile": [
+          48,
+          2384,
+          319,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e325",
+      "tag": "li",
+      "id": "uij-e325",
+      "class": null,
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          48,
+          2122,
+          1864,
+          18
+        ],
+        "mobile": [
+          48,
+          2402,
+          319,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e328",
+      "tag": "li",
+      "id": "uij-e328",
+      "class": null,
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          48,
+          2140,
+          1864,
+          18
+        ],
+        "mobile": [
+          48,
+          2420,
+          319,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e331",
+      "tag": "li",
+      "id": "uij-e331",
+      "class": null,
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          48,
+          2158,
+          1864,
+          18
+        ],
+        "mobile": [
+          48,
+          2438,
+          319,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e334",
+      "tag": "div",
+      "id": "uij-e334",
+      "class": "usa-identifier",
+      "role": null,
+      "text_prefix": "SSA.gov An official website of the Social Security Administration Secondary Foot",
+      "bbox": {
+        "desktop": [
+          8,
+          2192,
+          1904,
+          350
+        ],
+        "mobile": [
+          8,
+          2472,
+          359,
+          386
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e335",
+      "tag": "section",
+      "id": "uij-e335",
+      "class": "usa-identifier__section usa-identifier__section--masthead",
+      "role": null,
+      "text_prefix": "SSA.gov An official website of the Social Security Administration Secondary Foot",
+      "bbox": {
+        "desktop": [
+          8,
+          2192,
+          1904,
+          350
+        ],
+        "mobile": [
+          8,
+          2472,
+          359,
+          386
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e336",
+      "tag": "div",
+      "id": "uij-e336",
+      "class": "usa-identifier__container",
+      "role": null,
+      "text_prefix": "SSA.gov An official website of the Social Security Administration",
+      "bbox": {
+        "desktop": [
+          8,
+          2192,
+          1904,
+          86
+        ],
+        "mobile": [
+          8,
+          2472,
+          359,
+          104
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e337",
+      "tag": "div",
+      "id": "uij-e337",
+      "class": "usa-identifier__logos",
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          8,
+          2192,
+          1904,
+          18
+        ],
+        "mobile": [
+          8,
+          2472,
+          359,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e340",
+      "tag": "div",
+      "id": "uij-e340",
+      "class": "usa-identifier__identity",
+      "role": null,
+      "text_prefix": "SSA.gov An official website of the Social Security Administration",
+      "bbox": {
+        "desktop": [
+          8,
+          2226,
+          1904,
+          52
+        ],
+        "mobile": [
+          8,
+          2506,
+          359,
+          70
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e341",
+      "tag": "p",
+      "id": "uij-e341",
+      "class": "usa-identifier__identity-domain",
+      "role": null,
+      "text_prefix": "SSA.gov",
+      "bbox": {
+        "desktop": [
+          8,
+          2226,
+          1904,
+          18
+        ],
+        "mobile": [
+          8,
+          2506,
+          359,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e342",
+      "tag": "div",
+      "id": "uij-e342",
+      "class": "usa-identifier__identity-disclaimer",
+      "role": null,
+      "text_prefix": "An official website of the Social Security Administration",
+      "bbox": {
+        "desktop": [
+          8,
+          2260,
+          1904,
+          18
+        ],
+        "mobile": [
+          8,
+          2540,
+          359,
+          36
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e343",
+      "tag": "p",
+      "id": "uij-e343",
+      "class": null,
+      "role": null,
+      "text_prefix": "An official website of the Social Security Administration",
+      "bbox": {
+        "desktop": [
+          8,
+          2260,
+          1904,
+          18
+        ],
+        "mobile": [
+          8,
+          2540,
+          359,
+          36
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e344",
+      "tag": "strong",
+      "id": "uij-e344",
+      "class": null,
+      "role": null,
+      "text_prefix": "An official website of the Social Security Administration",
+      "bbox": {
+        "desktop": [
+          8,
+          2260,
+          382,
+          18
+        ],
+        "mobile": [
+          8,
+          2540,
+          274,
+          36
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e345",
+      "tag": "a",
+      "id": "uij-e345",
+      "class": null,
+      "role": null,
+      "text_prefix": "Social Security Administration",
+      "bbox": {
+        "desktop": [
+          180,
+          2260,
+          210,
+          18
+        ],
+        "mobile": [
+          8,
+          2540,
+          274,
+          36
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e346",
+      "tag": "hr",
+      "id": "uij-e346",
+      "class": null,
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          8,
+          2294,
+          1904,
+          2
+        ],
+        "mobile": [
+          8,
+          2592,
+          359,
+          2
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e350",
+      "tag": "div",
+      "id": "uij-e350",
+      "class": null,
+      "role": null,
+      "text_prefix": "Secondary Footer About SSA Civil rights and compliance Privacy policy Office of ",
+      "bbox": {
+        "desktop": [
+          8,
+          2316,
+          1904,
+          192
+        ],
+        "mobile": [
+          8,
+          2614,
+          359,
+          192
+        ]
+      }
+    },
+    {
+      "selector": "#block-secondaryfooter",
+      "tag": "nav",
+      "id": "block-secondaryfooter",
+      "class": null,
+      "role": "navigation",
+      "text_prefix": "Secondary Footer About SSA Civil rights and compliance Privacy policy Office of ",
+      "bbox": {
+        "desktop": [
+          8,
+          2316,
+          1904,
+          192
+        ],
+        "mobile": [
+          8,
+          2614,
+          359,
+          192
+        ]
+      }
+    },
+    {
+      "selector": "#block-secondaryfooter-menu",
+      "tag": "h2",
+      "id": "block-secondaryfooter-menu",
+      "class": "usa-sr-only",
+      "role": null,
+      "text_prefix": "Secondary Footer",
+      "bbox": {
+        "desktop": [
+          8,
+          2316,
+          1904,
+          28
+        ],
+        "mobile": [
+          8,
+          2614,
+          359,
+          28
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e351",
+      "tag": "nav",
+      "id": "uij-e351",
+      "class": "usa-identifier__section usa-identifier__section--required-links",
+      "role": null,
+      "text_prefix": "About SSA Civil rights and compliance Privacy policy Office of the Inspector Gen",
+      "bbox": {
+        "desktop": [
+          8,
+          2364,
+          1904,
+          144
+        ],
+        "mobile": [
+          8,
+          2662,
+          359,
+          144
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e352",
+      "tag": "div",
+      "id": "uij-e352",
+      "class": "usa-identifier__container",
+      "role": null,
+      "text_prefix": "About SSA Civil rights and compliance Privacy policy Office of the Inspector Gen",
+      "bbox": {
+        "desktop": [
+          8,
+          2364,
+          1904,
+          144
+        ],
+        "mobile": [
+          8,
+          2662,
+          359,
+          144
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e353",
+      "tag": "ul",
+      "id": "uij-e353",
+      "class": "menu menu--secondary-footer nav usa-identifier__required-links-list",
+      "role": null,
+      "text_prefix": "About SSA Civil rights and compliance Privacy policy Office of the Inspector Gen",
+      "bbox": {
+        "desktop": [
+          8,
+          2364,
+          1904,
+          144
+        ],
+        "mobile": [
+          8,
+          2662,
+          359,
+          144
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e354",
+      "tag": "li",
+      "id": "uij-e354",
+      "class": "first usa-identifier__required-links-item",
+      "role": null,
+      "text_prefix": "About SSA",
+      "bbox": {
+        "desktop": [
+          48,
+          2364,
+          1864,
+          18
+        ],
+        "mobile": [
+          48,
+          2662,
+          319,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e355",
+      "tag": "a",
+      "id": "uij-e355",
+      "class": "usa-identifier__required-link",
+      "role": null,
+      "text_prefix": "About SSA",
+      "bbox": {
+        "desktop": [
+          48,
+          2364,
+          73,
+          18
+        ],
+        "mobile": [
+          48,
+          2662,
+          73,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e356",
+      "tag": "span",
+      "id": "uij-e356",
+      "class": null,
+      "role": null,
+      "text_prefix": "About SSA",
+      "bbox": {
+        "desktop": [
+          48,
+          2364,
+          73,
+          18
+        ],
+        "mobile": [
+          48,
+          2662,
+          73,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e357",
+      "tag": "li",
+      "id": "uij-e357",
+      "class": "usa-identifier__required-links-item",
+      "role": null,
+      "text_prefix": "Civil rights and compliance",
+      "bbox": {
+        "desktop": [
+          48,
+          2382,
+          1864,
+          18
+        ],
+        "mobile": [
+          48,
+          2680,
+          319,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e358",
+      "tag": "a",
+      "id": "uij-e358",
+      "class": "usa-identifier__required-link",
+      "role": null,
+      "text_prefix": "Civil rights and compliance",
+      "bbox": {
+        "desktop": [
+          48,
+          2382,
+          177,
+          18
+        ],
+        "mobile": [
+          48,
+          2680,
+          177,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e359",
+      "tag": "span",
+      "id": "uij-e359",
+      "class": null,
+      "role": null,
+      "text_prefix": "Civil rights and compliance",
+      "bbox": {
+        "desktop": [
+          48,
+          2382,
+          177,
+          18
+        ],
+        "mobile": [
+          48,
+          2680,
+          177,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e360",
+      "tag": "li",
+      "id": "uij-e360",
+      "class": "usa-identifier__required-links-item",
+      "role": null,
+      "text_prefix": "Privacy policy",
+      "bbox": {
+        "desktop": [
+          48,
+          2400,
+          1864,
+          18
+        ],
+        "mobile": [
+          48,
+          2698,
+          319,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e361",
+      "tag": "a",
+      "id": "uij-e361",
+      "class": "usa-identifier__required-link",
+      "role": null,
+      "text_prefix": "Privacy policy",
+      "bbox": {
+        "desktop": [
+          48,
+          2400,
+          93,
+          18
+        ],
+        "mobile": [
+          48,
+          2698,
+          93,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e362",
+      "tag": "span",
+      "id": "uij-e362",
+      "class": null,
+      "role": null,
+      "text_prefix": "Privacy policy",
+      "bbox": {
+        "desktop": [
+          48,
+          2400,
+          93,
+          18
+        ],
+        "mobile": [
+          48,
+          2698,
+          93,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e363",
+      "tag": "li",
+      "id": "uij-e363",
+      "class": "usa-identifier__required-links-item",
+      "role": null,
+      "text_prefix": "Office of the Inspector General",
+      "bbox": {
+        "desktop": [
+          48,
+          2418,
+          1864,
+          18
+        ],
+        "mobile": [
+          48,
+          2716,
+          319,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e364",
+      "tag": "a",
+      "id": "uij-e364",
+      "class": "usa-identifier__required-link ext",
+      "role": null,
+      "text_prefix": "Office of the Inspector General",
+      "bbox": {
+        "desktop": [
+          48,
+          2418,
+          199,
+          18
+        ],
+        "mobile": [
+          48,
+          2716,
+          199,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e365",
+      "tag": "span",
+      "id": "uij-e365",
+      "class": null,
+      "role": null,
+      "text_prefix": "Office of the Inspector General",
+      "bbox": {
+        "desktop": [
+          48,
+          2418,
+          199,
+          18
+        ],
+        "mobile": [
+          48,
+          2716,
+          199,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e366",
+      "tag": "li",
+      "id": "uij-e366",
+      "class": "usa-identifier__required-links-item",
+      "role": null,
+      "text_prefix": "Accessibility statement",
+      "bbox": {
+        "desktop": [
+          48,
+          2436,
+          1864,
+          18
+        ],
+        "mobile": [
+          48,
+          2734,
+          319,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e367",
+      "tag": "a",
+      "id": "uij-e367",
+      "class": "usa-identifier__required-link",
+      "role": null,
+      "text_prefix": "Accessibility statement",
+      "bbox": {
+        "desktop": [
+          48,
+          2436,
+          149,
+          18
+        ],
+        "mobile": [
+          48,
+          2734,
+          149,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e368",
+      "tag": "span",
+      "id": "uij-e368",
+      "class": null,
+      "role": null,
+      "text_prefix": "Accessibility statement",
+      "bbox": {
+        "desktop": [
+          48,
+          2436,
+          149,
+          18
+        ],
+        "mobile": [
+          48,
+          2734,
+          149,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e369",
+      "tag": "li",
+      "id": "uij-e369",
+      "class": "usa-identifier__required-links-item",
+      "role": null,
+      "text_prefix": "FOIA requests",
+      "bbox": {
+        "desktop": [
+          48,
+          2454,
+          1864,
+          18
+        ],
+        "mobile": [
+          48,
+          2752,
+          319,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e370",
+      "tag": "a",
+      "id": "uij-e370",
+      "class": "usa-identifier__required-link",
+      "role": null,
+      "text_prefix": "FOIA requests",
+      "bbox": {
+        "desktop": [
+          48,
+          2454,
+          93,
+          18
+        ],
+        "mobile": [
+          48,
+          2752,
+          93,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e371",
+      "tag": "span",
+      "id": "uij-e371",
+      "class": null,
+      "role": null,
+      "text_prefix": "FOIA requests",
+      "bbox": {
+        "desktop": [
+          48,
+          2454,
+          93,
+          18
+        ],
+        "mobile": [
+          48,
+          2752,
+          93,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e372",
+      "tag": "li",
+      "id": "uij-e372",
+      "class": "usa-identifier__required-links-item",
+      "role": null,
+      "text_prefix": "Performance reports",
+      "bbox": {
+        "desktop": [
+          48,
+          2472,
+          1864,
+          18
+        ],
+        "mobile": [
+          48,
+          2770,
+          319,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e373",
+      "tag": "a",
+      "id": "uij-e373",
+      "class": "usa-identifier__required-link",
+      "role": null,
+      "text_prefix": "Performance reports",
+      "bbox": {
+        "desktop": [
+          48,
+          2472,
+          130,
+          18
+        ],
+        "mobile": [
+          48,
+          2770,
+          130,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e374",
+      "tag": "span",
+      "id": "uij-e374",
+      "class": null,
+      "role": null,
+      "text_prefix": "Performance reports",
+      "bbox": {
+        "desktop": [
+          48,
+          2472,
+          130,
+          18
+        ],
+        "mobile": [
+          48,
+          2770,
+          130,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e375",
+      "tag": "li",
+      "id": "uij-e375",
+      "class": "last usa-identifier__required-links-item",
+      "role": null,
+      "text_prefix": "System status",
+      "bbox": {
+        "desktop": [
+          48,
+          2490,
+          1864,
+          18
+        ],
+        "mobile": [
+          48,
+          2788,
+          319,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e376",
+      "tag": "a",
+      "id": "uij-e376",
+      "class": "usa-identifier__required-link ext",
+      "role": null,
+      "text_prefix": "System status",
+      "bbox": {
+        "desktop": [
+          48,
+          2490,
+          88,
+          18
+        ],
+        "mobile": [
+          48,
+          2788,
+          88,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e377",
+      "tag": "span",
+      "id": "uij-e377",
+      "class": null,
+      "role": null,
+      "text_prefix": "System status",
+      "bbox": {
+        "desktop": [
+          48,
+          2490,
+          88,
+          18
+        ],
+        "mobile": [
+          48,
+          2788,
+          88,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e378",
+      "tag": "div",
+      "id": "uij-e378",
+      "class": "usa-identifier__container footer_information",
+      "role": null,
+      "text_prefix": "Looking for U.S. government information and services? Visit USA.gov",
+      "bbox": {
+        "desktop": [
+          8,
+          2524,
+          1904,
+          18
+        ],
+        "mobile": [
+          8,
+          2822,
+          359,
+          36
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e379",
+      "tag": "p",
+      "id": "uij-e379",
+      "class": null,
+      "role": null,
+      "text_prefix": "Looking for U.S. government information and services? Visit USA.gov",
+      "bbox": {
+        "desktop": [
+          8,
+          2524,
+          1904,
+          18
+        ],
+        "mobile": [
+          8,
+          2822,
+          359,
+          36
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e380",
+      "tag": "a",
+      "id": "uij-e380",
+      "class": "usa-identifier__required-link ext",
+      "role": null,
+      "text_prefix": "Visit USA.gov",
+      "bbox": {
+        "desktop": [
+          371,
+          2524,
+          95,
+          18
+        ],
+        "mobile": [
+          71,
+          2840,
+          95,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e381",
+      "tag": "strong",
+      "id": "uij-e381",
+      "class": null,
+      "role": null,
+      "text_prefix": "Visit USA.gov",
+      "bbox": {
+        "desktop": [
+          371,
+          2524,
+          95,
+          18
+        ],
+        "mobile": [
+          71,
+          2840,
+          95,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#multilingual-modal",
+      "tag": "div",
+      "id": "multilingual-modal",
+      "class": "multilingual-modal-wrapper is-hidden",
+      "role": "dialog",
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          8,
+          2561,
+          1904,
+          211
+        ],
+        "mobile": [
+          8,
+          2877,
+          359,
+          211
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e383",
+      "tag": "div",
+      "id": "uij-e383",
+      "class": "multilingual-modal-overlay",
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          8,
+          2561,
+          1904,
+          211
+        ],
+        "mobile": [
+          8,
+          2877,
+          359,
+          211
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e384",
+      "tag": "div",
+      "id": "uij-e384",
+      "class": "multilingual-modal",
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          8,
+          2561,
+          1904,
+          211
+        ],
+        "mobile": [
+          8,
+          2877,
+          359,
+          211
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e385",
+      "tag": "div",
+      "id": "uij-e385",
+      "class": "multilingual-modal__content",
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          8,
+          2561,
+          1904,
+          211
+        ],
+        "mobile": [
+          8,
+          2877,
+          359,
+          211
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e386",
+      "tag": "div",
+      "id": "uij-e386",
+      "class": "multilingual-modal__main",
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          8,
+          2561,
+          1904,
+          36
+        ],
+        "mobile": [
+          8,
+          2877,
+          359,
+          36
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e387",
+      "tag": "div",
+      "id": "uij-e387",
+      "class": "multilingual-modal__footer",
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          8,
+          2561,
+          1904,
+          36
+        ],
+        "mobile": [
+          8,
+          2877,
+          359,
+          36
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e388",
+      "tag": "ul",
+      "id": "uij-e388",
+      "class": "usa-button-group flex-justify-center",
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          8,
+          2561,
+          1904,
+          36
+        ],
+        "mobile": [
+          8,
+          2877,
+          359,
+          36
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e389",
+      "tag": "li",
+      "id": "uij-e389",
+      "class": "usa-button-group__item",
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          48,
+          2561,
+          1864,
+          18
+        ],
+        "mobile": [
+          48,
+          2877,
+          319,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e391",
+      "tag": "li",
+      "id": "uij-e391",
+      "class": "usa-button-group__item",
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          48,
+          2579,
+          1864,
+          18
+        ],
+        "mobile": [
+          48,
+          2895,
+          319,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e393",
+      "tag": "button",
+      "id": "uij-e393",
+      "class": "usa-button multilingual-modal__close",
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          8,
+          2613,
+          316,
+          159
+        ],
+        "mobile": [
+          8,
+          2929,
+          316,
+          159
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e394",
+      "tag": "svg",
+      "id": "uij-e394",
+      "class": null,
+      "role": "img",
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          16,
+          2616,
+          300,
+          150
+        ],
+        "mobile": [
+          16,
+          2932,
+          300,
+          150
+        ]
+      }
+    }
+  ]
+}

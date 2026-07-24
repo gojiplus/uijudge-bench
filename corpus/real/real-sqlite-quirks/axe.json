@@ -1,0 +1,5616 @@
+{
+  "engine": "axe-core",
+  "engine_version": "4.10.3",
+  "violations": [
+    {
+      "rule_id": "html-has-lang",
+      "impact": "serious",
+      "tags": [
+        "wcag2a",
+        "wcag311"
+      ],
+      "description": "Ensure every HTML document has a lang attribute",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/html-has-lang?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "html"
+          ],
+          "selector": "html",
+          "bbox": [
+            0,
+            0,
+            1920,
+            5331
+          ],
+          "html": "<html>"
+        }
+      ]
+    },
+    {
+      "rule_id": "landmark-one-main",
+      "impact": "moderate",
+      "tags": [],
+      "description": "Ensure the document has a main landmark",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/landmark-one-main?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "html"
+          ],
+          "selector": "html",
+          "bbox": [
+            0,
+            0,
+            1920,
+            5331
+          ],
+          "html": "<html>"
+        }
+      ]
+    },
+    {
+      "rule_id": "region",
+      "impact": "moderate",
+      "tags": [],
+      "description": "Ensure all page content is contained by landmarks",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/region?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e1"
+          ],
+          "selector": "#uij-e1",
+          "bbox": [
+            210,
+            0,
+            0,
+            0
+          ],
+          "html": "<a href=\"index.html\" id=\"uij-e1\">"
+        },
+        {
+          "target": [
+            "#uij-e4"
+          ],
+          "selector": "#uij-e4",
+          "bbox": [
+            1600,
+            58,
+            300,
+            38
+          ],
+          "html": "<div class=\"tagline desktoponly\" id=\"uij-e4\">\nSmall. Fast. Reliable.<br id=\"uij-e5\">Choose any three.\n</div>"
+        },
+        {
+          "target": [
+            "#uij-e8"
+          ],
+          "selector": "#uij-e8",
+          "bbox": [
+            8,
+            108,
+            71,
+            31
+          ],
+          "html": "<li id=\"uij-e8\"><a href=\"index.html\" id=\"uij-e9\">Home</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e12"
+          ],
+          "selector": "#uij-e12",
+          "bbox": [
+            79,
+            108,
+            71,
+            31
+          ],
+          "html": "<li class=\"wideonly\" id=\"uij-e12\"><a href=\"about.html\" id=\"uij-e13\">About</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e14"
+          ],
+          "selector": "#uij-e14",
+          "bbox": [
+            151,
+            108,
+            147,
+            31
+          ],
+          "html": "<li class=\"desktoponly\" id=\"uij-e14\"><a href=\"docs.html\" id=\"uij-e15\">Documentation</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e16"
+          ],
+          "selector": "#uij-e16",
+          "bbox": [
+            297,
+            108,
+            103,
+            31
+          ],
+          "html": "<li class=\"desktoponly\" id=\"uij-e16\"><a href=\"download.html\" id=\"uij-e17\">Download</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e18"
+          ],
+          "selector": "#uij-e18",
+          "bbox": [
+            401,
+            108,
+            84,
+            31
+          ],
+          "html": "<li class=\"wideonly\" id=\"uij-e18\"><a href=\"copyright.html\" id=\"uij-e19\">License</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e20"
+          ],
+          "selector": "#uij-e20",
+          "bbox": [
+            484,
+            108,
+            88,
+            31
+          ],
+          "html": "<li class=\"desktoponly\" id=\"uij-e20\"><a href=\"support.html\" id=\"uij-e21\">Support</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e22"
+          ],
+          "selector": "#uij-e22",
+          "bbox": [
+            572,
+            108,
+            97,
+            31
+          ],
+          "html": "<li class=\"desktoponly\" id=\"uij-e22\"><a href=\"prosupport.html\" id=\"uij-e23\">Purchase</a>\n</li>"
+        },
+        {
+          "target": [
+            "#search_menubutton"
+          ],
+          "selector": "#search_menubutton",
+          "bbox": [
+            1832,
+            108,
+            80,
+            31
+          ],
+          "html": "<li class=\"search\" id=\"search_menubutton\">\n<a href=\"javascript:void(0)\" id=\"uij-e24\" onclick=\"toggle_search()\">Search</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e42"
+          ],
+          "selector": "#uij-e42",
+          "bbox": [
+            8,
+            139,
+            1904,
+            39
+          ],
+          "html": "<div class=\"fancy_title\" id=\"uij-e42\">\nQuirks, Caveats, and Gotchas In SQLite\n</div>"
+        },
+        {
+          "target": [
+            "#overview"
+          ],
+          "selector": "#overview",
+          "bbox": [
+            8,
+            277,
+            1904,
+            39
+          ],
+          "html": "<h1 id=\"overview\"><span id=\"uij-e79\">1. </span>Overview</h1>"
+        },
+        {
+          "target": [
+            "#uij-e80"
+          ],
+          "selector": "#uij-e80",
+          "bbox": [
+            52,
+            337,
+            1817,
+            19
+          ],
+          "html": "<p id=\"uij-e80\">\nThe SQL language is a \"standard\".\nEven so, no two SQL database engines work exactly alike.\nEvery SQL implementation has its own peculiarities and oddities,\nand SQLite is no exception "
+        },
+        {
+          "target": [
+            "#uij-e81"
+          ],
+          "selector": "#uij-e81",
+          "bbox": [
+            52,
+            372,
+            1817,
+            38
+          ],
+          "html": "<p id=\"uij-e81\">\nThis document strives to highlight the principal differences\nbetween SQLite and other SQL implementations, as an aid to developers\nthat are porting to or from SQLite or who are trying"
+        },
+        {
+          "target": [
+            "#uij-e82"
+          ],
+          "selector": "#uij-e82",
+          "bbox": [
+            52,
+            426,
+            1817,
+            19
+          ],
+          "html": "<p id=\"uij-e82\">\nIf you are an SQLite user who has stumbled over some quirk of\nSQLite that is not mentioned here, please let the developers know\nby posting a brief message on the\n<a href=\"https://sqli"
+        },
+        {
+          "target": [
+            "#sqlite_is_embedded_not_client_server"
+          ],
+          "selector": "#sqlite_is_embedded_not_client_server",
+          "bbox": [
+            8,
+            467,
+            1904,
+            39
+          ],
+          "html": "<h1 id=\"sqlite_is_embedded_not_client_server\"><span id=\"uij-e84\">2. </span>SQLite Is Embedded, Not Client-Server</h1>"
+        },
+        {
+          "target": [
+            "#uij-e85"
+          ],
+          "selector": "#uij-e85",
+          "bbox": [
+            52,
+            527,
+            1817,
+            38
+          ],
+          "html": "<p id=\"uij-e85\">"
+        },
+        {
+          "target": [
+            "#uij-e87"
+          ],
+          "selector": "#uij-e87",
+          "bbox": [
+            52,
+            581,
+            1817,
+            19
+          ],
+          "html": "<p id=\"uij-e87\">\nThe fact that SQLite is embedded and <a href=\"serverless.html\" id=\"uij-e88\">serverless</a> instead of being\nclient/server is a feature, not a bug.\n\n</p>"
+        },
+        {
+          "target": [
+            "#uij-e89"
+          ],
+          "selector": "#uij-e89",
+          "bbox": [
+            52,
+            616,
+            1817,
+            38
+          ],
+          "html": "<p id=\"uij-e89\">"
+        },
+        {
+          "target": [
+            "#uij-e90"
+          ],
+          "selector": "#uij-e90",
+          "bbox": [
+            52,
+            670,
+            1817,
+            19
+          ],
+          "html": "<p id=\"uij-e90\">\nSee the <a href=\"whentouse.html\" id=\"uij-e91\">Appropriate Uses For SQLite</a> document for additional information.\n\n</p>"
+        },
+        {
+          "target": [
+            "#flexible_typing"
+          ],
+          "selector": "#flexible_typing",
+          "bbox": [
+            8,
+            710,
+            1904,
+            39
+          ],
+          "html": "<h1 id=\"flexible_typing\"><span id=\"uij-e92\">3. </span>Flexible Typing</h1>"
+        },
+        {
+          "target": [
+            "#uij-e93"
+          ],
+          "selector": "#uij-e93",
+          "bbox": [
+            52,
+            771,
+            1817,
+            19
+          ],
+          "html": "<p id=\"uij-e93\">\nSQLite is flexible with regard to datatypes.  Datatypes are advisory\nrather than mandatory.\n\n</p>"
+        },
+        {
+          "target": [
+            "#uij-e94"
+          ],
+          "selector": "#uij-e94",
+          "bbox": [
+            52,
+            806,
+            1817,
+            38
+          ],
+          "html": "<p id=\"uij-e94\">\nSome commentators say that SQLite is \"weakly typed\" and that other\nSQL databases are \"strongly typed\".  We consider these terms to be\ninaccurate and even pejorative.  We prefer to say"
+        },
+        {
+          "target": [
+            "#uij-e95"
+          ],
+          "selector": "#uij-e95",
+          "bbox": [
+            52,
+            860,
+            1817,
+            19
+          ],
+          "html": "<p id=\"uij-e95\">\nSee the <a href=\"datatype3.html\" id=\"uij-e96\">Datatypes in SQLite</a> document for a detailed\ndiscussion of the type system in SQLite.\n\n</p>"
+        },
+        {
+          "target": [
+            "#uij-e97"
+          ],
+          "selector": "#uij-e97",
+          "bbox": [
+            52,
+            895,
+            1817,
+            57
+          ],
+          "html": "<p id=\"uij-e97\">"
+        },
+        {
+          "target": [
+            "#uij-e100"
+          ],
+          "selector": "#uij-e100",
+          "bbox": [
+            52,
+            968,
+            1817,
+            38
+          ],
+          "html": "<p id=\"uij-e100\">\nSimilarly, SQLite allows you to store a 2000-character string into a\ncolumn of type VARCHAR(50).  Other SQL implementations would either throw\nan error or truncate the string.  SQLit"
+        },
+        {
+          "target": [
+            "#uij-e101"
+          ],
+          "selector": "#uij-e101",
+          "bbox": [
+            52,
+            1022,
+            1817,
+            38
+          ],
+          "html": "<p id=\"uij-e101\">"
+        },
+        {
+          "target": [
+            "#uij-e102"
+          ],
+          "selector": "#uij-e102",
+          "bbox": [
+            52,
+            1076,
+            1817,
+            76
+          ],
+          "html": "<p id=\"uij-e102\">"
+        },
+        {
+          "target": [
+            "#no_separate_boolean_datatype"
+          ],
+          "selector": "#no_separate_boolean_datatype",
+          "bbox": [
+            8,
+            1172,
+            1904,
+            29
+          ],
+          "html": "<h2 id=\"no_separate_boolean_datatype\"><span id=\"uij-e105\">3.1. </span>No Separate BOOLEAN Datatype</h2>"
+        },
+        {
+          "target": [
+            "#uij-e106"
+          ],
+          "selector": "#uij-e106",
+          "bbox": [
+            52,
+            1221,
+            1817,
+            38
+          ],
+          "html": "<p id=\"uij-e106\">"
+        },
+        {
+          "target": [
+            "#uij-e107"
+          ],
+          "selector": "#uij-e107",
+          "bbox": [
+            52,
+            1275,
+            1817,
+            38
+          ],
+          "html": "<p id=\"uij-e107\">"
+        },
+        {
+          "target": [
+            "#no_separate_datetime_datatype"
+          ],
+          "selector": "#no_separate_datetime_datatype",
+          "bbox": [
+            8,
+            1333,
+            1904,
+            29
+          ],
+          "html": "<h2 id=\"no_separate_datetime_datatype\"><span id=\"uij-e109\">3.2. </span>No Separate DATETIME Datatype</h2>"
+        },
+        {
+          "target": [
+            "#uij-e110"
+          ],
+          "selector": "#uij-e110",
+          "bbox": [
+            52,
+            1381,
+            1817,
+            19
+          ],
+          "html": "<p id=\"uij-e110\">\nSQLite has no DATETIME datatype.\nInstead, dates and times can be stored in any of these ways:\n\n</p>"
+        },
+        {
+          "target": [
+            "#uij-e111"
+          ],
+          "selector": "#uij-e111",
+          "bbox": [
+            52,
+            1416,
+            1817,
+            57
+          ],
+          "html": "<ul id=\"uij-e111\">"
+        },
+        {
+          "target": [
+            "#uij-e116"
+          ],
+          "selector": "#uij-e116",
+          "bbox": [
+            52,
+            1489,
+            1817,
+            19
+          ],
+          "html": "<p id=\"uij-e116\">\nThe built-in <a href=\"lang_datefunc.html\" id=\"uij-e117\">date and time functions</a> of SQLite understand date/times in\nall of the formats above, and can freely change between them.\nW"
+        },
+        {
+          "target": [
+            "#the_datatype_is_optional"
+          ],
+          "selector": "#the_datatype_is_optional",
+          "bbox": [
+            8,
+            1528,
+            1904,
+            29
+          ],
+          "html": "<h2 id=\"the_datatype_is_optional\"><span id=\"uij-e118\">3.3. </span>The datatype is optional</h2>"
+        },
+        {
+          "target": [
+            "#uij-e119"
+          ],
+          "selector": "#uij-e119",
+          "bbox": [
+            52,
+            1577,
+            1817,
+            19
+          ],
+          "html": "<p id=\"uij-e119\">\nBecause SQLite is flexible and forgiving with regard to datatypes,\ntable columns can be created that have no specified datatype at all.\nFor example:\n</p>"
+        },
+        {
+          "target": [
+            "#uij-e120"
+          ],
+          "selector": "#uij-e120",
+          "bbox": [
+            95,
+            1612,
+            214,
+            34
+          ],
+          "html": "<div class=\"codeblock\" id=\"uij-e120\"><pre id=\"uij-e121\">CREATE TABLE t1(a,b,c,d);\n</pre></div>"
+        },
+        {
+          "target": [
+            "#uij-e122"
+          ],
+          "selector": "#uij-e122",
+          "bbox": [
+            52,
+            1663,
+            1817,
+            19
+          ],
+          "html": "<p id=\"uij-e122\">The table \"t1\" has four columns \"a\", \"b\", \"c\", and \"d\" that have\nno particular datatype assigned.  You can store anything you want in\nany of those columns.</p>"
+        },
+        {
+          "target": [
+            "#foreign_key_enforcement_is_off_by_default"
+          ],
+          "selector": "#foreign_key_enforcement_is_off_by_default",
+          "bbox": [
+            8,
+            1703,
+            1904,
+            39
+          ],
+          "html": "<h1 id=\"foreign_key_enforcement_is_off_by_default\"><span id=\"uij-e123\">4. </span>Foreign Key Enforcement Is Off By Default</h1>"
+        },
+        {
+          "target": [
+            "#uij-e124"
+          ],
+          "selector": "#uij-e124",
+          "bbox": [
+            52,
+            1764,
+            1817,
+            57
+          ],
+          "html": "<p id=\"uij-e124\">"
+        },
+        {
+          "target": [
+            "#uij-e126"
+          ],
+          "selector": "#uij-e126",
+          "bbox": [
+            52,
+            1837,
+            1817,
+            38
+          ],
+          "html": "<p id=\"uij-e126\">"
+        },
+        {
+          "target": [
+            "#primary_keys_can_sometimes_contain_nulls"
+          ],
+          "selector": "#primary_keys_can_sometimes_contain_nulls",
+          "bbox": [
+            8,
+            1896,
+            1904,
+            39
+          ],
+          "html": "<h1 id=\"primary_keys_can_sometimes_contain_nulls\"><span id=\"uij-e129\">5. </span>PRIMARY KEYs Can Sometimes Contain NULLs</h1>"
+        },
+        {
+          "target": [
+            "#uij-e130"
+          ],
+          "selector": "#uij-e130",
+          "bbox": [
+            52,
+            1956,
+            1817,
+            57
+          ],
+          "html": "<p id=\"uij-e130\">"
+        },
+        {
+          "target": [
+            "#uij-e131"
+          ],
+          "selector": "#uij-e131",
+          "bbox": [
+            52,
+            2029,
+            1817,
+            19
+          ],
+          "html": "<p id=\"uij-e131\">\nExceptions:\n</p>"
+        },
+        {
+          "target": [
+            "#uij-e132"
+          ],
+          "selector": "#uij-e132",
+          "bbox": [
+            52,
+            2064,
+            1817,
+            73
+          ],
+          "html": "<ul id=\"uij-e132\">"
+        },
+        {
+          "target": [
+            "#aggregate_queries_can_contain_non_aggregate_result_columns_that_are_not_in_the_group_by_clause"
+          ],
+          "selector": "#aggregate_queries_can_contain_non_aggregate_result_columns_that_are_not_in_the_group_by_clause",
+          "bbox": [
+            8,
+            2159,
+            1904,
+            39
+          ],
+          "html": "<h1 id=\"aggregate_queries_can_contain_non_aggregate_result_columns_that_are_not_in_the_group_by_clause\"><span id=\"uij-e141\">6. </span>Aggregate Queries Can Contain Non-Aggregate Result Columns\nThat Ar"
+        },
+        {
+          "target": [
+            "#uij-e142"
+          ],
+          "selector": "#uij-e142",
+          "bbox": [
+            52,
+            2219,
+            1817,
+            38
+          ],
+          "html": "<p id=\"uij-e142\">"
+        },
+        {
+          "target": [
+            "#uij-e143"
+          ],
+          "selector": "#uij-e143",
+          "bbox": [
+            52,
+            2273,
+            1817,
+            19
+          ],
+          "html": "<p id=\"uij-e143\">\nSQLite does not enforce this restriction.\nThe output columns from an aggregate query can be arbitrary expressions\nthat include columns not found in the GROUP BY clause.\nThis feature "
+        },
+        {
+          "target": [
+            "#uij-e144"
+          ],
+          "selector": "#uij-e144",
+          "bbox": [
+            52,
+            2308,
+            1817,
+            231
+          ],
+          "html": "<ol id=\"uij-e144\">"
+        },
+        {
+          "target": [
+            "#sqlite_does_not_do_full_unicode_case_folding_by_default"
+          ],
+          "selector": "#sqlite_does_not_do_full_unicode_case_folding_by_default",
+          "bbox": [
+            8,
+            2561,
+            1904,
+            39
+          ],
+          "html": "<h1 id=\"sqlite_does_not_do_full_unicode_case_folding_by_default\"><span id=\"uij-e153\">7. </span>SQLite Does Not Do Full Unicode Case Folding By Default</h1>"
+        },
+        {
+          "target": [
+            "#uij-e154"
+          ],
+          "selector": "#uij-e154",
+          "bbox": [
+            52,
+            2622,
+            1817,
+            19
+          ],
+          "html": "<p id=\"uij-e154\">\nSQLite does not know about the upper-case/lower-case distinction\nfor all unicode characters.  SQL functions like\nupper() and lower() only work on ASCII characters.  There are two\nrea"
+        },
+        {
+          "target": [
+            "#uij-e155"
+          ],
+          "selector": "#uij-e155",
+          "bbox": [
+            52,
+            2657,
+            1817,
+            73
+          ],
+          "html": "<ol id=\"uij-e155\">"
+        },
+        {
+          "target": [
+            "#uij-e160"
+          ],
+          "selector": "#uij-e160",
+          "bbox": [
+            52,
+            2746,
+            1817,
+            19
+          ],
+          "html": "<p id=\"uij-e160\">"
+        },
+        {
+          "target": [
+            "#double_quoted_string_literals_are_accepted"
+          ],
+          "selector": "#double_quoted_string_literals_are_accepted",
+          "bbox": [
+            8,
+            2786,
+            1904,
+            39
+          ],
+          "html": "<h1 id=\"double_quoted_string_literals_are_accepted\"><span id=\"uij-e164\">8. </span>Double-quoted String Literals Are Accepted</h1>"
+        },
+        {
+          "target": [
+            "#uij-e165"
+          ],
+          "selector": "#uij-e165",
+          "bbox": [
+            52,
+            2847,
+            1817,
+            19
+          ],
+          "html": "<p id=\"uij-e165\">\nThe SQL standard requires double-quotes around identifiers\nand single-quotes around string literals.  For example:\n</p>"
+        },
+        {
+          "target": [
+            "#uij-e166"
+          ],
+          "selector": "#uij-e166",
+          "bbox": [
+            52,
+            2882,
+            1817,
+            38
+          ],
+          "html": "<ul id=\"uij-e166\">\n<li id=\"uij-e167\"> <tt id=\"uij-e168\">\"this is a legal SQL column name\"</tt>\n</li><li id=\"uij-e169\"> <tt id=\"uij-e170\">'this is an SQL string literal'</tt>\n</li></ul>"
+        },
+        {
+          "target": [
+            "#uij-e171"
+          ],
+          "selector": "#uij-e171",
+          "bbox": [
+            52,
+            2936,
+            1817,
+            38
+          ],
+          "html": "<p id=\"uij-e171\">"
+        },
+        {
+          "target": [
+            "#uij-e172"
+          ],
+          "selector": "#uij-e172",
+          "bbox": [
+            52,
+            2990,
+            1817,
+            38
+          ],
+          "html": "<p id=\"uij-e172\">"
+        },
+        {
+          "target": [
+            "#uij-e173"
+          ],
+          "selector": "#uij-e173",
+          "bbox": [
+            52,
+            3044,
+            1817,
+            38
+          ],
+          "html": "<p id=\"uij-e173\">"
+        },
+        {
+          "target": [
+            "#uij-e174"
+          ],
+          "selector": "#uij-e174",
+          "bbox": [
+            52,
+            3098,
+            1817,
+            19
+          ],
+          "html": "<p id=\"uij-e174\">\nAs of SQLite 3.27.0 (2019-02-07) the use of a double-quoted\nstring literal causes a warning message to be sent to the <a href=\"errlog.html\" id=\"uij-e175\">error log</a>.\n</p>"
+        },
+        {
+          "target": [
+            "#uij-e176"
+          ],
+          "selector": "#uij-e176",
+          "bbox": [
+            52,
+            3133,
+            1817,
+            57
+          ],
+          "html": "<p id=\"uij-e176\">"
+        },
+        {
+          "target": [
+            "#uij-e182"
+          ],
+          "selector": "#uij-e182",
+          "bbox": [
+            95,
+            3206,
+            1777,
+            30
+          ],
+          "html": "<blockquote id=\"uij-e182\"><pre id=\"uij-e183\">sqlite3_db_config(db, SQLITE_DBCONFIG_DQS_DDL, 0, (void*)0);\nsqlite3_db_config(db, SQLITE_DBCONFIG_DQS_DML, 0, (void*)0);\n</pre></blockquote>"
+        },
+        {
+          "target": [
+            "#uij-e184"
+          ],
+          "selector": "#uij-e184",
+          "bbox": [
+            52,
+            3252,
+            1817,
+            38
+          ],
+          "html": "<p id=\"uij-e184\">Or, if double-quoted string literals are disabled by default, but need\nto be selectively enabled for some historical database connections,\nthat can be done using the same C-code as sh"
+        },
+        {
+          "target": [
+            "#uij-e185"
+          ],
+          "selector": "#uij-e185",
+          "bbox": [
+            52,
+            3306,
+            1817,
+            19
+          ],
+          "html": "<p id=\"uij-e185\">\nAs of SQLite 3.41.0 (2023-02-21) SQLITE_DBCONFIG_DQS_DDL and\nSQLITE_DBCONFIG_DQS_DML are disabled by default in the <a href=\"cli.html\" id=\"uij-e186\">CLI</a>.  Use\nthe \".dbconfig\" dot"
+        },
+        {
+          "target": [
+            "#keywords_can_often_be_used_as_identifiers"
+          ],
+          "selector": "#keywords_can_often_be_used_as_identifiers",
+          "bbox": [
+            8,
+            3346,
+            1904,
+            39
+          ],
+          "html": "<h1 id=\"keywords_can_often_be_used_as_identifiers\"><span id=\"uij-e187\">9. </span>Keywords Can Often Be Used As Identifiers</h1>"
+        },
+        {
+          "target": [
+            "#uij-e188"
+          ],
+          "selector": "#uij-e188",
+          "bbox": [
+            52,
+            3406,
+            1817,
+            38
+          ],
+          "html": "<p id=\"uij-e188\">"
+        },
+        {
+          "target": [
+            "#uij-e189"
+          ],
+          "selector": "#uij-e189",
+          "bbox": [
+            52,
+            3460,
+            1817,
+            19
+          ],
+          "html": "<p id=\"uij-e189\">\nFor example, the following statement is valid in SQLite:\n</p>"
+        },
+        {
+          "target": [
+            "#uij-e190"
+          ],
+          "selector": "#uij-e190",
+          "bbox": [
+            95,
+            3495,
+            355,
+            34
+          ],
+          "html": "<div class=\"codeblock\" id=\"uij-e190\"><pre id=\"uij-e191\">CREATE TABLE union(true INT, with BOOLEAN);\n</pre></div>"
+        },
+        {
+          "target": [
+            "#uij-e192"
+          ],
+          "selector": "#uij-e192",
+          "bbox": [
+            52,
+            3546,
+            1817,
+            19
+          ],
+          "html": "<p id=\"uij-e192\">\nThe same SQL statement will fail on every other SQL implementation that\nwe know of due to the use of keywords \"union\", \"true\", and \"with\" as\nidentifiers.\n</p>"
+        },
+        {
+          "target": [
+            "#uij-e193"
+          ],
+          "selector": "#uij-e193",
+          "bbox": [
+            52,
+            3581,
+            1817,
+            38
+          ],
+          "html": "<p id=\"uij-e193\">"
+        },
+        {
+          "target": [
+            "#uij-e194"
+          ],
+          "selector": "#uij-e194",
+          "bbox": [
+            95,
+            3635,
+            355,
+            64
+          ],
+          "html": "<div class=\"codeblock\" id=\"uij-e194\"><pre id=\"uij-e195\">CREATE TRIGGER AFTER INSERT ON tableX BEGIN\n  INSERT INTO tableY(b) VALUES(new.a);\nEND;\n</pre></div>"
+        },
+        {
+          "target": [
+            "#uij-e196"
+          ],
+          "selector": "#uij-e196",
+          "bbox": [
+            52,
+            3715,
+            1817,
+            38
+          ],
+          "html": "<p id=\"uij-e196\">The trigger created by the previous statement is named \"AFTER\"\nand it is a \"BEFORE\" trigger.  The \"AFTER\" token is used as an identifier\ninstead of as a keyword, as that is the only w"
+        },
+        {
+          "target": [
+            "#uij-e197"
+          ],
+          "selector": "#uij-e197",
+          "bbox": [
+            95,
+            3769,
+            339,
+            34
+          ],
+          "html": "<div class=\"codeblock\" id=\"uij-e197\"><pre id=\"uij-e198\">CREATE TABLE tableZ(INTEGER PRIMARY KEY);\n</pre></div>"
+        },
+        {
+          "target": [
+            "#uij-e199"
+          ],
+          "selector": "#uij-e199",
+          "bbox": [
+            52,
+            3820,
+            1817,
+            38
+          ],
+          "html": "<p id=\"uij-e199\">"
+        },
+        {
+          "target": [
+            "#dubious_sql_is_allowed_without_any_error_or_warning"
+          ],
+          "selector": "#dubious_sql_is_allowed_without_any_error_or_warning",
+          "bbox": [
+            8,
+            3879,
+            1904,
+            39
+          ],
+          "html": "<h1 id=\"dubious_sql_is_allowed_without_any_error_or_warning\"><span id=\"uij-e202\">10. </span>Dubious SQL Is Allowed Without Any Error Or Warning</h1>"
+        },
+        {
+          "target": [
+            "#uij-e203"
+          ],
+          "selector": "#uij-e203",
+          "bbox": [
+            52,
+            3940,
+            1817,
+            38
+          ],
+          "html": "<p id=\"uij-e203\">"
+        },
+        {
+          "target": [
+            "#uij-e206"
+          ],
+          "selector": "#uij-e206",
+          "bbox": [
+            52,
+            3994,
+            1817,
+            38
+          ],
+          "html": "<p id=\"uij-e206\">\nThere are now millions of applications that take advantage of\nSQLite's flexible and forgiving design choices.\nWe cannot change SQLite to follow the current preference toward\nstrict a"
+        },
+        {
+          "target": [
+            "#autoincrement_does_not_work_the_same_as_mysql"
+          ],
+          "selector": "#autoincrement_does_not_work_the_same_as_mysql",
+          "bbox": [
+            8,
+            4053,
+            1904,
+            39
+          ],
+          "html": "<h1 id=\"autoincrement_does_not_work_the_same_as_mysql\"><span id=\"uij-e207\">11. </span>AUTOINCREMENT Does Not Work The Same As MySQL</h1>"
+        },
+        {
+          "target": [
+            "#uij-e208"
+          ],
+          "selector": "#uij-e208",
+          "bbox": [
+            52,
+            4113,
+            1817,
+            38
+          ],
+          "html": "<p id=\"uij-e208\">The <a href=\"autoinc.html\" id=\"uij-e209\">AUTOINCREMENT</a> feature in SQLite works differently than\nit does in MySQL.  This often causes confusion for people who\ninitially learned SQL"
+        },
+        {
+          "target": [
+            "#uij-e210"
+          ],
+          "selector": "#uij-e210",
+          "bbox": [
+            52,
+            4167,
+            1817,
+            19
+          ],
+          "html": "<p id=\"uij-e210\">See the <a href=\"autoinc.html\" id=\"uij-e211\">SQLite AUTOINCREMENT documentation</a> for\ndetailed instructions on what AUTOINCREMENT does and does not do\nin SQLite.\n\n</p>"
+        },
+        {
+          "target": [
+            "#nul_characters_are_allowed_in_text_strings"
+          ],
+          "selector": "#nul_characters_are_allowed_in_text_strings",
+          "bbox": [
+            8,
+            4208,
+            1904,
+            39
+          ],
+          "html": "<h1 id=\"nul_characters_are_allowed_in_text_strings\"><span id=\"uij-e212\">12. </span>NUL Characters Are Allowed In Text Strings</h1>"
+        },
+        {
+          "target": [
+            "#uij-e213"
+          ],
+          "selector": "#uij-e213",
+          "bbox": [
+            52,
+            4268,
+            1817,
+            19
+          ],
+          "html": "<p id=\"uij-e213\">NUL characters (ASCII code 0x00 and Unicode \\u0000) may appear in\nthe middle of strings in SQLite.  This can lead to unexpected behavior.\nSee the \"<a href=\"nulinstr.html\" id=\"uij-e214"
+        },
+        {
+          "target": [
+            "#sqlite_distinguishes_between_integer_and_text_literals"
+          ],
+          "selector": "#sqlite_distinguishes_between_integer_and_text_literals",
+          "bbox": [
+            8,
+            4309,
+            1904,
+            39
+          ],
+          "html": "<h1 id=\"sqlite_distinguishes_between_integer_and_text_literals\"><span id=\"uij-e215\">13. </span>SQLite Distinguishes Between Integer And Text Literals</h1>"
+        },
+        {
+          "target": [
+            "#uij-e216"
+          ],
+          "selector": "#uij-e216",
+          "bbox": [
+            52,
+            4369,
+            1817,
+            19
+          ],
+          "html": "<p id=\"uij-e216\">SQLite says that the following query returns false:\n</p>"
+        },
+        {
+          "target": [
+            "#uij-e217"
+          ],
+          "selector": "#uij-e217",
+          "bbox": [
+            95,
+            4404,
+            121,
+            34
+          ],
+          "html": "<div class=\"codeblock\" id=\"uij-e217\"><pre id=\"uij-e218\">SELECT 1='1';\n</pre></div>"
+        },
+        {
+          "target": [
+            "#uij-e219"
+          ],
+          "selector": "#uij-e219",
+          "bbox": [
+            52,
+            4455,
+            1817,
+            19
+          ],
+          "html": "<p id=\"uij-e219\">It does this because an integer is not a string.  \nEvery other major SQL database engine says this is true, for reasons\nthat the creator of SQLite does not understand.\n\n</p>"
+        },
+        {
+          "target": [
+            "#sqlite_gets_the_precedence_of_comma_joins_wrong"
+          ],
+          "selector": "#sqlite_gets_the_precedence_of_comma_joins_wrong",
+          "bbox": [
+            8,
+            4495,
+            1904,
+            39
+          ],
+          "html": "<h1 id=\"sqlite_gets_the_precedence_of_comma_joins_wrong\"><span id=\"uij-e220\">14. </span>SQLite Gets The Precedence Of Comma-Joins Wrong</h1>"
+        },
+        {
+          "target": [
+            "#uij-e221"
+          ],
+          "selector": "#uij-e221",
+          "bbox": [
+            52,
+            4556,
+            1817,
+            38
+          ],
+          "html": "<p id=\"uij-e221\">SQLite gives all join operators equal precedence and processes them\nfrom left to right.  But this is not quite correct.  It should be that\ncomma-joins have lower precedence than all o"
+        },
+        {
+          "target": [
+            "#uij-e222"
+          ],
+          "selector": "#uij-e222",
+          "bbox": [
+            95,
+            4610,
+            1777,
+            19
+          ],
+          "html": "<blockquote id=\"uij-e222\"><p id=\"uij-e223\">\n... FROM a, b RIGHT JOIN c, d ...\n</p></blockquote>"
+        },
+        {
+          "target": [
+            "#uij-e224"
+          ],
+          "selector": "#uij-e224",
+          "bbox": [
+            52,
+            4645,
+            1817,
+            19
+          ],
+          "html": "<p id=\"uij-e224\">Should be parsed as follows:\n\n</p>"
+        },
+        {
+          "target": [
+            "#uij-e254"
+          ],
+          "selector": "#uij-e254",
+          "bbox": [
+            52,
+            4944,
+            1817,
+            19
+          ],
+          "html": "<p id=\"uij-e254\">But SQLite instead parses the FROM clause like this:\n\n</p>"
+        },
+        {
+          "target": [
+            "#uij-e284"
+          ],
+          "selector": "#uij-e284",
+          "bbox": [
+            52,
+            5242,
+            1817,
+            38
+          ],
+          "html": "<p id=\"uij-e284\">The problem can only make a difference in the result when using\nRIGHT OUTER JOIN or FULL OUTER JOIN in the same FROM clause with\ncomma-joins, which rarely happens in practice.  And\nth"
+        },
+        {
+          "target": [
+            "#uij-e285"
+          ],
+          "selector": "#uij-e285",
+          "bbox": [
+            95,
+            5296,
+            1777,
+            19
+          ],
+          "html": "<blockquote id=\"uij-e285\"><p id=\"uij-e286\">\n... FROM a, (b RIGHT JOIN c), d ...\n</p></blockquote>"
+        }
+      ]
+    }
+  ],
+  "incomplete": [
+    {
+      "rule_id": "color-contrast",
+      "impact": "serious",
+      "tags": [
+        "wcag2aa",
+        "wcag143"
+      ],
+      "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e229"
+          ],
+          "selector": "#uij-e229",
+          "bbox": null,
+          "html": "<text dominant-baseline=\"central\" fill=\"rgb(0,0,0)\" id=\"uij-e229\" text-anchor=\"middle\" x=\"93.9711\" y=\"17.28\">JOIN</text>"
+        },
+        {
+          "target": [
+            "#uij-e235"
+          ],
+          "selector": "#uij-e235",
+          "bbox": null,
+          "html": "<text dominant-baseline=\"central\" fill=\"rgb(0,0,0)\" id=\"uij-e235\" text-anchor=\"middle\" x=\"53.8831\" y=\"87.6079\">JOIN</text>"
+        },
+        {
+          "target": [
+            "#uij-e237"
+          ],
+          "selector": "#uij-e237",
+          "bbox": null,
+          "html": "<text dominant-baseline=\"central\" fill=\"rgb(0,0,0)\" id=\"uij-e237\" text-anchor=\"middle\" x=\"134.059\" y=\"87.6079\">D</text>"
+        },
+        {
+          "target": [
+            "#uij-e243"
+          ],
+          "selector": "#uij-e243",
+          "bbox": null,
+          "html": "<text dominant-baseline=\"central\" fill=\"rgb(0,0,0)\" id=\"uij-e243\" text-anchor=\"middle\" x=\"93.9711\" y=\"157.936\">RIGHT&nbsp;JOIN</text>"
+        },
+        {
+          "target": [
+            "#uij-e245"
+          ],
+          "selector": "#uij-e245",
+          "bbox": null,
+          "html": "<text dominant-baseline=\"central\" fill=\"rgb(0,0,0)\" id=\"uij-e245\" text-anchor=\"middle\" x=\"13.7952\" y=\"157.936\">A</text>"
+        },
+        {
+          "target": [
+            "#uij-e251"
+          ],
+          "selector": "#uij-e251",
+          "bbox": null,
+          "html": "<text dominant-baseline=\"central\" fill=\"rgb(0,0,0)\" id=\"uij-e251\" text-anchor=\"middle\" x=\"53.8831\" y=\"228.264\">B</text>"
+        },
+        {
+          "target": [
+            "#uij-e253"
+          ],
+          "selector": "#uij-e253",
+          "bbox": null,
+          "html": "<text dominant-baseline=\"central\" fill=\"rgb(0,0,0)\" id=\"uij-e253\" text-anchor=\"middle\" x=\"134.059\" y=\"228.264\">C</text>"
+        },
+        {
+          "target": [
+            "#uij-e259"
+          ],
+          "selector": "#uij-e259",
+          "bbox": null,
+          "html": "<text dominant-baseline=\"central\" fill=\"rgb(0,0,0)\" id=\"uij-e259\" text-anchor=\"middle\" x=\"134.059\" y=\"17.28\">JOIN</text>"
+        },
+        {
+          "target": [
+            "#uij-e265"
+          ],
+          "selector": "#uij-e265",
+          "bbox": null,
+          "html": "<text dominant-baseline=\"central\" fill=\"rgb(0,0,0)\" id=\"uij-e265\" text-anchor=\"middle\" x=\"93.9711\" y=\"87.6079\">RIGHT&nbsp;JOIN</text>"
+        },
+        {
+          "target": [
+            "#uij-e267"
+          ],
+          "selector": "#uij-e267",
+          "bbox": null,
+          "html": "<text dominant-baseline=\"central\" fill=\"rgb(0,0,0)\" id=\"uij-e267\" text-anchor=\"middle\" x=\"174.147\" y=\"87.6079\">D</text>"
+        },
+        {
+          "target": [
+            "#uij-e273"
+          ],
+          "selector": "#uij-e273",
+          "bbox": null,
+          "html": "<text dominant-baseline=\"central\" fill=\"rgb(0,0,0)\" id=\"uij-e273\" text-anchor=\"middle\" x=\"53.8831\" y=\"157.936\">JOIN</text>"
+        },
+        {
+          "target": [
+            "#uij-e275"
+          ],
+          "selector": "#uij-e275",
+          "bbox": null,
+          "html": "<text dominant-baseline=\"central\" fill=\"rgb(0,0,0)\" id=\"uij-e275\" text-anchor=\"middle\" x=\"134.059\" y=\"157.936\">C</text>"
+        },
+        {
+          "target": [
+            "#uij-e281"
+          ],
+          "selector": "#uij-e281",
+          "bbox": null,
+          "html": "<text dominant-baseline=\"central\" fill=\"rgb(0,0,0)\" id=\"uij-e281\" text-anchor=\"middle\" x=\"13.7952\" y=\"228.264\">A</text>"
+        },
+        {
+          "target": [
+            "#uij-e283"
+          ],
+          "selector": "#uij-e283",
+          "bbox": null,
+          "html": "<text dominant-baseline=\"central\" fill=\"rgb(0,0,0)\" id=\"uij-e283\" text-anchor=\"middle\" x=\"93.9711\" y=\"228.264\">B</text>"
+        }
+      ]
+    }
+  ],
+  "passes": [
+    {
+      "rule_id": "aria-hidden-body",
+      "impact": "",
+      "tags": [
+        "wcag2a",
+        "wcag131",
+        "wcag412"
+      ],
+      "description": "Ensure aria-hidden=\"true\" is not present on the document body.",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/aria-hidden-body?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "body"
+          ],
+          "selector": "body",
+          "bbox": null,
+          "html": "<body>"
+        }
+      ]
+    },
+    {
+      "rule_id": "avoid-inline-spacing",
+      "impact": "",
+      "tags": [
+        "wcag21aa",
+        "wcag1412"
+      ],
+      "description": "Ensure that text spacing set through style attributes can be adjusted with custom stylesheets",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/avoid-inline-spacing?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e226"
+          ],
+          "selector": "#uij-e226",
+          "bbox": null,
+          "html": "<div id=\"uij-e226\" style=\"max-width:153px;\">"
+        },
+        {
+          "target": [
+            "#uij-e227"
+          ],
+          "selector": "#uij-e227",
+          "bbox": null,
+          "html": "<svg class=\"pikchr\" data-pikchr-date=\"20250319161943\" id=\"uij-e227\" style=\"font-size:initial;\" viewBox=\"0 0 153.328 245.544\" xmlns=\"http://www.w3.org/2000/svg\">"
+        },
+        {
+          "target": [
+            "#uij-e228"
+          ],
+          "selector": "#uij-e228",
+          "bbox": null,
+          "html": "<path d=\"M67.7055,32.4L120.237,32.4L120.237,2.16L67.7055,2.16Z\" id=\"uij-e228\" style=\"fill:none;stroke-width:2.16;stroke:rgb(0,0,0);\"></path>"
+        },
+        {
+          "target": [
+            "#uij-e230"
+          ],
+          "selector": "#uij-e230",
+          "bbox": null,
+          "html": "<polygon id=\"uij-e230\" points=\"53.8831,72.4879 58.9743,61.2874 65.0837,67.3968\" style=\"fill:rgb(0,0,0)\"></polygon>"
+        },
+        {
+          "target": [
+            "#uij-e231"
+          ],
+          "selector": "#uij-e231",
+          "bbox": null,
+          "html": "<path d=\"M93.9711,32.4L57.9561,68.415\" id=\"uij-e231\" style=\"fill:none;stroke-width:2.16;stroke:rgb(0,0,0);\"></path>"
+        },
+        {
+          "target": [
+            "#uij-e232"
+          ],
+          "selector": "#uij-e232",
+          "bbox": null,
+          "html": "<polygon id=\"uij-e232\" points=\"134.059,72.4879 122.858,67.3968 128.968,61.2874\" style=\"fill:rgb(0,0,0)\"></polygon>"
+        },
+        {
+          "target": [
+            "#uij-e233"
+          ],
+          "selector": "#uij-e233",
+          "bbox": null,
+          "html": "<path d=\"M93.9711,32.4L129.986,68.415\" id=\"uij-e233\" style=\"fill:none;stroke-width:2.16;stroke:rgb(0,0,0);\"></path>"
+        },
+        {
+          "target": [
+            "#uij-e234"
+          ],
+          "selector": "#uij-e234",
+          "bbox": null,
+          "html": "<path d=\"M27.6175,102.728L80.1487,102.728L80.1487,72.4879L27.6175,72.4879Z\" id=\"uij-e234\" style=\"fill:none;stroke-width:2.16;stroke:rgb(0,0,0);\"></path>"
+        },
+        {
+          "target": [
+            "#uij-e236"
+          ],
+          "selector": "#uij-e236",
+          "bbox": null,
+          "html": "<path d=\"M121.675,102.728L146.443,102.728L146.443,72.4879L121.675,72.4879Z\" id=\"uij-e236\" style=\"fill:none;stroke-width:2.16;stroke:rgb(0,0,0);\"></path>"
+        },
+        {
+          "target": [
+            "#uij-e238"
+          ],
+          "selector": "#uij-e238",
+          "bbox": null,
+          "html": "<polygon id=\"uij-e238\" points=\"13.7952,142.816 18.8864,131.615 24.9958,137.725\" style=\"fill:rgb(0,0,0)\"></polygon>"
+        },
+        {
+          "target": [
+            "#uij-e239"
+          ],
+          "selector": "#uij-e239",
+          "bbox": null,
+          "html": "<path d=\"M53.8831,102.728L17.8681,138.743\" id=\"uij-e239\" style=\"fill:none;stroke-width:2.16;stroke:rgb(0,0,0);\"></path>"
+        },
+        {
+          "target": [
+            "#uij-e240"
+          ],
+          "selector": "#uij-e240",
+          "bbox": null,
+          "html": "<polygon id=\"uij-e240\" points=\"93.9711,142.816 82.7705,137.725 88.8799,131.615\" style=\"fill:rgb(0,0,0)\"></polygon>"
+        },
+        {
+          "target": [
+            "#uij-e241"
+          ],
+          "selector": "#uij-e241",
+          "bbox": null,
+          "html": "<path d=\"M53.8831,102.728L89.8982,138.743\" id=\"uij-e241\" style=\"fill:none;stroke-width:2.16;stroke:rgb(0,0,0);\"></path>"
+        },
+        {
+          "target": [
+            "#uij-e242"
+          ],
+          "selector": "#uij-e242",
+          "bbox": null,
+          "html": "<path d=\"M36.7743,173.056L151.168,173.056L151.168,142.816L36.7743,142.816Z\" id=\"uij-e242\" style=\"fill:none;stroke-width:2.16;stroke:rgb(0,0,0);\"></path>"
+        },
+        {
+          "target": [
+            "#uij-e244"
+          ],
+          "selector": "#uij-e244",
+          "bbox": null,
+          "html": "<path d=\"M2.16,173.056L25.4304,173.056L25.4304,142.816L2.16,142.816Z\" id=\"uij-e244\" style=\"fill:none;stroke-width:2.16;stroke:rgb(0,0,0);\"></path>"
+        },
+        {
+          "target": [
+            "#uij-e246"
+          ],
+          "selector": "#uij-e246",
+          "bbox": null,
+          "html": "<polygon id=\"uij-e246\" points=\"53.8831,213.144 58.9743,201.943 65.0837,208.053\" style=\"fill:rgb(0,0,0)\"></polygon>"
+        },
+        {
+          "target": [
+            "#uij-e247"
+          ],
+          "selector": "#uij-e247",
+          "bbox": null,
+          "html": "<path d=\"M93.9711,173.056L57.9561,209.071\" id=\"uij-e247\" style=\"fill:none;stroke-width:2.16;stroke:rgb(0,0,0);\"></path>"
+        },
+        {
+          "target": [
+            "#uij-e248"
+          ],
+          "selector": "#uij-e248",
+          "bbox": null,
+          "html": "<polygon id=\"uij-e248\" points=\"134.059,213.144 122.858,208.053 128.968,201.943\" style=\"fill:rgb(0,0,0)\"></polygon>"
+        },
+        {
+          "target": [
+            "#uij-e249"
+          ],
+          "selector": "#uij-e249",
+          "bbox": null,
+          "html": "<path d=\"M93.9711,173.056L129.986,209.071\" id=\"uij-e249\" style=\"fill:none;stroke-width:2.16;stroke:rgb(0,0,0);\"></path>"
+        },
+        {
+          "target": [
+            "#uij-e250"
+          ],
+          "selector": "#uij-e250",
+          "bbox": null,
+          "html": "<path d=\"M42.0751,243.384L65.6911,243.384L65.6911,213.144L42.0751,213.144Z\" id=\"uij-e250\" style=\"fill:none;stroke-width:2.16;stroke:rgb(0,0,0);\"></path>"
+        },
+        {
+          "target": [
+            "#uij-e252"
+          ],
+          "selector": "#uij-e252",
+          "bbox": null,
+          "html": "<path d=\"M121.963,243.384L146.155,243.384L146.155,213.144L121.963,213.144Z\" id=\"uij-e252\" style=\"fill:none;stroke-width:2.16;stroke:rgb(0,0,0);\"></path>"
+        },
+        {
+          "target": [
+            "#uij-e256"
+          ],
+          "selector": "#uij-e256",
+          "bbox": null,
+          "html": "<div id=\"uij-e256\" style=\"max-width:188px;\">"
+        },
+        {
+          "target": [
+            "#uij-e257"
+          ],
+          "selector": "#uij-e257",
+          "bbox": null,
+          "html": "<svg class=\"pikchr\" data-pikchr-date=\"20250319161943\" id=\"uij-e257\" style=\"font-size:initial;\" viewBox=\"0 0 188.691 245.544\" xmlns=\"http://www.w3.org/2000/svg\">"
+        },
+        {
+          "target": [
+            "#uij-e258"
+          ],
+          "selector": "#uij-e258",
+          "bbox": null,
+          "html": "<path d=\"M107.793,32.4L160.325,32.4L160.325,2.16L107.793,2.16Z\" id=\"uij-e258\" style=\"fill:none;stroke-width:2.16;stroke:rgb(0,0,0);\"></path>"
+        },
+        {
+          "target": [
+            "#uij-e260"
+          ],
+          "selector": "#uij-e260",
+          "bbox": null,
+          "html": "<polygon id=\"uij-e260\" points=\"93.9711,72.4879 99.0623,61.2874 105.172,67.3968\" style=\"fill:rgb(0,0,0)\"></polygon>"
+        },
+        {
+          "target": [
+            "#uij-e261"
+          ],
+          "selector": "#uij-e261",
+          "bbox": null,
+          "html": "<path d=\"M134.059,32.4L98.044,68.415\" id=\"uij-e261\" style=\"fill:none;stroke-width:2.16;stroke:rgb(0,0,0);\"></path>"
+        },
+        {
+          "target": [
+            "#uij-e262"
+          ],
+          "selector": "#uij-e262",
+          "bbox": null,
+          "html": "<polygon id=\"uij-e262\" points=\"174.147,72.4879 162.946,67.3968 169.056,61.2874\" style=\"fill:rgb(0,0,0)\"></polygon>"
+        },
+        {
+          "target": [
+            "#uij-e263"
+          ],
+          "selector": "#uij-e263",
+          "bbox": null,
+          "html": "<path d=\"M134.059,32.4L170.074,68.415\" id=\"uij-e263\" style=\"fill:none;stroke-width:2.16;stroke:rgb(0,0,0);\"></path>"
+        },
+        {
+          "target": [
+            "#uij-e264"
+          ],
+          "selector": "#uij-e264",
+          "bbox": null,
+          "html": "<path d=\"M36.7743,102.728L151.168,102.728L151.168,72.4879L36.7743,72.4879Z\" id=\"uij-e264\" style=\"fill:none;stroke-width:2.16;stroke:rgb(0,0,0);\"></path>"
+        },
+        {
+          "target": [
+            "#uij-e266"
+          ],
+          "selector": "#uij-e266",
+          "bbox": null,
+          "html": "<path d=\"M161.763,102.728L186.531,102.728L186.531,72.4879L161.763,72.4879Z\" id=\"uij-e266\" style=\"fill:none;stroke-width:2.16;stroke:rgb(0,0,0);\"></path>"
+        },
+        {
+          "target": [
+            "#uij-e268"
+          ],
+          "selector": "#uij-e268",
+          "bbox": null,
+          "html": "<polygon id=\"uij-e268\" points=\"53.8831,142.816 58.9743,131.615 65.0837,137.725\" style=\"fill:rgb(0,0,0)\"></polygon>"
+        },
+        {
+          "target": [
+            "#uij-e269"
+          ],
+          "selector": "#uij-e269",
+          "bbox": null,
+          "html": "<path d=\"M93.9711,102.728L57.9561,138.743\" id=\"uij-e269\" style=\"fill:none;stroke-width:2.16;stroke:rgb(0,0,0);\"></path>"
+        },
+        {
+          "target": [
+            "#uij-e270"
+          ],
+          "selector": "#uij-e270",
+          "bbox": null,
+          "html": "<polygon id=\"uij-e270\" points=\"134.059,142.816 122.858,137.725 128.968,131.615\" style=\"fill:rgb(0,0,0)\"></polygon>"
+        },
+        {
+          "target": [
+            "#uij-e271"
+          ],
+          "selector": "#uij-e271",
+          "bbox": null,
+          "html": "<path d=\"M93.9711,102.728L129.986,138.743\" id=\"uij-e271\" style=\"fill:none;stroke-width:2.16;stroke:rgb(0,0,0);\"></path>"
+        },
+        {
+          "target": [
+            "#uij-e272"
+          ],
+          "selector": "#uij-e272",
+          "bbox": null,
+          "html": "<path d=\"M27.6175,173.056L80.1487,173.056L80.1487,142.816L27.6175,142.816Z\" id=\"uij-e272\" style=\"fill:none;stroke-width:2.16;stroke:rgb(0,0,0);\"></path>"
+        },
+        {
+          "target": [
+            "#uij-e274"
+          ],
+          "selector": "#uij-e274",
+          "bbox": null,
+          "html": "<path d=\"M121.963,173.056L146.155,173.056L146.155,142.816L121.963,142.816Z\" id=\"uij-e274\" style=\"fill:none;stroke-width:2.16;stroke:rgb(0,0,0);\"></path>"
+        },
+        {
+          "target": [
+            "#uij-e276"
+          ],
+          "selector": "#uij-e276",
+          "bbox": null,
+          "html": "<polygon id=\"uij-e276\" points=\"13.7952,213.144 18.8864,201.943 24.9958,208.053\" style=\"fill:rgb(0,0,0)\"></polygon>"
+        },
+        {
+          "target": [
+            "#uij-e277"
+          ],
+          "selector": "#uij-e277",
+          "bbox": null,
+          "html": "<path d=\"M53.8831,173.056L17.8681,209.071\" id=\"uij-e277\" style=\"fill:none;stroke-width:2.16;stroke:rgb(0,0,0);\"></path>"
+        },
+        {
+          "target": [
+            "#uij-e278"
+          ],
+          "selector": "#uij-e278",
+          "bbox": null,
+          "html": "<polygon id=\"uij-e278\" points=\"93.9711,213.144 82.7705,208.053 88.8799,201.943\" style=\"fill:rgb(0,0,0)\"></polygon>"
+        },
+        {
+          "target": [
+            "#uij-e279"
+          ],
+          "selector": "#uij-e279",
+          "bbox": null,
+          "html": "<path d=\"M53.8831,173.056L89.8982,209.071\" id=\"uij-e279\" style=\"fill:none;stroke-width:2.16;stroke:rgb(0,0,0);\"></path>"
+        },
+        {
+          "target": [
+            "#uij-e280"
+          ],
+          "selector": "#uij-e280",
+          "bbox": null,
+          "html": "<path d=\"M2.16,243.384L25.4304,243.384L25.4304,213.144L2.16,213.144Z\" id=\"uij-e280\" style=\"fill:none;stroke-width:2.16;stroke:rgb(0,0,0);\"></path>"
+        },
+        {
+          "target": [
+            "#uij-e282"
+          ],
+          "selector": "#uij-e282",
+          "bbox": null,
+          "html": "<path d=\"M82.1631,243.384L105.779,243.384L105.779,213.144L82.1631,213.144Z\" id=\"uij-e282\" style=\"fill:none;stroke-width:2.16;stroke:rgb(0,0,0);\"></path>"
+        }
+      ]
+    },
+    {
+      "rule_id": "bypass",
+      "impact": "",
+      "tags": [
+        "wcag2a",
+        "wcag241",
+        "section508",
+        "section508.22.o"
+      ],
+      "description": "Ensure each page has at least one mechanism for a user to bypass navigation and jump straight to the content",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/bypass?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "html"
+          ],
+          "selector": "html",
+          "bbox": null,
+          "html": "<html>"
+        }
+      ]
+    },
+    {
+      "rule_id": "color-contrast",
+      "impact": "serious",
+      "tags": [
+        "wcag2aa",
+        "wcag143"
+      ],
+      "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e4"
+          ],
+          "selector": "#uij-e4",
+          "bbox": null,
+          "html": "<div class=\"tagline desktoponly\" id=\"uij-e4\">\nSmall. Fast. Reliable.<br id=\"uij-e5\">Choose any three.\n</div>"
+        },
+        {
+          "target": [
+            "#uij-e9"
+          ],
+          "selector": "#uij-e9",
+          "bbox": null,
+          "html": "<a href=\"index.html\" id=\"uij-e9\">Home</a>"
+        },
+        {
+          "target": [
+            "#uij-e13"
+          ],
+          "selector": "#uij-e13",
+          "bbox": null,
+          "html": "<a href=\"about.html\" id=\"uij-e13\">About</a>"
+        },
+        {
+          "target": [
+            "#uij-e15"
+          ],
+          "selector": "#uij-e15",
+          "bbox": null,
+          "html": "<a href=\"docs.html\" id=\"uij-e15\">Documentation</a>"
+        },
+        {
+          "target": [
+            "#uij-e17"
+          ],
+          "selector": "#uij-e17",
+          "bbox": null,
+          "html": "<a href=\"download.html\" id=\"uij-e17\">Download</a>"
+        },
+        {
+          "target": [
+            "#uij-e19"
+          ],
+          "selector": "#uij-e19",
+          "bbox": null,
+          "html": "<a href=\"copyright.html\" id=\"uij-e19\">License</a>"
+        },
+        {
+          "target": [
+            "#uij-e21"
+          ],
+          "selector": "#uij-e21",
+          "bbox": null,
+          "html": "<a href=\"support.html\" id=\"uij-e21\">Support</a>"
+        },
+        {
+          "target": [
+            "#uij-e23"
+          ],
+          "selector": "#uij-e23",
+          "bbox": null,
+          "html": "<a href=\"prosupport.html\" id=\"uij-e23\">Purchase</a>"
+        },
+        {
+          "target": [
+            "#uij-e24"
+          ],
+          "selector": "#uij-e24",
+          "bbox": null,
+          "html": "<a href=\"javascript:void(0)\" id=\"uij-e24\" onclick=\"toggle_search()\">Search</a>"
+        },
+        {
+          "target": [
+            "#searchtype"
+          ],
+          "selector": "#searchtype",
+          "bbox": null,
+          "html": "<select id=\"searchtype\" name=\"s\">\n<option id=\"uij-e37\" value=\"d\">Search Documentation</option>\n<option id=\"uij-e38\" value=\"c\">Search Changelog</option>\n</select>"
+        },
+        {
+          "target": [
+            "#searchbox"
+          ],
+          "selector": "#searchbox",
+          "bbox": null,
+          "html": "<input id=\"searchbox\" name=\"q\" type=\"text\" value=\"\">"
+        },
+        {
+          "target": [
+            "#uij-e39"
+          ],
+          "selector": "#uij-e39",
+          "bbox": null,
+          "html": "<input id=\"uij-e39\" type=\"submit\" value=\"Go\">"
+        },
+        {
+          "target": [
+            "#uij-e42"
+          ],
+          "selector": "#uij-e42",
+          "bbox": null,
+          "html": "<div class=\"fancy_title\" id=\"uij-e42\">\nQuirks, Caveats, and Gotchas In SQLite\n</div>"
+        },
+        {
+          "target": [
+            "#uij-e44"
+          ],
+          "selector": "#uij-e44",
+          "bbox": null,
+          "html": "<summary id=\"uij-e44\">Table Of Contents</summary>"
+        },
+        {
+          "target": [
+            "#overview"
+          ],
+          "selector": "#overview",
+          "bbox": null,
+          "html": "<h1 id=\"overview\"><span id=\"uij-e79\">1. </span>Overview</h1>"
+        },
+        {
+          "target": [
+            "#uij-e79"
+          ],
+          "selector": "#uij-e79",
+          "bbox": null,
+          "html": "<span id=\"uij-e79\">1. </span>"
+        },
+        {
+          "target": [
+            "#uij-e80"
+          ],
+          "selector": "#uij-e80",
+          "bbox": null,
+          "html": "<p id=\"uij-e80\">\nThe SQL language is a \"standard\".\nEven so, no two SQL database engines work exactly alike.\nEvery SQL implementation has its own peculiarities and oddities,\nand SQLite is no exception "
+        },
+        {
+          "target": [
+            "#uij-e81"
+          ],
+          "selector": "#uij-e81",
+          "bbox": null,
+          "html": "<p id=\"uij-e81\">\nThis document strives to highlight the principal differences\nbetween SQLite and other SQL implementations, as an aid to developers\nthat are porting to or from SQLite or who are trying"
+        },
+        {
+          "target": [
+            "#uij-e82"
+          ],
+          "selector": "#uij-e82",
+          "bbox": null,
+          "html": "<p id=\"uij-e82\">\nIf you are an SQLite user who has stumbled over some quirk of\nSQLite that is not mentioned here, please let the developers know\nby posting a brief message on the\n<a href=\"https://sqli"
+        },
+        {
+          "target": [
+            "#uij-e83"
+          ],
+          "selector": "#uij-e83",
+          "bbox": null,
+          "html": "<a href=\"https://sqlite.org/forum/forum\" id=\"uij-e83\">SQLite Forum</a>"
+        },
+        {
+          "target": [
+            "#sqlite_is_embedded_not_client_server"
+          ],
+          "selector": "#sqlite_is_embedded_not_client_server",
+          "bbox": null,
+          "html": "<h1 id=\"sqlite_is_embedded_not_client_server\"><span id=\"uij-e84\">2. </span>SQLite Is Embedded, Not Client-Server</h1>"
+        },
+        {
+          "target": [
+            "#uij-e84"
+          ],
+          "selector": "#uij-e84",
+          "bbox": null,
+          "html": "<span id=\"uij-e84\">2. </span>"
+        },
+        {
+          "target": [
+            "#uij-e85"
+          ],
+          "selector": "#uij-e85",
+          "bbox": null,
+          "html": "<p id=\"uij-e85\">"
+        },
+        {
+          "target": [
+            "#uij-e86"
+          ],
+          "selector": "#uij-e86",
+          "bbox": null,
+          "html": "<a href=\"serverless.html\" id=\"uij-e86\">serverless</a>"
+        },
+        {
+          "target": [
+            "#uij-e87"
+          ],
+          "selector": "#uij-e87",
+          "bbox": null,
+          "html": "<p id=\"uij-e87\">\nThe fact that SQLite is embedded and <a href=\"serverless.html\" id=\"uij-e88\">serverless</a> instead of being\nclient/server is a feature, not a bug.\n\n</p>"
+        },
+        {
+          "target": [
+            "#uij-e88"
+          ],
+          "selector": "#uij-e88",
+          "bbox": null,
+          "html": "<a href=\"serverless.html\" id=\"uij-e88\">serverless</a>"
+        },
+        {
+          "target": [
+            "#uij-e89"
+          ],
+          "selector": "#uij-e89",
+          "bbox": null,
+          "html": "<p id=\"uij-e89\">"
+        },
+        {
+          "target": [
+            "#uij-e90"
+          ],
+          "selector": "#uij-e90",
+          "bbox": null,
+          "html": "<p id=\"uij-e90\">\nSee the <a href=\"whentouse.html\" id=\"uij-e91\">Appropriate Uses For SQLite</a> document for additional information.\n\n</p>"
+        },
+        {
+          "target": [
+            "#uij-e91"
+          ],
+          "selector": "#uij-e91",
+          "bbox": null,
+          "html": "<a href=\"whentouse.html\" id=\"uij-e91\">Appropriate Uses For SQLite</a>"
+        },
+        {
+          "target": [
+            "#flexible_typing"
+          ],
+          "selector": "#flexible_typing",
+          "bbox": null,
+          "html": "<h1 id=\"flexible_typing\"><span id=\"uij-e92\">3. </span>Flexible Typing</h1>"
+        },
+        {
+          "target": [
+            "#uij-e92"
+          ],
+          "selector": "#uij-e92",
+          "bbox": null,
+          "html": "<span id=\"uij-e92\">3. </span>"
+        },
+        {
+          "target": [
+            "#uij-e93"
+          ],
+          "selector": "#uij-e93",
+          "bbox": null,
+          "html": "<p id=\"uij-e93\">\nSQLite is flexible with regard to datatypes.  Datatypes are advisory\nrather than mandatory.\n\n</p>"
+        },
+        {
+          "target": [
+            "#uij-e94"
+          ],
+          "selector": "#uij-e94",
+          "bbox": null,
+          "html": "<p id=\"uij-e94\">\nSome commentators say that SQLite is \"weakly typed\" and that other\nSQL databases are \"strongly typed\".  We consider these terms to be\ninaccurate and even pejorative.  We prefer to say"
+        },
+        {
+          "target": [
+            "#uij-e95"
+          ],
+          "selector": "#uij-e95",
+          "bbox": null,
+          "html": "<p id=\"uij-e95\">\nSee the <a href=\"datatype3.html\" id=\"uij-e96\">Datatypes in SQLite</a> document for a detailed\ndiscussion of the type system in SQLite.\n\n</p>"
+        },
+        {
+          "target": [
+            "#uij-e96"
+          ],
+          "selector": "#uij-e96",
+          "bbox": null,
+          "html": "<a href=\"datatype3.html\" id=\"uij-e96\">Datatypes in SQLite</a>"
+        },
+        {
+          "target": [
+            "#uij-e97"
+          ],
+          "selector": "#uij-e97",
+          "bbox": null,
+          "html": "<p id=\"uij-e97\">"
+        },
+        {
+          "target": [
+            "#uij-e98"
+          ],
+          "selector": "#uij-e98",
+          "bbox": null,
+          "html": "<b id=\"uij-e98\">'1234'</b>"
+        },
+        {
+          "target": [
+            "#uij-e99"
+          ],
+          "selector": "#uij-e99",
+          "bbox": null,
+          "html": "<b id=\"uij-e99\">'wxyz'</b>"
+        },
+        {
+          "target": [
+            "#uij-e100"
+          ],
+          "selector": "#uij-e100",
+          "bbox": null,
+          "html": "<p id=\"uij-e100\">\nSimilarly, SQLite allows you to store a 2000-character string into a\ncolumn of type VARCHAR(50).  Other SQL implementations would either throw\nan error or truncate the string.  SQLit"
+        },
+        {
+          "target": [
+            "#uij-e101"
+          ],
+          "selector": "#uij-e101",
+          "bbox": null,
+          "html": "<p id=\"uij-e101\">"
+        },
+        {
+          "target": [
+            "#uij-e102"
+          ],
+          "selector": "#uij-e102",
+          "bbox": null,
+          "html": "<p id=\"uij-e102\">"
+        },
+        {
+          "target": [
+            "#uij-e103"
+          ],
+          "selector": "#uij-e103",
+          "bbox": null,
+          "html": "<a href=\"flextypegood.html\" id=\"uij-e103\">Flexible typing is a feature</a>"
+        },
+        {
+          "target": [
+            "#uij-e104"
+          ],
+          "selector": "#uij-e104",
+          "bbox": null,
+          "html": "<a href=\"stricttables.html\" id=\"uij-e104\">STRICT tables</a>"
+        },
+        {
+          "target": [
+            "#no_separate_boolean_datatype"
+          ],
+          "selector": "#no_separate_boolean_datatype",
+          "bbox": null,
+          "html": "<h2 id=\"no_separate_boolean_datatype\"><span id=\"uij-e105\">3.1. </span>No Separate BOOLEAN Datatype</h2>"
+        },
+        {
+          "target": [
+            "#uij-e105"
+          ],
+          "selector": "#uij-e105",
+          "bbox": null,
+          "html": "<span id=\"uij-e105\">3.1. </span>"
+        },
+        {
+          "target": [
+            "#uij-e106"
+          ],
+          "selector": "#uij-e106",
+          "bbox": null,
+          "html": "<p id=\"uij-e106\">"
+        },
+        {
+          "target": [
+            "#uij-e107"
+          ],
+          "selector": "#uij-e107",
+          "bbox": null,
+          "html": "<p id=\"uij-e107\">"
+        },
+        {
+          "target": [
+            "#uij-e108"
+          ],
+          "selector": "#uij-e108",
+          "bbox": null,
+          "html": "<a href=\"releaselog/3_23_0.html\" id=\"uij-e108\">version 3.23.0</a>"
+        },
+        {
+          "target": [
+            "#no_separate_datetime_datatype"
+          ],
+          "selector": "#no_separate_datetime_datatype",
+          "bbox": null,
+          "html": "<h2 id=\"no_separate_datetime_datatype\"><span id=\"uij-e109\">3.2. </span>No Separate DATETIME Datatype</h2>"
+        },
+        {
+          "target": [
+            "#uij-e109"
+          ],
+          "selector": "#uij-e109",
+          "bbox": null,
+          "html": "<span id=\"uij-e109\">3.2. </span>"
+        },
+        {
+          "target": [
+            "#uij-e110"
+          ],
+          "selector": "#uij-e110",
+          "bbox": null,
+          "html": "<p id=\"uij-e110\">\nSQLite has no DATETIME datatype.\nInstead, dates and times can be stored in any of these ways:\n\n</p>"
+        },
+        {
+          "target": [
+            "#uij-e112"
+          ],
+          "selector": "#uij-e112",
+          "bbox": null,
+          "html": "<li id=\"uij-e112\"> As a TEXT string in the ISO-8601 format.  Example: '2018-04-02 12:13:46'.\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e113"
+          ],
+          "selector": "#uij-e113",
+          "bbox": null,
+          "html": "<li id=\"uij-e113\"> As an INTEGER number of seconds since 1970 (also known as \"unix time\").\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e114"
+          ],
+          "selector": "#uij-e114",
+          "bbox": null,
+          "html": "<li id=\"uij-e114\"> As a REAL value that is the fractional\n     <a href=\"https://en.wikipedia.org/wiki/Julian_day\" id=\"uij-e115\">Julian day number</a>.\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e115"
+          ],
+          "selector": "#uij-e115",
+          "bbox": null,
+          "html": "<a href=\"https://en.wikipedia.org/wiki/Julian_day\" id=\"uij-e115\">Julian day number</a>"
+        },
+        {
+          "target": [
+            "#uij-e116"
+          ],
+          "selector": "#uij-e116",
+          "bbox": null,
+          "html": "<p id=\"uij-e116\">\nThe built-in <a href=\"lang_datefunc.html\" id=\"uij-e117\">date and time functions</a> of SQLite understand date/times in\nall of the formats above, and can freely change between them.\nW"
+        },
+        {
+          "target": [
+            "#uij-e117"
+          ],
+          "selector": "#uij-e117",
+          "bbox": null,
+          "html": "<a href=\"lang_datefunc.html\" id=\"uij-e117\">date and time functions</a>"
+        },
+        {
+          "target": [
+            "#the_datatype_is_optional"
+          ],
+          "selector": "#the_datatype_is_optional",
+          "bbox": null,
+          "html": "<h2 id=\"the_datatype_is_optional\"><span id=\"uij-e118\">3.3. </span>The datatype is optional</h2>"
+        },
+        {
+          "target": [
+            "#uij-e118"
+          ],
+          "selector": "#uij-e118",
+          "bbox": null,
+          "html": "<span id=\"uij-e118\">3.3. </span>"
+        },
+        {
+          "target": [
+            "#uij-e119"
+          ],
+          "selector": "#uij-e119",
+          "bbox": null,
+          "html": "<p id=\"uij-e119\">\nBecause SQLite is flexible and forgiving with regard to datatypes,\ntable columns can be created that have no specified datatype at all.\nFor example:\n</p>"
+        },
+        {
+          "target": [
+            "#uij-e121"
+          ],
+          "selector": "#uij-e121",
+          "bbox": null,
+          "html": "<pre id=\"uij-e121\">CREATE TABLE t1(a,b,c,d);\n</pre>"
+        },
+        {
+          "target": [
+            "#uij-e122"
+          ],
+          "selector": "#uij-e122",
+          "bbox": null,
+          "html": "<p id=\"uij-e122\">The table \"t1\" has four columns \"a\", \"b\", \"c\", and \"d\" that have\nno particular datatype assigned.  You can store anything you want in\nany of those columns.</p>"
+        },
+        {
+          "target": [
+            "#foreign_key_enforcement_is_off_by_default"
+          ],
+          "selector": "#foreign_key_enforcement_is_off_by_default",
+          "bbox": null,
+          "html": "<h1 id=\"foreign_key_enforcement_is_off_by_default\"><span id=\"uij-e123\">4. </span>Foreign Key Enforcement Is Off By Default</h1>"
+        },
+        {
+          "target": [
+            "#uij-e123"
+          ],
+          "selector": "#uij-e123",
+          "bbox": null,
+          "html": "<span id=\"uij-e123\">4. </span>"
+        },
+        {
+          "target": [
+            "#uij-e124"
+          ],
+          "selector": "#uij-e124",
+          "bbox": null,
+          "html": "<p id=\"uij-e124\">"
+        },
+        {
+          "target": [
+            "#uij-e125"
+          ],
+          "selector": "#uij-e125",
+          "bbox": null,
+          "html": "<a href=\"releaselog/3_6_19.html\" id=\"uij-e125\">version 3.6.19</a>"
+        },
+        {
+          "target": [
+            "#uij-e126"
+          ],
+          "selector": "#uij-e126",
+          "bbox": null,
+          "html": "<p id=\"uij-e126\">"
+        },
+        {
+          "target": [
+            "#uij-e127"
+          ],
+          "selector": "#uij-e127",
+          "bbox": null,
+          "html": "<a href=\"pragma.html#pragma_foreign_keys\" id=\"uij-e127\">PRAGMA foreign_keys</a>"
+        },
+        {
+          "target": [
+            "#uij-e128"
+          ],
+          "selector": "#uij-e128",
+          "bbox": null,
+          "html": "<a href=\"compile.html#default_foreign_keys\" id=\"uij-e128\">-DSQLITE_DEFAULT_FOREIGN_KEYS=1</a>"
+        },
+        {
+          "target": [
+            "#primary_keys_can_sometimes_contain_nulls"
+          ],
+          "selector": "#primary_keys_can_sometimes_contain_nulls",
+          "bbox": null,
+          "html": "<h1 id=\"primary_keys_can_sometimes_contain_nulls\"><span id=\"uij-e129\">5. </span>PRIMARY KEYs Can Sometimes Contain NULLs</h1>"
+        },
+        {
+          "target": [
+            "#uij-e129"
+          ],
+          "selector": "#uij-e129",
+          "bbox": null,
+          "html": "<span id=\"uij-e129\">5. </span>"
+        },
+        {
+          "target": [
+            "#uij-e130"
+          ],
+          "selector": "#uij-e130",
+          "bbox": null,
+          "html": "<p id=\"uij-e130\">"
+        },
+        {
+          "target": [
+            "#uij-e131"
+          ],
+          "selector": "#uij-e131",
+          "bbox": null,
+          "html": "<p id=\"uij-e131\">\nExceptions:\n</p>"
+        },
+        {
+          "target": [
+            "#uij-e134"
+          ],
+          "selector": "#uij-e134",
+          "bbox": null,
+          "html": "<p id=\"uij-e134\">"
+        },
+        {
+          "target": [
+            "#uij-e135"
+          ],
+          "selector": "#uij-e135",
+          "bbox": null,
+          "html": "<a href=\"lang_createtable.html#rowid\" id=\"uij-e135\">INTEGER PRIMARY KEY</a>"
+        },
+        {
+          "target": [
+            "#uij-e136"
+          ],
+          "selector": "#uij-e136",
+          "bbox": null,
+          "html": "<a href=\"lang_createtable.html#rowid\" id=\"uij-e136\">ROWID</a>"
+        },
+        {
+          "target": [
+            "#uij-e138"
+          ],
+          "selector": "#uij-e138",
+          "bbox": null,
+          "html": "<p id=\"uij-e138\">\nThe <a href=\"withoutrowid.html\" id=\"uij-e139\">WITHOUT ROWID</a> and <a href=\"stricttables.html\" id=\"uij-e140\">STRICT</a> features was added after this bug was\ndiscovered, and so WITH"
+        },
+        {
+          "target": [
+            "#uij-e139"
+          ],
+          "selector": "#uij-e139",
+          "bbox": null,
+          "html": "<a href=\"withoutrowid.html\" id=\"uij-e139\">WITHOUT ROWID</a>"
+        },
+        {
+          "target": [
+            "#uij-e140"
+          ],
+          "selector": "#uij-e140",
+          "bbox": null,
+          "html": "<a href=\"stricttables.html\" id=\"uij-e140\">STRICT</a>"
+        },
+        {
+          "target": [
+            "#aggregate_queries_can_contain_non_aggregate_result_columns_that_are_not_in_the_group_by_clause"
+          ],
+          "selector": "#aggregate_queries_can_contain_non_aggregate_result_columns_that_are_not_in_the_group_by_clause",
+          "bbox": null,
+          "html": "<h1 id=\"aggregate_queries_can_contain_non_aggregate_result_columns_that_are_not_in_the_group_by_clause\"><span id=\"uij-e141\">6. </span>Aggregate Queries Can Contain Non-Aggregate Result Columns\nThat Ar"
+        },
+        {
+          "target": [
+            "#uij-e141"
+          ],
+          "selector": "#uij-e141",
+          "bbox": null,
+          "html": "<span id=\"uij-e141\">6. </span>"
+        },
+        {
+          "target": [
+            "#uij-e142"
+          ],
+          "selector": "#uij-e142",
+          "bbox": null,
+          "html": "<p id=\"uij-e142\">"
+        },
+        {
+          "target": [
+            "#uij-e143"
+          ],
+          "selector": "#uij-e143",
+          "bbox": null,
+          "html": "<p id=\"uij-e143\">\nSQLite does not enforce this restriction.\nThe output columns from an aggregate query can be arbitrary expressions\nthat include columns not found in the GROUP BY clause.\nThis feature "
+        },
+        {
+          "target": [
+            "#uij-e146"
+          ],
+          "selector": "#uij-e146",
+          "bbox": null,
+          "html": "<p id=\"uij-e146\">"
+        },
+        {
+          "target": [
+            "#uij-e147"
+          ],
+          "selector": "#uij-e147",
+          "bbox": null,
+          "html": "<p id=\"uij-e147\">\nFor example to find the highest paid employee:\n</p>"
+        },
+        {
+          "target": [
+            "#uij-e149"
+          ],
+          "selector": "#uij-e149",
+          "bbox": null,
+          "html": "<pre id=\"uij-e149\">SELECT max(salary), first_name, last_name FROM employee;\n</pre>"
+        },
+        {
+          "target": [
+            "#uij-e150"
+          ],
+          "selector": "#uij-e150",
+          "bbox": null,
+          "html": "<p id=\"uij-e150\">\nIn the query above, the values for the first_name and last_name columns\nwill correspond to the row that satisfied the max(salary) condition.\n\n</p>"
+        },
+        {
+          "target": [
+            "#uij-e152"
+          ],
+          "selector": "#uij-e152",
+          "bbox": null,
+          "html": "<p id=\"uij-e152\">"
+        },
+        {
+          "target": [
+            "#sqlite_does_not_do_full_unicode_case_folding_by_default"
+          ],
+          "selector": "#sqlite_does_not_do_full_unicode_case_folding_by_default",
+          "bbox": null,
+          "html": "<h1 id=\"sqlite_does_not_do_full_unicode_case_folding_by_default\"><span id=\"uij-e153\">7. </span>SQLite Does Not Do Full Unicode Case Folding By Default</h1>"
+        },
+        {
+          "target": [
+            "#uij-e153"
+          ],
+          "selector": "#uij-e153",
+          "bbox": null,
+          "html": "<span id=\"uij-e153\">7. </span>"
+        },
+        {
+          "target": [
+            "#uij-e154"
+          ],
+          "selector": "#uij-e154",
+          "bbox": null,
+          "html": "<p id=\"uij-e154\">\nSQLite does not know about the upper-case/lower-case distinction\nfor all unicode characters.  SQL functions like\nupper() and lower() only work on ASCII characters.  There are two\nrea"
+        },
+        {
+          "target": [
+            "#uij-e157"
+          ],
+          "selector": "#uij-e157",
+          "bbox": null,
+          "html": "<p id=\"uij-e157\"> Though stable now, when SQLite was first designed, the rules for\n     unicode case folding were still in flux.  That means that the\n     behavior might have changed with each new uni"
+        },
+        {
+          "target": [
+            "#uij-e159"
+          ],
+          "selector": "#uij-e159",
+          "bbox": null,
+          "html": "<p id=\"uij-e159\"> The tables necessary to do full and proper unicode case folding are\n     larger than the whole SQLite library.\n</p>"
+        },
+        {
+          "target": [
+            "#uij-e160"
+          ],
+          "selector": "#uij-e160",
+          "bbox": null,
+          "html": "<p id=\"uij-e160\">"
+        },
+        {
+          "target": [
+            "#uij-e161"
+          ],
+          "selector": "#uij-e161",
+          "bbox": null,
+          "html": "<a href=\"compile.html#enable_icu\" id=\"uij-e161\">-DSQLITE_ENABLE_ICU</a>"
+        },
+        {
+          "target": [
+            "#uij-e162"
+          ],
+          "selector": "#uij-e162",
+          "bbox": null,
+          "html": "<a href=\"https://icu.unicode.org\" id=\"uij-e162\">International Components for Unicode</a>"
+        },
+        {
+          "target": [
+            "#double_quoted_string_literals_are_accepted"
+          ],
+          "selector": "#double_quoted_string_literals_are_accepted",
+          "bbox": null,
+          "html": "<h1 id=\"double_quoted_string_literals_are_accepted\"><span id=\"uij-e164\">8. </span>Double-quoted String Literals Are Accepted</h1>"
+        },
+        {
+          "target": [
+            "#uij-e164"
+          ],
+          "selector": "#uij-e164",
+          "bbox": null,
+          "html": "<span id=\"uij-e164\">8. </span>"
+        },
+        {
+          "target": [
+            "#uij-e165"
+          ],
+          "selector": "#uij-e165",
+          "bbox": null,
+          "html": "<p id=\"uij-e165\">\nThe SQL standard requires double-quotes around identifiers\nand single-quotes around string literals.  For example:\n</p>"
+        },
+        {
+          "target": [
+            "#uij-e168"
+          ],
+          "selector": "#uij-e168",
+          "bbox": null,
+          "html": "<tt id=\"uij-e168\">\"this is a legal SQL column name\"</tt>"
+        },
+        {
+          "target": [
+            "#uij-e170"
+          ],
+          "selector": "#uij-e170",
+          "bbox": null,
+          "html": "<tt id=\"uij-e170\">'this is an SQL string literal'</tt>"
+        },
+        {
+          "target": [
+            "#uij-e171"
+          ],
+          "selector": "#uij-e171",
+          "bbox": null,
+          "html": "<p id=\"uij-e171\">"
+        },
+        {
+          "target": [
+            "#uij-e172"
+          ],
+          "selector": "#uij-e172",
+          "bbox": null,
+          "html": "<p id=\"uij-e172\">"
+        },
+        {
+          "target": [
+            "#uij-e173"
+          ],
+          "selector": "#uij-e173",
+          "bbox": null,
+          "html": "<p id=\"uij-e173\">"
+        },
+        {
+          "target": [
+            "#uij-e174"
+          ],
+          "selector": "#uij-e174",
+          "bbox": null,
+          "html": "<p id=\"uij-e174\">\nAs of SQLite 3.27.0 (2019-02-07) the use of a double-quoted\nstring literal causes a warning message to be sent to the <a href=\"errlog.html\" id=\"uij-e175\">error log</a>.\n</p>"
+        },
+        {
+          "target": [
+            "#uij-e175"
+          ],
+          "selector": "#uij-e175",
+          "bbox": null,
+          "html": "<a href=\"errlog.html\" id=\"uij-e175\">error log</a>"
+        },
+        {
+          "target": [
+            "#uij-e176"
+          ],
+          "selector": "#uij-e176",
+          "bbox": null,
+          "html": "<p id=\"uij-e176\">"
+        },
+        {
+          "target": [
+            "#uij-e177"
+          ],
+          "selector": "#uij-e177",
+          "bbox": null,
+          "html": "<a href=\"c3ref/c_dbconfig_defensive.html#sqlitedbconfigdqsddl\" id=\"uij-e177\">SQLITE_DBCONFIG_DQS_DDL</a>"
+        },
+        {
+          "target": [
+            "#uij-e178"
+          ],
+          "selector": "#uij-e178",
+          "bbox": null,
+          "html": "<a href=\"c3ref/c_dbconfig_defensive.html#sqlitedbconfigdqsdml\" id=\"uij-e178\">SQLITE_DBCONFIG_DQS_DML</a>"
+        },
+        {
+          "target": [
+            "#uij-e179"
+          ],
+          "selector": "#uij-e179",
+          "bbox": null,
+          "html": "<a href=\"c3ref/db_config.html\" id=\"uij-e179\">sqlite3_db_config()</a>"
+        },
+        {
+          "target": [
+            "#uij-e180"
+          ],
+          "selector": "#uij-e180",
+          "bbox": null,
+          "html": "<a href=\"compile.html#dqs\" id=\"uij-e180\">-DSQLITE_DQS=<i id=\"uij-e181\">N</i></a>"
+        },
+        {
+          "target": [
+            "#uij-e181"
+          ],
+          "selector": "#uij-e181",
+          "bbox": null,
+          "html": "<i id=\"uij-e181\">N</i>"
+        },
+        {
+          "target": [
+            "#uij-e183"
+          ],
+          "selector": "#uij-e183",
+          "bbox": null,
+          "html": "<pre id=\"uij-e183\">sqlite3_db_config(db, SQLITE_DBCONFIG_DQS_DDL, 0, (void*)0);\nsqlite3_db_config(db, SQLITE_DBCONFIG_DQS_DML, 0, (void*)0);\n</pre>"
+        },
+        {
+          "target": [
+            "#uij-e184"
+          ],
+          "selector": "#uij-e184",
+          "bbox": null,
+          "html": "<p id=\"uij-e184\">Or, if double-quoted string literals are disabled by default, but need\nto be selectively enabled for some historical database connections,\nthat can be done using the same C-code as sh"
+        },
+        {
+          "target": [
+            "#uij-e185"
+          ],
+          "selector": "#uij-e185",
+          "bbox": null,
+          "html": "<p id=\"uij-e185\">\nAs of SQLite 3.41.0 (2023-02-21) SQLITE_DBCONFIG_DQS_DDL and\nSQLITE_DBCONFIG_DQS_DML are disabled by default in the <a href=\"cli.html\" id=\"uij-e186\">CLI</a>.  Use\nthe \".dbconfig\" dot"
+        },
+        {
+          "target": [
+            "#uij-e186"
+          ],
+          "selector": "#uij-e186",
+          "bbox": null,
+          "html": "<a href=\"cli.html\" id=\"uij-e186\">CLI</a>"
+        },
+        {
+          "target": [
+            "#keywords_can_often_be_used_as_identifiers"
+          ],
+          "selector": "#keywords_can_often_be_used_as_identifiers",
+          "bbox": null,
+          "html": "<h1 id=\"keywords_can_often_be_used_as_identifiers\"><span id=\"uij-e187\">9. </span>Keywords Can Often Be Used As Identifiers</h1>"
+        },
+        {
+          "target": [
+            "#uij-e187"
+          ],
+          "selector": "#uij-e187",
+          "bbox": null,
+          "html": "<span id=\"uij-e187\">9. </span>"
+        },
+        {
+          "target": [
+            "#uij-e188"
+          ],
+          "selector": "#uij-e188",
+          "bbox": null,
+          "html": "<p id=\"uij-e188\">"
+        },
+        {
+          "target": [
+            "#uij-e189"
+          ],
+          "selector": "#uij-e189",
+          "bbox": null,
+          "html": "<p id=\"uij-e189\">\nFor example, the following statement is valid in SQLite:\n</p>"
+        },
+        {
+          "target": [
+            "#uij-e191"
+          ],
+          "selector": "#uij-e191",
+          "bbox": null,
+          "html": "<pre id=\"uij-e191\">CREATE TABLE union(true INT, with BOOLEAN);\n</pre>"
+        },
+        {
+          "target": [
+            "#uij-e192"
+          ],
+          "selector": "#uij-e192",
+          "bbox": null,
+          "html": "<p id=\"uij-e192\">\nThe same SQL statement will fail on every other SQL implementation that\nwe know of due to the use of keywords \"union\", \"true\", and \"with\" as\nidentifiers.\n</p>"
+        },
+        {
+          "target": [
+            "#uij-e193"
+          ],
+          "selector": "#uij-e193",
+          "bbox": null,
+          "html": "<p id=\"uij-e193\">"
+        },
+        {
+          "target": [
+            "#uij-e195"
+          ],
+          "selector": "#uij-e195",
+          "bbox": null,
+          "html": "<pre id=\"uij-e195\">CREATE TRIGGER AFTER INSERT ON tableX BEGIN\n  INSERT INTO tableY(b) VALUES(new.a);\nEND;\n</pre>"
+        },
+        {
+          "target": [
+            "#uij-e196"
+          ],
+          "selector": "#uij-e196",
+          "bbox": null,
+          "html": "<p id=\"uij-e196\">The trigger created by the previous statement is named \"AFTER\"\nand it is a \"BEFORE\" trigger.  The \"AFTER\" token is used as an identifier\ninstead of as a keyword, as that is the only w"
+        },
+        {
+          "target": [
+            "#uij-e198"
+          ],
+          "selector": "#uij-e198",
+          "bbox": null,
+          "html": "<pre id=\"uij-e198\">CREATE TABLE tableZ(INTEGER PRIMARY KEY);\n</pre>"
+        },
+        {
+          "target": [
+            "#uij-e199"
+          ],
+          "selector": "#uij-e199",
+          "bbox": null,
+          "html": "<p id=\"uij-e199\">"
+        },
+        {
+          "target": [
+            "#uij-e200"
+          ],
+          "selector": "#uij-e200",
+          "bbox": null,
+          "html": "<em id=\"uij-e200\">not</em>"
+        },
+        {
+          "target": [
+            "#uij-e201"
+          ],
+          "selector": "#uij-e201",
+          "bbox": null,
+          "html": "<a href=\"lang_createtable.html#rowid\" id=\"uij-e201\">INTEGER PRIMARY KEY</a>"
+        },
+        {
+          "target": [
+            "#dubious_sql_is_allowed_without_any_error_or_warning"
+          ],
+          "selector": "#dubious_sql_is_allowed_without_any_error_or_warning",
+          "bbox": null,
+          "html": "<h1 id=\"dubious_sql_is_allowed_without_any_error_or_warning\"><span id=\"uij-e202\">10. </span>Dubious SQL Is Allowed Without Any Error Or Warning</h1>"
+        },
+        {
+          "target": [
+            "#uij-e202"
+          ],
+          "selector": "#uij-e202",
+          "bbox": null,
+          "html": "<span id=\"uij-e202\">10. </span>"
+        },
+        {
+          "target": [
+            "#uij-e203"
+          ],
+          "selector": "#uij-e203",
+          "bbox": null,
+          "html": "<p id=\"uij-e203\">"
+        },
+        {
+          "target": [
+            "#uij-e204"
+          ],
+          "selector": "#uij-e204",
+          "bbox": null,
+          "html": "<a href=\"https://en.wikipedia.org/wiki/Robustness_principle\" id=\"uij-e204\">Postel's Law</a>"
+        },
+        {
+          "target": [
+            "#uij-e206"
+          ],
+          "selector": "#uij-e206",
+          "bbox": null,
+          "html": "<p id=\"uij-e206\">\nThere are now millions of applications that take advantage of\nSQLite's flexible and forgiving design choices.\nWe cannot change SQLite to follow the current preference toward\nstrict a"
+        },
+        {
+          "target": [
+            "#autoincrement_does_not_work_the_same_as_mysql"
+          ],
+          "selector": "#autoincrement_does_not_work_the_same_as_mysql",
+          "bbox": null,
+          "html": "<h1 id=\"autoincrement_does_not_work_the_same_as_mysql\"><span id=\"uij-e207\">11. </span>AUTOINCREMENT Does Not Work The Same As MySQL</h1>"
+        },
+        {
+          "target": [
+            "#uij-e207"
+          ],
+          "selector": "#uij-e207",
+          "bbox": null,
+          "html": "<span id=\"uij-e207\">11. </span>"
+        },
+        {
+          "target": [
+            "#uij-e208"
+          ],
+          "selector": "#uij-e208",
+          "bbox": null,
+          "html": "<p id=\"uij-e208\">The <a href=\"autoinc.html\" id=\"uij-e209\">AUTOINCREMENT</a> feature in SQLite works differently than\nit does in MySQL.  This often causes confusion for people who\ninitially learned SQL"
+        },
+        {
+          "target": [
+            "#uij-e209"
+          ],
+          "selector": "#uij-e209",
+          "bbox": null,
+          "html": "<a href=\"autoinc.html\" id=\"uij-e209\">AUTOINCREMENT</a>"
+        },
+        {
+          "target": [
+            "#uij-e210"
+          ],
+          "selector": "#uij-e210",
+          "bbox": null,
+          "html": "<p id=\"uij-e210\">See the <a href=\"autoinc.html\" id=\"uij-e211\">SQLite AUTOINCREMENT documentation</a> for\ndetailed instructions on what AUTOINCREMENT does and does not do\nin SQLite.\n\n</p>"
+        },
+        {
+          "target": [
+            "#uij-e211"
+          ],
+          "selector": "#uij-e211",
+          "bbox": null,
+          "html": "<a href=\"autoinc.html\" id=\"uij-e211\">SQLite AUTOINCREMENT documentation</a>"
+        },
+        {
+          "target": [
+            "#nul_characters_are_allowed_in_text_strings"
+          ],
+          "selector": "#nul_characters_are_allowed_in_text_strings",
+          "bbox": null,
+          "html": "<h1 id=\"nul_characters_are_allowed_in_text_strings\"><span id=\"uij-e212\">12. </span>NUL Characters Are Allowed In Text Strings</h1>"
+        },
+        {
+          "target": [
+            "#uij-e212"
+          ],
+          "selector": "#uij-e212",
+          "bbox": null,
+          "html": "<span id=\"uij-e212\">12. </span>"
+        },
+        {
+          "target": [
+            "#uij-e213"
+          ],
+          "selector": "#uij-e213",
+          "bbox": null,
+          "html": "<p id=\"uij-e213\">NUL characters (ASCII code 0x00 and Unicode \\u0000) may appear in\nthe middle of strings in SQLite.  This can lead to unexpected behavior.\nSee the \"<a href=\"nulinstr.html\" id=\"uij-e214"
+        },
+        {
+          "target": [
+            "#uij-e214"
+          ],
+          "selector": "#uij-e214",
+          "bbox": null,
+          "html": "<a href=\"nulinstr.html\" id=\"uij-e214\">NUL characters in strings</a>"
+        },
+        {
+          "target": [
+            "#sqlite_distinguishes_between_integer_and_text_literals"
+          ],
+          "selector": "#sqlite_distinguishes_between_integer_and_text_literals",
+          "bbox": null,
+          "html": "<h1 id=\"sqlite_distinguishes_between_integer_and_text_literals\"><span id=\"uij-e215\">13. </span>SQLite Distinguishes Between Integer And Text Literals</h1>"
+        },
+        {
+          "target": [
+            "#uij-e215"
+          ],
+          "selector": "#uij-e215",
+          "bbox": null,
+          "html": "<span id=\"uij-e215\">13. </span>"
+        },
+        {
+          "target": [
+            "#uij-e216"
+          ],
+          "selector": "#uij-e216",
+          "bbox": null,
+          "html": "<p id=\"uij-e216\">SQLite says that the following query returns false:\n</p>"
+        },
+        {
+          "target": [
+            "#uij-e218"
+          ],
+          "selector": "#uij-e218",
+          "bbox": null,
+          "html": "<pre id=\"uij-e218\">SELECT 1='1';\n</pre>"
+        },
+        {
+          "target": [
+            "#uij-e219"
+          ],
+          "selector": "#uij-e219",
+          "bbox": null,
+          "html": "<p id=\"uij-e219\">It does this because an integer is not a string.  \nEvery other major SQL database engine says this is true, for reasons\nthat the creator of SQLite does not understand.\n\n</p>"
+        },
+        {
+          "target": [
+            "#sqlite_gets_the_precedence_of_comma_joins_wrong"
+          ],
+          "selector": "#sqlite_gets_the_precedence_of_comma_joins_wrong",
+          "bbox": null,
+          "html": "<h1 id=\"sqlite_gets_the_precedence_of_comma_joins_wrong\"><span id=\"uij-e220\">14. </span>SQLite Gets The Precedence Of Comma-Joins Wrong</h1>"
+        },
+        {
+          "target": [
+            "#uij-e220"
+          ],
+          "selector": "#uij-e220",
+          "bbox": null,
+          "html": "<span id=\"uij-e220\">14. </span>"
+        },
+        {
+          "target": [
+            "#uij-e221"
+          ],
+          "selector": "#uij-e221",
+          "bbox": null,
+          "html": "<p id=\"uij-e221\">SQLite gives all join operators equal precedence and processes them\nfrom left to right.  But this is not quite correct.  It should be that\ncomma-joins have lower precedence than all o"
+        },
+        {
+          "target": [
+            "#uij-e223"
+          ],
+          "selector": "#uij-e223",
+          "bbox": null,
+          "html": "<p id=\"uij-e223\">\n... FROM a, b RIGHT JOIN c, d ...\n</p>"
+        },
+        {
+          "target": [
+            "#uij-e224"
+          ],
+          "selector": "#uij-e224",
+          "bbox": null,
+          "html": "<p id=\"uij-e224\">Should be parsed as follows:\n\n</p>"
+        },
+        {
+          "target": [
+            "#uij-e254"
+          ],
+          "selector": "#uij-e254",
+          "bbox": null,
+          "html": "<p id=\"uij-e254\">But SQLite instead parses the FROM clause like this:\n\n</p>"
+        },
+        {
+          "target": [
+            "#uij-e284"
+          ],
+          "selector": "#uij-e284",
+          "bbox": null,
+          "html": "<p id=\"uij-e284\">The problem can only make a difference in the result when using\nRIGHT OUTER JOIN or FULL OUTER JOIN in the same FROM clause with\ncomma-joins, which rarely happens in practice.  And\nth"
+        },
+        {
+          "target": [
+            "#uij-e286"
+          ],
+          "selector": "#uij-e286",
+          "bbox": null,
+          "html": "<p id=\"uij-e286\">\n... FROM a, (b RIGHT JOIN c), d ...\n</p>"
+        }
+      ]
+    },
+    {
+      "rule_id": "document-title",
+      "impact": "",
+      "tags": [
+        "wcag2a",
+        "wcag242"
+      ],
+      "description": "Ensure each HTML document contains a non-empty <title> element",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/document-title?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "html"
+          ],
+          "selector": "html",
+          "bbox": null,
+          "html": "<html>"
+        }
+      ]
+    },
+    {
+      "rule_id": "empty-heading",
+      "impact": "",
+      "tags": [],
+      "description": "Ensure headings have discernible text",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/empty-heading?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#overview"
+          ],
+          "selector": "#overview",
+          "bbox": null,
+          "html": "<h1 id=\"overview\"><span id=\"uij-e79\">1. </span>Overview</h1>"
+        },
+        {
+          "target": [
+            "#sqlite_is_embedded_not_client_server"
+          ],
+          "selector": "#sqlite_is_embedded_not_client_server",
+          "bbox": null,
+          "html": "<h1 id=\"sqlite_is_embedded_not_client_server\"><span id=\"uij-e84\">2. </span>SQLite Is Embedded, Not Client-Server</h1>"
+        },
+        {
+          "target": [
+            "#flexible_typing"
+          ],
+          "selector": "#flexible_typing",
+          "bbox": null,
+          "html": "<h1 id=\"flexible_typing\"><span id=\"uij-e92\">3. </span>Flexible Typing</h1>"
+        },
+        {
+          "target": [
+            "#no_separate_boolean_datatype"
+          ],
+          "selector": "#no_separate_boolean_datatype",
+          "bbox": null,
+          "html": "<h2 id=\"no_separate_boolean_datatype\"><span id=\"uij-e105\">3.1. </span>No Separate BOOLEAN Datatype</h2>"
+        },
+        {
+          "target": [
+            "#no_separate_datetime_datatype"
+          ],
+          "selector": "#no_separate_datetime_datatype",
+          "bbox": null,
+          "html": "<h2 id=\"no_separate_datetime_datatype\"><span id=\"uij-e109\">3.2. </span>No Separate DATETIME Datatype</h2>"
+        },
+        {
+          "target": [
+            "#the_datatype_is_optional"
+          ],
+          "selector": "#the_datatype_is_optional",
+          "bbox": null,
+          "html": "<h2 id=\"the_datatype_is_optional\"><span id=\"uij-e118\">3.3. </span>The datatype is optional</h2>"
+        },
+        {
+          "target": [
+            "#foreign_key_enforcement_is_off_by_default"
+          ],
+          "selector": "#foreign_key_enforcement_is_off_by_default",
+          "bbox": null,
+          "html": "<h1 id=\"foreign_key_enforcement_is_off_by_default\"><span id=\"uij-e123\">4. </span>Foreign Key Enforcement Is Off By Default</h1>"
+        },
+        {
+          "target": [
+            "#primary_keys_can_sometimes_contain_nulls"
+          ],
+          "selector": "#primary_keys_can_sometimes_contain_nulls",
+          "bbox": null,
+          "html": "<h1 id=\"primary_keys_can_sometimes_contain_nulls\"><span id=\"uij-e129\">5. </span>PRIMARY KEYs Can Sometimes Contain NULLs</h1>"
+        },
+        {
+          "target": [
+            "#aggregate_queries_can_contain_non_aggregate_result_columns_that_are_not_in_the_group_by_clause"
+          ],
+          "selector": "#aggregate_queries_can_contain_non_aggregate_result_columns_that_are_not_in_the_group_by_clause",
+          "bbox": null,
+          "html": "<h1 id=\"aggregate_queries_can_contain_non_aggregate_result_columns_that_are_not_in_the_group_by_clause\"><span id=\"uij-e141\">6. </span>Aggregate Queries Can Contain Non-Aggregate Result Columns\nThat Ar"
+        },
+        {
+          "target": [
+            "#sqlite_does_not_do_full_unicode_case_folding_by_default"
+          ],
+          "selector": "#sqlite_does_not_do_full_unicode_case_folding_by_default",
+          "bbox": null,
+          "html": "<h1 id=\"sqlite_does_not_do_full_unicode_case_folding_by_default\"><span id=\"uij-e153\">7. </span>SQLite Does Not Do Full Unicode Case Folding By Default</h1>"
+        },
+        {
+          "target": [
+            "#double_quoted_string_literals_are_accepted"
+          ],
+          "selector": "#double_quoted_string_literals_are_accepted",
+          "bbox": null,
+          "html": "<h1 id=\"double_quoted_string_literals_are_accepted\"><span id=\"uij-e164\">8. </span>Double-quoted String Literals Are Accepted</h1>"
+        },
+        {
+          "target": [
+            "#keywords_can_often_be_used_as_identifiers"
+          ],
+          "selector": "#keywords_can_often_be_used_as_identifiers",
+          "bbox": null,
+          "html": "<h1 id=\"keywords_can_often_be_used_as_identifiers\"><span id=\"uij-e187\">9. </span>Keywords Can Often Be Used As Identifiers</h1>"
+        },
+        {
+          "target": [
+            "#dubious_sql_is_allowed_without_any_error_or_warning"
+          ],
+          "selector": "#dubious_sql_is_allowed_without_any_error_or_warning",
+          "bbox": null,
+          "html": "<h1 id=\"dubious_sql_is_allowed_without_any_error_or_warning\"><span id=\"uij-e202\">10. </span>Dubious SQL Is Allowed Without Any Error Or Warning</h1>"
+        },
+        {
+          "target": [
+            "#autoincrement_does_not_work_the_same_as_mysql"
+          ],
+          "selector": "#autoincrement_does_not_work_the_same_as_mysql",
+          "bbox": null,
+          "html": "<h1 id=\"autoincrement_does_not_work_the_same_as_mysql\"><span id=\"uij-e207\">11. </span>AUTOINCREMENT Does Not Work The Same As MySQL</h1>"
+        },
+        {
+          "target": [
+            "#nul_characters_are_allowed_in_text_strings"
+          ],
+          "selector": "#nul_characters_are_allowed_in_text_strings",
+          "bbox": null,
+          "html": "<h1 id=\"nul_characters_are_allowed_in_text_strings\"><span id=\"uij-e212\">12. </span>NUL Characters Are Allowed In Text Strings</h1>"
+        },
+        {
+          "target": [
+            "#sqlite_distinguishes_between_integer_and_text_literals"
+          ],
+          "selector": "#sqlite_distinguishes_between_integer_and_text_literals",
+          "bbox": null,
+          "html": "<h1 id=\"sqlite_distinguishes_between_integer_and_text_literals\"><span id=\"uij-e215\">13. </span>SQLite Distinguishes Between Integer And Text Literals</h1>"
+        },
+        {
+          "target": [
+            "#sqlite_gets_the_precedence_of_comma_joins_wrong"
+          ],
+          "selector": "#sqlite_gets_the_precedence_of_comma_joins_wrong",
+          "bbox": null,
+          "html": "<h1 id=\"sqlite_gets_the_precedence_of_comma_joins_wrong\"><span id=\"uij-e220\">14. </span>SQLite Gets The Precedence Of Comma-Joins Wrong</h1>"
+        }
+      ]
+    },
+    {
+      "rule_id": "heading-order",
+      "impact": "",
+      "tags": [],
+      "description": "Ensure the order of headings is semantically correct",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/heading-order?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#overview"
+          ],
+          "selector": "#overview",
+          "bbox": null,
+          "html": "<h1 id=\"overview\"><span id=\"uij-e79\">1. </span>Overview</h1>"
+        },
+        {
+          "target": [
+            "#sqlite_is_embedded_not_client_server"
+          ],
+          "selector": "#sqlite_is_embedded_not_client_server",
+          "bbox": null,
+          "html": "<h1 id=\"sqlite_is_embedded_not_client_server\"><span id=\"uij-e84\">2. </span>SQLite Is Embedded, Not Client-Server</h1>"
+        },
+        {
+          "target": [
+            "#flexible_typing"
+          ],
+          "selector": "#flexible_typing",
+          "bbox": null,
+          "html": "<h1 id=\"flexible_typing\"><span id=\"uij-e92\">3. </span>Flexible Typing</h1>"
+        },
+        {
+          "target": [
+            "#no_separate_boolean_datatype"
+          ],
+          "selector": "#no_separate_boolean_datatype",
+          "bbox": null,
+          "html": "<h2 id=\"no_separate_boolean_datatype\"><span id=\"uij-e105\">3.1. </span>No Separate BOOLEAN Datatype</h2>"
+        },
+        {
+          "target": [
+            "#no_separate_datetime_datatype"
+          ],
+          "selector": "#no_separate_datetime_datatype",
+          "bbox": null,
+          "html": "<h2 id=\"no_separate_datetime_datatype\"><span id=\"uij-e109\">3.2. </span>No Separate DATETIME Datatype</h2>"
+        },
+        {
+          "target": [
+            "#the_datatype_is_optional"
+          ],
+          "selector": "#the_datatype_is_optional",
+          "bbox": null,
+          "html": "<h2 id=\"the_datatype_is_optional\"><span id=\"uij-e118\">3.3. </span>The datatype is optional</h2>"
+        },
+        {
+          "target": [
+            "#foreign_key_enforcement_is_off_by_default"
+          ],
+          "selector": "#foreign_key_enforcement_is_off_by_default",
+          "bbox": null,
+          "html": "<h1 id=\"foreign_key_enforcement_is_off_by_default\"><span id=\"uij-e123\">4. </span>Foreign Key Enforcement Is Off By Default</h1>"
+        },
+        {
+          "target": [
+            "#primary_keys_can_sometimes_contain_nulls"
+          ],
+          "selector": "#primary_keys_can_sometimes_contain_nulls",
+          "bbox": null,
+          "html": "<h1 id=\"primary_keys_can_sometimes_contain_nulls\"><span id=\"uij-e129\">5. </span>PRIMARY KEYs Can Sometimes Contain NULLs</h1>"
+        },
+        {
+          "target": [
+            "#aggregate_queries_can_contain_non_aggregate_result_columns_that_are_not_in_the_group_by_clause"
+          ],
+          "selector": "#aggregate_queries_can_contain_non_aggregate_result_columns_that_are_not_in_the_group_by_clause",
+          "bbox": null,
+          "html": "<h1 id=\"aggregate_queries_can_contain_non_aggregate_result_columns_that_are_not_in_the_group_by_clause\"><span id=\"uij-e141\">6. </span>Aggregate Queries Can Contain Non-Aggregate Result Columns\nThat Ar"
+        },
+        {
+          "target": [
+            "#sqlite_does_not_do_full_unicode_case_folding_by_default"
+          ],
+          "selector": "#sqlite_does_not_do_full_unicode_case_folding_by_default",
+          "bbox": null,
+          "html": "<h1 id=\"sqlite_does_not_do_full_unicode_case_folding_by_default\"><span id=\"uij-e153\">7. </span>SQLite Does Not Do Full Unicode Case Folding By Default</h1>"
+        },
+        {
+          "target": [
+            "#double_quoted_string_literals_are_accepted"
+          ],
+          "selector": "#double_quoted_string_literals_are_accepted",
+          "bbox": null,
+          "html": "<h1 id=\"double_quoted_string_literals_are_accepted\"><span id=\"uij-e164\">8. </span>Double-quoted String Literals Are Accepted</h1>"
+        },
+        {
+          "target": [
+            "#keywords_can_often_be_used_as_identifiers"
+          ],
+          "selector": "#keywords_can_often_be_used_as_identifiers",
+          "bbox": null,
+          "html": "<h1 id=\"keywords_can_often_be_used_as_identifiers\"><span id=\"uij-e187\">9. </span>Keywords Can Often Be Used As Identifiers</h1>"
+        },
+        {
+          "target": [
+            "#dubious_sql_is_allowed_without_any_error_or_warning"
+          ],
+          "selector": "#dubious_sql_is_allowed_without_any_error_or_warning",
+          "bbox": null,
+          "html": "<h1 id=\"dubious_sql_is_allowed_without_any_error_or_warning\"><span id=\"uij-e202\">10. </span>Dubious SQL Is Allowed Without Any Error Or Warning</h1>"
+        },
+        {
+          "target": [
+            "#autoincrement_does_not_work_the_same_as_mysql"
+          ],
+          "selector": "#autoincrement_does_not_work_the_same_as_mysql",
+          "bbox": null,
+          "html": "<h1 id=\"autoincrement_does_not_work_the_same_as_mysql\"><span id=\"uij-e207\">11. </span>AUTOINCREMENT Does Not Work The Same As MySQL</h1>"
+        },
+        {
+          "target": [
+            "#nul_characters_are_allowed_in_text_strings"
+          ],
+          "selector": "#nul_characters_are_allowed_in_text_strings",
+          "bbox": null,
+          "html": "<h1 id=\"nul_characters_are_allowed_in_text_strings\"><span id=\"uij-e212\">12. </span>NUL Characters Are Allowed In Text Strings</h1>"
+        },
+        {
+          "target": [
+            "#sqlite_distinguishes_between_integer_and_text_literals"
+          ],
+          "selector": "#sqlite_distinguishes_between_integer_and_text_literals",
+          "bbox": null,
+          "html": "<h1 id=\"sqlite_distinguishes_between_integer_and_text_literals\"><span id=\"uij-e215\">13. </span>SQLite Distinguishes Between Integer And Text Literals</h1>"
+        },
+        {
+          "target": [
+            "#sqlite_gets_the_precedence_of_comma_joins_wrong"
+          ],
+          "selector": "#sqlite_gets_the_precedence_of_comma_joins_wrong",
+          "bbox": null,
+          "html": "<h1 id=\"sqlite_gets_the_precedence_of_comma_joins_wrong\"><span id=\"uij-e220\">14. </span>SQLite Gets The Precedence Of Comma-Joins Wrong</h1>"
+        }
+      ]
+    },
+    {
+      "rule_id": "image-alt",
+      "impact": "",
+      "tags": [
+        "wcag2a",
+        "wcag111",
+        "section508",
+        "section508.22.a"
+      ],
+      "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/image-alt?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e2"
+          ],
+          "selector": "#uij-e2",
+          "bbox": null,
+          "html": "<img alt=\"SQLite\" border=\"0\" class=\"logo\" id=\"uij-e2\" src=\"data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjwhLS0gQ3JlYXRlZCB3aXRoIElua3NjYXBlIChodHR"
+        }
+      ]
+    },
+    {
+      "rule_id": "image-redundant-alt",
+      "impact": "",
+      "tags": [],
+      "description": "Ensure image alternative is not repeated as text",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/image-redundant-alt?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e2"
+          ],
+          "selector": "#uij-e2",
+          "bbox": null,
+          "html": "<img alt=\"SQLite\" border=\"0\" class=\"logo\" id=\"uij-e2\" src=\"data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjwhLS0gQ3JlYXRlZCB3aXRoIElua3NjYXBlIChodHR"
+        }
+      ]
+    },
+    {
+      "rule_id": "link-in-text-block",
+      "impact": "",
+      "tags": [
+        "wcag2a",
+        "wcag141"
+      ],
+      "description": "Ensure links are distinguished from surrounding text in a way that does not rely on color",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/link-in-text-block?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e83"
+          ],
+          "selector": "#uij-e83",
+          "bbox": null,
+          "html": "<a href=\"https://sqlite.org/forum/forum\" id=\"uij-e83\">SQLite Forum</a>"
+        },
+        {
+          "target": [
+            "#uij-e86"
+          ],
+          "selector": "#uij-e86",
+          "bbox": null,
+          "html": "<a href=\"serverless.html\" id=\"uij-e86\">serverless</a>"
+        },
+        {
+          "target": [
+            "#uij-e88"
+          ],
+          "selector": "#uij-e88",
+          "bbox": null,
+          "html": "<a href=\"serverless.html\" id=\"uij-e88\">serverless</a>"
+        },
+        {
+          "target": [
+            "#uij-e91"
+          ],
+          "selector": "#uij-e91",
+          "bbox": null,
+          "html": "<a href=\"whentouse.html\" id=\"uij-e91\">Appropriate Uses For SQLite</a>"
+        },
+        {
+          "target": [
+            "#uij-e96"
+          ],
+          "selector": "#uij-e96",
+          "bbox": null,
+          "html": "<a href=\"datatype3.html\" id=\"uij-e96\">Datatypes in SQLite</a>"
+        },
+        {
+          "target": [
+            "#uij-e103"
+          ],
+          "selector": "#uij-e103",
+          "bbox": null,
+          "html": "<a href=\"flextypegood.html\" id=\"uij-e103\">Flexible typing is a feature</a>"
+        },
+        {
+          "target": [
+            "#uij-e104"
+          ],
+          "selector": "#uij-e104",
+          "bbox": null,
+          "html": "<a href=\"stricttables.html\" id=\"uij-e104\">STRICT tables</a>"
+        },
+        {
+          "target": [
+            "#uij-e108"
+          ],
+          "selector": "#uij-e108",
+          "bbox": null,
+          "html": "<a href=\"releaselog/3_23_0.html\" id=\"uij-e108\">version 3.23.0</a>"
+        },
+        {
+          "target": [
+            "#uij-e115"
+          ],
+          "selector": "#uij-e115",
+          "bbox": null,
+          "html": "<a href=\"https://en.wikipedia.org/wiki/Julian_day\" id=\"uij-e115\">Julian day number</a>"
+        },
+        {
+          "target": [
+            "#uij-e117"
+          ],
+          "selector": "#uij-e117",
+          "bbox": null,
+          "html": "<a href=\"lang_datefunc.html\" id=\"uij-e117\">date and time functions</a>"
+        },
+        {
+          "target": [
+            "#uij-e125"
+          ],
+          "selector": "#uij-e125",
+          "bbox": null,
+          "html": "<a href=\"releaselog/3_6_19.html\" id=\"uij-e125\">version 3.6.19</a>"
+        },
+        {
+          "target": [
+            "#uij-e127"
+          ],
+          "selector": "#uij-e127",
+          "bbox": null,
+          "html": "<a href=\"pragma.html#pragma_foreign_keys\" id=\"uij-e127\">PRAGMA foreign_keys</a>"
+        },
+        {
+          "target": [
+            "#uij-e128"
+          ],
+          "selector": "#uij-e128",
+          "bbox": null,
+          "html": "<a href=\"compile.html#default_foreign_keys\" id=\"uij-e128\">-DSQLITE_DEFAULT_FOREIGN_KEYS=1</a>"
+        },
+        {
+          "target": [
+            "#uij-e135"
+          ],
+          "selector": "#uij-e135",
+          "bbox": null,
+          "html": "<a href=\"lang_createtable.html#rowid\" id=\"uij-e135\">INTEGER PRIMARY KEY</a>"
+        },
+        {
+          "target": [
+            "#uij-e136"
+          ],
+          "selector": "#uij-e136",
+          "bbox": null,
+          "html": "<a href=\"lang_createtable.html#rowid\" id=\"uij-e136\">ROWID</a>"
+        },
+        {
+          "target": [
+            "#uij-e139"
+          ],
+          "selector": "#uij-e139",
+          "bbox": null,
+          "html": "<a href=\"withoutrowid.html\" id=\"uij-e139\">WITHOUT ROWID</a>"
+        },
+        {
+          "target": [
+            "#uij-e140"
+          ],
+          "selector": "#uij-e140",
+          "bbox": null,
+          "html": "<a href=\"stricttables.html\" id=\"uij-e140\">STRICT</a>"
+        },
+        {
+          "target": [
+            "#uij-e161"
+          ],
+          "selector": "#uij-e161",
+          "bbox": null,
+          "html": "<a href=\"compile.html#enable_icu\" id=\"uij-e161\">-DSQLITE_ENABLE_ICU</a>"
+        },
+        {
+          "target": [
+            "#uij-e162"
+          ],
+          "selector": "#uij-e162",
+          "bbox": null,
+          "html": "<a href=\"https://icu.unicode.org\" id=\"uij-e162\">International Components for Unicode</a>"
+        },
+        {
+          "target": [
+            "#uij-e175"
+          ],
+          "selector": "#uij-e175",
+          "bbox": null,
+          "html": "<a href=\"errlog.html\" id=\"uij-e175\">error log</a>"
+        },
+        {
+          "target": [
+            "#uij-e177"
+          ],
+          "selector": "#uij-e177",
+          "bbox": null,
+          "html": "<a href=\"c3ref/c_dbconfig_defensive.html#sqlitedbconfigdqsddl\" id=\"uij-e177\">SQLITE_DBCONFIG_DQS_DDL</a>"
+        },
+        {
+          "target": [
+            "#uij-e178"
+          ],
+          "selector": "#uij-e178",
+          "bbox": null,
+          "html": "<a href=\"c3ref/c_dbconfig_defensive.html#sqlitedbconfigdqsdml\" id=\"uij-e178\">SQLITE_DBCONFIG_DQS_DML</a>"
+        },
+        {
+          "target": [
+            "#uij-e179"
+          ],
+          "selector": "#uij-e179",
+          "bbox": null,
+          "html": "<a href=\"c3ref/db_config.html\" id=\"uij-e179\">sqlite3_db_config()</a>"
+        },
+        {
+          "target": [
+            "#uij-e180"
+          ],
+          "selector": "#uij-e180",
+          "bbox": null,
+          "html": "<a href=\"compile.html#dqs\" id=\"uij-e180\">-DSQLITE_DQS=<i id=\"uij-e181\">N</i></a>"
+        },
+        {
+          "target": [
+            "#uij-e186"
+          ],
+          "selector": "#uij-e186",
+          "bbox": null,
+          "html": "<a href=\"cli.html\" id=\"uij-e186\">CLI</a>"
+        },
+        {
+          "target": [
+            "#uij-e201"
+          ],
+          "selector": "#uij-e201",
+          "bbox": null,
+          "html": "<a href=\"lang_createtable.html#rowid\" id=\"uij-e201\">INTEGER PRIMARY KEY</a>"
+        },
+        {
+          "target": [
+            "#uij-e204"
+          ],
+          "selector": "#uij-e204",
+          "bbox": null,
+          "html": "<a href=\"https://en.wikipedia.org/wiki/Robustness_principle\" id=\"uij-e204\">Postel's Law</a>"
+        },
+        {
+          "target": [
+            "#uij-e209"
+          ],
+          "selector": "#uij-e209",
+          "bbox": null,
+          "html": "<a href=\"autoinc.html\" id=\"uij-e209\">AUTOINCREMENT</a>"
+        },
+        {
+          "target": [
+            "#uij-e211"
+          ],
+          "selector": "#uij-e211",
+          "bbox": null,
+          "html": "<a href=\"autoinc.html\" id=\"uij-e211\">SQLite AUTOINCREMENT documentation</a>"
+        },
+        {
+          "target": [
+            "#uij-e214"
+          ],
+          "selector": "#uij-e214",
+          "bbox": null,
+          "html": "<a href=\"nulinstr.html\" id=\"uij-e214\">NUL characters in strings</a>"
+        }
+      ]
+    },
+    {
+      "rule_id": "link-name",
+      "impact": "",
+      "tags": [
+        "wcag2a",
+        "wcag244",
+        "wcag412",
+        "section508",
+        "section508.22.a"
+      ],
+      "description": "Ensure links have discernible text",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/link-name?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e1"
+          ],
+          "selector": "#uij-e1",
+          "bbox": null,
+          "html": "<a href=\"index.html\" id=\"uij-e1\">"
+        },
+        {
+          "target": [
+            "#uij-e9"
+          ],
+          "selector": "#uij-e9",
+          "bbox": null,
+          "html": "<a href=\"index.html\" id=\"uij-e9\">Home</a>"
+        },
+        {
+          "target": [
+            "#uij-e13"
+          ],
+          "selector": "#uij-e13",
+          "bbox": null,
+          "html": "<a href=\"about.html\" id=\"uij-e13\">About</a>"
+        },
+        {
+          "target": [
+            "#uij-e15"
+          ],
+          "selector": "#uij-e15",
+          "bbox": null,
+          "html": "<a href=\"docs.html\" id=\"uij-e15\">Documentation</a>"
+        },
+        {
+          "target": [
+            "#uij-e17"
+          ],
+          "selector": "#uij-e17",
+          "bbox": null,
+          "html": "<a href=\"download.html\" id=\"uij-e17\">Download</a>"
+        },
+        {
+          "target": [
+            "#uij-e19"
+          ],
+          "selector": "#uij-e19",
+          "bbox": null,
+          "html": "<a href=\"copyright.html\" id=\"uij-e19\">License</a>"
+        },
+        {
+          "target": [
+            "#uij-e21"
+          ],
+          "selector": "#uij-e21",
+          "bbox": null,
+          "html": "<a href=\"support.html\" id=\"uij-e21\">Support</a>"
+        },
+        {
+          "target": [
+            "#uij-e23"
+          ],
+          "selector": "#uij-e23",
+          "bbox": null,
+          "html": "<a href=\"prosupport.html\" id=\"uij-e23\">Purchase</a>"
+        },
+        {
+          "target": [
+            "#uij-e24"
+          ],
+          "selector": "#uij-e24",
+          "bbox": null,
+          "html": "<a href=\"javascript:void(0)\" id=\"uij-e24\" onclick=\"toggle_search()\">Search</a>"
+        },
+        {
+          "target": [
+            "#uij-e83"
+          ],
+          "selector": "#uij-e83",
+          "bbox": null,
+          "html": "<a href=\"https://sqlite.org/forum/forum\" id=\"uij-e83\">SQLite Forum</a>"
+        },
+        {
+          "target": [
+            "#uij-e86"
+          ],
+          "selector": "#uij-e86",
+          "bbox": null,
+          "html": "<a href=\"serverless.html\" id=\"uij-e86\">serverless</a>"
+        },
+        {
+          "target": [
+            "#uij-e88"
+          ],
+          "selector": "#uij-e88",
+          "bbox": null,
+          "html": "<a href=\"serverless.html\" id=\"uij-e88\">serverless</a>"
+        },
+        {
+          "target": [
+            "#uij-e91"
+          ],
+          "selector": "#uij-e91",
+          "bbox": null,
+          "html": "<a href=\"whentouse.html\" id=\"uij-e91\">Appropriate Uses For SQLite</a>"
+        },
+        {
+          "target": [
+            "#uij-e96"
+          ],
+          "selector": "#uij-e96",
+          "bbox": null,
+          "html": "<a href=\"datatype3.html\" id=\"uij-e96\">Datatypes in SQLite</a>"
+        },
+        {
+          "target": [
+            "#uij-e103"
+          ],
+          "selector": "#uij-e103",
+          "bbox": null,
+          "html": "<a href=\"flextypegood.html\" id=\"uij-e103\">Flexible typing is a feature</a>"
+        },
+        {
+          "target": [
+            "#uij-e104"
+          ],
+          "selector": "#uij-e104",
+          "bbox": null,
+          "html": "<a href=\"stricttables.html\" id=\"uij-e104\">STRICT tables</a>"
+        },
+        {
+          "target": [
+            "#uij-e108"
+          ],
+          "selector": "#uij-e108",
+          "bbox": null,
+          "html": "<a href=\"releaselog/3_23_0.html\" id=\"uij-e108\">version 3.23.0</a>"
+        },
+        {
+          "target": [
+            "#uij-e115"
+          ],
+          "selector": "#uij-e115",
+          "bbox": null,
+          "html": "<a href=\"https://en.wikipedia.org/wiki/Julian_day\" id=\"uij-e115\">Julian day number</a>"
+        },
+        {
+          "target": [
+            "#uij-e117"
+          ],
+          "selector": "#uij-e117",
+          "bbox": null,
+          "html": "<a href=\"lang_datefunc.html\" id=\"uij-e117\">date and time functions</a>"
+        },
+        {
+          "target": [
+            "#uij-e125"
+          ],
+          "selector": "#uij-e125",
+          "bbox": null,
+          "html": "<a href=\"releaselog/3_6_19.html\" id=\"uij-e125\">version 3.6.19</a>"
+        },
+        {
+          "target": [
+            "#uij-e127"
+          ],
+          "selector": "#uij-e127",
+          "bbox": null,
+          "html": "<a href=\"pragma.html#pragma_foreign_keys\" id=\"uij-e127\">PRAGMA foreign_keys</a>"
+        },
+        {
+          "target": [
+            "#uij-e128"
+          ],
+          "selector": "#uij-e128",
+          "bbox": null,
+          "html": "<a href=\"compile.html#default_foreign_keys\" id=\"uij-e128\">-DSQLITE_DEFAULT_FOREIGN_KEYS=1</a>"
+        },
+        {
+          "target": [
+            "#uij-e135"
+          ],
+          "selector": "#uij-e135",
+          "bbox": null,
+          "html": "<a href=\"lang_createtable.html#rowid\" id=\"uij-e135\">INTEGER PRIMARY KEY</a>"
+        },
+        {
+          "target": [
+            "#uij-e136"
+          ],
+          "selector": "#uij-e136",
+          "bbox": null,
+          "html": "<a href=\"lang_createtable.html#rowid\" id=\"uij-e136\">ROWID</a>"
+        },
+        {
+          "target": [
+            "#uij-e139"
+          ],
+          "selector": "#uij-e139",
+          "bbox": null,
+          "html": "<a href=\"withoutrowid.html\" id=\"uij-e139\">WITHOUT ROWID</a>"
+        },
+        {
+          "target": [
+            "#uij-e140"
+          ],
+          "selector": "#uij-e140",
+          "bbox": null,
+          "html": "<a href=\"stricttables.html\" id=\"uij-e140\">STRICT</a>"
+        },
+        {
+          "target": [
+            "#uij-e161"
+          ],
+          "selector": "#uij-e161",
+          "bbox": null,
+          "html": "<a href=\"compile.html#enable_icu\" id=\"uij-e161\">-DSQLITE_ENABLE_ICU</a>"
+        },
+        {
+          "target": [
+            "#uij-e162"
+          ],
+          "selector": "#uij-e162",
+          "bbox": null,
+          "html": "<a href=\"https://icu.unicode.org\" id=\"uij-e162\">International Components for Unicode</a>"
+        },
+        {
+          "target": [
+            "#uij-e175"
+          ],
+          "selector": "#uij-e175",
+          "bbox": null,
+          "html": "<a href=\"errlog.html\" id=\"uij-e175\">error log</a>"
+        },
+        {
+          "target": [
+            "#uij-e177"
+          ],
+          "selector": "#uij-e177",
+          "bbox": null,
+          "html": "<a href=\"c3ref/c_dbconfig_defensive.html#sqlitedbconfigdqsddl\" id=\"uij-e177\">SQLITE_DBCONFIG_DQS_DDL</a>"
+        },
+        {
+          "target": [
+            "#uij-e178"
+          ],
+          "selector": "#uij-e178",
+          "bbox": null,
+          "html": "<a href=\"c3ref/c_dbconfig_defensive.html#sqlitedbconfigdqsdml\" id=\"uij-e178\">SQLITE_DBCONFIG_DQS_DML</a>"
+        },
+        {
+          "target": [
+            "#uij-e179"
+          ],
+          "selector": "#uij-e179",
+          "bbox": null,
+          "html": "<a href=\"c3ref/db_config.html\" id=\"uij-e179\">sqlite3_db_config()</a>"
+        },
+        {
+          "target": [
+            "#uij-e180"
+          ],
+          "selector": "#uij-e180",
+          "bbox": null,
+          "html": "<a href=\"compile.html#dqs\" id=\"uij-e180\">-DSQLITE_DQS=<i id=\"uij-e181\">N</i></a>"
+        },
+        {
+          "target": [
+            "#uij-e186"
+          ],
+          "selector": "#uij-e186",
+          "bbox": null,
+          "html": "<a href=\"cli.html\" id=\"uij-e186\">CLI</a>"
+        },
+        {
+          "target": [
+            "#uij-e201"
+          ],
+          "selector": "#uij-e201",
+          "bbox": null,
+          "html": "<a href=\"lang_createtable.html#rowid\" id=\"uij-e201\">INTEGER PRIMARY KEY</a>"
+        },
+        {
+          "target": [
+            "#uij-e204"
+          ],
+          "selector": "#uij-e204",
+          "bbox": null,
+          "html": "<a href=\"https://en.wikipedia.org/wiki/Robustness_principle\" id=\"uij-e204\">Postel's Law</a>"
+        },
+        {
+          "target": [
+            "#uij-e209"
+          ],
+          "selector": "#uij-e209",
+          "bbox": null,
+          "html": "<a href=\"autoinc.html\" id=\"uij-e209\">AUTOINCREMENT</a>"
+        },
+        {
+          "target": [
+            "#uij-e211"
+          ],
+          "selector": "#uij-e211",
+          "bbox": null,
+          "html": "<a href=\"autoinc.html\" id=\"uij-e211\">SQLite AUTOINCREMENT documentation</a>"
+        },
+        {
+          "target": [
+            "#uij-e214"
+          ],
+          "selector": "#uij-e214",
+          "bbox": null,
+          "html": "<a href=\"nulinstr.html\" id=\"uij-e214\">NUL characters in strings</a>"
+        }
+      ]
+    },
+    {
+      "rule_id": "list",
+      "impact": "",
+      "tags": [
+        "wcag2a",
+        "wcag131"
+      ],
+      "description": "Ensure that lists are structured correctly",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/list?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e7"
+          ],
+          "selector": "#uij-e7",
+          "bbox": null,
+          "html": "<ul id=\"uij-e7\">"
+        },
+        {
+          "target": [
+            "#uij-e111"
+          ],
+          "selector": "#uij-e111",
+          "bbox": null,
+          "html": "<ul id=\"uij-e111\">"
+        },
+        {
+          "target": [
+            "#uij-e132"
+          ],
+          "selector": "#uij-e132",
+          "bbox": null,
+          "html": "<ul id=\"uij-e132\">"
+        },
+        {
+          "target": [
+            "#uij-e144"
+          ],
+          "selector": "#uij-e144",
+          "bbox": null,
+          "html": "<ol id=\"uij-e144\">"
+        },
+        {
+          "target": [
+            "#uij-e155"
+          ],
+          "selector": "#uij-e155",
+          "bbox": null,
+          "html": "<ol id=\"uij-e155\">"
+        },
+        {
+          "target": [
+            "#uij-e166"
+          ],
+          "selector": "#uij-e166",
+          "bbox": null,
+          "html": "<ul id=\"uij-e166\">\n<li id=\"uij-e167\"> <tt id=\"uij-e168\">\"this is a legal SQL column name\"</tt>\n</li><li id=\"uij-e169\"> <tt id=\"uij-e170\">'this is an SQL string literal'</tt>\n</li></ul>"
+        }
+      ]
+    },
+    {
+      "rule_id": "listitem",
+      "impact": "",
+      "tags": [
+        "wcag2a",
+        "wcag131"
+      ],
+      "description": "Ensure <li> elements are used semantically",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/listitem?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e8"
+          ],
+          "selector": "#uij-e8",
+          "bbox": null,
+          "html": "<li id=\"uij-e8\"><a href=\"index.html\" id=\"uij-e9\">Home</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e12"
+          ],
+          "selector": "#uij-e12",
+          "bbox": null,
+          "html": "<li class=\"wideonly\" id=\"uij-e12\"><a href=\"about.html\" id=\"uij-e13\">About</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e14"
+          ],
+          "selector": "#uij-e14",
+          "bbox": null,
+          "html": "<li class=\"desktoponly\" id=\"uij-e14\"><a href=\"docs.html\" id=\"uij-e15\">Documentation</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e16"
+          ],
+          "selector": "#uij-e16",
+          "bbox": null,
+          "html": "<li class=\"desktoponly\" id=\"uij-e16\"><a href=\"download.html\" id=\"uij-e17\">Download</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e18"
+          ],
+          "selector": "#uij-e18",
+          "bbox": null,
+          "html": "<li class=\"wideonly\" id=\"uij-e18\"><a href=\"copyright.html\" id=\"uij-e19\">License</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e20"
+          ],
+          "selector": "#uij-e20",
+          "bbox": null,
+          "html": "<li class=\"desktoponly\" id=\"uij-e20\"><a href=\"support.html\" id=\"uij-e21\">Support</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e22"
+          ],
+          "selector": "#uij-e22",
+          "bbox": null,
+          "html": "<li class=\"desktoponly\" id=\"uij-e22\"><a href=\"prosupport.html\" id=\"uij-e23\">Purchase</a>\n</li>"
+        },
+        {
+          "target": [
+            "#search_menubutton"
+          ],
+          "selector": "#search_menubutton",
+          "bbox": null,
+          "html": "<li class=\"search\" id=\"search_menubutton\">\n<a href=\"javascript:void(0)\" id=\"uij-e24\" onclick=\"toggle_search()\">Search</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e112"
+          ],
+          "selector": "#uij-e112",
+          "bbox": null,
+          "html": "<li id=\"uij-e112\"> As a TEXT string in the ISO-8601 format.  Example: '2018-04-02 12:13:46'.\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e113"
+          ],
+          "selector": "#uij-e113",
+          "bbox": null,
+          "html": "<li id=\"uij-e113\"> As an INTEGER number of seconds since 1970 (also known as \"unix time\").\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e114"
+          ],
+          "selector": "#uij-e114",
+          "bbox": null,
+          "html": "<li id=\"uij-e114\"> As a REAL value that is the fractional\n     <a href=\"https://en.wikipedia.org/wiki/Julian_day\" id=\"uij-e115\">Julian day number</a>.\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e133"
+          ],
+          "selector": "#uij-e133",
+          "bbox": null,
+          "html": "<li id=\"uij-e133\">"
+        },
+        {
+          "target": [
+            "#uij-e137"
+          ],
+          "selector": "#uij-e137",
+          "bbox": null,
+          "html": "<li id=\"uij-e137\">"
+        },
+        {
+          "target": [
+            "#uij-e145"
+          ],
+          "selector": "#uij-e145",
+          "bbox": null,
+          "html": "<li id=\"uij-e145\">"
+        },
+        {
+          "target": [
+            "#uij-e151"
+          ],
+          "selector": "#uij-e151",
+          "bbox": null,
+          "html": "<li id=\"uij-e151\">"
+        },
+        {
+          "target": [
+            "#uij-e156"
+          ],
+          "selector": "#uij-e156",
+          "bbox": null,
+          "html": "<li id=\"uij-e156\">"
+        },
+        {
+          "target": [
+            "#uij-e158"
+          ],
+          "selector": "#uij-e158",
+          "bbox": null,
+          "html": "<li id=\"uij-e158\"><p id=\"uij-e159\"> The tables necessary to do full and proper unicode case folding are\n     larger than the whole SQLite library.\n</p></li>"
+        },
+        {
+          "target": [
+            "#uij-e167"
+          ],
+          "selector": "#uij-e167",
+          "bbox": null,
+          "html": "<li id=\"uij-e167\"> <tt id=\"uij-e168\">\"this is a legal SQL column name\"</tt>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e169"
+          ],
+          "selector": "#uij-e169",
+          "bbox": null,
+          "html": "<li id=\"uij-e169\"> <tt id=\"uij-e170\">'this is an SQL string literal'</tt>\n</li>"
+        }
+      ]
+    },
+    {
+      "rule_id": "meta-viewport-large",
+      "impact": "",
+      "tags": [],
+      "description": "Ensure <meta name=\"viewport\"> can scale a significant amount",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/meta-viewport-large?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "meta[name=\"viewport\"]"
+          ],
+          "selector": "meta[name=\"viewport\"]",
+          "bbox": null,
+          "html": "<meta content=\"width=device-width, initial-scale=1.0\" name=\"viewport\">"
+        }
+      ]
+    },
+    {
+      "rule_id": "meta-viewport",
+      "impact": "",
+      "tags": [
+        "wcag2aa",
+        "wcag144"
+      ],
+      "description": "Ensure <meta name=\"viewport\"> does not disable text scaling and zooming",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/meta-viewport?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "meta[name=\"viewport\"]"
+          ],
+          "selector": "meta[name=\"viewport\"]",
+          "bbox": null,
+          "html": "<meta content=\"width=device-width, initial-scale=1.0\" name=\"viewport\">"
+        }
+      ]
+    },
+    {
+      "rule_id": "nested-interactive",
+      "impact": "",
+      "tags": [
+        "wcag2a",
+        "wcag412"
+      ],
+      "description": "Ensure interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/nested-interactive?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e2"
+          ],
+          "selector": "#uij-e2",
+          "bbox": null,
+          "html": "<img alt=\"SQLite\" border=\"0\" class=\"logo\" id=\"uij-e2\" src=\"data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjwhLS0gQ3JlYXRlZCB3aXRoIElua3NjYXBlIChodHR"
+        },
+        {
+          "target": [
+            "#uij-e44"
+          ],
+          "selector": "#uij-e44",
+          "bbox": null,
+          "html": "<summary id=\"uij-e44\">Table Of Contents</summary>"
+        }
+      ]
+    },
+    {
+      "rule_id": "page-has-heading-one",
+      "impact": "",
+      "tags": [],
+      "description": "Ensure that the page, or at least one of its frames contains a level-one heading",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/page-has-heading-one?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "html"
+          ],
+          "selector": "html",
+          "bbox": null,
+          "html": "<html>"
+        }
+      ]
+    },
+    {
+      "rule_id": "region",
+      "impact": "moderate",
+      "tags": [],
+      "description": "Ensure all page content is contained by landmarks",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/region?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e0"
+          ],
+          "selector": "#uij-e0",
+          "bbox": null,
+          "html": "<div class=\"nosearch\" id=\"uij-e0\">"
+        },
+        {
+          "target": [
+            "#uij-e2"
+          ],
+          "selector": "#uij-e2",
+          "bbox": null,
+          "html": "<img alt=\"SQLite\" border=\"0\" class=\"logo\" id=\"uij-e2\" src=\"data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjwhLS0gQ3JlYXRlZCB3aXRoIElua3NjYXBlIChodHR"
+        },
+        {
+          "target": [
+            "#uij-e3"
+          ],
+          "selector": "#uij-e3",
+          "bbox": null,
+          "html": "<div id=\"uij-e3\"></div>"
+        },
+        {
+          "target": [
+            "#uij-e5"
+          ],
+          "selector": "#uij-e5",
+          "bbox": null,
+          "html": "<br id=\"uij-e5\">"
+        },
+        {
+          "target": [
+            "#uij-e6"
+          ],
+          "selector": "#uij-e6",
+          "bbox": null,
+          "html": "<div class=\"menu mainmenu\" id=\"uij-e6\">"
+        },
+        {
+          "target": [
+            "#uij-e7"
+          ],
+          "selector": "#uij-e7",
+          "bbox": null,
+          "html": "<ul id=\"uij-e7\">"
+        },
+        {
+          "target": [
+            "#uij-e9"
+          ],
+          "selector": "#uij-e9",
+          "bbox": null,
+          "html": "<a href=\"index.html\" id=\"uij-e9\">Home</a>"
+        },
+        {
+          "target": [
+            "#uij-e13"
+          ],
+          "selector": "#uij-e13",
+          "bbox": null,
+          "html": "<a href=\"about.html\" id=\"uij-e13\">About</a>"
+        },
+        {
+          "target": [
+            "#uij-e15"
+          ],
+          "selector": "#uij-e15",
+          "bbox": null,
+          "html": "<a href=\"docs.html\" id=\"uij-e15\">Documentation</a>"
+        },
+        {
+          "target": [
+            "#uij-e17"
+          ],
+          "selector": "#uij-e17",
+          "bbox": null,
+          "html": "<a href=\"download.html\" id=\"uij-e17\">Download</a>"
+        },
+        {
+          "target": [
+            "#uij-e19"
+          ],
+          "selector": "#uij-e19",
+          "bbox": null,
+          "html": "<a href=\"copyright.html\" id=\"uij-e19\">License</a>"
+        },
+        {
+          "target": [
+            "#uij-e21"
+          ],
+          "selector": "#uij-e21",
+          "bbox": null,
+          "html": "<a href=\"support.html\" id=\"uij-e21\">Support</a>"
+        },
+        {
+          "target": [
+            "#uij-e23"
+          ],
+          "selector": "#uij-e23",
+          "bbox": null,
+          "html": "<a href=\"prosupport.html\" id=\"uij-e23\">Purchase</a>"
+        },
+        {
+          "target": [
+            "#uij-e24"
+          ],
+          "selector": "#uij-e24",
+          "bbox": null,
+          "html": "<a href=\"javascript:void(0)\" id=\"uij-e24\" onclick=\"toggle_search()\">Search</a>"
+        },
+        {
+          "target": [
+            "#uij-e40"
+          ],
+          "selector": "#uij-e40",
+          "bbox": null,
+          "html": "<div class=\"fancy\" id=\"uij-e40\">"
+        },
+        {
+          "target": [
+            "#uij-e41"
+          ],
+          "selector": "#uij-e41",
+          "bbox": null,
+          "html": "<div class=\"nosearch\" id=\"uij-e41\">"
+        },
+        {
+          "target": [
+            "#uij-e43"
+          ],
+          "selector": "#uij-e43",
+          "bbox": null,
+          "html": "<details class=\"fancy_toc\" id=\"uij-e43\">"
+        },
+        {
+          "target": [
+            "#uij-e44"
+          ],
+          "selector": "#uij-e44",
+          "bbox": null,
+          "html": "<summary id=\"uij-e44\">Table Of Contents</summary>"
+        },
+        {
+          "target": [
+            "#uij-e79"
+          ],
+          "selector": "#uij-e79",
+          "bbox": null,
+          "html": "<span id=\"uij-e79\">1. </span>"
+        },
+        {
+          "target": [
+            "#uij-e83"
+          ],
+          "selector": "#uij-e83",
+          "bbox": null,
+          "html": "<a href=\"https://sqlite.org/forum/forum\" id=\"uij-e83\">SQLite Forum</a>"
+        },
+        {
+          "target": [
+            "#uij-e84"
+          ],
+          "selector": "#uij-e84",
+          "bbox": null,
+          "html": "<span id=\"uij-e84\">2. </span>"
+        },
+        {
+          "target": [
+            "#uij-e86"
+          ],
+          "selector": "#uij-e86",
+          "bbox": null,
+          "html": "<a href=\"serverless.html\" id=\"uij-e86\">serverless</a>"
+        },
+        {
+          "target": [
+            "#uij-e88"
+          ],
+          "selector": "#uij-e88",
+          "bbox": null,
+          "html": "<a href=\"serverless.html\" id=\"uij-e88\">serverless</a>"
+        },
+        {
+          "target": [
+            "#uij-e91"
+          ],
+          "selector": "#uij-e91",
+          "bbox": null,
+          "html": "<a href=\"whentouse.html\" id=\"uij-e91\">Appropriate Uses For SQLite</a>"
+        },
+        {
+          "target": [
+            "#uij-e92"
+          ],
+          "selector": "#uij-e92",
+          "bbox": null,
+          "html": "<span id=\"uij-e92\">3. </span>"
+        },
+        {
+          "target": [
+            "#uij-e96"
+          ],
+          "selector": "#uij-e96",
+          "bbox": null,
+          "html": "<a href=\"datatype3.html\" id=\"uij-e96\">Datatypes in SQLite</a>"
+        },
+        {
+          "target": [
+            "#uij-e98"
+          ],
+          "selector": "#uij-e98",
+          "bbox": null,
+          "html": "<b id=\"uij-e98\">'1234'</b>"
+        },
+        {
+          "target": [
+            "#uij-e99"
+          ],
+          "selector": "#uij-e99",
+          "bbox": null,
+          "html": "<b id=\"uij-e99\">'wxyz'</b>"
+        },
+        {
+          "target": [
+            "#uij-e103"
+          ],
+          "selector": "#uij-e103",
+          "bbox": null,
+          "html": "<a href=\"flextypegood.html\" id=\"uij-e103\">Flexible typing is a feature</a>"
+        },
+        {
+          "target": [
+            "#uij-e104"
+          ],
+          "selector": "#uij-e104",
+          "bbox": null,
+          "html": "<a href=\"stricttables.html\" id=\"uij-e104\">STRICT tables</a>"
+        },
+        {
+          "target": [
+            "#uij-e105"
+          ],
+          "selector": "#uij-e105",
+          "bbox": null,
+          "html": "<span id=\"uij-e105\">3.1. </span>"
+        },
+        {
+          "target": [
+            "#uij-e108"
+          ],
+          "selector": "#uij-e108",
+          "bbox": null,
+          "html": "<a href=\"releaselog/3_23_0.html\" id=\"uij-e108\">version 3.23.0</a>"
+        },
+        {
+          "target": [
+            "#uij-e109"
+          ],
+          "selector": "#uij-e109",
+          "bbox": null,
+          "html": "<span id=\"uij-e109\">3.2. </span>"
+        },
+        {
+          "target": [
+            "#uij-e112"
+          ],
+          "selector": "#uij-e112",
+          "bbox": null,
+          "html": "<li id=\"uij-e112\"> As a TEXT string in the ISO-8601 format.  Example: '2018-04-02 12:13:46'.\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e113"
+          ],
+          "selector": "#uij-e113",
+          "bbox": null,
+          "html": "<li id=\"uij-e113\"> As an INTEGER number of seconds since 1970 (also known as \"unix time\").\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e114"
+          ],
+          "selector": "#uij-e114",
+          "bbox": null,
+          "html": "<li id=\"uij-e114\"> As a REAL value that is the fractional\n     <a href=\"https://en.wikipedia.org/wiki/Julian_day\" id=\"uij-e115\">Julian day number</a>.\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e115"
+          ],
+          "selector": "#uij-e115",
+          "bbox": null,
+          "html": "<a href=\"https://en.wikipedia.org/wiki/Julian_day\" id=\"uij-e115\">Julian day number</a>"
+        },
+        {
+          "target": [
+            "#uij-e117"
+          ],
+          "selector": "#uij-e117",
+          "bbox": null,
+          "html": "<a href=\"lang_datefunc.html\" id=\"uij-e117\">date and time functions</a>"
+        },
+        {
+          "target": [
+            "#uij-e118"
+          ],
+          "selector": "#uij-e118",
+          "bbox": null,
+          "html": "<span id=\"uij-e118\">3.3. </span>"
+        },
+        {
+          "target": [
+            "#uij-e121"
+          ],
+          "selector": "#uij-e121",
+          "bbox": null,
+          "html": "<pre id=\"uij-e121\">CREATE TABLE t1(a,b,c,d);\n</pre>"
+        },
+        {
+          "target": [
+            "#uij-e123"
+          ],
+          "selector": "#uij-e123",
+          "bbox": null,
+          "html": "<span id=\"uij-e123\">4. </span>"
+        },
+        {
+          "target": [
+            "#uij-e125"
+          ],
+          "selector": "#uij-e125",
+          "bbox": null,
+          "html": "<a href=\"releaselog/3_6_19.html\" id=\"uij-e125\">version 3.6.19</a>"
+        },
+        {
+          "target": [
+            "#uij-e127"
+          ],
+          "selector": "#uij-e127",
+          "bbox": null,
+          "html": "<a href=\"pragma.html#pragma_foreign_keys\" id=\"uij-e127\">PRAGMA foreign_keys</a>"
+        },
+        {
+          "target": [
+            "#uij-e128"
+          ],
+          "selector": "#uij-e128",
+          "bbox": null,
+          "html": "<a href=\"compile.html#default_foreign_keys\" id=\"uij-e128\">-DSQLITE_DEFAULT_FOREIGN_KEYS=1</a>"
+        },
+        {
+          "target": [
+            "#uij-e129"
+          ],
+          "selector": "#uij-e129",
+          "bbox": null,
+          "html": "<span id=\"uij-e129\">5. </span>"
+        },
+        {
+          "target": [
+            "#uij-e133"
+          ],
+          "selector": "#uij-e133",
+          "bbox": null,
+          "html": "<li id=\"uij-e133\">"
+        },
+        {
+          "target": [
+            "#uij-e134"
+          ],
+          "selector": "#uij-e134",
+          "bbox": null,
+          "html": "<p id=\"uij-e134\">"
+        },
+        {
+          "target": [
+            "#uij-e135"
+          ],
+          "selector": "#uij-e135",
+          "bbox": null,
+          "html": "<a href=\"lang_createtable.html#rowid\" id=\"uij-e135\">INTEGER PRIMARY KEY</a>"
+        },
+        {
+          "target": [
+            "#uij-e136"
+          ],
+          "selector": "#uij-e136",
+          "bbox": null,
+          "html": "<a href=\"lang_createtable.html#rowid\" id=\"uij-e136\">ROWID</a>"
+        },
+        {
+          "target": [
+            "#uij-e137"
+          ],
+          "selector": "#uij-e137",
+          "bbox": null,
+          "html": "<li id=\"uij-e137\">"
+        },
+        {
+          "target": [
+            "#uij-e138"
+          ],
+          "selector": "#uij-e138",
+          "bbox": null,
+          "html": "<p id=\"uij-e138\">\nThe <a href=\"withoutrowid.html\" id=\"uij-e139\">WITHOUT ROWID</a> and <a href=\"stricttables.html\" id=\"uij-e140\">STRICT</a> features was added after this bug was\ndiscovered, and so WITH"
+        },
+        {
+          "target": [
+            "#uij-e139"
+          ],
+          "selector": "#uij-e139",
+          "bbox": null,
+          "html": "<a href=\"withoutrowid.html\" id=\"uij-e139\">WITHOUT ROWID</a>"
+        },
+        {
+          "target": [
+            "#uij-e140"
+          ],
+          "selector": "#uij-e140",
+          "bbox": null,
+          "html": "<a href=\"stricttables.html\" id=\"uij-e140\">STRICT</a>"
+        },
+        {
+          "target": [
+            "#uij-e141"
+          ],
+          "selector": "#uij-e141",
+          "bbox": null,
+          "html": "<span id=\"uij-e141\">6. </span>"
+        },
+        {
+          "target": [
+            "#uij-e145"
+          ],
+          "selector": "#uij-e145",
+          "bbox": null,
+          "html": "<li id=\"uij-e145\">"
+        },
+        {
+          "target": [
+            "#uij-e146"
+          ],
+          "selector": "#uij-e146",
+          "bbox": null,
+          "html": "<p id=\"uij-e146\">"
+        },
+        {
+          "target": [
+            "#uij-e147"
+          ],
+          "selector": "#uij-e147",
+          "bbox": null,
+          "html": "<p id=\"uij-e147\">\nFor example to find the highest paid employee:\n</p>"
+        },
+        {
+          "target": [
+            "#uij-e148"
+          ],
+          "selector": "#uij-e148",
+          "bbox": null,
+          "html": "<div class=\"codeblock\" id=\"uij-e148\"><pre id=\"uij-e149\">SELECT max(salary), first_name, last_name FROM employee;\n</pre></div>"
+        },
+        {
+          "target": [
+            "#uij-e149"
+          ],
+          "selector": "#uij-e149",
+          "bbox": null,
+          "html": "<pre id=\"uij-e149\">SELECT max(salary), first_name, last_name FROM employee;\n</pre>"
+        },
+        {
+          "target": [
+            "#uij-e150"
+          ],
+          "selector": "#uij-e150",
+          "bbox": null,
+          "html": "<p id=\"uij-e150\">\nIn the query above, the values for the first_name and last_name columns\nwill correspond to the row that satisfied the max(salary) condition.\n\n</p>"
+        },
+        {
+          "target": [
+            "#uij-e151"
+          ],
+          "selector": "#uij-e151",
+          "bbox": null,
+          "html": "<li id=\"uij-e151\">"
+        },
+        {
+          "target": [
+            "#uij-e152"
+          ],
+          "selector": "#uij-e152",
+          "bbox": null,
+          "html": "<p id=\"uij-e152\">"
+        },
+        {
+          "target": [
+            "#uij-e153"
+          ],
+          "selector": "#uij-e153",
+          "bbox": null,
+          "html": "<span id=\"uij-e153\">7. </span>"
+        },
+        {
+          "target": [
+            "#uij-e156"
+          ],
+          "selector": "#uij-e156",
+          "bbox": null,
+          "html": "<li id=\"uij-e156\">"
+        },
+        {
+          "target": [
+            "#uij-e157"
+          ],
+          "selector": "#uij-e157",
+          "bbox": null,
+          "html": "<p id=\"uij-e157\"> Though stable now, when SQLite was first designed, the rules for\n     unicode case folding were still in flux.  That means that the\n     behavior might have changed with each new uni"
+        },
+        {
+          "target": [
+            "#uij-e158"
+          ],
+          "selector": "#uij-e158",
+          "bbox": null,
+          "html": "<li id=\"uij-e158\"><p id=\"uij-e159\"> The tables necessary to do full and proper unicode case folding are\n     larger than the whole SQLite library.\n</p></li>"
+        },
+        {
+          "target": [
+            "#uij-e159"
+          ],
+          "selector": "#uij-e159",
+          "bbox": null,
+          "html": "<p id=\"uij-e159\"> The tables necessary to do full and proper unicode case folding are\n     larger than the whole SQLite library.\n</p>"
+        },
+        {
+          "target": [
+            "#uij-e161"
+          ],
+          "selector": "#uij-e161",
+          "bbox": null,
+          "html": "<a href=\"compile.html#enable_icu\" id=\"uij-e161\">-DSQLITE_ENABLE_ICU</a>"
+        },
+        {
+          "target": [
+            "#uij-e162"
+          ],
+          "selector": "#uij-e162",
+          "bbox": null,
+          "html": "<a href=\"https://icu.unicode.org\" id=\"uij-e162\">International Components for Unicode</a>"
+        },
+        {
+          "target": [
+            "#uij-e163"
+          ],
+          "selector": "#uij-e163",
+          "bbox": null,
+          "html": "<a id=\"uij-e163\" name=\"dblquote\"></a>"
+        },
+        {
+          "target": [
+            "#uij-e164"
+          ],
+          "selector": "#uij-e164",
+          "bbox": null,
+          "html": "<span id=\"uij-e164\">8. </span>"
+        },
+        {
+          "target": [
+            "#uij-e167"
+          ],
+          "selector": "#uij-e167",
+          "bbox": null,
+          "html": "<li id=\"uij-e167\"> <tt id=\"uij-e168\">\"this is a legal SQL column name\"</tt>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e168"
+          ],
+          "selector": "#uij-e168",
+          "bbox": null,
+          "html": "<tt id=\"uij-e168\">\"this is a legal SQL column name\"</tt>"
+        },
+        {
+          "target": [
+            "#uij-e169"
+          ],
+          "selector": "#uij-e169",
+          "bbox": null,
+          "html": "<li id=\"uij-e169\"> <tt id=\"uij-e170\">'this is an SQL string literal'</tt>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e170"
+          ],
+          "selector": "#uij-e170",
+          "bbox": null,
+          "html": "<tt id=\"uij-e170\">'this is an SQL string literal'</tt>"
+        },
+        {
+          "target": [
+            "#uij-e175"
+          ],
+          "selector": "#uij-e175",
+          "bbox": null,
+          "html": "<a href=\"errlog.html\" id=\"uij-e175\">error log</a>"
+        },
+        {
+          "target": [
+            "#uij-e177"
+          ],
+          "selector": "#uij-e177",
+          "bbox": null,
+          "html": "<a href=\"c3ref/c_dbconfig_defensive.html#sqlitedbconfigdqsddl\" id=\"uij-e177\">SQLITE_DBCONFIG_DQS_DDL</a>"
+        },
+        {
+          "target": [
+            "#uij-e178"
+          ],
+          "selector": "#uij-e178",
+          "bbox": null,
+          "html": "<a href=\"c3ref/c_dbconfig_defensive.html#sqlitedbconfigdqsdml\" id=\"uij-e178\">SQLITE_DBCONFIG_DQS_DML</a>"
+        },
+        {
+          "target": [
+            "#uij-e179"
+          ],
+          "selector": "#uij-e179",
+          "bbox": null,
+          "html": "<a href=\"c3ref/db_config.html\" id=\"uij-e179\">sqlite3_db_config()</a>"
+        },
+        {
+          "target": [
+            "#uij-e180"
+          ],
+          "selector": "#uij-e180",
+          "bbox": null,
+          "html": "<a href=\"compile.html#dqs\" id=\"uij-e180\">-DSQLITE_DQS=<i id=\"uij-e181\">N</i></a>"
+        },
+        {
+          "target": [
+            "#uij-e181"
+          ],
+          "selector": "#uij-e181",
+          "bbox": null,
+          "html": "<i id=\"uij-e181\">N</i>"
+        },
+        {
+          "target": [
+            "#uij-e183"
+          ],
+          "selector": "#uij-e183",
+          "bbox": null,
+          "html": "<pre id=\"uij-e183\">sqlite3_db_config(db, SQLITE_DBCONFIG_DQS_DDL, 0, (void*)0);\nsqlite3_db_config(db, SQLITE_DBCONFIG_DQS_DML, 0, (void*)0);\n</pre>"
+        },
+        {
+          "target": [
+            "#uij-e186"
+          ],
+          "selector": "#uij-e186",
+          "bbox": null,
+          "html": "<a href=\"cli.html\" id=\"uij-e186\">CLI</a>"
+        },
+        {
+          "target": [
+            "#uij-e187"
+          ],
+          "selector": "#uij-e187",
+          "bbox": null,
+          "html": "<span id=\"uij-e187\">9. </span>"
+        },
+        {
+          "target": [
+            "#uij-e191"
+          ],
+          "selector": "#uij-e191",
+          "bbox": null,
+          "html": "<pre id=\"uij-e191\">CREATE TABLE union(true INT, with BOOLEAN);\n</pre>"
+        },
+        {
+          "target": [
+            "#uij-e195"
+          ],
+          "selector": "#uij-e195",
+          "bbox": null,
+          "html": "<pre id=\"uij-e195\">CREATE TRIGGER AFTER INSERT ON tableX BEGIN\n  INSERT INTO tableY(b) VALUES(new.a);\nEND;\n</pre>"
+        },
+        {
+          "target": [
+            "#uij-e198"
+          ],
+          "selector": "#uij-e198",
+          "bbox": null,
+          "html": "<pre id=\"uij-e198\">CREATE TABLE tableZ(INTEGER PRIMARY KEY);\n</pre>"
+        },
+        {
+          "target": [
+            "#uij-e200"
+          ],
+          "selector": "#uij-e200",
+          "bbox": null,
+          "html": "<em id=\"uij-e200\">not</em>"
+        },
+        {
+          "target": [
+            "#uij-e201"
+          ],
+          "selector": "#uij-e201",
+          "bbox": null,
+          "html": "<a href=\"lang_createtable.html#rowid\" id=\"uij-e201\">INTEGER PRIMARY KEY</a>"
+        },
+        {
+          "target": [
+            "#uij-e202"
+          ],
+          "selector": "#uij-e202",
+          "bbox": null,
+          "html": "<span id=\"uij-e202\">10. </span>"
+        },
+        {
+          "target": [
+            "#uij-e204"
+          ],
+          "selector": "#uij-e204",
+          "bbox": null,
+          "html": "<a href=\"https://en.wikipedia.org/wiki/Robustness_principle\" id=\"uij-e204\">Postel's Law</a>"
+        },
+        {
+          "target": [
+            "#uij-e205"
+          ],
+          "selector": "#uij-e205",
+          "bbox": null,
+          "html": "<p id=\"uij-e205\">\n</p>"
+        },
+        {
+          "target": [
+            "#uij-e207"
+          ],
+          "selector": "#uij-e207",
+          "bbox": null,
+          "html": "<span id=\"uij-e207\">11. </span>"
+        },
+        {
+          "target": [
+            "#uij-e209"
+          ],
+          "selector": "#uij-e209",
+          "bbox": null,
+          "html": "<a href=\"autoinc.html\" id=\"uij-e209\">AUTOINCREMENT</a>"
+        },
+        {
+          "target": [
+            "#uij-e211"
+          ],
+          "selector": "#uij-e211",
+          "bbox": null,
+          "html": "<a href=\"autoinc.html\" id=\"uij-e211\">SQLite AUTOINCREMENT documentation</a>"
+        },
+        {
+          "target": [
+            "#uij-e212"
+          ],
+          "selector": "#uij-e212",
+          "bbox": null,
+          "html": "<span id=\"uij-e212\">12. </span>"
+        },
+        {
+          "target": [
+            "#uij-e214"
+          ],
+          "selector": "#uij-e214",
+          "bbox": null,
+          "html": "<a href=\"nulinstr.html\" id=\"uij-e214\">NUL characters in strings</a>"
+        },
+        {
+          "target": [
+            "#uij-e215"
+          ],
+          "selector": "#uij-e215",
+          "bbox": null,
+          "html": "<span id=\"uij-e215\">13. </span>"
+        },
+        {
+          "target": [
+            "#uij-e218"
+          ],
+          "selector": "#uij-e218",
+          "bbox": null,
+          "html": "<pre id=\"uij-e218\">SELECT 1='1';\n</pre>"
+        },
+        {
+          "target": [
+            "#uij-e220"
+          ],
+          "selector": "#uij-e220",
+          "bbox": null,
+          "html": "<span id=\"uij-e220\">14. </span>"
+        },
+        {
+          "target": [
+            "#uij-e223"
+          ],
+          "selector": "#uij-e223",
+          "bbox": null,
+          "html": "<p id=\"uij-e223\">\n... FROM a, b RIGHT JOIN c, d ...\n</p>"
+        },
+        {
+          "target": [
+            "#uij-e225"
+          ],
+          "selector": "#uij-e225",
+          "bbox": null,
+          "html": "<div class=\"imgcontainer\" id=\"uij-e225\">"
+        },
+        {
+          "target": [
+            "#uij-e226"
+          ],
+          "selector": "#uij-e226",
+          "bbox": null,
+          "html": "<div id=\"uij-e226\" style=\"max-width:153px;\">"
+        },
+        {
+          "target": [
+            "#uij-e227"
+          ],
+          "selector": "#uij-e227",
+          "bbox": null,
+          "html": "<svg class=\"pikchr\" data-pikchr-date=\"20250319161943\" id=\"uij-e227\" style=\"font-size:initial;\" viewBox=\"0 0 153.328 245.544\" xmlns=\"http://www.w3.org/2000/svg\">"
+        },
+        {
+          "target": [
+            "#uij-e228"
+          ],
+          "selector": "#uij-e228",
+          "bbox": null,
+          "html": "<path d=\"M67.7055,32.4L120.237,32.4L120.237,2.16L67.7055,2.16Z\" id=\"uij-e228\" style=\"fill:none;stroke-width:2.16;stroke:rgb(0,0,0);\"></path>"
+        },
+        {
+          "target": [
+            "#uij-e229"
+          ],
+          "selector": "#uij-e229",
+          "bbox": null,
+          "html": "<text dominant-baseline=\"central\" fill=\"rgb(0,0,0)\" id=\"uij-e229\" text-anchor=\"middle\" x=\"93.9711\" y=\"17.28\">JOIN</text>"
+        },
+        {
+          "target": [
+            "#uij-e230"
+          ],
+          "selector": "#uij-e230",
+          "bbox": null,
+          "html": "<polygon id=\"uij-e230\" points=\"53.8831,72.4879 58.9743,61.2874 65.0837,67.3968\" style=\"fill:rgb(0,0,0)\"></polygon>"
+        },
+        {
+          "target": [
+            "#uij-e231"
+          ],
+          "selector": "#uij-e231",
+          "bbox": null,
+          "html": "<path d=\"M93.9711,32.4L57.9561,68.415\" id=\"uij-e231\" style=\"fill:none;stroke-width:2.16;stroke:rgb(0,0,0);\"></path>"
+        },
+        {
+          "target": [
+            "#uij-e232"
+          ],
+          "selector": "#uij-e232",
+          "bbox": null,
+          "html": "<polygon id=\"uij-e232\" points=\"134.059,72.4879 122.858,67.3968 128.968,61.2874\" style=\"fill:rgb(0,0,0)\"></polygon>"
+        },
+        {
+          "target": [
+            "#uij-e233"
+          ],
+          "selector": "#uij-e233",
+          "bbox": null,
+          "html": "<path d=\"M93.9711,32.4L129.986,68.415\" id=\"uij-e233\" style=\"fill:none;stroke-width:2.16;stroke:rgb(0,0,0);\"></path>"
+        },
+        {
+          "target": [
+            "#uij-e234"
+          ],
+          "selector": "#uij-e234",
+          "bbox": null,
+          "html": "<path d=\"M27.6175,102.728L80.1487,102.728L80.1487,72.4879L27.6175,72.4879Z\" id=\"uij-e234\" style=\"fill:none;stroke-width:2.16;stroke:rgb(0,0,0);\"></path>"
+        },
+        {
+          "target": [
+            "#uij-e235"
+          ],
+          "selector": "#uij-e235",
+          "bbox": null,
+          "html": "<text dominant-baseline=\"central\" fill=\"rgb(0,0,0)\" id=\"uij-e235\" text-anchor=\"middle\" x=\"53.8831\" y=\"87.6079\">JOIN</text>"
+        },
+        {
+          "target": [
+            "#uij-e236"
+          ],
+          "selector": "#uij-e236",
+          "bbox": null,
+          "html": "<path d=\"M121.675,102.728L146.443,102.728L146.443,72.4879L121.675,72.4879Z\" id=\"uij-e236\" style=\"fill:none;stroke-width:2.16;stroke:rgb(0,0,0);\"></path>"
+        },
+        {
+          "target": [
+            "#uij-e237"
+          ],
+          "selector": "#uij-e237",
+          "bbox": null,
+          "html": "<text dominant-baseline=\"central\" fill=\"rgb(0,0,0)\" id=\"uij-e237\" text-anchor=\"middle\" x=\"134.059\" y=\"87.6079\">D</text>"
+        },
+        {
+          "target": [
+            "#uij-e238"
+          ],
+          "selector": "#uij-e238",
+          "bbox": null,
+          "html": "<polygon id=\"uij-e238\" points=\"13.7952,142.816 18.8864,131.615 24.9958,137.725\" style=\"fill:rgb(0,0,0)\"></polygon>"
+        },
+        {
+          "target": [
+            "#uij-e239"
+          ],
+          "selector": "#uij-e239",
+          "bbox": null,
+          "html": "<path d=\"M53.8831,102.728L17.8681,138.743\" id=\"uij-e239\" style=\"fill:none;stroke-width:2.16;stroke:rgb(0,0,0);\"></path>"
+        },
+        {
+          "target": [
+            "#uij-e240"
+          ],
+          "selector": "#uij-e240",
+          "bbox": null,
+          "html": "<polygon id=\"uij-e240\" points=\"93.9711,142.816 82.7705,137.725 88.8799,131.615\" style=\"fill:rgb(0,0,0)\"></polygon>"
+        },
+        {
+          "target": [
+            "#uij-e241"
+          ],
+          "selector": "#uij-e241",
+          "bbox": null,
+          "html": "<path d=\"M53.8831,102.728L89.8982,138.743\" id=\"uij-e241\" style=\"fill:none;stroke-width:2.16;stroke:rgb(0,0,0);\"></path>"
+        },
+        {
+          "target": [
+            "#uij-e242"
+          ],
+          "selector": "#uij-e242",
+          "bbox": null,
+          "html": "<path d=\"M36.7743,173.056L151.168,173.056L151.168,142.816L36.7743,142.816Z\" id=\"uij-e242\" style=\"fill:none;stroke-width:2.16;stroke:rgb(0,0,0);\"></path>"
+        },
+        {
+          "target": [
+            "#uij-e243"
+          ],
+          "selector": "#uij-e243",
+          "bbox": null,
+          "html": "<text dominant-baseline=\"central\" fill=\"rgb(0,0,0)\" id=\"uij-e243\" text-anchor=\"middle\" x=\"93.9711\" y=\"157.936\">RIGHT&nbsp;JOIN</text>"
+        },
+        {
+          "target": [
+            "#uij-e244"
+          ],
+          "selector": "#uij-e244",
+          "bbox": null,
+          "html": "<path d=\"M2.16,173.056L25.4304,173.056L25.4304,142.816L2.16,142.816Z\" id=\"uij-e244\" style=\"fill:none;stroke-width:2.16;stroke:rgb(0,0,0);\"></path>"
+        },
+        {
+          "target": [
+            "#uij-e245"
+          ],
+          "selector": "#uij-e245",
+          "bbox": null,
+          "html": "<text dominant-baseline=\"central\" fill=\"rgb(0,0,0)\" id=\"uij-e245\" text-anchor=\"middle\" x=\"13.7952\" y=\"157.936\">A</text>"
+        },
+        {
+          "target": [
+            "#uij-e246"
+          ],
+          "selector": "#uij-e246",
+          "bbox": null,
+          "html": "<polygon id=\"uij-e246\" points=\"53.8831,213.144 58.9743,201.943 65.0837,208.053\" style=\"fill:rgb(0,0,0)\"></polygon>"
+        },
+        {
+          "target": [
+            "#uij-e247"
+          ],
+          "selector": "#uij-e247",
+          "bbox": null,
+          "html": "<path d=\"M93.9711,173.056L57.9561,209.071\" id=\"uij-e247\" style=\"fill:none;stroke-width:2.16;stroke:rgb(0,0,0);\"></path>"
+        },
+        {
+          "target": [
+            "#uij-e248"
+          ],
+          "selector": "#uij-e248",
+          "bbox": null,
+          "html": "<polygon id=\"uij-e248\" points=\"134.059,213.144 122.858,208.053 128.968,201.943\" style=\"fill:rgb(0,0,0)\"></polygon>"
+        },
+        {
+          "target": [
+            "#uij-e249"
+          ],
+          "selector": "#uij-e249",
+          "bbox": null,
+          "html": "<path d=\"M93.9711,173.056L129.986,209.071\" id=\"uij-e249\" style=\"fill:none;stroke-width:2.16;stroke:rgb(0,0,0);\"></path>"
+        },
+        {
+          "target": [
+            "#uij-e250"
+          ],
+          "selector": "#uij-e250",
+          "bbox": null,
+          "html": "<path d=\"M42.0751,243.384L65.6911,243.384L65.6911,213.144L42.0751,213.144Z\" id=\"uij-e250\" style=\"fill:none;stroke-width:2.16;stroke:rgb(0,0,0);\"></path>"
+        },
+        {
+          "target": [
+            "#uij-e251"
+          ],
+          "selector": "#uij-e251",
+          "bbox": null,
+          "html": "<text dominant-baseline=\"central\" fill=\"rgb(0,0,0)\" id=\"uij-e251\" text-anchor=\"middle\" x=\"53.8831\" y=\"228.264\">B</text>"
+        },
+        {
+          "target": [
+            "#uij-e252"
+          ],
+          "selector": "#uij-e252",
+          "bbox": null,
+          "html": "<path d=\"M121.963,243.384L146.155,243.384L146.155,213.144L121.963,213.144Z\" id=\"uij-e252\" style=\"fill:none;stroke-width:2.16;stroke:rgb(0,0,0);\"></path>"
+        },
+        {
+          "target": [
+            "#uij-e253"
+          ],
+          "selector": "#uij-e253",
+          "bbox": null,
+          "html": "<text dominant-baseline=\"central\" fill=\"rgb(0,0,0)\" id=\"uij-e253\" text-anchor=\"middle\" x=\"134.059\" y=\"228.264\">C</text>"
+        },
+        {
+          "target": [
+            "#uij-e255"
+          ],
+          "selector": "#uij-e255",
+          "bbox": null,
+          "html": "<div class=\"imgcontainer\" id=\"uij-e255\">"
+        },
+        {
+          "target": [
+            "#uij-e256"
+          ],
+          "selector": "#uij-e256",
+          "bbox": null,
+          "html": "<div id=\"uij-e256\" style=\"max-width:188px;\">"
+        },
+        {
+          "target": [
+            "#uij-e257"
+          ],
+          "selector": "#uij-e257",
+          "bbox": null,
+          "html": "<svg class=\"pikchr\" data-pikchr-date=\"20250319161943\" id=\"uij-e257\" style=\"font-size:initial;\" viewBox=\"0 0 188.691 245.544\" xmlns=\"http://www.w3.org/2000/svg\">"
+        },
+        {
+          "target": [
+            "#uij-e258"
+          ],
+          "selector": "#uij-e258",
+          "bbox": null,
+          "html": "<path d=\"M107.793,32.4L160.325,32.4L160.325,2.16L107.793,2.16Z\" id=\"uij-e258\" style=\"fill:none;stroke-width:2.16;stroke:rgb(0,0,0);\"></path>"
+        },
+        {
+          "target": [
+            "#uij-e259"
+          ],
+          "selector": "#uij-e259",
+          "bbox": null,
+          "html": "<text dominant-baseline=\"central\" fill=\"rgb(0,0,0)\" id=\"uij-e259\" text-anchor=\"middle\" x=\"134.059\" y=\"17.28\">JOIN</text>"
+        },
+        {
+          "target": [
+            "#uij-e260"
+          ],
+          "selector": "#uij-e260",
+          "bbox": null,
+          "html": "<polygon id=\"uij-e260\" points=\"93.9711,72.4879 99.0623,61.2874 105.172,67.3968\" style=\"fill:rgb(0,0,0)\"></polygon>"
+        },
+        {
+          "target": [
+            "#uij-e261"
+          ],
+          "selector": "#uij-e261",
+          "bbox": null,
+          "html": "<path d=\"M134.059,32.4L98.044,68.415\" id=\"uij-e261\" style=\"fill:none;stroke-width:2.16;stroke:rgb(0,0,0);\"></path>"
+        },
+        {
+          "target": [
+            "#uij-e262"
+          ],
+          "selector": "#uij-e262",
+          "bbox": null,
+          "html": "<polygon id=\"uij-e262\" points=\"174.147,72.4879 162.946,67.3968 169.056,61.2874\" style=\"fill:rgb(0,0,0)\"></polygon>"
+        },
+        {
+          "target": [
+            "#uij-e263"
+          ],
+          "selector": "#uij-e263",
+          "bbox": null,
+          "html": "<path d=\"M134.059,32.4L170.074,68.415\" id=\"uij-e263\" style=\"fill:none;stroke-width:2.16;stroke:rgb(0,0,0);\"></path>"
+        },
+        {
+          "target": [
+            "#uij-e264"
+          ],
+          "selector": "#uij-e264",
+          "bbox": null,
+          "html": "<path d=\"M36.7743,102.728L151.168,102.728L151.168,72.4879L36.7743,72.4879Z\" id=\"uij-e264\" style=\"fill:none;stroke-width:2.16;stroke:rgb(0,0,0);\"></path>"
+        },
+        {
+          "target": [
+            "#uij-e265"
+          ],
+          "selector": "#uij-e265",
+          "bbox": null,
+          "html": "<text dominant-baseline=\"central\" fill=\"rgb(0,0,0)\" id=\"uij-e265\" text-anchor=\"middle\" x=\"93.9711\" y=\"87.6079\">RIGHT&nbsp;JOIN</text>"
+        },
+        {
+          "target": [
+            "#uij-e266"
+          ],
+          "selector": "#uij-e266",
+          "bbox": null,
+          "html": "<path d=\"M161.763,102.728L186.531,102.728L186.531,72.4879L161.763,72.4879Z\" id=\"uij-e266\" style=\"fill:none;stroke-width:2.16;stroke:rgb(0,0,0);\"></path>"
+        },
+        {
+          "target": [
+            "#uij-e267"
+          ],
+          "selector": "#uij-e267",
+          "bbox": null,
+          "html": "<text dominant-baseline=\"central\" fill=\"rgb(0,0,0)\" id=\"uij-e267\" text-anchor=\"middle\" x=\"174.147\" y=\"87.6079\">D</text>"
+        },
+        {
+          "target": [
+            "#uij-e268"
+          ],
+          "selector": "#uij-e268",
+          "bbox": null,
+          "html": "<polygon id=\"uij-e268\" points=\"53.8831,142.816 58.9743,131.615 65.0837,137.725\" style=\"fill:rgb(0,0,0)\"></polygon>"
+        },
+        {
+          "target": [
+            "#uij-e269"
+          ],
+          "selector": "#uij-e269",
+          "bbox": null,
+          "html": "<path d=\"M93.9711,102.728L57.9561,138.743\" id=\"uij-e269\" style=\"fill:none;stroke-width:2.16;stroke:rgb(0,0,0);\"></path>"
+        },
+        {
+          "target": [
+            "#uij-e270"
+          ],
+          "selector": "#uij-e270",
+          "bbox": null,
+          "html": "<polygon id=\"uij-e270\" points=\"134.059,142.816 122.858,137.725 128.968,131.615\" style=\"fill:rgb(0,0,0)\"></polygon>"
+        },
+        {
+          "target": [
+            "#uij-e271"
+          ],
+          "selector": "#uij-e271",
+          "bbox": null,
+          "html": "<path d=\"M93.9711,102.728L129.986,138.743\" id=\"uij-e271\" style=\"fill:none;stroke-width:2.16;stroke:rgb(0,0,0);\"></path>"
+        },
+        {
+          "target": [
+            "#uij-e272"
+          ],
+          "selector": "#uij-e272",
+          "bbox": null,
+          "html": "<path d=\"M27.6175,173.056L80.1487,173.056L80.1487,142.816L27.6175,142.816Z\" id=\"uij-e272\" style=\"fill:none;stroke-width:2.16;stroke:rgb(0,0,0);\"></path>"
+        },
+        {
+          "target": [
+            "#uij-e273"
+          ],
+          "selector": "#uij-e273",
+          "bbox": null,
+          "html": "<text dominant-baseline=\"central\" fill=\"rgb(0,0,0)\" id=\"uij-e273\" text-anchor=\"middle\" x=\"53.8831\" y=\"157.936\">JOIN</text>"
+        },
+        {
+          "target": [
+            "#uij-e274"
+          ],
+          "selector": "#uij-e274",
+          "bbox": null,
+          "html": "<path d=\"M121.963,173.056L146.155,173.056L146.155,142.816L121.963,142.816Z\" id=\"uij-e274\" style=\"fill:none;stroke-width:2.16;stroke:rgb(0,0,0);\"></path>"
+        },
+        {
+          "target": [
+            "#uij-e275"
+          ],
+          "selector": "#uij-e275",
+          "bbox": null,
+          "html": "<text dominant-baseline=\"central\" fill=\"rgb(0,0,0)\" id=\"uij-e275\" text-anchor=\"middle\" x=\"134.059\" y=\"157.936\">C</text>"
+        },
+        {
+          "target": [
+            "#uij-e276"
+          ],
+          "selector": "#uij-e276",
+          "bbox": null,
+          "html": "<polygon id=\"uij-e276\" points=\"13.7952,213.144 18.8864,201.943 24.9958,208.053\" style=\"fill:rgb(0,0,0)\"></polygon>"
+        },
+        {
+          "target": [
+            "#uij-e277"
+          ],
+          "selector": "#uij-e277",
+          "bbox": null,
+          "html": "<path d=\"M53.8831,173.056L17.8681,209.071\" id=\"uij-e277\" style=\"fill:none;stroke-width:2.16;stroke:rgb(0,0,0);\"></path>"
+        },
+        {
+          "target": [
+            "#uij-e278"
+          ],
+          "selector": "#uij-e278",
+          "bbox": null,
+          "html": "<polygon id=\"uij-e278\" points=\"93.9711,213.144 82.7705,208.053 88.8799,201.943\" style=\"fill:rgb(0,0,0)\"></polygon>"
+        },
+        {
+          "target": [
+            "#uij-e279"
+          ],
+          "selector": "#uij-e279",
+          "bbox": null,
+          "html": "<path d=\"M53.8831,173.056L89.8982,209.071\" id=\"uij-e279\" style=\"fill:none;stroke-width:2.16;stroke:rgb(0,0,0);\"></path>"
+        },
+        {
+          "target": [
+            "#uij-e280"
+          ],
+          "selector": "#uij-e280",
+          "bbox": null,
+          "html": "<path d=\"M2.16,243.384L25.4304,243.384L25.4304,213.144L2.16,213.144Z\" id=\"uij-e280\" style=\"fill:none;stroke-width:2.16;stroke:rgb(0,0,0);\"></path>"
+        },
+        {
+          "target": [
+            "#uij-e281"
+          ],
+          "selector": "#uij-e281",
+          "bbox": null,
+          "html": "<text dominant-baseline=\"central\" fill=\"rgb(0,0,0)\" id=\"uij-e281\" text-anchor=\"middle\" x=\"13.7952\" y=\"228.264\">A</text>"
+        },
+        {
+          "target": [
+            "#uij-e282"
+          ],
+          "selector": "#uij-e282",
+          "bbox": null,
+          "html": "<path d=\"M82.1631,243.384L105.779,243.384L105.779,213.144L82.1631,213.144Z\" id=\"uij-e282\" style=\"fill:none;stroke-width:2.16;stroke:rgb(0,0,0);\"></path>"
+        },
+        {
+          "target": [
+            "#uij-e283"
+          ],
+          "selector": "#uij-e283",
+          "bbox": null,
+          "html": "<text dominant-baseline=\"central\" fill=\"rgb(0,0,0)\" id=\"uij-e283\" text-anchor=\"middle\" x=\"93.9711\" y=\"228.264\">B</text>"
+        },
+        {
+          "target": [
+            "#uij-e286"
+          ],
+          "selector": "#uij-e286",
+          "bbox": null,
+          "html": "<p id=\"uij-e286\">\n... FROM a, (b RIGHT JOIN c), d ...\n</p>"
+        }
+      ]
+    },
+    {
+      "rule_id": "summary-name",
+      "impact": "",
+      "tags": [
+        "wcag2a",
+        "wcag412",
+        "section508",
+        "section508.22.a"
+      ],
+      "description": "Ensure summary elements have discernible text",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/summary-name?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e44"
+          ],
+          "selector": "#uij-e44",
+          "bbox": null,
+          "html": "<summary id=\"uij-e44\">Table Of Contents</summary>"
+        }
+      ]
+    }
+  ]
+}

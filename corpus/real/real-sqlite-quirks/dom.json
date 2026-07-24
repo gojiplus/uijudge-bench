@@ -1,0 +1,5715 @@
+{
+  "element_count": 310,
+  "doc_width": 1920,
+  "doc_height": 5331,
+  "captured": [
+    {
+      "selector": "#uij-e0",
+      "tag": "div",
+      "id": "uij-e0",
+      "class": "nosearch",
+      "role": null,
+      "text_prefix": "Small. Fast. Reliable.Choose any three. Home Menu About Documentation Download L",
+      "bbox": {
+        "desktop": [
+          8,
+          0,
+          1904,
+          139
+        ],
+        "mobile": [
+          2,
+          0,
+          371,
+          134
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e2",
+      "tag": "img",
+      "id": "uij-e2",
+      "class": "logo",
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          9,
+          1,
+          200,
+          101
+        ],
+        "mobile": [
+          3,
+          1,
+          200,
+          101
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e4",
+      "tag": "div",
+      "id": "uij-e4",
+      "class": "tagline desktoponly",
+      "role": null,
+      "text_prefix": "Small. Fast. Reliable.Choose any three.",
+      "bbox": {
+        "desktop": [
+          1600,
+          58,
+          300,
+          38
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e6",
+      "tag": "div",
+      "id": "uij-e6",
+      "class": "menu mainmenu",
+      "role": null,
+      "text_prefix": "Home Menu About Documentation Download License Support Purchase Search",
+      "bbox": {
+        "desktop": [
+          8,
+          0,
+          1904,
+          139
+        ],
+        "mobile": [
+          2,
+          0,
+          371,
+          134
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e7",
+      "tag": "ul",
+      "id": "uij-e7",
+      "class": null,
+      "role": null,
+      "text_prefix": "Home Menu About Documentation Download License Support Purchase Search",
+      "bbox": {
+        "desktop": [
+          8,
+          108,
+          1904,
+          31
+        ],
+        "mobile": [
+          2,
+          103,
+          371,
+          31
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e8",
+      "tag": "li",
+      "id": "uij-e8",
+      "class": null,
+      "role": null,
+      "text_prefix": "Home",
+      "bbox": {
+        "desktop": [
+          8,
+          108,
+          71,
+          31
+        ],
+        "mobile": [
+          2,
+          103,
+          71,
+          31
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e9",
+      "tag": "a",
+      "id": "uij-e9",
+      "class": null,
+      "role": null,
+      "text_prefix": "Home",
+      "bbox": {
+        "desktop": [
+          8,
+          108,
+          71,
+          31
+        ],
+        "mobile": [
+          2,
+          103,
+          71,
+          31
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e12",
+      "tag": "li",
+      "id": "uij-e12",
+      "class": "wideonly",
+      "role": null,
+      "text_prefix": "About",
+      "bbox": {
+        "desktop": [
+          79,
+          108,
+          71,
+          31
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e13",
+      "tag": "a",
+      "id": "uij-e13",
+      "class": null,
+      "role": null,
+      "text_prefix": "About",
+      "bbox": {
+        "desktop": [
+          79,
+          108,
+          71,
+          31
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e14",
+      "tag": "li",
+      "id": "uij-e14",
+      "class": "desktoponly",
+      "role": null,
+      "text_prefix": "Documentation",
+      "bbox": {
+        "desktop": [
+          151,
+          108,
+          147,
+          31
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e15",
+      "tag": "a",
+      "id": "uij-e15",
+      "class": null,
+      "role": null,
+      "text_prefix": "Documentation",
+      "bbox": {
+        "desktop": [
+          151,
+          108,
+          147,
+          31
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e16",
+      "tag": "li",
+      "id": "uij-e16",
+      "class": "desktoponly",
+      "role": null,
+      "text_prefix": "Download",
+      "bbox": {
+        "desktop": [
+          297,
+          108,
+          103,
+          31
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e17",
+      "tag": "a",
+      "id": "uij-e17",
+      "class": null,
+      "role": null,
+      "text_prefix": "Download",
+      "bbox": {
+        "desktop": [
+          297,
+          108,
+          103,
+          31
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e18",
+      "tag": "li",
+      "id": "uij-e18",
+      "class": "wideonly",
+      "role": null,
+      "text_prefix": "License",
+      "bbox": {
+        "desktop": [
+          401,
+          108,
+          84,
+          31
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e19",
+      "tag": "a",
+      "id": "uij-e19",
+      "class": null,
+      "role": null,
+      "text_prefix": "License",
+      "bbox": {
+        "desktop": [
+          401,
+          108,
+          84,
+          31
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e20",
+      "tag": "li",
+      "id": "uij-e20",
+      "class": "desktoponly",
+      "role": null,
+      "text_prefix": "Support",
+      "bbox": {
+        "desktop": [
+          484,
+          108,
+          88,
+          31
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e21",
+      "tag": "a",
+      "id": "uij-e21",
+      "class": null,
+      "role": null,
+      "text_prefix": "Support",
+      "bbox": {
+        "desktop": [
+          484,
+          108,
+          88,
+          31
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e22",
+      "tag": "li",
+      "id": "uij-e22",
+      "class": "desktoponly",
+      "role": null,
+      "text_prefix": "Purchase",
+      "bbox": {
+        "desktop": [
+          572,
+          108,
+          97,
+          31
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e23",
+      "tag": "a",
+      "id": "uij-e23",
+      "class": null,
+      "role": null,
+      "text_prefix": "Purchase",
+      "bbox": {
+        "desktop": [
+          572,
+          108,
+          97,
+          31
+        ]
+      }
+    },
+    {
+      "selector": "#search_menubutton",
+      "tag": "li",
+      "id": "search_menubutton",
+      "class": "search",
+      "role": null,
+      "text_prefix": "Search",
+      "bbox": {
+        "desktop": [
+          1832,
+          108,
+          80,
+          31
+        ],
+        "mobile": [
+          293,
+          103,
+          80,
+          31
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e24",
+      "tag": "a",
+      "id": "uij-e24",
+      "class": null,
+      "role": null,
+      "text_prefix": "Search",
+      "bbox": {
+        "desktop": [
+          1832,
+          108,
+          80,
+          31
+        ],
+        "mobile": [
+          293,
+          103,
+          80,
+          31
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e40",
+      "tag": "div",
+      "id": "uij-e40",
+      "class": "fancy",
+      "role": null,
+      "text_prefix": "Quirks, Caveats, and Gotchas In SQLite Table Of Contents 1. Overview 2. SQLite I",
+      "bbox": {
+        "desktop": [
+          8,
+          139,
+          1904,
+          5176
+        ],
+        "mobile": [
+          2,
+          134,
+          371,
+          11931
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e41",
+      "tag": "div",
+      "id": "uij-e41",
+      "class": "nosearch",
+      "role": null,
+      "text_prefix": "Quirks, Caveats, and Gotchas In SQLite Table Of Contents 1. Overview 2. SQLite I",
+      "bbox": {
+        "desktop": [
+          8,
+          139,
+          1904,
+          116
+        ],
+        "mobile": [
+          2,
+          134,
+          371,
+          155
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e42",
+      "tag": "div",
+      "id": "uij-e42",
+      "class": "fancy_title",
+      "role": null,
+      "text_prefix": "Quirks, Caveats, and Gotchas In SQLite",
+      "bbox": {
+        "desktop": [
+          8,
+          139,
+          1904,
+          39
+        ],
+        "mobile": [
+          2,
+          134,
+          371,
+          78
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e43",
+      "tag": "details",
+      "id": "uij-e43",
+      "class": "fancy_toc",
+      "role": null,
+      "text_prefix": "Table Of Contents 1. Overview 2. SQLite Is Embedded, Not Client-Server 3. Flexib",
+      "bbox": {
+        "desktop": [
+          8,
+          202,
+          1904,
+          53
+        ],
+        "mobile": [
+          2,
+          236,
+          371,
+          53
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e44",
+      "tag": "summary",
+      "id": "uij-e44",
+      "class": null,
+      "role": null,
+      "text_prefix": "Table Of Contents",
+      "bbox": {
+        "desktop": [
+          8,
+          202,
+          1880,
+          29
+        ],
+        "mobile": [
+          2,
+          236,
+          347,
+          29
+        ]
+      }
+    },
+    {
+      "selector": "#toc_sub",
+      "tag": "div",
+      "id": "toc_sub",
+      "class": null,
+      "role": null,
+      "text_prefix": "1. Overview 2. SQLite Is Embedded, Not Client-Server 3. Flexible Typing 3.1. No ",
+      "bbox": {
+        "desktop": [
+          8,
+          271,
+          1904,
+          323
+        ],
+        "mobile": [
+          2,
+          305,
+          371,
+          551
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e45",
+      "tag": "div",
+      "id": "uij-e45",
+      "class": "fancy-toc1",
+      "role": null,
+      "text_prefix": "1. Overview",
+      "bbox": {
+        "desktop": [
+          60,
+          271,
+          1852,
+          19
+        ],
+        "mobile": [
+          2,
+          305,
+          371,
+          19
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e46",
+      "tag": "a",
+      "id": "uij-e46",
+      "class": null,
+      "role": null,
+      "text_prefix": "1. Overview",
+      "bbox": {
+        "desktop": [
+          60,
+          271,
+          96,
+          19
+        ],
+        "mobile": [
+          19,
+          305,
+          96,
+          19
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e47",
+      "tag": "div",
+      "id": "uij-e47",
+      "class": "fancy-toc1",
+      "role": null,
+      "text_prefix": "2. SQLite Is Embedded, Not Client-Server",
+      "bbox": {
+        "desktop": [
+          60,
+          290,
+          1852,
+          19
+        ],
+        "mobile": [
+          2,
+          324,
+          371,
+          19
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e48",
+      "tag": "a",
+      "id": "uij-e48",
+      "class": null,
+      "role": null,
+      "text_prefix": "2. SQLite Is Embedded, Not Client-Server",
+      "bbox": {
+        "desktop": [
+          60,
+          290,
+          336,
+          19
+        ],
+        "mobile": [
+          19,
+          324,
+          336,
+          19
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e49",
+      "tag": "div",
+      "id": "uij-e49",
+      "class": "fancy-toc1",
+      "role": null,
+      "text_prefix": "3. Flexible Typing",
+      "bbox": {
+        "desktop": [
+          60,
+          309,
+          1852,
+          19
+        ],
+        "mobile": [
+          2,
+          343,
+          371,
+          19
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e50",
+      "tag": "a",
+      "id": "uij-e50",
+      "class": null,
+      "role": null,
+      "text_prefix": "3. Flexible Typing",
+      "bbox": {
+        "desktop": [
+          60,
+          309,
+          140,
+          19
+        ],
+        "mobile": [
+          19,
+          343,
+          140,
+          19
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e51",
+      "tag": "div",
+      "id": "uij-e51",
+      "class": "fancy-toc2",
+      "role": null,
+      "text_prefix": "3.1. No Separate BOOLEAN Datatype",
+      "bbox": {
+        "desktop": [
+          113,
+          328,
+          1799,
+          19
+        ],
+        "mobile": [
+          2,
+          362,
+          371,
+          19
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e52",
+      "tag": "a",
+      "id": "uij-e52",
+      "class": null,
+      "role": null,
+      "text_prefix": "3.1. No Separate BOOLEAN Datatype",
+      "bbox": {
+        "desktop": [
+          113,
+          328,
+          299,
+          19
+        ],
+        "mobile": [
+          37,
+          362,
+          299,
+          19
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e53",
+      "tag": "div",
+      "id": "uij-e53",
+      "class": "fancy-toc2",
+      "role": null,
+      "text_prefix": "3.2. No Separate DATETIME Datatype",
+      "bbox": {
+        "desktop": [
+          113,
+          347,
+          1799,
+          19
+        ],
+        "mobile": [
+          2,
+          381,
+          371,
+          19
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e54",
+      "tag": "a",
+      "id": "uij-e54",
+      "class": null,
+      "role": null,
+      "text_prefix": "3.2. No Separate DATETIME Datatype",
+      "bbox": {
+        "desktop": [
+          113,
+          347,
+          304,
+          19
+        ],
+        "mobile": [
+          37,
+          381,
+          304,
+          19
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e55",
+      "tag": "div",
+      "id": "uij-e55",
+      "class": "fancy-toc2",
+      "role": null,
+      "text_prefix": "3.3. The datatype is optional",
+      "bbox": {
+        "desktop": [
+          113,
+          366,
+          1799,
+          19
+        ],
+        "mobile": [
+          2,
+          400,
+          371,
+          19
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e56",
+      "tag": "a",
+      "id": "uij-e56",
+      "class": null,
+      "role": null,
+      "text_prefix": "3.3. The datatype is optional",
+      "bbox": {
+        "desktop": [
+          113,
+          366,
+          232,
+          19
+        ],
+        "mobile": [
+          37,
+          400,
+          232,
+          19
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e57",
+      "tag": "div",
+      "id": "uij-e57",
+      "class": "fancy-toc1",
+      "role": null,
+      "text_prefix": "4. Foreign Key Enforcement Is Off By Default",
+      "bbox": {
+        "desktop": [
+          60,
+          385,
+          1852,
+          19
+        ],
+        "mobile": [
+          2,
+          419,
+          371,
+          38
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e58",
+      "tag": "a",
+      "id": "uij-e58",
+      "class": null,
+      "role": null,
+      "text_prefix": "4. Foreign Key Enforcement Is Off By Default",
+      "bbox": {
+        "desktop": [
+          60,
+          385,
+          363,
+          19
+        ],
+        "mobile": [
+          19,
+          419,
+          300,
+          38
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e59",
+      "tag": "div",
+      "id": "uij-e59",
+      "class": "fancy-toc1",
+      "role": null,
+      "text_prefix": "5. PRIMARY KEYs Can Sometimes Contain NULLs",
+      "bbox": {
+        "desktop": [
+          60,
+          404,
+          1852,
+          19
+        ],
+        "mobile": [
+          2,
+          457,
+          371,
+          38
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e60",
+      "tag": "a",
+      "id": "uij-e60",
+      "class": null,
+      "role": null,
+      "text_prefix": "5. PRIMARY KEYs Can Sometimes Contain NULLs",
+      "bbox": {
+        "desktop": [
+          60,
+          404,
+          393,
+          19
+        ],
+        "mobile": [
+          19,
+          457,
+          338,
+          38
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e61",
+      "tag": "div",
+      "id": "uij-e61",
+      "class": "fancy-toc1",
+      "role": null,
+      "text_prefix": "6. Aggregate Queries Can Contain Non-Aggregate Result Columns That Are Not In Th",
+      "bbox": {
+        "desktop": [
+          60,
+          423,
+          1852,
+          19
+        ],
+        "mobile": [
+          2,
+          495,
+          371,
+          57
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e62",
+      "tag": "a",
+      "id": "uij-e62",
+      "class": null,
+      "role": null,
+      "text_prefix": "6. Aggregate Queries Can Contain Non-Aggregate Result Columns That Are Not In Th",
+      "bbox": {
+        "desktop": [
+          60,
+          423,
+          846,
+          19
+        ],
+        "mobile": [
+          19,
+          495,
+          338,
+          57
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e63",
+      "tag": "div",
+      "id": "uij-e63",
+      "class": "fancy-toc1",
+      "role": null,
+      "text_prefix": "7. SQLite Does Not Do Full Unicode Case Folding By Default",
+      "bbox": {
+        "desktop": [
+          60,
+          442,
+          1852,
+          19
+        ],
+        "mobile": [
+          2,
+          552,
+          371,
+          38
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e64",
+      "tag": "a",
+      "id": "uij-e64",
+      "class": null,
+      "role": null,
+      "text_prefix": "7. SQLite Does Not Do Full Unicode Case Folding By Default",
+      "bbox": {
+        "desktop": [
+          60,
+          442,
+          481,
+          19
+        ],
+        "mobile": [
+          19,
+          552,
+          328,
+          38
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e65",
+      "tag": "div",
+      "id": "uij-e65",
+      "class": "fancy-toc1",
+      "role": null,
+      "text_prefix": "8. Double-quoted String Literals Are Accepted",
+      "bbox": {
+        "desktop": [
+          60,
+          461,
+          1852,
+          19
+        ],
+        "mobile": [
+          2,
+          590,
+          371,
+          38
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e66",
+      "tag": "a",
+      "id": "uij-e66",
+      "class": null,
+      "role": null,
+      "text_prefix": "8. Double-quoted String Literals Are Accepted",
+      "bbox": {
+        "desktop": [
+          60,
+          461,
+          370,
+          19
+        ],
+        "mobile": [
+          19,
+          590,
+          291,
+          38
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e67",
+      "tag": "div",
+      "id": "uij-e67",
+      "class": "fancy-toc1",
+      "role": null,
+      "text_prefix": "9. Keywords Can Often Be Used As Identifiers",
+      "bbox": {
+        "desktop": [
+          60,
+          480,
+          1852,
+          19
+        ],
+        "mobile": [
+          2,
+          628,
+          371,
+          38
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e68",
+      "tag": "a",
+      "id": "uij-e68",
+      "class": null,
+      "role": null,
+      "text_prefix": "9. Keywords Can Often Be Used As Identifiers",
+      "bbox": {
+        "desktop": [
+          60,
+          480,
+          369,
+          19
+        ],
+        "mobile": [
+          19,
+          628,
+          282,
+          38
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e69",
+      "tag": "div",
+      "id": "uij-e69",
+      "class": "fancy-toc1",
+      "role": null,
+      "text_prefix": "10. Dubious SQL Is Allowed Without Any Error Or Warning",
+      "bbox": {
+        "desktop": [
+          60,
+          499,
+          1852,
+          19
+        ],
+        "mobile": [
+          2,
+          666,
+          371,
+          38
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e70",
+      "tag": "a",
+      "id": "uij-e70",
+      "class": null,
+      "role": null,
+      "text_prefix": "10. Dubious SQL Is Allowed Without Any Error Or Warning",
+      "bbox": {
+        "desktop": [
+          60,
+          499,
+          470,
+          19
+        ],
+        "mobile": [
+          19,
+          666,
+          328,
+          38
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e71",
+      "tag": "div",
+      "id": "uij-e71",
+      "class": "fancy-toc1",
+      "role": null,
+      "text_prefix": "11. AUTOINCREMENT Does Not Work The Same As MySQL",
+      "bbox": {
+        "desktop": [
+          60,
+          518,
+          1852,
+          19
+        ],
+        "mobile": [
+          2,
+          704,
+          371,
+          38
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e72",
+      "tag": "a",
+      "id": "uij-e72",
+      "class": null,
+      "role": null,
+      "text_prefix": "11. AUTOINCREMENT Does Not Work The Same As MySQL",
+      "bbox": {
+        "desktop": [
+          60,
+          518,
+          471,
+          19
+        ],
+        "mobile": [
+          19,
+          704,
+          334,
+          38
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e73",
+      "tag": "div",
+      "id": "uij-e73",
+      "class": "fancy-toc1",
+      "role": null,
+      "text_prefix": "12. NUL Characters Are Allowed In Text Strings",
+      "bbox": {
+        "desktop": [
+          60,
+          537,
+          1852,
+          19
+        ],
+        "mobile": [
+          2,
+          742,
+          371,
+          38
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e74",
+      "tag": "a",
+      "id": "uij-e74",
+      "class": null,
+      "role": null,
+      "text_prefix": "12. NUL Characters Are Allowed In Text Strings",
+      "bbox": {
+        "desktop": [
+          60,
+          537,
+          381,
+          19
+        ],
+        "mobile": [
+          19,
+          742,
+          319,
+          38
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e75",
+      "tag": "div",
+      "id": "uij-e75",
+      "class": "fancy-toc1",
+      "role": null,
+      "text_prefix": "13. SQLite Distinguishes Between Integer And Text Literals",
+      "bbox": {
+        "desktop": [
+          60,
+          556,
+          1852,
+          19
+        ],
+        "mobile": [
+          2,
+          780,
+          371,
+          38
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e76",
+      "tag": "a",
+      "id": "uij-e76",
+      "class": null,
+      "role": null,
+      "text_prefix": "13. SQLite Distinguishes Between Integer And Text Literals",
+      "bbox": {
+        "desktop": [
+          60,
+          556,
+          476,
+          19
+        ],
+        "mobile": [
+          19,
+          780,
+          336,
+          38
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e77",
+      "tag": "div",
+      "id": "uij-e77",
+      "class": "fancy-toc1",
+      "role": null,
+      "text_prefix": "14. SQLite Gets The Precedence Of Comma-Joins Wrong",
+      "bbox": {
+        "desktop": [
+          60,
+          575,
+          1852,
+          19
+        ],
+        "mobile": [
+          2,
+          818,
+          371,
+          38
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e78",
+      "tag": "a",
+      "id": "uij-e78",
+      "class": null,
+      "role": null,
+      "text_prefix": "14. SQLite Gets The Precedence Of Comma-Joins Wrong",
+      "bbox": {
+        "desktop": [
+          60,
+          575,
+          454,
+          19
+        ],
+        "mobile": [
+          19,
+          818,
+          283,
+          38
+        ]
+      }
+    },
+    {
+      "selector": "#overview",
+      "tag": "h1",
+      "id": "overview",
+      "class": null,
+      "role": null,
+      "text_prefix": "1. Overview",
+      "bbox": {
+        "desktop": [
+          8,
+          277,
+          1904,
+          39
+        ],
+        "mobile": [
+          2,
+          311,
+          371,
+          39
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e79",
+      "tag": "span",
+      "id": "uij-e79",
+      "class": null,
+      "role": null,
+      "text_prefix": "1.",
+      "bbox": {
+        "desktop": [
+          8,
+          277,
+          43,
+          39
+        ],
+        "mobile": [
+          2,
+          311,
+          43,
+          39
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e80",
+      "tag": "p",
+      "id": "uij-e80",
+      "class": null,
+      "role": null,
+      "text_prefix": "The SQL language is a \"standard\". Even so, no two SQL database engines work exac",
+      "bbox": {
+        "desktop": [
+          52,
+          337,
+          1817,
+          19
+        ],
+        "mobile": [
+          2,
+          371,
+          371,
+          95
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e81",
+      "tag": "p",
+      "id": "uij-e81",
+      "class": null,
+      "role": null,
+      "text_prefix": "This document strives to highlight the principal differences between SQLite and ",
+      "bbox": {
+        "desktop": [
+          52,
+          372,
+          1817,
+          38
+        ],
+        "mobile": [
+          2,
+          482,
+          371,
+          114
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e82",
+      "tag": "p",
+      "id": "uij-e82",
+      "class": null,
+      "role": null,
+      "text_prefix": "If you are an SQLite user who has stumbled over some quirk of SQLite that is not",
+      "bbox": {
+        "desktop": [
+          52,
+          426,
+          1817,
+          19
+        ],
+        "mobile": [
+          2,
+          612,
+          371,
+          95
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e83",
+      "tag": "a",
+      "id": "uij-e83",
+      "class": null,
+      "role": null,
+      "text_prefix": "SQLite Forum",
+      "bbox": {
+        "desktop": [
+          1389,
+          426,
+          109,
+          19
+        ],
+        "mobile": [
+          2,
+          688,
+          109,
+          19
+        ]
+      }
+    },
+    {
+      "selector": "#sqlite_is_embedded_not_client_server",
+      "tag": "h1",
+      "id": "sqlite_is_embedded_not_client_server",
+      "class": null,
+      "role": null,
+      "text_prefix": "2. SQLite Is Embedded, Not Client-Server",
+      "bbox": {
+        "desktop": [
+          8,
+          467,
+          1904,
+          39
+        ],
+        "mobile": [
+          2,
+          729,
+          371,
+          117
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e84",
+      "tag": "span",
+      "id": "uij-e84",
+      "class": null,
+      "role": null,
+      "text_prefix": "2.",
+      "bbox": {
+        "desktop": [
+          8,
+          467,
+          43,
+          39
+        ],
+        "mobile": [
+          2,
+          729,
+          43,
+          39
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e85",
+      "tag": "p",
+      "id": "uij-e85",
+      "class": null,
+      "role": null,
+      "text_prefix": "Whenever comparing SQLite to other SQL database engines like SQL Server, Postgre",
+      "bbox": {
+        "desktop": [
+          52,
+          527,
+          1817,
+          38
+        ],
+        "mobile": [
+          2,
+          867,
+          371,
+          209
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e86",
+      "tag": "a",
+      "id": "uij-e86",
+      "class": null,
+      "role": null,
+      "text_prefix": "serverless",
+      "bbox": {
+        "desktop": [
+          206,
+          546,
+          81,
+          19
+        ],
+        "mobile": [
+          261,
+          962,
+          81,
+          19
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e87",
+      "tag": "p",
+      "id": "uij-e87",
+      "class": null,
+      "role": null,
+      "text_prefix": "The fact that SQLite is embedded and serverless instead of being client/server i",
+      "bbox": {
+        "desktop": [
+          52,
+          581,
+          1817,
+          19
+        ],
+        "mobile": [
+          2,
+          1092,
+          371,
+          57
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e88",
+      "tag": "a",
+      "id": "uij-e88",
+      "class": null,
+      "role": null,
+      "text_prefix": "serverless",
+      "bbox": {
+        "desktop": [
+          362,
+          581,
+          81,
+          19
+        ],
+        "mobile": [
+          2,
+          1111,
+          81,
+          19
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e89",
+      "tag": "p",
+      "id": "uij-e89",
+      "class": null,
+      "role": null,
+      "text_prefix": "Client/server databases like MySQL, PostgreSQL, SQL Server, Oracle, and others a",
+      "bbox": {
+        "desktop": [
+          52,
+          616,
+          1817,
+          38
+        ],
+        "mobile": [
+          2,
+          1165,
+          371,
+          190
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e90",
+      "tag": "p",
+      "id": "uij-e90",
+      "class": null,
+      "role": null,
+      "text_prefix": "See the Appropriate Uses For SQLite document for additional information.",
+      "bbox": {
+        "desktop": [
+          52,
+          670,
+          1817,
+          19
+        ],
+        "mobile": [
+          2,
+          1371,
+          371,
+          38
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e91",
+      "tag": "a",
+      "id": "uij-e91",
+      "class": null,
+      "role": null,
+      "text_prefix": "Appropriate Uses For SQLite",
+      "bbox": {
+        "desktop": [
+          119,
+          670,
+          227,
+          19
+        ],
+        "mobile": [
+          69,
+          1371,
+          227,
+          19
+        ]
+      }
+    },
+    {
+      "selector": "#flexible_typing",
+      "tag": "h1",
+      "id": "flexible_typing",
+      "class": null,
+      "role": null,
+      "text_prefix": "3. Flexible Typing",
+      "bbox": {
+        "desktop": [
+          8,
+          710,
+          1904,
+          39
+        ],
+        "mobile": [
+          2,
+          1430,
+          371,
+          39
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e92",
+      "tag": "span",
+      "id": "uij-e92",
+      "class": null,
+      "role": null,
+      "text_prefix": "3.",
+      "bbox": {
+        "desktop": [
+          8,
+          710,
+          43,
+          39
+        ],
+        "mobile": [
+          2,
+          1430,
+          43,
+          39
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e93",
+      "tag": "p",
+      "id": "uij-e93",
+      "class": null,
+      "role": null,
+      "text_prefix": "SQLite is flexible with regard to datatypes. Datatypes are advisory rather than ",
+      "bbox": {
+        "desktop": [
+          52,
+          771,
+          1817,
+          19
+        ],
+        "mobile": [
+          2,
+          1491,
+          371,
+          57
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e94",
+      "tag": "p",
+      "id": "uij-e94",
+      "class": null,
+      "role": null,
+      "text_prefix": "Some commentators say that SQLite is \"weakly typed\" and that other SQL databases",
+      "bbox": {
+        "desktop": [
+          52,
+          806,
+          1817,
+          38
+        ],
+        "mobile": [
+          2,
+          1564,
+          371,
+          133
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e95",
+      "tag": "p",
+      "id": "uij-e95",
+      "class": null,
+      "role": null,
+      "text_prefix": "See the Datatypes in SQLite document for a detailed discussion of the type syste",
+      "bbox": {
+        "desktop": [
+          52,
+          860,
+          1817,
+          19
+        ],
+        "mobile": [
+          2,
+          1713,
+          371,
+          57
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e96",
+      "tag": "a",
+      "id": "uij-e96",
+      "class": null,
+      "role": null,
+      "text_prefix": "Datatypes in SQLite",
+      "bbox": {
+        "desktop": [
+          119,
+          860,
+          160,
+          19
+        ],
+        "mobile": [
+          69,
+          1713,
+          160,
+          19
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e97",
+      "tag": "p",
+      "id": "uij-e97",
+      "class": null,
+      "role": null,
+      "text_prefix": "The key point is that SQLite is very forgiving of the type of data that you put ",
+      "bbox": {
+        "desktop": [
+          52,
+          895,
+          1817,
+          57
+        ],
+        "mobile": [
+          2,
+          1786,
+          371,
+          285
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e98",
+      "tag": "b",
+      "id": "uij-e98",
+      "class": null,
+      "role": null,
+      "text_prefix": "'1234'",
+      "bbox": {
+        "desktop": [
+          924,
+          914,
+          56,
+          19
+        ],
+        "mobile": [
+          227,
+          1919,
+          56,
+          19
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e99",
+      "tag": "b",
+      "id": "uij-e99",
+      "class": null,
+      "role": null,
+      "text_prefix": "'wxyz'",
+      "bbox": {
+        "desktop": [
+          207,
+          933,
+          57,
+          19
+        ],
+        "mobile": [
+          210,
+          1976,
+          57,
+          19
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e100",
+      "tag": "p",
+      "id": "uij-e100",
+      "class": null,
+      "role": null,
+      "text_prefix": "Similarly, SQLite allows you to store a 2000-character string into a column of t",
+      "bbox": {
+        "desktop": [
+          52,
+          968,
+          1817,
+          38
+        ],
+        "mobile": [
+          2,
+          2087,
+          371,
+          133
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e101",
+      "tag": "p",
+      "id": "uij-e101",
+      "class": null,
+      "role": null,
+      "text_prefix": "Where this ends up causing problems is when developers do some initial coding wo",
+      "bbox": {
+        "desktop": [
+          52,
+          1022,
+          1817,
+          38
+        ],
+        "mobile": [
+          2,
+          2236,
+          371,
+          171
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e102",
+      "tag": "p",
+      "id": "uij-e102",
+      "class": null,
+      "role": null,
+      "text_prefix": "Flexible typing is a feature of SQLite, not a bug. Flexible typing is about free",
+      "bbox": {
+        "desktop": [
+          52,
+          1076,
+          1817,
+          76
+        ],
+        "mobile": [
+          2,
+          2423,
+          371,
+          380
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e103",
+      "tag": "a",
+      "id": "uij-e103",
+      "class": null,
+      "role": null,
+      "text_prefix": "Flexible typing is a feature",
+      "bbox": {
+        "desktop": [
+          52,
+          1076,
+          213,
+          19
+        ],
+        "mobile": [
+          2,
+          2423,
+          213,
+          19
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e104",
+      "tag": "a",
+      "id": "uij-e104",
+      "class": null,
+      "role": null,
+      "text_prefix": "STRICT tables",
+      "bbox": {
+        "desktop": [
+          1630,
+          1114,
+          113,
+          19
+        ],
+        "mobile": [
+          2,
+          2708,
+          113,
+          19
+        ]
+      }
+    },
+    {
+      "selector": "#no_separate_boolean_datatype",
+      "tag": "h2",
+      "id": "no_separate_boolean_datatype",
+      "class": null,
+      "role": null,
+      "text_prefix": "3.1. No Separate BOOLEAN Datatype",
+      "bbox": {
+        "desktop": [
+          8,
+          1172,
+          1904,
+          29
+        ],
+        "mobile": [
+          2,
+          2823,
+          371,
+          58
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e105",
+      "tag": "span",
+      "id": "uij-e105",
+      "class": null,
+      "role": null,
+      "text_prefix": "3.1.",
+      "bbox": {
+        "desktop": [
+          8,
+          1172,
+          56,
+          29
+        ],
+        "mobile": [
+          2,
+          2823,
+          56,
+          29
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e106",
+      "tag": "p",
+      "id": "uij-e106",
+      "class": null,
+      "role": null,
+      "text_prefix": "Unlike most other SQL implementations, SQLite does not have a separate BOOLEAN d",
+      "bbox": {
+        "desktop": [
+          52,
+          1221,
+          1817,
+          38
+        ],
+        "mobile": [
+          2,
+          2901,
+          371,
+          133
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e107",
+      "tag": "p",
+      "id": "uij-e107",
+      "class": null,
+      "role": null,
+      "text_prefix": "Beginning with SQLite version 3.23.0 (2018-04-02), SQLite also recognizes TRUE a",
+      "bbox": {
+        "desktop": [
+          52,
+          1275,
+          1817,
+          38
+        ],
+        "mobile": [
+          2,
+          3050,
+          371,
+          190
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e108",
+      "tag": "a",
+      "id": "uij-e108",
+      "class": null,
+      "role": null,
+      "text_prefix": "version 3.23.0",
+      "bbox": {
+        "desktop": [
+          235,
+          1275,
+          116,
+          19
+        ],
+        "mobile": [
+          185,
+          3050,
+          116,
+          19
+        ]
+      }
+    },
+    {
+      "selector": "#no_separate_datetime_datatype",
+      "tag": "h2",
+      "id": "no_separate_datetime_datatype",
+      "class": null,
+      "role": null,
+      "text_prefix": "3.2. No Separate DATETIME Datatype",
+      "bbox": {
+        "desktop": [
+          8,
+          1333,
+          1904,
+          29
+        ],
+        "mobile": [
+          2,
+          3260,
+          371,
+          58
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e109",
+      "tag": "span",
+      "id": "uij-e109",
+      "class": null,
+      "role": null,
+      "text_prefix": "3.2.",
+      "bbox": {
+        "desktop": [
+          8,
+          1333,
+          56,
+          29
+        ],
+        "mobile": [
+          2,
+          3260,
+          56,
+          29
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e110",
+      "tag": "p",
+      "id": "uij-e110",
+      "class": null,
+      "role": null,
+      "text_prefix": "SQLite has no DATETIME datatype. Instead, dates and times can be stored in any o",
+      "bbox": {
+        "desktop": [
+          52,
+          1381,
+          1817,
+          19
+        ],
+        "mobile": [
+          2,
+          3337,
+          371,
+          57
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e111",
+      "tag": "ul",
+      "id": "uij-e111",
+      "class": null,
+      "role": null,
+      "text_prefix": "As a TEXT string in the ISO-8601 format. Example: '2018-04-02 12:13:46'. As an I",
+      "bbox": {
+        "desktop": [
+          52,
+          1416,
+          1817,
+          57
+        ],
+        "mobile": [
+          2,
+          3410,
+          371,
+          133
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e112",
+      "tag": "li",
+      "id": "uij-e112",
+      "class": null,
+      "role": null,
+      "text_prefix": "As a TEXT string in the ISO-8601 format. Example: '2018-04-02 12:13:46'.",
+      "bbox": {
+        "desktop": [
+          92,
+          1416,
+          1777,
+          19
+        ],
+        "mobile": [
+          42,
+          3410,
+          331,
+          57
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e113",
+      "tag": "li",
+      "id": "uij-e113",
+      "class": null,
+      "role": null,
+      "text_prefix": "As an INTEGER number of seconds since 1970 (also known as \"unix time\").",
+      "bbox": {
+        "desktop": [
+          92,
+          1435,
+          1777,
+          19
+        ],
+        "mobile": [
+          42,
+          3467,
+          331,
+          38
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e114",
+      "tag": "li",
+      "id": "uij-e114",
+      "class": null,
+      "role": null,
+      "text_prefix": "As a REAL value that is the fractional Julian day number.",
+      "bbox": {
+        "desktop": [
+          92,
+          1454,
+          1777,
+          19
+        ],
+        "mobile": [
+          42,
+          3505,
+          331,
+          38
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e115",
+      "tag": "a",
+      "id": "uij-e115",
+      "class": null,
+      "role": null,
+      "text_prefix": "Julian day number",
+      "bbox": {
+        "desktop": [
+          395,
+          1454,
+          147,
+          19
+        ],
+        "mobile": [
+          42,
+          3524,
+          147,
+          19
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e116",
+      "tag": "p",
+      "id": "uij-e116",
+      "class": null,
+      "role": null,
+      "text_prefix": "The built-in date and time functions of SQLite understand date/times in all of t",
+      "bbox": {
+        "desktop": [
+          52,
+          1489,
+          1817,
+          19
+        ],
+        "mobile": [
+          2,
+          3559,
+          371,
+          95
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e117",
+      "tag": "a",
+      "id": "uij-e117",
+      "class": null,
+      "role": null,
+      "text_prefix": "date and time functions",
+      "bbox": {
+        "desktop": [
+          149,
+          1489,
+          191,
+          19
+        ],
+        "mobile": [
+          99,
+          3559,
+          191,
+          19
+        ]
+      }
+    },
+    {
+      "selector": "#the_datatype_is_optional",
+      "tag": "h2",
+      "id": "the_datatype_is_optional",
+      "class": null,
+      "role": null,
+      "text_prefix": "3.3. The datatype is optional",
+      "bbox": {
+        "desktop": [
+          8,
+          1528,
+          1904,
+          29
+        ],
+        "mobile": [
+          2,
+          3674,
+          371,
+          29
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e118",
+      "tag": "span",
+      "id": "uij-e118",
+      "class": null,
+      "role": null,
+      "text_prefix": "3.3.",
+      "bbox": {
+        "desktop": [
+          8,
+          1528,
+          56,
+          29
+        ],
+        "mobile": [
+          2,
+          3674,
+          56,
+          29
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e119",
+      "tag": "p",
+      "id": "uij-e119",
+      "class": null,
+      "role": null,
+      "text_prefix": "Because SQLite is flexible and forgiving with regard to datatypes, table columns",
+      "bbox": {
+        "desktop": [
+          52,
+          1577,
+          1817,
+          19
+        ],
+        "mobile": [
+          2,
+          3723,
+          371,
+          76
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e120",
+      "tag": "div",
+      "id": "uij-e120",
+      "class": "codeblock",
+      "role": null,
+      "text_prefix": "CREATE TABLE t1(a,b,c,d);",
+      "bbox": {
+        "desktop": [
+          95,
+          1612,
+          214,
+          34
+        ],
+        "mobile": [
+          11,
+          3815,
+          214,
+          34
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e121",
+      "tag": "pre",
+      "id": "uij-e121",
+      "class": null,
+      "role": null,
+      "text_prefix": "CREATE TABLE t1(a,b,c,d);",
+      "bbox": {
+        "desktop": [
+          105,
+          1622,
+          195,
+          15
+        ],
+        "mobile": [
+          20,
+          3825,
+          195,
+          15
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e122",
+      "tag": "p",
+      "id": "uij-e122",
+      "class": null,
+      "role": null,
+      "text_prefix": "The table \"t1\" has four columns \"a\", \"b\", \"c\", and \"d\" that have no particular d",
+      "bbox": {
+        "desktop": [
+          52,
+          1663,
+          1817,
+          19
+        ],
+        "mobile": [
+          2,
+          3866,
+          371,
+          76
+        ]
+      }
+    },
+    {
+      "selector": "#foreign_key_enforcement_is_off_by_default",
+      "tag": "h1",
+      "id": "foreign_key_enforcement_is_off_by_default",
+      "class": null,
+      "role": null,
+      "text_prefix": "4. Foreign Key Enforcement Is Off By Default",
+      "bbox": {
+        "desktop": [
+          8,
+          1703,
+          1904,
+          39
+        ],
+        "mobile": [
+          2,
+          3963,
+          371,
+          117
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e123",
+      "tag": "span",
+      "id": "uij-e123",
+      "class": null,
+      "role": null,
+      "text_prefix": "4.",
+      "bbox": {
+        "desktop": [
+          8,
+          1703,
+          43,
+          39
+        ],
+        "mobile": [
+          2,
+          3963,
+          43,
+          39
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e124",
+      "tag": "p",
+      "id": "uij-e124",
+      "class": null,
+      "role": null,
+      "text_prefix": "SQLite has parsed foreign key constraints for time out of mind, but added the ab",
+      "bbox": {
+        "desktop": [
+          52,
+          1764,
+          1817,
+          57
+        ],
+        "mobile": [
+          2,
+          4102,
+          371,
+          228
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e125",
+      "tag": "a",
+      "id": "uij-e125",
+      "class": null,
+      "role": null,
+      "text_prefix": "version 3.6.19",
+      "bbox": {
+        "desktop": [
+          1172,
+          1764,
+          116,
+          19
+        ],
+        "mobile": [
+          42,
+          4159,
+          116,
+          19
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e126",
+      "tag": "p",
+      "id": "uij-e126",
+      "class": null,
+      "role": null,
+      "text_prefix": "Applications can activate foreign key enforcement at run-time using the PRAGMA f",
+      "bbox": {
+        "desktop": [
+          52,
+          1837,
+          1817,
+          38
+        ],
+        "mobile": [
+          2,
+          4346,
+          371,
+          133
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e127",
+      "tag": "a",
+      "id": "uij-e127",
+      "class": null,
+      "role": null,
+      "text_prefix": "PRAGMA foreign_keys",
+      "bbox": {
+        "desktop": [
+          636,
+          1837,
+          177,
+          19
+        ],
+        "mobile": [
+          2,
+          4365,
+          353,
+          38
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e128",
+      "tag": "a",
+      "id": "uij-e128",
+      "class": null,
+      "role": null,
+      "text_prefix": "-DSQLITE_DEFAULT_FOREIGN_KEYS=1",
+      "bbox": {
+        "desktop": [
+          1493,
+          1837,
+          320,
+          19
+        ],
+        "mobile": [
+          2,
+          4422,
+          312,
+          38
+        ]
+      }
+    },
+    {
+      "selector": "#primary_keys_can_sometimes_contain_nulls",
+      "tag": "h1",
+      "id": "primary_keys_can_sometimes_contain_nulls",
+      "class": null,
+      "role": null,
+      "text_prefix": "5. PRIMARY KEYs Can Sometimes Contain NULLs",
+      "bbox": {
+        "desktop": [
+          8,
+          1896,
+          1904,
+          39
+        ],
+        "mobile": [
+          2,
+          4500,
+          371,
+          117
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e129",
+      "tag": "span",
+      "id": "uij-e129",
+      "class": null,
+      "role": null,
+      "text_prefix": "5.",
+      "bbox": {
+        "desktop": [
+          8,
+          1896,
+          43,
+          39
+        ],
+        "mobile": [
+          2,
+          4500,
+          43,
+          39
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e130",
+      "tag": "p",
+      "id": "uij-e130",
+      "class": null,
+      "role": null,
+      "text_prefix": "A PRIMARY KEY in an SQLite table is usually just a UNIQUE constraint. Due to an ",
+      "bbox": {
+        "desktop": [
+          52,
+          1956,
+          1817,
+          57
+        ],
+        "mobile": [
+          2,
+          4638,
+          371,
+          209
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e131",
+      "tag": "p",
+      "id": "uij-e131",
+      "class": null,
+      "role": null,
+      "text_prefix": "Exceptions:",
+      "bbox": {
+        "desktop": [
+          52,
+          2029,
+          1817,
+          19
+        ],
+        "mobile": [
+          2,
+          4863,
+          371,
+          19
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e132",
+      "tag": "ul",
+      "id": "uij-e132",
+      "class": null,
+      "role": null,
+      "text_prefix": "The value of an INTEGER PRIMARY KEY column must always be a non-NULL integer bec",
+      "bbox": {
+        "desktop": [
+          52,
+          2064,
+          1817,
+          73
+        ],
+        "mobile": [
+          2,
+          4898,
+          371,
+          263
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e133",
+      "tag": "li",
+      "id": "uij-e133",
+      "class": null,
+      "role": null,
+      "text_prefix": "The value of an INTEGER PRIMARY KEY column must always be a non-NULL integer bec",
+      "bbox": {
+        "desktop": [
+          92,
+          2064,
+          1777,
+          38
+        ],
+        "mobile": [
+          42,
+          4898,
+          331,
+          152
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e134",
+      "tag": "p",
+      "id": "uij-e134",
+      "class": null,
+      "role": null,
+      "text_prefix": "The value of an INTEGER PRIMARY KEY column must always be a non-NULL integer bec",
+      "bbox": {
+        "desktop": [
+          92,
+          2064,
+          1777,
+          38
+        ],
+        "mobile": [
+          42,
+          4898,
+          331,
+          152
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e135",
+      "tag": "a",
+      "id": "uij-e135",
+      "class": null,
+      "role": null,
+      "text_prefix": "INTEGER PRIMARY KEY",
+      "bbox": {
+        "desktop": [
+          222,
+          2064,
+          187,
+          19
+        ],
+        "mobile": [
+          172,
+          4898,
+          187,
+          19
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e136",
+      "tag": "a",
+      "id": "uij-e136",
+      "class": null,
+      "role": null,
+      "text_prefix": "ROWID",
+      "bbox": {
+        "desktop": [
+          1212,
+          2064,
+          58,
+          19
+        ],
+        "mobile": [
+          224,
+          4955,
+          58,
+          19
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e137",
+      "tag": "li",
+      "id": "uij-e137",
+      "class": null,
+      "role": null,
+      "text_prefix": "The WITHOUT ROWID and STRICT features was added after this bug was discovered, a",
+      "bbox": {
+        "desktop": [
+          92,
+          2118,
+          1777,
+          19
+        ],
+        "mobile": [
+          42,
+          5066,
+          331,
+          95
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e138",
+      "tag": "p",
+      "id": "uij-e138",
+      "class": null,
+      "role": null,
+      "text_prefix": "The WITHOUT ROWID and STRICT features was added after this bug was discovered, a",
+      "bbox": {
+        "desktop": [
+          92,
+          2118,
+          1777,
+          19
+        ],
+        "mobile": [
+          42,
+          5066,
+          331,
+          95
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e139",
+      "tag": "a",
+      "id": "uij-e139",
+      "class": null,
+      "role": null,
+      "text_prefix": "WITHOUT ROWID",
+      "bbox": {
+        "desktop": [
+          127,
+          2118,
+          143,
+          19
+        ],
+        "mobile": [
+          77,
+          5066,
+          143,
+          19
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e140",
+      "tag": "a",
+      "id": "uij-e140",
+      "class": null,
+      "role": null,
+      "text_prefix": "STRICT",
+      "bbox": {
+        "desktop": [
+          311,
+          2118,
+          60,
+          19
+        ],
+        "mobile": [
+          261,
+          5066,
+          60,
+          19
+        ]
+      }
+    },
+    {
+      "selector": "#aggregate_queries_can_contain_non_aggregate_result_columns_that_are_not_in_the_group_by_clause",
+      "tag": "h1",
+      "id": "aggregate_queries_can_contain_non_aggregate_result_columns_that_are_not_in_the_group_by_clause",
+      "class": null,
+      "role": null,
+      "text_prefix": "6. Aggregate Queries Can Contain Non-Aggregate Result Columns That Are Not In Th",
+      "bbox": {
+        "desktop": [
+          8,
+          2159,
+          1904,
+          39
+        ],
+        "mobile": [
+          2,
+          5183,
+          371,
+          234
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e141",
+      "tag": "span",
+      "id": "uij-e141",
+      "class": null,
+      "role": null,
+      "text_prefix": "6.",
+      "bbox": {
+        "desktop": [
+          8,
+          2159,
+          43,
+          39
+        ],
+        "mobile": [
+          2,
+          5183,
+          43,
+          39
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e142",
+      "tag": "p",
+      "id": "uij-e142",
+      "class": null,
+      "role": null,
+      "text_prefix": "In most SQL implementations, output columns of an aggregate query may only refer",
+      "bbox": {
+        "desktop": [
+          52,
+          2219,
+          1817,
+          38
+        ],
+        "mobile": [
+          2,
+          5438,
+          371,
+          152
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e143",
+      "tag": "p",
+      "id": "uij-e143",
+      "class": null,
+      "role": null,
+      "text_prefix": "SQLite does not enforce this restriction. The output columns from an aggregate q",
+      "bbox": {
+        "desktop": [
+          52,
+          2273,
+          1817,
+          19
+        ],
+        "mobile": [
+          2,
+          5606,
+          371,
+          95
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e144",
+      "tag": "ol",
+      "id": "uij-e144",
+      "class": null,
+      "role": null,
+      "text_prefix": "With SQLite (but not any other SQL implementation that we know of) if an aggrega",
+      "bbox": {
+        "desktop": [
+          52,
+          2308,
+          1817,
+          231
+        ],
+        "mobile": [
+          2,
+          5717,
+          371,
+          668
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e145",
+      "tag": "li",
+      "id": "uij-e145",
+      "class": null,
+      "role": null,
+      "text_prefix": "With SQLite (but not any other SQL implementation that we know of) if an aggrega",
+      "bbox": {
+        "desktop": [
+          92,
+          2308,
+          1777,
+          158
+        ],
+        "mobile": [
+          42,
+          5717,
+          331,
+          386
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e146",
+      "tag": "p",
+      "id": "uij-e146",
+      "class": null,
+      "role": null,
+      "text_prefix": "With SQLite (but not any other SQL implementation that we know of) if an aggrega",
+      "bbox": {
+        "desktop": [
+          92,
+          2308,
+          1777,
+          38
+        ],
+        "mobile": [
+          42,
+          5717,
+          331,
+          190
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e147",
+      "tag": "p",
+      "id": "uij-e147",
+      "class": null,
+      "role": null,
+      "text_prefix": "For example to find the highest paid employee:",
+      "bbox": {
+        "desktop": [
+          92,
+          2362,
+          1777,
+          19
+        ],
+        "mobile": [
+          42,
+          5923,
+          331,
+          38
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e148",
+      "tag": "div",
+      "id": "uij-e148",
+      "class": "codeblock",
+      "role": null,
+      "text_prefix": "SELECT max(salary), first_name, last_name FROM employee;",
+      "bbox": {
+        "desktop": [
+          135,
+          2397,
+          456,
+          34
+        ],
+        "mobile": [
+          51,
+          5977,
+          456,
+          34
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e149",
+      "tag": "pre",
+      "id": "uij-e149",
+      "class": null,
+      "role": null,
+      "text_prefix": "SELECT max(salary), first_name, last_name FROM employee;",
+      "bbox": {
+        "desktop": [
+          145,
+          2407,
+          437,
+          15
+        ],
+        "mobile": [
+          60,
+          5987,
+          437,
+          15
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e150",
+      "tag": "p",
+      "id": "uij-e150",
+      "class": null,
+      "role": null,
+      "text_prefix": "In the query above, the values for the first_name and last_name columns will cor",
+      "bbox": {
+        "desktop": [
+          92,
+          2448,
+          1777,
+          19
+        ],
+        "mobile": [
+          42,
+          6028,
+          331,
+          76
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e151",
+      "tag": "li",
+      "id": "uij-e151",
+      "class": null,
+      "role": null,
+      "text_prefix": "If a query contains no aggregate functions at all, then a GROUP BY clause can be",
+      "bbox": {
+        "desktop": [
+          92,
+          2483,
+          1777,
+          57
+        ],
+        "mobile": [
+          42,
+          6120,
+          331,
+          266
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e152",
+      "tag": "p",
+      "id": "uij-e152",
+      "class": null,
+      "role": null,
+      "text_prefix": "If a query contains no aggregate functions at all, then a GROUP BY clause can be",
+      "bbox": {
+        "desktop": [
+          92,
+          2483,
+          1777,
+          57
+        ],
+        "mobile": [
+          42,
+          6120,
+          331,
+          266
+        ]
+      }
+    },
+    {
+      "selector": "#sqlite_does_not_do_full_unicode_case_folding_by_default",
+      "tag": "h1",
+      "id": "sqlite_does_not_do_full_unicode_case_folding_by_default",
+      "class": null,
+      "role": null,
+      "text_prefix": "7. SQLite Does Not Do Full Unicode Case Folding By Default",
+      "bbox": {
+        "desktop": [
+          8,
+          2561,
+          1904,
+          39
+        ],
+        "mobile": [
+          2,
+          6407,
+          371,
+          117
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e153",
+      "tag": "span",
+      "id": "uij-e153",
+      "class": null,
+      "role": null,
+      "text_prefix": "7.",
+      "bbox": {
+        "desktop": [
+          8,
+          2561,
+          43,
+          39
+        ],
+        "mobile": [
+          2,
+          6407,
+          43,
+          39
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e154",
+      "tag": "p",
+      "id": "uij-e154",
+      "class": null,
+      "role": null,
+      "text_prefix": "SQLite does not know about the upper-case/lower-case distinction for all unicode",
+      "bbox": {
+        "desktop": [
+          52,
+          2622,
+          1817,
+          19
+        ],
+        "mobile": [
+          2,
+          6546,
+          371,
+          95
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e155",
+      "tag": "ol",
+      "id": "uij-e155",
+      "class": null,
+      "role": null,
+      "text_prefix": "Though stable now, when SQLite was first designed, the rules for unicode case fo",
+      "bbox": {
+        "desktop": [
+          52,
+          2657,
+          1817,
+          73
+        ],
+        "mobile": [
+          2,
+          6657,
+          371,
+          206
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e156",
+      "tag": "li",
+      "id": "uij-e156",
+      "class": null,
+      "role": null,
+      "text_prefix": "Though stable now, when SQLite was first designed, the rules for unicode case fo",
+      "bbox": {
+        "desktop": [
+          92,
+          2657,
+          1777,
+          38
+        ],
+        "mobile": [
+          42,
+          6657,
+          331,
+          133
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e157",
+      "tag": "p",
+      "id": "uij-e157",
+      "class": null,
+      "role": null,
+      "text_prefix": "Though stable now, when SQLite was first designed, the rules for unicode case fo",
+      "bbox": {
+        "desktop": [
+          92,
+          2657,
+          1777,
+          38
+        ],
+        "mobile": [
+          42,
+          6657,
+          331,
+          133
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e158",
+      "tag": "li",
+      "id": "uij-e158",
+      "class": null,
+      "role": null,
+      "text_prefix": "The tables necessary to do full and proper unicode case folding are larger than ",
+      "bbox": {
+        "desktop": [
+          92,
+          2711,
+          1777,
+          19
+        ],
+        "mobile": [
+          42,
+          6806,
+          331,
+          57
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e159",
+      "tag": "p",
+      "id": "uij-e159",
+      "class": null,
+      "role": null,
+      "text_prefix": "The tables necessary to do full and proper unicode case folding are larger than ",
+      "bbox": {
+        "desktop": [
+          92,
+          2711,
+          1777,
+          19
+        ],
+        "mobile": [
+          42,
+          6806,
+          331,
+          57
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e160",
+      "tag": "p",
+      "id": "uij-e160",
+      "class": null,
+      "role": null,
+      "text_prefix": "Full unicode case folding is supported in SQLite if it is compiled with the -DSQ",
+      "bbox": {
+        "desktop": [
+          52,
+          2746,
+          1817,
+          19
+        ],
+        "mobile": [
+          2,
+          6879,
+          371,
+          95
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e161",
+      "tag": "a",
+      "id": "uij-e161",
+      "class": null,
+      "role": null,
+      "text_prefix": "-DSQLITE_ENABLE_ICU",
+      "bbox": {
+        "desktop": [
+          636,
+          2746,
+          192,
+          19
+        ],
+        "mobile": [
+          2,
+          6898,
+          264,
+          38
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e162",
+      "tag": "a",
+      "id": "uij-e162",
+      "class": null,
+      "role": null,
+      "text_prefix": "International Components for Unicode",
+      "bbox": {
+        "desktop": [
+          1074,
+          2746,
+          307,
+          19
+        ],
+        "mobile": [
+          2,
+          6936,
+          333,
+          38
+        ]
+      }
+    },
+    {
+      "selector": "#double_quoted_string_literals_are_accepted",
+      "tag": "h1",
+      "id": "double_quoted_string_literals_are_accepted",
+      "class": null,
+      "role": null,
+      "text_prefix": "8. Double-quoted String Literals Are Accepted",
+      "bbox": {
+        "desktop": [
+          8,
+          2786,
+          1904,
+          39
+        ],
+        "mobile": [
+          2,
+          6995,
+          371,
+          117
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e164",
+      "tag": "span",
+      "id": "uij-e164",
+      "class": null,
+      "role": null,
+      "text_prefix": "8.",
+      "bbox": {
+        "desktop": [
+          8,
+          2786,
+          43,
+          39
+        ],
+        "mobile": [
+          2,
+          6995,
+          43,
+          39
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e165",
+      "tag": "p",
+      "id": "uij-e165",
+      "class": null,
+      "role": null,
+      "text_prefix": "The SQL standard requires double-quotes around identifiers and single-quotes aro",
+      "bbox": {
+        "desktop": [
+          52,
+          2847,
+          1817,
+          19
+        ],
+        "mobile": [
+          2,
+          7134,
+          371,
+          57
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e166",
+      "tag": "ul",
+      "id": "uij-e166",
+      "class": null,
+      "role": null,
+      "text_prefix": "\"this is a legal SQL column name\" 'this is an SQL string literal'",
+      "bbox": {
+        "desktop": [
+          52,
+          2882,
+          1817,
+          38
+        ],
+        "mobile": [
+          2,
+          7207,
+          371,
+          38
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e167",
+      "tag": "li",
+      "id": "uij-e167",
+      "class": null,
+      "role": null,
+      "text_prefix": "\"this is a legal SQL column name\"",
+      "bbox": {
+        "desktop": [
+          92,
+          2882,
+          1777,
+          19
+        ],
+        "mobile": [
+          42,
+          7207,
+          331,
+          19
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e168",
+      "tag": "tt",
+      "id": "uij-e168",
+      "class": null,
+      "role": null,
+      "text_prefix": "\"this is a legal SQL column name\"",
+      "bbox": {
+        "desktop": [
+          92,
+          2886,
+          257,
+          15
+        ],
+        "mobile": [
+          42,
+          7211,
+          257,
+          15
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e169",
+      "tag": "li",
+      "id": "uij-e169",
+      "class": null,
+      "role": null,
+      "text_prefix": "'this is an SQL string literal'",
+      "bbox": {
+        "desktop": [
+          92,
+          2901,
+          1777,
+          19
+        ],
+        "mobile": [
+          42,
+          7226,
+          331,
+          19
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e170",
+      "tag": "tt",
+      "id": "uij-e170",
+      "class": null,
+      "role": null,
+      "text_prefix": "'this is an SQL string literal'",
+      "bbox": {
+        "desktop": [
+          92,
+          2905,
+          242,
+          15
+        ],
+        "mobile": [
+          42,
+          7230,
+          242,
+          15
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e171",
+      "tag": "p",
+      "id": "uij-e171",
+      "class": null,
+      "role": null,
+      "text_prefix": "SQLite accepts both of the above. But, in an effort to be compatible with MySQL ",
+      "bbox": {
+        "desktop": [
+          52,
+          2936,
+          1817,
+          38
+        ],
+        "mobile": [
+          2,
+          7261,
+          371,
+          133
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e172",
+      "tag": "p",
+      "id": "uij-e172",
+      "class": null,
+      "role": null,
+      "text_prefix": "This misfeature means that a misspelled double-quoted identifier will be interpr",
+      "bbox": {
+        "desktop": [
+          52,
+          2990,
+          1817,
+          38
+        ],
+        "mobile": [
+          2,
+          7410,
+          371,
+          152
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e173",
+      "tag": "p",
+      "id": "uij-e173",
+      "class": null,
+      "role": null,
+      "text_prefix": "In hindsight, we should not have tried to make SQLite accept MySQL 3.x syntax, a",
+      "bbox": {
+        "desktop": [
+          52,
+          3044,
+          1817,
+          38
+        ],
+        "mobile": [
+          2,
+          7578,
+          371,
+          133
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e174",
+      "tag": "p",
+      "id": "uij-e174",
+      "class": null,
+      "role": null,
+      "text_prefix": "As of SQLite 3.27.0 (2019-02-07) the use of a double-quoted string literal cause",
+      "bbox": {
+        "desktop": [
+          52,
+          3098,
+          1817,
+          19
+        ],
+        "mobile": [
+          2,
+          7727,
+          371,
+          57
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e175",
+      "tag": "a",
+      "id": "uij-e175",
+      "class": null,
+      "role": null,
+      "text_prefix": "error log",
+      "bbox": {
+        "desktop": [
+          1017,
+          3098,
+          69,
+          19
+        ],
+        "mobile": [
+          288,
+          7765,
+          69,
+          19
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e176",
+      "tag": "p",
+      "id": "uij-e176",
+      "class": null,
+      "role": null,
+      "text_prefix": "As of SQLite 3.29.0 (2019-07-10) the use of double-quoted string literals can be",
+      "bbox": {
+        "desktop": [
+          52,
+          3133,
+          1817,
+          57
+        ],
+        "mobile": [
+          2,
+          7800,
+          371,
+          285
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e177",
+      "tag": "a",
+      "id": "uij-e177",
+      "class": null,
+      "role": null,
+      "text_prefix": "SQLITE_DBCONFIG_DQS_DDL",
+      "bbox": {
+        "desktop": [
+          957,
+          3133,
+          246,
+          19
+        ],
+        "mobile": [
+          2,
+          7857,
+          246,
+          19
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e178",
+      "tag": "a",
+      "id": "uij-e178",
+      "class": null,
+      "role": null,
+      "text_prefix": "SQLITE_DBCONFIG_DQS_DML",
+      "bbox": {
+        "desktop": [
+          1244,
+          3133,
+          248,
+          19
+        ],
+        "mobile": [
+          2,
+          7876,
+          248,
+          19
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e179",
+      "tag": "a",
+      "id": "uij-e179",
+      "class": null,
+      "role": null,
+      "text_prefix": "sqlite3_db_config()",
+      "bbox": {
+        "desktop": [
+          1582,
+          3133,
+          156,
+          19
+        ],
+        "mobile": [
+          2,
+          7895,
+          156,
+          19
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e180",
+      "tag": "a",
+      "id": "uij-e180",
+      "class": null,
+      "role": null,
+      "text_prefix": "-DSQLITE_DQS=N",
+      "bbox": {
+        "desktop": [
+          453,
+          3152,
+          150,
+          19
+        ],
+        "mobile": [
+          2,
+          7914,
+          306,
+          38
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e182",
+      "tag": "blockquote",
+      "id": "uij-e182",
+      "class": null,
+      "role": null,
+      "text_prefix": "sqlite3_db_config(db, SQLITE_DBCONFIG_DQS_DDL, 0, (void*)0); sqlite3_db_config(d",
+      "bbox": {
+        "desktop": [
+          95,
+          3206,
+          1777,
+          30
+        ],
+        "mobile": [
+          42,
+          8101,
+          291,
+          30
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e183",
+      "tag": "pre",
+      "id": "uij-e183",
+      "class": null,
+      "role": null,
+      "text_prefix": "sqlite3_db_config(db, SQLITE_DBCONFIG_DQS_DDL, 0, (void*)0); sqlite3_db_config(d",
+      "bbox": {
+        "desktop": [
+          95,
+          3206,
+          1777,
+          30
+        ],
+        "mobile": [
+          42,
+          8101,
+          291,
+          30
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e184",
+      "tag": "p",
+      "id": "uij-e184",
+      "class": null,
+      "role": null,
+      "text_prefix": "Or, if double-quoted string literals are disabled by default, but need to be sel",
+      "bbox": {
+        "desktop": [
+          52,
+          3252,
+          1817,
+          38
+        ],
+        "mobile": [
+          2,
+          8147,
+          371,
+          114
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e185",
+      "tag": "p",
+      "id": "uij-e185",
+      "class": null,
+      "role": null,
+      "text_prefix": "As of SQLite 3.41.0 (2023-02-21) SQLITE_DBCONFIG_DQS_DDL and SQLITE_DBCONFIG_DQS",
+      "bbox": {
+        "desktop": [
+          52,
+          3306,
+          1817,
+          19
+        ],
+        "mobile": [
+          2,
+          8277,
+          371,
+          114
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e186",
+      "tag": "a",
+      "id": "uij-e186",
+      "class": null,
+      "role": null,
+      "text_prefix": "CLI",
+      "bbox": {
+        "desktop": [
+          1112,
+          3306,
+          27,
+          19
+        ],
+        "mobile": [
+          140,
+          8334,
+          27,
+          19
+        ]
+      }
+    },
+    {
+      "selector": "#keywords_can_often_be_used_as_identifiers",
+      "tag": "h1",
+      "id": "keywords_can_often_be_used_as_identifiers",
+      "class": null,
+      "role": null,
+      "text_prefix": "9. Keywords Can Often Be Used As Identifiers",
+      "bbox": {
+        "desktop": [
+          8,
+          3346,
+          1904,
+          39
+        ],
+        "mobile": [
+          2,
+          8412,
+          371,
+          78
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e187",
+      "tag": "span",
+      "id": "uij-e187",
+      "class": null,
+      "role": null,
+      "text_prefix": "9.",
+      "bbox": {
+        "desktop": [
+          8,
+          3346,
+          43,
+          39
+        ],
+        "mobile": [
+          2,
+          8412,
+          43,
+          39
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e188",
+      "tag": "p",
+      "id": "uij-e188",
+      "class": null,
+      "role": null,
+      "text_prefix": "The SQL language is rich in keywords. Most SQL implementations do not allow keyw",
+      "bbox": {
+        "desktop": [
+          52,
+          3406,
+          1817,
+          38
+        ],
+        "mobile": [
+          2,
+          8511,
+          371,
+          190
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e189",
+      "tag": "p",
+      "id": "uij-e189",
+      "class": null,
+      "role": null,
+      "text_prefix": "For example, the following statement is valid in SQLite:",
+      "bbox": {
+        "desktop": [
+          52,
+          3460,
+          1817,
+          19
+        ],
+        "mobile": [
+          2,
+          8717,
+          371,
+          38
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e190",
+      "tag": "div",
+      "id": "uij-e190",
+      "class": "codeblock",
+      "role": null,
+      "text_prefix": "CREATE TABLE union(true INT, with BOOLEAN);",
+      "bbox": {
+        "desktop": [
+          95,
+          3495,
+          355,
+          34
+        ],
+        "mobile": [
+          11,
+          8771,
+          355,
+          34
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e191",
+      "tag": "pre",
+      "id": "uij-e191",
+      "class": null,
+      "role": null,
+      "text_prefix": "CREATE TABLE union(true INT, with BOOLEAN);",
+      "bbox": {
+        "desktop": [
+          105,
+          3505,
+          335,
+          15
+        ],
+        "mobile": [
+          20,
+          8781,
+          335,
+          15
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e192",
+      "tag": "p",
+      "id": "uij-e192",
+      "class": null,
+      "role": null,
+      "text_prefix": "The same SQL statement will fail on every other SQL implementation that we know ",
+      "bbox": {
+        "desktop": [
+          52,
+          3546,
+          1817,
+          19
+        ],
+        "mobile": [
+          2,
+          8822,
+          371,
+          76
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e193",
+      "tag": "p",
+      "id": "uij-e193",
+      "class": null,
+      "role": null,
+      "text_prefix": "The ability to use keywords as identifiers promotes backwards compatibility. As ",
+      "bbox": {
+        "desktop": [
+          52,
+          3581,
+          1817,
+          38
+        ],
+        "mobile": [
+          2,
+          8914,
+          371,
+          152
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e194",
+      "tag": "div",
+      "id": "uij-e194",
+      "class": "codeblock",
+      "role": null,
+      "text_prefix": "CREATE TRIGGER AFTER INSERT ON tableX BEGIN INSERT INTO tableY(b) VALUES(new.a);",
+      "bbox": {
+        "desktop": [
+          95,
+          3635,
+          355,
+          64
+        ],
+        "mobile": [
+          11,
+          9082,
+          355,
+          64
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e195",
+      "tag": "pre",
+      "id": "uij-e195",
+      "class": null,
+      "role": null,
+      "text_prefix": "CREATE TRIGGER AFTER INSERT ON tableX BEGIN INSERT INTO tableY(b) VALUES(new.a);",
+      "bbox": {
+        "desktop": [
+          105,
+          3645,
+          335,
+          45
+        ],
+        "mobile": [
+          20,
+          9092,
+          335,
+          45
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e196",
+      "tag": "p",
+      "id": "uij-e196",
+      "class": null,
+      "role": null,
+      "text_prefix": "The trigger created by the previous statement is named \"AFTER\" and it is a \"BEFO",
+      "bbox": {
+        "desktop": [
+          52,
+          3715,
+          1817,
+          38
+        ],
+        "mobile": [
+          2,
+          9162,
+          371,
+          114
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e197",
+      "tag": "div",
+      "id": "uij-e197",
+      "class": "codeblock",
+      "role": null,
+      "text_prefix": "CREATE TABLE tableZ(INTEGER PRIMARY KEY);",
+      "bbox": {
+        "desktop": [
+          95,
+          3769,
+          339,
+          34
+        ],
+        "mobile": [
+          11,
+          9292,
+          339,
+          34
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e198",
+      "tag": "pre",
+      "id": "uij-e198",
+      "class": null,
+      "role": null,
+      "text_prefix": "CREATE TABLE tableZ(INTEGER PRIMARY KEY);",
+      "bbox": {
+        "desktop": [
+          105,
+          3779,
+          320,
+          15
+        ],
+        "mobile": [
+          20,
+          9302,
+          320,
+          15
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e199",
+      "tag": "p",
+      "id": "uij-e199",
+      "class": null,
+      "role": null,
+      "text_prefix": "The tableZ table has a single column named \"INTEGER\". That column has no datatyp",
+      "bbox": {
+        "desktop": [
+          52,
+          3820,
+          1817,
+          38
+        ],
+        "mobile": [
+          2,
+          9343,
+          371,
+          152
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e200",
+      "tag": "em",
+      "id": "uij-e200",
+      "class": null,
+      "role": null,
+      "text_prefix": "not",
+      "bbox": {
+        "desktop": [
+          1169,
+          3820,
+          26,
+          19
+        ],
+        "mobile": [
+          84,
+          9400,
+          26,
+          19
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e201",
+      "tag": "a",
+      "id": "uij-e201",
+      "class": null,
+      "role": null,
+      "text_prefix": "INTEGER PRIMARY KEY",
+      "bbox": {
+        "desktop": [
+          1233,
+          3820,
+          187,
+          19
+        ],
+        "mobile": [
+          148,
+          9400,
+          187,
+          19
+        ]
+      }
+    },
+    {
+      "selector": "#dubious_sql_is_allowed_without_any_error_or_warning",
+      "tag": "h1",
+      "id": "dubious_sql_is_allowed_without_any_error_or_warning",
+      "class": null,
+      "role": null,
+      "text_prefix": "10. Dubious SQL Is Allowed Without Any Error Or Warning",
+      "bbox": {
+        "desktop": [
+          8,
+          3879,
+          1904,
+          39
+        ],
+        "mobile": [
+          2,
+          9516,
+          371,
+          117
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e202",
+      "tag": "span",
+      "id": "uij-e202",
+      "class": null,
+      "role": null,
+      "text_prefix": "10.",
+      "bbox": {
+        "desktop": [
+          8,
+          3879,
+          64,
+          39
+        ],
+        "mobile": [
+          2,
+          9516,
+          64,
+          39
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e203",
+      "tag": "p",
+      "id": "uij-e203",
+      "class": null,
+      "role": null,
+      "text_prefix": "The original implementation of SQLite sought to follow Postel's Law which states",
+      "bbox": {
+        "desktop": [
+          52,
+          3940,
+          1817,
+          38
+        ],
+        "mobile": [
+          2,
+          9655,
+          371,
+          171
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e204",
+      "tag": "a",
+      "id": "uij-e204",
+      "class": null,
+      "role": null,
+      "text_prefix": "Postel's Law",
+      "bbox": {
+        "desktop": [
+          497,
+          3940,
+          97,
+          19
+        ],
+        "mobile": [
+          76,
+          9674,
+          97,
+          19
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e206",
+      "tag": "p",
+      "id": "uij-e206",
+      "class": null,
+      "role": null,
+      "text_prefix": "There are now millions of applications that take advantage of SQLite's flexible ",
+      "bbox": {
+        "desktop": [
+          52,
+          3994,
+          1817,
+          38
+        ],
+        "mobile": [
+          2,
+          9842,
+          371,
+          114
+        ]
+      }
+    },
+    {
+      "selector": "#autoincrement_does_not_work_the_same_as_mysql",
+      "tag": "h1",
+      "id": "autoincrement_does_not_work_the_same_as_mysql",
+      "class": null,
+      "role": null,
+      "text_prefix": "11. AUTOINCREMENT Does Not Work The Same As MySQL",
+      "bbox": {
+        "desktop": [
+          8,
+          4053,
+          1904,
+          39
+        ],
+        "mobile": [
+          2,
+          9977,
+          371,
+          117
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e207",
+      "tag": "span",
+      "id": "uij-e207",
+      "class": null,
+      "role": null,
+      "text_prefix": "11.",
+      "bbox": {
+        "desktop": [
+          8,
+          4053,
+          64,
+          39
+        ],
+        "mobile": [
+          2,
+          9977,
+          64,
+          39
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e208",
+      "tag": "p",
+      "id": "uij-e208",
+      "class": null,
+      "role": null,
+      "text_prefix": "The AUTOINCREMENT feature in SQLite works differently than it does in MySQL. Thi",
+      "bbox": {
+        "desktop": [
+          52,
+          4113,
+          1817,
+          38
+        ],
+        "mobile": [
+          2,
+          10115,
+          371,
+          114
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e209",
+      "tag": "a",
+      "id": "uij-e209",
+      "class": null,
+      "role": null,
+      "text_prefix": "AUTOINCREMENT",
+      "bbox": {
+        "desktop": [
+          87,
+          4113,
+          141,
+          19
+        ],
+        "mobile": [
+          37,
+          10115,
+          141,
+          19
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e210",
+      "tag": "p",
+      "id": "uij-e210",
+      "class": null,
+      "role": null,
+      "text_prefix": "See the SQLite AUTOINCREMENT documentation for detailed instructions on what AUT",
+      "bbox": {
+        "desktop": [
+          52,
+          4167,
+          1817,
+          19
+        ],
+        "mobile": [
+          2,
+          10245,
+          371,
+          76
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e211",
+      "tag": "a",
+      "id": "uij-e211",
+      "class": null,
+      "role": null,
+      "text_prefix": "SQLite AUTOINCREMENT documentation",
+      "bbox": {
+        "desktop": [
+          119,
+          4167,
+          325,
+          19
+        ],
+        "mobile": [
+          2,
+          10245,
+          267,
+          38
+        ]
+      }
+    },
+    {
+      "selector": "#nul_characters_are_allowed_in_text_strings",
+      "tag": "h1",
+      "id": "nul_characters_are_allowed_in_text_strings",
+      "class": null,
+      "role": null,
+      "text_prefix": "12. NUL Characters Are Allowed In Text Strings",
+      "bbox": {
+        "desktop": [
+          8,
+          4208,
+          1904,
+          39
+        ],
+        "mobile": [
+          2,
+          10343,
+          371,
+          117
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e212",
+      "tag": "span",
+      "id": "uij-e212",
+      "class": null,
+      "role": null,
+      "text_prefix": "12.",
+      "bbox": {
+        "desktop": [
+          8,
+          4208,
+          64,
+          39
+        ],
+        "mobile": [
+          2,
+          10343,
+          64,
+          39
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e213",
+      "tag": "p",
+      "id": "uij-e213",
+      "class": null,
+      "role": null,
+      "text_prefix": "NUL characters (ASCII code 0x00 and Unicode \\u0000) may appear in the middle of ",
+      "bbox": {
+        "desktop": [
+          52,
+          4268,
+          1817,
+          19
+        ],
+        "mobile": [
+          2,
+          10481,
+          371,
+          95
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e214",
+      "tag": "a",
+      "id": "uij-e214",
+      "class": null,
+      "role": null,
+      "text_prefix": "NUL characters in strings",
+      "bbox": {
+        "desktop": [
+          1265,
+          4268,
+          202,
+          19
+        ],
+        "mobile": [
+          155,
+          10538,
+          202,
+          19
+        ]
+      }
+    },
+    {
+      "selector": "#sqlite_distinguishes_between_integer_and_text_literals",
+      "tag": "h1",
+      "id": "sqlite_distinguishes_between_integer_and_text_literals",
+      "class": null,
+      "role": null,
+      "text_prefix": "13. SQLite Distinguishes Between Integer And Text Literals",
+      "bbox": {
+        "desktop": [
+          8,
+          4309,
+          1904,
+          39
+        ],
+        "mobile": [
+          2,
+          10598,
+          371,
+          156
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e215",
+      "tag": "span",
+      "id": "uij-e215",
+      "class": null,
+      "role": null,
+      "text_prefix": "13.",
+      "bbox": {
+        "desktop": [
+          8,
+          4309,
+          64,
+          39
+        ],
+        "mobile": [
+          2,
+          10598,
+          64,
+          39
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e216",
+      "tag": "p",
+      "id": "uij-e216",
+      "class": null,
+      "role": null,
+      "text_prefix": "SQLite says that the following query returns false:",
+      "bbox": {
+        "desktop": [
+          52,
+          4369,
+          1817,
+          19
+        ],
+        "mobile": [
+          2,
+          10775,
+          371,
+          38
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e217",
+      "tag": "div",
+      "id": "uij-e217",
+      "class": "codeblock",
+      "role": null,
+      "text_prefix": "SELECT 1='1';",
+      "bbox": {
+        "desktop": [
+          95,
+          4404,
+          121,
+          34
+        ],
+        "mobile": [
+          11,
+          10829,
+          121,
+          34
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e218",
+      "tag": "pre",
+      "id": "uij-e218",
+      "class": null,
+      "role": null,
+      "text_prefix": "SELECT 1='1';",
+      "bbox": {
+        "desktop": [
+          105,
+          4414,
+          101,
+          15
+        ],
+        "mobile": [
+          20,
+          10839,
+          101,
+          15
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e219",
+      "tag": "p",
+      "id": "uij-e219",
+      "class": null,
+      "role": null,
+      "text_prefix": "It does this because an integer is not a string. Every other major SQL database ",
+      "bbox": {
+        "desktop": [
+          52,
+          4455,
+          1817,
+          19
+        ],
+        "mobile": [
+          2,
+          10880,
+          371,
+          76
+        ]
+      }
+    },
+    {
+      "selector": "#sqlite_gets_the_precedence_of_comma_joins_wrong",
+      "tag": "h1",
+      "id": "sqlite_gets_the_precedence_of_comma_joins_wrong",
+      "class": null,
+      "role": null,
+      "text_prefix": "14. SQLite Gets The Precedence Of Comma-Joins Wrong",
+      "bbox": {
+        "desktop": [
+          8,
+          4495,
+          1904,
+          39
+        ],
+        "mobile": [
+          2,
+          10977,
+          371,
+          117
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e220",
+      "tag": "span",
+      "id": "uij-e220",
+      "class": null,
+      "role": null,
+      "text_prefix": "14.",
+      "bbox": {
+        "desktop": [
+          8,
+          4495,
+          64,
+          39
+        ],
+        "mobile": [
+          2,
+          10977,
+          64,
+          39
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e221",
+      "tag": "p",
+      "id": "uij-e221",
+      "class": null,
+      "role": null,
+      "text_prefix": "SQLite gives all join operators equal precedence and processes them from left to",
+      "bbox": {
+        "desktop": [
+          52,
+          4556,
+          1817,
+          38
+        ],
+        "mobile": [
+          2,
+          11116,
+          371,
+          114
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e222",
+      "tag": "blockquote",
+      "id": "uij-e222",
+      "class": null,
+      "role": null,
+      "text_prefix": "... FROM a, b RIGHT JOIN c, d ...",
+      "bbox": {
+        "desktop": [
+          95,
+          4610,
+          1777,
+          19
+        ],
+        "mobile": [
+          42,
+          11246,
+          291,
+          19
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e223",
+      "tag": "p",
+      "id": "uij-e223",
+      "class": null,
+      "role": null,
+      "text_prefix": "... FROM a, b RIGHT JOIN c, d ...",
+      "bbox": {
+        "desktop": [
+          139,
+          4610,
+          1689,
+          19
+        ],
+        "mobile": [
+          42,
+          11246,
+          291,
+          19
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e224",
+      "tag": "p",
+      "id": "uij-e224",
+      "class": null,
+      "role": null,
+      "text_prefix": "Should be parsed as follows:",
+      "bbox": {
+        "desktop": [
+          52,
+          4645,
+          1817,
+          19
+        ],
+        "mobile": [
+          2,
+          11281,
+          371,
+          19
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e225",
+      "tag": "div",
+      "id": "uij-e225",
+      "class": "imgcontainer",
+      "role": null,
+      "text_prefix": "JOIN JOIN D RIGHT JOIN A B C",
+      "bbox": {
+        "desktop": [
+          52,
+          4680,
+          1817,
+          248
+        ],
+        "mobile": [
+          2,
+          11316,
+          371,
+          248
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e226",
+      "tag": "div",
+      "id": "uij-e226",
+      "class": null,
+      "role": null,
+      "text_prefix": "JOIN JOIN D RIGHT JOIN A B C",
+      "bbox": {
+        "desktop": [
+          52,
+          4680,
+          153,
+          248
+        ],
+        "mobile": [
+          2,
+          11316,
+          153,
+          248
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e227",
+      "tag": "svg",
+      "id": "uij-e227",
+      "class": null,
+      "role": null,
+      "text_prefix": "JOIN JOIN D RIGHT JOIN A B C",
+      "bbox": {
+        "desktop": [
+          52,
+          4680,
+          153,
+          245
+        ],
+        "mobile": [
+          2,
+          11316,
+          153,
+          245
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e228",
+      "tag": "path",
+      "id": "uij-e228",
+      "class": null,
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          119,
+          4682,
+          52,
+          30
+        ],
+        "mobile": [
+          70,
+          11318,
+          52,
+          30
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e229",
+      "tag": "text",
+      "id": "uij-e229",
+      "class": null,
+      "role": null,
+      "text_prefix": "JOIN",
+      "bbox": {
+        "desktop": [
+          126,
+          4687,
+          38,
+          19
+        ],
+        "mobile": [
+          77,
+          11323,
+          38,
+          19
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e231",
+      "tag": "path",
+      "id": "uij-e231",
+      "class": null,
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          109,
+          4712,
+          36,
+          36
+        ],
+        "mobile": [
+          60,
+          11348,
+          36,
+          36
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e233",
+      "tag": "path",
+      "id": "uij-e233",
+      "class": null,
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          145,
+          4712,
+          36,
+          36
+        ],
+        "mobile": [
+          96,
+          11348,
+          36,
+          36
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e234",
+      "tag": "path",
+      "id": "uij-e234",
+      "class": null,
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          79,
+          4752,
+          52,
+          30
+        ],
+        "mobile": [
+          30,
+          11388,
+          52,
+          30
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e235",
+      "tag": "text",
+      "id": "uij-e235",
+      "class": null,
+      "role": null,
+      "text_prefix": "JOIN",
+      "bbox": {
+        "desktop": [
+          86,
+          4757,
+          38,
+          19
+        ],
+        "mobile": [
+          37,
+          11393,
+          38,
+          19
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e236",
+      "tag": "path",
+      "id": "uij-e236",
+      "class": null,
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          173,
+          4752,
+          25,
+          30
+        ],
+        "mobile": [
+          123,
+          11388,
+          25,
+          30
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e239",
+      "tag": "path",
+      "id": "uij-e239",
+      "class": null,
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          69,
+          4782,
+          36,
+          36
+        ],
+        "mobile": [
+          20,
+          11418,
+          36,
+          36
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e241",
+      "tag": "path",
+      "id": "uij-e241",
+      "class": null,
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          105,
+          4782,
+          36,
+          36
+        ],
+        "mobile": [
+          56,
+          11418,
+          36,
+          36
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e242",
+      "tag": "path",
+      "id": "uij-e242",
+      "class": null,
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          88,
+          4822,
+          114,
+          30
+        ],
+        "mobile": [
+          39,
+          11458,
+          114,
+          30
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e243",
+      "tag": "text",
+      "id": "uij-e243",
+      "class": null,
+      "role": null,
+      "text_prefix": "RIGHT JOIN",
+      "bbox": {
+        "desktop": [
+          97,
+          4828,
+          96,
+          19
+        ],
+        "mobile": [
+          48,
+          11464,
+          96,
+          19
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e244",
+      "tag": "path",
+      "id": "uij-e244",
+      "class": null,
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          54,
+          4822,
+          23,
+          30
+        ],
+        "mobile": [
+          4,
+          11458,
+          23,
+          30
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e247",
+      "tag": "path",
+      "id": "uij-e247",
+      "class": null,
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          109,
+          4852,
+          36,
+          36
+        ],
+        "mobile": [
+          60,
+          11488,
+          36,
+          36
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e249",
+      "tag": "path",
+      "id": "uij-e249",
+      "class": null,
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          145,
+          4852,
+          36,
+          36
+        ],
+        "mobile": [
+          96,
+          11488,
+          36,
+          36
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e250",
+      "tag": "path",
+      "id": "uij-e250",
+      "class": null,
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          94,
+          4892,
+          24,
+          30
+        ],
+        "mobile": [
+          44,
+          11528,
+          24,
+          30
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e252",
+      "tag": "path",
+      "id": "uij-e252",
+      "class": null,
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          173,
+          4892,
+          24,
+          30
+        ],
+        "mobile": [
+          124,
+          11528,
+          24,
+          30
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e254",
+      "tag": "p",
+      "id": "uij-e254",
+      "class": null,
+      "role": null,
+      "text_prefix": "But SQLite instead parses the FROM clause like this:",
+      "bbox": {
+        "desktop": [
+          52,
+          4944,
+          1817,
+          19
+        ],
+        "mobile": [
+          2,
+          11580,
+          371,
+          38
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e255",
+      "tag": "div",
+      "id": "uij-e255",
+      "class": "imgcontainer",
+      "role": null,
+      "text_prefix": "JOIN RIGHT JOIN D JOIN C A B",
+      "bbox": {
+        "desktop": [
+          52,
+          4979,
+          1817,
+          248
+        ],
+        "mobile": [
+          2,
+          11634,
+          371,
+          248
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e256",
+      "tag": "div",
+      "id": "uij-e256",
+      "class": null,
+      "role": null,
+      "text_prefix": "JOIN RIGHT JOIN D JOIN C A B",
+      "bbox": {
+        "desktop": [
+          52,
+          4979,
+          188,
+          248
+        ],
+        "mobile": [
+          2,
+          11634,
+          188,
+          248
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e257",
+      "tag": "svg",
+      "id": "uij-e257",
+      "class": null,
+      "role": null,
+      "text_prefix": "JOIN RIGHT JOIN D JOIN C A B",
+      "bbox": {
+        "desktop": [
+          52,
+          4979,
+          188,
+          245
+        ],
+        "mobile": [
+          2,
+          11634,
+          188,
+          245
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e258",
+      "tag": "path",
+      "id": "uij-e258",
+      "class": null,
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          159,
+          4981,
+          52,
+          30
+        ],
+        "mobile": [
+          109,
+          11636,
+          52,
+          30
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e259",
+      "tag": "text",
+      "id": "uij-e259",
+      "class": null,
+      "role": null,
+      "text_prefix": "JOIN",
+      "bbox": {
+        "desktop": [
+          166,
+          4986,
+          38,
+          19
+        ],
+        "mobile": [
+          116,
+          11641,
+          38,
+          19
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e261",
+      "tag": "path",
+      "id": "uij-e261",
+      "class": null,
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          149,
+          5011,
+          36,
+          36
+        ],
+        "mobile": [
+          100,
+          11666,
+          36,
+          36
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e263",
+      "tag": "path",
+      "id": "uij-e263",
+      "class": null,
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          185,
+          5011,
+          36,
+          36
+        ],
+        "mobile": [
+          136,
+          11666,
+          36,
+          36
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e264",
+      "tag": "path",
+      "id": "uij-e264",
+      "class": null,
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          88,
+          5051,
+          114,
+          30
+        ],
+        "mobile": [
+          39,
+          11706,
+          114,
+          30
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e265",
+      "tag": "text",
+      "id": "uij-e265",
+      "class": null,
+      "role": null,
+      "text_prefix": "RIGHT JOIN",
+      "bbox": {
+        "desktop": [
+          97,
+          5056,
+          96,
+          19
+        ],
+        "mobile": [
+          48,
+          11711,
+          96,
+          19
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e266",
+      "tag": "path",
+      "id": "uij-e266",
+      "class": null,
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          213,
+          5051,
+          25,
+          30
+        ],
+        "mobile": [
+          163,
+          11706,
+          25,
+          30
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e269",
+      "tag": "path",
+      "id": "uij-e269",
+      "class": null,
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          109,
+          5081,
+          36,
+          36
+        ],
+        "mobile": [
+          60,
+          11736,
+          36,
+          36
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e271",
+      "tag": "path",
+      "id": "uij-e271",
+      "class": null,
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          145,
+          5081,
+          36,
+          36
+        ],
+        "mobile": [
+          96,
+          11736,
+          36,
+          36
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e272",
+      "tag": "path",
+      "id": "uij-e272",
+      "class": null,
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          79,
+          5121,
+          52,
+          30
+        ],
+        "mobile": [
+          30,
+          11776,
+          52,
+          30
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e273",
+      "tag": "text",
+      "id": "uij-e273",
+      "class": null,
+      "role": null,
+      "text_prefix": "JOIN",
+      "bbox": {
+        "desktop": [
+          86,
+          5126,
+          38,
+          19
+        ],
+        "mobile": [
+          36,
+          11781,
+          38,
+          19
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e274",
+      "tag": "path",
+      "id": "uij-e274",
+      "class": null,
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          173,
+          5121,
+          24,
+          30
+        ],
+        "mobile": [
+          124,
+          11776,
+          24,
+          30
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e277",
+      "tag": "path",
+      "id": "uij-e277",
+      "class": null,
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          69,
+          5151,
+          36,
+          36
+        ],
+        "mobile": [
+          20,
+          11806,
+          36,
+          36
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e279",
+      "tag": "path",
+      "id": "uij-e279",
+      "class": null,
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          105,
+          5151,
+          36,
+          36
+        ],
+        "mobile": [
+          56,
+          11806,
+          36,
+          36
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e280",
+      "tag": "path",
+      "id": "uij-e280",
+      "class": null,
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          54,
+          5191,
+          23,
+          30
+        ],
+        "mobile": [
+          4,
+          11846,
+          23,
+          30
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e282",
+      "tag": "path",
+      "id": "uij-e282",
+      "class": null,
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          133,
+          5191,
+          24,
+          30
+        ],
+        "mobile": [
+          84,
+          11846,
+          24,
+          30
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e284",
+      "tag": "p",
+      "id": "uij-e284",
+      "class": null,
+      "role": null,
+      "text_prefix": "The problem can only make a difference in the result when using RIGHT OUTER JOIN",
+      "bbox": {
+        "desktop": [
+          52,
+          5242,
+          1817,
+          38
+        ],
+        "mobile": [
+          2,
+          11897,
+          371,
+          133
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e285",
+      "tag": "blockquote",
+      "id": "uij-e285",
+      "class": null,
+      "role": null,
+      "text_prefix": "... FROM a, (b RIGHT JOIN c), d ...",
+      "bbox": {
+        "desktop": [
+          95,
+          5296,
+          1777,
+          19
+        ],
+        "mobile": [
+          42,
+          12046,
+          291,
+          19
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e286",
+      "tag": "p",
+      "id": "uij-e286",
+      "class": null,
+      "role": null,
+      "text_prefix": "... FROM a, (b RIGHT JOIN c), d ...",
+      "bbox": {
+        "desktop": [
+          139,
+          5296,
+          1689,
+          19
+        ],
+        "mobile": [
+          42,
+          12046,
+          291,
+          19
+        ]
+      }
+    }
+  ]
+}

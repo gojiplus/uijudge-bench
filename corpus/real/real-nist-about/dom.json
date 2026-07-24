@@ -1,0 +1,3969 @@
+{
+  "element_count": 580,
+  "doc_width": 1920,
+  "doc_height": 2546,
+  "captured": [
+    {
+      "selector": "#uij-e1",
+      "tag": "div",
+      "id": "uij-e1",
+      "class": "dialog-off-canvas-main-canvas",
+      "role": null,
+      "text_prefix": "https://www.nist.gov/about-nist Search NIST Menu Close Publications What We Do A",
+      "bbox": {
+        "desktop": [
+          0,
+          0,
+          1920,
+          2545
+        ],
+        "mobile": [
+          0,
+          0,
+          375,
+          4008
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e2",
+      "tag": "div",
+      "id": "uij-e2",
+      "class": null,
+      "role": null,
+      "text_prefix": "https://www.nist.gov/about-nist Search NIST Menu Close Publications What We Do A",
+      "bbox": {
+        "desktop": [
+          0,
+          0,
+          1920,
+          54
+        ],
+        "mobile": [
+          0,
+          0,
+          375,
+          92
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e7",
+      "tag": "header",
+      "id": "uij-e7",
+      "class": "usa-header nist-header--www nist-header--minimal",
+      "role": "banner",
+      "text_prefix": "Search NIST Menu Close Publications What We Do All Topics Advanced communication",
+      "bbox": {
+        "desktop": [
+          0,
+          0,
+          1920,
+          54
+        ],
+        "mobile": [
+          0,
+          0,
+          375,
+          92
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e8",
+      "tag": "div",
+      "id": "uij-e8",
+      "class": "usa-navbar__outer",
+      "role": null,
+      "text_prefix": "Search NIST Menu",
+      "bbox": {
+        "desktop": [
+          0,
+          0,
+          1920,
+          54
+        ],
+        "mobile": [
+          0,
+          0,
+          375,
+          92
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e9",
+      "tag": "div",
+      "id": "uij-e9",
+      "class": "usa-navbar",
+      "role": null,
+      "text_prefix": "Search NIST Menu",
+      "bbox": {
+        "desktop": [
+          360,
+          0,
+          1200,
+          54
+        ],
+        "mobile": [
+          0,
+          0,
+          375,
+          92
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e10",
+      "tag": "div",
+      "id": "uij-e10",
+      "class": "usa-logo flex-fill",
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          376,
+          8,
+          746,
+          38
+        ],
+        "mobile": [
+          22,
+          8,
+          343,
+          38
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e11",
+      "tag": "a",
+      "id": "uij-e11",
+      "class": null,
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          376,
+          8,
+          110,
+          38
+        ],
+        "mobile": [
+          22,
+          8,
+          110,
+          38
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e12",
+      "tag": "img",
+      "id": "uij-e12",
+      "class": null,
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          376,
+          8,
+          110,
+          38
+        ],
+        "mobile": [
+          22,
+          8,
+          110,
+          38
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e13",
+      "tag": "div",
+      "id": "uij-e13",
+      "class": "usa-header__right grid-row flex-auto",
+      "role": null,
+      "text_prefix": "Search NIST Menu",
+      "bbox": {
+        "desktop": [
+          1138,
+          8,
+          406,
+          38
+        ],
+        "mobile": [
+          16,
+          46,
+          343,
+          38
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e14",
+      "tag": "div",
+      "id": "uij-e14",
+      "class": "grid-col-fill nist-header__search-group",
+      "role": null,
+      "text_prefix": "Search NIST",
+      "bbox": {
+        "desktop": [
+          1138,
+          8,
+          302,
+          38
+        ],
+        "mobile": [
+          16,
+          46,
+          271,
+          38
+        ]
+      }
+    },
+    {
+      "selector": "#search_form",
+      "tag": "form",
+      "id": "search_form",
+      "class": "usa-search usa-search--small",
+      "role": "search",
+      "text_prefix": "Search NIST",
+      "bbox": {
+        "desktop": [
+          1138,
+          8,
+          302,
+          38
+        ],
+        "mobile": [
+          16,
+          46,
+          271,
+          38
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e15",
+      "tag": "label",
+      "id": "uij-e15",
+      "class": "usa-sr-only",
+      "role": null,
+      "text_prefix": "Search NIST",
+      "bbox": {
+        "desktop": [
+          -15805,
+          8,
+          95,
+          25
+        ],
+        "mobile": [
+          -16927,
+          46,
+          95,
+          25
+        ]
+      }
+    },
+    {
+      "selector": "#search-form",
+      "tag": "input",
+      "id": "search-form",
+      "class": "usa-input",
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          1138,
+          8,
+          254,
+          38
+        ],
+        "mobile": [
+          16,
+          46,
+          223,
+          38
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e16",
+      "tag": "button",
+      "id": "uij-e16",
+      "class": "usa-button",
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          1392,
+          8,
+          48,
+          38
+        ],
+        "mobile": [
+          239,
+          46,
+          48,
+          38
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e17",
+      "tag": "img",
+      "id": "uij-e17",
+      "class": "usa-search__submit-icon",
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          -15805,
+          15,
+          24,
+          24
+        ],
+        "mobile": [
+          -16927,
+          53,
+          24,
+          24
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e18",
+      "tag": "div",
+      "id": "uij-e18",
+      "class": "grid-col-auto padding-left-1",
+      "role": null,
+      "text_prefix": "Menu",
+      "bbox": {
+        "desktop": [
+          1440,
+          8,
+          104,
+          38
+        ],
+        "mobile": [
+          287,
+          46,
+          72,
+          38
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e19",
+      "tag": "button",
+      "id": "uij-e19",
+      "class": "usa-menu-btn",
+      "role": null,
+      "text_prefix": "Menu",
+      "bbox": {
+        "desktop": [
+          1448,
+          8,
+          96,
+          38
+        ],
+        "mobile": [
+          295,
+          46,
+          64,
+          38
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e263",
+      "tag": "picture",
+      "id": "uij-e263",
+      "class": null,
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          0,
+          238,
+          1200,
+          20
+        ],
+        "mobile": [
+          0,
+          139,
+          375,
+          20
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e265",
+      "tag": "img",
+      "id": "uij-e265",
+      "class": null,
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          0,
+          54,
+          1200,
+          200
+        ],
+        "mobile": [
+          0,
+          92,
+          375,
+          63
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e266",
+      "tag": "div",
+      "id": "uij-e266",
+      "class": "grid-container",
+      "role": null,
+      "text_prefix": "About Us Expand or Collapse Leadership Organization Structure Budget & Planning ",
+      "bbox": {
+        "desktop": [
+          360,
+          261,
+          1200,
+          1904
+        ],
+        "mobile": [
+          0,
+          162,
+          375,
+          2989
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e267",
+      "tag": "div",
+      "id": "uij-e267",
+      "class": "grid-row grid-gap",
+      "role": null,
+      "text_prefix": "About Us Expand or Collapse Leadership Organization Structure Budget & Planning ",
+      "bbox": {
+        "desktop": [
+          352,
+          261,
+          1216,
+          1904
+        ],
+        "mobile": [
+          0,
+          162,
+          375,
+          2989
+        ]
+      }
+    },
+    {
+      "selector": "#block-nist-www-content",
+      "tag": "div",
+      "id": "block-nist-www-content",
+      "class": "nist-block",
+      "role": null,
+      "text_prefix": "About Us Expand or Collapse Leadership Organization Structure Budget & Planning ",
+      "bbox": {
+        "desktop": [
+          352,
+          261,
+          1216,
+          1864
+        ],
+        "mobile": [
+          0,
+          162,
+          375,
+          2949
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e268",
+      "tag": "section",
+      "id": "uij-e268",
+      "class": "nist-page__content usa-section clearfix",
+      "role": null,
+      "text_prefix": "About Us Expand or Collapse Leadership Organization Structure Budget & Planning ",
+      "bbox": {
+        "desktop": [
+          376,
+          293,
+          1168,
+          1832
+        ],
+        "mobile": [
+          16,
+          194,
+          343,
+          2917
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e269",
+      "tag": "div",
+      "id": "uij-e269",
+      "class": "grid-container margin-top-4",
+      "role": null,
+      "text_prefix": "About Us Expand or Collapse Leadership Organization Structure Budget & Planning ",
+      "bbox": {
+        "desktop": [
+          376,
+          293,
+          1168,
+          1832
+        ],
+        "mobile": [
+          16,
+          194,
+          343,
+          2917
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e270",
+      "tag": "div",
+      "id": "uij-e270",
+      "class": "grid-row grid-gap-4",
+      "role": null,
+      "text_prefix": "About Us Expand or Collapse Leadership Organization Structure Budget & Planning ",
+      "bbox": {
+        "desktop": [
+          376,
+          293,
+          1168,
+          1832
+        ],
+        "mobile": [
+          16,
+          194,
+          343,
+          2917
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e271",
+      "tag": "aside",
+      "id": "uij-e271",
+      "class": "nist-page__region nist-page__region--sidebar-first tablet-lg:grid-col-4 desktop-lg:grid-col-3",
+      "role": null,
+      "text_prefix": "About Us Expand or Collapse Leadership Organization Structure Budget & Planning ",
+      "bbox": {
+        "desktop": [
+          376,
+          293,
+          292,
+          1832
+        ],
+        "mobile": [
+          16,
+          194,
+          343,
+          271
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e272",
+      "tag": "div",
+      "id": "uij-e272",
+      "class": null,
+      "role": null,
+      "text_prefix": "About Us Expand or Collapse Leadership Organization Structure Budget & Planning ",
+      "bbox": {
+        "desktop": [
+          392,
+          293,
+          260,
+          231
+        ],
+        "mobile": [
+          32,
+          194,
+          311,
+          231
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e273",
+      "tag": "div",
+      "id": "uij-e273",
+      "class": "nist-block nist-block--main-menu",
+      "role": null,
+      "text_prefix": "About Us Expand or Collapse Leadership Organization Structure Budget & Planning ",
+      "bbox": {
+        "desktop": [
+          392,
+          293,
+          260,
+          231
+        ],
+        "mobile": [
+          32,
+          194,
+          311,
+          231
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e274",
+      "tag": "nav",
+      "id": "uij-e274",
+      "class": null,
+      "role": null,
+      "text_prefix": "About Us Expand or Collapse Leadership Organization Structure Budget & Planning ",
+      "bbox": {
+        "desktop": [
+          392,
+          293,
+          260,
+          231
+        ],
+        "mobile": [
+          32,
+          194,
+          311,
+          231
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e275",
+      "tag": "ul",
+      "id": "uij-e275",
+      "class": "usa-sidenav usa-accordion",
+      "role": null,
+      "text_prefix": "About Us Expand or Collapse Leadership Organization Structure Budget & Planning ",
+      "bbox": {
+        "desktop": [
+          392,
+          293,
+          260,
+          231
+        ],
+        "mobile": [
+          32,
+          194,
+          311,
+          231
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e276",
+      "tag": "li",
+      "id": "uij-e276",
+      "class": "usa-sidenav__item usa-sidenav__item--parent",
+      "role": null,
+      "text_prefix": "About Us Expand or Collapse Leadership Organization Structure Budget & Planning",
+      "bbox": {
+        "desktop": [
+          392,
+          293,
+          260,
+          33
+        ],
+        "mobile": [
+          32,
+          194,
+          311,
+          33
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e277",
+      "tag": "a",
+      "id": "uij-e277",
+      "class": null,
+      "role": null,
+      "text_prefix": "About Us",
+      "bbox": {
+        "desktop": [
+          392,
+          293,
+          260,
+          33
+        ],
+        "mobile": [
+          32,
+          194,
+          311,
+          33
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e278",
+      "tag": "button",
+      "id": "uij-e278",
+      "class": "usa-accordion__button usa-sidenav__item-button",
+      "role": null,
+      "text_prefix": "Expand or Collapse",
+      "bbox": {
+        "desktop": [
+          620,
+          293,
+          32,
+          32
+        ],
+        "mobile": [
+          311,
+          194,
+          32,
+          32
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e279",
+      "tag": "span",
+      "id": "uij-e279",
+      "class": "usa-sr-only",
+      "role": null,
+      "text_prefix": "Expand or Collapse",
+      "bbox": {
+        "desktop": [
+          -18561,
+          309,
+          210,
+          30
+        ],
+        "mobile": [
+          -18870,
+          210,
+          210,
+          30
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e286",
+      "tag": "li",
+      "id": "uij-e286",
+      "class": "usa-sidenav__item",
+      "role": null,
+      "text_prefix": "Contact Us",
+      "bbox": {
+        "desktop": [
+          392,
+          326,
+          260,
+          33
+        ],
+        "mobile": [
+          32,
+          227,
+          311,
+          33
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e287",
+      "tag": "a",
+      "id": "uij-e287",
+      "class": null,
+      "role": null,
+      "text_prefix": "Contact Us",
+      "bbox": {
+        "desktop": [
+          392,
+          326,
+          260,
+          33
+        ],
+        "mobile": [
+          32,
+          227,
+          311,
+          33
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e288",
+      "tag": "li",
+      "id": "uij-e288",
+      "class": "usa-sidenav__item",
+      "role": null,
+      "text_prefix": "Visit",
+      "bbox": {
+        "desktop": [
+          392,
+          359,
+          260,
+          33
+        ],
+        "mobile": [
+          32,
+          260,
+          311,
+          33
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e289",
+      "tag": "a",
+      "id": "uij-e289",
+      "class": null,
+      "role": null,
+      "text_prefix": "Visit",
+      "bbox": {
+        "desktop": [
+          392,
+          359,
+          260,
+          33
+        ],
+        "mobile": [
+          32,
+          260,
+          311,
+          33
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e290",
+      "tag": "li",
+      "id": "uij-e290",
+      "class": "usa-sidenav__item usa-sidenav__item--parent",
+      "role": null,
+      "text_prefix": "Careers Expand or Collapse Student programs",
+      "bbox": {
+        "desktop": [
+          392,
+          392,
+          260,
+          33
+        ],
+        "mobile": [
+          32,
+          293,
+          311,
+          33
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e291",
+      "tag": "a",
+      "id": "uij-e291",
+      "class": null,
+      "role": null,
+      "text_prefix": "Careers",
+      "bbox": {
+        "desktop": [
+          392,
+          392,
+          260,
+          33
+        ],
+        "mobile": [
+          32,
+          293,
+          311,
+          33
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e292",
+      "tag": "button",
+      "id": "uij-e292",
+      "class": "usa-accordion__button usa-sidenav__item-button",
+      "role": null,
+      "text_prefix": "Expand or Collapse",
+      "bbox": {
+        "desktop": [
+          620,
+          392,
+          32,
+          32
+        ],
+        "mobile": [
+          311,
+          293,
+          32,
+          32
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e293",
+      "tag": "span",
+      "id": "uij-e293",
+      "class": "usa-sr-only",
+      "role": null,
+      "text_prefix": "Expand or Collapse",
+      "bbox": {
+        "desktop": [
+          -18561,
+          408,
+          210,
+          30
+        ],
+        "mobile": [
+          -18870,
+          309,
+          210,
+          30
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e296",
+      "tag": "li",
+      "id": "uij-e296",
+      "class": "usa-sidenav__item",
+      "role": null,
+      "text_prefix": "Work with NIST",
+      "bbox": {
+        "desktop": [
+          392,
+          425,
+          260,
+          33
+        ],
+        "mobile": [
+          32,
+          326,
+          311,
+          33
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e297",
+      "tag": "a",
+      "id": "uij-e297",
+      "class": null,
+      "role": null,
+      "text_prefix": "Work with NIST",
+      "bbox": {
+        "desktop": [
+          392,
+          425,
+          260,
+          33
+        ],
+        "mobile": [
+          32,
+          326,
+          311,
+          33
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e298",
+      "tag": "li",
+      "id": "uij-e298",
+      "class": "usa-sidenav__item usa-sidenav__item--parent",
+      "role": null,
+      "text_prefix": "History Expand or Collapse NIST Digital Archives(link is external) NIST Museum N",
+      "bbox": {
+        "desktop": [
+          392,
+          458,
+          260,
+          33
+        ],
+        "mobile": [
+          32,
+          359,
+          311,
+          33
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e299",
+      "tag": "a",
+      "id": "uij-e299",
+      "class": null,
+      "role": null,
+      "text_prefix": "History",
+      "bbox": {
+        "desktop": [
+          392,
+          458,
+          260,
+          33
+        ],
+        "mobile": [
+          32,
+          359,
+          311,
+          33
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e300",
+      "tag": "button",
+      "id": "uij-e300",
+      "class": "usa-accordion__button usa-sidenav__item-button",
+      "role": null,
+      "text_prefix": "Expand or Collapse",
+      "bbox": {
+        "desktop": [
+          620,
+          458,
+          32,
+          32
+        ],
+        "mobile": [
+          311,
+          359,
+          32,
+          32
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e301",
+      "tag": "span",
+      "id": "uij-e301",
+      "class": "usa-sr-only",
+      "role": null,
+      "text_prefix": "Expand or Collapse",
+      "bbox": {
+        "desktop": [
+          -18561,
+          474,
+          210,
+          30
+        ],
+        "mobile": [
+          -18870,
+          375,
+          210,
+          30
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e386",
+      "tag": "li",
+      "id": "uij-e386",
+      "class": "usa-sidenav__item",
+      "role": null,
+      "text_prefix": "Educational Resources",
+      "bbox": {
+        "desktop": [
+          392,
+          491,
+          260,
+          33
+        ],
+        "mobile": [
+          32,
+          392,
+          311,
+          33
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e387",
+      "tag": "a",
+      "id": "uij-e387",
+      "class": null,
+      "role": null,
+      "text_prefix": "Educational Resources",
+      "bbox": {
+        "desktop": [
+          392,
+          491,
+          260,
+          33
+        ],
+        "mobile": [
+          32,
+          392,
+          311,
+          33
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e388",
+      "tag": "div",
+      "id": "uij-e388",
+      "class": "tablet-lg:grid-col-8 desktop-lg:grid-col-9",
+      "role": null,
+      "text_prefix": "About NIST Share Facebook Linkedin X.com Email The National Institute of Standar",
+      "bbox": {
+        "desktop": [
+          668,
+          293,
+          876,
+          1832
+        ],
+        "mobile": [
+          16,
+          465,
+          343,
+          2646
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e389",
+      "tag": "div",
+      "id": "uij-e389",
+      "class": "grid-row grid-gap-4",
+      "role": null,
+      "text_prefix": "About NIST Share Facebook Linkedin X.com Email The National Institute of Standar",
+      "bbox": {
+        "desktop": [
+          668,
+          293,
+          876,
+          1832
+        ],
+        "mobile": [
+          16,
+          465,
+          343,
+          2646
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e390",
+      "tag": "div",
+      "id": "uij-e390",
+      "class": "nist-page__region nist-page__region--content grid-col-12",
+      "role": null,
+      "text_prefix": "About NIST Share Facebook Linkedin X.com Email The National Institute of Standar",
+      "bbox": {
+        "desktop": [
+          668,
+          293,
+          876,
+          1832
+        ],
+        "mobile": [
+          16,
+          465,
+          343,
+          2646
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e391",
+      "tag": "div",
+      "id": "uij-e391",
+      "class": "nist-block",
+      "role": null,
+      "text_prefix": "About NIST",
+      "bbox": {
+        "desktop": [
+          684,
+          293,
+          844,
+          47
+        ],
+        "mobile": [
+          32,
+          465,
+          311,
+          47
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e392",
+      "tag": "h1",
+      "id": "uij-e392",
+      "class": "nist-page__title",
+      "role": null,
+      "text_prefix": "About NIST",
+      "bbox": {
+        "desktop": [
+          684,
+          293,
+          844,
+          47
+        ],
+        "mobile": [
+          32,
+          465,
+          311,
+          47
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e394",
+      "tag": "div",
+      "id": "uij-e394",
+      "class": "nist-block nist-social__wrapper",
+      "role": null,
+      "text_prefix": "Share Facebook Linkedin X.com Email",
+      "bbox": {
+        "desktop": [
+          0,
+          380,
+          70,
+          252
+        ],
+        "mobile": [
+          32,
+          551,
+          311,
+          40
+        ]
+      }
+    },
+    {
+      "selector": "#share",
+      "tag": "h2",
+      "id": "share",
+      "class": "nist-social__title",
+      "role": null,
+      "text_prefix": "Share",
+      "bbox": {
+        "desktop": [
+          14,
+          394,
+          42,
+          18
+        ],
+        "mobile": [
+          -15968,
+          551,
+          42,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e395",
+      "tag": "a",
+      "id": "uij-e395",
+      "class": "auto-anchor",
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          56,
+          394,
+          12,
+          35
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e397",
+      "tag": "div",
+      "id": "uij-e397",
+      "class": "social-media-sharing",
+      "role": null,
+      "text_prefix": "Facebook Linkedin X.com Email",
+      "bbox": {
+        "desktop": [
+          14,
+          429,
+          42,
+          190
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e398",
+      "tag": "div",
+      "id": "uij-e398",
+      "class": "nist-social__wrapper--share",
+      "role": null,
+      "text_prefix": "Facebook Linkedin X.com Email",
+      "bbox": {
+        "desktop": [
+          14,
+          429,
+          42,
+          190
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e399",
+      "tag": "div",
+      "id": "uij-e399",
+      "class": null,
+      "role": null,
+      "text_prefix": "Facebook",
+      "bbox": {
+        "desktop": [
+          14,
+          429,
+          42,
+          47
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e400",
+      "tag": "a",
+      "id": "uij-e400",
+      "class": "nist-social nist-social--facebook-gray",
+      "role": null,
+      "text_prefix": "Facebook",
+      "bbox": {
+        "desktop": [
+          14,
+          429,
+          40,
+          40
+        ],
+        "mobile": [
+          32,
+          551,
+          40,
+          40
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e401",
+      "tag": "span",
+      "id": "uij-e401",
+      "class": null,
+      "role": null,
+      "text_prefix": "Facebook",
+      "bbox": {
+        "desktop": [
+          -16929,
+          429,
+          75,
+          25
+        ],
+        "mobile": [
+          -16911,
+          551,
+          75,
+          25
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e402",
+      "tag": "div",
+      "id": "uij-e402",
+      "class": null,
+      "role": null,
+      "text_prefix": "Linkedin",
+      "bbox": {
+        "desktop": [
+          14,
+          476,
+          42,
+          47
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e403",
+      "tag": "a",
+      "id": "uij-e403",
+      "class": "nist-social nist-social--linkedin-gray",
+      "role": null,
+      "text_prefix": "Linkedin",
+      "bbox": {
+        "desktop": [
+          14,
+          476,
+          40,
+          40
+        ],
+        "mobile": [
+          72,
+          551,
+          40,
+          40
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e404",
+      "tag": "span",
+      "id": "uij-e404",
+      "class": null,
+      "role": null,
+      "text_prefix": "Linkedin",
+      "bbox": {
+        "desktop": [
+          -16929,
+          476,
+          64,
+          25
+        ],
+        "mobile": [
+          -16871,
+          551,
+          64,
+          25
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e405",
+      "tag": "div",
+      "id": "uij-e405",
+      "class": null,
+      "role": null,
+      "text_prefix": "X.com",
+      "bbox": {
+        "desktop": [
+          14,
+          524,
+          42,
+          47
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e406",
+      "tag": "a",
+      "id": "uij-e406",
+      "class": "nist-social nist-social--x-gray",
+      "role": null,
+      "text_prefix": "X.com",
+      "bbox": {
+        "desktop": [
+          14,
+          524,
+          40,
+          40
+        ],
+        "mobile": [
+          112,
+          551,
+          40,
+          40
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e407",
+      "tag": "span",
+      "id": "uij-e407",
+      "class": null,
+      "role": null,
+      "text_prefix": "X.com",
+      "bbox": {
+        "desktop": [
+          -16929,
+          524,
+          48,
+          25
+        ],
+        "mobile": [
+          -16831,
+          551,
+          48,
+          25
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e408",
+      "tag": "div",
+      "id": "uij-e408",
+      "class": null,
+      "role": null,
+      "text_prefix": "Email",
+      "bbox": {
+        "desktop": [
+          14,
+          571,
+          42,
+          47
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e409",
+      "tag": "a",
+      "id": "uij-e409",
+      "class": "nist-social nist-social--envelope-gray",
+      "role": null,
+      "text_prefix": "Email",
+      "bbox": {
+        "desktop": [
+          14,
+          571,
+          40,
+          40
+        ],
+        "mobile": [
+          152,
+          551,
+          40,
+          40
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e410",
+      "tag": "span",
+      "id": "uij-e410",
+      "class": null,
+      "role": null,
+      "text_prefix": "Email",
+      "bbox": {
+        "desktop": [
+          -16929,
+          571,
+          41,
+          25
+        ],
+        "mobile": [
+          -16791,
+          551,
+          41,
+          25
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e411",
+      "tag": "div",
+      "id": "uij-e411",
+      "class": "nist-block",
+      "role": null,
+      "text_prefix": "The National Institute of Standards and Technology (NIST) was founded in 1901 an",
+      "bbox": {
+        "desktop": [
+          684,
+          380,
+          844,
+          1643
+        ],
+        "mobile": [
+          32,
+          631,
+          311,
+          2355
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e412",
+      "tag": "div",
+      "id": "uij-e412",
+      "class": "text-with-summary",
+      "role": null,
+      "text_prefix": "The National Institute of Standards and Technology (NIST) was founded in 1901 an",
+      "bbox": {
+        "desktop": [
+          684,
+          380,
+          844,
+          1643
+        ],
+        "mobile": [
+          32,
+          631,
+          311,
+          2355
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e413",
+      "tag": "p",
+      "id": "uij-e413",
+      "class": null,
+      "role": null,
+      "text_prefix": "The National Institute of Standards and Technology (NIST) was founded in 1901 an",
+      "bbox": {
+        "desktop": [
+          684,
+          380,
+          844,
+          127
+        ],
+        "mobile": [
+          32,
+          631,
+          311,
+          305
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e414",
+      "tag": "p",
+      "id": "uij-e414",
+      "class": null,
+      "role": null,
+      "text_prefix": "From the smart electric power grid and electronic health records to atomic clock",
+      "bbox": {
+        "desktop": [
+          684,
+          524,
+          844,
+          76
+        ],
+        "mobile": [
+          32,
+          953,
+          311,
+          203
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e415",
+      "tag": "p",
+      "id": "uij-e415",
+      "class": null,
+      "role": null,
+      "text_prefix": "Today, NIST measurements support the smallest of technologies to the largest and",
+      "bbox": {
+        "desktop": [
+          684,
+          618,
+          844,
+          76
+        ],
+        "mobile": [
+          32,
+          1174,
+          311,
+          203
+        ]
+      }
+    },
+    {
+      "selector": "#mission",
+      "tag": "h3",
+      "id": "mission",
+      "class": null,
+      "role": null,
+      "text_prefix": "Mission",
+      "bbox": {
+        "desktop": [
+          684,
+          729,
+          844,
+          26
+        ],
+        "mobile": [
+          32,
+          1412,
+          311,
+          26
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e416",
+      "tag": "strong",
+      "id": "uij-e416",
+      "class": null,
+      "role": null,
+      "text_prefix": "Mission",
+      "bbox": {
+        "desktop": [
+          684,
+          727,
+          86,
+          28
+        ],
+        "mobile": [
+          32,
+          1410,
+          86,
+          28
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e417",
+      "tag": "a",
+      "id": "uij-e417",
+      "class": "auto-anchor",
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          770,
+          729,
+          26,
+          26
+        ],
+        "mobile": [
+          118,
+          1412,
+          26,
+          26
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e419",
+      "tag": "p",
+      "id": "uij-e419",
+      "class": null,
+      "role": null,
+      "text_prefix": "To promote U.S. innovation and industrial competitiveness by advancing measureme",
+      "bbox": {
+        "desktop": [
+          684,
+          771,
+          844,
+          51
+        ],
+        "mobile": [
+          32,
+          1455,
+          311,
+          153
+        ]
+      }
+    },
+    {
+      "selector": "#vision",
+      "tag": "h3",
+      "id": "vision",
+      "class": null,
+      "role": null,
+      "text_prefix": "Vision",
+      "bbox": {
+        "desktop": [
+          684,
+          857,
+          844,
+          26
+        ],
+        "mobile": [
+          32,
+          1642,
+          311,
+          26
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e420",
+      "tag": "strong",
+      "id": "uij-e420",
+      "class": null,
+      "role": null,
+      "text_prefix": "Vision",
+      "bbox": {
+        "desktop": [
+          684,
+          855,
+          67,
+          28
+        ],
+        "mobile": [
+          32,
+          1640,
+          67,
+          28
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e421",
+      "tag": "a",
+      "id": "uij-e421",
+      "class": "auto-anchor",
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          751,
+          857,
+          26,
+          26
+        ],
+        "mobile": [
+          99,
+          1642,
+          26,
+          26
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e423",
+      "tag": "p",
+      "id": "uij-e423",
+      "class": null,
+      "role": null,
+      "text_prefix": "NIST will be the world's leader in creating critical measurement solutions and p",
+      "bbox": {
+        "desktop": [
+          684,
+          900,
+          844,
+          51
+        ],
+        "mobile": [
+          32,
+          1685,
+          311,
+          153
+        ]
+      }
+    },
+    {
+      "selector": "#core-competencies",
+      "tag": "h3",
+      "id": "core-competencies",
+      "class": null,
+      "role": null,
+      "text_prefix": "Core Competencies",
+      "bbox": {
+        "desktop": [
+          684,
+          986,
+          844,
+          26
+        ],
+        "mobile": [
+          32,
+          1873,
+          311,
+          26
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e424",
+      "tag": "strong",
+      "id": "uij-e424",
+      "class": null,
+      "role": null,
+      "text_prefix": "Core Competencies",
+      "bbox": {
+        "desktop": [
+          684,
+          984,
+          221,
+          28
+        ],
+        "mobile": [
+          32,
+          1871,
+          221,
+          28
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e425",
+      "tag": "a",
+      "id": "uij-e425",
+      "class": "auto-anchor",
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          905,
+          986,
+          26,
+          26
+        ],
+        "mobile": [
+          253,
+          1873,
+          26,
+          26
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e427",
+      "tag": "ul",
+      "id": "uij-e427",
+      "class": null,
+      "role": null,
+      "text_prefix": "Measurement science Rigorous traceability Development and use of standards",
+      "bbox": {
+        "desktop": [
+          684,
+          1028,
+          844,
+          85
+        ],
+        "mobile": [
+          32,
+          1915,
+          311,
+          85
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e428",
+      "tag": "li",
+      "id": "uij-e428",
+      "class": null,
+      "role": null,
+      "text_prefix": "Measurement science",
+      "bbox": {
+        "desktop": [
+          712,
+          1028,
+          816,
+          25
+        ],
+        "mobile": [
+          60,
+          1915,
+          283,
+          25
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e429",
+      "tag": "li",
+      "id": "uij-e429",
+      "class": null,
+      "role": null,
+      "text_prefix": "Rigorous traceability",
+      "bbox": {
+        "desktop": [
+          712,
+          1058,
+          816,
+          25
+        ],
+        "mobile": [
+          60,
+          1945,
+          283,
+          25
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e430",
+      "tag": "li",
+      "id": "uij-e430",
+      "class": null,
+      "role": null,
+      "text_prefix": "Development and use of standards",
+      "bbox": {
+        "desktop": [
+          712,
+          1088,
+          816,
+          25
+        ],
+        "mobile": [
+          60,
+          1975,
+          283,
+          25
+        ]
+      }
+    },
+    {
+      "selector": "#core-values",
+      "tag": "h3",
+      "id": "core-values",
+      "class": null,
+      "role": null,
+      "text_prefix": "Core Values",
+      "bbox": {
+        "desktop": [
+          684,
+          1148,
+          844,
+          26
+        ],
+        "mobile": [
+          32,
+          2035,
+          311,
+          26
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e431",
+      "tag": "strong",
+      "id": "uij-e431",
+      "class": null,
+      "role": null,
+      "text_prefix": "Core Values",
+      "bbox": {
+        "desktop": [
+          684,
+          1146,
+          133,
+          28
+        ],
+        "mobile": [
+          32,
+          2033,
+          133,
+          28
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e432",
+      "tag": "a",
+      "id": "uij-e432",
+      "class": "auto-anchor",
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          817,
+          1148,
+          26,
+          26
+        ],
+        "mobile": [
+          165,
+          2035,
+          26,
+          26
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e434",
+      "tag": "p",
+      "id": "uij-e434",
+      "class": null,
+      "role": null,
+      "text_prefix": "NIST is an organization with strong values, reflected both in our history and ou",
+      "bbox": {
+        "desktop": [
+          684,
+          1191,
+          844,
+          51
+        ],
+        "mobile": [
+          32,
+          2078,
+          311,
+          153
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e435",
+      "tag": "ul",
+      "id": "uij-e435",
+      "class": null,
+      "role": null,
+      "text_prefix": "Perseverance: We take the long view, planning the future with scientific knowled",
+      "bbox": {
+        "desktop": [
+          684,
+          1259,
+          844,
+          191
+        ],
+        "mobile": [
+          32,
+          2247,
+          311,
+          445
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e436",
+      "tag": "li",
+      "id": "uij-e436",
+      "class": null,
+      "role": null,
+      "text_prefix": "Perseverance: We take the long view, planning the future with scientific knowled",
+      "bbox": {
+        "desktop": [
+          712,
+          1259,
+          816,
+          51
+        ],
+        "mobile": [
+          60,
+          2247,
+          283,
+          127
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e437",
+      "tag": "li",
+      "id": "uij-e437",
+      "class": null,
+      "role": null,
+      "text_prefix": "Integrity: We are ethical, honest, independent, and provide an objective perspec",
+      "bbox": {
+        "desktop": [
+          712,
+          1314,
+          816,
+          25
+        ],
+        "mobile": [
+          60,
+          2378,
+          283,
+          76
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e438",
+      "tag": "li",
+      "id": "uij-e438",
+      "class": null,
+      "role": null,
+      "text_prefix": "Inclusivity: We work collaboratively to harness the diversity of people and idea",
+      "bbox": {
+        "desktop": [
+          712,
+          1343,
+          816,
+          51
+        ],
+        "mobile": [
+          60,
+          2459,
+          283,
+          127
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e439",
+      "tag": "li",
+      "id": "uij-e439",
+      "class": null,
+      "role": null,
+      "text_prefix": "Excellence: We apply rigor and critical thinking to achieve world-class results ",
+      "bbox": {
+        "desktop": [
+          712,
+          1399,
+          816,
+          51
+        ],
+        "mobile": [
+          60,
+          2590,
+          283,
+          102
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e440",
+      "tag": "p",
+      "id": "uij-e440",
+      "class": null,
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          684,
+          1466,
+          844,
+          25
+        ],
+        "mobile": [
+          32,
+          2709,
+          311,
+          25
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e441",
+      "tag": "hr",
+      "id": "uij-e441",
+      "class": null,
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          684,
+          1509,
+          844,
+          2
+        ],
+        "mobile": [
+          32,
+          2751,
+          311,
+          2
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e442",
+      "tag": "figure",
+      "id": "uij-e442",
+      "class": "align-center nist-video",
+      "role": "group",
+      "text_prefix": "NIST Illustrated An illustrated guide to NIST's mission and its impact on our da",
+      "bbox": {
+        "desktop": [
+          684,
+          1527,
+          844,
+          496
+        ],
+        "mobile": [
+          32,
+          2769,
+          311,
+          217
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e443",
+      "tag": "div",
+      "id": "uij-e443",
+      "class": null,
+      "role": null,
+      "text_prefix": "NIST Illustrated",
+      "bbox": {
+        "desktop": [
+          684,
+          1527,
+          844,
+          473
+        ],
+        "mobile": [
+          32,
+          2769,
+          311,
+          174
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e444",
+      "tag": "div",
+      "id": "uij-e444",
+      "class": "video-embed-field",
+      "role": null,
+      "text_prefix": "NIST Illustrated",
+      "bbox": {
+        "desktop": [
+          684,
+          1527,
+          844,
+          473
+        ],
+        "mobile": [
+          32,
+          2769,
+          311,
+          174
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e445",
+      "tag": "div",
+      "id": "uij-e445",
+      "class": "video-embed-field-lazy",
+      "role": null,
+      "text_prefix": "NIST Illustrated",
+      "bbox": {
+        "desktop": [
+          684,
+          1527,
+          844,
+          473
+        ],
+        "mobile": [
+          32,
+          2769,
+          311,
+          174
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e446",
+      "tag": "img",
+      "id": "uij-e446",
+      "class": null,
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          684,
+          1527,
+          844,
+          473
+        ],
+        "mobile": [
+          32,
+          2769,
+          311,
+          174
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e447",
+      "tag": "button",
+      "id": "uij-e447",
+      "class": "video-embed-field-lazy-play",
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          1061,
+          1733,
+          85,
+          64
+        ],
+        "mobile": [
+          143,
+          2826,
+          85,
+          64
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e448",
+      "tag": "div",
+      "id": "uij-e448",
+      "class": "video-embed-field-lazy-title",
+      "role": null,
+      "text_prefix": "NIST Illustrated",
+      "bbox": {
+        "desktop": [
+          684,
+          1527,
+          844,
+          30
+        ],
+        "mobile": [
+          32,
+          2769,
+          311,
+          30
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e449",
+      "tag": "figcaption",
+      "id": "uij-e449",
+      "class": "nist-image__caption",
+      "role": null,
+      "text_prefix": "An illustrated guide to NIST's mission and its impact on our daily lives. www.ni",
+      "bbox": {
+        "desktop": [
+          684,
+          2003,
+          844,
+          19
+        ],
+        "mobile": [
+          32,
+          2947,
+          311,
+          39
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e450",
+      "tag": "a",
+      "id": "uij-e450",
+      "class": null,
+      "role": null,
+      "text_prefix": "www.nist.gov",
+      "bbox": {
+        "desktop": [
+          1125,
+          2004,
+          84,
+          16
+        ],
+        "mobile": [
+          190,
+          2968,
+          84,
+          16
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e451",
+      "tag": "div",
+      "id": "uij-e451",
+      "class": "nist-block",
+      "role": null,
+      "text_prefix": "Created July 10, 2009, Updated January 11, 2022",
+      "bbox": {
+        "desktop": [
+          684,
+          2063,
+          844,
+          22
+        ],
+        "mobile": [
+          32,
+          3026,
+          311,
+          45
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e452",
+      "tag": "div",
+      "id": "uij-e452",
+      "class": "text-italic font-sans-2xs",
+      "role": null,
+      "text_prefix": "Created July 10, 2009, Updated January 11, 2022",
+      "bbox": {
+        "desktop": [
+          684,
+          2063,
+          844,
+          22
+        ],
+        "mobile": [
+          32,
+          3026,
+          311,
+          45
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e455",
+      "tag": "a",
+      "id": "uij-e455",
+      "class": "usa-button usa-button--outline webform-dialog webform-dialog-narrow nist-page-feedback__button",
+      "role": null,
+      "text_prefix": "Was this page helpful?",
+      "bbox": {
+        "desktop": [
+          1678,
+          1021,
+          222,
+          39
+        ],
+        "mobile": [
+          74,
+          3167,
+          222,
+          39
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e456",
+      "tag": "div",
+      "id": "uij-e456",
+      "class": null,
+      "role": null,
+      "text_prefix": "HEADQUARTERS 100 Bureau Drive Gaithersburg, MD 20899 301-975-2000 Webmaster | Co",
+      "bbox": {
+        "desktop": [
+          0,
+          2165,
+          1920,
+          380
+        ],
+        "mobile": [
+          0,
+          3226,
+          375,
+          782
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e457",
+      "tag": "footer",
+      "id": "uij-e457",
+      "class": "nist-footer padding-bottom-4",
+      "role": null,
+      "text_prefix": "HEADQUARTERS 100 Bureau Drive Gaithersburg, MD 20899 301-975-2000 Webmaster | Co",
+      "bbox": {
+        "desktop": [
+          0,
+          2165,
+          1920,
+          380
+        ],
+        "mobile": [
+          0,
+          3226,
+          375,
+          782
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e458",
+      "tag": "div",
+      "id": "uij-e458",
+      "class": "grid-container nist-footer__info",
+      "role": null,
+      "text_prefix": "HEADQUARTERS 100 Bureau Drive Gaithersburg, MD 20899 301-975-2000 Webmaster | Co",
+      "bbox": {
+        "desktop": [
+          360,
+          2165,
+          1200,
+          233
+        ],
+        "mobile": [
+          0,
+          3226,
+          375,
+          428
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e459",
+      "tag": "div",
+      "id": "uij-e459",
+      "class": "grid-row",
+      "role": null,
+      "text_prefix": "HEADQUARTERS 100 Bureau Drive Gaithersburg, MD 20899 301-975-2000 Webmaster | Co",
+      "bbox": {
+        "desktop": [
+          376,
+          2197,
+          1168,
+          169
+        ],
+        "mobile": [
+          16,
+          3258,
+          343,
+          364
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e460",
+      "tag": "div",
+      "id": "uij-e460",
+      "class": "tablet:grid-col-6",
+      "role": null,
+      "text_prefix": "HEADQUARTERS 100 Bureau Drive Gaithersburg, MD 20899 301-975-2000 Webmaster | Co",
+      "bbox": {
+        "desktop": [
+          376,
+          2197,
+          584,
+          169
+        ],
+        "mobile": [
+          16,
+          3258,
+          343,
+          169
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e461",
+      "tag": "div",
+      "id": "uij-e461",
+      "class": "nist-footer__logo",
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          376,
+          2197,
+          584,
+          40
+        ],
+        "mobile": [
+          16,
+          3258,
+          343,
+          40
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e462",
+      "tag": "a",
+      "id": "uij-e462",
+      "class": null,
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          376,
+          2197,
+          286,
+          40
+        ],
+        "mobile": [
+          16,
+          3258,
+          286,
+          40
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e463",
+      "tag": "img",
+      "id": "uij-e463",
+      "class": "nist-footer__logo-img",
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          376,
+          2197,
+          286,
+          40
+        ],
+        "mobile": [
+          16,
+          3258,
+          286,
+          40
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e464",
+      "tag": "div",
+      "id": "uij-e464",
+      "class": "nist-footer__contact",
+      "role": null,
+      "text_prefix": "HEADQUARTERS 100 Bureau Drive Gaithersburg, MD 20899 301-975-2000 Webmaster | Co",
+      "bbox": {
+        "desktop": [
+          376,
+          2253,
+          584,
+          113
+        ],
+        "mobile": [
+          16,
+          3314,
+          343,
+          113
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e465",
+      "tag": "h3",
+      "id": "uij-e465",
+      "class": "nist-footer__contact-heading",
+      "role": null,
+      "text_prefix": "HEADQUARTERS",
+      "bbox": {
+        "desktop": [
+          376,
+          2253,
+          584,
+          15
+        ],
+        "mobile": [
+          16,
+          3314,
+          343,
+          15
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e466",
+      "tag": "address",
+      "id": "uij-e466",
+      "class": null,
+      "role": null,
+      "text_prefix": "100 Bureau Drive Gaithersburg, MD 20899 301-975-2000",
+      "bbox": {
+        "desktop": [
+          376,
+          2268,
+          584,
+          63
+        ],
+        "mobile": [
+          16,
+          3330,
+          343,
+          63
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e469",
+      "tag": "a",
+      "id": "uij-e469",
+      "class": null,
+      "role": null,
+      "text_prefix": "301-975-2000",
+      "bbox": {
+        "desktop": [
+          376,
+          2312,
+          88,
+          16
+        ],
+        "mobile": [
+          16,
+          3373,
+          88,
+          16
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e470",
+      "tag": "p",
+      "id": "uij-e470",
+      "class": null,
+      "role": null,
+      "text_prefix": "Webmaster | Contact Us | Our Other Offices",
+      "bbox": {
+        "desktop": [
+          376,
+          2345,
+          584,
+          21
+        ],
+        "mobile": [
+          16,
+          3406,
+          343,
+          21
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e471",
+      "tag": "a",
+      "id": "uij-e471",
+      "class": null,
+      "role": null,
+      "text_prefix": "Webmaster",
+      "bbox": {
+        "desktop": [
+          376,
+          2347,
+          84,
+          16
+        ],
+        "mobile": [
+          16,
+          3408,
+          84,
+          16
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e472",
+      "tag": "a",
+      "id": "uij-e472",
+      "class": null,
+      "role": null,
+      "text_prefix": "Contact Us",
+      "bbox": {
+        "desktop": [
+          470,
+          2347,
+          70,
+          16
+        ],
+        "mobile": [
+          110,
+          3408,
+          70,
+          16
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e473",
+      "tag": "a",
+      "id": "uij-e473",
+      "class": null,
+      "role": null,
+      "text_prefix": "Our Other Offices",
+      "bbox": {
+        "desktop": [
+          552,
+          2347,
+          109,
+          16
+        ],
+        "mobile": [
+          192,
+          3408,
+          109,
+          16
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e474",
+      "tag": "div",
+      "id": "uij-e474",
+      "class": "tablet:grid-col-6",
+      "role": null,
+      "text_prefix": "X.com (link is external) Facebook (link is external) LinkedIn (link is external)",
+      "bbox": {
+        "desktop": [
+          960,
+          2197,
+          584,
+          169
+        ],
+        "mobile": [
+          16,
+          3427,
+          343,
+          195
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e475",
+      "tag": "div",
+      "id": "uij-e475",
+      "class": "nist-footer__social-links",
+      "role": null,
+      "text_prefix": "X.com (link is external) Facebook (link is external) LinkedIn (link is external)",
+      "bbox": {
+        "desktop": [
+          1192,
+          2197,
+          352,
+          60
+        ],
+        "mobile": [
+          16,
+          3427,
+          343,
+          120
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e476",
+      "tag": "a",
+      "id": "uij-e476",
+      "class": "nist-social nist-social--x-white ext",
+      "role": null,
+      "text_prefix": "X.com",
+      "bbox": {
+        "desktop": [
+          1192,
+          2205,
+          44,
+          44
+        ],
+        "mobile": [
+          16,
+          3435,
+          44,
+          44
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e477",
+      "tag": "span",
+      "id": "uij-e477",
+      "class": null,
+      "role": null,
+      "text_prefix": "X.com",
+      "bbox": {
+        "desktop": [
+          -15751,
+          2205,
+          48,
+          25
+        ],
+        "mobile": [
+          -16927,
+          3435,
+          48,
+          25
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e482",
+      "tag": "a",
+      "id": "uij-e482",
+      "class": "nist-social nist-social--facebook-white ext",
+      "role": null,
+      "text_prefix": "Facebook",
+      "bbox": {
+        "desktop": [
+          1236,
+          2205,
+          44,
+          44
+        ],
+        "mobile": [
+          60,
+          3435,
+          44,
+          44
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e483",
+      "tag": "span",
+      "id": "uij-e483",
+      "class": null,
+      "role": null,
+      "text_prefix": "Facebook",
+      "bbox": {
+        "desktop": [
+          -15707,
+          2205,
+          75,
+          25
+        ],
+        "mobile": [
+          -16883,
+          3435,
+          75,
+          25
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e488",
+      "tag": "a",
+      "id": "uij-e488",
+      "class": "nist-social nist-social--linkedin-white ext",
+      "role": null,
+      "text_prefix": "LinkedIn",
+      "bbox": {
+        "desktop": [
+          1280,
+          2205,
+          44,
+          44
+        ],
+        "mobile": [
+          104,
+          3435,
+          44,
+          44
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e489",
+      "tag": "span",
+      "id": "uij-e489",
+      "class": null,
+      "role": null,
+      "text_prefix": "LinkedIn",
+      "bbox": {
+        "desktop": [
+          -15663,
+          2205,
+          64,
+          25
+        ],
+        "mobile": [
+          -16839,
+          3435,
+          64,
+          25
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e494",
+      "tag": "a",
+      "id": "uij-e494",
+      "class": "nist-social nist-social--instagram-white ext",
+      "role": null,
+      "text_prefix": "Instagram",
+      "bbox": {
+        "desktop": [
+          1324,
+          2205,
+          44,
+          44
+        ],
+        "mobile": [
+          148,
+          3435,
+          44,
+          44
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e495",
+      "tag": "span",
+      "id": "uij-e495",
+      "class": null,
+      "role": null,
+      "text_prefix": "Instagram",
+      "bbox": {
+        "desktop": [
+          -15619,
+          2205,
+          76,
+          25
+        ],
+        "mobile": [
+          -16795,
+          3435,
+          76,
+          25
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e500",
+      "tag": "a",
+      "id": "uij-e500",
+      "class": "nist-social nist-social--youtube-white ext",
+      "role": null,
+      "text_prefix": "YouTube",
+      "bbox": {
+        "desktop": [
+          1368,
+          2205,
+          44,
+          44
+        ],
+        "mobile": [
+          192,
+          3435,
+          44,
+          44
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e501",
+      "tag": "span",
+      "id": "uij-e501",
+      "class": null,
+      "role": null,
+      "text_prefix": "YouTube",
+      "bbox": {
+        "desktop": [
+          -15575,
+          2205,
+          65,
+          25
+        ],
+        "mobile": [
+          -16751,
+          3435,
+          65,
+          25
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e506",
+      "tag": "a",
+      "id": "uij-e506",
+      "class": "nist-social nist-social--giphy-white ext",
+      "role": null,
+      "text_prefix": "Giphy",
+      "bbox": {
+        "desktop": [
+          1412,
+          2205,
+          44,
+          44
+        ],
+        "mobile": [
+          236,
+          3435,
+          44,
+          44
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e507",
+      "tag": "span",
+      "id": "uij-e507",
+      "class": null,
+      "role": null,
+      "text_prefix": "Giphy",
+      "bbox": {
+        "desktop": [
+          -15531,
+          2205,
+          45,
+          25
+        ],
+        "mobile": [
+          -16707,
+          3435,
+          45,
+          25
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e512",
+      "tag": "a",
+      "id": "uij-e512",
+      "class": "nist-social nist-social--rss-white",
+      "role": null,
+      "text_prefix": "RSS Feed",
+      "bbox": {
+        "desktop": [
+          1456,
+          2205,
+          44,
+          44
+        ],
+        "mobile": [
+          280,
+          3435,
+          44,
+          44
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e513",
+      "tag": "span",
+      "id": "uij-e513",
+      "class": null,
+      "role": null,
+      "text_prefix": "RSS Feed",
+      "bbox": {
+        "desktop": [
+          -15487,
+          2205,
+          76,
+          25
+        ],
+        "mobile": [
+          -16663,
+          3435,
+          76,
+          25
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e514",
+      "tag": "a",
+      "id": "uij-e514",
+      "class": "nist-social nist-social--envelope-white ext",
+      "role": null,
+      "text_prefix": "Mailing List",
+      "bbox": {
+        "desktop": [
+          1500,
+          2205,
+          44,
+          44
+        ],
+        "mobile": [
+          16,
+          3495,
+          44,
+          44
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e515",
+      "tag": "span",
+      "id": "uij-e515",
+      "class": null,
+      "role": null,
+      "text_prefix": "Mailing List",
+      "bbox": {
+        "desktop": [
+          -15443,
+          2205,
+          86,
+          25
+        ],
+        "mobile": [
+          -16927,
+          3495,
+          86,
+          25
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e520",
+      "tag": "div",
+      "id": "uij-e520",
+      "class": "nist-footer__feedback",
+      "role": null,
+      "text_prefix": "How are we doing? Feedback",
+      "bbox": {
+        "desktop": [
+          1253,
+          2273,
+          291,
+          43
+        ],
+        "mobile": [
+          16,
+          3563,
+          343,
+          43
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e521",
+      "tag": "a",
+      "id": "uij-e521",
+      "class": "usa-button webform-dialog webform-dialog-narrow",
+      "role": null,
+      "text_prefix": "Feedback",
+      "bbox": {
+        "desktop": [
+          1421,
+          2273,
+          119,
+          39
+        ],
+        "mobile": [
+          183,
+          3563,
+          119,
+          39
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e522",
+      "tag": "div",
+      "id": "uij-e522",
+      "class": "grid-container",
+      "role": null,
+      "text_prefix": "Site Privacy Accessibility Privacy Program Copyright & Disclaimers Vulnerability",
+      "bbox": {
+        "desktop": [
+          360,
+          2398,
+          1200,
+          115
+        ],
+        "mobile": [
+          0,
+          3654,
+          375,
+          322
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e523",
+      "tag": "div",
+      "id": "uij-e523",
+      "class": "nist-footer__nav",
+      "role": "navigation",
+      "text_prefix": "Site Privacy Accessibility Privacy Program Copyright & Disclaimers Vulnerability",
+      "bbox": {
+        "desktop": [
+          376,
+          2398,
+          1168,
+          115
+        ],
+        "mobile": [
+          16,
+          3654,
+          343,
+          322
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e524",
+      "tag": "ul",
+      "id": "uij-e524",
+      "class": null,
+      "role": null,
+      "text_prefix": "Site Privacy Accessibility Privacy Program Copyright & Disclaimers Vulnerability",
+      "bbox": {
+        "desktop": [
+          376,
+          2414,
+          1168,
+          83
+        ],
+        "mobile": [
+          16,
+          3670,
+          343,
+          290
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e525",
+      "tag": "li",
+      "id": "uij-e525",
+      "class": "nist-footer__menu-item",
+      "role": null,
+      "text_prefix": "Site Privacy",
+      "bbox": {
+        "desktop": [
+          437,
+          2422,
+          95,
+          25
+        ],
+        "mobile": [
+          22,
+          3678,
+          95,
+          25
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e526",
+      "tag": "a",
+      "id": "uij-e526",
+      "class": null,
+      "role": null,
+      "text_prefix": "Site Privacy",
+      "bbox": {
+        "desktop": [
+          437,
+          2424,
+          79,
+          22
+        ],
+        "mobile": [
+          22,
+          3680,
+          79,
+          22
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e527",
+      "tag": "li",
+      "id": "uij-e527",
+      "class": "nist-footer__menu-item",
+      "role": null,
+      "text_prefix": "Accessibility",
+      "bbox": {
+        "desktop": [
+          537,
+          2422,
+          99,
+          25
+        ],
+        "mobile": [
+          122,
+          3678,
+          99,
+          25
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e528",
+      "tag": "a",
+      "id": "uij-e528",
+      "class": null,
+      "role": null,
+      "text_prefix": "Accessibility",
+      "bbox": {
+        "desktop": [
+          537,
+          2424,
+          83,
+          22
+        ],
+        "mobile": [
+          122,
+          3680,
+          83,
+          22
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e529",
+      "tag": "li",
+      "id": "uij-e529",
+      "class": "nist-footer__menu-item",
+      "role": null,
+      "text_prefix": "Privacy Program",
+      "bbox": {
+        "desktop": [
+          641,
+          2422,
+          126,
+          25
+        ],
+        "mobile": [
+          226,
+          3678,
+          126,
+          25
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e530",
+      "tag": "a",
+      "id": "uij-e530",
+      "class": null,
+      "role": null,
+      "text_prefix": "Privacy Program",
+      "bbox": {
+        "desktop": [
+          641,
+          2424,
+          110,
+          22
+        ],
+        "mobile": [
+          226,
+          3680,
+          110,
+          22
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e531",
+      "tag": "li",
+      "id": "uij-e531",
+      "class": "nist-footer__menu-item",
+      "role": null,
+      "text_prefix": "Copyright & Disclaimers",
+      "bbox": {
+        "desktop": [
+          772,
+          2422,
+          176,
+          25
+        ],
+        "mobile": [
+          99,
+          3720,
+          176,
+          25
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e532",
+      "tag": "a",
+      "id": "uij-e532",
+      "class": null,
+      "role": null,
+      "text_prefix": "Copyright & Disclaimers",
+      "bbox": {
+        "desktop": [
+          772,
+          2424,
+          160,
+          22
+        ],
+        "mobile": [
+          99,
+          3722,
+          160,
+          22
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e533",
+      "tag": "li",
+      "id": "uij-e533",
+      "class": "nist-footer__menu-item",
+      "role": null,
+      "text_prefix": "Vulnerability Disclosure",
+      "bbox": {
+        "desktop": [
+          953,
+          2422,
+          170,
+          25
+        ],
+        "mobile": [
+          30,
+          3761,
+          170,
+          25
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e534",
+      "tag": "a",
+      "id": "uij-e534",
+      "class": null,
+      "role": null,
+      "text_prefix": "Vulnerability Disclosure",
+      "bbox": {
+        "desktop": [
+          953,
+          2424,
+          154,
+          22
+        ],
+        "mobile": [
+          30,
+          3763,
+          154,
+          22
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e535",
+      "tag": "li",
+      "id": "uij-e535",
+      "class": "nist-footer__menu-item",
+      "role": null,
+      "text_prefix": "No Fear Act Policy",
+      "bbox": {
+        "desktop": [
+          1128,
+          2422,
+          140,
+          25
+        ],
+        "mobile": [
+          205,
+          3761,
+          140,
+          25
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e536",
+      "tag": "a",
+      "id": "uij-e536",
+      "class": null,
+      "role": null,
+      "text_prefix": "No Fear Act Policy",
+      "bbox": {
+        "desktop": [
+          1128,
+          2424,
+          124,
+          22
+        ],
+        "mobile": [
+          205,
+          3763,
+          124,
+          22
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e537",
+      "tag": "li",
+      "id": "uij-e537",
+      "class": "nist-footer__menu-item",
+      "role": null,
+      "text_prefix": "FOIA",
+      "bbox": {
+        "desktop": [
+          1273,
+          2422,
+          50,
+          25
+        ],
+        "mobile": [
+          83,
+          3803,
+          50,
+          25
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e538",
+      "tag": "a",
+      "id": "uij-e538",
+      "class": null,
+      "role": null,
+      "text_prefix": "FOIA",
+      "bbox": {
+        "desktop": [
+          1273,
+          2424,
+          33,
+          22
+        ],
+        "mobile": [
+          83,
+          3805,
+          33,
+          22
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e539",
+      "tag": "li",
+      "id": "uij-e539",
+      "class": "nist-footer__menu-item",
+      "role": null,
+      "text_prefix": "Environmental Policy",
+      "bbox": {
+        "desktop": [
+          1327,
+          2422,
+          155,
+          25
+        ],
+        "mobile": [
+          137,
+          3803,
+          155,
+          25
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e540",
+      "tag": "a",
+      "id": "uij-e540",
+      "class": null,
+      "role": null,
+      "text_prefix": "Environmental Policy",
+      "bbox": {
+        "desktop": [
+          1327,
+          2424,
+          139,
+          22
+        ],
+        "mobile": [
+          137,
+          3805,
+          139,
+          22
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e541",
+      "tag": "li",
+      "id": "uij-e541",
+      "class": "nist-footer__menu-item",
+      "role": null,
+      "text_prefix": "Scientific Integrity",
+      "bbox": {
+        "desktop": [
+          598,
+          2463,
+          135,
+          25
+        ],
+        "mobile": [
+          120,
+          3844,
+          135,
+          25
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e542",
+      "tag": "a",
+      "id": "uij-e542",
+      "class": null,
+      "role": null,
+      "text_prefix": "Scientific Integrity",
+      "bbox": {
+        "desktop": [
+          598,
+          2465,
+          119,
+          22
+        ],
+        "mobile": [
+          120,
+          3846,
+          119,
+          22
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e543",
+      "tag": "li",
+      "id": "uij-e543",
+      "class": "nist-footer__menu-item",
+      "role": null,
+      "text_prefix": "Information Quality Standards",
+      "bbox": {
+        "desktop": [
+          738,
+          2463,
+          215,
+          25
+        ],
+        "mobile": [
+          18,
+          3885,
+          215,
+          25
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e544",
+      "tag": "a",
+      "id": "uij-e544",
+      "class": null,
+      "role": null,
+      "text_prefix": "Information Quality Standards",
+      "bbox": {
+        "desktop": [
+          738,
+          2465,
+          198,
+          22
+        ],
+        "mobile": [
+          18,
+          3887,
+          198,
+          22
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e545",
+      "tag": "li",
+      "id": "uij-e545",
+      "class": "nist-footer__menu-item",
+      "role": null,
+      "text_prefix": "Commerce.gov",
+      "bbox": {
+        "desktop": [
+          958,
+          2463,
+          118,
+          25
+        ],
+        "mobile": [
+          238,
+          3885,
+          118,
+          25
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e546",
+      "tag": "a",
+      "id": "uij-e546",
+      "class": null,
+      "role": null,
+      "text_prefix": "Commerce.gov",
+      "bbox": {
+        "desktop": [
+          958,
+          2465,
+          102,
+          22
+        ],
+        "mobile": [
+          238,
+          3887,
+          102,
+          22
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e547",
+      "tag": "li",
+      "id": "uij-e547",
+      "class": "nist-footer__menu-item",
+      "role": null,
+      "text_prefix": "Science.gov",
+      "bbox": {
+        "desktop": [
+          1081,
+          2463,
+          98,
+          25
+        ],
+        "mobile": [
+          67,
+          3927,
+          98,
+          25
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e548",
+      "tag": "a",
+      "id": "uij-e548",
+      "class": null,
+      "role": null,
+      "text_prefix": "Science.gov",
+      "bbox": {
+        "desktop": [
+          1081,
+          2465,
+          82,
+          22
+        ],
+        "mobile": [
+          67,
+          3929,
+          82,
+          22
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e549",
+      "tag": "li",
+      "id": "uij-e549",
+      "class": "nist-footer__menu-item",
+      "role": null,
+      "text_prefix": "USA.gov",
+      "bbox": {
+        "desktop": [
+          1184,
+          2463,
+          75,
+          25
+        ],
+        "mobile": [
+          170,
+          3927,
+          75,
+          25
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e550",
+      "tag": "a",
+      "id": "uij-e550",
+      "class": null,
+      "role": null,
+      "text_prefix": "USA.gov",
+      "bbox": {
+        "desktop": [
+          1184,
+          2465,
+          59,
+          22
+        ],
+        "mobile": [
+          170,
+          3929,
+          59,
+          22
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e551",
+      "tag": "li",
+      "id": "uij-e551",
+      "class": "nist-footer__menu-item",
+      "role": null,
+      "text_prefix": "Vote.gov",
+      "bbox": {
+        "desktop": [
+          1264,
+          2463,
+          58,
+          25
+        ],
+        "mobile": [
+          250,
+          3927,
+          58,
+          25
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e552",
+      "tag": "a",
+      "id": "uij-e552",
+      "class": null,
+      "role": null,
+      "text_prefix": "Vote.gov",
+      "bbox": {
+        "desktop": [
+          1264,
+          2465,
+          58,
+          22
+        ],
+        "mobile": [
+          250,
+          3929,
+          58,
+          22
+        ]
+      }
+    }
+  ]
+}

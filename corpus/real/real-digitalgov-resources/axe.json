@@ -1,0 +1,5474 @@
+{
+  "engine": "axe-core",
+  "engine_version": "4.10.3",
+  "violations": [],
+  "incomplete": [],
+  "passes": [
+    {
+      "rule_id": "aria-allowed-attr",
+      "impact": "",
+      "tags": [
+        "wcag2a",
+        "wcag412"
+      ],
+      "description": "Ensure an element's role supports its ARIA attributes",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/aria-allowed-attr?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e6"
+          ],
+          "selector": "#uij-e6",
+          "bbox": null,
+          "html": "<section aria-label=\"Official website of the United States government\" class=\"usa-banner gov-banner\" id=\"uij-e6\">"
+        },
+        {
+          "target": [
+            "#uij-e15"
+          ],
+          "selector": "#uij-e15",
+          "bbox": null,
+          "html": "<button aria-controls=\"gov-banner-default-default\" aria-expanded=\"false\" class=\"usa-accordion__button usa-banner__button\" id=\"uij-e15\" type=\"button\">\n<span class=\"usa-banner__button-text\" id=\"uij-e16\""
+        },
+        {
+          "target": [
+            "#uij-e40"
+          ],
+          "selector": "#uij-e40",
+          "bbox": null,
+          "html": "<a aria-label=\"Digital.gov Home\" href=\"/\" id=\"uij-e40\" title=\"Digital.gov Home\">"
+        },
+        {
+          "target": [
+            "#uij-e46"
+          ],
+          "selector": "#uij-e46",
+          "bbox": null,
+          "html": "<nav aria-label=\"Primary navigation\" class=\"usa-nav\" id=\"uij-e46\">"
+        },
+        {
+          "target": [
+            "#uij-e54"
+          ],
+          "selector": "#uij-e54",
+          "bbox": null,
+          "html": "<a aria-current=\"page\" class=\"usa-nav__link is-active\" data-drupal-link-system-path=\"node/1\" href=\"/resources\" id=\"uij-e54\">Browse resources</a>"
+        },
+        {
+          "target": [
+            "#uij-e193"
+          ],
+          "selector": "#uij-e193",
+          "bbox": null,
+          "html": "<nav aria-label=\"Footer navigation\" class=\"usa-footer__nav\" id=\"uij-e193\">"
+        },
+        {
+          "target": [
+            "#uij-e202"
+          ],
+          "selector": "#uij-e202",
+          "bbox": null,
+          "html": "<a aria-current=\"page\" class=\"is-active\" data-drupal-link-system-path=\"node/1\" href=\"/resources\" id=\"uij-e202\">Browse resources</a>"
+        },
+        {
+          "target": [
+            "#uij-e226"
+          ],
+          "selector": "#uij-e226",
+          "bbox": null,
+          "html": "<section aria-label=\"Agency identifier,\" class=\"usa-identifier__section usa-identifier__section--masthead\" id=\"uij-e226\">"
+        },
+        {
+          "target": [
+            "#uij-e231"
+          ],
+          "selector": "#uij-e231",
+          "bbox": null,
+          "html": "<section aria-label=\"Agency description,\" class=\"usa-identifier__identity\" id=\"uij-e231\">"
+        },
+        {
+          "target": [
+            "#uij-e235"
+          ],
+          "selector": "#uij-e235",
+          "bbox": null,
+          "html": "<nav aria-label=\"Important links,\" class=\"usa-identifier__section usa-identifier__section--required-links\" id=\"uij-e235\">"
+        },
+        {
+          "target": [
+            "#uij-e252"
+          ],
+          "selector": "#uij-e252",
+          "bbox": null,
+          "html": "<section aria-label=\"U.S. government information and services\" class=\"usa-identifier__section usa-identifier__section--usagov\" id=\"uij-e252\">"
+        },
+        {
+          "target": [
+            "#drupal-live-announce"
+          ],
+          "selector": "#drupal-live-announce",
+          "bbox": null,
+          "html": "<div aria-busy=\"false\" aria-live=\"polite\" class=\"visually-hidden\" id=\"drupal-live-announce\"></div>"
+        }
+      ]
+    },
+    {
+      "rule_id": "aria-allowed-role",
+      "impact": "",
+      "tags": [],
+      "description": "Ensure role attribute has an appropriate value for the element",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/aria-allowed-role?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e19"
+          ],
+          "selector": "#uij-e19",
+          "bbox": null,
+          "html": "<img alt=\"\" aria-hidden=\"true\" class=\"usa-banner__icon usa-media-block__img\" id=\"uij-e19\" role=\"img\" src=\"data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48c3ZnIHhtbG5zPSJo"
+        },
+        {
+          "target": [
+            "#uij-e26"
+          ],
+          "selector": "#uij-e26",
+          "bbox": null,
+          "html": "<img alt=\"\" aria-hidden=\"true\" class=\"usa-banner__icon usa-media-block__img\" id=\"uij-e26\" role=\"img\" src=\"data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48c3ZnIHhtbG5zPSJo"
+        },
+        {
+          "target": [
+            "#uij-e33"
+          ],
+          "selector": "#uij-e33",
+          "bbox": null,
+          "html": "<svg aria-labelledby=\"banner-lock-description-default\" class=\"usa-banner__lock-image\" focusable=\"false\" height=\"64\" id=\"uij-e33\" role=\"img\" viewBox=\"0 0 52 64\" width=\"52\" xmlns=\"http://www.w3.org/2000"
+        },
+        {
+          "target": [
+            "#uij-e37"
+          ],
+          "selector": "#uij-e37",
+          "bbox": null,
+          "html": "<header class=\"usa-header usa-header--extended\" id=\"uij-e37\" role=\"banner\">"
+        },
+        {
+          "target": [
+            "#uij-e44"
+          ],
+          "selector": "#uij-e44",
+          "bbox": null,
+          "html": "<svg aria-hidden=\"true\" class=\"usa-icon dg-icon dg-icon--standard margin-bottom-2px\" focusable=\"false\" id=\"uij-e44\" role=\"img\">\n<use id=\"uij-e45\" xlink:href=\"/themes/custom/digital_gov/static/uswds/im"
+        },
+        {
+          "target": [
+            "#uij-e61"
+          ],
+          "selector": "#uij-e61",
+          "bbox": null,
+          "html": "<div id=\"uij-e61\" role=\"search\">"
+        },
+        {
+          "target": [
+            "#main-content"
+          ],
+          "selector": "#main-content",
+          "bbox": null,
+          "html": "<main id=\"main-content\" role=\"main\">"
+        },
+        {
+          "target": [
+            "#uij-e184"
+          ],
+          "selector": "#uij-e184",
+          "bbox": null,
+          "html": "<footer class=\"usa-footer usa-footer--big\" id=\"uij-e184\" role=\"contentinfo\">"
+        },
+        {
+          "target": [
+            "#uij-e230"
+          ],
+          "selector": "#uij-e230",
+          "bbox": null,
+          "html": "<img alt=\"GSA logo\" class=\"usa-identifier__logo-img\" id=\"uij-e230\" role=\"img\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAABGdBTUEAALGPC/xhBQAAE/5JREFUeAHtXHl0VOd1/2lf0Ya"
+        }
+      ]
+    },
+    {
+      "rule_id": "aria-conditional-attr",
+      "impact": "",
+      "tags": [
+        "wcag2a",
+        "wcag412"
+      ],
+      "description": "Ensure ARIA attributes are used as described in the specification of the element's role",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/aria-conditional-attr?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e6"
+          ],
+          "selector": "#uij-e6",
+          "bbox": null,
+          "html": "<section aria-label=\"Official website of the United States government\" class=\"usa-banner gov-banner\" id=\"uij-e6\">"
+        },
+        {
+          "target": [
+            "#uij-e15"
+          ],
+          "selector": "#uij-e15",
+          "bbox": null,
+          "html": "<button aria-controls=\"gov-banner-default-default\" aria-expanded=\"false\" class=\"usa-accordion__button usa-banner__button\" id=\"uij-e15\" type=\"button\">\n<span class=\"usa-banner__button-text\" id=\"uij-e16\""
+        },
+        {
+          "target": [
+            "#uij-e40"
+          ],
+          "selector": "#uij-e40",
+          "bbox": null,
+          "html": "<a aria-label=\"Digital.gov Home\" href=\"/\" id=\"uij-e40\" title=\"Digital.gov Home\">"
+        },
+        {
+          "target": [
+            "#uij-e46"
+          ],
+          "selector": "#uij-e46",
+          "bbox": null,
+          "html": "<nav aria-label=\"Primary navigation\" class=\"usa-nav\" id=\"uij-e46\">"
+        },
+        {
+          "target": [
+            "#uij-e54"
+          ],
+          "selector": "#uij-e54",
+          "bbox": null,
+          "html": "<a aria-current=\"page\" class=\"usa-nav__link is-active\" data-drupal-link-system-path=\"node/1\" href=\"/resources\" id=\"uij-e54\">Browse resources</a>"
+        },
+        {
+          "target": [
+            "#uij-e193"
+          ],
+          "selector": "#uij-e193",
+          "bbox": null,
+          "html": "<nav aria-label=\"Footer navigation\" class=\"usa-footer__nav\" id=\"uij-e193\">"
+        },
+        {
+          "target": [
+            "#uij-e202"
+          ],
+          "selector": "#uij-e202",
+          "bbox": null,
+          "html": "<a aria-current=\"page\" class=\"is-active\" data-drupal-link-system-path=\"node/1\" href=\"/resources\" id=\"uij-e202\">Browse resources</a>"
+        },
+        {
+          "target": [
+            "#uij-e226"
+          ],
+          "selector": "#uij-e226",
+          "bbox": null,
+          "html": "<section aria-label=\"Agency identifier,\" class=\"usa-identifier__section usa-identifier__section--masthead\" id=\"uij-e226\">"
+        },
+        {
+          "target": [
+            "#uij-e231"
+          ],
+          "selector": "#uij-e231",
+          "bbox": null,
+          "html": "<section aria-label=\"Agency description,\" class=\"usa-identifier__identity\" id=\"uij-e231\">"
+        },
+        {
+          "target": [
+            "#uij-e235"
+          ],
+          "selector": "#uij-e235",
+          "bbox": null,
+          "html": "<nav aria-label=\"Important links,\" class=\"usa-identifier__section usa-identifier__section--required-links\" id=\"uij-e235\">"
+        },
+        {
+          "target": [
+            "#uij-e252"
+          ],
+          "selector": "#uij-e252",
+          "bbox": null,
+          "html": "<section aria-label=\"U.S. government information and services\" class=\"usa-identifier__section usa-identifier__section--usagov\" id=\"uij-e252\">"
+        },
+        {
+          "target": [
+            "#drupal-live-announce"
+          ],
+          "selector": "#drupal-live-announce",
+          "bbox": null,
+          "html": "<div aria-busy=\"false\" aria-live=\"polite\" class=\"visually-hidden\" id=\"drupal-live-announce\"></div>"
+        }
+      ]
+    },
+    {
+      "rule_id": "aria-deprecated-role",
+      "impact": "",
+      "tags": [
+        "wcag2a",
+        "wcag412"
+      ],
+      "description": "Ensure elements do not use deprecated roles",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/aria-deprecated-role?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e37"
+          ],
+          "selector": "#uij-e37",
+          "bbox": null,
+          "html": "<header class=\"usa-header usa-header--extended\" id=\"uij-e37\" role=\"banner\">"
+        },
+        {
+          "target": [
+            "#uij-e61"
+          ],
+          "selector": "#uij-e61",
+          "bbox": null,
+          "html": "<div id=\"uij-e61\" role=\"search\">"
+        },
+        {
+          "target": [
+            "#main-content"
+          ],
+          "selector": "#main-content",
+          "bbox": null,
+          "html": "<main id=\"main-content\" role=\"main\">"
+        },
+        {
+          "target": [
+            "#uij-e184"
+          ],
+          "selector": "#uij-e184",
+          "bbox": null,
+          "html": "<footer class=\"usa-footer usa-footer--big\" id=\"uij-e184\" role=\"contentinfo\">"
+        },
+        {
+          "target": [
+            "#uij-e230"
+          ],
+          "selector": "#uij-e230",
+          "bbox": null,
+          "html": "<img alt=\"GSA logo\" class=\"usa-identifier__logo-img\" id=\"uij-e230\" role=\"img\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAABGdBTUEAALGPC/xhBQAAE/5JREFUeAHtXHl0VOd1/2lf0Ya"
+        }
+      ]
+    },
+    {
+      "rule_id": "aria-hidden-body",
+      "impact": "",
+      "tags": [
+        "wcag2a",
+        "wcag131",
+        "wcag412"
+      ],
+      "description": "Ensure aria-hidden=\"true\" is not present on the document body.",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/aria-hidden-body?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "body"
+          ],
+          "selector": "body",
+          "bbox": null,
+          "html": "<body class=\"resources section\">"
+        }
+      ]
+    },
+    {
+      "rule_id": "aria-hidden-focus",
+      "impact": "",
+      "tags": [
+        "wcag2a",
+        "wcag412"
+      ],
+      "description": "Ensure aria-hidden elements are not focusable nor contain focusable elements",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/aria-hidden-focus?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e11"
+          ],
+          "selector": "#uij-e11",
+          "bbox": null,
+          "html": "<img alt=\"\" aria-hidden=\"true\" class=\"usa-banner__header-flag\" height=\"11\" id=\"uij-e11\" src=\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA0NCI+P"
+        },
+        {
+          "target": [
+            "#uij-e12"
+          ],
+          "selector": "#uij-e12",
+          "bbox": null,
+          "html": "<div aria-hidden=\"true\" class=\"grid-col-fill tablet:grid-col-auto\" id=\"uij-e12\">\n<p class=\"usa-banner__header-text\" id=\"uij-e13\">\n            An official website of the United States government\n      "
+        },
+        {
+          "target": [
+            "#uij-e19"
+          ],
+          "selector": "#uij-e19",
+          "bbox": null,
+          "html": "<img alt=\"\" aria-hidden=\"true\" class=\"usa-banner__icon usa-media-block__img\" id=\"uij-e19\" role=\"img\" src=\"data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48c3ZnIHhtbG5zPSJo"
+        },
+        {
+          "target": [
+            "#uij-e26"
+          ],
+          "selector": "#uij-e26",
+          "bbox": null,
+          "html": "<img alt=\"\" aria-hidden=\"true\" class=\"usa-banner__icon usa-media-block__img\" id=\"uij-e26\" role=\"img\" src=\"data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48c3ZnIHhtbG5zPSJo"
+        },
+        {
+          "target": [
+            "#uij-e44"
+          ],
+          "selector": "#uij-e44",
+          "bbox": null,
+          "html": "<svg aria-hidden=\"true\" class=\"usa-icon dg-icon dg-icon--standard margin-bottom-2px\" focusable=\"false\" id=\"uij-e44\" role=\"img\">\n<use id=\"uij-e45\" xlink:href=\"/themes/custom/digital_gov/static/uswds/im"
+        },
+        {
+          "target": [
+            "#uij-e189"
+          ],
+          "selector": "#uij-e189",
+          "bbox": null,
+          "html": "<svg aria-hidden=\"true\" class=\"usa-icon dg-icon dg-icon--standard margin-bottom-05\" focusable=\"false\" id=\"uij-e189\">\n<use id=\"uij-e190\" xlink:href=\"/themes/custom/digital_gov/static/uswds/img/sprite.s"
+        }
+      ]
+    },
+    {
+      "rule_id": "aria-prohibited-attr",
+      "impact": "",
+      "tags": [
+        "wcag2a",
+        "wcag412"
+      ],
+      "description": "Ensure ARIA attributes are not prohibited for an element's role",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/aria-prohibited-attr?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e6"
+          ],
+          "selector": "#uij-e6",
+          "bbox": null,
+          "html": "<section aria-label=\"Official website of the United States government\" class=\"usa-banner gov-banner\" id=\"uij-e6\">"
+        },
+        {
+          "target": [
+            "#uij-e15"
+          ],
+          "selector": "#uij-e15",
+          "bbox": null,
+          "html": "<button aria-controls=\"gov-banner-default-default\" aria-expanded=\"false\" class=\"usa-accordion__button usa-banner__button\" id=\"uij-e15\" type=\"button\">\n<span class=\"usa-banner__button-text\" id=\"uij-e16\""
+        },
+        {
+          "target": [
+            "#uij-e40"
+          ],
+          "selector": "#uij-e40",
+          "bbox": null,
+          "html": "<a aria-label=\"Digital.gov Home\" href=\"/\" id=\"uij-e40\" title=\"Digital.gov Home\">"
+        },
+        {
+          "target": [
+            "#uij-e46"
+          ],
+          "selector": "#uij-e46",
+          "bbox": null,
+          "html": "<nav aria-label=\"Primary navigation\" class=\"usa-nav\" id=\"uij-e46\">"
+        },
+        {
+          "target": [
+            "#uij-e54"
+          ],
+          "selector": "#uij-e54",
+          "bbox": null,
+          "html": "<a aria-current=\"page\" class=\"usa-nav__link is-active\" data-drupal-link-system-path=\"node/1\" href=\"/resources\" id=\"uij-e54\">Browse resources</a>"
+        },
+        {
+          "target": [
+            "#uij-e193"
+          ],
+          "selector": "#uij-e193",
+          "bbox": null,
+          "html": "<nav aria-label=\"Footer navigation\" class=\"usa-footer__nav\" id=\"uij-e193\">"
+        },
+        {
+          "target": [
+            "#uij-e202"
+          ],
+          "selector": "#uij-e202",
+          "bbox": null,
+          "html": "<a aria-current=\"page\" class=\"is-active\" data-drupal-link-system-path=\"node/1\" href=\"/resources\" id=\"uij-e202\">Browse resources</a>"
+        },
+        {
+          "target": [
+            "#uij-e226"
+          ],
+          "selector": "#uij-e226",
+          "bbox": null,
+          "html": "<section aria-label=\"Agency identifier,\" class=\"usa-identifier__section usa-identifier__section--masthead\" id=\"uij-e226\">"
+        },
+        {
+          "target": [
+            "#uij-e231"
+          ],
+          "selector": "#uij-e231",
+          "bbox": null,
+          "html": "<section aria-label=\"Agency description,\" class=\"usa-identifier__identity\" id=\"uij-e231\">"
+        },
+        {
+          "target": [
+            "#uij-e235"
+          ],
+          "selector": "#uij-e235",
+          "bbox": null,
+          "html": "<nav aria-label=\"Important links,\" class=\"usa-identifier__section usa-identifier__section--required-links\" id=\"uij-e235\">"
+        },
+        {
+          "target": [
+            "#uij-e252"
+          ],
+          "selector": "#uij-e252",
+          "bbox": null,
+          "html": "<section aria-label=\"U.S. government information and services\" class=\"usa-identifier__section usa-identifier__section--usagov\" id=\"uij-e252\">"
+        },
+        {
+          "target": [
+            "#drupal-live-announce"
+          ],
+          "selector": "#drupal-live-announce",
+          "bbox": null,
+          "html": "<div aria-busy=\"false\" aria-live=\"polite\" class=\"visually-hidden\" id=\"drupal-live-announce\"></div>"
+        }
+      ]
+    },
+    {
+      "rule_id": "aria-required-attr",
+      "impact": "",
+      "tags": [
+        "wcag2a",
+        "wcag412"
+      ],
+      "description": "Ensure elements with ARIA roles have all required ARIA attributes",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/aria-required-attr?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e37"
+          ],
+          "selector": "#uij-e37",
+          "bbox": null,
+          "html": "<header class=\"usa-header usa-header--extended\" id=\"uij-e37\" role=\"banner\">"
+        },
+        {
+          "target": [
+            "#uij-e61"
+          ],
+          "selector": "#uij-e61",
+          "bbox": null,
+          "html": "<div id=\"uij-e61\" role=\"search\">"
+        },
+        {
+          "target": [
+            "#main-content"
+          ],
+          "selector": "#main-content",
+          "bbox": null,
+          "html": "<main id=\"main-content\" role=\"main\">"
+        },
+        {
+          "target": [
+            "#uij-e184"
+          ],
+          "selector": "#uij-e184",
+          "bbox": null,
+          "html": "<footer class=\"usa-footer usa-footer--big\" id=\"uij-e184\" role=\"contentinfo\">"
+        },
+        {
+          "target": [
+            "#uij-e230"
+          ],
+          "selector": "#uij-e230",
+          "bbox": null,
+          "html": "<img alt=\"GSA logo\" class=\"usa-identifier__logo-img\" id=\"uij-e230\" role=\"img\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAABGdBTUEAALGPC/xhBQAAE/5JREFUeAHtXHl0VOd1/2lf0Ya"
+        }
+      ]
+    },
+    {
+      "rule_id": "aria-roles",
+      "impact": "",
+      "tags": [
+        "wcag2a",
+        "wcag412"
+      ],
+      "description": "Ensure all elements with a role attribute use a valid value",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/aria-roles?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e37"
+          ],
+          "selector": "#uij-e37",
+          "bbox": null,
+          "html": "<header class=\"usa-header usa-header--extended\" id=\"uij-e37\" role=\"banner\">"
+        },
+        {
+          "target": [
+            "#uij-e61"
+          ],
+          "selector": "#uij-e61",
+          "bbox": null,
+          "html": "<div id=\"uij-e61\" role=\"search\">"
+        },
+        {
+          "target": [
+            "#main-content"
+          ],
+          "selector": "#main-content",
+          "bbox": null,
+          "html": "<main id=\"main-content\" role=\"main\">"
+        },
+        {
+          "target": [
+            "#uij-e184"
+          ],
+          "selector": "#uij-e184",
+          "bbox": null,
+          "html": "<footer class=\"usa-footer usa-footer--big\" id=\"uij-e184\" role=\"contentinfo\">"
+        },
+        {
+          "target": [
+            "#uij-e230"
+          ],
+          "selector": "#uij-e230",
+          "bbox": null,
+          "html": "<img alt=\"GSA logo\" class=\"usa-identifier__logo-img\" id=\"uij-e230\" role=\"img\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAABGdBTUEAALGPC/xhBQAAE/5JREFUeAHtXHl0VOd1/2lf0Ya"
+        }
+      ]
+    },
+    {
+      "rule_id": "aria-valid-attr-value",
+      "impact": "",
+      "tags": [
+        "wcag2a",
+        "wcag412"
+      ],
+      "description": "Ensure all ARIA attributes have valid values",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/aria-valid-attr-value?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e6"
+          ],
+          "selector": "#uij-e6",
+          "bbox": null,
+          "html": "<section aria-label=\"Official website of the United States government\" class=\"usa-banner gov-banner\" id=\"uij-e6\">"
+        },
+        {
+          "target": [
+            "#uij-e15"
+          ],
+          "selector": "#uij-e15",
+          "bbox": null,
+          "html": "<button aria-controls=\"gov-banner-default-default\" aria-expanded=\"false\" class=\"usa-accordion__button usa-banner__button\" id=\"uij-e15\" type=\"button\">\n<span class=\"usa-banner__button-text\" id=\"uij-e16\""
+        },
+        {
+          "target": [
+            "#uij-e40"
+          ],
+          "selector": "#uij-e40",
+          "bbox": null,
+          "html": "<a aria-label=\"Digital.gov Home\" href=\"/\" id=\"uij-e40\" title=\"Digital.gov Home\">"
+        },
+        {
+          "target": [
+            "#uij-e46"
+          ],
+          "selector": "#uij-e46",
+          "bbox": null,
+          "html": "<nav aria-label=\"Primary navigation\" class=\"usa-nav\" id=\"uij-e46\">"
+        },
+        {
+          "target": [
+            "#uij-e54"
+          ],
+          "selector": "#uij-e54",
+          "bbox": null,
+          "html": "<a aria-current=\"page\" class=\"usa-nav__link is-active\" data-drupal-link-system-path=\"node/1\" href=\"/resources\" id=\"uij-e54\">Browse resources</a>"
+        },
+        {
+          "target": [
+            "#uij-e193"
+          ],
+          "selector": "#uij-e193",
+          "bbox": null,
+          "html": "<nav aria-label=\"Footer navigation\" class=\"usa-footer__nav\" id=\"uij-e193\">"
+        },
+        {
+          "target": [
+            "#uij-e202"
+          ],
+          "selector": "#uij-e202",
+          "bbox": null,
+          "html": "<a aria-current=\"page\" class=\"is-active\" data-drupal-link-system-path=\"node/1\" href=\"/resources\" id=\"uij-e202\">Browse resources</a>"
+        },
+        {
+          "target": [
+            "#uij-e226"
+          ],
+          "selector": "#uij-e226",
+          "bbox": null,
+          "html": "<section aria-label=\"Agency identifier,\" class=\"usa-identifier__section usa-identifier__section--masthead\" id=\"uij-e226\">"
+        },
+        {
+          "target": [
+            "#uij-e231"
+          ],
+          "selector": "#uij-e231",
+          "bbox": null,
+          "html": "<section aria-label=\"Agency description,\" class=\"usa-identifier__identity\" id=\"uij-e231\">"
+        },
+        {
+          "target": [
+            "#uij-e235"
+          ],
+          "selector": "#uij-e235",
+          "bbox": null,
+          "html": "<nav aria-label=\"Important links,\" class=\"usa-identifier__section usa-identifier__section--required-links\" id=\"uij-e235\">"
+        },
+        {
+          "target": [
+            "#uij-e252"
+          ],
+          "selector": "#uij-e252",
+          "bbox": null,
+          "html": "<section aria-label=\"U.S. government information and services\" class=\"usa-identifier__section usa-identifier__section--usagov\" id=\"uij-e252\">"
+        },
+        {
+          "target": [
+            "#drupal-live-announce"
+          ],
+          "selector": "#drupal-live-announce",
+          "bbox": null,
+          "html": "<div aria-busy=\"false\" aria-live=\"polite\" class=\"visually-hidden\" id=\"drupal-live-announce\"></div>"
+        }
+      ]
+    },
+    {
+      "rule_id": "aria-valid-attr",
+      "impact": "",
+      "tags": [
+        "wcag2a",
+        "wcag412"
+      ],
+      "description": "Ensure attributes that begin with aria- are valid ARIA attributes",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/aria-valid-attr?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e6"
+          ],
+          "selector": "#uij-e6",
+          "bbox": null,
+          "html": "<section aria-label=\"Official website of the United States government\" class=\"usa-banner gov-banner\" id=\"uij-e6\">"
+        },
+        {
+          "target": [
+            "#uij-e15"
+          ],
+          "selector": "#uij-e15",
+          "bbox": null,
+          "html": "<button aria-controls=\"gov-banner-default-default\" aria-expanded=\"false\" class=\"usa-accordion__button usa-banner__button\" id=\"uij-e15\" type=\"button\">\n<span class=\"usa-banner__button-text\" id=\"uij-e16\""
+        },
+        {
+          "target": [
+            "#uij-e40"
+          ],
+          "selector": "#uij-e40",
+          "bbox": null,
+          "html": "<a aria-label=\"Digital.gov Home\" href=\"/\" id=\"uij-e40\" title=\"Digital.gov Home\">"
+        },
+        {
+          "target": [
+            "#uij-e46"
+          ],
+          "selector": "#uij-e46",
+          "bbox": null,
+          "html": "<nav aria-label=\"Primary navigation\" class=\"usa-nav\" id=\"uij-e46\">"
+        },
+        {
+          "target": [
+            "#uij-e54"
+          ],
+          "selector": "#uij-e54",
+          "bbox": null,
+          "html": "<a aria-current=\"page\" class=\"usa-nav__link is-active\" data-drupal-link-system-path=\"node/1\" href=\"/resources\" id=\"uij-e54\">Browse resources</a>"
+        },
+        {
+          "target": [
+            "#uij-e193"
+          ],
+          "selector": "#uij-e193",
+          "bbox": null,
+          "html": "<nav aria-label=\"Footer navigation\" class=\"usa-footer__nav\" id=\"uij-e193\">"
+        },
+        {
+          "target": [
+            "#uij-e202"
+          ],
+          "selector": "#uij-e202",
+          "bbox": null,
+          "html": "<a aria-current=\"page\" class=\"is-active\" data-drupal-link-system-path=\"node/1\" href=\"/resources\" id=\"uij-e202\">Browse resources</a>"
+        },
+        {
+          "target": [
+            "#uij-e226"
+          ],
+          "selector": "#uij-e226",
+          "bbox": null,
+          "html": "<section aria-label=\"Agency identifier,\" class=\"usa-identifier__section usa-identifier__section--masthead\" id=\"uij-e226\">"
+        },
+        {
+          "target": [
+            "#uij-e231"
+          ],
+          "selector": "#uij-e231",
+          "bbox": null,
+          "html": "<section aria-label=\"Agency description,\" class=\"usa-identifier__identity\" id=\"uij-e231\">"
+        },
+        {
+          "target": [
+            "#uij-e235"
+          ],
+          "selector": "#uij-e235",
+          "bbox": null,
+          "html": "<nav aria-label=\"Important links,\" class=\"usa-identifier__section usa-identifier__section--required-links\" id=\"uij-e235\">"
+        },
+        {
+          "target": [
+            "#uij-e252"
+          ],
+          "selector": "#uij-e252",
+          "bbox": null,
+          "html": "<section aria-label=\"U.S. government information and services\" class=\"usa-identifier__section usa-identifier__section--usagov\" id=\"uij-e252\">"
+        },
+        {
+          "target": [
+            "#drupal-live-announce"
+          ],
+          "selector": "#drupal-live-announce",
+          "bbox": null,
+          "html": "<div aria-busy=\"false\" aria-live=\"polite\" class=\"visually-hidden\" id=\"drupal-live-announce\"></div>"
+        }
+      ]
+    },
+    {
+      "rule_id": "button-name",
+      "impact": "",
+      "tags": [
+        "wcag2a",
+        "wcag412",
+        "section508",
+        "section508.22.a"
+      ],
+      "description": "Ensure buttons have discernible text",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/button-name?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e15"
+          ],
+          "selector": "#uij-e15",
+          "bbox": null,
+          "html": "<button aria-controls=\"gov-banner-default-default\" aria-expanded=\"false\" class=\"usa-accordion__button usa-banner__button\" id=\"uij-e15\" type=\"button\">\n<span class=\"usa-banner__button-text\" id=\"uij-e16\""
+        },
+        {
+          "target": [
+            "#uij-e63"
+          ],
+          "selector": "#uij-e63",
+          "bbox": null,
+          "html": "<button class=\"usa-button\" id=\"uij-e63\" name=\"commit\" type=\"submit\">"
+        }
+      ]
+    },
+    {
+      "rule_id": "bypass",
+      "impact": "",
+      "tags": [
+        "wcag2a",
+        "wcag241",
+        "section508",
+        "section508.22.o"
+      ],
+      "description": "Ensure each page has at least one mechanism for a user to bypass navigation and jump straight to the content",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/bypass?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "html"
+          ],
+          "selector": "html",
+          "bbox": null,
+          "html": "<html class=\"js\" dir=\"ltr\" lang=\"en\" prefix=\"og: https://ogp.me/ns#\">"
+        }
+      ]
+    },
+    {
+      "rule_id": "color-contrast",
+      "impact": "",
+      "tags": [
+        "wcag2aa",
+        "wcag143"
+      ],
+      "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e13"
+          ],
+          "selector": "#uij-e13",
+          "bbox": null,
+          "html": "<p class=\"usa-banner__header-text\" id=\"uij-e13\">\n            An official website of the United States government\n          </p>"
+        },
+        {
+          "target": [
+            "#uij-e16"
+          ],
+          "selector": "#uij-e16",
+          "bbox": null,
+          "html": "<span class=\"usa-banner__button-text\" id=\"uij-e16\">Here’s how you know</span>"
+        },
+        {
+          "target": [
+            "#uij-e52"
+          ],
+          "selector": "#uij-e52",
+          "bbox": null,
+          "html": "<a class=\"usa-nav__link\" data-drupal-link-system-path=\"node/26\" href=\"/communities\" id=\"uij-e52\">Join communities</a>"
+        },
+        {
+          "target": [
+            "#uij-e54"
+          ],
+          "selector": "#uij-e54",
+          "bbox": null,
+          "html": "<a aria-current=\"page\" class=\"usa-nav__link is-active\" data-drupal-link-system-path=\"node/1\" href=\"/resources\" id=\"uij-e54\">Browse resources</a>"
+        },
+        {
+          "target": [
+            "#uij-e56"
+          ],
+          "selector": "#uij-e56",
+          "bbox": null,
+          "html": "<a class=\"usa-nav__link\" data-drupal-link-system-path=\"node/16\" href=\"/guides\" id=\"uij-e56\">Explore guides</a>"
+        },
+        {
+          "target": [
+            "#uij-e58"
+          ],
+          "selector": "#uij-e58",
+          "bbox": null,
+          "html": "<a class=\"usa-nav__link\" data-drupal-link-system-path=\"node/9\" href=\"/news\" id=\"uij-e58\">Read blogs</a>"
+        },
+        {
+          "target": [
+            "#query"
+          ],
+          "selector": "#query",
+          "bbox": null,
+          "html": "<input class=\"usa-input\" id=\"query\" name=\"query\" type=\"search\">"
+        },
+        {
+          "target": [
+            "#uij-e68"
+          ],
+          "selector": "#uij-e68",
+          "bbox": null,
+          "html": "<h1 id=\"uij-e68\">Resources</h1>"
+        },
+        {
+          "target": [
+            "#uij-e69"
+          ],
+          "selector": "#uij-e69",
+          "bbox": null,
+          "html": "<p id=\"uij-e69\">"
+        },
+        {
+          "target": [
+            "#uij-e71"
+          ],
+          "selector": "#uij-e71",
+          "bbox": null,
+          "html": "<h2 class=\"margin-top-0\" id=\"uij-e71\">Browse by topic</h2>"
+        },
+        {
+          "target": [
+            "#uij-e74"
+          ],
+          "selector": "#uij-e74",
+          "bbox": null,
+          "html": "<h3 class=\"dg-resource-topics-list__header\" id=\"uij-e74\">\n    Design\n  </h3>"
+        },
+        {
+          "target": [
+            "#uij-e77"
+          ],
+          "selector": "#uij-e77",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/accessibility\" id=\"uij-e77\">Accessibility</a>"
+        },
+        {
+          "target": [
+            "#uij-e79"
+          ],
+          "selector": "#uij-e79",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/customer-experience\" id=\"uij-e79\">Customer experience</a>"
+        },
+        {
+          "target": [
+            "#uij-e81"
+          ],
+          "selector": "#uij-e81",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/design\" id=\"uij-e81\">Design</a>"
+        },
+        {
+          "target": [
+            "#uij-e83"
+          ],
+          "selector": "#uij-e83",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/digital-service-delivery\" id=\"uij-e83\">Digital service delivery</a>"
+        },
+        {
+          "target": [
+            "#uij-e85"
+          ],
+          "selector": "#uij-e85",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/human-centered-design\" id=\"uij-e85\">Human-centered design</a>"
+        },
+        {
+          "target": [
+            "#uij-e87"
+          ],
+          "selector": "#uij-e87",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/information-architecture\" id=\"uij-e87\">Information architecture</a>"
+        },
+        {
+          "target": [
+            "#uij-e89"
+          ],
+          "selector": "#uij-e89",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/usability\" id=\"uij-e89\">Usability</a>"
+        },
+        {
+          "target": [
+            "#uij-e91"
+          ],
+          "selector": "#uij-e91",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/user-experience\" id=\"uij-e91\">User experience</a>"
+        },
+        {
+          "target": [
+            "#uij-e93"
+          ],
+          "selector": "#uij-e93",
+          "bbox": null,
+          "html": "<h3 class=\"dg-resource-topics-list__header\" id=\"uij-e93\">\n    Data &amp; analysis\n  </h3>"
+        },
+        {
+          "target": [
+            "#uij-e96"
+          ],
+          "selector": "#uij-e96",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/analytics\" id=\"uij-e96\">Analytics</a>"
+        },
+        {
+          "target": [
+            "#uij-e98"
+          ],
+          "selector": "#uij-e98",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/data-visualization\" id=\"uij-e98\">Data visualization</a>"
+        },
+        {
+          "target": [
+            "#uij-e100"
+          ],
+          "selector": "#uij-e100",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/information-collection\" id=\"uij-e100\">Information collection</a>"
+        },
+        {
+          "target": [
+            "#uij-e102"
+          ],
+          "selector": "#uij-e102",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/open-data\" id=\"uij-e102\">Open data</a>"
+        },
+        {
+          "target": [
+            "#uij-e104"
+          ],
+          "selector": "#uij-e104",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/open-government\" id=\"uij-e104\">Open government</a>"
+        },
+        {
+          "target": [
+            "#uij-e106"
+          ],
+          "selector": "#uij-e106",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/research\" id=\"uij-e106\">Research</a>"
+        },
+        {
+          "target": [
+            "#uij-e108"
+          ],
+          "selector": "#uij-e108",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/search\" id=\"uij-e108\">Search</a>"
+        },
+        {
+          "target": [
+            "#uij-e110"
+          ],
+          "selector": "#uij-e110",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/search-engine-optimization\" id=\"uij-e110\">Search engine optimization</a>"
+        },
+        {
+          "target": [
+            "#uij-e112"
+          ],
+          "selector": "#uij-e112",
+          "bbox": null,
+          "html": "<h3 class=\"dg-resource-topics-list__header\" id=\"uij-e112\">\n    Operations\n  </h3>"
+        },
+        {
+          "target": [
+            "#uij-e115"
+          ],
+          "selector": "#uij-e115",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/acquisition\" id=\"uij-e115\">Acquisition</a>"
+        },
+        {
+          "target": [
+            "#uij-e117"
+          ],
+          "selector": "#uij-e117",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/budgeting-and-performance\" id=\"uij-e117\">Budgeting and performance</a>"
+        },
+        {
+          "target": [
+            "#uij-e119"
+          ],
+          "selector": "#uij-e119",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/contact-centers\" id=\"uij-e119\">Contact centers</a>"
+        },
+        {
+          "target": [
+            "#uij-e121"
+          ],
+          "selector": "#uij-e121",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/intellectual-property\" id=\"uij-e121\">Intellectual property</a>"
+        },
+        {
+          "target": [
+            "#uij-e123"
+          ],
+          "selector": "#uij-e123",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/privacy\" id=\"uij-e123\">Privacy</a>"
+        },
+        {
+          "target": [
+            "#uij-e125"
+          ],
+          "selector": "#uij-e125",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/product-and-project-management\" id=\"uij-e125\">Product and project management</a>"
+        },
+        {
+          "target": [
+            "#uij-e127"
+          ],
+          "selector": "#uij-e127",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/records-management\" id=\"uij-e127\">Records management</a>"
+        },
+        {
+          "target": [
+            "#uij-e129"
+          ],
+          "selector": "#uij-e129",
+          "bbox": null,
+          "html": "<h3 class=\"dg-resource-topics-list__header\" id=\"uij-e129\">\n    Content &amp; communication\n  </h3>"
+        },
+        {
+          "target": [
+            "#uij-e132"
+          ],
+          "selector": "#uij-e132",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/communication\" id=\"uij-e132\">Communication</a>"
+        },
+        {
+          "target": [
+            "#uij-e134"
+          ],
+          "selector": "#uij-e134",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/content-strategy\" id=\"uij-e134\">Content strategy</a>"
+        },
+        {
+          "target": [
+            "#uij-e136"
+          ],
+          "selector": "#uij-e136",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/multilingual\" id=\"uij-e136\">Multilingual</a>"
+        },
+        {
+          "target": [
+            "#uij-e138"
+          ],
+          "selector": "#uij-e138",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/multimedia\" id=\"uij-e138\">Multimedia</a>"
+        },
+        {
+          "target": [
+            "#uij-e140"
+          ],
+          "selector": "#uij-e140",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/plain-language\" id=\"uij-e140\">Plain language</a>"
+        },
+        {
+          "target": [
+            "#uij-e142"
+          ],
+          "selector": "#uij-e142",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/podcast\" id=\"uij-e142\">Podcast</a>"
+        },
+        {
+          "target": [
+            "#uij-e144"
+          ],
+          "selector": "#uij-e144",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/social-media\" id=\"uij-e144\">Social media</a>"
+        },
+        {
+          "target": [
+            "#uij-e146"
+          ],
+          "selector": "#uij-e146",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/trust\" id=\"uij-e146\">Trust</a>"
+        },
+        {
+          "target": [
+            "#uij-e148"
+          ],
+          "selector": "#uij-e148",
+          "bbox": null,
+          "html": "<h3 class=\"dg-resource-topics-list__header\" id=\"uij-e148\">\n    Technology\n  </h3>"
+        },
+        {
+          "target": [
+            "#uij-e151"
+          ],
+          "selector": "#uij-e151",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/application-programming-interface\" id=\"uij-e151\">Application programming interface</a>"
+        },
+        {
+          "target": [
+            "#uij-e153"
+          ],
+          "selector": "#uij-e153",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/artificial-intelligence\" id=\"uij-e153\">Artificial intelligence</a>"
+        },
+        {
+          "target": [
+            "#uij-e155"
+          ],
+          "selector": "#uij-e155",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/cloud-and-infrastructure\" id=\"uij-e155\">Cloud and infrastructure</a>"
+        },
+        {
+          "target": [
+            "#uij-e157"
+          ],
+          "selector": "#uij-e157",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/domain-management\" id=\"uij-e157\">Domain management</a>"
+        },
+        {
+          "target": [
+            "#uij-e159"
+          ],
+          "selector": "#uij-e159",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/emerging-tech\" id=\"uij-e159\">Emerging tech</a>"
+        },
+        {
+          "target": [
+            "#uij-e161"
+          ],
+          "selector": "#uij-e161",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/mobile\" id=\"uij-e161\">Mobile</a>"
+        },
+        {
+          "target": [
+            "#uij-e163"
+          ],
+          "selector": "#uij-e163",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/open-source\" id=\"uij-e163\">Open source</a>"
+        },
+        {
+          "target": [
+            "#uij-e165"
+          ],
+          "selector": "#uij-e165",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/robotic-process-automation\" id=\"uij-e165\">Robotic process automation</a>"
+        },
+        {
+          "target": [
+            "#uij-e167"
+          ],
+          "selector": "#uij-e167",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/security\" id=\"uij-e167\">Security</a>"
+        },
+        {
+          "target": [
+            "#uij-e169"
+          ],
+          "selector": "#uij-e169",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/software-engineering\" id=\"uij-e169\">Software engineering</a>"
+        },
+        {
+          "target": [
+            "#uij-e171"
+          ],
+          "selector": "#uij-e171",
+          "bbox": null,
+          "html": "<h3 class=\"dg-resource-topics-list__header\" id=\"uij-e171\">\n    Strategic development\n  </h3>"
+        },
+        {
+          "target": [
+            "#uij-e174"
+          ],
+          "selector": "#uij-e174",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/best-practices\" id=\"uij-e174\">Best practices</a>"
+        },
+        {
+          "target": [
+            "#uij-e176"
+          ],
+          "selector": "#uij-e176",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/governance\" id=\"uij-e176\">Governance</a>"
+        },
+        {
+          "target": [
+            "#uij-e178"
+          ],
+          "selector": "#uij-e178",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/innovation\" id=\"uij-e178\">Innovation</a>"
+        },
+        {
+          "target": [
+            "#uij-e180"
+          ],
+          "selector": "#uij-e180",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/professional-development\" id=\"uij-e180\">Professional development</a>"
+        },
+        {
+          "target": [
+            "#uij-e182"
+          ],
+          "selector": "#uij-e182",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/public-policy\" id=\"uij-e182\">Public policy</a>"
+        },
+        {
+          "target": [
+            "#uij-e188"
+          ],
+          "selector": "#uij-e188",
+          "bbox": null,
+          "html": "<span id=\"uij-e188\">Return to top</span>"
+        },
+        {
+          "target": [
+            "#uij-e197"
+          ],
+          "selector": "#uij-e197",
+          "bbox": null,
+          "html": "<h4 class=\"usa-footer__primary-link\" id=\"uij-e197\">Learn</h4>"
+        },
+        {
+          "target": [
+            "#uij-e200"
+          ],
+          "selector": "#uij-e200",
+          "bbox": null,
+          "html": "<a data-drupal-link-system-path=\"node/26\" href=\"/communities\" id=\"uij-e200\">Join communities</a>"
+        },
+        {
+          "target": [
+            "#uij-e202"
+          ],
+          "selector": "#uij-e202",
+          "bbox": null,
+          "html": "<a aria-current=\"page\" class=\"is-active\" data-drupal-link-system-path=\"node/1\" href=\"/resources\" id=\"uij-e202\">Browse resources</a>"
+        },
+        {
+          "target": [
+            "#uij-e204"
+          ],
+          "selector": "#uij-e204",
+          "bbox": null,
+          "html": "<a data-drupal-link-system-path=\"node/16\" href=\"/guides\" id=\"uij-e204\">Explore guides</a>"
+        },
+        {
+          "target": [
+            "#uij-e206"
+          ],
+          "selector": "#uij-e206",
+          "bbox": null,
+          "html": "<a data-drupal-link-system-path=\"node/9\" href=\"/news\" id=\"uij-e206\">Read blogs</a>"
+        },
+        {
+          "target": [
+            "#uij-e209"
+          ],
+          "selector": "#uij-e209",
+          "bbox": null,
+          "html": "<h4 class=\"usa-footer__primary-link\" id=\"uij-e209\">Grow</h4>"
+        },
+        {
+          "target": [
+            "#uij-e212"
+          ],
+          "selector": "#uij-e212",
+          "bbox": null,
+          "html": "<a data-drupal-link-system-path=\"node/3821\" href=\"/about/contribute\" id=\"uij-e212\">Contribute to Digital.gov</a>"
+        },
+        {
+          "target": [
+            "#uij-e214"
+          ],
+          "selector": "#uij-e214",
+          "bbox": null,
+          "html": "<a href=\"https://github.com/GSA/digital-gov-drupal/issues\" id=\"uij-e214\">Submit a GitHub issue</a>"
+        },
+        {
+          "target": [
+            "#uij-e217"
+          ],
+          "selector": "#uij-e217",
+          "bbox": null,
+          "html": "<h4 class=\"usa-footer__primary-link\" id=\"uij-e217\">Connect</h4>"
+        },
+        {
+          "target": [
+            "#uij-e220"
+          ],
+          "selector": "#uij-e220",
+          "bbox": null,
+          "html": "<a data-drupal-link-system-path=\"node/3826\" href=\"/about\" id=\"uij-e220\">About us</a>"
+        },
+        {
+          "target": [
+            "#uij-e222"
+          ],
+          "selector": "#uij-e222",
+          "bbox": null,
+          "html": "<a data-drupal-link-system-path=\"node/3820\" href=\"/about/contact\" id=\"uij-e222\">Contact us</a>"
+        },
+        {
+          "target": [
+            "#uij-e224"
+          ],
+          "selector": "#uij-e224",
+          "bbox": null,
+          "html": "<a data-drupal-link-system-path=\"node/3824\" href=\"/policies\" id=\"uij-e224\">Site policies</a>"
+        },
+        {
+          "target": [
+            "#uij-e232"
+          ],
+          "selector": "#uij-e232",
+          "bbox": null,
+          "html": "<p class=\"usa-identifier__identity-domain\" id=\"uij-e232\">Digital.gov</p>"
+        },
+        {
+          "target": [
+            "#uij-e233"
+          ],
+          "selector": "#uij-e233",
+          "bbox": null,
+          "html": "<p class=\"usa-identifier__identity-disclaimer\" id=\"uij-e233\">\n              An official website of the\n              <a href=\"https://www.gsa.gov\" id=\"uij-e234\">U.S. General Services Administration</a"
+        },
+        {
+          "target": [
+            "#uij-e234"
+          ],
+          "selector": "#uij-e234",
+          "bbox": null,
+          "html": "<a href=\"https://www.gsa.gov\" id=\"uij-e234\">U.S. General Services Administration</a>"
+        },
+        {
+          "target": [
+            "#uij-e239"
+          ],
+          "selector": "#uij-e239",
+          "bbox": null,
+          "html": "<a class=\"usa-identifier__required-link usa-link\" href=\"http://www.gsa.gov/about\" id=\"uij-e239\">\n            About GSA\n          </a>"
+        },
+        {
+          "target": [
+            "#uij-e241"
+          ],
+          "selector": "#uij-e241",
+          "bbox": null,
+          "html": "<a class=\"usa-identifier__required-link usa-link\" href=\"https://www.gsa.gov/website-information/accessibility-statement\" id=\"uij-e241\">\n            Accessibility statement\n          </a>"
+        },
+        {
+          "target": [
+            "#uij-e243"
+          ],
+          "selector": "#uij-e243",
+          "bbox": null,
+          "html": "<a class=\"usa-identifier__required-link usa-link\" href=\"https://www.gsa.gov/reference/freedom-of-information-act-foia\" id=\"uij-e243\">\n            FOIA requests \n          </a>"
+        },
+        {
+          "target": [
+            "#uij-e245"
+          ],
+          "selector": "#uij-e245",
+          "bbox": null,
+          "html": "<a class=\"usa-identifier__required-link usa-link\" href=\"https://www.gsa.gov/reference/civil-rights-programs/the-no-fear-act\" id=\"uij-e245\">\n            No FEAR Act data \n          </a>"
+        },
+        {
+          "target": [
+            "#uij-e247"
+          ],
+          "selector": "#uij-e247",
+          "bbox": null,
+          "html": "<a class=\"usa-identifier__required-link usa-link\" href=\"https://www.gsaig.gov/\" id=\"uij-e247\">\n            Office of the Inspector General\n          </a>"
+        },
+        {
+          "target": [
+            "#uij-e249"
+          ],
+          "selector": "#uij-e249",
+          "bbox": null,
+          "html": "<a class=\"usa-identifier__required-link usa-link\" href=\"https://www.gsa.gov/reference/reports/budget-performance\" id=\"uij-e249\">\n            Performance reports\n          </a>"
+        },
+        {
+          "target": [
+            "#uij-e251"
+          ],
+          "selector": "#uij-e251",
+          "bbox": null,
+          "html": "<a class=\"usa-identifier__required-link usa-link\" href=\"https://www.gsa.gov/website-information/website-policies\" id=\"uij-e251\">\n            Privacy policy\n          </a>"
+        },
+        {
+          "target": [
+            "#uij-e254"
+          ],
+          "selector": "#uij-e254",
+          "bbox": null,
+          "html": "<div class=\"usa-identifier__usagov-description\" id=\"uij-e254\">\n            Looking for U.S. government information and services?\n          </div>"
+        },
+        {
+          "target": [
+            "#uij-e255"
+          ],
+          "selector": "#uij-e255",
+          "bbox": null,
+          "html": "<a class=\"usa-link\" href=\"https://www.usa.gov/\" id=\"uij-e255\">Visit USA.gov</a>"
+        }
+      ]
+    },
+    {
+      "rule_id": "document-title",
+      "impact": "",
+      "tags": [
+        "wcag2a",
+        "wcag242"
+      ],
+      "description": "Ensure each HTML document contains a non-empty <title> element",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/document-title?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "html"
+          ],
+          "selector": "html",
+          "bbox": null,
+          "html": "<html class=\"js\" dir=\"ltr\" lang=\"en\" prefix=\"og: https://ogp.me/ns#\">"
+        }
+      ]
+    },
+    {
+      "rule_id": "duplicate-id-aria",
+      "impact": "",
+      "tags": [
+        "wcag2a",
+        "wcag412"
+      ],
+      "description": "Ensure every id attribute value used in ARIA and in labels is unique",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/duplicate-id-aria?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#gov-banner-default-default"
+          ],
+          "selector": "#gov-banner-default-default",
+          "bbox": null,
+          "html": "<div class=\"usa-banner__content usa-accordion__content\" hidden=\"\" id=\"gov-banner-default-default\">"
+        },
+        {
+          "target": [
+            "#banner-lock-description-default"
+          ],
+          "selector": "#banner-lock-description-default",
+          "bbox": null,
+          "html": "<desc id=\"banner-lock-description-default\">\n                    Locked padlock\n                  </desc>"
+        },
+        {
+          "target": [
+            "#query"
+          ],
+          "selector": "#query",
+          "bbox": null,
+          "html": "<input class=\"usa-input\" id=\"query\" name=\"query\" type=\"search\">"
+        }
+      ]
+    },
+    {
+      "rule_id": "empty-heading",
+      "impact": "",
+      "tags": [],
+      "description": "Ensure headings have discernible text",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/empty-heading?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e68"
+          ],
+          "selector": "#uij-e68",
+          "bbox": null,
+          "html": "<h1 id=\"uij-e68\">Resources</h1>"
+        },
+        {
+          "target": [
+            "#uij-e71"
+          ],
+          "selector": "#uij-e71",
+          "bbox": null,
+          "html": "<h2 class=\"margin-top-0\" id=\"uij-e71\">Browse by topic</h2>"
+        },
+        {
+          "target": [
+            "#uij-e74"
+          ],
+          "selector": "#uij-e74",
+          "bbox": null,
+          "html": "<h3 class=\"dg-resource-topics-list__header\" id=\"uij-e74\">\n    Design\n  </h3>"
+        },
+        {
+          "target": [
+            "#uij-e93"
+          ],
+          "selector": "#uij-e93",
+          "bbox": null,
+          "html": "<h3 class=\"dg-resource-topics-list__header\" id=\"uij-e93\">\n    Data &amp; analysis\n  </h3>"
+        },
+        {
+          "target": [
+            "#uij-e112"
+          ],
+          "selector": "#uij-e112",
+          "bbox": null,
+          "html": "<h3 class=\"dg-resource-topics-list__header\" id=\"uij-e112\">\n    Operations\n  </h3>"
+        },
+        {
+          "target": [
+            "#uij-e129"
+          ],
+          "selector": "#uij-e129",
+          "bbox": null,
+          "html": "<h3 class=\"dg-resource-topics-list__header\" id=\"uij-e129\">\n    Content &amp; communication\n  </h3>"
+        },
+        {
+          "target": [
+            "#uij-e148"
+          ],
+          "selector": "#uij-e148",
+          "bbox": null,
+          "html": "<h3 class=\"dg-resource-topics-list__header\" id=\"uij-e148\">\n    Technology\n  </h3>"
+        },
+        {
+          "target": [
+            "#uij-e171"
+          ],
+          "selector": "#uij-e171",
+          "bbox": null,
+          "html": "<h3 class=\"dg-resource-topics-list__header\" id=\"uij-e171\">\n    Strategic development\n  </h3>"
+        },
+        {
+          "target": [
+            "#uij-e197"
+          ],
+          "selector": "#uij-e197",
+          "bbox": null,
+          "html": "<h4 class=\"usa-footer__primary-link\" id=\"uij-e197\">Learn</h4>"
+        },
+        {
+          "target": [
+            "#uij-e209"
+          ],
+          "selector": "#uij-e209",
+          "bbox": null,
+          "html": "<h4 class=\"usa-footer__primary-link\" id=\"uij-e209\">Grow</h4>"
+        },
+        {
+          "target": [
+            "#uij-e217"
+          ],
+          "selector": "#uij-e217",
+          "bbox": null,
+          "html": "<h4 class=\"usa-footer__primary-link\" id=\"uij-e217\">Connect</h4>"
+        }
+      ]
+    },
+    {
+      "rule_id": "form-field-multiple-labels",
+      "impact": "",
+      "tags": [
+        "wcag2a",
+        "wcag332"
+      ],
+      "description": "Ensure form field does not have multiple label elements",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/form-field-multiple-labels?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#query"
+          ],
+          "selector": "#query",
+          "bbox": null,
+          "html": "<input class=\"usa-input\" id=\"query\" name=\"query\" type=\"search\">"
+        }
+      ]
+    },
+    {
+      "rule_id": "heading-order",
+      "impact": "",
+      "tags": [],
+      "description": "Ensure the order of headings is semantically correct",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/heading-order?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e68"
+          ],
+          "selector": "#uij-e68",
+          "bbox": null,
+          "html": "<h1 id=\"uij-e68\">Resources</h1>"
+        },
+        {
+          "target": [
+            "#uij-e71"
+          ],
+          "selector": "#uij-e71",
+          "bbox": null,
+          "html": "<h2 class=\"margin-top-0\" id=\"uij-e71\">Browse by topic</h2>"
+        },
+        {
+          "target": [
+            "#uij-e74"
+          ],
+          "selector": "#uij-e74",
+          "bbox": null,
+          "html": "<h3 class=\"dg-resource-topics-list__header\" id=\"uij-e74\">\n    Design\n  </h3>"
+        },
+        {
+          "target": [
+            "#uij-e93"
+          ],
+          "selector": "#uij-e93",
+          "bbox": null,
+          "html": "<h3 class=\"dg-resource-topics-list__header\" id=\"uij-e93\">\n    Data &amp; analysis\n  </h3>"
+        },
+        {
+          "target": [
+            "#uij-e112"
+          ],
+          "selector": "#uij-e112",
+          "bbox": null,
+          "html": "<h3 class=\"dg-resource-topics-list__header\" id=\"uij-e112\">\n    Operations\n  </h3>"
+        },
+        {
+          "target": [
+            "#uij-e129"
+          ],
+          "selector": "#uij-e129",
+          "bbox": null,
+          "html": "<h3 class=\"dg-resource-topics-list__header\" id=\"uij-e129\">\n    Content &amp; communication\n  </h3>"
+        },
+        {
+          "target": [
+            "#uij-e148"
+          ],
+          "selector": "#uij-e148",
+          "bbox": null,
+          "html": "<h3 class=\"dg-resource-topics-list__header\" id=\"uij-e148\">\n    Technology\n  </h3>"
+        },
+        {
+          "target": [
+            "#uij-e171"
+          ],
+          "selector": "#uij-e171",
+          "bbox": null,
+          "html": "<h3 class=\"dg-resource-topics-list__header\" id=\"uij-e171\">\n    Strategic development\n  </h3>"
+        },
+        {
+          "target": [
+            "#uij-e197"
+          ],
+          "selector": "#uij-e197",
+          "bbox": null,
+          "html": "<h4 class=\"usa-footer__primary-link\" id=\"uij-e197\">Learn</h4>"
+        },
+        {
+          "target": [
+            "#uij-e209"
+          ],
+          "selector": "#uij-e209",
+          "bbox": null,
+          "html": "<h4 class=\"usa-footer__primary-link\" id=\"uij-e209\">Grow</h4>"
+        },
+        {
+          "target": [
+            "#uij-e217"
+          ],
+          "selector": "#uij-e217",
+          "bbox": null,
+          "html": "<h4 class=\"usa-footer__primary-link\" id=\"uij-e217\">Connect</h4>"
+        }
+      ]
+    },
+    {
+      "rule_id": "html-has-lang",
+      "impact": "",
+      "tags": [
+        "wcag2a",
+        "wcag311"
+      ],
+      "description": "Ensure every HTML document has a lang attribute",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/html-has-lang?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "html"
+          ],
+          "selector": "html",
+          "bbox": null,
+          "html": "<html class=\"js\" dir=\"ltr\" lang=\"en\" prefix=\"og: https://ogp.me/ns#\">"
+        }
+      ]
+    },
+    {
+      "rule_id": "html-lang-valid",
+      "impact": "",
+      "tags": [
+        "wcag2a",
+        "wcag311"
+      ],
+      "description": "Ensure the lang attribute of the <html> element has a valid value",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/html-lang-valid?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "html"
+          ],
+          "selector": "html",
+          "bbox": null,
+          "html": "<html class=\"js\" dir=\"ltr\" lang=\"en\" prefix=\"og: https://ogp.me/ns#\">"
+        }
+      ]
+    },
+    {
+      "rule_id": "image-alt",
+      "impact": "",
+      "tags": [
+        "wcag2a",
+        "wcag111",
+        "section508",
+        "section508.22.a"
+      ],
+      "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/image-alt?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e41"
+          ],
+          "selector": "#uij-e41",
+          "bbox": null,
+          "html": "<img alt=\"\" class=\"logo-black\" height=\"36\" id=\"uij-e41\" src=\"data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjIwIiBoZWlnaHQ9IjM2IiB2aWV3Qm94PSIwIDAgMjIwIDM2IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciI"
+        },
+        {
+          "target": [
+            "#uij-e64"
+          ],
+          "selector": "#uij-e64",
+          "bbox": null,
+          "html": "<img alt=\"Search\" class=\"usa-search__submit-icon\" id=\"uij-e64\" src=\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9Ij"
+        },
+        {
+          "target": [
+            "#uij-e230"
+          ],
+          "selector": "#uij-e230",
+          "bbox": null,
+          "html": "<img alt=\"GSA logo\" class=\"usa-identifier__logo-img\" id=\"uij-e230\" role=\"img\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAABGdBTUEAALGPC/xhBQAAE/5JREFUeAHtXHl0VOd1/2lf0Ya"
+        }
+      ]
+    },
+    {
+      "rule_id": "image-redundant-alt",
+      "impact": "",
+      "tags": [],
+      "description": "Ensure image alternative is not repeated as text",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/image-redundant-alt?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e41"
+          ],
+          "selector": "#uij-e41",
+          "bbox": null,
+          "html": "<img alt=\"\" class=\"logo-black\" height=\"36\" id=\"uij-e41\" src=\"data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjIwIiBoZWlnaHQ9IjM2IiB2aWV3Qm94PSIwIDAgMjIwIDM2IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciI"
+        },
+        {
+          "target": [
+            "#uij-e64"
+          ],
+          "selector": "#uij-e64",
+          "bbox": null,
+          "html": "<img alt=\"Search\" class=\"usa-search__submit-icon\" id=\"uij-e64\" src=\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9Ij"
+        },
+        {
+          "target": [
+            "#uij-e230"
+          ],
+          "selector": "#uij-e230",
+          "bbox": null,
+          "html": "<img alt=\"GSA logo\" class=\"usa-identifier__logo-img\" id=\"uij-e230\" role=\"img\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAABGdBTUEAALGPC/xhBQAAE/5JREFUeAHtXHl0VOd1/2lf0Ya"
+        }
+      ]
+    },
+    {
+      "rule_id": "label-title-only",
+      "impact": "",
+      "tags": [],
+      "description": "Ensure that every form element has a visible label and is not solely labeled using hidden labels, or the title or aria-describedby attributes",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/label-title-only?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#query"
+          ],
+          "selector": "#query",
+          "bbox": null,
+          "html": "<input class=\"usa-input\" id=\"query\" name=\"query\" type=\"search\">"
+        }
+      ]
+    },
+    {
+      "rule_id": "label",
+      "impact": "",
+      "tags": [
+        "wcag2a",
+        "wcag412",
+        "section508",
+        "section508.22.n"
+      ],
+      "description": "Ensure every form element has a label",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/label?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#query"
+          ],
+          "selector": "#query",
+          "bbox": null,
+          "html": "<input class=\"usa-input\" id=\"query\" name=\"query\" type=\"search\">"
+        }
+      ]
+    },
+    {
+      "rule_id": "landmark-banner-is-top-level",
+      "impact": "",
+      "tags": [],
+      "description": "Ensure the banner landmark is at top level",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/landmark-banner-is-top-level?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e37"
+          ],
+          "selector": "#uij-e37",
+          "bbox": null,
+          "html": "<header class=\"usa-header usa-header--extended\" id=\"uij-e37\" role=\"banner\">"
+        }
+      ]
+    },
+    {
+      "rule_id": "landmark-contentinfo-is-top-level",
+      "impact": "",
+      "tags": [],
+      "description": "Ensure the contentinfo landmark is at top level",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/landmark-contentinfo-is-top-level?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e184"
+          ],
+          "selector": "#uij-e184",
+          "bbox": null,
+          "html": "<footer class=\"usa-footer usa-footer--big\" id=\"uij-e184\" role=\"contentinfo\">"
+        }
+      ]
+    },
+    {
+      "rule_id": "landmark-main-is-top-level",
+      "impact": "",
+      "tags": [],
+      "description": "Ensure the main landmark is at top level",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/landmark-main-is-top-level?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#main-content"
+          ],
+          "selector": "#main-content",
+          "bbox": null,
+          "html": "<main id=\"main-content\" role=\"main\">"
+        }
+      ]
+    },
+    {
+      "rule_id": "landmark-no-duplicate-banner",
+      "impact": "",
+      "tags": [],
+      "description": "Ensure the document has at most one banner landmark",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/landmark-no-duplicate-banner?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e8"
+          ],
+          "selector": "#uij-e8",
+          "bbox": null,
+          "html": "<header class=\"usa-banner__header\" id=\"uij-e8\">"
+        }
+      ]
+    },
+    {
+      "rule_id": "landmark-no-duplicate-contentinfo",
+      "impact": "",
+      "tags": [],
+      "description": "Ensure the document has at most one contentinfo landmark",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/landmark-no-duplicate-contentinfo?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e184"
+          ],
+          "selector": "#uij-e184",
+          "bbox": null,
+          "html": "<footer class=\"usa-footer usa-footer--big\" id=\"uij-e184\" role=\"contentinfo\">"
+        }
+      ]
+    },
+    {
+      "rule_id": "landmark-no-duplicate-main",
+      "impact": "",
+      "tags": [],
+      "description": "Ensure the document has at most one main landmark",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/landmark-no-duplicate-main?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#main-content"
+          ],
+          "selector": "#main-content",
+          "bbox": null,
+          "html": "<main id=\"main-content\" role=\"main\">"
+        }
+      ]
+    },
+    {
+      "rule_id": "landmark-one-main",
+      "impact": "",
+      "tags": [],
+      "description": "Ensure the document has a main landmark",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/landmark-one-main?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "html"
+          ],
+          "selector": "html",
+          "bbox": null,
+          "html": "<html class=\"js\" dir=\"ltr\" lang=\"en\" prefix=\"og: https://ogp.me/ns#\">"
+        }
+      ]
+    },
+    {
+      "rule_id": "landmark-unique",
+      "impact": "",
+      "tags": [],
+      "description": "Ensure landmarks are unique",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/landmark-unique?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e6"
+          ],
+          "selector": "#uij-e6",
+          "bbox": null,
+          "html": "<section aria-label=\"Official website of the United States government\" class=\"usa-banner gov-banner\" id=\"uij-e6\">"
+        },
+        {
+          "target": [
+            "#uij-e37"
+          ],
+          "selector": "#uij-e37",
+          "bbox": null,
+          "html": "<header class=\"usa-header usa-header--extended\" id=\"uij-e37\" role=\"banner\">"
+        },
+        {
+          "target": [
+            "#uij-e46"
+          ],
+          "selector": "#uij-e46",
+          "bbox": null,
+          "html": "<nav aria-label=\"Primary navigation\" class=\"usa-nav\" id=\"uij-e46\">"
+        },
+        {
+          "target": [
+            "#uij-e61"
+          ],
+          "selector": "#uij-e61",
+          "bbox": null,
+          "html": "<div id=\"uij-e61\" role=\"search\">"
+        },
+        {
+          "target": [
+            "#main-content"
+          ],
+          "selector": "#main-content",
+          "bbox": null,
+          "html": "<main id=\"main-content\" role=\"main\">"
+        },
+        {
+          "target": [
+            "#uij-e184"
+          ],
+          "selector": "#uij-e184",
+          "bbox": null,
+          "html": "<footer class=\"usa-footer usa-footer--big\" id=\"uij-e184\" role=\"contentinfo\">"
+        },
+        {
+          "target": [
+            "#uij-e193"
+          ],
+          "selector": "#uij-e193",
+          "bbox": null,
+          "html": "<nav aria-label=\"Footer navigation\" class=\"usa-footer__nav\" id=\"uij-e193\">"
+        },
+        {
+          "target": [
+            "#uij-e226"
+          ],
+          "selector": "#uij-e226",
+          "bbox": null,
+          "html": "<section aria-label=\"Agency identifier,\" class=\"usa-identifier__section usa-identifier__section--masthead\" id=\"uij-e226\">"
+        },
+        {
+          "target": [
+            "#uij-e231"
+          ],
+          "selector": "#uij-e231",
+          "bbox": null,
+          "html": "<section aria-label=\"Agency description,\" class=\"usa-identifier__identity\" id=\"uij-e231\">"
+        },
+        {
+          "target": [
+            "#uij-e235"
+          ],
+          "selector": "#uij-e235",
+          "bbox": null,
+          "html": "<nav aria-label=\"Important links,\" class=\"usa-identifier__section usa-identifier__section--required-links\" id=\"uij-e235\">"
+        },
+        {
+          "target": [
+            "#uij-e252"
+          ],
+          "selector": "#uij-e252",
+          "bbox": null,
+          "html": "<section aria-label=\"U.S. government information and services\" class=\"usa-identifier__section usa-identifier__section--usagov\" id=\"uij-e252\">"
+        }
+      ]
+    },
+    {
+      "rule_id": "link-name",
+      "impact": "",
+      "tags": [
+        "wcag2a",
+        "wcag244",
+        "wcag412",
+        "section508",
+        "section508.22.a"
+      ],
+      "description": "Ensure links have discernible text",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/link-name?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e0"
+          ],
+          "selector": "#uij-e0",
+          "bbox": null,
+          "html": "<a class=\"visually-hidden focusable\" href=\"#main-content\" id=\"uij-e0\">\n  Skip to main content\n</a>"
+        },
+        {
+          "target": [
+            "#uij-e3"
+          ],
+          "selector": "#uij-e3",
+          "bbox": null,
+          "html": "<a class=\"usa-skipnav\" href=\"#main-content\" id=\"uij-e3\">Skip to main content</a>"
+        },
+        {
+          "target": [
+            "#uij-e40"
+          ],
+          "selector": "#uij-e40",
+          "bbox": null,
+          "html": "<a aria-label=\"Digital.gov Home\" href=\"/\" id=\"uij-e40\" title=\"Digital.gov Home\">"
+        },
+        {
+          "target": [
+            "#uij-e52"
+          ],
+          "selector": "#uij-e52",
+          "bbox": null,
+          "html": "<a class=\"usa-nav__link\" data-drupal-link-system-path=\"node/26\" href=\"/communities\" id=\"uij-e52\">Join communities</a>"
+        },
+        {
+          "target": [
+            "#uij-e54"
+          ],
+          "selector": "#uij-e54",
+          "bbox": null,
+          "html": "<a aria-current=\"page\" class=\"usa-nav__link is-active\" data-drupal-link-system-path=\"node/1\" href=\"/resources\" id=\"uij-e54\">Browse resources</a>"
+        },
+        {
+          "target": [
+            "#uij-e56"
+          ],
+          "selector": "#uij-e56",
+          "bbox": null,
+          "html": "<a class=\"usa-nav__link\" data-drupal-link-system-path=\"node/16\" href=\"/guides\" id=\"uij-e56\">Explore guides</a>"
+        },
+        {
+          "target": [
+            "#uij-e58"
+          ],
+          "selector": "#uij-e58",
+          "bbox": null,
+          "html": "<a class=\"usa-nav__link\" data-drupal-link-system-path=\"node/9\" href=\"/news\" id=\"uij-e58\">Read blogs</a>"
+        },
+        {
+          "target": [
+            "#uij-e77"
+          ],
+          "selector": "#uij-e77",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/accessibility\" id=\"uij-e77\">Accessibility</a>"
+        },
+        {
+          "target": [
+            "#uij-e79"
+          ],
+          "selector": "#uij-e79",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/customer-experience\" id=\"uij-e79\">Customer experience</a>"
+        },
+        {
+          "target": [
+            "#uij-e81"
+          ],
+          "selector": "#uij-e81",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/design\" id=\"uij-e81\">Design</a>"
+        },
+        {
+          "target": [
+            "#uij-e83"
+          ],
+          "selector": "#uij-e83",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/digital-service-delivery\" id=\"uij-e83\">Digital service delivery</a>"
+        },
+        {
+          "target": [
+            "#uij-e85"
+          ],
+          "selector": "#uij-e85",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/human-centered-design\" id=\"uij-e85\">Human-centered design</a>"
+        },
+        {
+          "target": [
+            "#uij-e87"
+          ],
+          "selector": "#uij-e87",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/information-architecture\" id=\"uij-e87\">Information architecture</a>"
+        },
+        {
+          "target": [
+            "#uij-e89"
+          ],
+          "selector": "#uij-e89",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/usability\" id=\"uij-e89\">Usability</a>"
+        },
+        {
+          "target": [
+            "#uij-e91"
+          ],
+          "selector": "#uij-e91",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/user-experience\" id=\"uij-e91\">User experience</a>"
+        },
+        {
+          "target": [
+            "#uij-e96"
+          ],
+          "selector": "#uij-e96",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/analytics\" id=\"uij-e96\">Analytics</a>"
+        },
+        {
+          "target": [
+            "#uij-e98"
+          ],
+          "selector": "#uij-e98",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/data-visualization\" id=\"uij-e98\">Data visualization</a>"
+        },
+        {
+          "target": [
+            "#uij-e100"
+          ],
+          "selector": "#uij-e100",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/information-collection\" id=\"uij-e100\">Information collection</a>"
+        },
+        {
+          "target": [
+            "#uij-e102"
+          ],
+          "selector": "#uij-e102",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/open-data\" id=\"uij-e102\">Open data</a>"
+        },
+        {
+          "target": [
+            "#uij-e104"
+          ],
+          "selector": "#uij-e104",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/open-government\" id=\"uij-e104\">Open government</a>"
+        },
+        {
+          "target": [
+            "#uij-e106"
+          ],
+          "selector": "#uij-e106",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/research\" id=\"uij-e106\">Research</a>"
+        },
+        {
+          "target": [
+            "#uij-e108"
+          ],
+          "selector": "#uij-e108",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/search\" id=\"uij-e108\">Search</a>"
+        },
+        {
+          "target": [
+            "#uij-e110"
+          ],
+          "selector": "#uij-e110",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/search-engine-optimization\" id=\"uij-e110\">Search engine optimization</a>"
+        },
+        {
+          "target": [
+            "#uij-e115"
+          ],
+          "selector": "#uij-e115",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/acquisition\" id=\"uij-e115\">Acquisition</a>"
+        },
+        {
+          "target": [
+            "#uij-e117"
+          ],
+          "selector": "#uij-e117",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/budgeting-and-performance\" id=\"uij-e117\">Budgeting and performance</a>"
+        },
+        {
+          "target": [
+            "#uij-e119"
+          ],
+          "selector": "#uij-e119",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/contact-centers\" id=\"uij-e119\">Contact centers</a>"
+        },
+        {
+          "target": [
+            "#uij-e121"
+          ],
+          "selector": "#uij-e121",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/intellectual-property\" id=\"uij-e121\">Intellectual property</a>"
+        },
+        {
+          "target": [
+            "#uij-e123"
+          ],
+          "selector": "#uij-e123",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/privacy\" id=\"uij-e123\">Privacy</a>"
+        },
+        {
+          "target": [
+            "#uij-e125"
+          ],
+          "selector": "#uij-e125",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/product-and-project-management\" id=\"uij-e125\">Product and project management</a>"
+        },
+        {
+          "target": [
+            "#uij-e127"
+          ],
+          "selector": "#uij-e127",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/records-management\" id=\"uij-e127\">Records management</a>"
+        },
+        {
+          "target": [
+            "#uij-e132"
+          ],
+          "selector": "#uij-e132",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/communication\" id=\"uij-e132\">Communication</a>"
+        },
+        {
+          "target": [
+            "#uij-e134"
+          ],
+          "selector": "#uij-e134",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/content-strategy\" id=\"uij-e134\">Content strategy</a>"
+        },
+        {
+          "target": [
+            "#uij-e136"
+          ],
+          "selector": "#uij-e136",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/multilingual\" id=\"uij-e136\">Multilingual</a>"
+        },
+        {
+          "target": [
+            "#uij-e138"
+          ],
+          "selector": "#uij-e138",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/multimedia\" id=\"uij-e138\">Multimedia</a>"
+        },
+        {
+          "target": [
+            "#uij-e140"
+          ],
+          "selector": "#uij-e140",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/plain-language\" id=\"uij-e140\">Plain language</a>"
+        },
+        {
+          "target": [
+            "#uij-e142"
+          ],
+          "selector": "#uij-e142",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/podcast\" id=\"uij-e142\">Podcast</a>"
+        },
+        {
+          "target": [
+            "#uij-e144"
+          ],
+          "selector": "#uij-e144",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/social-media\" id=\"uij-e144\">Social media</a>"
+        },
+        {
+          "target": [
+            "#uij-e146"
+          ],
+          "selector": "#uij-e146",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/trust\" id=\"uij-e146\">Trust</a>"
+        },
+        {
+          "target": [
+            "#uij-e151"
+          ],
+          "selector": "#uij-e151",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/application-programming-interface\" id=\"uij-e151\">Application programming interface</a>"
+        },
+        {
+          "target": [
+            "#uij-e153"
+          ],
+          "selector": "#uij-e153",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/artificial-intelligence\" id=\"uij-e153\">Artificial intelligence</a>"
+        },
+        {
+          "target": [
+            "#uij-e155"
+          ],
+          "selector": "#uij-e155",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/cloud-and-infrastructure\" id=\"uij-e155\">Cloud and infrastructure</a>"
+        },
+        {
+          "target": [
+            "#uij-e157"
+          ],
+          "selector": "#uij-e157",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/domain-management\" id=\"uij-e157\">Domain management</a>"
+        },
+        {
+          "target": [
+            "#uij-e159"
+          ],
+          "selector": "#uij-e159",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/emerging-tech\" id=\"uij-e159\">Emerging tech</a>"
+        },
+        {
+          "target": [
+            "#uij-e161"
+          ],
+          "selector": "#uij-e161",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/mobile\" id=\"uij-e161\">Mobile</a>"
+        },
+        {
+          "target": [
+            "#uij-e163"
+          ],
+          "selector": "#uij-e163",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/open-source\" id=\"uij-e163\">Open source</a>"
+        },
+        {
+          "target": [
+            "#uij-e165"
+          ],
+          "selector": "#uij-e165",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/robotic-process-automation\" id=\"uij-e165\">Robotic process automation</a>"
+        },
+        {
+          "target": [
+            "#uij-e167"
+          ],
+          "selector": "#uij-e167",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/security\" id=\"uij-e167\">Security</a>"
+        },
+        {
+          "target": [
+            "#uij-e169"
+          ],
+          "selector": "#uij-e169",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/software-engineering\" id=\"uij-e169\">Software engineering</a>"
+        },
+        {
+          "target": [
+            "#uij-e174"
+          ],
+          "selector": "#uij-e174",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/best-practices\" id=\"uij-e174\">Best practices</a>"
+        },
+        {
+          "target": [
+            "#uij-e176"
+          ],
+          "selector": "#uij-e176",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/governance\" id=\"uij-e176\">Governance</a>"
+        },
+        {
+          "target": [
+            "#uij-e178"
+          ],
+          "selector": "#uij-e178",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/innovation\" id=\"uij-e178\">Innovation</a>"
+        },
+        {
+          "target": [
+            "#uij-e180"
+          ],
+          "selector": "#uij-e180",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/professional-development\" id=\"uij-e180\">Professional development</a>"
+        },
+        {
+          "target": [
+            "#uij-e182"
+          ],
+          "selector": "#uij-e182",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/public-policy\" id=\"uij-e182\">Public policy</a>"
+        },
+        {
+          "target": [
+            "#uij-e187"
+          ],
+          "selector": "#uij-e187",
+          "bbox": null,
+          "html": "<a href=\"#\" id=\"uij-e187\">"
+        },
+        {
+          "target": [
+            "#uij-e200"
+          ],
+          "selector": "#uij-e200",
+          "bbox": null,
+          "html": "<a data-drupal-link-system-path=\"node/26\" href=\"/communities\" id=\"uij-e200\">Join communities</a>"
+        },
+        {
+          "target": [
+            "#uij-e202"
+          ],
+          "selector": "#uij-e202",
+          "bbox": null,
+          "html": "<a aria-current=\"page\" class=\"is-active\" data-drupal-link-system-path=\"node/1\" href=\"/resources\" id=\"uij-e202\">Browse resources</a>"
+        },
+        {
+          "target": [
+            "#uij-e204"
+          ],
+          "selector": "#uij-e204",
+          "bbox": null,
+          "html": "<a data-drupal-link-system-path=\"node/16\" href=\"/guides\" id=\"uij-e204\">Explore guides</a>"
+        },
+        {
+          "target": [
+            "#uij-e206"
+          ],
+          "selector": "#uij-e206",
+          "bbox": null,
+          "html": "<a data-drupal-link-system-path=\"node/9\" href=\"/news\" id=\"uij-e206\">Read blogs</a>"
+        },
+        {
+          "target": [
+            "#uij-e212"
+          ],
+          "selector": "#uij-e212",
+          "bbox": null,
+          "html": "<a data-drupal-link-system-path=\"node/3821\" href=\"/about/contribute\" id=\"uij-e212\">Contribute to Digital.gov</a>"
+        },
+        {
+          "target": [
+            "#uij-e214"
+          ],
+          "selector": "#uij-e214",
+          "bbox": null,
+          "html": "<a href=\"https://github.com/GSA/digital-gov-drupal/issues\" id=\"uij-e214\">Submit a GitHub issue</a>"
+        },
+        {
+          "target": [
+            "#uij-e220"
+          ],
+          "selector": "#uij-e220",
+          "bbox": null,
+          "html": "<a data-drupal-link-system-path=\"node/3826\" href=\"/about\" id=\"uij-e220\">About us</a>"
+        },
+        {
+          "target": [
+            "#uij-e222"
+          ],
+          "selector": "#uij-e222",
+          "bbox": null,
+          "html": "<a data-drupal-link-system-path=\"node/3820\" href=\"/about/contact\" id=\"uij-e222\">Contact us</a>"
+        },
+        {
+          "target": [
+            "#uij-e224"
+          ],
+          "selector": "#uij-e224",
+          "bbox": null,
+          "html": "<a data-drupal-link-system-path=\"node/3824\" href=\"/policies\" id=\"uij-e224\">Site policies</a>"
+        },
+        {
+          "target": [
+            "#uij-e229"
+          ],
+          "selector": "#uij-e229",
+          "bbox": null,
+          "html": "<a class=\"usa-identifier__logo\" href=\"https://www.gsa.gov\" id=\"uij-e229\">"
+        },
+        {
+          "target": [
+            "#uij-e234"
+          ],
+          "selector": "#uij-e234",
+          "bbox": null,
+          "html": "<a href=\"https://www.gsa.gov\" id=\"uij-e234\">U.S. General Services Administration</a>"
+        },
+        {
+          "target": [
+            "#uij-e239"
+          ],
+          "selector": "#uij-e239",
+          "bbox": null,
+          "html": "<a class=\"usa-identifier__required-link usa-link\" href=\"http://www.gsa.gov/about\" id=\"uij-e239\">\n            About GSA\n          </a>"
+        },
+        {
+          "target": [
+            "#uij-e241"
+          ],
+          "selector": "#uij-e241",
+          "bbox": null,
+          "html": "<a class=\"usa-identifier__required-link usa-link\" href=\"https://www.gsa.gov/website-information/accessibility-statement\" id=\"uij-e241\">\n            Accessibility statement\n          </a>"
+        },
+        {
+          "target": [
+            "#uij-e243"
+          ],
+          "selector": "#uij-e243",
+          "bbox": null,
+          "html": "<a class=\"usa-identifier__required-link usa-link\" href=\"https://www.gsa.gov/reference/freedom-of-information-act-foia\" id=\"uij-e243\">\n            FOIA requests \n          </a>"
+        },
+        {
+          "target": [
+            "#uij-e245"
+          ],
+          "selector": "#uij-e245",
+          "bbox": null,
+          "html": "<a class=\"usa-identifier__required-link usa-link\" href=\"https://www.gsa.gov/reference/civil-rights-programs/the-no-fear-act\" id=\"uij-e245\">\n            No FEAR Act data \n          </a>"
+        },
+        {
+          "target": [
+            "#uij-e247"
+          ],
+          "selector": "#uij-e247",
+          "bbox": null,
+          "html": "<a class=\"usa-identifier__required-link usa-link\" href=\"https://www.gsaig.gov/\" id=\"uij-e247\">\n            Office of the Inspector General\n          </a>"
+        },
+        {
+          "target": [
+            "#uij-e249"
+          ],
+          "selector": "#uij-e249",
+          "bbox": null,
+          "html": "<a class=\"usa-identifier__required-link usa-link\" href=\"https://www.gsa.gov/reference/reports/budget-performance\" id=\"uij-e249\">\n            Performance reports\n          </a>"
+        },
+        {
+          "target": [
+            "#uij-e251"
+          ],
+          "selector": "#uij-e251",
+          "bbox": null,
+          "html": "<a class=\"usa-identifier__required-link usa-link\" href=\"https://www.gsa.gov/website-information/website-policies\" id=\"uij-e251\">\n            Privacy policy\n          </a>"
+        },
+        {
+          "target": [
+            "#uij-e255"
+          ],
+          "selector": "#uij-e255",
+          "bbox": null,
+          "html": "<a class=\"usa-link\" href=\"https://www.usa.gov/\" id=\"uij-e255\">Visit USA.gov</a>"
+        }
+      ]
+    },
+    {
+      "rule_id": "list",
+      "impact": "",
+      "tags": [
+        "wcag2a",
+        "wcag131"
+      ],
+      "description": "Ensure that lists are structured correctly",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/list?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e50"
+          ],
+          "selector": "#uij-e50",
+          "bbox": null,
+          "html": "<ul class=\"usa-nav__primary usa-accordion\" id=\"uij-e50\">"
+        },
+        {
+          "target": [
+            "#uij-e75"
+          ],
+          "selector": "#uij-e75",
+          "bbox": null,
+          "html": "<ul class=\"dg-resource-topics-list__list usa-list usa-list--unstyled\" id=\"uij-e75\">"
+        },
+        {
+          "target": [
+            "#uij-e94"
+          ],
+          "selector": "#uij-e94",
+          "bbox": null,
+          "html": "<ul class=\"dg-resource-topics-list__list usa-list usa-list--unstyled\" id=\"uij-e94\">"
+        },
+        {
+          "target": [
+            "#uij-e113"
+          ],
+          "selector": "#uij-e113",
+          "bbox": null,
+          "html": "<ul class=\"dg-resource-topics-list__list usa-list usa-list--unstyled\" id=\"uij-e113\">"
+        },
+        {
+          "target": [
+            "#uij-e130"
+          ],
+          "selector": "#uij-e130",
+          "bbox": null,
+          "html": "<ul class=\"dg-resource-topics-list__list usa-list usa-list--unstyled\" id=\"uij-e130\">"
+        },
+        {
+          "target": [
+            "#uij-e149"
+          ],
+          "selector": "#uij-e149",
+          "bbox": null,
+          "html": "<ul class=\"dg-resource-topics-list__list usa-list usa-list--unstyled\" id=\"uij-e149\">"
+        },
+        {
+          "target": [
+            "#uij-e172"
+          ],
+          "selector": "#uij-e172",
+          "bbox": null,
+          "html": "<ul class=\"dg-resource-topics-list__list usa-list usa-list--unstyled\" id=\"uij-e172\">"
+        },
+        {
+          "target": [
+            "#uij-e198"
+          ],
+          "selector": "#uij-e198",
+          "bbox": null,
+          "html": "<ul class=\"usa-list usa-list--unstyled\" id=\"uij-e198\">"
+        },
+        {
+          "target": [
+            "#uij-e210"
+          ],
+          "selector": "#uij-e210",
+          "bbox": null,
+          "html": "<ul class=\"usa-list usa-list--unstyled\" id=\"uij-e210\">"
+        },
+        {
+          "target": [
+            "#uij-e218"
+          ],
+          "selector": "#uij-e218",
+          "bbox": null,
+          "html": "<ul class=\"usa-list usa-list--unstyled\" id=\"uij-e218\">"
+        },
+        {
+          "target": [
+            "#uij-e237"
+          ],
+          "selector": "#uij-e237",
+          "bbox": null,
+          "html": "<ul class=\"usa-identifier__required-links-list\" id=\"uij-e237\">"
+        }
+      ]
+    },
+    {
+      "rule_id": "listitem",
+      "impact": "",
+      "tags": [
+        "wcag2a",
+        "wcag131"
+      ],
+      "description": "Ensure <li> elements are used semantically",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/listitem?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e51"
+          ],
+          "selector": "#uij-e51",
+          "bbox": null,
+          "html": "<li class=\"usa-nav__primary-item\" id=\"uij-e51\">\n<a class=\"usa-nav__link\" data-drupal-link-system-path=\"node/26\" href=\"/communities\" id=\"uij-e52\">Join communities</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e53"
+          ],
+          "selector": "#uij-e53",
+          "bbox": null,
+          "html": "<li class=\"usa-nav__primary-item\" id=\"uij-e53\">\n<a aria-current=\"page\" class=\"usa-nav__link is-active\" data-drupal-link-system-path=\"node/1\" href=\"/resources\" id=\"uij-e54\">Browse resources</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e55"
+          ],
+          "selector": "#uij-e55",
+          "bbox": null,
+          "html": "<li class=\"usa-nav__primary-item\" id=\"uij-e55\">\n<a class=\"usa-nav__link\" data-drupal-link-system-path=\"node/16\" href=\"/guides\" id=\"uij-e56\">Explore guides</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e57"
+          ],
+          "selector": "#uij-e57",
+          "bbox": null,
+          "html": "<li class=\"usa-nav__primary-item\" id=\"uij-e57\">\n<a class=\"usa-nav__link\" data-drupal-link-system-path=\"node/9\" href=\"/news\" id=\"uij-e58\">Read blogs</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e76"
+          ],
+          "selector": "#uij-e76",
+          "bbox": null,
+          "html": "<li class=\"dg-resource-topics-list__list-item\" id=\"uij-e76\">\n<a class=\"dg-resource-topics-list__link\" href=\"/topics/accessibility\" id=\"uij-e77\">Accessibility</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e78"
+          ],
+          "selector": "#uij-e78",
+          "bbox": null,
+          "html": "<li class=\"dg-resource-topics-list__list-item\" id=\"uij-e78\">\n<a class=\"dg-resource-topics-list__link\" href=\"/topics/customer-experience\" id=\"uij-e79\">Customer experience</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e80"
+          ],
+          "selector": "#uij-e80",
+          "bbox": null,
+          "html": "<li class=\"dg-resource-topics-list__list-item\" id=\"uij-e80\">\n<a class=\"dg-resource-topics-list__link\" href=\"/topics/design\" id=\"uij-e81\">Design</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e82"
+          ],
+          "selector": "#uij-e82",
+          "bbox": null,
+          "html": "<li class=\"dg-resource-topics-list__list-item\" id=\"uij-e82\">\n<a class=\"dg-resource-topics-list__link\" href=\"/topics/digital-service-delivery\" id=\"uij-e83\">Digital service delivery</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e84"
+          ],
+          "selector": "#uij-e84",
+          "bbox": null,
+          "html": "<li class=\"dg-resource-topics-list__list-item\" id=\"uij-e84\">\n<a class=\"dg-resource-topics-list__link\" href=\"/topics/human-centered-design\" id=\"uij-e85\">Human-centered design</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e86"
+          ],
+          "selector": "#uij-e86",
+          "bbox": null,
+          "html": "<li class=\"dg-resource-topics-list__list-item\" id=\"uij-e86\">\n<a class=\"dg-resource-topics-list__link\" href=\"/topics/information-architecture\" id=\"uij-e87\">Information architecture</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e88"
+          ],
+          "selector": "#uij-e88",
+          "bbox": null,
+          "html": "<li class=\"dg-resource-topics-list__list-item\" id=\"uij-e88\">\n<a class=\"dg-resource-topics-list__link\" href=\"/topics/usability\" id=\"uij-e89\">Usability</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e90"
+          ],
+          "selector": "#uij-e90",
+          "bbox": null,
+          "html": "<li class=\"dg-resource-topics-list__list-item\" id=\"uij-e90\">\n<a class=\"dg-resource-topics-list__link\" href=\"/topics/user-experience\" id=\"uij-e91\">User experience</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e95"
+          ],
+          "selector": "#uij-e95",
+          "bbox": null,
+          "html": "<li class=\"dg-resource-topics-list__list-item\" id=\"uij-e95\">\n<a class=\"dg-resource-topics-list__link\" href=\"/topics/analytics\" id=\"uij-e96\">Analytics</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e97"
+          ],
+          "selector": "#uij-e97",
+          "bbox": null,
+          "html": "<li class=\"dg-resource-topics-list__list-item\" id=\"uij-e97\">\n<a class=\"dg-resource-topics-list__link\" href=\"/topics/data-visualization\" id=\"uij-e98\">Data visualization</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e99"
+          ],
+          "selector": "#uij-e99",
+          "bbox": null,
+          "html": "<li class=\"dg-resource-topics-list__list-item\" id=\"uij-e99\">\n<a class=\"dg-resource-topics-list__link\" href=\"/topics/information-collection\" id=\"uij-e100\">Information collection</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e101"
+          ],
+          "selector": "#uij-e101",
+          "bbox": null,
+          "html": "<li class=\"dg-resource-topics-list__list-item\" id=\"uij-e101\">\n<a class=\"dg-resource-topics-list__link\" href=\"/topics/open-data\" id=\"uij-e102\">Open data</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e103"
+          ],
+          "selector": "#uij-e103",
+          "bbox": null,
+          "html": "<li class=\"dg-resource-topics-list__list-item\" id=\"uij-e103\">\n<a class=\"dg-resource-topics-list__link\" href=\"/topics/open-government\" id=\"uij-e104\">Open government</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e105"
+          ],
+          "selector": "#uij-e105",
+          "bbox": null,
+          "html": "<li class=\"dg-resource-topics-list__list-item\" id=\"uij-e105\">\n<a class=\"dg-resource-topics-list__link\" href=\"/topics/research\" id=\"uij-e106\">Research</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e107"
+          ],
+          "selector": "#uij-e107",
+          "bbox": null,
+          "html": "<li class=\"dg-resource-topics-list__list-item\" id=\"uij-e107\">\n<a class=\"dg-resource-topics-list__link\" href=\"/topics/search\" id=\"uij-e108\">Search</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e109"
+          ],
+          "selector": "#uij-e109",
+          "bbox": null,
+          "html": "<li class=\"dg-resource-topics-list__list-item\" id=\"uij-e109\">\n<a class=\"dg-resource-topics-list__link\" href=\"/topics/search-engine-optimization\" id=\"uij-e110\">Search engine optimization</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e114"
+          ],
+          "selector": "#uij-e114",
+          "bbox": null,
+          "html": "<li class=\"dg-resource-topics-list__list-item\" id=\"uij-e114\">\n<a class=\"dg-resource-topics-list__link\" href=\"/topics/acquisition\" id=\"uij-e115\">Acquisition</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e116"
+          ],
+          "selector": "#uij-e116",
+          "bbox": null,
+          "html": "<li class=\"dg-resource-topics-list__list-item\" id=\"uij-e116\">\n<a class=\"dg-resource-topics-list__link\" href=\"/topics/budgeting-and-performance\" id=\"uij-e117\">Budgeting and performance</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e118"
+          ],
+          "selector": "#uij-e118",
+          "bbox": null,
+          "html": "<li class=\"dg-resource-topics-list__list-item\" id=\"uij-e118\">\n<a class=\"dg-resource-topics-list__link\" href=\"/topics/contact-centers\" id=\"uij-e119\">Contact centers</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e120"
+          ],
+          "selector": "#uij-e120",
+          "bbox": null,
+          "html": "<li class=\"dg-resource-topics-list__list-item\" id=\"uij-e120\">\n<a class=\"dg-resource-topics-list__link\" href=\"/topics/intellectual-property\" id=\"uij-e121\">Intellectual property</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e122"
+          ],
+          "selector": "#uij-e122",
+          "bbox": null,
+          "html": "<li class=\"dg-resource-topics-list__list-item\" id=\"uij-e122\">\n<a class=\"dg-resource-topics-list__link\" href=\"/topics/privacy\" id=\"uij-e123\">Privacy</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e124"
+          ],
+          "selector": "#uij-e124",
+          "bbox": null,
+          "html": "<li class=\"dg-resource-topics-list__list-item\" id=\"uij-e124\">\n<a class=\"dg-resource-topics-list__link\" href=\"/topics/product-and-project-management\" id=\"uij-e125\">Product and project management</a>\n</"
+        },
+        {
+          "target": [
+            "#uij-e126"
+          ],
+          "selector": "#uij-e126",
+          "bbox": null,
+          "html": "<li class=\"dg-resource-topics-list__list-item\" id=\"uij-e126\">\n<a class=\"dg-resource-topics-list__link\" href=\"/topics/records-management\" id=\"uij-e127\">Records management</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e131"
+          ],
+          "selector": "#uij-e131",
+          "bbox": null,
+          "html": "<li class=\"dg-resource-topics-list__list-item\" id=\"uij-e131\">\n<a class=\"dg-resource-topics-list__link\" href=\"/topics/communication\" id=\"uij-e132\">Communication</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e133"
+          ],
+          "selector": "#uij-e133",
+          "bbox": null,
+          "html": "<li class=\"dg-resource-topics-list__list-item\" id=\"uij-e133\">\n<a class=\"dg-resource-topics-list__link\" href=\"/topics/content-strategy\" id=\"uij-e134\">Content strategy</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e135"
+          ],
+          "selector": "#uij-e135",
+          "bbox": null,
+          "html": "<li class=\"dg-resource-topics-list__list-item\" id=\"uij-e135\">\n<a class=\"dg-resource-topics-list__link\" href=\"/topics/multilingual\" id=\"uij-e136\">Multilingual</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e137"
+          ],
+          "selector": "#uij-e137",
+          "bbox": null,
+          "html": "<li class=\"dg-resource-topics-list__list-item\" id=\"uij-e137\">\n<a class=\"dg-resource-topics-list__link\" href=\"/topics/multimedia\" id=\"uij-e138\">Multimedia</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e139"
+          ],
+          "selector": "#uij-e139",
+          "bbox": null,
+          "html": "<li class=\"dg-resource-topics-list__list-item\" id=\"uij-e139\">\n<a class=\"dg-resource-topics-list__link\" href=\"/topics/plain-language\" id=\"uij-e140\">Plain language</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e141"
+          ],
+          "selector": "#uij-e141",
+          "bbox": null,
+          "html": "<li class=\"dg-resource-topics-list__list-item\" id=\"uij-e141\">\n<a class=\"dg-resource-topics-list__link\" href=\"/topics/podcast\" id=\"uij-e142\">Podcast</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e143"
+          ],
+          "selector": "#uij-e143",
+          "bbox": null,
+          "html": "<li class=\"dg-resource-topics-list__list-item\" id=\"uij-e143\">\n<a class=\"dg-resource-topics-list__link\" href=\"/topics/social-media\" id=\"uij-e144\">Social media</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e145"
+          ],
+          "selector": "#uij-e145",
+          "bbox": null,
+          "html": "<li class=\"dg-resource-topics-list__list-item\" id=\"uij-e145\">\n<a class=\"dg-resource-topics-list__link\" href=\"/topics/trust\" id=\"uij-e146\">Trust</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e150"
+          ],
+          "selector": "#uij-e150",
+          "bbox": null,
+          "html": "<li class=\"dg-resource-topics-list__list-item\" id=\"uij-e150\">\n<a class=\"dg-resource-topics-list__link\" href=\"/topics/application-programming-interface\" id=\"uij-e151\">Application programming interface<"
+        },
+        {
+          "target": [
+            "#uij-e152"
+          ],
+          "selector": "#uij-e152",
+          "bbox": null,
+          "html": "<li class=\"dg-resource-topics-list__list-item\" id=\"uij-e152\">\n<a class=\"dg-resource-topics-list__link\" href=\"/topics/artificial-intelligence\" id=\"uij-e153\">Artificial intelligence</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e154"
+          ],
+          "selector": "#uij-e154",
+          "bbox": null,
+          "html": "<li class=\"dg-resource-topics-list__list-item\" id=\"uij-e154\">\n<a class=\"dg-resource-topics-list__link\" href=\"/topics/cloud-and-infrastructure\" id=\"uij-e155\">Cloud and infrastructure</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e156"
+          ],
+          "selector": "#uij-e156",
+          "bbox": null,
+          "html": "<li class=\"dg-resource-topics-list__list-item\" id=\"uij-e156\">\n<a class=\"dg-resource-topics-list__link\" href=\"/topics/domain-management\" id=\"uij-e157\">Domain management</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e158"
+          ],
+          "selector": "#uij-e158",
+          "bbox": null,
+          "html": "<li class=\"dg-resource-topics-list__list-item\" id=\"uij-e158\">\n<a class=\"dg-resource-topics-list__link\" href=\"/topics/emerging-tech\" id=\"uij-e159\">Emerging tech</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e160"
+          ],
+          "selector": "#uij-e160",
+          "bbox": null,
+          "html": "<li class=\"dg-resource-topics-list__list-item\" id=\"uij-e160\">\n<a class=\"dg-resource-topics-list__link\" href=\"/topics/mobile\" id=\"uij-e161\">Mobile</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e162"
+          ],
+          "selector": "#uij-e162",
+          "bbox": null,
+          "html": "<li class=\"dg-resource-topics-list__list-item\" id=\"uij-e162\">\n<a class=\"dg-resource-topics-list__link\" href=\"/topics/open-source\" id=\"uij-e163\">Open source</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e164"
+          ],
+          "selector": "#uij-e164",
+          "bbox": null,
+          "html": "<li class=\"dg-resource-topics-list__list-item\" id=\"uij-e164\">\n<a class=\"dg-resource-topics-list__link\" href=\"/topics/robotic-process-automation\" id=\"uij-e165\">Robotic process automation</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e166"
+          ],
+          "selector": "#uij-e166",
+          "bbox": null,
+          "html": "<li class=\"dg-resource-topics-list__list-item\" id=\"uij-e166\">\n<a class=\"dg-resource-topics-list__link\" href=\"/topics/security\" id=\"uij-e167\">Security</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e168"
+          ],
+          "selector": "#uij-e168",
+          "bbox": null,
+          "html": "<li class=\"dg-resource-topics-list__list-item\" id=\"uij-e168\">\n<a class=\"dg-resource-topics-list__link\" href=\"/topics/software-engineering\" id=\"uij-e169\">Software engineering</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e173"
+          ],
+          "selector": "#uij-e173",
+          "bbox": null,
+          "html": "<li class=\"dg-resource-topics-list__list-item\" id=\"uij-e173\">\n<a class=\"dg-resource-topics-list__link\" href=\"/topics/best-practices\" id=\"uij-e174\">Best practices</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e175"
+          ],
+          "selector": "#uij-e175",
+          "bbox": null,
+          "html": "<li class=\"dg-resource-topics-list__list-item\" id=\"uij-e175\">\n<a class=\"dg-resource-topics-list__link\" href=\"/topics/governance\" id=\"uij-e176\">Governance</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e177"
+          ],
+          "selector": "#uij-e177",
+          "bbox": null,
+          "html": "<li class=\"dg-resource-topics-list__list-item\" id=\"uij-e177\">\n<a class=\"dg-resource-topics-list__link\" href=\"/topics/innovation\" id=\"uij-e178\">Innovation</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e179"
+          ],
+          "selector": "#uij-e179",
+          "bbox": null,
+          "html": "<li class=\"dg-resource-topics-list__list-item\" id=\"uij-e179\">\n<a class=\"dg-resource-topics-list__link\" href=\"/topics/professional-development\" id=\"uij-e180\">Professional development</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e181"
+          ],
+          "selector": "#uij-e181",
+          "bbox": null,
+          "html": "<li class=\"dg-resource-topics-list__list-item\" id=\"uij-e181\">\n<a class=\"dg-resource-topics-list__link\" href=\"/topics/public-policy\" id=\"uij-e182\">Public policy</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e199"
+          ],
+          "selector": "#uij-e199",
+          "bbox": null,
+          "html": "<li class=\"usa-footer__secondary-link\" id=\"uij-e199\">\n<a data-drupal-link-system-path=\"node/26\" href=\"/communities\" id=\"uij-e200\">Join communities</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e201"
+          ],
+          "selector": "#uij-e201",
+          "bbox": null,
+          "html": "<li class=\"usa-footer__secondary-link\" id=\"uij-e201\">\n<a aria-current=\"page\" class=\"is-active\" data-drupal-link-system-path=\"node/1\" href=\"/resources\" id=\"uij-e202\">Browse resources</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e203"
+          ],
+          "selector": "#uij-e203",
+          "bbox": null,
+          "html": "<li class=\"usa-footer__secondary-link\" id=\"uij-e203\">\n<a data-drupal-link-system-path=\"node/16\" href=\"/guides\" id=\"uij-e204\">Explore guides</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e205"
+          ],
+          "selector": "#uij-e205",
+          "bbox": null,
+          "html": "<li class=\"usa-footer__secondary-link\" id=\"uij-e205\">\n<a data-drupal-link-system-path=\"node/9\" href=\"/news\" id=\"uij-e206\">Read blogs</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e211"
+          ],
+          "selector": "#uij-e211",
+          "bbox": null,
+          "html": "<li class=\"usa-footer__secondary-link\" id=\"uij-e211\">\n<a data-drupal-link-system-path=\"node/3821\" href=\"/about/contribute\" id=\"uij-e212\">Contribute to Digital.gov</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e213"
+          ],
+          "selector": "#uij-e213",
+          "bbox": null,
+          "html": "<li class=\"usa-footer__secondary-link\" id=\"uij-e213\">\n<a href=\"https://github.com/GSA/digital-gov-drupal/issues\" id=\"uij-e214\">Submit a GitHub issue</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e219"
+          ],
+          "selector": "#uij-e219",
+          "bbox": null,
+          "html": "<li class=\"usa-footer__secondary-link\" id=\"uij-e219\">\n<a data-drupal-link-system-path=\"node/3826\" href=\"/about\" id=\"uij-e220\">About us</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e221"
+          ],
+          "selector": "#uij-e221",
+          "bbox": null,
+          "html": "<li class=\"usa-footer__secondary-link\" id=\"uij-e221\">\n<a data-drupal-link-system-path=\"node/3820\" href=\"/about/contact\" id=\"uij-e222\">Contact us</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e223"
+          ],
+          "selector": "#uij-e223",
+          "bbox": null,
+          "html": "<li class=\"usa-footer__secondary-link\" id=\"uij-e223\">\n<a data-drupal-link-system-path=\"node/3824\" href=\"/policies\" id=\"uij-e224\">Site policies</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e238"
+          ],
+          "selector": "#uij-e238",
+          "bbox": null,
+          "html": "<li class=\"usa-identifier__required-links-item\" id=\"uij-e238\">\n<a class=\"usa-identifier__required-link usa-link\" href=\"http://www.gsa.gov/about\" id=\"uij-e239\">\n            About GSA\n          </a>\n</l"
+        },
+        {
+          "target": [
+            "#uij-e240"
+          ],
+          "selector": "#uij-e240",
+          "bbox": null,
+          "html": "<li class=\"usa-identifier__required-links-item\" id=\"uij-e240\">\n<a class=\"usa-identifier__required-link usa-link\" href=\"https://www.gsa.gov/website-information/accessibility-statement\" id=\"uij-e241\">\n "
+        },
+        {
+          "target": [
+            "#uij-e242"
+          ],
+          "selector": "#uij-e242",
+          "bbox": null,
+          "html": "<li class=\"usa-identifier__required-links-item\" id=\"uij-e242\">\n<a class=\"usa-identifier__required-link usa-link\" href=\"https://www.gsa.gov/reference/freedom-of-information-act-foia\" id=\"uij-e243\">\n   "
+        },
+        {
+          "target": [
+            "#uij-e244"
+          ],
+          "selector": "#uij-e244",
+          "bbox": null,
+          "html": "<li class=\"usa-identifier__required-links-item\" id=\"uij-e244\">\n<a class=\"usa-identifier__required-link usa-link\" href=\"https://www.gsa.gov/reference/civil-rights-programs/the-no-fear-act\" id=\"uij-e245"
+        },
+        {
+          "target": [
+            "#uij-e246"
+          ],
+          "selector": "#uij-e246",
+          "bbox": null,
+          "html": "<li class=\"usa-identifier__required-links-item\" id=\"uij-e246\">\n<a class=\"usa-identifier__required-link usa-link\" href=\"https://www.gsaig.gov/\" id=\"uij-e247\">\n            Office of the Inspector Genera"
+        },
+        {
+          "target": [
+            "#uij-e248"
+          ],
+          "selector": "#uij-e248",
+          "bbox": null,
+          "html": "<li class=\"usa-identifier__required-links-item\" id=\"uij-e248\">\n<a class=\"usa-identifier__required-link usa-link\" href=\"https://www.gsa.gov/reference/reports/budget-performance\" id=\"uij-e249\">\n        "
+        },
+        {
+          "target": [
+            "#uij-e250"
+          ],
+          "selector": "#uij-e250",
+          "bbox": null,
+          "html": "<li class=\"usa-identifier__required-links-item\" id=\"uij-e250\">\n<a class=\"usa-identifier__required-link usa-link\" href=\"https://www.gsa.gov/website-information/website-policies\" id=\"uij-e251\">\n        "
+        }
+      ]
+    },
+    {
+      "rule_id": "meta-viewport-large",
+      "impact": "",
+      "tags": [],
+      "description": "Ensure <meta name=\"viewport\"> can scale a significant amount",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/meta-viewport-large?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "meta[name=\"viewport\"]"
+          ],
+          "selector": "meta[name=\"viewport\"]",
+          "bbox": null,
+          "html": "<meta content=\"width=device-width, initial-scale=1.0\" name=\"viewport\">"
+        }
+      ]
+    },
+    {
+      "rule_id": "meta-viewport",
+      "impact": "",
+      "tags": [
+        "wcag2aa",
+        "wcag144"
+      ],
+      "description": "Ensure <meta name=\"viewport\"> does not disable text scaling and zooming",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/meta-viewport?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "meta[name=\"viewport\"]"
+          ],
+          "selector": "meta[name=\"viewport\"]",
+          "bbox": null,
+          "html": "<meta content=\"width=device-width, initial-scale=1.0\" name=\"viewport\">"
+        }
+      ]
+    },
+    {
+      "rule_id": "nested-interactive",
+      "impact": "",
+      "tags": [
+        "wcag2a",
+        "wcag412"
+      ],
+      "description": "Ensure interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/nested-interactive?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e15"
+          ],
+          "selector": "#uij-e15",
+          "bbox": null,
+          "html": "<button aria-controls=\"gov-banner-default-default\" aria-expanded=\"false\" class=\"usa-accordion__button usa-banner__button\" id=\"uij-e15\" type=\"button\">\n<span class=\"usa-banner__button-text\" id=\"uij-e16\""
+        },
+        {
+          "target": [
+            "#uij-e63"
+          ],
+          "selector": "#uij-e63",
+          "bbox": null,
+          "html": "<button class=\"usa-button\" id=\"uij-e63\" name=\"commit\" type=\"submit\">"
+        },
+        {
+          "target": [
+            "#uij-e64"
+          ],
+          "selector": "#uij-e64",
+          "bbox": null,
+          "html": "<img alt=\"Search\" class=\"usa-search__submit-icon\" id=\"uij-e64\" src=\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9Ij"
+        },
+        {
+          "target": [
+            "#uij-e230"
+          ],
+          "selector": "#uij-e230",
+          "bbox": null,
+          "html": "<img alt=\"GSA logo\" class=\"usa-identifier__logo-img\" id=\"uij-e230\" role=\"img\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAABGdBTUEAALGPC/xhBQAAE/5JREFUeAHtXHl0VOd1/2lf0Ya"
+        }
+      ]
+    },
+    {
+      "rule_id": "page-has-heading-one",
+      "impact": "",
+      "tags": [],
+      "description": "Ensure that the page, or at least one of its frames contains a level-one heading",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/page-has-heading-one?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "html"
+          ],
+          "selector": "html",
+          "bbox": null,
+          "html": "<html class=\"js\" dir=\"ltr\" lang=\"en\" prefix=\"og: https://ogp.me/ns#\">"
+        }
+      ]
+    },
+    {
+      "rule_id": "presentation-role-conflict",
+      "impact": "",
+      "tags": [],
+      "description": "Elements marked as presentational should not have global ARIA or tabindex to ensure all screen readers ignore them",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/presentation-role-conflict?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e41"
+          ],
+          "selector": "#uij-e41",
+          "bbox": null,
+          "html": "<img alt=\"\" class=\"logo-black\" height=\"36\" id=\"uij-e41\" src=\"data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjIwIiBoZWlnaHQ9IjM2IiB2aWV3Qm94PSIwIDAgMjIwIDM2IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciI"
+        }
+      ]
+    },
+    {
+      "rule_id": "region",
+      "impact": "",
+      "tags": [],
+      "description": "Ensure all page content is contained by landmarks",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/region?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e0"
+          ],
+          "selector": "#uij-e0",
+          "bbox": null,
+          "html": "<a class=\"visually-hidden focusable\" href=\"#main-content\" id=\"uij-e0\">\n  Skip to main content\n</a>"
+        },
+        {
+          "target": [
+            "#uij-e1"
+          ],
+          "selector": "#uij-e1",
+          "bbox": null,
+          "html": "<div class=\"dialog-off-canvas-main-canvas\" data-off-canvas-main-canvas=\"\" id=\"uij-e1\">"
+        },
+        {
+          "target": [
+            "#uij-e2"
+          ],
+          "selector": "#uij-e2",
+          "bbox": null,
+          "html": "<div class=\"paper\" id=\"uij-e2\">"
+        },
+        {
+          "target": [
+            "#uij-e3"
+          ],
+          "selector": "#uij-e3",
+          "bbox": null,
+          "html": "<a class=\"usa-skipnav\" href=\"#main-content\" id=\"uij-e3\">Skip to main content</a>"
+        },
+        {
+          "target": [
+            "#uij-e4"
+          ],
+          "selector": "#uij-e4",
+          "bbox": null,
+          "html": "<div id=\"uij-e4\">"
+        },
+        {
+          "target": [
+            "#uij-e6"
+          ],
+          "selector": "#uij-e6",
+          "bbox": null,
+          "html": "<section aria-label=\"Official website of the United States government\" class=\"usa-banner gov-banner\" id=\"uij-e6\">"
+        },
+        {
+          "target": [
+            "#uij-e7"
+          ],
+          "selector": "#uij-e7",
+          "bbox": null,
+          "html": "<div class=\"usa-accordion\" id=\"uij-e7\">"
+        },
+        {
+          "target": [
+            "#uij-e8"
+          ],
+          "selector": "#uij-e8",
+          "bbox": null,
+          "html": "<header class=\"usa-banner__header\" id=\"uij-e8\">"
+        },
+        {
+          "target": [
+            "#uij-e9"
+          ],
+          "selector": "#uij-e9",
+          "bbox": null,
+          "html": "<div class=\"usa-banner__inner\" id=\"uij-e9\">"
+        },
+        {
+          "target": [
+            "#uij-e10"
+          ],
+          "selector": "#uij-e10",
+          "bbox": null,
+          "html": "<div class=\"grid-col-auto\" id=\"uij-e10\">"
+        },
+        {
+          "target": [
+            "#uij-e15"
+          ],
+          "selector": "#uij-e15",
+          "bbox": null,
+          "html": "<button aria-controls=\"gov-banner-default-default\" aria-expanded=\"false\" class=\"usa-accordion__button usa-banner__button\" id=\"uij-e15\" type=\"button\">\n<span class=\"usa-banner__button-text\" id=\"uij-e16\""
+        },
+        {
+          "target": [
+            "#uij-e16"
+          ],
+          "selector": "#uij-e16",
+          "bbox": null,
+          "html": "<span class=\"usa-banner__button-text\" id=\"uij-e16\">Here’s how you know</span>"
+        },
+        {
+          "target": [
+            "#uij-e37"
+          ],
+          "selector": "#uij-e37",
+          "bbox": null,
+          "html": "<header class=\"usa-header usa-header--extended\" id=\"uij-e37\" role=\"banner\">"
+        },
+        {
+          "target": [
+            "#uij-e38"
+          ],
+          "selector": "#uij-e38",
+          "bbox": null,
+          "html": "<div class=\"usa-navbar\" id=\"uij-e38\">"
+        },
+        {
+          "target": [
+            "#extended-logo"
+          ],
+          "selector": "#extended-logo",
+          "bbox": null,
+          "html": "<div class=\"usa-logo\" id=\"extended-logo\">"
+        },
+        {
+          "target": [
+            "#uij-e39"
+          ],
+          "selector": "#uij-e39",
+          "bbox": null,
+          "html": "<em class=\"usa-logo__text\" id=\"uij-e39\">"
+        },
+        {
+          "target": [
+            "#uij-e40"
+          ],
+          "selector": "#uij-e40",
+          "bbox": null,
+          "html": "<a aria-label=\"Digital.gov Home\" href=\"/\" id=\"uij-e40\" title=\"Digital.gov Home\">"
+        },
+        {
+          "target": [
+            "#uij-e41"
+          ],
+          "selector": "#uij-e41",
+          "bbox": null,
+          "html": "<img alt=\"\" class=\"logo-black\" height=\"36\" id=\"uij-e41\" src=\"data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjIwIiBoZWlnaHQ9IjM2IiB2aWV3Qm94PSIwIDAgMjIwIDM2IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciI"
+        },
+        {
+          "target": [
+            "#uij-e46"
+          ],
+          "selector": "#uij-e46",
+          "bbox": null,
+          "html": "<nav aria-label=\"Primary navigation\" class=\"usa-nav\" id=\"uij-e46\">"
+        },
+        {
+          "target": [
+            "#uij-e47"
+          ],
+          "selector": "#uij-e47",
+          "bbox": null,
+          "html": "<div class=\"usa-nav__inner\" id=\"uij-e47\">"
+        },
+        {
+          "target": [
+            "#uij-e50"
+          ],
+          "selector": "#uij-e50",
+          "bbox": null,
+          "html": "<ul class=\"usa-nav__primary usa-accordion\" id=\"uij-e50\">"
+        },
+        {
+          "target": [
+            "#uij-e51"
+          ],
+          "selector": "#uij-e51",
+          "bbox": null,
+          "html": "<li class=\"usa-nav__primary-item\" id=\"uij-e51\">\n<a class=\"usa-nav__link\" data-drupal-link-system-path=\"node/26\" href=\"/communities\" id=\"uij-e52\">Join communities</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e52"
+          ],
+          "selector": "#uij-e52",
+          "bbox": null,
+          "html": "<a class=\"usa-nav__link\" data-drupal-link-system-path=\"node/26\" href=\"/communities\" id=\"uij-e52\">Join communities</a>"
+        },
+        {
+          "target": [
+            "#uij-e53"
+          ],
+          "selector": "#uij-e53",
+          "bbox": null,
+          "html": "<li class=\"usa-nav__primary-item\" id=\"uij-e53\">\n<a aria-current=\"page\" class=\"usa-nav__link is-active\" data-drupal-link-system-path=\"node/1\" href=\"/resources\" id=\"uij-e54\">Browse resources</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e54"
+          ],
+          "selector": "#uij-e54",
+          "bbox": null,
+          "html": "<a aria-current=\"page\" class=\"usa-nav__link is-active\" data-drupal-link-system-path=\"node/1\" href=\"/resources\" id=\"uij-e54\">Browse resources</a>"
+        },
+        {
+          "target": [
+            "#uij-e55"
+          ],
+          "selector": "#uij-e55",
+          "bbox": null,
+          "html": "<li class=\"usa-nav__primary-item\" id=\"uij-e55\">\n<a class=\"usa-nav__link\" data-drupal-link-system-path=\"node/16\" href=\"/guides\" id=\"uij-e56\">Explore guides</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e56"
+          ],
+          "selector": "#uij-e56",
+          "bbox": null,
+          "html": "<a class=\"usa-nav__link\" data-drupal-link-system-path=\"node/16\" href=\"/guides\" id=\"uij-e56\">Explore guides</a>"
+        },
+        {
+          "target": [
+            "#uij-e57"
+          ],
+          "selector": "#uij-e57",
+          "bbox": null,
+          "html": "<li class=\"usa-nav__primary-item\" id=\"uij-e57\">\n<a class=\"usa-nav__link\" data-drupal-link-system-path=\"node/9\" href=\"/news\" id=\"uij-e58\">Read blogs</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e58"
+          ],
+          "selector": "#uij-e58",
+          "bbox": null,
+          "html": "<a class=\"usa-nav__link\" data-drupal-link-system-path=\"node/9\" href=\"/news\" id=\"uij-e58\">Read blogs</a>"
+        },
+        {
+          "target": [
+            "#uij-e59"
+          ],
+          "selector": "#uij-e59",
+          "bbox": null,
+          "html": "<div class=\"usa-nav__secondary\" id=\"uij-e59\">"
+        },
+        {
+          "target": [
+            "#search_form"
+          ],
+          "selector": "#search_form",
+          "bbox": null,
+          "html": "<form accept-charset=\"UTF-8\" action=\"https://search.usa.gov/search\" class=\"usa-search usa-search--small\" id=\"search_form\" method=\"get\">"
+        },
+        {
+          "target": [
+            "#uij-e61"
+          ],
+          "selector": "#uij-e61",
+          "bbox": null,
+          "html": "<div id=\"uij-e61\" role=\"search\">"
+        },
+        {
+          "target": [
+            "#uij-e62"
+          ],
+          "selector": "#uij-e62",
+          "bbox": null,
+          "html": "<label class=\"usa-sr-only\" for=\"query\" id=\"uij-e62\">Search small</label>"
+        },
+        {
+          "target": [
+            "#query"
+          ],
+          "selector": "#query",
+          "bbox": null,
+          "html": "<input class=\"usa-input\" id=\"query\" name=\"query\" type=\"search\">"
+        },
+        {
+          "target": [
+            "#uij-e63"
+          ],
+          "selector": "#uij-e63",
+          "bbox": null,
+          "html": "<button class=\"usa-button\" id=\"uij-e63\" name=\"commit\" type=\"submit\">"
+        },
+        {
+          "target": [
+            "#uij-e64"
+          ],
+          "selector": "#uij-e64",
+          "bbox": null,
+          "html": "<img alt=\"Search\" class=\"usa-search__submit-icon\" id=\"uij-e64\" src=\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9Ij"
+        },
+        {
+          "target": [
+            "#uij-e65"
+          ],
+          "selector": "#uij-e65",
+          "bbox": null,
+          "html": "<div id=\"uij-e65\">"
+        },
+        {
+          "target": [
+            "#block-digital-gov-content"
+          ],
+          "selector": "#block-digital-gov-content",
+          "bbox": null,
+          "html": "<div id=\"block-digital-gov-content\">"
+        },
+        {
+          "target": [
+            "#main-content"
+          ],
+          "selector": "#main-content",
+          "bbox": null,
+          "html": "<main id=\"main-content\" role=\"main\">"
+        },
+        {
+          "target": [
+            "#uij-e66"
+          ],
+          "selector": "#uij-e66",
+          "bbox": null,
+          "html": "<section class=\"grid-container-desktop\" id=\"uij-e66\">"
+        },
+        {
+          "target": [
+            "#uij-e67"
+          ],
+          "selector": "#uij-e67",
+          "bbox": null,
+          "html": "<header class=\"page-head padding-bottom-0\" id=\"uij-e67\">"
+        },
+        {
+          "target": [
+            "#uij-e68"
+          ],
+          "selector": "#uij-e68",
+          "bbox": null,
+          "html": "<h1 id=\"uij-e68\">Resources</h1>"
+        },
+        {
+          "target": [
+            "#uij-e69"
+          ],
+          "selector": "#uij-e69",
+          "bbox": null,
+          "html": "<p id=\"uij-e69\">"
+        },
+        {
+          "target": [
+            "#uij-e70"
+          ],
+          "selector": "#uij-e70",
+          "bbox": null,
+          "html": "<div class=\"dg-resource-topics margin-bottom-8\" id=\"uij-e70\">"
+        },
+        {
+          "target": [
+            "#uij-e71"
+          ],
+          "selector": "#uij-e71",
+          "bbox": null,
+          "html": "<h2 class=\"margin-top-0\" id=\"uij-e71\">Browse by topic</h2>"
+        },
+        {
+          "target": [
+            "#uij-e72"
+          ],
+          "selector": "#uij-e72",
+          "bbox": null,
+          "html": "<div class=\"dg-resource-topics-grid\" id=\"uij-e72\">"
+        },
+        {
+          "target": [
+            "#uij-e73"
+          ],
+          "selector": "#uij-e73",
+          "bbox": null,
+          "html": "<div class=\"dg-resource-topics-list\" id=\"uij-e73\">"
+        },
+        {
+          "target": [
+            "#uij-e74"
+          ],
+          "selector": "#uij-e74",
+          "bbox": null,
+          "html": "<h3 class=\"dg-resource-topics-list__header\" id=\"uij-e74\">\n    Design\n  </h3>"
+        },
+        {
+          "target": [
+            "#uij-e75"
+          ],
+          "selector": "#uij-e75",
+          "bbox": null,
+          "html": "<ul class=\"dg-resource-topics-list__list usa-list usa-list--unstyled\" id=\"uij-e75\">"
+        },
+        {
+          "target": [
+            "#uij-e76"
+          ],
+          "selector": "#uij-e76",
+          "bbox": null,
+          "html": "<li class=\"dg-resource-topics-list__list-item\" id=\"uij-e76\">\n<a class=\"dg-resource-topics-list__link\" href=\"/topics/accessibility\" id=\"uij-e77\">Accessibility</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e77"
+          ],
+          "selector": "#uij-e77",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/accessibility\" id=\"uij-e77\">Accessibility</a>"
+        },
+        {
+          "target": [
+            "#uij-e78"
+          ],
+          "selector": "#uij-e78",
+          "bbox": null,
+          "html": "<li class=\"dg-resource-topics-list__list-item\" id=\"uij-e78\">\n<a class=\"dg-resource-topics-list__link\" href=\"/topics/customer-experience\" id=\"uij-e79\">Customer experience</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e79"
+          ],
+          "selector": "#uij-e79",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/customer-experience\" id=\"uij-e79\">Customer experience</a>"
+        },
+        {
+          "target": [
+            "#uij-e80"
+          ],
+          "selector": "#uij-e80",
+          "bbox": null,
+          "html": "<li class=\"dg-resource-topics-list__list-item\" id=\"uij-e80\">\n<a class=\"dg-resource-topics-list__link\" href=\"/topics/design\" id=\"uij-e81\">Design</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e81"
+          ],
+          "selector": "#uij-e81",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/design\" id=\"uij-e81\">Design</a>"
+        },
+        {
+          "target": [
+            "#uij-e82"
+          ],
+          "selector": "#uij-e82",
+          "bbox": null,
+          "html": "<li class=\"dg-resource-topics-list__list-item\" id=\"uij-e82\">\n<a class=\"dg-resource-topics-list__link\" href=\"/topics/digital-service-delivery\" id=\"uij-e83\">Digital service delivery</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e83"
+          ],
+          "selector": "#uij-e83",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/digital-service-delivery\" id=\"uij-e83\">Digital service delivery</a>"
+        },
+        {
+          "target": [
+            "#uij-e84"
+          ],
+          "selector": "#uij-e84",
+          "bbox": null,
+          "html": "<li class=\"dg-resource-topics-list__list-item\" id=\"uij-e84\">\n<a class=\"dg-resource-topics-list__link\" href=\"/topics/human-centered-design\" id=\"uij-e85\">Human-centered design</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e85"
+          ],
+          "selector": "#uij-e85",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/human-centered-design\" id=\"uij-e85\">Human-centered design</a>"
+        },
+        {
+          "target": [
+            "#uij-e86"
+          ],
+          "selector": "#uij-e86",
+          "bbox": null,
+          "html": "<li class=\"dg-resource-topics-list__list-item\" id=\"uij-e86\">\n<a class=\"dg-resource-topics-list__link\" href=\"/topics/information-architecture\" id=\"uij-e87\">Information architecture</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e87"
+          ],
+          "selector": "#uij-e87",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/information-architecture\" id=\"uij-e87\">Information architecture</a>"
+        },
+        {
+          "target": [
+            "#uij-e88"
+          ],
+          "selector": "#uij-e88",
+          "bbox": null,
+          "html": "<li class=\"dg-resource-topics-list__list-item\" id=\"uij-e88\">\n<a class=\"dg-resource-topics-list__link\" href=\"/topics/usability\" id=\"uij-e89\">Usability</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e89"
+          ],
+          "selector": "#uij-e89",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/usability\" id=\"uij-e89\">Usability</a>"
+        },
+        {
+          "target": [
+            "#uij-e90"
+          ],
+          "selector": "#uij-e90",
+          "bbox": null,
+          "html": "<li class=\"dg-resource-topics-list__list-item\" id=\"uij-e90\">\n<a class=\"dg-resource-topics-list__link\" href=\"/topics/user-experience\" id=\"uij-e91\">User experience</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e91"
+          ],
+          "selector": "#uij-e91",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/user-experience\" id=\"uij-e91\">User experience</a>"
+        },
+        {
+          "target": [
+            "#uij-e92"
+          ],
+          "selector": "#uij-e92",
+          "bbox": null,
+          "html": "<div class=\"dg-resource-topics-list\" id=\"uij-e92\">"
+        },
+        {
+          "target": [
+            "#uij-e93"
+          ],
+          "selector": "#uij-e93",
+          "bbox": null,
+          "html": "<h3 class=\"dg-resource-topics-list__header\" id=\"uij-e93\">\n    Data &amp; analysis\n  </h3>"
+        },
+        {
+          "target": [
+            "#uij-e94"
+          ],
+          "selector": "#uij-e94",
+          "bbox": null,
+          "html": "<ul class=\"dg-resource-topics-list__list usa-list usa-list--unstyled\" id=\"uij-e94\">"
+        },
+        {
+          "target": [
+            "#uij-e95"
+          ],
+          "selector": "#uij-e95",
+          "bbox": null,
+          "html": "<li class=\"dg-resource-topics-list__list-item\" id=\"uij-e95\">\n<a class=\"dg-resource-topics-list__link\" href=\"/topics/analytics\" id=\"uij-e96\">Analytics</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e96"
+          ],
+          "selector": "#uij-e96",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/analytics\" id=\"uij-e96\">Analytics</a>"
+        },
+        {
+          "target": [
+            "#uij-e97"
+          ],
+          "selector": "#uij-e97",
+          "bbox": null,
+          "html": "<li class=\"dg-resource-topics-list__list-item\" id=\"uij-e97\">\n<a class=\"dg-resource-topics-list__link\" href=\"/topics/data-visualization\" id=\"uij-e98\">Data visualization</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e98"
+          ],
+          "selector": "#uij-e98",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/data-visualization\" id=\"uij-e98\">Data visualization</a>"
+        },
+        {
+          "target": [
+            "#uij-e99"
+          ],
+          "selector": "#uij-e99",
+          "bbox": null,
+          "html": "<li class=\"dg-resource-topics-list__list-item\" id=\"uij-e99\">\n<a class=\"dg-resource-topics-list__link\" href=\"/topics/information-collection\" id=\"uij-e100\">Information collection</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e100"
+          ],
+          "selector": "#uij-e100",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/information-collection\" id=\"uij-e100\">Information collection</a>"
+        },
+        {
+          "target": [
+            "#uij-e101"
+          ],
+          "selector": "#uij-e101",
+          "bbox": null,
+          "html": "<li class=\"dg-resource-topics-list__list-item\" id=\"uij-e101\">\n<a class=\"dg-resource-topics-list__link\" href=\"/topics/open-data\" id=\"uij-e102\">Open data</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e102"
+          ],
+          "selector": "#uij-e102",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/open-data\" id=\"uij-e102\">Open data</a>"
+        },
+        {
+          "target": [
+            "#uij-e103"
+          ],
+          "selector": "#uij-e103",
+          "bbox": null,
+          "html": "<li class=\"dg-resource-topics-list__list-item\" id=\"uij-e103\">\n<a class=\"dg-resource-topics-list__link\" href=\"/topics/open-government\" id=\"uij-e104\">Open government</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e104"
+          ],
+          "selector": "#uij-e104",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/open-government\" id=\"uij-e104\">Open government</a>"
+        },
+        {
+          "target": [
+            "#uij-e105"
+          ],
+          "selector": "#uij-e105",
+          "bbox": null,
+          "html": "<li class=\"dg-resource-topics-list__list-item\" id=\"uij-e105\">\n<a class=\"dg-resource-topics-list__link\" href=\"/topics/research\" id=\"uij-e106\">Research</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e106"
+          ],
+          "selector": "#uij-e106",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/research\" id=\"uij-e106\">Research</a>"
+        },
+        {
+          "target": [
+            "#uij-e107"
+          ],
+          "selector": "#uij-e107",
+          "bbox": null,
+          "html": "<li class=\"dg-resource-topics-list__list-item\" id=\"uij-e107\">\n<a class=\"dg-resource-topics-list__link\" href=\"/topics/search\" id=\"uij-e108\">Search</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e108"
+          ],
+          "selector": "#uij-e108",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/search\" id=\"uij-e108\">Search</a>"
+        },
+        {
+          "target": [
+            "#uij-e109"
+          ],
+          "selector": "#uij-e109",
+          "bbox": null,
+          "html": "<li class=\"dg-resource-topics-list__list-item\" id=\"uij-e109\">\n<a class=\"dg-resource-topics-list__link\" href=\"/topics/search-engine-optimization\" id=\"uij-e110\">Search engine optimization</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e110"
+          ],
+          "selector": "#uij-e110",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/search-engine-optimization\" id=\"uij-e110\">Search engine optimization</a>"
+        },
+        {
+          "target": [
+            "#uij-e111"
+          ],
+          "selector": "#uij-e111",
+          "bbox": null,
+          "html": "<div class=\"dg-resource-topics-list\" id=\"uij-e111\">"
+        },
+        {
+          "target": [
+            "#uij-e112"
+          ],
+          "selector": "#uij-e112",
+          "bbox": null,
+          "html": "<h3 class=\"dg-resource-topics-list__header\" id=\"uij-e112\">\n    Operations\n  </h3>"
+        },
+        {
+          "target": [
+            "#uij-e113"
+          ],
+          "selector": "#uij-e113",
+          "bbox": null,
+          "html": "<ul class=\"dg-resource-topics-list__list usa-list usa-list--unstyled\" id=\"uij-e113\">"
+        },
+        {
+          "target": [
+            "#uij-e114"
+          ],
+          "selector": "#uij-e114",
+          "bbox": null,
+          "html": "<li class=\"dg-resource-topics-list__list-item\" id=\"uij-e114\">\n<a class=\"dg-resource-topics-list__link\" href=\"/topics/acquisition\" id=\"uij-e115\">Acquisition</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e115"
+          ],
+          "selector": "#uij-e115",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/acquisition\" id=\"uij-e115\">Acquisition</a>"
+        },
+        {
+          "target": [
+            "#uij-e116"
+          ],
+          "selector": "#uij-e116",
+          "bbox": null,
+          "html": "<li class=\"dg-resource-topics-list__list-item\" id=\"uij-e116\">\n<a class=\"dg-resource-topics-list__link\" href=\"/topics/budgeting-and-performance\" id=\"uij-e117\">Budgeting and performance</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e117"
+          ],
+          "selector": "#uij-e117",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/budgeting-and-performance\" id=\"uij-e117\">Budgeting and performance</a>"
+        },
+        {
+          "target": [
+            "#uij-e118"
+          ],
+          "selector": "#uij-e118",
+          "bbox": null,
+          "html": "<li class=\"dg-resource-topics-list__list-item\" id=\"uij-e118\">\n<a class=\"dg-resource-topics-list__link\" href=\"/topics/contact-centers\" id=\"uij-e119\">Contact centers</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e119"
+          ],
+          "selector": "#uij-e119",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/contact-centers\" id=\"uij-e119\">Contact centers</a>"
+        },
+        {
+          "target": [
+            "#uij-e120"
+          ],
+          "selector": "#uij-e120",
+          "bbox": null,
+          "html": "<li class=\"dg-resource-topics-list__list-item\" id=\"uij-e120\">\n<a class=\"dg-resource-topics-list__link\" href=\"/topics/intellectual-property\" id=\"uij-e121\">Intellectual property</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e121"
+          ],
+          "selector": "#uij-e121",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/intellectual-property\" id=\"uij-e121\">Intellectual property</a>"
+        },
+        {
+          "target": [
+            "#uij-e122"
+          ],
+          "selector": "#uij-e122",
+          "bbox": null,
+          "html": "<li class=\"dg-resource-topics-list__list-item\" id=\"uij-e122\">\n<a class=\"dg-resource-topics-list__link\" href=\"/topics/privacy\" id=\"uij-e123\">Privacy</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e123"
+          ],
+          "selector": "#uij-e123",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/privacy\" id=\"uij-e123\">Privacy</a>"
+        },
+        {
+          "target": [
+            "#uij-e124"
+          ],
+          "selector": "#uij-e124",
+          "bbox": null,
+          "html": "<li class=\"dg-resource-topics-list__list-item\" id=\"uij-e124\">\n<a class=\"dg-resource-topics-list__link\" href=\"/topics/product-and-project-management\" id=\"uij-e125\">Product and project management</a>\n</"
+        },
+        {
+          "target": [
+            "#uij-e125"
+          ],
+          "selector": "#uij-e125",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/product-and-project-management\" id=\"uij-e125\">Product and project management</a>"
+        },
+        {
+          "target": [
+            "#uij-e126"
+          ],
+          "selector": "#uij-e126",
+          "bbox": null,
+          "html": "<li class=\"dg-resource-topics-list__list-item\" id=\"uij-e126\">\n<a class=\"dg-resource-topics-list__link\" href=\"/topics/records-management\" id=\"uij-e127\">Records management</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e127"
+          ],
+          "selector": "#uij-e127",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/records-management\" id=\"uij-e127\">Records management</a>"
+        },
+        {
+          "target": [
+            "#uij-e128"
+          ],
+          "selector": "#uij-e128",
+          "bbox": null,
+          "html": "<div class=\"dg-resource-topics-list\" id=\"uij-e128\">"
+        },
+        {
+          "target": [
+            "#uij-e129"
+          ],
+          "selector": "#uij-e129",
+          "bbox": null,
+          "html": "<h3 class=\"dg-resource-topics-list__header\" id=\"uij-e129\">\n    Content &amp; communication\n  </h3>"
+        },
+        {
+          "target": [
+            "#uij-e130"
+          ],
+          "selector": "#uij-e130",
+          "bbox": null,
+          "html": "<ul class=\"dg-resource-topics-list__list usa-list usa-list--unstyled\" id=\"uij-e130\">"
+        },
+        {
+          "target": [
+            "#uij-e131"
+          ],
+          "selector": "#uij-e131",
+          "bbox": null,
+          "html": "<li class=\"dg-resource-topics-list__list-item\" id=\"uij-e131\">\n<a class=\"dg-resource-topics-list__link\" href=\"/topics/communication\" id=\"uij-e132\">Communication</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e132"
+          ],
+          "selector": "#uij-e132",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/communication\" id=\"uij-e132\">Communication</a>"
+        },
+        {
+          "target": [
+            "#uij-e133"
+          ],
+          "selector": "#uij-e133",
+          "bbox": null,
+          "html": "<li class=\"dg-resource-topics-list__list-item\" id=\"uij-e133\">\n<a class=\"dg-resource-topics-list__link\" href=\"/topics/content-strategy\" id=\"uij-e134\">Content strategy</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e134"
+          ],
+          "selector": "#uij-e134",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/content-strategy\" id=\"uij-e134\">Content strategy</a>"
+        },
+        {
+          "target": [
+            "#uij-e135"
+          ],
+          "selector": "#uij-e135",
+          "bbox": null,
+          "html": "<li class=\"dg-resource-topics-list__list-item\" id=\"uij-e135\">\n<a class=\"dg-resource-topics-list__link\" href=\"/topics/multilingual\" id=\"uij-e136\">Multilingual</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e136"
+          ],
+          "selector": "#uij-e136",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/multilingual\" id=\"uij-e136\">Multilingual</a>"
+        },
+        {
+          "target": [
+            "#uij-e137"
+          ],
+          "selector": "#uij-e137",
+          "bbox": null,
+          "html": "<li class=\"dg-resource-topics-list__list-item\" id=\"uij-e137\">\n<a class=\"dg-resource-topics-list__link\" href=\"/topics/multimedia\" id=\"uij-e138\">Multimedia</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e138"
+          ],
+          "selector": "#uij-e138",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/multimedia\" id=\"uij-e138\">Multimedia</a>"
+        },
+        {
+          "target": [
+            "#uij-e139"
+          ],
+          "selector": "#uij-e139",
+          "bbox": null,
+          "html": "<li class=\"dg-resource-topics-list__list-item\" id=\"uij-e139\">\n<a class=\"dg-resource-topics-list__link\" href=\"/topics/plain-language\" id=\"uij-e140\">Plain language</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e140"
+          ],
+          "selector": "#uij-e140",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/plain-language\" id=\"uij-e140\">Plain language</a>"
+        },
+        {
+          "target": [
+            "#uij-e141"
+          ],
+          "selector": "#uij-e141",
+          "bbox": null,
+          "html": "<li class=\"dg-resource-topics-list__list-item\" id=\"uij-e141\">\n<a class=\"dg-resource-topics-list__link\" href=\"/topics/podcast\" id=\"uij-e142\">Podcast</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e142"
+          ],
+          "selector": "#uij-e142",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/podcast\" id=\"uij-e142\">Podcast</a>"
+        },
+        {
+          "target": [
+            "#uij-e143"
+          ],
+          "selector": "#uij-e143",
+          "bbox": null,
+          "html": "<li class=\"dg-resource-topics-list__list-item\" id=\"uij-e143\">\n<a class=\"dg-resource-topics-list__link\" href=\"/topics/social-media\" id=\"uij-e144\">Social media</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e144"
+          ],
+          "selector": "#uij-e144",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/social-media\" id=\"uij-e144\">Social media</a>"
+        },
+        {
+          "target": [
+            "#uij-e145"
+          ],
+          "selector": "#uij-e145",
+          "bbox": null,
+          "html": "<li class=\"dg-resource-topics-list__list-item\" id=\"uij-e145\">\n<a class=\"dg-resource-topics-list__link\" href=\"/topics/trust\" id=\"uij-e146\">Trust</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e146"
+          ],
+          "selector": "#uij-e146",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/trust\" id=\"uij-e146\">Trust</a>"
+        },
+        {
+          "target": [
+            "#uij-e147"
+          ],
+          "selector": "#uij-e147",
+          "bbox": null,
+          "html": "<div class=\"dg-resource-topics-list\" id=\"uij-e147\">"
+        },
+        {
+          "target": [
+            "#uij-e148"
+          ],
+          "selector": "#uij-e148",
+          "bbox": null,
+          "html": "<h3 class=\"dg-resource-topics-list__header\" id=\"uij-e148\">\n    Technology\n  </h3>"
+        },
+        {
+          "target": [
+            "#uij-e149"
+          ],
+          "selector": "#uij-e149",
+          "bbox": null,
+          "html": "<ul class=\"dg-resource-topics-list__list usa-list usa-list--unstyled\" id=\"uij-e149\">"
+        },
+        {
+          "target": [
+            "#uij-e150"
+          ],
+          "selector": "#uij-e150",
+          "bbox": null,
+          "html": "<li class=\"dg-resource-topics-list__list-item\" id=\"uij-e150\">\n<a class=\"dg-resource-topics-list__link\" href=\"/topics/application-programming-interface\" id=\"uij-e151\">Application programming interface<"
+        },
+        {
+          "target": [
+            "#uij-e151"
+          ],
+          "selector": "#uij-e151",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/application-programming-interface\" id=\"uij-e151\">Application programming interface</a>"
+        },
+        {
+          "target": [
+            "#uij-e152"
+          ],
+          "selector": "#uij-e152",
+          "bbox": null,
+          "html": "<li class=\"dg-resource-topics-list__list-item\" id=\"uij-e152\">\n<a class=\"dg-resource-topics-list__link\" href=\"/topics/artificial-intelligence\" id=\"uij-e153\">Artificial intelligence</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e153"
+          ],
+          "selector": "#uij-e153",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/artificial-intelligence\" id=\"uij-e153\">Artificial intelligence</a>"
+        },
+        {
+          "target": [
+            "#uij-e154"
+          ],
+          "selector": "#uij-e154",
+          "bbox": null,
+          "html": "<li class=\"dg-resource-topics-list__list-item\" id=\"uij-e154\">\n<a class=\"dg-resource-topics-list__link\" href=\"/topics/cloud-and-infrastructure\" id=\"uij-e155\">Cloud and infrastructure</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e155"
+          ],
+          "selector": "#uij-e155",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/cloud-and-infrastructure\" id=\"uij-e155\">Cloud and infrastructure</a>"
+        },
+        {
+          "target": [
+            "#uij-e156"
+          ],
+          "selector": "#uij-e156",
+          "bbox": null,
+          "html": "<li class=\"dg-resource-topics-list__list-item\" id=\"uij-e156\">\n<a class=\"dg-resource-topics-list__link\" href=\"/topics/domain-management\" id=\"uij-e157\">Domain management</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e157"
+          ],
+          "selector": "#uij-e157",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/domain-management\" id=\"uij-e157\">Domain management</a>"
+        },
+        {
+          "target": [
+            "#uij-e158"
+          ],
+          "selector": "#uij-e158",
+          "bbox": null,
+          "html": "<li class=\"dg-resource-topics-list__list-item\" id=\"uij-e158\">\n<a class=\"dg-resource-topics-list__link\" href=\"/topics/emerging-tech\" id=\"uij-e159\">Emerging tech</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e159"
+          ],
+          "selector": "#uij-e159",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/emerging-tech\" id=\"uij-e159\">Emerging tech</a>"
+        },
+        {
+          "target": [
+            "#uij-e160"
+          ],
+          "selector": "#uij-e160",
+          "bbox": null,
+          "html": "<li class=\"dg-resource-topics-list__list-item\" id=\"uij-e160\">\n<a class=\"dg-resource-topics-list__link\" href=\"/topics/mobile\" id=\"uij-e161\">Mobile</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e161"
+          ],
+          "selector": "#uij-e161",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/mobile\" id=\"uij-e161\">Mobile</a>"
+        },
+        {
+          "target": [
+            "#uij-e162"
+          ],
+          "selector": "#uij-e162",
+          "bbox": null,
+          "html": "<li class=\"dg-resource-topics-list__list-item\" id=\"uij-e162\">\n<a class=\"dg-resource-topics-list__link\" href=\"/topics/open-source\" id=\"uij-e163\">Open source</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e163"
+          ],
+          "selector": "#uij-e163",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/open-source\" id=\"uij-e163\">Open source</a>"
+        },
+        {
+          "target": [
+            "#uij-e164"
+          ],
+          "selector": "#uij-e164",
+          "bbox": null,
+          "html": "<li class=\"dg-resource-topics-list__list-item\" id=\"uij-e164\">\n<a class=\"dg-resource-topics-list__link\" href=\"/topics/robotic-process-automation\" id=\"uij-e165\">Robotic process automation</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e165"
+          ],
+          "selector": "#uij-e165",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/robotic-process-automation\" id=\"uij-e165\">Robotic process automation</a>"
+        },
+        {
+          "target": [
+            "#uij-e166"
+          ],
+          "selector": "#uij-e166",
+          "bbox": null,
+          "html": "<li class=\"dg-resource-topics-list__list-item\" id=\"uij-e166\">\n<a class=\"dg-resource-topics-list__link\" href=\"/topics/security\" id=\"uij-e167\">Security</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e167"
+          ],
+          "selector": "#uij-e167",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/security\" id=\"uij-e167\">Security</a>"
+        },
+        {
+          "target": [
+            "#uij-e168"
+          ],
+          "selector": "#uij-e168",
+          "bbox": null,
+          "html": "<li class=\"dg-resource-topics-list__list-item\" id=\"uij-e168\">\n<a class=\"dg-resource-topics-list__link\" href=\"/topics/software-engineering\" id=\"uij-e169\">Software engineering</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e169"
+          ],
+          "selector": "#uij-e169",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/software-engineering\" id=\"uij-e169\">Software engineering</a>"
+        },
+        {
+          "target": [
+            "#uij-e170"
+          ],
+          "selector": "#uij-e170",
+          "bbox": null,
+          "html": "<div class=\"dg-resource-topics-list\" id=\"uij-e170\">"
+        },
+        {
+          "target": [
+            "#uij-e171"
+          ],
+          "selector": "#uij-e171",
+          "bbox": null,
+          "html": "<h3 class=\"dg-resource-topics-list__header\" id=\"uij-e171\">\n    Strategic development\n  </h3>"
+        },
+        {
+          "target": [
+            "#uij-e172"
+          ],
+          "selector": "#uij-e172",
+          "bbox": null,
+          "html": "<ul class=\"dg-resource-topics-list__list usa-list usa-list--unstyled\" id=\"uij-e172\">"
+        },
+        {
+          "target": [
+            "#uij-e173"
+          ],
+          "selector": "#uij-e173",
+          "bbox": null,
+          "html": "<li class=\"dg-resource-topics-list__list-item\" id=\"uij-e173\">\n<a class=\"dg-resource-topics-list__link\" href=\"/topics/best-practices\" id=\"uij-e174\">Best practices</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e174"
+          ],
+          "selector": "#uij-e174",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/best-practices\" id=\"uij-e174\">Best practices</a>"
+        },
+        {
+          "target": [
+            "#uij-e175"
+          ],
+          "selector": "#uij-e175",
+          "bbox": null,
+          "html": "<li class=\"dg-resource-topics-list__list-item\" id=\"uij-e175\">\n<a class=\"dg-resource-topics-list__link\" href=\"/topics/governance\" id=\"uij-e176\">Governance</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e176"
+          ],
+          "selector": "#uij-e176",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/governance\" id=\"uij-e176\">Governance</a>"
+        },
+        {
+          "target": [
+            "#uij-e177"
+          ],
+          "selector": "#uij-e177",
+          "bbox": null,
+          "html": "<li class=\"dg-resource-topics-list__list-item\" id=\"uij-e177\">\n<a class=\"dg-resource-topics-list__link\" href=\"/topics/innovation\" id=\"uij-e178\">Innovation</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e178"
+          ],
+          "selector": "#uij-e178",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/innovation\" id=\"uij-e178\">Innovation</a>"
+        },
+        {
+          "target": [
+            "#uij-e179"
+          ],
+          "selector": "#uij-e179",
+          "bbox": null,
+          "html": "<li class=\"dg-resource-topics-list__list-item\" id=\"uij-e179\">\n<a class=\"dg-resource-topics-list__link\" href=\"/topics/professional-development\" id=\"uij-e180\">Professional development</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e180"
+          ],
+          "selector": "#uij-e180",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/professional-development\" id=\"uij-e180\">Professional development</a>"
+        },
+        {
+          "target": [
+            "#uij-e181"
+          ],
+          "selector": "#uij-e181",
+          "bbox": null,
+          "html": "<li class=\"dg-resource-topics-list__list-item\" id=\"uij-e181\">\n<a class=\"dg-resource-topics-list__link\" href=\"/topics/public-policy\" id=\"uij-e182\">Public policy</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e182"
+          ],
+          "selector": "#uij-e182",
+          "bbox": null,
+          "html": "<a class=\"dg-resource-topics-list__link\" href=\"/topics/public-policy\" id=\"uij-e182\">Public policy</a>"
+        },
+        {
+          "target": [
+            "#uij-e183"
+          ],
+          "selector": "#uij-e183",
+          "bbox": null,
+          "html": "<div id=\"uij-e183\">"
+        },
+        {
+          "target": [
+            "#uij-e184"
+          ],
+          "selector": "#uij-e184",
+          "bbox": null,
+          "html": "<footer class=\"usa-footer usa-footer--big\" id=\"uij-e184\" role=\"contentinfo\">"
+        },
+        {
+          "target": [
+            "#uij-e185"
+          ],
+          "selector": "#uij-e185",
+          "bbox": null,
+          "html": "<section class=\"return-to-top\" id=\"uij-e185\">"
+        },
+        {
+          "target": [
+            "#uij-e186"
+          ],
+          "selector": "#uij-e186",
+          "bbox": null,
+          "html": "<div class=\"grid-container grid-container-desktop usa-footer__return-to-top\" id=\"uij-e186\">"
+        },
+        {
+          "target": [
+            "#uij-e187"
+          ],
+          "selector": "#uij-e187",
+          "bbox": null,
+          "html": "<a href=\"#\" id=\"uij-e187\">"
+        },
+        {
+          "target": [
+            "#uij-e188"
+          ],
+          "selector": "#uij-e188",
+          "bbox": null,
+          "html": "<span id=\"uij-e188\">Return to top</span>"
+        },
+        {
+          "target": [
+            "#uij-e191"
+          ],
+          "selector": "#uij-e191",
+          "bbox": null,
+          "html": "<div class=\"usa-footer__primary-section\" id=\"uij-e191\">"
+        },
+        {
+          "target": [
+            "#uij-e192"
+          ],
+          "selector": "#uij-e192",
+          "bbox": null,
+          "html": "<div class=\"grid-container grid-container-desktop\" id=\"uij-e192\">"
+        },
+        {
+          "target": [
+            "#uij-e193"
+          ],
+          "selector": "#uij-e193",
+          "bbox": null,
+          "html": "<nav aria-label=\"Footer navigation\" class=\"usa-footer__nav\" id=\"uij-e193\">"
+        },
+        {
+          "target": [
+            "#uij-e194"
+          ],
+          "selector": "#uij-e194",
+          "bbox": null,
+          "html": "<div class=\"grid-row grid-gap-4\" id=\"uij-e194\">"
+        },
+        {
+          "target": [
+            "#uij-e195"
+          ],
+          "selector": "#uij-e195",
+          "bbox": null,
+          "html": "<div class=\"mobile-lg:grid-col-6 tablet-lg:grid-col-3\" id=\"uij-e195\">"
+        },
+        {
+          "target": [
+            "#uij-e196"
+          ],
+          "selector": "#uij-e196",
+          "bbox": null,
+          "html": "<section class=\"usa-footer__primary-content usa-footer__primary-content--collapsible\" id=\"uij-e196\">"
+        },
+        {
+          "target": [
+            "#uij-e197"
+          ],
+          "selector": "#uij-e197",
+          "bbox": null,
+          "html": "<h4 class=\"usa-footer__primary-link\" id=\"uij-e197\">Learn</h4>"
+        },
+        {
+          "target": [
+            "#uij-e198"
+          ],
+          "selector": "#uij-e198",
+          "bbox": null,
+          "html": "<ul class=\"usa-list usa-list--unstyled\" id=\"uij-e198\">"
+        },
+        {
+          "target": [
+            "#uij-e199"
+          ],
+          "selector": "#uij-e199",
+          "bbox": null,
+          "html": "<li class=\"usa-footer__secondary-link\" id=\"uij-e199\">\n<a data-drupal-link-system-path=\"node/26\" href=\"/communities\" id=\"uij-e200\">Join communities</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e200"
+          ],
+          "selector": "#uij-e200",
+          "bbox": null,
+          "html": "<a data-drupal-link-system-path=\"node/26\" href=\"/communities\" id=\"uij-e200\">Join communities</a>"
+        },
+        {
+          "target": [
+            "#uij-e201"
+          ],
+          "selector": "#uij-e201",
+          "bbox": null,
+          "html": "<li class=\"usa-footer__secondary-link\" id=\"uij-e201\">\n<a aria-current=\"page\" class=\"is-active\" data-drupal-link-system-path=\"node/1\" href=\"/resources\" id=\"uij-e202\">Browse resources</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e202"
+          ],
+          "selector": "#uij-e202",
+          "bbox": null,
+          "html": "<a aria-current=\"page\" class=\"is-active\" data-drupal-link-system-path=\"node/1\" href=\"/resources\" id=\"uij-e202\">Browse resources</a>"
+        },
+        {
+          "target": [
+            "#uij-e203"
+          ],
+          "selector": "#uij-e203",
+          "bbox": null,
+          "html": "<li class=\"usa-footer__secondary-link\" id=\"uij-e203\">\n<a data-drupal-link-system-path=\"node/16\" href=\"/guides\" id=\"uij-e204\">Explore guides</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e204"
+          ],
+          "selector": "#uij-e204",
+          "bbox": null,
+          "html": "<a data-drupal-link-system-path=\"node/16\" href=\"/guides\" id=\"uij-e204\">Explore guides</a>"
+        },
+        {
+          "target": [
+            "#uij-e205"
+          ],
+          "selector": "#uij-e205",
+          "bbox": null,
+          "html": "<li class=\"usa-footer__secondary-link\" id=\"uij-e205\">\n<a data-drupal-link-system-path=\"node/9\" href=\"/news\" id=\"uij-e206\">Read blogs</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e206"
+          ],
+          "selector": "#uij-e206",
+          "bbox": null,
+          "html": "<a data-drupal-link-system-path=\"node/9\" href=\"/news\" id=\"uij-e206\">Read blogs</a>"
+        },
+        {
+          "target": [
+            "#uij-e207"
+          ],
+          "selector": "#uij-e207",
+          "bbox": null,
+          "html": "<div class=\"mobile-lg:grid-col-6 tablet-lg:grid-col-3\" id=\"uij-e207\">"
+        },
+        {
+          "target": [
+            "#uij-e208"
+          ],
+          "selector": "#uij-e208",
+          "bbox": null,
+          "html": "<section class=\"usa-footer__primary-content usa-footer__primary-content--collapsible\" id=\"uij-e208\">"
+        },
+        {
+          "target": [
+            "#uij-e209"
+          ],
+          "selector": "#uij-e209",
+          "bbox": null,
+          "html": "<h4 class=\"usa-footer__primary-link\" id=\"uij-e209\">Grow</h4>"
+        },
+        {
+          "target": [
+            "#uij-e210"
+          ],
+          "selector": "#uij-e210",
+          "bbox": null,
+          "html": "<ul class=\"usa-list usa-list--unstyled\" id=\"uij-e210\">"
+        },
+        {
+          "target": [
+            "#uij-e211"
+          ],
+          "selector": "#uij-e211",
+          "bbox": null,
+          "html": "<li class=\"usa-footer__secondary-link\" id=\"uij-e211\">\n<a data-drupal-link-system-path=\"node/3821\" href=\"/about/contribute\" id=\"uij-e212\">Contribute to Digital.gov</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e212"
+          ],
+          "selector": "#uij-e212",
+          "bbox": null,
+          "html": "<a data-drupal-link-system-path=\"node/3821\" href=\"/about/contribute\" id=\"uij-e212\">Contribute to Digital.gov</a>"
+        },
+        {
+          "target": [
+            "#uij-e213"
+          ],
+          "selector": "#uij-e213",
+          "bbox": null,
+          "html": "<li class=\"usa-footer__secondary-link\" id=\"uij-e213\">\n<a href=\"https://github.com/GSA/digital-gov-drupal/issues\" id=\"uij-e214\">Submit a GitHub issue</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e214"
+          ],
+          "selector": "#uij-e214",
+          "bbox": null,
+          "html": "<a href=\"https://github.com/GSA/digital-gov-drupal/issues\" id=\"uij-e214\">Submit a GitHub issue</a>"
+        },
+        {
+          "target": [
+            "#uij-e215"
+          ],
+          "selector": "#uij-e215",
+          "bbox": null,
+          "html": "<div class=\"mobile-lg:grid-col-6 tablet-lg:grid-col-3\" id=\"uij-e215\">"
+        },
+        {
+          "target": [
+            "#uij-e216"
+          ],
+          "selector": "#uij-e216",
+          "bbox": null,
+          "html": "<section class=\"usa-footer__primary-content usa-footer__primary-content--collapsible\" id=\"uij-e216\">"
+        },
+        {
+          "target": [
+            "#uij-e217"
+          ],
+          "selector": "#uij-e217",
+          "bbox": null,
+          "html": "<h4 class=\"usa-footer__primary-link\" id=\"uij-e217\">Connect</h4>"
+        },
+        {
+          "target": [
+            "#uij-e218"
+          ],
+          "selector": "#uij-e218",
+          "bbox": null,
+          "html": "<ul class=\"usa-list usa-list--unstyled\" id=\"uij-e218\">"
+        },
+        {
+          "target": [
+            "#uij-e219"
+          ],
+          "selector": "#uij-e219",
+          "bbox": null,
+          "html": "<li class=\"usa-footer__secondary-link\" id=\"uij-e219\">\n<a data-drupal-link-system-path=\"node/3826\" href=\"/about\" id=\"uij-e220\">About us</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e220"
+          ],
+          "selector": "#uij-e220",
+          "bbox": null,
+          "html": "<a data-drupal-link-system-path=\"node/3826\" href=\"/about\" id=\"uij-e220\">About us</a>"
+        },
+        {
+          "target": [
+            "#uij-e221"
+          ],
+          "selector": "#uij-e221",
+          "bbox": null,
+          "html": "<li class=\"usa-footer__secondary-link\" id=\"uij-e221\">\n<a data-drupal-link-system-path=\"node/3820\" href=\"/about/contact\" id=\"uij-e222\">Contact us</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e222"
+          ],
+          "selector": "#uij-e222",
+          "bbox": null,
+          "html": "<a data-drupal-link-system-path=\"node/3820\" href=\"/about/contact\" id=\"uij-e222\">Contact us</a>"
+        },
+        {
+          "target": [
+            "#uij-e223"
+          ],
+          "selector": "#uij-e223",
+          "bbox": null,
+          "html": "<li class=\"usa-footer__secondary-link\" id=\"uij-e223\">\n<a data-drupal-link-system-path=\"node/3824\" href=\"/policies\" id=\"uij-e224\">Site policies</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e224"
+          ],
+          "selector": "#uij-e224",
+          "bbox": null,
+          "html": "<a data-drupal-link-system-path=\"node/3824\" href=\"/policies\" id=\"uij-e224\">Site policies</a>"
+        },
+        {
+          "target": [
+            "#block-digital-gov-config-pages"
+          ],
+          "selector": "#block-digital-gov-config-pages",
+          "bbox": null,
+          "html": "<div id=\"block-digital-gov-config-pages\">"
+        },
+        {
+          "target": [
+            "#uij-e225"
+          ],
+          "selector": "#uij-e225",
+          "bbox": null,
+          "html": "<div class=\"usa-identifier\" id=\"uij-e225\">"
+        },
+        {
+          "target": [
+            "#uij-e226"
+          ],
+          "selector": "#uij-e226",
+          "bbox": null,
+          "html": "<section aria-label=\"Agency identifier,\" class=\"usa-identifier__section usa-identifier__section--masthead\" id=\"uij-e226\">"
+        },
+        {
+          "target": [
+            "#uij-e227"
+          ],
+          "selector": "#uij-e227",
+          "bbox": null,
+          "html": "<div class=\"usa-identifier__container\" id=\"uij-e227\">"
+        },
+        {
+          "target": [
+            "#uij-e228"
+          ],
+          "selector": "#uij-e228",
+          "bbox": null,
+          "html": "<div class=\"usa-identifier__logos\" id=\"uij-e228\">"
+        },
+        {
+          "target": [
+            "#uij-e229"
+          ],
+          "selector": "#uij-e229",
+          "bbox": null,
+          "html": "<a class=\"usa-identifier__logo\" href=\"https://www.gsa.gov\" id=\"uij-e229\">"
+        },
+        {
+          "target": [
+            "#uij-e230"
+          ],
+          "selector": "#uij-e230",
+          "bbox": null,
+          "html": "<img alt=\"GSA logo\" class=\"usa-identifier__logo-img\" id=\"uij-e230\" role=\"img\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAABGdBTUEAALGPC/xhBQAAE/5JREFUeAHtXHl0VOd1/2lf0Ya"
+        },
+        {
+          "target": [
+            "#uij-e231"
+          ],
+          "selector": "#uij-e231",
+          "bbox": null,
+          "html": "<section aria-label=\"Agency description,\" class=\"usa-identifier__identity\" id=\"uij-e231\">"
+        },
+        {
+          "target": [
+            "#uij-e232"
+          ],
+          "selector": "#uij-e232",
+          "bbox": null,
+          "html": "<p class=\"usa-identifier__identity-domain\" id=\"uij-e232\">Digital.gov</p>"
+        },
+        {
+          "target": [
+            "#uij-e233"
+          ],
+          "selector": "#uij-e233",
+          "bbox": null,
+          "html": "<p class=\"usa-identifier__identity-disclaimer\" id=\"uij-e233\">\n              An official website of the\n              <a href=\"https://www.gsa.gov\" id=\"uij-e234\">U.S. General Services Administration</a"
+        },
+        {
+          "target": [
+            "#uij-e234"
+          ],
+          "selector": "#uij-e234",
+          "bbox": null,
+          "html": "<a href=\"https://www.gsa.gov\" id=\"uij-e234\">U.S. General Services Administration</a>"
+        },
+        {
+          "target": [
+            "#uij-e235"
+          ],
+          "selector": "#uij-e235",
+          "bbox": null,
+          "html": "<nav aria-label=\"Important links,\" class=\"usa-identifier__section usa-identifier__section--required-links\" id=\"uij-e235\">"
+        },
+        {
+          "target": [
+            "#uij-e236"
+          ],
+          "selector": "#uij-e236",
+          "bbox": null,
+          "html": "<div class=\"usa-identifier__container\" id=\"uij-e236\">"
+        },
+        {
+          "target": [
+            "#uij-e237"
+          ],
+          "selector": "#uij-e237",
+          "bbox": null,
+          "html": "<ul class=\"usa-identifier__required-links-list\" id=\"uij-e237\">"
+        },
+        {
+          "target": [
+            "#uij-e238"
+          ],
+          "selector": "#uij-e238",
+          "bbox": null,
+          "html": "<li class=\"usa-identifier__required-links-item\" id=\"uij-e238\">\n<a class=\"usa-identifier__required-link usa-link\" href=\"http://www.gsa.gov/about\" id=\"uij-e239\">\n            About GSA\n          </a>\n</l"
+        },
+        {
+          "target": [
+            "#uij-e239"
+          ],
+          "selector": "#uij-e239",
+          "bbox": null,
+          "html": "<a class=\"usa-identifier__required-link usa-link\" href=\"http://www.gsa.gov/about\" id=\"uij-e239\">\n            About GSA\n          </a>"
+        },
+        {
+          "target": [
+            "#uij-e240"
+          ],
+          "selector": "#uij-e240",
+          "bbox": null,
+          "html": "<li class=\"usa-identifier__required-links-item\" id=\"uij-e240\">\n<a class=\"usa-identifier__required-link usa-link\" href=\"https://www.gsa.gov/website-information/accessibility-statement\" id=\"uij-e241\">\n "
+        },
+        {
+          "target": [
+            "#uij-e241"
+          ],
+          "selector": "#uij-e241",
+          "bbox": null,
+          "html": "<a class=\"usa-identifier__required-link usa-link\" href=\"https://www.gsa.gov/website-information/accessibility-statement\" id=\"uij-e241\">\n            Accessibility statement\n          </a>"
+        },
+        {
+          "target": [
+            "#uij-e242"
+          ],
+          "selector": "#uij-e242",
+          "bbox": null,
+          "html": "<li class=\"usa-identifier__required-links-item\" id=\"uij-e242\">\n<a class=\"usa-identifier__required-link usa-link\" href=\"https://www.gsa.gov/reference/freedom-of-information-act-foia\" id=\"uij-e243\">\n   "
+        },
+        {
+          "target": [
+            "#uij-e243"
+          ],
+          "selector": "#uij-e243",
+          "bbox": null,
+          "html": "<a class=\"usa-identifier__required-link usa-link\" href=\"https://www.gsa.gov/reference/freedom-of-information-act-foia\" id=\"uij-e243\">\n            FOIA requests \n          </a>"
+        },
+        {
+          "target": [
+            "#uij-e244"
+          ],
+          "selector": "#uij-e244",
+          "bbox": null,
+          "html": "<li class=\"usa-identifier__required-links-item\" id=\"uij-e244\">\n<a class=\"usa-identifier__required-link usa-link\" href=\"https://www.gsa.gov/reference/civil-rights-programs/the-no-fear-act\" id=\"uij-e245"
+        },
+        {
+          "target": [
+            "#uij-e245"
+          ],
+          "selector": "#uij-e245",
+          "bbox": null,
+          "html": "<a class=\"usa-identifier__required-link usa-link\" href=\"https://www.gsa.gov/reference/civil-rights-programs/the-no-fear-act\" id=\"uij-e245\">\n            No FEAR Act data \n          </a>"
+        },
+        {
+          "target": [
+            "#uij-e246"
+          ],
+          "selector": "#uij-e246",
+          "bbox": null,
+          "html": "<li class=\"usa-identifier__required-links-item\" id=\"uij-e246\">\n<a class=\"usa-identifier__required-link usa-link\" href=\"https://www.gsaig.gov/\" id=\"uij-e247\">\n            Office of the Inspector Genera"
+        },
+        {
+          "target": [
+            "#uij-e247"
+          ],
+          "selector": "#uij-e247",
+          "bbox": null,
+          "html": "<a class=\"usa-identifier__required-link usa-link\" href=\"https://www.gsaig.gov/\" id=\"uij-e247\">\n            Office of the Inspector General\n          </a>"
+        },
+        {
+          "target": [
+            "#uij-e248"
+          ],
+          "selector": "#uij-e248",
+          "bbox": null,
+          "html": "<li class=\"usa-identifier__required-links-item\" id=\"uij-e248\">\n<a class=\"usa-identifier__required-link usa-link\" href=\"https://www.gsa.gov/reference/reports/budget-performance\" id=\"uij-e249\">\n        "
+        },
+        {
+          "target": [
+            "#uij-e249"
+          ],
+          "selector": "#uij-e249",
+          "bbox": null,
+          "html": "<a class=\"usa-identifier__required-link usa-link\" href=\"https://www.gsa.gov/reference/reports/budget-performance\" id=\"uij-e249\">\n            Performance reports\n          </a>"
+        },
+        {
+          "target": [
+            "#uij-e250"
+          ],
+          "selector": "#uij-e250",
+          "bbox": null,
+          "html": "<li class=\"usa-identifier__required-links-item\" id=\"uij-e250\">\n<a class=\"usa-identifier__required-link usa-link\" href=\"https://www.gsa.gov/website-information/website-policies\" id=\"uij-e251\">\n        "
+        },
+        {
+          "target": [
+            "#uij-e251"
+          ],
+          "selector": "#uij-e251",
+          "bbox": null,
+          "html": "<a class=\"usa-identifier__required-link usa-link\" href=\"https://www.gsa.gov/website-information/website-policies\" id=\"uij-e251\">\n            Privacy policy\n          </a>"
+        },
+        {
+          "target": [
+            "#uij-e252"
+          ],
+          "selector": "#uij-e252",
+          "bbox": null,
+          "html": "<section aria-label=\"U.S. government information and services\" class=\"usa-identifier__section usa-identifier__section--usagov\" id=\"uij-e252\">"
+        },
+        {
+          "target": [
+            "#uij-e253"
+          ],
+          "selector": "#uij-e253",
+          "bbox": null,
+          "html": "<div class=\"usa-identifier__container\" id=\"uij-e253\">\n<div class=\"usa-identifier__usagov-description\" id=\"uij-e254\">\n            Looking for U.S. government information and services?\n          </div>\n"
+        },
+        {
+          "target": [
+            "#uij-e254"
+          ],
+          "selector": "#uij-e254",
+          "bbox": null,
+          "html": "<div class=\"usa-identifier__usagov-description\" id=\"uij-e254\">\n            Looking for U.S. government information and services?\n          </div>"
+        },
+        {
+          "target": [
+            "#uij-e255"
+          ],
+          "selector": "#uij-e255",
+          "bbox": null,
+          "html": "<a class=\"usa-link\" href=\"https://www.usa.gov/\" id=\"uij-e255\">Visit USA.gov</a>"
+        },
+        {
+          "target": [
+            "#drupal-live-announce"
+          ],
+          "selector": "#drupal-live-announce",
+          "bbox": null,
+          "html": "<div aria-busy=\"false\" aria-live=\"polite\" class=\"visually-hidden\" id=\"drupal-live-announce\"></div>"
+        }
+      ]
+    },
+    {
+      "rule_id": "skip-link",
+      "impact": "",
+      "tags": [],
+      "description": "Ensure all skip links have a focusable target",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/skip-link?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e3"
+          ],
+          "selector": "#uij-e3",
+          "bbox": null,
+          "html": "<a class=\"usa-skipnav\" href=\"#main-content\" id=\"uij-e3\">Skip to main content</a>"
+        }
+      ]
+    }
+  ]
+}

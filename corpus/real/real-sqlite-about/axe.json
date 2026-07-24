@@ -1,0 +1,2645 @@
+{
+  "engine": "axe-core",
+  "engine_version": "4.10.3",
+  "violations": [
+    {
+      "rule_id": "heading-order",
+      "impact": "moderate",
+      "tags": [],
+      "description": "Ensure the order of headings is semantically correct",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/heading-order?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e42"
+          ],
+          "selector": "#uij-e42",
+          "bbox": [
+            1523,
+            253,
+            369,
+            19
+          ],
+          "html": "<h4 align=\"center\" id=\"uij-e42\">Executive Summary</h4>"
+        }
+      ]
+    },
+    {
+      "rule_id": "html-has-lang",
+      "impact": "serious",
+      "tags": [
+        "wcag2a",
+        "wcag311"
+      ],
+      "description": "Ensure every HTML document has a lang attribute",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/html-has-lang?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "html"
+          ],
+          "selector": "html",
+          "bbox": [
+            0,
+            0,
+            1920,
+            786
+          ],
+          "html": "<html>"
+        }
+      ]
+    },
+    {
+      "rule_id": "landmark-one-main",
+      "impact": "moderate",
+      "tags": [],
+      "description": "Ensure the document has a main landmark",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/landmark-one-main?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "html"
+          ],
+          "selector": "html",
+          "bbox": [
+            0,
+            0,
+            1920,
+            786
+          ],
+          "html": "<html>"
+        }
+      ]
+    },
+    {
+      "rule_id": "region",
+      "impact": "moderate",
+      "tags": [],
+      "description": "Ensure all page content is contained by landmarks",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/region?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e1"
+          ],
+          "selector": "#uij-e1",
+          "bbox": [
+            210,
+            0,
+            0,
+            0
+          ],
+          "html": "<a href=\"index.html\" id=\"uij-e1\">"
+        },
+        {
+          "target": [
+            "#uij-e4"
+          ],
+          "selector": "#uij-e4",
+          "bbox": [
+            1600,
+            58,
+            300,
+            38
+          ],
+          "html": "<div class=\"tagline desktoponly\" id=\"uij-e4\">\nSmall. Fast. Reliable.<br id=\"uij-e5\">Choose any three.\n</div>"
+        },
+        {
+          "target": [
+            "#uij-e8"
+          ],
+          "selector": "#uij-e8",
+          "bbox": [
+            8,
+            108,
+            71,
+            31
+          ],
+          "html": "<li id=\"uij-e8\"><a href=\"index.html\" id=\"uij-e9\">Home</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e12"
+          ],
+          "selector": "#uij-e12",
+          "bbox": [
+            79,
+            108,
+            71,
+            31
+          ],
+          "html": "<li class=\"wideonly\" id=\"uij-e12\"><a href=\"about.html\" id=\"uij-e13\">About</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e14"
+          ],
+          "selector": "#uij-e14",
+          "bbox": [
+            151,
+            108,
+            147,
+            31
+          ],
+          "html": "<li class=\"desktoponly\" id=\"uij-e14\"><a href=\"docs.html\" id=\"uij-e15\">Documentation</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e16"
+          ],
+          "selector": "#uij-e16",
+          "bbox": [
+            297,
+            108,
+            103,
+            31
+          ],
+          "html": "<li class=\"desktoponly\" id=\"uij-e16\"><a href=\"download.html\" id=\"uij-e17\">Download</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e18"
+          ],
+          "selector": "#uij-e18",
+          "bbox": [
+            401,
+            108,
+            84,
+            31
+          ],
+          "html": "<li class=\"wideonly\" id=\"uij-e18\"><a href=\"copyright.html\" id=\"uij-e19\">License</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e20"
+          ],
+          "selector": "#uij-e20",
+          "bbox": [
+            484,
+            108,
+            88,
+            31
+          ],
+          "html": "<li class=\"desktoponly\" id=\"uij-e20\"><a href=\"support.html\" id=\"uij-e21\">Support</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e22"
+          ],
+          "selector": "#uij-e22",
+          "bbox": [
+            572,
+            108,
+            97,
+            31
+          ],
+          "html": "<li class=\"desktoponly\" id=\"uij-e22\"><a href=\"prosupport.html\" id=\"uij-e23\">Purchase</a>\n</li>"
+        },
+        {
+          "target": [
+            "#search_menubutton"
+          ],
+          "selector": "#search_menubutton",
+          "bbox": [
+            1832,
+            108,
+            80,
+            31
+          ],
+          "html": "<li class=\"search\" id=\"search_menubutton\">\n<a href=\"javascript:void(0)\" id=\"uij-e24\" onclick=\"toggle_search()\">Search</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e40"
+          ],
+          "selector": "#uij-e40",
+          "bbox": [
+            8,
+            161,
+            1904,
+            39
+          ],
+          "html": "<h1 align=\"center\" id=\"uij-e40\">About SQLite</h1>"
+        },
+        {
+          "target": [
+            "#uij-e41"
+          ],
+          "selector": "#uij-e41",
+          "bbox": [
+            1521,
+            230,
+            382,
+            370
+          ],
+          "html": "<div class=\"rightsidebar border2px\" id=\"uij-e41\">"
+        },
+        {
+          "target": [
+            "#uij-e76"
+          ],
+          "selector": "#uij-e76",
+          "bbox": [
+            8,
+            221,
+            1904,
+            57
+          ],
+          "html": "<p id=\"uij-e76\">"
+        },
+        {
+          "target": [
+            "#uij-e84"
+          ],
+          "selector": "#uij-e84",
+          "bbox": [
+            8,
+            294,
+            1904,
+            76
+          ],
+          "html": "<p id=\"uij-e84\">"
+        },
+        {
+          "target": [
+            "#uij-e92"
+          ],
+          "selector": "#uij-e92",
+          "bbox": [
+            8,
+            386,
+            1904,
+            76
+          ],
+          "html": "<p id=\"uij-e92\">"
+        },
+        {
+          "target": [
+            "#uij-e95"
+          ],
+          "selector": "#uij-e95",
+          "bbox": [
+            8,
+            478,
+            1904,
+            95
+          ],
+          "html": "<p id=\"uij-e95\">"
+        },
+        {
+          "target": [
+            "#uij-e101"
+          ],
+          "selector": "#uij-e101",
+          "bbox": [
+            8,
+            589,
+            1904,
+            57
+          ],
+          "html": "<p id=\"uij-e101\">"
+        },
+        {
+          "target": [
+            "#uij-e107"
+          ],
+          "selector": "#uij-e107",
+          "bbox": [
+            8,
+            662,
+            1904,
+            19
+          ],
+          "html": "<p id=\"uij-e107\">"
+        },
+        {
+          "target": [
+            "#uij-e109"
+          ],
+          "selector": "#uij-e109",
+          "bbox": [
+            8,
+            697,
+            1904,
+            38
+          ],
+          "html": "<p id=\"uij-e109\">"
+        },
+        {
+          "target": [
+            "#uij-e110"
+          ],
+          "selector": "#uij-e110",
+          "bbox": [
+            8,
+            751,
+            1904,
+            19
+          ],
+          "html": "<p align=\"center\" id=\"uij-e110\"><small id=\"uij-e111\"><i id=\"uij-e112\">This page was last updated on 2025-11-13 07:12:58Z </i></small></p>"
+        }
+      ]
+    }
+  ],
+  "incomplete": [],
+  "passes": [
+    {
+      "rule_id": "aria-hidden-body",
+      "impact": "",
+      "tags": [
+        "wcag2a",
+        "wcag131",
+        "wcag412"
+      ],
+      "description": "Ensure aria-hidden=\"true\" is not present on the document body.",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/aria-hidden-body?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "body"
+          ],
+          "selector": "body",
+          "bbox": null,
+          "html": "<body>"
+        }
+      ]
+    },
+    {
+      "rule_id": "bypass",
+      "impact": "",
+      "tags": [
+        "wcag2a",
+        "wcag241",
+        "section508",
+        "section508.22.o"
+      ],
+      "description": "Ensure each page has at least one mechanism for a user to bypass navigation and jump straight to the content",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/bypass?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "html"
+          ],
+          "selector": "html",
+          "bbox": null,
+          "html": "<html>"
+        }
+      ]
+    },
+    {
+      "rule_id": "color-contrast",
+      "impact": "",
+      "tags": [
+        "wcag2aa",
+        "wcag143"
+      ],
+      "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e4"
+          ],
+          "selector": "#uij-e4",
+          "bbox": null,
+          "html": "<div class=\"tagline desktoponly\" id=\"uij-e4\">\nSmall. Fast. Reliable.<br id=\"uij-e5\">Choose any three.\n</div>"
+        },
+        {
+          "target": [
+            "#uij-e9"
+          ],
+          "selector": "#uij-e9",
+          "bbox": null,
+          "html": "<a href=\"index.html\" id=\"uij-e9\">Home</a>"
+        },
+        {
+          "target": [
+            "#uij-e13"
+          ],
+          "selector": "#uij-e13",
+          "bbox": null,
+          "html": "<a href=\"about.html\" id=\"uij-e13\">About</a>"
+        },
+        {
+          "target": [
+            "#uij-e15"
+          ],
+          "selector": "#uij-e15",
+          "bbox": null,
+          "html": "<a href=\"docs.html\" id=\"uij-e15\">Documentation</a>"
+        },
+        {
+          "target": [
+            "#uij-e17"
+          ],
+          "selector": "#uij-e17",
+          "bbox": null,
+          "html": "<a href=\"download.html\" id=\"uij-e17\">Download</a>"
+        },
+        {
+          "target": [
+            "#uij-e19"
+          ],
+          "selector": "#uij-e19",
+          "bbox": null,
+          "html": "<a href=\"copyright.html\" id=\"uij-e19\">License</a>"
+        },
+        {
+          "target": [
+            "#uij-e21"
+          ],
+          "selector": "#uij-e21",
+          "bbox": null,
+          "html": "<a href=\"support.html\" id=\"uij-e21\">Support</a>"
+        },
+        {
+          "target": [
+            "#uij-e23"
+          ],
+          "selector": "#uij-e23",
+          "bbox": null,
+          "html": "<a href=\"prosupport.html\" id=\"uij-e23\">Purchase</a>"
+        },
+        {
+          "target": [
+            "#uij-e24"
+          ],
+          "selector": "#uij-e24",
+          "bbox": null,
+          "html": "<a href=\"javascript:void(0)\" id=\"uij-e24\" onclick=\"toggle_search()\">Search</a>"
+        },
+        {
+          "target": [
+            "#searchtype"
+          ],
+          "selector": "#searchtype",
+          "bbox": null,
+          "html": "<select id=\"searchtype\" name=\"s\">\n<option id=\"uij-e37\" value=\"d\">Search Documentation</option>\n<option id=\"uij-e38\" value=\"c\">Search Changelog</option>\n</select>"
+        },
+        {
+          "target": [
+            "#searchbox"
+          ],
+          "selector": "#searchbox",
+          "bbox": null,
+          "html": "<input id=\"searchbox\" name=\"q\" type=\"text\" value=\"\">"
+        },
+        {
+          "target": [
+            "#uij-e39"
+          ],
+          "selector": "#uij-e39",
+          "bbox": null,
+          "html": "<input id=\"uij-e39\" type=\"submit\" value=\"Go\">"
+        },
+        {
+          "target": [
+            "#uij-e40"
+          ],
+          "selector": "#uij-e40",
+          "bbox": null,
+          "html": "<h1 align=\"center\" id=\"uij-e40\">About SQLite</h1>"
+        },
+        {
+          "target": [
+            "#uij-e42"
+          ],
+          "selector": "#uij-e42",
+          "bbox": null,
+          "html": "<h4 align=\"center\" id=\"uij-e42\">Executive Summary</h4>"
+        },
+        {
+          "target": [
+            "#uij-e45"
+          ],
+          "selector": "#uij-e45",
+          "bbox": null,
+          "html": "<a href=\"fullsql.html\" id=\"uij-e45\">Full-featured SQL</a>"
+        },
+        {
+          "target": [
+            "#uij-e47"
+          ],
+          "selector": "#uij-e47",
+          "bbox": null,
+          "html": "<a href=\"mostdeployed.html\" id=\"uij-e47\">Billions and billions of deployments</a>"
+        },
+        {
+          "target": [
+            "#uij-e49"
+          ],
+          "selector": "#uij-e49",
+          "bbox": null,
+          "html": "<a href=\"onefile.html\" id=\"uij-e49\">Single-file database</a>"
+        },
+        {
+          "target": [
+            "#uij-e51"
+          ],
+          "selector": "#uij-e51",
+          "bbox": null,
+          "html": "<a href=\"copyright.html\" id=\"uij-e51\">Public domain source code</a>"
+        },
+        {
+          "target": [
+            "#uij-e52"
+          ],
+          "selector": "#uij-e52",
+          "bbox": null,
+          "html": "<li id=\"uij-e52\"> All source code in one file (<a href=\"amalgamation.html\" id=\"uij-e53\">sqlite3.c</a>)\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e53"
+          ],
+          "selector": "#uij-e53",
+          "bbox": null,
+          "html": "<a href=\"amalgamation.html\" id=\"uij-e53\">sqlite3.c</a>"
+        },
+        {
+          "target": [
+            "#uij-e55"
+          ],
+          "selector": "#uij-e55",
+          "bbox": null,
+          "html": "<a href=\"footprint.html\" id=\"uij-e55\">Small footprint</a>"
+        },
+        {
+          "target": [
+            "#uij-e56"
+          ],
+          "selector": "#uij-e56",
+          "bbox": null,
+          "html": "<li id=\"uij-e56\"> Max DB size: <a href=\"limits.html\" id=\"uij-e57\">281 terabytes</a>\n     (2<sup id=\"uij-e58\"><small id=\"uij-e59\">48</small></sup> bytes)\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e57"
+          ],
+          "selector": "#uij-e57",
+          "bbox": null,
+          "html": "<a href=\"limits.html\" id=\"uij-e57\">281 terabytes</a>"
+        },
+        {
+          "target": [
+            "#uij-e59"
+          ],
+          "selector": "#uij-e59",
+          "bbox": null,
+          "html": "<small id=\"uij-e59\">48</small>"
+        },
+        {
+          "target": [
+            "#uij-e60"
+          ],
+          "selector": "#uij-e60",
+          "bbox": null,
+          "html": "<li id=\"uij-e60\"> Max row size: <a href=\"limits.html\" id=\"uij-e61\">1 gigabyte</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e61"
+          ],
+          "selector": "#uij-e61",
+          "bbox": null,
+          "html": "<a href=\"limits.html\" id=\"uij-e61\">1 gigabyte</a>"
+        },
+        {
+          "target": [
+            "#uij-e63"
+          ],
+          "selector": "#uij-e63",
+          "bbox": null,
+          "html": "<a href=\"fasterthanfs.html\" id=\"uij-e63\">Faster than direct file I/O</a>"
+        },
+        {
+          "target": [
+            "#uij-e65"
+          ],
+          "selector": "#uij-e65",
+          "bbox": null,
+          "html": "<a href=\"testing.html\" id=\"uij-e65\">Aviation-grade quality and testing</a>"
+        },
+        {
+          "target": [
+            "#uij-e67"
+          ],
+          "selector": "#uij-e67",
+          "bbox": null,
+          "html": "<a href=\"zeroconf.html\" id=\"uij-e67\">Zero-configuration</a>"
+        },
+        {
+          "target": [
+            "#uij-e69"
+          ],
+          "selector": "#uij-e69",
+          "bbox": null,
+          "html": "<a href=\"transactional.html\" id=\"uij-e69\">ACID transactions, even after power loss</a>"
+        },
+        {
+          "target": [
+            "#uij-e71"
+          ],
+          "selector": "#uij-e71",
+          "bbox": null,
+          "html": "<a href=\"fileformat.html\" id=\"uij-e71\">Stable, enduring file format</a>"
+        },
+        {
+          "target": [
+            "#uij-e73"
+          ],
+          "selector": "#uij-e73",
+          "bbox": null,
+          "html": "<a href=\"doclist.html\" id=\"uij-e73\">Extensive, detailed documentation</a>"
+        },
+        {
+          "target": [
+            "#uij-e75"
+          ],
+          "selector": "#uij-e75",
+          "bbox": null,
+          "html": "<a href=\"lts.html\" id=\"uij-e75\">Long-term support</a>"
+        },
+        {
+          "target": [
+            "#uij-e76"
+          ],
+          "selector": "#uij-e76",
+          "bbox": null,
+          "html": "<p id=\"uij-e76\">"
+        },
+        {
+          "target": [
+            "#uij-e77"
+          ],
+          "selector": "#uij-e77",
+          "bbox": null,
+          "html": "<a href=\"selfcontained.html\" id=\"uij-e77\">self-contained</a>"
+        },
+        {
+          "target": [
+            "#uij-e78"
+          ],
+          "selector": "#uij-e78",
+          "bbox": null,
+          "html": "<a href=\"serverless.html\" id=\"uij-e78\">serverless</a>"
+        },
+        {
+          "target": [
+            "#uij-e79"
+          ],
+          "selector": "#uij-e79",
+          "bbox": null,
+          "html": "<a href=\"zeroconf.html\" id=\"uij-e79\">zero-configuration</a>"
+        },
+        {
+          "target": [
+            "#uij-e80"
+          ],
+          "selector": "#uij-e80",
+          "bbox": null,
+          "html": "<a href=\"transactional.html\" id=\"uij-e80\">transactional</a>"
+        },
+        {
+          "target": [
+            "#uij-e81"
+          ],
+          "selector": "#uij-e81",
+          "bbox": null,
+          "html": "<a href=\"copyright.html\" id=\"uij-e81\">public domain</a>"
+        },
+        {
+          "target": [
+            "#uij-e82"
+          ],
+          "selector": "#uij-e82",
+          "bbox": null,
+          "html": "<a href=\"mostdeployed.html\" id=\"uij-e82\">most widely deployed</a>"
+        },
+        {
+          "target": [
+            "#uij-e83"
+          ],
+          "selector": "#uij-e83",
+          "bbox": null,
+          "html": "<a href=\"famous.html\" id=\"uij-e83\">high-profile projects.</a>"
+        },
+        {
+          "target": [
+            "#uij-e84"
+          ],
+          "selector": "#uij-e84",
+          "bbox": null,
+          "html": "<p id=\"uij-e84\">"
+        },
+        {
+          "target": [
+            "#uij-e85"
+          ],
+          "selector": "#uij-e85",
+          "bbox": null,
+          "html": "<a href=\"fileformat2.html\" id=\"uij-e85\">file format</a>"
+        },
+        {
+          "target": [
+            "#uij-e86"
+          ],
+          "selector": "#uij-e86",
+          "bbox": null,
+          "html": "<a href=\"http://en.wikipedia.org/wiki/Endianness\" id=\"uij-e86\">big-endian</a>"
+        },
+        {
+          "target": [
+            "#uij-e87"
+          ],
+          "selector": "#uij-e87",
+          "bbox": null,
+          "html": "<a href=\"http://en.wikipedia.org/wiki/Endianness\" id=\"uij-e87\">little-endian</a>"
+        },
+        {
+          "target": [
+            "#uij-e88"
+          ],
+          "selector": "#uij-e88",
+          "bbox": null,
+          "html": "<a href=\"appfileformat.html\" id=\"uij-e88\">Application File Format</a>"
+        },
+        {
+          "target": [
+            "#uij-e89"
+          ],
+          "selector": "#uij-e89",
+          "bbox": null,
+          "html": "<a href=\"locrsf.html\" id=\"uij-e89\">recommended storage format</a>"
+        },
+        {
+          "target": [
+            "#uij-e90"
+          ],
+          "selector": "#uij-e90",
+          "bbox": null,
+          "html": "<a href=\"http://www.oracle.com/database/index.html\" id=\"uij-e90\">Oracle</a>"
+        },
+        {
+          "target": [
+            "#uij-e91"
+          ],
+          "selector": "#uij-e91",
+          "bbox": null,
+          "html": "<a href=\"http://man.he.net/man3/fopen\" id=\"uij-e91\">fopen()</a>"
+        },
+        {
+          "target": [
+            "#uij-e92"
+          ],
+          "selector": "#uij-e92",
+          "bbox": null,
+          "html": "<p id=\"uij-e92\">"
+        },
+        {
+          "target": [
+            "#uij-e93"
+          ],
+          "selector": "#uij-e93",
+          "bbox": null,
+          "html": "<a href=\"footprint.html\" id=\"uij-e93\">library size</a>"
+        },
+        {
+          "target": [
+            "#uij-e94"
+          ],
+          "selector": "#uij-e94",
+          "bbox": null,
+          "html": "<a href=\"fasterthanfs.html\" id=\"uij-e94\">faster than direct filesystem I/O</a>"
+        },
+        {
+          "target": [
+            "#uij-e95"
+          ],
+          "selector": "#uij-e95",
+          "bbox": null,
+          "html": "<p id=\"uij-e95\">"
+        },
+        {
+          "target": [
+            "#uij-e96"
+          ],
+          "selector": "#uij-e96",
+          "bbox": null,
+          "html": "<a href=\"testing.html\" id=\"uij-e96\">very carefully tested</a>"
+        },
+        {
+          "target": [
+            "#uij-e97"
+          ],
+          "selector": "#uij-e97",
+          "bbox": null,
+          "html": "<a href=\"testing.html#coverage\" id=\"uij-e97\">100% branch test coverage</a>"
+        },
+        {
+          "target": [
+            "#uij-e98"
+          ],
+          "selector": "#uij-e98",
+          "bbox": null,
+          "html": "<a href=\"http://en.wikipedia.org/wiki/ACID\" id=\"uij-e98\">ACID</a>"
+        },
+        {
+          "target": [
+            "#uij-e99"
+          ],
+          "selector": "#uij-e99",
+          "bbox": null,
+          "html": "<a href=\"https://sqlite.org/src/rptview?rn=1\" id=\"uij-e99\">bugs lists</a>"
+        },
+        {
+          "target": [
+            "#uij-e100"
+          ],
+          "selector": "#uij-e100",
+          "bbox": null,
+          "html": "<a href=\"https://sqlite.org/src/timeline\" id=\"uij-e100\">\nchronologies</a>"
+        },
+        {
+          "target": [
+            "#uij-e101"
+          ],
+          "selector": "#uij-e101",
+          "bbox": null,
+          "html": "<p id=\"uij-e101\">"
+        },
+        {
+          "target": [
+            "#uij-e102"
+          ],
+          "selector": "#uij-e102",
+          "bbox": null,
+          "html": "<a href=\"crew.html\" id=\"uij-e102\">international team</a>"
+        },
+        {
+          "target": [
+            "#uij-e103"
+          ],
+          "selector": "#uij-e103",
+          "bbox": null,
+          "html": "<a href=\"c3ref/intro.html\" id=\"uij-e103\">published interface spec</a>"
+        },
+        {
+          "target": [
+            "#uij-e104"
+          ],
+          "selector": "#uij-e104",
+          "bbox": null,
+          "html": "<a href=\"lang.html\" id=\"uij-e104\">SQL syntax</a>"
+        },
+        {
+          "target": [
+            "#uij-e105"
+          ],
+          "selector": "#uij-e105",
+          "bbox": null,
+          "html": "<a href=\"fileformat2.html\" id=\"uij-e105\">file format</a>"
+        },
+        {
+          "target": [
+            "#uij-e106"
+          ],
+          "selector": "#uij-e106",
+          "bbox": null,
+          "html": "<a href=\"prosupport.html\" id=\"uij-e106\">professional support</a>"
+        },
+        {
+          "target": [
+            "#uij-e107"
+          ],
+          "selector": "#uij-e107",
+          "bbox": null,
+          "html": "<p id=\"uij-e107\">"
+        },
+        {
+          "target": [
+            "#uij-e108"
+          ],
+          "selector": "#uij-e108",
+          "bbox": null,
+          "html": "<a href=\"https://sqlite.org/src/timeline?c=2000-05-29+14:26:00\" id=\"uij-e108\">2000-05-09</a>"
+        },
+        {
+          "target": [
+            "#uij-e109"
+          ],
+          "selector": "#uij-e109",
+          "bbox": null,
+          "html": "<p id=\"uij-e109\">"
+        },
+        {
+          "target": [
+            "#uij-e112"
+          ],
+          "selector": "#uij-e112",
+          "bbox": null,
+          "html": "<i id=\"uij-e112\">This page was last updated on 2025-11-13 07:12:58Z </i>"
+        }
+      ]
+    },
+    {
+      "rule_id": "document-title",
+      "impact": "",
+      "tags": [
+        "wcag2a",
+        "wcag242"
+      ],
+      "description": "Ensure each HTML document contains a non-empty <title> element",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/document-title?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "html"
+          ],
+          "selector": "html",
+          "bbox": null,
+          "html": "<html>"
+        }
+      ]
+    },
+    {
+      "rule_id": "empty-heading",
+      "impact": "",
+      "tags": [],
+      "description": "Ensure headings have discernible text",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/empty-heading?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e40"
+          ],
+          "selector": "#uij-e40",
+          "bbox": null,
+          "html": "<h1 align=\"center\" id=\"uij-e40\">About SQLite</h1>"
+        },
+        {
+          "target": [
+            "#uij-e42"
+          ],
+          "selector": "#uij-e42",
+          "bbox": null,
+          "html": "<h4 align=\"center\" id=\"uij-e42\">Executive Summary</h4>"
+        }
+      ]
+    },
+    {
+      "rule_id": "heading-order",
+      "impact": "moderate",
+      "tags": [],
+      "description": "Ensure the order of headings is semantically correct",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/heading-order?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e40"
+          ],
+          "selector": "#uij-e40",
+          "bbox": null,
+          "html": "<h1 align=\"center\" id=\"uij-e40\">About SQLite</h1>"
+        }
+      ]
+    },
+    {
+      "rule_id": "image-alt",
+      "impact": "",
+      "tags": [
+        "wcag2a",
+        "wcag111",
+        "section508",
+        "section508.22.a"
+      ],
+      "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/image-alt?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e2"
+          ],
+          "selector": "#uij-e2",
+          "bbox": null,
+          "html": "<img alt=\"SQLite\" border=\"0\" class=\"logo\" id=\"uij-e2\" src=\"data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjwhLS0gQ3JlYXRlZCB3aXRoIElua3NjYXBlIChodHR"
+        }
+      ]
+    },
+    {
+      "rule_id": "image-redundant-alt",
+      "impact": "",
+      "tags": [],
+      "description": "Ensure image alternative is not repeated as text",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/image-redundant-alt?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e2"
+          ],
+          "selector": "#uij-e2",
+          "bbox": null,
+          "html": "<img alt=\"SQLite\" border=\"0\" class=\"logo\" id=\"uij-e2\" src=\"data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjwhLS0gQ3JlYXRlZCB3aXRoIElua3NjYXBlIChodHR"
+        }
+      ]
+    },
+    {
+      "rule_id": "link-in-text-block",
+      "impact": "",
+      "tags": [
+        "wcag2a",
+        "wcag141"
+      ],
+      "description": "Ensure links are distinguished from surrounding text in a way that does not rely on color",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/link-in-text-block?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e53"
+          ],
+          "selector": "#uij-e53",
+          "bbox": null,
+          "html": "<a href=\"amalgamation.html\" id=\"uij-e53\">sqlite3.c</a>"
+        },
+        {
+          "target": [
+            "#uij-e57"
+          ],
+          "selector": "#uij-e57",
+          "bbox": null,
+          "html": "<a href=\"limits.html\" id=\"uij-e57\">281 terabytes</a>"
+        },
+        {
+          "target": [
+            "#uij-e61"
+          ],
+          "selector": "#uij-e61",
+          "bbox": null,
+          "html": "<a href=\"limits.html\" id=\"uij-e61\">1 gigabyte</a>"
+        },
+        {
+          "target": [
+            "#uij-e77"
+          ],
+          "selector": "#uij-e77",
+          "bbox": null,
+          "html": "<a href=\"selfcontained.html\" id=\"uij-e77\">self-contained</a>"
+        },
+        {
+          "target": [
+            "#uij-e78"
+          ],
+          "selector": "#uij-e78",
+          "bbox": null,
+          "html": "<a href=\"serverless.html\" id=\"uij-e78\">serverless</a>"
+        },
+        {
+          "target": [
+            "#uij-e79"
+          ],
+          "selector": "#uij-e79",
+          "bbox": null,
+          "html": "<a href=\"zeroconf.html\" id=\"uij-e79\">zero-configuration</a>"
+        },
+        {
+          "target": [
+            "#uij-e80"
+          ],
+          "selector": "#uij-e80",
+          "bbox": null,
+          "html": "<a href=\"transactional.html\" id=\"uij-e80\">transactional</a>"
+        },
+        {
+          "target": [
+            "#uij-e81"
+          ],
+          "selector": "#uij-e81",
+          "bbox": null,
+          "html": "<a href=\"copyright.html\" id=\"uij-e81\">public domain</a>"
+        },
+        {
+          "target": [
+            "#uij-e82"
+          ],
+          "selector": "#uij-e82",
+          "bbox": null,
+          "html": "<a href=\"mostdeployed.html\" id=\"uij-e82\">most widely deployed</a>"
+        },
+        {
+          "target": [
+            "#uij-e83"
+          ],
+          "selector": "#uij-e83",
+          "bbox": null,
+          "html": "<a href=\"famous.html\" id=\"uij-e83\">high-profile projects.</a>"
+        },
+        {
+          "target": [
+            "#uij-e85"
+          ],
+          "selector": "#uij-e85",
+          "bbox": null,
+          "html": "<a href=\"fileformat2.html\" id=\"uij-e85\">file format</a>"
+        },
+        {
+          "target": [
+            "#uij-e86"
+          ],
+          "selector": "#uij-e86",
+          "bbox": null,
+          "html": "<a href=\"http://en.wikipedia.org/wiki/Endianness\" id=\"uij-e86\">big-endian</a>"
+        },
+        {
+          "target": [
+            "#uij-e87"
+          ],
+          "selector": "#uij-e87",
+          "bbox": null,
+          "html": "<a href=\"http://en.wikipedia.org/wiki/Endianness\" id=\"uij-e87\">little-endian</a>"
+        },
+        {
+          "target": [
+            "#uij-e88"
+          ],
+          "selector": "#uij-e88",
+          "bbox": null,
+          "html": "<a href=\"appfileformat.html\" id=\"uij-e88\">Application File Format</a>"
+        },
+        {
+          "target": [
+            "#uij-e89"
+          ],
+          "selector": "#uij-e89",
+          "bbox": null,
+          "html": "<a href=\"locrsf.html\" id=\"uij-e89\">recommended storage format</a>"
+        },
+        {
+          "target": [
+            "#uij-e90"
+          ],
+          "selector": "#uij-e90",
+          "bbox": null,
+          "html": "<a href=\"http://www.oracle.com/database/index.html\" id=\"uij-e90\">Oracle</a>"
+        },
+        {
+          "target": [
+            "#uij-e91"
+          ],
+          "selector": "#uij-e91",
+          "bbox": null,
+          "html": "<a href=\"http://man.he.net/man3/fopen\" id=\"uij-e91\">fopen()</a>"
+        },
+        {
+          "target": [
+            "#uij-e93"
+          ],
+          "selector": "#uij-e93",
+          "bbox": null,
+          "html": "<a href=\"footprint.html\" id=\"uij-e93\">library size</a>"
+        },
+        {
+          "target": [
+            "#uij-e94"
+          ],
+          "selector": "#uij-e94",
+          "bbox": null,
+          "html": "<a href=\"fasterthanfs.html\" id=\"uij-e94\">faster than direct filesystem I/O</a>"
+        },
+        {
+          "target": [
+            "#uij-e96"
+          ],
+          "selector": "#uij-e96",
+          "bbox": null,
+          "html": "<a href=\"testing.html\" id=\"uij-e96\">very carefully tested</a>"
+        },
+        {
+          "target": [
+            "#uij-e97"
+          ],
+          "selector": "#uij-e97",
+          "bbox": null,
+          "html": "<a href=\"testing.html#coverage\" id=\"uij-e97\">100% branch test coverage</a>"
+        },
+        {
+          "target": [
+            "#uij-e98"
+          ],
+          "selector": "#uij-e98",
+          "bbox": null,
+          "html": "<a href=\"http://en.wikipedia.org/wiki/ACID\" id=\"uij-e98\">ACID</a>"
+        },
+        {
+          "target": [
+            "#uij-e99"
+          ],
+          "selector": "#uij-e99",
+          "bbox": null,
+          "html": "<a href=\"https://sqlite.org/src/rptview?rn=1\" id=\"uij-e99\">bugs lists</a>"
+        },
+        {
+          "target": [
+            "#uij-e100"
+          ],
+          "selector": "#uij-e100",
+          "bbox": null,
+          "html": "<a href=\"https://sqlite.org/src/timeline\" id=\"uij-e100\">\nchronologies</a>"
+        },
+        {
+          "target": [
+            "#uij-e102"
+          ],
+          "selector": "#uij-e102",
+          "bbox": null,
+          "html": "<a href=\"crew.html\" id=\"uij-e102\">international team</a>"
+        },
+        {
+          "target": [
+            "#uij-e103"
+          ],
+          "selector": "#uij-e103",
+          "bbox": null,
+          "html": "<a href=\"c3ref/intro.html\" id=\"uij-e103\">published interface spec</a>"
+        },
+        {
+          "target": [
+            "#uij-e104"
+          ],
+          "selector": "#uij-e104",
+          "bbox": null,
+          "html": "<a href=\"lang.html\" id=\"uij-e104\">SQL syntax</a>"
+        },
+        {
+          "target": [
+            "#uij-e105"
+          ],
+          "selector": "#uij-e105",
+          "bbox": null,
+          "html": "<a href=\"fileformat2.html\" id=\"uij-e105\">file format</a>"
+        },
+        {
+          "target": [
+            "#uij-e106"
+          ],
+          "selector": "#uij-e106",
+          "bbox": null,
+          "html": "<a href=\"prosupport.html\" id=\"uij-e106\">professional support</a>"
+        },
+        {
+          "target": [
+            "#uij-e108"
+          ],
+          "selector": "#uij-e108",
+          "bbox": null,
+          "html": "<a href=\"https://sqlite.org/src/timeline?c=2000-05-29+14:26:00\" id=\"uij-e108\">2000-05-09</a>"
+        }
+      ]
+    },
+    {
+      "rule_id": "link-name",
+      "impact": "",
+      "tags": [
+        "wcag2a",
+        "wcag244",
+        "wcag412",
+        "section508",
+        "section508.22.a"
+      ],
+      "description": "Ensure links have discernible text",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/link-name?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e1"
+          ],
+          "selector": "#uij-e1",
+          "bbox": null,
+          "html": "<a href=\"index.html\" id=\"uij-e1\">"
+        },
+        {
+          "target": [
+            "#uij-e9"
+          ],
+          "selector": "#uij-e9",
+          "bbox": null,
+          "html": "<a href=\"index.html\" id=\"uij-e9\">Home</a>"
+        },
+        {
+          "target": [
+            "#uij-e13"
+          ],
+          "selector": "#uij-e13",
+          "bbox": null,
+          "html": "<a href=\"about.html\" id=\"uij-e13\">About</a>"
+        },
+        {
+          "target": [
+            "#uij-e15"
+          ],
+          "selector": "#uij-e15",
+          "bbox": null,
+          "html": "<a href=\"docs.html\" id=\"uij-e15\">Documentation</a>"
+        },
+        {
+          "target": [
+            "#uij-e17"
+          ],
+          "selector": "#uij-e17",
+          "bbox": null,
+          "html": "<a href=\"download.html\" id=\"uij-e17\">Download</a>"
+        },
+        {
+          "target": [
+            "#uij-e19"
+          ],
+          "selector": "#uij-e19",
+          "bbox": null,
+          "html": "<a href=\"copyright.html\" id=\"uij-e19\">License</a>"
+        },
+        {
+          "target": [
+            "#uij-e21"
+          ],
+          "selector": "#uij-e21",
+          "bbox": null,
+          "html": "<a href=\"support.html\" id=\"uij-e21\">Support</a>"
+        },
+        {
+          "target": [
+            "#uij-e23"
+          ],
+          "selector": "#uij-e23",
+          "bbox": null,
+          "html": "<a href=\"prosupport.html\" id=\"uij-e23\">Purchase</a>"
+        },
+        {
+          "target": [
+            "#uij-e24"
+          ],
+          "selector": "#uij-e24",
+          "bbox": null,
+          "html": "<a href=\"javascript:void(0)\" id=\"uij-e24\" onclick=\"toggle_search()\">Search</a>"
+        },
+        {
+          "target": [
+            "#uij-e45"
+          ],
+          "selector": "#uij-e45",
+          "bbox": null,
+          "html": "<a href=\"fullsql.html\" id=\"uij-e45\">Full-featured SQL</a>"
+        },
+        {
+          "target": [
+            "#uij-e47"
+          ],
+          "selector": "#uij-e47",
+          "bbox": null,
+          "html": "<a href=\"mostdeployed.html\" id=\"uij-e47\">Billions and billions of deployments</a>"
+        },
+        {
+          "target": [
+            "#uij-e49"
+          ],
+          "selector": "#uij-e49",
+          "bbox": null,
+          "html": "<a href=\"onefile.html\" id=\"uij-e49\">Single-file database</a>"
+        },
+        {
+          "target": [
+            "#uij-e51"
+          ],
+          "selector": "#uij-e51",
+          "bbox": null,
+          "html": "<a href=\"copyright.html\" id=\"uij-e51\">Public domain source code</a>"
+        },
+        {
+          "target": [
+            "#uij-e53"
+          ],
+          "selector": "#uij-e53",
+          "bbox": null,
+          "html": "<a href=\"amalgamation.html\" id=\"uij-e53\">sqlite3.c</a>"
+        },
+        {
+          "target": [
+            "#uij-e55"
+          ],
+          "selector": "#uij-e55",
+          "bbox": null,
+          "html": "<a href=\"footprint.html\" id=\"uij-e55\">Small footprint</a>"
+        },
+        {
+          "target": [
+            "#uij-e57"
+          ],
+          "selector": "#uij-e57",
+          "bbox": null,
+          "html": "<a href=\"limits.html\" id=\"uij-e57\">281 terabytes</a>"
+        },
+        {
+          "target": [
+            "#uij-e61"
+          ],
+          "selector": "#uij-e61",
+          "bbox": null,
+          "html": "<a href=\"limits.html\" id=\"uij-e61\">1 gigabyte</a>"
+        },
+        {
+          "target": [
+            "#uij-e63"
+          ],
+          "selector": "#uij-e63",
+          "bbox": null,
+          "html": "<a href=\"fasterthanfs.html\" id=\"uij-e63\">Faster than direct file I/O</a>"
+        },
+        {
+          "target": [
+            "#uij-e65"
+          ],
+          "selector": "#uij-e65",
+          "bbox": null,
+          "html": "<a href=\"testing.html\" id=\"uij-e65\">Aviation-grade quality and testing</a>"
+        },
+        {
+          "target": [
+            "#uij-e67"
+          ],
+          "selector": "#uij-e67",
+          "bbox": null,
+          "html": "<a href=\"zeroconf.html\" id=\"uij-e67\">Zero-configuration</a>"
+        },
+        {
+          "target": [
+            "#uij-e69"
+          ],
+          "selector": "#uij-e69",
+          "bbox": null,
+          "html": "<a href=\"transactional.html\" id=\"uij-e69\">ACID transactions, even after power loss</a>"
+        },
+        {
+          "target": [
+            "#uij-e71"
+          ],
+          "selector": "#uij-e71",
+          "bbox": null,
+          "html": "<a href=\"fileformat.html\" id=\"uij-e71\">Stable, enduring file format</a>"
+        },
+        {
+          "target": [
+            "#uij-e73"
+          ],
+          "selector": "#uij-e73",
+          "bbox": null,
+          "html": "<a href=\"doclist.html\" id=\"uij-e73\">Extensive, detailed documentation</a>"
+        },
+        {
+          "target": [
+            "#uij-e75"
+          ],
+          "selector": "#uij-e75",
+          "bbox": null,
+          "html": "<a href=\"lts.html\" id=\"uij-e75\">Long-term support</a>"
+        },
+        {
+          "target": [
+            "#uij-e77"
+          ],
+          "selector": "#uij-e77",
+          "bbox": null,
+          "html": "<a href=\"selfcontained.html\" id=\"uij-e77\">self-contained</a>"
+        },
+        {
+          "target": [
+            "#uij-e78"
+          ],
+          "selector": "#uij-e78",
+          "bbox": null,
+          "html": "<a href=\"serverless.html\" id=\"uij-e78\">serverless</a>"
+        },
+        {
+          "target": [
+            "#uij-e79"
+          ],
+          "selector": "#uij-e79",
+          "bbox": null,
+          "html": "<a href=\"zeroconf.html\" id=\"uij-e79\">zero-configuration</a>"
+        },
+        {
+          "target": [
+            "#uij-e80"
+          ],
+          "selector": "#uij-e80",
+          "bbox": null,
+          "html": "<a href=\"transactional.html\" id=\"uij-e80\">transactional</a>"
+        },
+        {
+          "target": [
+            "#uij-e81"
+          ],
+          "selector": "#uij-e81",
+          "bbox": null,
+          "html": "<a href=\"copyright.html\" id=\"uij-e81\">public domain</a>"
+        },
+        {
+          "target": [
+            "#uij-e82"
+          ],
+          "selector": "#uij-e82",
+          "bbox": null,
+          "html": "<a href=\"mostdeployed.html\" id=\"uij-e82\">most widely deployed</a>"
+        },
+        {
+          "target": [
+            "#uij-e83"
+          ],
+          "selector": "#uij-e83",
+          "bbox": null,
+          "html": "<a href=\"famous.html\" id=\"uij-e83\">high-profile projects.</a>"
+        },
+        {
+          "target": [
+            "#uij-e85"
+          ],
+          "selector": "#uij-e85",
+          "bbox": null,
+          "html": "<a href=\"fileformat2.html\" id=\"uij-e85\">file format</a>"
+        },
+        {
+          "target": [
+            "#uij-e86"
+          ],
+          "selector": "#uij-e86",
+          "bbox": null,
+          "html": "<a href=\"http://en.wikipedia.org/wiki/Endianness\" id=\"uij-e86\">big-endian</a>"
+        },
+        {
+          "target": [
+            "#uij-e87"
+          ],
+          "selector": "#uij-e87",
+          "bbox": null,
+          "html": "<a href=\"http://en.wikipedia.org/wiki/Endianness\" id=\"uij-e87\">little-endian</a>"
+        },
+        {
+          "target": [
+            "#uij-e88"
+          ],
+          "selector": "#uij-e88",
+          "bbox": null,
+          "html": "<a href=\"appfileformat.html\" id=\"uij-e88\">Application File Format</a>"
+        },
+        {
+          "target": [
+            "#uij-e89"
+          ],
+          "selector": "#uij-e89",
+          "bbox": null,
+          "html": "<a href=\"locrsf.html\" id=\"uij-e89\">recommended storage format</a>"
+        },
+        {
+          "target": [
+            "#uij-e90"
+          ],
+          "selector": "#uij-e90",
+          "bbox": null,
+          "html": "<a href=\"http://www.oracle.com/database/index.html\" id=\"uij-e90\">Oracle</a>"
+        },
+        {
+          "target": [
+            "#uij-e91"
+          ],
+          "selector": "#uij-e91",
+          "bbox": null,
+          "html": "<a href=\"http://man.he.net/man3/fopen\" id=\"uij-e91\">fopen()</a>"
+        },
+        {
+          "target": [
+            "#uij-e93"
+          ],
+          "selector": "#uij-e93",
+          "bbox": null,
+          "html": "<a href=\"footprint.html\" id=\"uij-e93\">library size</a>"
+        },
+        {
+          "target": [
+            "#uij-e94"
+          ],
+          "selector": "#uij-e94",
+          "bbox": null,
+          "html": "<a href=\"fasterthanfs.html\" id=\"uij-e94\">faster than direct filesystem I/O</a>"
+        },
+        {
+          "target": [
+            "#uij-e96"
+          ],
+          "selector": "#uij-e96",
+          "bbox": null,
+          "html": "<a href=\"testing.html\" id=\"uij-e96\">very carefully tested</a>"
+        },
+        {
+          "target": [
+            "#uij-e97"
+          ],
+          "selector": "#uij-e97",
+          "bbox": null,
+          "html": "<a href=\"testing.html#coverage\" id=\"uij-e97\">100% branch test coverage</a>"
+        },
+        {
+          "target": [
+            "#uij-e98"
+          ],
+          "selector": "#uij-e98",
+          "bbox": null,
+          "html": "<a href=\"http://en.wikipedia.org/wiki/ACID\" id=\"uij-e98\">ACID</a>"
+        },
+        {
+          "target": [
+            "#uij-e99"
+          ],
+          "selector": "#uij-e99",
+          "bbox": null,
+          "html": "<a href=\"https://sqlite.org/src/rptview?rn=1\" id=\"uij-e99\">bugs lists</a>"
+        },
+        {
+          "target": [
+            "#uij-e100"
+          ],
+          "selector": "#uij-e100",
+          "bbox": null,
+          "html": "<a href=\"https://sqlite.org/src/timeline\" id=\"uij-e100\">\nchronologies</a>"
+        },
+        {
+          "target": [
+            "#uij-e102"
+          ],
+          "selector": "#uij-e102",
+          "bbox": null,
+          "html": "<a href=\"crew.html\" id=\"uij-e102\">international team</a>"
+        },
+        {
+          "target": [
+            "#uij-e103"
+          ],
+          "selector": "#uij-e103",
+          "bbox": null,
+          "html": "<a href=\"c3ref/intro.html\" id=\"uij-e103\">published interface spec</a>"
+        },
+        {
+          "target": [
+            "#uij-e104"
+          ],
+          "selector": "#uij-e104",
+          "bbox": null,
+          "html": "<a href=\"lang.html\" id=\"uij-e104\">SQL syntax</a>"
+        },
+        {
+          "target": [
+            "#uij-e105"
+          ],
+          "selector": "#uij-e105",
+          "bbox": null,
+          "html": "<a href=\"fileformat2.html\" id=\"uij-e105\">file format</a>"
+        },
+        {
+          "target": [
+            "#uij-e106"
+          ],
+          "selector": "#uij-e106",
+          "bbox": null,
+          "html": "<a href=\"prosupport.html\" id=\"uij-e106\">professional support</a>"
+        },
+        {
+          "target": [
+            "#uij-e108"
+          ],
+          "selector": "#uij-e108",
+          "bbox": null,
+          "html": "<a href=\"https://sqlite.org/src/timeline?c=2000-05-29+14:26:00\" id=\"uij-e108\">2000-05-09</a>"
+        }
+      ]
+    },
+    {
+      "rule_id": "list",
+      "impact": "",
+      "tags": [
+        "wcag2a",
+        "wcag131"
+      ],
+      "description": "Ensure that lists are structured correctly",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/list?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e7"
+          ],
+          "selector": "#uij-e7",
+          "bbox": null,
+          "html": "<ul id=\"uij-e7\">"
+        },
+        {
+          "target": [
+            "#uij-e43"
+          ],
+          "selector": "#uij-e43",
+          "bbox": null,
+          "html": "<ul id=\"uij-e43\">"
+        }
+      ]
+    },
+    {
+      "rule_id": "listitem",
+      "impact": "",
+      "tags": [
+        "wcag2a",
+        "wcag131"
+      ],
+      "description": "Ensure <li> elements are used semantically",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/listitem?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e8"
+          ],
+          "selector": "#uij-e8",
+          "bbox": null,
+          "html": "<li id=\"uij-e8\"><a href=\"index.html\" id=\"uij-e9\">Home</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e12"
+          ],
+          "selector": "#uij-e12",
+          "bbox": null,
+          "html": "<li class=\"wideonly\" id=\"uij-e12\"><a href=\"about.html\" id=\"uij-e13\">About</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e14"
+          ],
+          "selector": "#uij-e14",
+          "bbox": null,
+          "html": "<li class=\"desktoponly\" id=\"uij-e14\"><a href=\"docs.html\" id=\"uij-e15\">Documentation</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e16"
+          ],
+          "selector": "#uij-e16",
+          "bbox": null,
+          "html": "<li class=\"desktoponly\" id=\"uij-e16\"><a href=\"download.html\" id=\"uij-e17\">Download</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e18"
+          ],
+          "selector": "#uij-e18",
+          "bbox": null,
+          "html": "<li class=\"wideonly\" id=\"uij-e18\"><a href=\"copyright.html\" id=\"uij-e19\">License</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e20"
+          ],
+          "selector": "#uij-e20",
+          "bbox": null,
+          "html": "<li class=\"desktoponly\" id=\"uij-e20\"><a href=\"support.html\" id=\"uij-e21\">Support</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e22"
+          ],
+          "selector": "#uij-e22",
+          "bbox": null,
+          "html": "<li class=\"desktoponly\" id=\"uij-e22\"><a href=\"prosupport.html\" id=\"uij-e23\">Purchase</a>\n</li>"
+        },
+        {
+          "target": [
+            "#search_menubutton"
+          ],
+          "selector": "#search_menubutton",
+          "bbox": null,
+          "html": "<li class=\"search\" id=\"search_menubutton\">\n<a href=\"javascript:void(0)\" id=\"uij-e24\" onclick=\"toggle_search()\">Search</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e44"
+          ],
+          "selector": "#uij-e44",
+          "bbox": null,
+          "html": "<li id=\"uij-e44\"> <a href=\"fullsql.html\" id=\"uij-e45\">Full-featured SQL</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e46"
+          ],
+          "selector": "#uij-e46",
+          "bbox": null,
+          "html": "<li id=\"uij-e46\"> <a href=\"mostdeployed.html\" id=\"uij-e47\">Billions and billions of deployments</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e48"
+          ],
+          "selector": "#uij-e48",
+          "bbox": null,
+          "html": "<li id=\"uij-e48\"> <a href=\"onefile.html\" id=\"uij-e49\">Single-file database</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e50"
+          ],
+          "selector": "#uij-e50",
+          "bbox": null,
+          "html": "<li id=\"uij-e50\"> <a href=\"copyright.html\" id=\"uij-e51\">Public domain source code</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e52"
+          ],
+          "selector": "#uij-e52",
+          "bbox": null,
+          "html": "<li id=\"uij-e52\"> All source code in one file (<a href=\"amalgamation.html\" id=\"uij-e53\">sqlite3.c</a>)\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e54"
+          ],
+          "selector": "#uij-e54",
+          "bbox": null,
+          "html": "<li id=\"uij-e54\"> <a href=\"footprint.html\" id=\"uij-e55\">Small footprint</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e56"
+          ],
+          "selector": "#uij-e56",
+          "bbox": null,
+          "html": "<li id=\"uij-e56\"> Max DB size: <a href=\"limits.html\" id=\"uij-e57\">281 terabytes</a>\n     (2<sup id=\"uij-e58\"><small id=\"uij-e59\">48</small></sup> bytes)\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e60"
+          ],
+          "selector": "#uij-e60",
+          "bbox": null,
+          "html": "<li id=\"uij-e60\"> Max row size: <a href=\"limits.html\" id=\"uij-e61\">1 gigabyte</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e62"
+          ],
+          "selector": "#uij-e62",
+          "bbox": null,
+          "html": "<li id=\"uij-e62\"> <a href=\"fasterthanfs.html\" id=\"uij-e63\">Faster than direct file I/O</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e64"
+          ],
+          "selector": "#uij-e64",
+          "bbox": null,
+          "html": "<li id=\"uij-e64\"> <a href=\"testing.html\" id=\"uij-e65\">Aviation-grade quality and testing</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e66"
+          ],
+          "selector": "#uij-e66",
+          "bbox": null,
+          "html": "<li id=\"uij-e66\"> <a href=\"zeroconf.html\" id=\"uij-e67\">Zero-configuration</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e68"
+          ],
+          "selector": "#uij-e68",
+          "bbox": null,
+          "html": "<li id=\"uij-e68\"> <a href=\"transactional.html\" id=\"uij-e69\">ACID transactions, even after power loss</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e70"
+          ],
+          "selector": "#uij-e70",
+          "bbox": null,
+          "html": "<li id=\"uij-e70\"> <a href=\"fileformat.html\" id=\"uij-e71\">Stable, enduring file format</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e72"
+          ],
+          "selector": "#uij-e72",
+          "bbox": null,
+          "html": "<li id=\"uij-e72\"> <a href=\"doclist.html\" id=\"uij-e73\">Extensive, detailed documentation</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e74"
+          ],
+          "selector": "#uij-e74",
+          "bbox": null,
+          "html": "<li id=\"uij-e74\"> <a href=\"lts.html\" id=\"uij-e75\">Long-term support</a>\n</li>"
+        }
+      ]
+    },
+    {
+      "rule_id": "meta-viewport-large",
+      "impact": "",
+      "tags": [],
+      "description": "Ensure <meta name=\"viewport\"> can scale a significant amount",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/meta-viewport-large?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "meta[name=\"viewport\"]"
+          ],
+          "selector": "meta[name=\"viewport\"]",
+          "bbox": null,
+          "html": "<meta content=\"width=device-width, initial-scale=1.0\" name=\"viewport\">"
+        }
+      ]
+    },
+    {
+      "rule_id": "meta-viewport",
+      "impact": "",
+      "tags": [
+        "wcag2aa",
+        "wcag144"
+      ],
+      "description": "Ensure <meta name=\"viewport\"> does not disable text scaling and zooming",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/meta-viewport?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "meta[name=\"viewport\"]"
+          ],
+          "selector": "meta[name=\"viewport\"]",
+          "bbox": null,
+          "html": "<meta content=\"width=device-width, initial-scale=1.0\" name=\"viewport\">"
+        }
+      ]
+    },
+    {
+      "rule_id": "nested-interactive",
+      "impact": "",
+      "tags": [
+        "wcag2a",
+        "wcag412"
+      ],
+      "description": "Ensure interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/nested-interactive?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e2"
+          ],
+          "selector": "#uij-e2",
+          "bbox": null,
+          "html": "<img alt=\"SQLite\" border=\"0\" class=\"logo\" id=\"uij-e2\" src=\"data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjwhLS0gQ3JlYXRlZCB3aXRoIElua3NjYXBlIChodHR"
+        }
+      ]
+    },
+    {
+      "rule_id": "page-has-heading-one",
+      "impact": "",
+      "tags": [],
+      "description": "Ensure that the page, or at least one of its frames contains a level-one heading",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/page-has-heading-one?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "html"
+          ],
+          "selector": "html",
+          "bbox": null,
+          "html": "<html>"
+        }
+      ]
+    },
+    {
+      "rule_id": "region",
+      "impact": "moderate",
+      "tags": [],
+      "description": "Ensure all page content is contained by landmarks",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/region?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e0"
+          ],
+          "selector": "#uij-e0",
+          "bbox": null,
+          "html": "<div class=\"nosearch\" id=\"uij-e0\">"
+        },
+        {
+          "target": [
+            "#uij-e2"
+          ],
+          "selector": "#uij-e2",
+          "bbox": null,
+          "html": "<img alt=\"SQLite\" border=\"0\" class=\"logo\" id=\"uij-e2\" src=\"data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjwhLS0gQ3JlYXRlZCB3aXRoIElua3NjYXBlIChodHR"
+        },
+        {
+          "target": [
+            "#uij-e3"
+          ],
+          "selector": "#uij-e3",
+          "bbox": null,
+          "html": "<div id=\"uij-e3\"></div>"
+        },
+        {
+          "target": [
+            "#uij-e5"
+          ],
+          "selector": "#uij-e5",
+          "bbox": null,
+          "html": "<br id=\"uij-e5\">"
+        },
+        {
+          "target": [
+            "#uij-e6"
+          ],
+          "selector": "#uij-e6",
+          "bbox": null,
+          "html": "<div class=\"menu mainmenu\" id=\"uij-e6\">"
+        },
+        {
+          "target": [
+            "#uij-e7"
+          ],
+          "selector": "#uij-e7",
+          "bbox": null,
+          "html": "<ul id=\"uij-e7\">"
+        },
+        {
+          "target": [
+            "#uij-e9"
+          ],
+          "selector": "#uij-e9",
+          "bbox": null,
+          "html": "<a href=\"index.html\" id=\"uij-e9\">Home</a>"
+        },
+        {
+          "target": [
+            "#uij-e13"
+          ],
+          "selector": "#uij-e13",
+          "bbox": null,
+          "html": "<a href=\"about.html\" id=\"uij-e13\">About</a>"
+        },
+        {
+          "target": [
+            "#uij-e15"
+          ],
+          "selector": "#uij-e15",
+          "bbox": null,
+          "html": "<a href=\"docs.html\" id=\"uij-e15\">Documentation</a>"
+        },
+        {
+          "target": [
+            "#uij-e17"
+          ],
+          "selector": "#uij-e17",
+          "bbox": null,
+          "html": "<a href=\"download.html\" id=\"uij-e17\">Download</a>"
+        },
+        {
+          "target": [
+            "#uij-e19"
+          ],
+          "selector": "#uij-e19",
+          "bbox": null,
+          "html": "<a href=\"copyright.html\" id=\"uij-e19\">License</a>"
+        },
+        {
+          "target": [
+            "#uij-e21"
+          ],
+          "selector": "#uij-e21",
+          "bbox": null,
+          "html": "<a href=\"support.html\" id=\"uij-e21\">Support</a>"
+        },
+        {
+          "target": [
+            "#uij-e23"
+          ],
+          "selector": "#uij-e23",
+          "bbox": null,
+          "html": "<a href=\"prosupport.html\" id=\"uij-e23\">Purchase</a>"
+        },
+        {
+          "target": [
+            "#uij-e24"
+          ],
+          "selector": "#uij-e24",
+          "bbox": null,
+          "html": "<a href=\"javascript:void(0)\" id=\"uij-e24\" onclick=\"toggle_search()\">Search</a>"
+        },
+        {
+          "target": [
+            "#uij-e42"
+          ],
+          "selector": "#uij-e42",
+          "bbox": null,
+          "html": "<h4 align=\"center\" id=\"uij-e42\">Executive Summary</h4>"
+        },
+        {
+          "target": [
+            "#uij-e43"
+          ],
+          "selector": "#uij-e43",
+          "bbox": null,
+          "html": "<ul id=\"uij-e43\">"
+        },
+        {
+          "target": [
+            "#uij-e44"
+          ],
+          "selector": "#uij-e44",
+          "bbox": null,
+          "html": "<li id=\"uij-e44\"> <a href=\"fullsql.html\" id=\"uij-e45\">Full-featured SQL</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e45"
+          ],
+          "selector": "#uij-e45",
+          "bbox": null,
+          "html": "<a href=\"fullsql.html\" id=\"uij-e45\">Full-featured SQL</a>"
+        },
+        {
+          "target": [
+            "#uij-e46"
+          ],
+          "selector": "#uij-e46",
+          "bbox": null,
+          "html": "<li id=\"uij-e46\"> <a href=\"mostdeployed.html\" id=\"uij-e47\">Billions and billions of deployments</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e47"
+          ],
+          "selector": "#uij-e47",
+          "bbox": null,
+          "html": "<a href=\"mostdeployed.html\" id=\"uij-e47\">Billions and billions of deployments</a>"
+        },
+        {
+          "target": [
+            "#uij-e48"
+          ],
+          "selector": "#uij-e48",
+          "bbox": null,
+          "html": "<li id=\"uij-e48\"> <a href=\"onefile.html\" id=\"uij-e49\">Single-file database</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e49"
+          ],
+          "selector": "#uij-e49",
+          "bbox": null,
+          "html": "<a href=\"onefile.html\" id=\"uij-e49\">Single-file database</a>"
+        },
+        {
+          "target": [
+            "#uij-e50"
+          ],
+          "selector": "#uij-e50",
+          "bbox": null,
+          "html": "<li id=\"uij-e50\"> <a href=\"copyright.html\" id=\"uij-e51\">Public domain source code</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e51"
+          ],
+          "selector": "#uij-e51",
+          "bbox": null,
+          "html": "<a href=\"copyright.html\" id=\"uij-e51\">Public domain source code</a>"
+        },
+        {
+          "target": [
+            "#uij-e52"
+          ],
+          "selector": "#uij-e52",
+          "bbox": null,
+          "html": "<li id=\"uij-e52\"> All source code in one file (<a href=\"amalgamation.html\" id=\"uij-e53\">sqlite3.c</a>)\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e53"
+          ],
+          "selector": "#uij-e53",
+          "bbox": null,
+          "html": "<a href=\"amalgamation.html\" id=\"uij-e53\">sqlite3.c</a>"
+        },
+        {
+          "target": [
+            "#uij-e54"
+          ],
+          "selector": "#uij-e54",
+          "bbox": null,
+          "html": "<li id=\"uij-e54\"> <a href=\"footprint.html\" id=\"uij-e55\">Small footprint</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e55"
+          ],
+          "selector": "#uij-e55",
+          "bbox": null,
+          "html": "<a href=\"footprint.html\" id=\"uij-e55\">Small footprint</a>"
+        },
+        {
+          "target": [
+            "#uij-e56"
+          ],
+          "selector": "#uij-e56",
+          "bbox": null,
+          "html": "<li id=\"uij-e56\"> Max DB size: <a href=\"limits.html\" id=\"uij-e57\">281 terabytes</a>\n     (2<sup id=\"uij-e58\"><small id=\"uij-e59\">48</small></sup> bytes)\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e57"
+          ],
+          "selector": "#uij-e57",
+          "bbox": null,
+          "html": "<a href=\"limits.html\" id=\"uij-e57\">281 terabytes</a>"
+        },
+        {
+          "target": [
+            "#uij-e58"
+          ],
+          "selector": "#uij-e58",
+          "bbox": null,
+          "html": "<sup id=\"uij-e58\"><small id=\"uij-e59\">48</small></sup>"
+        },
+        {
+          "target": [
+            "#uij-e59"
+          ],
+          "selector": "#uij-e59",
+          "bbox": null,
+          "html": "<small id=\"uij-e59\">48</small>"
+        },
+        {
+          "target": [
+            "#uij-e60"
+          ],
+          "selector": "#uij-e60",
+          "bbox": null,
+          "html": "<li id=\"uij-e60\"> Max row size: <a href=\"limits.html\" id=\"uij-e61\">1 gigabyte</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e61"
+          ],
+          "selector": "#uij-e61",
+          "bbox": null,
+          "html": "<a href=\"limits.html\" id=\"uij-e61\">1 gigabyte</a>"
+        },
+        {
+          "target": [
+            "#uij-e62"
+          ],
+          "selector": "#uij-e62",
+          "bbox": null,
+          "html": "<li id=\"uij-e62\"> <a href=\"fasterthanfs.html\" id=\"uij-e63\">Faster than direct file I/O</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e63"
+          ],
+          "selector": "#uij-e63",
+          "bbox": null,
+          "html": "<a href=\"fasterthanfs.html\" id=\"uij-e63\">Faster than direct file I/O</a>"
+        },
+        {
+          "target": [
+            "#uij-e64"
+          ],
+          "selector": "#uij-e64",
+          "bbox": null,
+          "html": "<li id=\"uij-e64\"> <a href=\"testing.html\" id=\"uij-e65\">Aviation-grade quality and testing</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e65"
+          ],
+          "selector": "#uij-e65",
+          "bbox": null,
+          "html": "<a href=\"testing.html\" id=\"uij-e65\">Aviation-grade quality and testing</a>"
+        },
+        {
+          "target": [
+            "#uij-e66"
+          ],
+          "selector": "#uij-e66",
+          "bbox": null,
+          "html": "<li id=\"uij-e66\"> <a href=\"zeroconf.html\" id=\"uij-e67\">Zero-configuration</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e67"
+          ],
+          "selector": "#uij-e67",
+          "bbox": null,
+          "html": "<a href=\"zeroconf.html\" id=\"uij-e67\">Zero-configuration</a>"
+        },
+        {
+          "target": [
+            "#uij-e68"
+          ],
+          "selector": "#uij-e68",
+          "bbox": null,
+          "html": "<li id=\"uij-e68\"> <a href=\"transactional.html\" id=\"uij-e69\">ACID transactions, even after power loss</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e69"
+          ],
+          "selector": "#uij-e69",
+          "bbox": null,
+          "html": "<a href=\"transactional.html\" id=\"uij-e69\">ACID transactions, even after power loss</a>"
+        },
+        {
+          "target": [
+            "#uij-e70"
+          ],
+          "selector": "#uij-e70",
+          "bbox": null,
+          "html": "<li id=\"uij-e70\"> <a href=\"fileformat.html\" id=\"uij-e71\">Stable, enduring file format</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e71"
+          ],
+          "selector": "#uij-e71",
+          "bbox": null,
+          "html": "<a href=\"fileformat.html\" id=\"uij-e71\">Stable, enduring file format</a>"
+        },
+        {
+          "target": [
+            "#uij-e72"
+          ],
+          "selector": "#uij-e72",
+          "bbox": null,
+          "html": "<li id=\"uij-e72\"> <a href=\"doclist.html\" id=\"uij-e73\">Extensive, detailed documentation</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e73"
+          ],
+          "selector": "#uij-e73",
+          "bbox": null,
+          "html": "<a href=\"doclist.html\" id=\"uij-e73\">Extensive, detailed documentation</a>"
+        },
+        {
+          "target": [
+            "#uij-e74"
+          ],
+          "selector": "#uij-e74",
+          "bbox": null,
+          "html": "<li id=\"uij-e74\"> <a href=\"lts.html\" id=\"uij-e75\">Long-term support</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e75"
+          ],
+          "selector": "#uij-e75",
+          "bbox": null,
+          "html": "<a href=\"lts.html\" id=\"uij-e75\">Long-term support</a>"
+        },
+        {
+          "target": [
+            "#uij-e77"
+          ],
+          "selector": "#uij-e77",
+          "bbox": null,
+          "html": "<a href=\"selfcontained.html\" id=\"uij-e77\">self-contained</a>"
+        },
+        {
+          "target": [
+            "#uij-e78"
+          ],
+          "selector": "#uij-e78",
+          "bbox": null,
+          "html": "<a href=\"serverless.html\" id=\"uij-e78\">serverless</a>"
+        },
+        {
+          "target": [
+            "#uij-e79"
+          ],
+          "selector": "#uij-e79",
+          "bbox": null,
+          "html": "<a href=\"zeroconf.html\" id=\"uij-e79\">zero-configuration</a>"
+        },
+        {
+          "target": [
+            "#uij-e80"
+          ],
+          "selector": "#uij-e80",
+          "bbox": null,
+          "html": "<a href=\"transactional.html\" id=\"uij-e80\">transactional</a>"
+        },
+        {
+          "target": [
+            "#uij-e81"
+          ],
+          "selector": "#uij-e81",
+          "bbox": null,
+          "html": "<a href=\"copyright.html\" id=\"uij-e81\">public domain</a>"
+        },
+        {
+          "target": [
+            "#uij-e82"
+          ],
+          "selector": "#uij-e82",
+          "bbox": null,
+          "html": "<a href=\"mostdeployed.html\" id=\"uij-e82\">most widely deployed</a>"
+        },
+        {
+          "target": [
+            "#uij-e83"
+          ],
+          "selector": "#uij-e83",
+          "bbox": null,
+          "html": "<a href=\"famous.html\" id=\"uij-e83\">high-profile projects.</a>"
+        },
+        {
+          "target": [
+            "#uij-e85"
+          ],
+          "selector": "#uij-e85",
+          "bbox": null,
+          "html": "<a href=\"fileformat2.html\" id=\"uij-e85\">file format</a>"
+        },
+        {
+          "target": [
+            "#uij-e86"
+          ],
+          "selector": "#uij-e86",
+          "bbox": null,
+          "html": "<a href=\"http://en.wikipedia.org/wiki/Endianness\" id=\"uij-e86\">big-endian</a>"
+        },
+        {
+          "target": [
+            "#uij-e87"
+          ],
+          "selector": "#uij-e87",
+          "bbox": null,
+          "html": "<a href=\"http://en.wikipedia.org/wiki/Endianness\" id=\"uij-e87\">little-endian</a>"
+        },
+        {
+          "target": [
+            "#uij-e88"
+          ],
+          "selector": "#uij-e88",
+          "bbox": null,
+          "html": "<a href=\"appfileformat.html\" id=\"uij-e88\">Application File Format</a>"
+        },
+        {
+          "target": [
+            "#uij-e89"
+          ],
+          "selector": "#uij-e89",
+          "bbox": null,
+          "html": "<a href=\"locrsf.html\" id=\"uij-e89\">recommended storage format</a>"
+        },
+        {
+          "target": [
+            "#uij-e90"
+          ],
+          "selector": "#uij-e90",
+          "bbox": null,
+          "html": "<a href=\"http://www.oracle.com/database/index.html\" id=\"uij-e90\">Oracle</a>"
+        },
+        {
+          "target": [
+            "#uij-e91"
+          ],
+          "selector": "#uij-e91",
+          "bbox": null,
+          "html": "<a href=\"http://man.he.net/man3/fopen\" id=\"uij-e91\">fopen()</a>"
+        },
+        {
+          "target": [
+            "#uij-e93"
+          ],
+          "selector": "#uij-e93",
+          "bbox": null,
+          "html": "<a href=\"footprint.html\" id=\"uij-e93\">library size</a>"
+        },
+        {
+          "target": [
+            "#uij-e94"
+          ],
+          "selector": "#uij-e94",
+          "bbox": null,
+          "html": "<a href=\"fasterthanfs.html\" id=\"uij-e94\">faster than direct filesystem I/O</a>"
+        },
+        {
+          "target": [
+            "#uij-e96"
+          ],
+          "selector": "#uij-e96",
+          "bbox": null,
+          "html": "<a href=\"testing.html\" id=\"uij-e96\">very carefully tested</a>"
+        },
+        {
+          "target": [
+            "#uij-e97"
+          ],
+          "selector": "#uij-e97",
+          "bbox": null,
+          "html": "<a href=\"testing.html#coverage\" id=\"uij-e97\">100% branch test coverage</a>"
+        },
+        {
+          "target": [
+            "#uij-e98"
+          ],
+          "selector": "#uij-e98",
+          "bbox": null,
+          "html": "<a href=\"http://en.wikipedia.org/wiki/ACID\" id=\"uij-e98\">ACID</a>"
+        },
+        {
+          "target": [
+            "#uij-e99"
+          ],
+          "selector": "#uij-e99",
+          "bbox": null,
+          "html": "<a href=\"https://sqlite.org/src/rptview?rn=1\" id=\"uij-e99\">bugs lists</a>"
+        },
+        {
+          "target": [
+            "#uij-e100"
+          ],
+          "selector": "#uij-e100",
+          "bbox": null,
+          "html": "<a href=\"https://sqlite.org/src/timeline\" id=\"uij-e100\">\nchronologies</a>"
+        },
+        {
+          "target": [
+            "#uij-e102"
+          ],
+          "selector": "#uij-e102",
+          "bbox": null,
+          "html": "<a href=\"crew.html\" id=\"uij-e102\">international team</a>"
+        },
+        {
+          "target": [
+            "#uij-e103"
+          ],
+          "selector": "#uij-e103",
+          "bbox": null,
+          "html": "<a href=\"c3ref/intro.html\" id=\"uij-e103\">published interface spec</a>"
+        },
+        {
+          "target": [
+            "#uij-e104"
+          ],
+          "selector": "#uij-e104",
+          "bbox": null,
+          "html": "<a href=\"lang.html\" id=\"uij-e104\">SQL syntax</a>"
+        },
+        {
+          "target": [
+            "#uij-e105"
+          ],
+          "selector": "#uij-e105",
+          "bbox": null,
+          "html": "<a href=\"fileformat2.html\" id=\"uij-e105\">file format</a>"
+        },
+        {
+          "target": [
+            "#uij-e106"
+          ],
+          "selector": "#uij-e106",
+          "bbox": null,
+          "html": "<a href=\"prosupport.html\" id=\"uij-e106\">professional support</a>"
+        },
+        {
+          "target": [
+            "#uij-e108"
+          ],
+          "selector": "#uij-e108",
+          "bbox": null,
+          "html": "<a href=\"https://sqlite.org/src/timeline?c=2000-05-29+14:26:00\" id=\"uij-e108\">2000-05-09</a>"
+        },
+        {
+          "target": [
+            "#uij-e111"
+          ],
+          "selector": "#uij-e111",
+          "bbox": null,
+          "html": "<small id=\"uij-e111\"><i id=\"uij-e112\">This page was last updated on 2025-11-13 07:12:58Z </i></small>"
+        },
+        {
+          "target": [
+            "#uij-e112"
+          ],
+          "selector": "#uij-e112",
+          "bbox": null,
+          "html": "<i id=\"uij-e112\">This page was last updated on 2025-11-13 07:12:58Z </i>"
+        }
+      ]
+    }
+  ]
+}

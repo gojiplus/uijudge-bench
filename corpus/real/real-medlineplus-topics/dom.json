@@ -1,0 +1,4945 @@
+{
+  "element_count": 407,
+  "doc_width": 1920,
+  "doc_height": 1287,
+  "captured": [
+    {
+      "selector": "#uij-e1",
+      "tag": "section",
+      "id": "uij-e1",
+      "class": "usa-banner",
+      "role": null,
+      "text_prefix": "An official website of the United States government Here’s how you know Here’s h",
+      "bbox": {
+        "desktop": [
+          0,
+          0,
+          1920,
+          22
+        ],
+        "mobile": [
+          0,
+          0,
+          375,
+          48
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e2",
+      "tag": "div",
+      "id": "uij-e2",
+      "class": "usa-accordion",
+      "role": null,
+      "text_prefix": "An official website of the United States government Here’s how you know Here’s h",
+      "bbox": {
+        "desktop": [
+          0,
+          0,
+          1920,
+          22
+        ],
+        "mobile": [
+          0,
+          0,
+          375,
+          48
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e3",
+      "tag": "header",
+      "id": "uij-e3",
+      "class": "usa-banner__header",
+      "role": null,
+      "text_prefix": "An official website of the United States government Here’s how you know Here’s h",
+      "bbox": {
+        "desktop": [
+          0,
+          0,
+          1920,
+          22
+        ],
+        "mobile": [
+          0,
+          0,
+          375,
+          48
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e4",
+      "tag": "div",
+      "id": "uij-e4",
+      "class": "usa-banner__inner",
+      "role": null,
+      "text_prefix": "An official website of the United States government Here’s how you know Here’s h",
+      "bbox": {
+        "desktop": [
+          448,
+          4,
+          1024,
+          14
+        ],
+        "mobile": [
+          0,
+          8,
+          375,
+          32
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e7",
+      "tag": "div",
+      "id": "uij-e7",
+      "class": "grid-col-fill tablet:grid-col-auto",
+      "role": null,
+      "text_prefix": "An official website of the United States government Here’s how you know",
+      "bbox": {
+        "desktop": [
+          504,
+          4,
+          294,
+          14
+        ],
+        "mobile": [
+          40,
+          8,
+          335,
+          32
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e8",
+      "tag": "p",
+      "id": "uij-e8",
+      "class": "usa-banner__header-text",
+      "role": null,
+      "text_prefix": "An official website of the United States government",
+      "bbox": {
+        "desktop": [
+          504,
+          4,
+          294,
+          14
+        ],
+        "mobile": [
+          40,
+          8,
+          335,
+          14
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e10",
+      "tag": "button",
+      "id": "uij-e10",
+      "class": "usa-accordion__button usa-banner__button",
+      "role": null,
+      "text_prefix": "Here’s how you know",
+      "bbox": {
+        "desktop": [
+          806,
+          4,
+          123,
+          14
+        ],
+        "mobile": [
+          0,
+          0,
+          375,
+          48
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e11",
+      "tag": "span",
+      "id": "uij-e11",
+      "class": "usa-banner__button-text",
+      "role": null,
+      "text_prefix": "Here’s how you know",
+      "bbox": {
+        "desktop": [
+          806,
+          3,
+          123,
+          15
+        ],
+        "mobile": [
+          -12787,
+          24,
+          123,
+          14
+        ]
+      }
+    },
+    {
+      "selector": "#mplus-wrap",
+      "tag": "div",
+      "id": "mplus-wrap",
+      "class": null,
+      "role": null,
+      "text_prefix": "National Library of Medicine Menu Health Topics Drugs & Supplements Genetics Med",
+      "bbox": {
+        "desktop": [
+          480,
+          22,
+          960,
+          1265
+        ],
+        "mobile": [
+          0,
+          48,
+          375,
+          1466
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e31",
+      "tag": "header",
+      "id": "uij-e31",
+      "class": null,
+      "role": null,
+      "text_prefix": "National Library of Medicine Menu Health Topics Drugs & Supplements Genetics Med",
+      "bbox": {
+        "desktop": [
+          480,
+          22,
+          960,
+          186
+        ],
+        "mobile": [
+          0,
+          48,
+          375,
+          145
+        ]
+      }
+    },
+    {
+      "selector": "#mplus-header",
+      "tag": "div",
+      "id": "mplus-header",
+      "class": null,
+      "role": null,
+      "text_prefix": "National Library of Medicine Menu Health Topics Drugs & Supplements Genetics Med",
+      "bbox": {
+        "desktop": [
+          480,
+          22,
+          960,
+          186
+        ],
+        "mobile": [
+          0,
+          48,
+          375,
+          145
+        ]
+      }
+    },
+    {
+      "selector": "#mplus-orgs",
+      "tag": "div",
+      "id": "mplus-orgs",
+      "class": null,
+      "role": null,
+      "text_prefix": "National Library of Medicine",
+      "bbox": {
+        "desktop": [
+          480,
+          22,
+          960,
+          25
+        ],
+        "mobile": [
+          0,
+          48,
+          375,
+          25
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e32",
+      "tag": "a",
+      "id": "uij-e32",
+      "class": "nih-org",
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          484,
+          24,
+          28,
+          21
+        ],
+        "mobile": [
+          16,
+          50,
+          28,
+          21
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e34",
+      "tag": "a",
+      "id": "uij-e34",
+      "class": null,
+      "role": null,
+      "text_prefix": "National Library of Medicine",
+      "bbox": {
+        "desktop": [
+          512,
+          24,
+          175,
+          21
+        ],
+        "mobile": [
+          44,
+          50,
+          175,
+          21
+        ]
+      }
+    },
+    {
+      "selector": "#mplus-logo",
+      "tag": "div",
+      "id": "mplus-logo",
+      "class": null,
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          480,
+          48,
+          538,
+          115
+        ],
+        "mobile": [
+          0,
+          74,
+          375,
+          74
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e35",
+      "tag": "a",
+      "id": "uij-e35",
+      "class": null,
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          481,
+          48,
+          352,
+          115
+        ],
+        "mobile": [
+          1,
+          74,
+          354,
+          74
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e36",
+      "tag": "img",
+      "id": "uij-e36",
+      "class": null,
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          493,
+          72,
+          325,
+          67
+        ],
+        "mobile": [
+          15,
+          86,
+          240,
+          49
+        ]
+      }
+    },
+    {
+      "selector": "#mplus-nav",
+      "tag": "div",
+      "id": "mplus-nav",
+      "class": null,
+      "role": null,
+      "text_prefix": "Menu Health Topics Drugs & Supplements Genetics Medical Tests Medical Encycloped",
+      "bbox": {
+        "desktop": [
+          480,
+          164,
+          960,
+          44
+        ],
+        "mobile": [
+          0,
+          149,
+          375,
+          44
+        ]
+      }
+    },
+    {
+      "selector": "#mplus-search",
+      "tag": "form",
+      "id": "mplus-search",
+      "class": null,
+      "role": null,
+      "text_prefix": "Search MedlinePlus GO",
+      "bbox": {
+        "desktop": [
+          1022,
+          65,
+          400,
+          53
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e56",
+      "tag": "div",
+      "id": "uij-e56",
+      "class": "form-box text-combo",
+      "role": null,
+      "text_prefix": "Search MedlinePlus GO",
+      "bbox": {
+        "desktop": [
+          1022,
+          65,
+          400,
+          53
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e57",
+      "tag": "div",
+      "id": "uij-e57",
+      "class": "form-area",
+      "role": null,
+      "text_prefix": "Search MedlinePlus",
+      "bbox": {
+        "desktop": [
+          1036,
+          79,
+          298,
+          39
+        ]
+      }
+    },
+    {
+      "selector": "#searchtext_primary",
+      "tag": "input",
+      "id": "searchtext_primary",
+      "class": "form-text",
+      "role": "textbox",
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          1036,
+          79,
+          341,
+          39
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e60",
+      "tag": "div",
+      "id": "uij-e60",
+      "class": "button-area",
+      "role": null,
+      "text_prefix": "GO",
+      "bbox": {
+        "desktop": [
+          1334,
+          79,
+          88,
+          39
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e61",
+      "tag": "button",
+      "id": "uij-e61",
+      "class": "form-btn",
+      "role": null,
+      "text_prefix": "GO",
+      "bbox": {
+        "desktop": [
+          1374,
+          79,
+          48,
+          39
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e62",
+      "tag": "div",
+      "id": "uij-e62",
+      "class": "secondarynav",
+      "role": null,
+      "text_prefix": "About MedlinePlus What's New Site Map Customer Support",
+      "bbox": {
+        "desktop": [
+          1053,
+          124,
+          373,
+          21
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e63",
+      "tag": "ul",
+      "id": "uij-e63",
+      "class": "nav-list",
+      "role": null,
+      "text_prefix": "About MedlinePlus What's New Site Map Customer Support",
+      "bbox": {
+        "desktop": [
+          1053,
+          124,
+          373,
+          21
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e64",
+      "tag": "li",
+      "id": "uij-e64",
+      "class": null,
+      "role": null,
+      "text_prefix": "About MedlinePlus",
+      "bbox": {
+        "desktop": [
+          1053,
+          127,
+          116,
+          15
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e65",
+      "tag": "a",
+      "id": "uij-e65",
+      "class": null,
+      "role": null,
+      "text_prefix": "About MedlinePlus",
+      "bbox": {
+        "desktop": [
+          1053,
+          127,
+          116,
+          15
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e66",
+      "tag": "span",
+      "id": "uij-e66",
+      "class": null,
+      "role": null,
+      "text_prefix": "About MedlinePlus",
+      "bbox": {
+        "desktop": [
+          1057,
+          127,
+          108,
+          15
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e67",
+      "tag": "li",
+      "id": "uij-e67",
+      "class": null,
+      "role": null,
+      "text_prefix": "What's New",
+      "bbox": {
+        "desktop": [
+          1173,
+          127,
+          74,
+          15
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e68",
+      "tag": "a",
+      "id": "uij-e68",
+      "class": null,
+      "role": null,
+      "text_prefix": "What's New",
+      "bbox": {
+        "desktop": [
+          1173,
+          127,
+          74,
+          15
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e69",
+      "tag": "li",
+      "id": "uij-e69",
+      "class": null,
+      "role": null,
+      "text_prefix": "Site Map",
+      "bbox": {
+        "desktop": [
+          1251,
+          127,
+          57,
+          15
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e70",
+      "tag": "a",
+      "id": "uij-e70",
+      "class": null,
+      "role": null,
+      "text_prefix": "Site Map",
+      "bbox": {
+        "desktop": [
+          1251,
+          127,
+          57,
+          15
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e71",
+      "tag": "span",
+      "id": "uij-e71",
+      "class": null,
+      "role": null,
+      "text_prefix": "Site Map",
+      "bbox": {
+        "desktop": [
+          1255,
+          127,
+          49,
+          15
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e72",
+      "tag": "li",
+      "id": "uij-e72",
+      "class": null,
+      "role": null,
+      "text_prefix": "Customer Support",
+      "bbox": {
+        "desktop": [
+          1312,
+          127,
+          114,
+          15
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e73",
+      "tag": "a",
+      "id": "uij-e73",
+      "class": null,
+      "role": null,
+      "text_prefix": "Customer Support",
+      "bbox": {
+        "desktop": [
+          1312,
+          127,
+          114,
+          15
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e74",
+      "tag": "span",
+      "id": "uij-e74",
+      "class": null,
+      "role": null,
+      "text_prefix": "Customer Support",
+      "bbox": {
+        "desktop": [
+          1316,
+          127,
+          106,
+          15
+        ]
+      }
+    },
+    {
+      "selector": "#mplus-nav-bar",
+      "tag": "div",
+      "id": "mplus-nav-bar",
+      "class": null,
+      "role": null,
+      "text_prefix": "Health TopicsDrugs & SupplementsGeneticsMedical TestsMedical Encyclopedia",
+      "bbox": {
+        "desktop": [
+          480,
+          165,
+          811,
+          44
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e75",
+      "tag": "ul",
+      "id": "uij-e75",
+      "class": "nav-list",
+      "role": null,
+      "text_prefix": "Health TopicsDrugs & SupplementsGeneticsMedical TestsMedical Encyclopedia",
+      "bbox": {
+        "desktop": [
+          480,
+          165,
+          811,
+          44
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e76",
+      "tag": "li",
+      "id": "uij-e76",
+      "class": null,
+      "role": null,
+      "text_prefix": "Health Topics",
+      "bbox": {
+        "desktop": [
+          480,
+          165,
+          145,
+          44
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e77",
+      "tag": "a",
+      "id": "uij-e77",
+      "class": null,
+      "role": null,
+      "text_prefix": "Health Topics",
+      "bbox": {
+        "desktop": [
+          480,
+          165,
+          145,
+          44
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e78",
+      "tag": "li",
+      "id": "uij-e78",
+      "class": null,
+      "role": null,
+      "text_prefix": "Drugs & Supplements",
+      "bbox": {
+        "desktop": [
+          625,
+          165,
+          211,
+          44
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e79",
+      "tag": "a",
+      "id": "uij-e79",
+      "class": null,
+      "role": null,
+      "text_prefix": "Drugs & Supplements",
+      "bbox": {
+        "desktop": [
+          625,
+          165,
+          211,
+          44
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e80",
+      "tag": "li",
+      "id": "uij-e80",
+      "class": null,
+      "role": null,
+      "text_prefix": "Genetics",
+      "bbox": {
+        "desktop": [
+          836,
+          165,
+          102,
+          44
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e81",
+      "tag": "a",
+      "id": "uij-e81",
+      "class": null,
+      "role": null,
+      "text_prefix": "Genetics",
+      "bbox": {
+        "desktop": [
+          836,
+          165,
+          102,
+          44
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e82",
+      "tag": "li",
+      "id": "uij-e82",
+      "class": null,
+      "role": null,
+      "text_prefix": "Medical Tests",
+      "bbox": {
+        "desktop": [
+          939,
+          165,
+          145,
+          44
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e83",
+      "tag": "a",
+      "id": "uij-e83",
+      "class": null,
+      "role": null,
+      "text_prefix": "Medical Tests",
+      "bbox": {
+        "desktop": [
+          939,
+          165,
+          145,
+          44
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e84",
+      "tag": "li",
+      "id": "uij-e84",
+      "class": null,
+      "role": null,
+      "text_prefix": "Medical Encyclopedia",
+      "bbox": {
+        "desktop": [
+          1084,
+          165,
+          207,
+          44
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e85",
+      "tag": "a",
+      "id": "uij-e85",
+      "class": null,
+      "role": null,
+      "text_prefix": "Medical Encyclopedia",
+      "bbox": {
+        "desktop": [
+          1084,
+          165,
+          207,
+          44
+        ]
+      }
+    },
+    {
+      "selector": "#mplus-lang-toggle",
+      "tag": "a",
+      "id": "mplus-lang-toggle",
+      "class": null,
+      "role": null,
+      "text_prefix": "Español",
+      "bbox": {
+        "desktop": [
+          1351,
+          165,
+          89,
+          43
+        ],
+        "mobile": [
+          297,
+          150,
+          79,
+          43
+        ]
+      }
+    },
+    {
+      "selector": "#mplus-content",
+      "tag": "div",
+      "id": "mplus-content",
+      "class": null,
+      "role": null,
+      "text_prefix": "You Are Here: Home → Health Topics URL of this page: https://medlineplus.gov/hea",
+      "bbox": {
+        "desktop": [
+          480,
+          208,
+          960,
+          945
+        ],
+        "mobile": [
+          0,
+          193,
+          375,
+          751
+        ]
+      }
+    },
+    {
+      "selector": "#breadcrumbs",
+      "tag": "div",
+      "id": "breadcrumbs",
+      "class": null,
+      "role": null,
+      "text_prefix": "You Are Here: Home → Health Topics",
+      "bbox": {
+        "desktop": [
+          500,
+          229,
+          920,
+          21
+        ],
+        "mobile": [
+          10,
+          204,
+          355,
+          21
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e86",
+      "tag": "div",
+      "id": "uij-e86",
+      "class": null,
+      "role": null,
+      "text_prefix": "You Are Here: Home → Health Topics",
+      "bbox": {
+        "desktop": [
+          500,
+          231,
+          144,
+          16
+        ],
+        "mobile": [
+          10,
+          206,
+          144,
+          16
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e88",
+      "tag": "div",
+      "id": "uij-e88",
+      "class": null,
+      "role": null,
+      "text_prefix": "Home →",
+      "bbox": {
+        "desktop": [
+          500,
+          231,
+          58,
+          16
+        ],
+        "mobile": [
+          10,
+          206,
+          58,
+          16
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e89",
+      "tag": "a",
+      "id": "uij-e89",
+      "class": null,
+      "role": null,
+      "text_prefix": "Home",
+      "bbox": {
+        "desktop": [
+          500,
+          231,
+          37,
+          16
+        ],
+        "mobile": [
+          10,
+          206,
+          37,
+          16
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e90",
+      "tag": "span",
+      "id": "uij-e90",
+      "class": null,
+      "role": null,
+      "text_prefix": "Home",
+      "bbox": {
+        "desktop": [
+          500,
+          231,
+          37,
+          16
+        ],
+        "mobile": [
+          10,
+          206,
+          37,
+          16
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e92",
+      "tag": "div",
+      "id": "uij-e92",
+      "class": null,
+      "role": null,
+      "text_prefix": "Health Topics",
+      "bbox": {
+        "desktop": [
+          558,
+          231,
+          86,
+          16
+        ],
+        "mobile": [
+          68,
+          206,
+          86,
+          16
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e93",
+      "tag": "span",
+      "id": "uij-e93",
+      "class": null,
+      "role": null,
+      "text_prefix": "Health Topics",
+      "bbox": {
+        "desktop": [
+          558,
+          231,
+          86,
+          16
+        ],
+        "mobile": [
+          68,
+          206,
+          86,
+          16
+        ]
+      }
+    },
+    {
+      "selector": "#topic_landing",
+      "tag": "div",
+      "id": "topic_landing",
+      "class": null,
+      "role": null,
+      "text_prefix": "Health Topics Read about symptoms, causes, treatment and prevention for over 100",
+      "bbox": {
+        "desktop": [
+          500,
+          270,
+          920,
+          196
+        ],
+        "mobile": [
+          10,
+          245,
+          355,
+          278
+        ]
+      }
+    },
+    {
+      "selector": "#page_health_topic",
+      "tag": "div",
+      "id": "page_health_topic",
+      "class": null,
+      "role": null,
+      "text_prefix": "Health Topics Read about symptoms, causes, treatment and prevention for over 100",
+      "bbox": {
+        "desktop": [
+          500,
+          270,
+          920,
+          196
+        ],
+        "mobile": [
+          10,
+          245,
+          355,
+          278
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e95",
+      "tag": "article",
+      "id": "uij-e95",
+      "class": null,
+      "role": null,
+      "text_prefix": "Health Topics Read about symptoms, causes, treatment and prevention for over 100",
+      "bbox": {
+        "desktop": [
+          500,
+          270,
+          920,
+          196
+        ],
+        "mobile": [
+          10,
+          245,
+          355,
+          278
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e96",
+      "tag": "div",
+      "id": "uij-e96",
+      "class": "page-info",
+      "role": null,
+      "text_prefix": "Health Topics",
+      "bbox": {
+        "desktop": [
+          500,
+          270,
+          920,
+          38
+        ],
+        "mobile": [
+          10,
+          245,
+          355,
+          83
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e97",
+      "tag": "div",
+      "id": "uij-e97",
+      "class": "page-title",
+      "role": null,
+      "text_prefix": "Health Topics",
+      "bbox": {
+        "desktop": [
+          500,
+          270,
+          660,
+          38
+        ],
+        "mobile": [
+          10,
+          245,
+          355,
+          24
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e98",
+      "tag": "h1",
+      "id": "uij-e98",
+      "class": null,
+      "role": null,
+      "text_prefix": "Health Topics",
+      "bbox": {
+        "desktop": [
+          500,
+          270,
+          640,
+          24
+        ],
+        "mobile": [
+          10,
+          245,
+          355,
+          24
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e99",
+      "tag": "div",
+      "id": "uij-e99",
+      "class": "page-actions",
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          1160,
+          270,
+          260,
+          38
+        ],
+        "mobile": [
+          10,
+          283,
+          355,
+          45
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e100",
+      "tag": "div",
+      "id": "uij-e100",
+      "class": "share-buttons",
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          1160,
+          271,
+          260,
+          37
+        ],
+        "mobile": [
+          10,
+          283,
+          355,
+          45
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e101",
+      "tag": "span",
+      "id": "uij-e101",
+      "class": null,
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          1255,
+          288,
+          38,
+          17
+        ],
+        "mobile": [
+          10,
+          283,
+          40,
+          45
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e102",
+      "tag": "a",
+      "id": "uij-e102",
+      "class": "email_icon",
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          1255,
+          271,
+          38,
+          32
+        ],
+        "mobile": [
+          10,
+          283,
+          40,
+          40
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e103",
+      "tag": "img",
+      "id": "uij-e103",
+      "class": "share-icon",
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          1262,
+          274,
+          24,
+          24
+        ],
+        "mobile": [
+          14,
+          287,
+          32,
+          32
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e104",
+      "tag": "span",
+      "id": "uij-e104",
+      "class": null,
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          1297,
+          288,
+          38,
+          17
+        ],
+        "mobile": [
+          60,
+          283,
+          40,
+          45
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e105",
+      "tag": "a",
+      "id": "uij-e105",
+      "class": "share-facebook",
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          1297,
+          271,
+          38,
+          32
+        ],
+        "mobile": [
+          60,
+          283,
+          40,
+          40
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e106",
+      "tag": "img",
+      "id": "uij-e106",
+      "class": "share-icon",
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          1304,
+          274,
+          24,
+          24
+        ],
+        "mobile": [
+          64,
+          287,
+          32,
+          32
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e107",
+      "tag": "span",
+      "id": "uij-e107",
+      "class": null,
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          1340,
+          288,
+          38,
+          17
+        ],
+        "mobile": [
+          111,
+          283,
+          40,
+          45
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e108",
+      "tag": "a",
+      "id": "uij-e108",
+      "class": "share-twitter",
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          1340,
+          271,
+          38,
+          32
+        ],
+        "mobile": [
+          111,
+          283,
+          40,
+          40
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e109",
+      "tag": "img",
+      "id": "uij-e109",
+      "class": "share-icon",
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          1347,
+          274,
+          24,
+          24
+        ],
+        "mobile": [
+          115,
+          287,
+          32,
+          32
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e110",
+      "tag": "span",
+      "id": "uij-e110",
+      "class": null,
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          1382,
+          288,
+          38,
+          17
+        ],
+        "mobile": [
+          161,
+          283,
+          40,
+          45
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e111",
+      "tag": "a",
+      "id": "uij-e111",
+      "class": "share-pinterest",
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          1382,
+          271,
+          38,
+          32
+        ],
+        "mobile": [
+          161,
+          283,
+          40,
+          40
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e112",
+      "tag": "img",
+      "id": "uij-e112",
+      "class": "share-icon",
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          1389,
+          274,
+          24,
+          24
+        ],
+        "mobile": [
+          165,
+          287,
+          32,
+          32
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e113",
+      "tag": "p",
+      "id": "uij-e113",
+      "class": null,
+      "role": null,
+      "text_prefix": "Read about symptoms, causes, treatment and prevention for over 1000 diseases, il",
+      "bbox": {
+        "desktop": [
+          500,
+          308,
+          920,
+          42
+        ],
+        "mobile": [
+          10,
+          332,
+          355,
+          105
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e114",
+      "tag": "nav",
+      "id": "uij-e114",
+      "class": null,
+      "role": "navigation",
+      "text_prefix": "Find topics A-Z Expand SectionExpand Section A B C D E F G H I J K L M N O P Q R",
+      "bbox": {
+        "desktop": [
+          500,
+          370,
+          920,
+          66
+        ],
+        "mobile": [
+          10,
+          457,
+          355,
+          66
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e115",
+      "tag": "div",
+      "id": "uij-e115",
+      "class": "alphanav section azlanding",
+      "role": null,
+      "text_prefix": "Find topics A-Z Expand SectionExpand Section A B C D E F G H I J K L M N O P Q R",
+      "bbox": {
+        "desktop": [
+          500,
+          370,
+          920,
+          66
+        ],
+        "mobile": [
+          10,
+          457,
+          355,
+          66
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e116",
+      "tag": "div",
+      "id": "uij-e116",
+      "class": "section-header",
+      "role": null,
+      "text_prefix": "Find topics A-Z Expand SectionExpand Section",
+      "bbox": {
+        "desktop": [
+          500,
+          370,
+          920,
+          28
+        ],
+        "mobile": [
+          11,
+          458,
+          353,
+          64
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e118",
+      "tag": "h2",
+      "id": "uij-e118",
+      "class": null,
+      "role": null,
+      "text_prefix": "Find topics A-Z",
+      "bbox": {
+        "desktop": [
+          500,
+          370,
+          144,
+          28
+        ],
+        "mobile": [
+          11,
+          458,
+          291,
+          64
+        ]
+      }
+    },
+    {
+      "selector": "#az-section",
+      "tag": "div",
+      "id": "az-section",
+      "class": "section-body bluearea",
+      "role": null,
+      "text_prefix": "A B C D E F G H I J K L M N O P Q R S T U V W XYZ List of All Topics All",
+      "bbox": {
+        "desktop": [
+          500,
+          398,
+          920,
+          38
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e125",
+      "tag": "ul",
+      "id": "uij-e125",
+      "class": "alpha-links",
+      "role": null,
+      "text_prefix": "A B C D E F G H I J K L M N O P Q R S T U V W XYZ List of All Topics All",
+      "bbox": {
+        "desktop": [
+          500,
+          398,
+          920,
+          38
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e126",
+      "tag": "li",
+      "id": "uij-e126",
+      "class": null,
+      "role": null,
+      "text_prefix": "A",
+      "bbox": {
+        "desktop": [
+          506,
+          398,
+          26,
+          38
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e128",
+      "tag": "li",
+      "id": "uij-e128",
+      "class": null,
+      "role": null,
+      "text_prefix": "B",
+      "bbox": {
+        "desktop": [
+          537,
+          398,
+          25,
+          38
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e130",
+      "tag": "li",
+      "id": "uij-e130",
+      "class": null,
+      "role": null,
+      "text_prefix": "C",
+      "bbox": {
+        "desktop": [
+          566,
+          398,
+          26,
+          38
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e132",
+      "tag": "li",
+      "id": "uij-e132",
+      "class": null,
+      "role": null,
+      "text_prefix": "D",
+      "bbox": {
+        "desktop": [
+          596,
+          398,
+          27,
+          38
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e134",
+      "tag": "li",
+      "id": "uij-e134",
+      "class": null,
+      "role": null,
+      "text_prefix": "E",
+      "bbox": {
+        "desktop": [
+          628,
+          398,
+          24,
+          38
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e136",
+      "tag": "li",
+      "id": "uij-e136",
+      "class": null,
+      "role": null,
+      "text_prefix": "F",
+      "bbox": {
+        "desktop": [
+          657,
+          398,
+          24,
+          38
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e138",
+      "tag": "li",
+      "id": "uij-e138",
+      "class": null,
+      "role": null,
+      "text_prefix": "G",
+      "bbox": {
+        "desktop": [
+          685,
+          398,
+          26,
+          38
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e140",
+      "tag": "li",
+      "id": "uij-e140",
+      "class": null,
+      "role": null,
+      "text_prefix": "H",
+      "bbox": {
+        "desktop": [
+          716,
+          398,
+          27,
+          38
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e142",
+      "tag": "li",
+      "id": "uij-e142",
+      "class": null,
+      "role": null,
+      "text_prefix": "I",
+      "bbox": {
+        "desktop": [
+          748,
+          398,
+          21,
+          38
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e144",
+      "tag": "li",
+      "id": "uij-e144",
+      "class": null,
+      "role": null,
+      "text_prefix": "J",
+      "bbox": {
+        "desktop": [
+          773,
+          398,
+          22,
+          38
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e146",
+      "tag": "li",
+      "id": "uij-e146",
+      "class": null,
+      "role": null,
+      "text_prefix": "K",
+      "bbox": {
+        "desktop": [
+          799,
+          398,
+          26,
+          38
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e148",
+      "tag": "li",
+      "id": "uij-e148",
+      "class": null,
+      "role": null,
+      "text_prefix": "L",
+      "bbox": {
+        "desktop": [
+          829,
+          398,
+          24,
+          38
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e150",
+      "tag": "li",
+      "id": "uij-e150",
+      "class": null,
+      "role": null,
+      "text_prefix": "M",
+      "bbox": {
+        "desktop": [
+          858,
+          398,
+          29,
+          38
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e152",
+      "tag": "li",
+      "id": "uij-e152",
+      "class": null,
+      "role": null,
+      "text_prefix": "N",
+      "bbox": {
+        "desktop": [
+          891,
+          398,
+          27,
+          38
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e154",
+      "tag": "li",
+      "id": "uij-e154",
+      "class": null,
+      "role": null,
+      "text_prefix": "O",
+      "bbox": {
+        "desktop": [
+          922,
+          398,
+          28,
+          38
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e156",
+      "tag": "li",
+      "id": "uij-e156",
+      "class": null,
+      "role": null,
+      "text_prefix": "P",
+      "bbox": {
+        "desktop": [
+          954,
+          398,
+          25,
+          38
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e158",
+      "tag": "li",
+      "id": "uij-e158",
+      "class": null,
+      "role": null,
+      "text_prefix": "Q",
+      "bbox": {
+        "desktop": [
+          983,
+          398,
+          28,
+          38
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e160",
+      "tag": "li",
+      "id": "uij-e160",
+      "class": null,
+      "role": null,
+      "text_prefix": "R",
+      "bbox": {
+        "desktop": [
+          1015,
+          398,
+          26,
+          38
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e162",
+      "tag": "li",
+      "id": "uij-e162",
+      "class": null,
+      "role": null,
+      "text_prefix": "S",
+      "bbox": {
+        "desktop": [
+          1045,
+          398,
+          24,
+          38
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e164",
+      "tag": "li",
+      "id": "uij-e164",
+      "class": null,
+      "role": null,
+      "text_prefix": "T",
+      "bbox": {
+        "desktop": [
+          1074,
+          398,
+          26,
+          38
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e166",
+      "tag": "li",
+      "id": "uij-e166",
+      "class": null,
+      "role": null,
+      "text_prefix": "U",
+      "bbox": {
+        "desktop": [
+          1104,
+          398,
+          26,
+          38
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e168",
+      "tag": "li",
+      "id": "uij-e168",
+      "class": null,
+      "role": null,
+      "text_prefix": "V",
+      "bbox": {
+        "desktop": [
+          1135,
+          398,
+          26,
+          38
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e170",
+      "tag": "li",
+      "id": "uij-e170",
+      "class": null,
+      "role": null,
+      "text_prefix": "W",
+      "bbox": {
+        "desktop": [
+          1165,
+          398,
+          29,
+          38
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e172",
+      "tag": "li",
+      "id": "uij-e172",
+      "class": null,
+      "role": null,
+      "text_prefix": "XYZ",
+      "bbox": {
+        "desktop": [
+          1198,
+          398,
+          44,
+          38
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e173",
+      "tag": "a",
+      "id": "uij-e173",
+      "class": null,
+      "role": null,
+      "text_prefix": "XYZ",
+      "bbox": {
+        "desktop": [
+          1206,
+          408,
+          28,
+          17
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e174",
+      "tag": "li",
+      "id": "uij-e174",
+      "class": null,
+      "role": null,
+      "text_prefix": "List of All Topics All",
+      "bbox": {
+        "desktop": [
+          1246,
+          398,
+          138,
+          38
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e175",
+      "tag": "a",
+      "id": "uij-e175",
+      "class": "az_all_full",
+      "role": null,
+      "text_prefix": "List of All Topics",
+      "bbox": {
+        "desktop": [
+          1254,
+          408,
+          122,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e177",
+      "tag": "div",
+      "id": "uij-e177",
+      "class": "row-f",
+      "role": null,
+      "text_prefix": "Body Location/Systems Expand Section Blood, Heart and Circulation Bones, Joints ",
+      "bbox": {
+        "desktop": [
+          500,
+          456,
+          920,
+          10
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e178",
+      "tag": "div",
+      "id": "uij-e178",
+      "class": "col-1",
+      "role": null,
+      "text_prefix": "Body Location/Systems Expand Section Blood, Heart and Circulation Bones, Joints ",
+      "bbox": {
+        "desktop": [
+          500,
+          466,
+          304,
+          591
+        ],
+        "mobile": [
+          10,
+          533,
+          355,
+          76
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e179",
+      "tag": "div",
+      "id": "uij-e179",
+      "class": "inner",
+      "role": null,
+      "text_prefix": "Body Location/Systems Expand Section Blood, Heart and Circulation Bones, Joints ",
+      "bbox": {
+        "desktop": [
+          510,
+          476,
+          284,
+          571
+        ],
+        "mobile": [
+          10,
+          533,
+          355,
+          66
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e180",
+      "tag": "section",
+      "id": "uij-e180",
+      "class": null,
+      "role": null,
+      "text_prefix": "Body Location/Systems Expand Section Blood, Heart and Circulation Bones, Joints ",
+      "bbox": {
+        "desktop": [
+          510,
+          476,
+          284,
+          571
+        ],
+        "mobile": [
+          10,
+          533,
+          355,
+          66
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e181",
+      "tag": "div",
+      "id": "uij-e181",
+      "class": "section",
+      "role": null,
+      "text_prefix": "Body Location/Systems Expand Section Blood, Heart and Circulation Bones, Joints ",
+      "bbox": {
+        "desktop": [
+          510,
+          476,
+          284,
+          571
+        ],
+        "mobile": [
+          10,
+          533,
+          355,
+          66
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e182",
+      "tag": "div",
+      "id": "uij-e182",
+      "class": "section-header",
+      "role": null,
+      "text_prefix": "Body Location/Systems Expand Section",
+      "bbox": {
+        "desktop": [
+          510,
+          476,
+          284,
+          28
+        ],
+        "mobile": [
+          11,
+          534,
+          353,
+          64
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e184",
+      "tag": "h2",
+      "id": "uij-e184",
+      "class": null,
+      "role": null,
+      "text_prefix": "Body Location/Systems",
+      "bbox": {
+        "desktop": [
+          510,
+          476,
+          216,
+          28
+        ],
+        "mobile": [
+          11,
+          534,
+          291,
+          64
+        ]
+      }
+    },
+    {
+      "selector": "#section_bmap",
+      "tag": "div",
+      "id": "section_bmap",
+      "class": "section-body",
+      "role": null,
+      "text_prefix": "Blood, Heart and Circulation Bones, Joints and Muscles Brain and Nerves Digestiv",
+      "bbox": {
+        "desktop": [
+          510,
+          514,
+          284,
+          533
+        ]
+      }
+    },
+    {
+      "selector": "#bodyMaps",
+      "tag": "ul",
+      "id": "bodyMaps",
+      "class": "indent",
+      "role": null,
+      "text_prefix": "Blood, Heart and Circulation Bones, Joints and Muscles Brain and Nerves Digestiv",
+      "bbox": {
+        "desktop": [
+          510,
+          514,
+          284,
+          533
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e190",
+      "tag": "li",
+      "id": "uij-e190",
+      "class": "bls7_us",
+      "role": null,
+      "text_prefix": "Blood, Heart and Circulation",
+      "bbox": {
+        "desktop": [
+          520,
+          514,
+          274,
+          26
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e191",
+      "tag": "a",
+      "id": "uij-e191",
+      "class": null,
+      "role": null,
+      "text_prefix": "Blood, Heart and Circulation",
+      "bbox": {
+        "desktop": [
+          520,
+          514,
+          232,
+          26
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e192",
+      "tag": "li",
+      "id": "uij-e192",
+      "class": "bls10_us",
+      "role": null,
+      "text_prefix": "Bones, Joints and Muscles",
+      "bbox": {
+        "desktop": [
+          520,
+          552,
+          274,
+          26
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e193",
+      "tag": "a",
+      "id": "uij-e193",
+      "class": null,
+      "role": null,
+      "text_prefix": "Bones, Joints and Muscles",
+      "bbox": {
+        "desktop": [
+          520,
+          552,
+          215,
+          26
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e194",
+      "tag": "li",
+      "id": "uij-e194",
+      "class": "bls14_us",
+      "role": null,
+      "text_prefix": "Brain and Nerves",
+      "bbox": {
+        "desktop": [
+          520,
+          590,
+          274,
+          26
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e195",
+      "tag": "a",
+      "id": "uij-e195",
+      "class": null,
+      "role": null,
+      "text_prefix": "Brain and Nerves",
+      "bbox": {
+        "desktop": [
+          520,
+          590,
+          154,
+          26
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e196",
+      "tag": "li",
+      "id": "uij-e196",
+      "class": "bls2_us",
+      "role": null,
+      "text_prefix": "Digestive System",
+      "bbox": {
+        "desktop": [
+          520,
+          628,
+          274,
+          26
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e197",
+      "tag": "a",
+      "id": "uij-e197",
+      "class": null,
+      "role": null,
+      "text_prefix": "Digestive System",
+      "bbox": {
+        "desktop": [
+          520,
+          628,
+          155,
+          26
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e198",
+      "tag": "li",
+      "id": "uij-e198",
+      "class": "bls16_us",
+      "role": null,
+      "text_prefix": "Ear, Nose and Throat",
+      "bbox": {
+        "desktop": [
+          520,
+          666,
+          274,
+          26
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e199",
+      "tag": "a",
+      "id": "uij-e199",
+      "class": null,
+      "role": null,
+      "text_prefix": "Ear, Nose and Throat",
+      "bbox": {
+        "desktop": [
+          520,
+          666,
+          183,
+          26
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e200",
+      "tag": "li",
+      "id": "uij-e200",
+      "class": "bls23_us",
+      "role": null,
+      "text_prefix": "Endocrine System",
+      "bbox": {
+        "desktop": [
+          520,
+          704,
+          274,
+          26
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e201",
+      "tag": "a",
+      "id": "uij-e201",
+      "class": null,
+      "role": null,
+      "text_prefix": "Endocrine System",
+      "bbox": {
+        "desktop": [
+          520,
+          704,
+          160,
+          26
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e202",
+      "tag": "li",
+      "id": "uij-e202",
+      "class": "bls9_us",
+      "role": null,
+      "text_prefix": "Eyes and Vision",
+      "bbox": {
+        "desktop": [
+          520,
+          742,
+          274,
+          26
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e203",
+      "tag": "a",
+      "id": "uij-e203",
+      "class": null,
+      "role": null,
+      "text_prefix": "Eyes and Vision",
+      "bbox": {
+        "desktop": [
+          520,
+          742,
+          146,
+          26
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e204",
+      "tag": "li",
+      "id": "uij-e204",
+      "class": "bls22_us",
+      "role": null,
+      "text_prefix": "Immune System",
+      "bbox": {
+        "desktop": [
+          520,
+          780,
+          274,
+          26
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e205",
+      "tag": "a",
+      "id": "uij-e205",
+      "class": null,
+      "role": null,
+      "text_prefix": "Immune System",
+      "bbox": {
+        "desktop": [
+          520,
+          780,
+          148,
+          26
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e206",
+      "tag": "li",
+      "id": "uij-e206",
+      "class": "bls11_us",
+      "role": null,
+      "text_prefix": "Kidneys and Urinary System",
+      "bbox": {
+        "desktop": [
+          520,
+          818,
+          274,
+          26
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e207",
+      "tag": "a",
+      "id": "uij-e207",
+      "class": null,
+      "role": null,
+      "text_prefix": "Kidneys and Urinary System",
+      "bbox": {
+        "desktop": [
+          520,
+          818,
+          228,
+          26
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e208",
+      "tag": "li",
+      "id": "uij-e208",
+      "class": "bls15_us",
+      "role": null,
+      "text_prefix": "Lungs and Breathing",
+      "bbox": {
+        "desktop": [
+          520,
+          856,
+          274,
+          26
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e209",
+      "tag": "a",
+      "id": "uij-e209",
+      "class": null,
+      "role": null,
+      "text_prefix": "Lungs and Breathing",
+      "bbox": {
+        "desktop": [
+          520,
+          856,
+          180,
+          26
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e210",
+      "tag": "li",
+      "id": "uij-e210",
+      "class": "bls17_us",
+      "role": null,
+      "text_prefix": "Mouth and Teeth",
+      "bbox": {
+        "desktop": [
+          520,
+          893,
+          274,
+          26
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e211",
+      "tag": "a",
+      "id": "uij-e211",
+      "class": null,
+      "role": null,
+      "text_prefix": "Mouth and Teeth",
+      "bbox": {
+        "desktop": [
+          520,
+          893,
+          156,
+          26
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e212",
+      "tag": "li",
+      "id": "uij-e212",
+      "class": "bls18_us",
+      "role": null,
+      "text_prefix": "Skin, Hair and Nails",
+      "bbox": {
+        "desktop": [
+          520,
+          931,
+          274,
+          26
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e213",
+      "tag": "a",
+      "id": "uij-e213",
+      "class": null,
+      "role": null,
+      "text_prefix": "Skin, Hair and Nails",
+      "bbox": {
+        "desktop": [
+          520,
+          931,
+          173,
+          26
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e214",
+      "tag": "li",
+      "id": "uij-e214",
+      "class": "bls42_us",
+      "role": null,
+      "text_prefix": "Female Reproductive System",
+      "bbox": {
+        "desktop": [
+          520,
+          969,
+          274,
+          26
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e215",
+      "tag": "a",
+      "id": "uij-e215",
+      "class": null,
+      "role": null,
+      "text_prefix": "Female Reproductive System",
+      "bbox": {
+        "desktop": [
+          520,
+          969,
+          234,
+          26
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e216",
+      "tag": "li",
+      "id": "uij-e216",
+      "class": "bls43_us",
+      "role": null,
+      "text_prefix": "Male Reproductive System",
+      "bbox": {
+        "desktop": [
+          520,
+          1007,
+          274,
+          26
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e217",
+      "tag": "a",
+      "id": "uij-e217",
+      "class": null,
+      "role": null,
+      "text_prefix": "Male Reproductive System",
+      "bbox": {
+        "desktop": [
+          520,
+          1007,
+          217,
+          26
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e218",
+      "tag": "div",
+      "id": "uij-e218",
+      "class": "col-2",
+      "role": null,
+      "text_prefix": "Disorders and Conditions Expand Section Expand Section Cancers Diabetes Mellitus",
+      "bbox": {
+        "desktop": [
+          804,
+          466,
+          304,
+          646
+        ],
+        "mobile": [
+          10,
+          609,
+          355,
+          152
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e219",
+      "tag": "div",
+      "id": "uij-e219",
+      "class": "inner",
+      "role": null,
+      "text_prefix": "Disorders and Conditions Expand Section Expand Section Cancers Diabetes Mellitus",
+      "bbox": {
+        "desktop": [
+          814,
+          476,
+          284,
+          616
+        ],
+        "mobile": [
+          10,
+          609,
+          355,
+          142
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e220",
+      "tag": "section",
+      "id": "uij-e220",
+      "class": null,
+      "role": null,
+      "text_prefix": "Disorders and Conditions Expand Section Expand Section Cancers Diabetes Mellitus",
+      "bbox": {
+        "desktop": [
+          814,
+          476,
+          284,
+          358
+        ],
+        "mobile": [
+          10,
+          609,
+          355,
+          66
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e221",
+      "tag": "div",
+      "id": "uij-e221",
+      "class": "section",
+      "role": null,
+      "text_prefix": "Disorders and Conditions Expand Section Expand Section Cancers Diabetes Mellitus",
+      "bbox": {
+        "desktop": [
+          814,
+          476,
+          284,
+          358
+        ],
+        "mobile": [
+          10,
+          609,
+          355,
+          66
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e222",
+      "tag": "div",
+      "id": "uij-e222",
+      "class": "section-header",
+      "role": null,
+      "text_prefix": "Disorders and Conditions Expand Section Expand Section",
+      "bbox": {
+        "desktop": [
+          814,
+          476,
+          284,
+          28
+        ],
+        "mobile": [
+          11,
+          610,
+          353,
+          64
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e224",
+      "tag": "h2",
+      "id": "uij-e224",
+      "class": null,
+      "role": null,
+      "text_prefix": "Disorders and Conditions",
+      "bbox": {
+        "desktop": [
+          814,
+          476,
+          237,
+          28
+        ],
+        "mobile": [
+          11,
+          610,
+          291,
+          64
+        ]
+      }
+    },
+    {
+      "selector": "#section_1",
+      "tag": "div",
+      "id": "section_1",
+      "class": "section-body",
+      "role": null,
+      "text_prefix": "Disasters Fitness and Exercise Food and Nutrition Health System Personal Health ",
+      "bbox": {
+        "desktop": [
+          1117,
+          724,
+          284,
+          272
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e231",
+      "tag": "ul",
+      "id": "uij-e231",
+      "class": "indent",
+      "role": null,
+      "text_prefix": "Cancers Diabetes Mellitus Genetics/Birth Defects Infections Injuries and Wounds ",
+      "bbox": {
+        "desktop": [
+          814,
+          514,
+          284,
+          320
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e232",
+      "tag": "li",
+      "id": "uij-e232",
+      "class": null,
+      "role": null,
+      "text_prefix": "Cancers",
+      "bbox": {
+        "desktop": [
+          824,
+          514,
+          274,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e233",
+      "tag": "a",
+      "id": "uij-e233",
+      "class": null,
+      "role": null,
+      "text_prefix": "Cancers",
+      "bbox": {
+        "desktop": [
+          824,
+          514,
+          54,
+          17
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e234",
+      "tag": "li",
+      "id": "uij-e234",
+      "class": null,
+      "role": null,
+      "text_prefix": "Diabetes Mellitus",
+      "bbox": {
+        "desktop": [
+          824,
+          544,
+          274,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e235",
+      "tag": "a",
+      "id": "uij-e235",
+      "class": null,
+      "role": null,
+      "text_prefix": "Diabetes Mellitus",
+      "bbox": {
+        "desktop": [
+          824,
+          544,
+          117,
+          17
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e236",
+      "tag": "li",
+      "id": "uij-e236",
+      "class": null,
+      "role": null,
+      "text_prefix": "Genetics/Birth Defects",
+      "bbox": {
+        "desktop": [
+          824,
+          574,
+          274,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e237",
+      "tag": "a",
+      "id": "uij-e237",
+      "class": null,
+      "role": null,
+      "text_prefix": "Genetics/Birth Defects",
+      "bbox": {
+        "desktop": [
+          824,
+          574,
+          152,
+          17
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e238",
+      "tag": "li",
+      "id": "uij-e238",
+      "class": null,
+      "role": null,
+      "text_prefix": "Infections",
+      "bbox": {
+        "desktop": [
+          824,
+          604,
+          274,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e239",
+      "tag": "a",
+      "id": "uij-e239",
+      "class": null,
+      "role": null,
+      "text_prefix": "Infections",
+      "bbox": {
+        "desktop": [
+          824,
+          604,
+          67,
+          17
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e240",
+      "tag": "li",
+      "id": "uij-e240",
+      "class": null,
+      "role": null,
+      "text_prefix": "Injuries and Wounds",
+      "bbox": {
+        "desktop": [
+          824,
+          634,
+          274,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e241",
+      "tag": "a",
+      "id": "uij-e241",
+      "class": null,
+      "role": null,
+      "text_prefix": "Injuries and Wounds",
+      "bbox": {
+        "desktop": [
+          824,
+          634,
+          138,
+          17
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e242",
+      "tag": "li",
+      "id": "uij-e242",
+      "class": null,
+      "role": null,
+      "text_prefix": "Mental Health and Behavior",
+      "bbox": {
+        "desktop": [
+          824,
+          664,
+          274,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e243",
+      "tag": "a",
+      "id": "uij-e243",
+      "class": null,
+      "role": null,
+      "text_prefix": "Mental Health and Behavior",
+      "bbox": {
+        "desktop": [
+          824,
+          664,
+          186,
+          17
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e244",
+      "tag": "li",
+      "id": "uij-e244",
+      "class": null,
+      "role": null,
+      "text_prefix": "Metabolic Problems",
+      "bbox": {
+        "desktop": [
+          824,
+          694,
+          274,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e245",
+      "tag": "a",
+      "id": "uij-e245",
+      "class": null,
+      "role": null,
+      "text_prefix": "Metabolic Problems",
+      "bbox": {
+        "desktop": [
+          824,
+          694,
+          133,
+          17
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e246",
+      "tag": "li",
+      "id": "uij-e246",
+      "class": null,
+      "role": null,
+      "text_prefix": "Poisoning, Toxicology, Environmental Health",
+      "bbox": {
+        "desktop": [
+          824,
+          724,
+          274,
+          36
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e247",
+      "tag": "a",
+      "id": "uij-e247",
+      "class": null,
+      "role": null,
+      "text_prefix": "Poisoning, Toxicology, Environmental Health",
+      "bbox": {
+        "desktop": [
+          824,
+          724,
+          256,
+          35
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e248",
+      "tag": "li",
+      "id": "uij-e248",
+      "class": null,
+      "role": null,
+      "text_prefix": "Pregnancy and Reproduction",
+      "bbox": {
+        "desktop": [
+          824,
+          772,
+          274,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e249",
+      "tag": "a",
+      "id": "uij-e249",
+      "class": null,
+      "role": null,
+      "text_prefix": "Pregnancy and Reproduction",
+      "bbox": {
+        "desktop": [
+          824,
+          772,
+          195,
+          17
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e250",
+      "tag": "li",
+      "id": "uij-e250",
+      "class": null,
+      "role": null,
+      "text_prefix": "Substance Use and Disorders",
+      "bbox": {
+        "desktop": [
+          824,
+          802,
+          274,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e251",
+      "tag": "a",
+      "id": "uij-e251",
+      "class": null,
+      "role": null,
+      "text_prefix": "Substance Use and Disorders",
+      "bbox": {
+        "desktop": [
+          824,
+          802,
+          197,
+          17
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e252",
+      "tag": "section",
+      "id": "uij-e252",
+      "class": null,
+      "role": null,
+      "text_prefix": "Diagnosis and Therapy Expand Section Expand Section Complementary and Alternativ",
+      "bbox": {
+        "desktop": [
+          814,
+          854,
+          284,
+          238
+        ],
+        "mobile": [
+          10,
+          685,
+          355,
+          66
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e253",
+      "tag": "div",
+      "id": "uij-e253",
+      "class": "section",
+      "role": null,
+      "text_prefix": "Diagnosis and Therapy Expand Section Expand Section Complementary and Alternativ",
+      "bbox": {
+        "desktop": [
+          814,
+          854,
+          284,
+          238
+        ],
+        "mobile": [
+          10,
+          685,
+          355,
+          66
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e254",
+      "tag": "div",
+      "id": "uij-e254",
+      "class": "section-header",
+      "role": null,
+      "text_prefix": "Diagnosis and Therapy Expand Section Expand Section",
+      "bbox": {
+        "desktop": [
+          814,
+          854,
+          284,
+          28
+        ],
+        "mobile": [
+          11,
+          686,
+          353,
+          64
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e256",
+      "tag": "h2",
+      "id": "uij-e256",
+      "class": null,
+      "role": null,
+      "text_prefix": "Diagnosis and Therapy",
+      "bbox": {
+        "desktop": [
+          814,
+          854,
+          214,
+          28
+        ],
+        "mobile": [
+          11,
+          686,
+          291,
+          64
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e263",
+      "tag": "ul",
+      "id": "uij-e263",
+      "class": "indent",
+      "role": null,
+      "text_prefix": "Complementary and Alternative Therapies Diagnostic Tests Drug Therapy Surgery an",
+      "bbox": {
+        "desktop": [
+          814,
+          892,
+          284,
+          200
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e264",
+      "tag": "li",
+      "id": "uij-e264",
+      "class": null,
+      "role": null,
+      "text_prefix": "Complementary and Alternative Therapies",
+      "bbox": {
+        "desktop": [
+          824,
+          892,
+          274,
+          36
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e265",
+      "tag": "a",
+      "id": "uij-e265",
+      "class": null,
+      "role": null,
+      "text_prefix": "Complementary and Alternative Therapies",
+      "bbox": {
+        "desktop": [
+          824,
+          892,
+          215,
+          35
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e266",
+      "tag": "li",
+      "id": "uij-e266",
+      "class": null,
+      "role": null,
+      "text_prefix": "Diagnostic Tests",
+      "bbox": {
+        "desktop": [
+          824,
+          940,
+          274,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e267",
+      "tag": "a",
+      "id": "uij-e267",
+      "class": null,
+      "role": null,
+      "text_prefix": "Diagnostic Tests",
+      "bbox": {
+        "desktop": [
+          824,
+          940,
+          112,
+          17
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e268",
+      "tag": "li",
+      "id": "uij-e268",
+      "class": null,
+      "role": null,
+      "text_prefix": "Drug Therapy",
+      "bbox": {
+        "desktop": [
+          824,
+          970,
+          274,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e269",
+      "tag": "a",
+      "id": "uij-e269",
+      "class": null,
+      "role": null,
+      "text_prefix": "Drug Therapy",
+      "bbox": {
+        "desktop": [
+          824,
+          970,
+          93,
+          17
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e270",
+      "tag": "li",
+      "id": "uij-e270",
+      "class": null,
+      "role": null,
+      "text_prefix": "Surgery and Rehabilitation",
+      "bbox": {
+        "desktop": [
+          824,
+          1000,
+          274,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e271",
+      "tag": "a",
+      "id": "uij-e271",
+      "class": null,
+      "role": null,
+      "text_prefix": "Surgery and Rehabilitation",
+      "bbox": {
+        "desktop": [
+          824,
+          1000,
+          179,
+          17
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e272",
+      "tag": "li",
+      "id": "uij-e272",
+      "class": null,
+      "role": null,
+      "text_prefix": "Symptoms",
+      "bbox": {
+        "desktop": [
+          824,
+          1030,
+          274,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e273",
+      "tag": "a",
+      "id": "uij-e273",
+      "class": null,
+      "role": null,
+      "text_prefix": "Symptoms",
+      "bbox": {
+        "desktop": [
+          824,
+          1030,
+          71,
+          17
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e274",
+      "tag": "li",
+      "id": "uij-e274",
+      "class": null,
+      "role": null,
+      "text_prefix": "Transplantation and Donation",
+      "bbox": {
+        "desktop": [
+          824,
+          1060,
+          274,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e275",
+      "tag": "a",
+      "id": "uij-e275",
+      "class": null,
+      "role": null,
+      "text_prefix": "Transplantation and Donation",
+      "bbox": {
+        "desktop": [
+          824,
+          1060,
+          203,
+          17
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e276",
+      "tag": "div",
+      "id": "uij-e276",
+      "class": "col-2",
+      "role": null,
+      "text_prefix": "Demographic Groups Expand Section Expand Section Children and Teenagers Men Olde",
+      "bbox": {
+        "desktop": [
+          1107,
+          466,
+          304,
+          550
+        ],
+        "mobile": [
+          10,
+          761,
+          355,
+          152
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e277",
+      "tag": "div",
+      "id": "uij-e277",
+      "class": "inner",
+      "role": null,
+      "text_prefix": "Demographic Groups Expand Section Expand Section Children and Teenagers Men Olde",
+      "bbox": {
+        "desktop": [
+          1117,
+          476,
+          284,
+          520
+        ],
+        "mobile": [
+          10,
+          761,
+          355,
+          142
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e278",
+      "tag": "section",
+      "id": "uij-e278",
+      "class": null,
+      "role": null,
+      "text_prefix": "Demographic Groups Expand Section Expand Section Children and Teenagers Men Olde",
+      "bbox": {
+        "desktop": [
+          1117,
+          476,
+          284,
+          190
+        ],
+        "mobile": [
+          10,
+          761,
+          355,
+          66
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e279",
+      "tag": "div",
+      "id": "uij-e279",
+      "class": "section",
+      "role": null,
+      "text_prefix": "Demographic Groups Expand Section Expand Section Children and Teenagers Men Olde",
+      "bbox": {
+        "desktop": [
+          1117,
+          476,
+          284,
+          190
+        ],
+        "mobile": [
+          10,
+          761,
+          355,
+          66
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e280",
+      "tag": "div",
+      "id": "uij-e280",
+      "class": "section-header",
+      "role": null,
+      "text_prefix": "Demographic Groups Expand Section Expand Section",
+      "bbox": {
+        "desktop": [
+          1117,
+          476,
+          284,
+          28
+        ],
+        "mobile": [
+          11,
+          762,
+          353,
+          64
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e282",
+      "tag": "h2",
+      "id": "uij-e282",
+      "class": null,
+      "role": null,
+      "text_prefix": "Demographic Groups",
+      "bbox": {
+        "desktop": [
+          1117,
+          476,
+          196,
+          28
+        ],
+        "mobile": [
+          11,
+          762,
+          291,
+          64
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e289",
+      "tag": "ul",
+      "id": "uij-e289",
+      "class": "indent",
+      "role": null,
+      "text_prefix": "Children and Teenagers Men Older Adults Population Groups Women",
+      "bbox": {
+        "desktop": [
+          1117,
+          514,
+          284,
+          152
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e290",
+      "tag": "li",
+      "id": "uij-e290",
+      "class": null,
+      "role": null,
+      "text_prefix": "Children and Teenagers",
+      "bbox": {
+        "desktop": [
+          1127,
+          514,
+          274,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e291",
+      "tag": "a",
+      "id": "uij-e291",
+      "class": null,
+      "role": null,
+      "text_prefix": "Children and Teenagers",
+      "bbox": {
+        "desktop": [
+          1127,
+          514,
+          162,
+          17
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e292",
+      "tag": "li",
+      "id": "uij-e292",
+      "class": null,
+      "role": null,
+      "text_prefix": "Men",
+      "bbox": {
+        "desktop": [
+          1127,
+          544,
+          274,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e293",
+      "tag": "a",
+      "id": "uij-e293",
+      "class": null,
+      "role": null,
+      "text_prefix": "Men",
+      "bbox": {
+        "desktop": [
+          1127,
+          544,
+          29,
+          17
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e294",
+      "tag": "li",
+      "id": "uij-e294",
+      "class": null,
+      "role": null,
+      "text_prefix": "Older Adults",
+      "bbox": {
+        "desktop": [
+          1127,
+          574,
+          274,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e295",
+      "tag": "a",
+      "id": "uij-e295",
+      "class": null,
+      "role": null,
+      "text_prefix": "Older Adults",
+      "bbox": {
+        "desktop": [
+          1127,
+          574,
+          85,
+          17
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e296",
+      "tag": "li",
+      "id": "uij-e296",
+      "class": null,
+      "role": null,
+      "text_prefix": "Population Groups",
+      "bbox": {
+        "desktop": [
+          1127,
+          604,
+          274,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e297",
+      "tag": "a",
+      "id": "uij-e297",
+      "class": null,
+      "role": null,
+      "text_prefix": "Population Groups",
+      "bbox": {
+        "desktop": [
+          1127,
+          604,
+          126,
+          17
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e298",
+      "tag": "li",
+      "id": "uij-e298",
+      "class": null,
+      "role": null,
+      "text_prefix": "Women",
+      "bbox": {
+        "desktop": [
+          1127,
+          634,
+          274,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e299",
+      "tag": "a",
+      "id": "uij-e299",
+      "class": null,
+      "role": null,
+      "text_prefix": "Women",
+      "bbox": {
+        "desktop": [
+          1127,
+          634,
+          50,
+          17
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e300",
+      "tag": "section",
+      "id": "uij-e300",
+      "class": null,
+      "role": null,
+      "text_prefix": "Health and Wellness Expand Section Expand Section Disasters Fitness and Exercise",
+      "bbox": {
+        "desktop": [
+          1117,
+          686,
+          284,
+          310
+        ],
+        "mobile": [
+          10,
+          837,
+          355,
+          66
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e301",
+      "tag": "div",
+      "id": "uij-e301",
+      "class": "section",
+      "role": null,
+      "text_prefix": "Health and Wellness Expand Section Expand Section Disasters Fitness and Exercise",
+      "bbox": {
+        "desktop": [
+          1117,
+          686,
+          284,
+          310
+        ],
+        "mobile": [
+          10,
+          837,
+          355,
+          66
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e302",
+      "tag": "div",
+      "id": "uij-e302",
+      "class": "section-header",
+      "role": null,
+      "text_prefix": "Health and Wellness Expand Section Expand Section",
+      "bbox": {
+        "desktop": [
+          1117,
+          686,
+          284,
+          28
+        ],
+        "mobile": [
+          11,
+          838,
+          353,
+          64
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e304",
+      "tag": "h2",
+      "id": "uij-e304",
+      "class": null,
+      "role": null,
+      "text_prefix": "Health and Wellness",
+      "bbox": {
+        "desktop": [
+          1117,
+          686,
+          187,
+          28
+        ],
+        "mobile": [
+          11,
+          838,
+          291,
+          64
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e311",
+      "tag": "ul",
+      "id": "uij-e311",
+      "class": "indent",
+      "role": null,
+      "text_prefix": "Disasters Fitness and Exercise Food and Nutrition Health System Personal Health ",
+      "bbox": {
+        "desktop": [
+          1117,
+          724,
+          284,
+          272
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e312",
+      "tag": "li",
+      "id": "uij-e312",
+      "class": null,
+      "role": null,
+      "text_prefix": "Disasters",
+      "bbox": {
+        "desktop": [
+          1127,
+          724,
+          274,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e313",
+      "tag": "a",
+      "id": "uij-e313",
+      "class": null,
+      "role": null,
+      "text_prefix": "Disasters",
+      "bbox": {
+        "desktop": [
+          1127,
+          724,
+          62,
+          17
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e314",
+      "tag": "li",
+      "id": "uij-e314",
+      "class": null,
+      "role": null,
+      "text_prefix": "Fitness and Exercise",
+      "bbox": {
+        "desktop": [
+          1127,
+          754,
+          274,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e315",
+      "tag": "a",
+      "id": "uij-e315",
+      "class": null,
+      "role": null,
+      "text_prefix": "Fitness and Exercise",
+      "bbox": {
+        "desktop": [
+          1127,
+          754,
+          138,
+          17
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e316",
+      "tag": "li",
+      "id": "uij-e316",
+      "class": null,
+      "role": null,
+      "text_prefix": "Food and Nutrition",
+      "bbox": {
+        "desktop": [
+          1127,
+          784,
+          274,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e317",
+      "tag": "a",
+      "id": "uij-e317",
+      "class": null,
+      "role": null,
+      "text_prefix": "Food and Nutrition",
+      "bbox": {
+        "desktop": [
+          1127,
+          784,
+          128,
+          17
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e318",
+      "tag": "li",
+      "id": "uij-e318",
+      "class": null,
+      "role": null,
+      "text_prefix": "Health System",
+      "bbox": {
+        "desktop": [
+          1127,
+          814,
+          274,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e319",
+      "tag": "a",
+      "id": "uij-e319",
+      "class": null,
+      "role": null,
+      "text_prefix": "Health System",
+      "bbox": {
+        "desktop": [
+          1127,
+          814,
+          96,
+          17
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e320",
+      "tag": "li",
+      "id": "uij-e320",
+      "class": null,
+      "role": null,
+      "text_prefix": "Personal Health Issues",
+      "bbox": {
+        "desktop": [
+          1127,
+          844,
+          274,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e321",
+      "tag": "a",
+      "id": "uij-e321",
+      "class": null,
+      "role": null,
+      "text_prefix": "Personal Health Issues",
+      "bbox": {
+        "desktop": [
+          1127,
+          844,
+          152,
+          17
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e322",
+      "tag": "li",
+      "id": "uij-e322",
+      "class": null,
+      "role": null,
+      "text_prefix": "Safety Issues",
+      "bbox": {
+        "desktop": [
+          1127,
+          874,
+          274,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e323",
+      "tag": "a",
+      "id": "uij-e323",
+      "class": null,
+      "role": null,
+      "text_prefix": "Safety Issues",
+      "bbox": {
+        "desktop": [
+          1127,
+          874,
+          87,
+          17
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e324",
+      "tag": "li",
+      "id": "uij-e324",
+      "class": null,
+      "role": null,
+      "text_prefix": "Sexual Health Issues",
+      "bbox": {
+        "desktop": [
+          1127,
+          904,
+          274,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e325",
+      "tag": "a",
+      "id": "uij-e325",
+      "class": null,
+      "role": null,
+      "text_prefix": "Sexual Health Issues",
+      "bbox": {
+        "desktop": [
+          1127,
+          904,
+          139,
+          17
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e326",
+      "tag": "li",
+      "id": "uij-e326",
+      "class": null,
+      "role": null,
+      "text_prefix": "Social/Family Issues",
+      "bbox": {
+        "desktop": [
+          1127,
+          934,
+          274,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e327",
+      "tag": "a",
+      "id": "uij-e327",
+      "class": null,
+      "role": null,
+      "text_prefix": "Social/Family Issues",
+      "bbox": {
+        "desktop": [
+          1127,
+          934,
+          137,
+          17
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e328",
+      "tag": "li",
+      "id": "uij-e328",
+      "class": null,
+      "role": null,
+      "text_prefix": "Wellness and Lifestyle",
+      "bbox": {
+        "desktop": [
+          1127,
+          964,
+          274,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e329",
+      "tag": "a",
+      "id": "uij-e329",
+      "class": null,
+      "role": null,
+      "text_prefix": "Wellness and Lifestyle",
+      "bbox": {
+        "desktop": [
+          1127,
+          964,
+          149,
+          17
+        ]
+      }
+    },
+    {
+      "selector": "#page-feedback",
+      "tag": "div",
+      "id": "page-feedback",
+      "class": null,
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          500,
+          1112,
+          920,
+          21
+        ],
+        "mobile": [
+          10,
+          913,
+          355,
+          21
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e330",
+      "tag": "footer",
+      "id": "uij-e330",
+      "class": null,
+      "role": null,
+      "text_prefix": "About MedlinePlus What's New Site Map Customer Support Subscribe to RSS Connect ",
+      "bbox": {
+        "desktop": [
+          480,
+          1173,
+          960,
+          114
+        ],
+        "mobile": [
+          0,
+          964,
+          375,
+          550
+        ]
+      }
+    },
+    {
+      "selector": "#mplus-footer",
+      "tag": "div",
+      "id": "mplus-footer",
+      "class": null,
+      "role": null,
+      "text_prefix": "About MedlinePlus What's New Site Map Customer Support Subscribe to RSS Connect ",
+      "bbox": {
+        "desktop": [
+          480,
+          1173,
+          960,
+          114
+        ],
+        "mobile": [
+          0,
+          964,
+          375,
+          550
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e331",
+      "tag": "div",
+      "id": "uij-e331",
+      "class": "footer1",
+      "role": null,
+      "text_prefix": "About MedlinePlus What's New Site Map Customer Support Subscribe to RSS Connect ",
+      "bbox": {
+        "desktop": [
+          480,
+          1174,
+          960,
+          50
+        ],
+        "mobile": [
+          0,
+          965,
+          375,
+          244
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e342",
+      "tag": "ul",
+      "id": "uij-e342",
+      "class": "follow-footer",
+      "role": null,
+      "text_prefix": "Subscribe to RSS Connect with NLM",
+      "bbox": {
+        "desktop": [
+          813,
+          1184,
+          293,
+          29
+        ],
+        "mobile": [
+          12,
+          1127,
+          351,
+          61
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e343",
+      "tag": "li",
+      "id": "uij-e343",
+      "class": null,
+      "role": null,
+      "text_prefix": "Subscribe to RSS",
+      "bbox": {
+        "desktop": [
+          813,
+          1184,
+          157,
+          29
+        ],
+        "mobile": [
+          12,
+          1127,
+          351,
+          35
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e344",
+      "tag": "a",
+      "id": "uij-e344",
+      "class": "follow-item",
+      "role": null,
+      "text_prefix": "Subscribe to RSS",
+      "bbox": {
+        "desktop": [
+          821,
+          1184,
+          149,
+          29
+        ],
+        "mobile": [
+          12,
+          1127,
+          143,
+          35
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e345",
+      "tag": "img",
+      "id": "uij-e345",
+      "class": "social-media-toolkit-icon",
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          942,
+          1184,
+          29,
+          29
+        ],
+        "mobile": [
+          123,
+          1130,
+          29,
+          29
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e346",
+      "tag": "li",
+      "id": "uij-e346",
+      "class": null,
+      "role": null,
+      "text_prefix": "Connect with NLM",
+      "bbox": {
+        "desktop": [
+          975,
+          1188,
+          131,
+          18
+        ],
+        "mobile": [
+          12,
+          1167,
+          351,
+          21
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e347",
+      "tag": "a",
+      "id": "uij-e347",
+      "class": "follow-item",
+      "role": null,
+      "text_prefix": "Connect with NLM",
+      "bbox": {
+        "desktop": [
+          983,
+          1188,
+          123,
+          18
+        ],
+        "mobile": [
+          12,
+          1167,
+          115,
+          21
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e348",
+      "tag": "div",
+      "id": "uij-e348",
+      "class": "footer2",
+      "role": null,
+      "text_prefix": "NLM Web Policies Copyright Accessibility Guidelines for Links Viewers & Players ",
+      "bbox": {
+        "desktop": [
+          480,
+          1234,
+          960,
+          53
+        ],
+        "mobile": [
+          0,
+          1209,
+          375,
+          305
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e349",
+      "tag": "ul",
+      "id": "uij-e349",
+      "class": null,
+      "role": null,
+      "text_prefix": "NLM Web Policies Copyright Accessibility Guidelines for Links Viewers & Players ",
+      "bbox": {
+        "desktop": [
+          531,
+          1234,
+          857,
+          22
+        ],
+        "mobile": [
+          12,
+          1209,
+          351,
+          171
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e350",
+      "tag": "li",
+      "id": "uij-e350",
+      "class": null,
+      "role": null,
+      "text_prefix": "NLM Web Policies",
+      "bbox": {
+        "desktop": [
+          531,
+          1238,
+          97,
+          14
+        ],
+        "mobile": [
+          12,
+          1209,
+          351,
+          21
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e351",
+      "tag": "a",
+      "id": "uij-e351",
+      "class": null,
+      "role": null,
+      "text_prefix": "NLM Web Policies",
+      "bbox": {
+        "desktop": [
+          533,
+          1238,
+          93,
+          14
+        ],
+        "mobile": [
+          12,
+          1209,
+          111,
+          21
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e352",
+      "tag": "li",
+      "id": "uij-e352",
+      "class": null,
+      "role": null,
+      "text_prefix": "Copyright",
+      "bbox": {
+        "desktop": [
+          631,
+          1238,
+          56,
+          14
+        ],
+        "mobile": [
+          12,
+          1230,
+          351,
+          21
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e353",
+      "tag": "a",
+      "id": "uij-e353",
+      "class": null,
+      "role": null,
+      "text_prefix": "Copyright",
+      "bbox": {
+        "desktop": [
+          633,
+          1238,
+          52,
+          14
+        ],
+        "mobile": [
+          12,
+          1230,
+          64,
+          21
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e354",
+      "tag": "li",
+      "id": "uij-e354",
+      "class": null,
+      "role": null,
+      "text_prefix": "Accessibility",
+      "bbox": {
+        "desktop": [
+          691,
+          1238,
+          70,
+          14
+        ],
+        "mobile": [
+          12,
+          1251,
+          351,
+          21
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e355",
+      "tag": "a",
+      "id": "uij-e355",
+      "class": null,
+      "role": null,
+      "text_prefix": "Accessibility",
+      "bbox": {
+        "desktop": [
+          693,
+          1238,
+          66,
+          14
+        ],
+        "mobile": [
+          12,
+          1251,
+          81,
+          21
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e356",
+      "tag": "li",
+      "id": "uij-e356",
+      "class": null,
+      "role": null,
+      "text_prefix": "Guidelines for Links",
+      "bbox": {
+        "desktop": [
+          764,
+          1238,
+          110,
+          14
+        ],
+        "mobile": [
+          12,
+          1273,
+          351,
+          21
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e357",
+      "tag": "a",
+      "id": "uij-e357",
+      "class": null,
+      "role": null,
+      "text_prefix": "Guidelines for Links",
+      "bbox": {
+        "desktop": [
+          766,
+          1238,
+          106,
+          14
+        ],
+        "mobile": [
+          12,
+          1273,
+          127,
+          21
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e358",
+      "tag": "li",
+      "id": "uij-e358",
+      "class": null,
+      "role": null,
+      "text_prefix": "Viewers & Players",
+      "bbox": {
+        "desktop": [
+          878,
+          1238,
+          97,
+          14
+        ],
+        "mobile": [
+          12,
+          1294,
+          351,
+          21
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e359",
+      "tag": "a",
+      "id": "uij-e359",
+      "class": null,
+      "role": null,
+      "text_prefix": "Viewers & Players",
+      "bbox": {
+        "desktop": [
+          880,
+          1238,
+          93,
+          14
+        ],
+        "mobile": [
+          12,
+          1294,
+          113,
+          21
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e360",
+      "tag": "li",
+      "id": "uij-e360",
+      "class": null,
+      "role": null,
+      "text_prefix": "HHS Vulnerability Disclosure",
+      "bbox": {
+        "desktop": [
+          979,
+          1238,
+          156,
+          14
+        ],
+        "mobile": [
+          12,
+          1316,
+          351,
+          21
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e361",
+      "tag": "a",
+      "id": "uij-e361",
+      "class": null,
+      "role": null,
+      "text_prefix": "HHS Vulnerability Disclosure",
+      "bbox": {
+        "desktop": [
+          981,
+          1238,
+          152,
+          14
+        ],
+        "mobile": [
+          12,
+          1316,
+          181,
+          21
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e362",
+      "tag": "li",
+      "id": "uij-e362",
+      "class": null,
+      "role": null,
+      "text_prefix": "MedlinePlus Connect for EHRs",
+      "bbox": {
+        "desktop": [
+          1138,
+          1238,
+          164,
+          14
+        ],
+        "mobile": [
+          12,
+          1337,
+          351,
+          21
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e363",
+      "tag": "a",
+      "id": "uij-e363",
+      "class": null,
+      "role": null,
+      "text_prefix": "MedlinePlus Connect for EHRs",
+      "bbox": {
+        "desktop": [
+          1140,
+          1238,
+          160,
+          14
+        ],
+        "mobile": [
+          12,
+          1337,
+          189,
+          21
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e364",
+      "tag": "li",
+      "id": "uij-e364",
+      "class": null,
+      "role": null,
+      "text_prefix": "For Developers",
+      "bbox": {
+        "desktop": [
+          1305,
+          1238,
+          84,
+          14
+        ],
+        "mobile": [
+          12,
+          1358,
+          351,
+          21
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e365",
+      "tag": "a",
+      "id": "uij-e365",
+      "class": null,
+      "role": null,
+      "text_prefix": "For Developers",
+      "bbox": {
+        "desktop": [
+          1307,
+          1238,
+          80,
+          14
+        ],
+        "mobile": [
+          12,
+          1358,
+          96,
+          21
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e366",
+      "tag": "div",
+      "id": "uij-e366",
+      "class": "address",
+      "role": null,
+      "text_prefix": "National Library of Medicine 8600 Rockville Pike, Bethesda, MD 20894 U.S. Depart",
+      "bbox": {
+        "desktop": [
+          491,
+          1256,
+          938,
+          22
+        ],
+        "mobile": [
+          12,
+          1380,
+          351,
+          104
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e367",
+      "tag": "a",
+      "id": "uij-e367",
+      "class": null,
+      "role": null,
+      "text_prefix": "National Library of Medicine",
+      "bbox": {
+        "desktop": [
+          565,
+          1256,
+          150,
+          22
+        ],
+        "mobile": [
+          12,
+          1400,
+          351,
+          21
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e368",
+      "tag": "span",
+      "id": "uij-e368",
+      "class": null,
+      "role": null,
+      "text_prefix": "8600 Rockville Pike, Bethesda, MD 20894",
+      "bbox": {
+        "desktop": [
+          720,
+          1260,
+          222,
+          13
+        ],
+        "mobile": [
+          12,
+          1424,
+          242,
+          15
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e369",
+      "tag": "a",
+      "id": "uij-e369",
+      "class": null,
+      "role": null,
+      "text_prefix": "U.S. Department of Health and Human Services",
+      "bbox": {
+        "desktop": [
+          947,
+          1256,
+          250,
+          22
+        ],
+        "mobile": [
+          12,
+          1442,
+          351,
+          21
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e370",
+      "tag": "a",
+      "id": "uij-e370",
+      "class": null,
+      "role": null,
+      "text_prefix": "National Institutes of Health",
+      "bbox": {
+        "desktop": [
+          1205,
+          1256,
+          150,
+          22
+        ],
+        "mobile": [
+          12,
+          1463,
+          351,
+          21
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,4823 @@
+{
+  "engine": "axe-core",
+  "engine_version": "4.10.3",
+  "violations": [
+    {
+      "rule_id": "empty-heading",
+      "impact": "minor",
+      "tags": [],
+      "description": "Ensure headings have discernible text",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/empty-heading?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e333"
+          ],
+          "selector": "#uij-e333",
+          "bbox": [
+            330,
+            632,
+            1260,
+            0
+          ],
+          "html": "<h1 class=\"wp-block-whitehouse-topper__headline\" id=\"uij-e333\">\n</h1>"
+        }
+      ]
+    },
+    {
+      "rule_id": "label-title-only",
+      "impact": "serious",
+      "tags": [],
+      "description": "Ensure that every form element has a visible label and is not solely labeled using hidden labels, or the title or aria-describedby attributes",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/label-title-only?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e630"
+          ],
+          "selector": "#uij-e630",
+          "bbox": [
+            1433,
+            4684,
+            372,
+            29
+          ],
+          "html": "<input id=\"uij-e630\" name=\"EMAIL\" placeholder=\"Your email\" required=\"\" title=\"Your email\" type=\"email\" value=\"\">"
+        }
+      ]
+    },
+    {
+      "rule_id": "landmark-unique",
+      "impact": "moderate",
+      "tags": [],
+      "description": "Ensure landmarks are unique",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/landmark-unique?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e39"
+          ],
+          "selector": "#uij-e39",
+          "bbox": [
+            32,
+            110,
+            1856,
+            45
+          ],
+          "html": "<nav class=\"wp-block-whitehouse-header__primary-navigation\" data-wp-init=\"callbacks.initPrimaryNavigation\" data-wp-on-async--scroll=\"callbacks.handlePrimaryNavigationScroll\" data-wp-on-async-window--r"
+        }
+      ]
+    }
+  ],
+  "incomplete": [
+    {
+      "rule_id": "aria-allowed-role",
+      "impact": "minor",
+      "tags": [],
+      "description": "Ensure role attribute has an appropriate value for the element",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/aria-allowed-role?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#wp-block-whitehouse-header-5__search"
+          ],
+          "selector": "#wp-block-whitehouse-header-5__search",
+          "bbox": null,
+          "html": "<search class=\"wp-block-whitehouse-header__search\" data-wp-class--is-active=\"state.isSearchActive\" data-wp-init=\"callbacks.initSearch\" data-wp-watch=\"callbacks.watchSearch\" id=\"wp-block-whitehouse-hea"
+        }
+      ]
+    },
+    {
+      "rule_id": "aria-valid-attr-value",
+      "impact": "critical",
+      "tags": [
+        "wcag2a",
+        "wcag412"
+      ],
+      "description": "Ensure all ARIA attributes have valid values",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/aria-valid-attr-value?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e7"
+          ],
+          "selector": "#uij-e7",
+          "bbox": null,
+          "html": "<button aria-controls=\"wp-block-whitehouse-header-5__menu\" aria-haspopup=\"dialog\" class=\"button-icon\" data-wp-bind--aria-expanded=\"callbacks.isMenuActive\" data-wp-bind--title=\"callbacks.getMenuButtonT"
+        },
+        {
+          "target": [
+            "#uij-e25"
+          ],
+          "selector": "#uij-e25",
+          "bbox": null,
+          "html": "<button aria-controls=\"wp-block-whitehouse-header-5__search\" aria-haspopup=\"dialog\" class=\"button-icon\" data-wp-bind--aria-expanded=\"callbacks.isSearchActive\" data-wp-bind--title=\"callbacks.getSearchB"
+        }
+      ]
+    },
+    {
+      "rule_id": "color-contrast",
+      "impact": "serious",
+      "tags": [
+        "wcag2aa",
+        "wcag143"
+      ],
+      "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e14"
+          ],
+          "selector": "#uij-e14",
+          "bbox": null,
+          "html": "<span data-wp-watch=\"callbacks.getMenuButtonLabel\" id=\"uij-e14\">Menu</span>"
+        },
+        {
+          "target": [
+            "#uij-e26"
+          ],
+          "selector": "#uij-e26",
+          "bbox": null,
+          "html": "<span data-wp-watch=\"callbacks.getSearchButtonLabel\" id=\"uij-e26\">Search</span>"
+        },
+        {
+          "target": [
+            "#uij-e44"
+          ],
+          "selector": "#uij-e44",
+          "bbox": null,
+          "html": "<a data-wp-on-async--mouseenter=\"callbacks.handlePopoverMenuMouseover\" data-wp-on-async--mouseleave=\"callbacks.handlePopoverMenuMouseout\" href=\"https://www.whitehouse.gov/news/\" id=\"uij-e44\">News</a>"
+        },
+        {
+          "target": [
+            "#uij-e45"
+          ],
+          "selector": "#uij-e45",
+          "bbox": null,
+          "html": "<a data-wp-on-async--mouseenter=\"callbacks.handlePopoverMenuMouseover\" data-wp-on-async--mouseleave=\"callbacks.handlePopoverMenuMouseout\" href=\"https://www.whitehouse.gov/gallery/\" id=\"uij-e45\">Galler"
+        },
+        {
+          "target": [
+            "#uij-e46"
+          ],
+          "selector": "#uij-e46",
+          "bbox": null,
+          "html": "<a data-wp-on-async--mouseenter=\"callbacks.handlePopoverMenuMouseover\" data-wp-on-async--mouseleave=\"callbacks.handlePopoverMenuMouseout\" href=\"https://www.whitehouse.gov/live/\" id=\"uij-e46\">Livestrea"
+        },
+        {
+          "target": [
+            "#uij-e47"
+          ],
+          "selector": "#uij-e47",
+          "bbox": null,
+          "html": "<a data-wp-on-async--mouseenter=\"callbacks.handlePopoverMenuMouseover\" data-wp-on-async--mouseleave=\"callbacks.handlePopoverMenuMouseout\" href=\"https://www.whitehouse.gov/election-integrity/\" id=\"uij-"
+        },
+        {
+          "target": [
+            "#uij-e48"
+          ],
+          "selector": "#uij-e48",
+          "bbox": null,
+          "html": "<a data-wp-on-async--mouseenter=\"callbacks.handlePopoverMenuMouseover\" data-wp-on-async--mouseleave=\"callbacks.handlePopoverMenuMouseout\" href=\"https://www.whitehouse.gov/saveamerica/\" id=\"uij-e48\">SA"
+        },
+        {
+          "target": [
+            "#uij-e49"
+          ],
+          "selector": "#uij-e49",
+          "bbox": null,
+          "html": "<a data-wp-on-async--mouseenter=\"callbacks.handlePopoverMenuMouseover\" data-wp-on-async--mouseleave=\"callbacks.handlePopoverMenuMouseout\" href=\"https://trumpaccounts.gov\" id=\"uij-e49\" rel=\"noopener\" t"
+        },
+        {
+          "target": [
+            "#uij-e50"
+          ],
+          "selector": "#uij-e50",
+          "bbox": null,
+          "html": "<a data-wp-on-async--mouseenter=\"callbacks.handlePopoverMenuMouseover\" data-wp-on-async--mouseleave=\"callbacks.handlePopoverMenuMouseout\" href=\"https://www.whitehouse.gov/ratepayer-protection-pledge/\""
+        },
+        {
+          "target": [
+            "#uij-e51"
+          ],
+          "selector": "#uij-e51",
+          "bbox": null,
+          "html": "<a data-wp-on-async--mouseenter=\"callbacks.handlePopoverMenuMouseover\" data-wp-on-async--mouseleave=\"callbacks.handlePopoverMenuMouseout\" href=\"https://www.whitehouse.gov/contact/\" id=\"uij-e51\">Contac"
+        },
+        {
+          "target": [
+            "#uij-e360"
+          ],
+          "selector": "#uij-e360",
+          "bbox": null,
+          "html": "<h3 class=\"wp-block-whitehouse-video-accordion-item__title\" id=\"uij-e360\">"
+        },
+        {
+          "target": [
+            "#uij-e368"
+          ],
+          "selector": "#uij-e368",
+          "bbox": null,
+          "html": "<h3 class=\"wp-block-whitehouse-video-accordion-item__title\" id=\"uij-e368\">"
+        },
+        {
+          "target": [
+            "#uij-e376"
+          ],
+          "selector": "#uij-e376",
+          "bbox": null,
+          "html": "<h3 class=\"wp-block-whitehouse-video-accordion-item__title\" id=\"uij-e376\">"
+        },
+        {
+          "target": [
+            "#uij-e384"
+          ],
+          "selector": "#uij-e384",
+          "bbox": null,
+          "html": "<h3 class=\"wp-block-whitehouse-video-accordion-item__title\" id=\"uij-e384\">"
+        },
+        {
+          "target": [
+            "#uij-e392"
+          ],
+          "selector": "#uij-e392",
+          "bbox": null,
+          "html": "<h3 class=\"wp-block-whitehouse-video-accordion-item__title\" id=\"uij-e392\">"
+        },
+        {
+          "target": [
+            "#uij-e402"
+          ],
+          "selector": "#uij-e402",
+          "bbox": null,
+          "html": "<span class=\"f250-fab-label\" id=\"uij-e402\">Freedom 250 Events</span>"
+        }
+      ]
+    },
+    {
+      "rule_id": "video-caption",
+      "impact": "critical",
+      "tags": [
+        "wcag2a",
+        "wcag122",
+        "section508",
+        "section508.22.a"
+      ],
+      "description": "Ensure <video> elements have captions",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/video-caption?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e338"
+          ],
+          "selector": "#uij-e338",
+          "bbox": null,
+          "html": "<video autoplay=\"autoplay\" class=\"wp-block-whitehouse-topper__media--video\" height=\"1080\" id=\"uij-e338\" loop=\"loop\" muted=\"muted\" playsinline=\"playsinline\" preload=\"metadata\" width=\"1920\">"
+        },
+        {
+          "target": [
+            "#uij-e358"
+          ],
+          "selector": "#uij-e358",
+          "bbox": null,
+          "html": "<video id=\"uij-e358\" loop=\"\" muted=\"\" playsinline=\"\" preload=\"metadata\" src=\"\" style=\"object-position:50% 30%;\" tabindex=\"-1\"></video>"
+        },
+        {
+          "target": [
+            "#uij-e366"
+          ],
+          "selector": "#uij-e366",
+          "bbox": null,
+          "html": "<video id=\"uij-e366\" loop=\"\" muted=\"\" playsinline=\"\" preload=\"metadata\" src=\"\" style=\"object-position:50% 30%;\" tabindex=\"-1\"></video>"
+        },
+        {
+          "target": [
+            "#uij-e374"
+          ],
+          "selector": "#uij-e374",
+          "bbox": null,
+          "html": "<video id=\"uij-e374\" loop=\"\" muted=\"\" playsinline=\"\" preload=\"metadata\" src=\"\" style=\"object-position:49% 28%;\" tabindex=\"-1\"></video>"
+        },
+        {
+          "target": [
+            "#uij-e382"
+          ],
+          "selector": "#uij-e382",
+          "bbox": null,
+          "html": "<video id=\"uij-e382\" loop=\"\" muted=\"\" playsinline=\"\" preload=\"metadata\" src=\"\" style=\"object-position:47% 67%;\" tabindex=\"-1\"></video>"
+        },
+        {
+          "target": [
+            "#uij-e390"
+          ],
+          "selector": "#uij-e390",
+          "bbox": null,
+          "html": "<video id=\"uij-e390\" loop=\"\" muted=\"\" playsinline=\"\" preload=\"metadata\" src=\"\" style=\"object-position:50% 40%;\" tabindex=\"-1\"></video>"
+        }
+      ]
+    }
+  ],
+  "passes": [
+    {
+      "rule_id": "aria-allowed-attr",
+      "impact": "",
+      "tags": [
+        "wcag2a",
+        "wcag412"
+      ],
+      "description": "Ensure an element's role supports its ARIA attributes",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/aria-allowed-attr?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e7"
+          ],
+          "selector": "#uij-e7",
+          "bbox": null,
+          "html": "<button aria-controls=\"wp-block-whitehouse-header-5__menu\" aria-haspopup=\"dialog\" class=\"button-icon\" data-wp-bind--aria-expanded=\"callbacks.isMenuActive\" data-wp-bind--title=\"callbacks.getMenuButtonT"
+        },
+        {
+          "target": [
+            "#uij-e25"
+          ],
+          "selector": "#uij-e25",
+          "bbox": null,
+          "html": "<button aria-controls=\"wp-block-whitehouse-header-5__search\" aria-haspopup=\"dialog\" class=\"button-icon\" data-wp-bind--aria-expanded=\"callbacks.isSearchActive\" data-wp-bind--title=\"callbacks.getSearchB"
+        },
+        {
+          "target": [
+            "#uij-e356"
+          ],
+          "selector": "#uij-e356",
+          "bbox": null,
+          "html": "<a aria-label=\"secure the border\" class=\"wp-block-whitehouse-video-accordion-item__link\" href=\"https://www.whitehouse.gov/priorities/border-immigration/\" id=\"uij-e356\"></a>"
+        },
+        {
+          "target": [
+            "#uij-e364"
+          ],
+          "selector": "#uij-e364",
+          "bbox": null,
+          "html": "<a aria-label=\"grow the economy\" class=\"wp-block-whitehouse-video-accordion-item__link\" href=\"https://www.whitehouse.gov/priorities/economy/\" id=\"uij-e364\"></a>"
+        },
+        {
+          "target": [
+            "#uij-e372"
+          ],
+          "selector": "#uij-e372",
+          "bbox": null,
+          "html": "<a aria-label=\"Strengthen national security\" class=\"wp-block-whitehouse-video-accordion-item__link\" href=\"https://www.whitehouse.gov/priorities/national-security/\" id=\"uij-e372\"></a>"
+        },
+        {
+          "target": [
+            "#uij-e380"
+          ],
+          "selector": "#uij-e380",
+          "bbox": null,
+          "html": "<a aria-label=\"unleash american energy\" class=\"wp-block-whitehouse-video-accordion-item__link\" href=\"https://www.whitehouse.gov/priorities/energy/\" id=\"uij-e380\"></a>"
+        },
+        {
+          "target": [
+            "#uij-e388"
+          ],
+          "selector": "#uij-e388",
+          "bbox": null,
+          "html": "<a aria-label=\"make america healthy again\" class=\"wp-block-whitehouse-video-accordion-item__link\" href=\"https://www.whitehouse.gov/priorities/maha/\" id=\"uij-e388\"></a>"
+        },
+        {
+          "target": [
+            "#f250-fab"
+          ],
+          "selector": "#f250-fab",
+          "bbox": null,
+          "html": "<button aria-controls=\"f250-modal-backdrop\" aria-expanded=\"false\" aria-label=\"Open Freedom 250 events calendar\" class=\"f250-fab\" id=\"f250-fab\" type=\"button\">"
+        }
+      ]
+    },
+    {
+      "rule_id": "aria-allowed-role",
+      "impact": "minor",
+      "tags": [],
+      "description": "Ensure role attribute has an appropriate value for the element",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/aria-allowed-role?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e33"
+          ],
+          "selector": "#uij-e33",
+          "bbox": null,
+          "html": "<form action=\"https://www.whitehouse.gov\" id=\"uij-e33\" method=\"get\" role=\"search\">"
+        },
+        {
+          "target": [
+            "#wp-block-whitehouse-header-5__menu"
+          ],
+          "selector": "#wp-block-whitehouse-header-5__menu",
+          "bbox": null,
+          "html": "<div class=\"wp-block-whitehouse-header__menu\" data-wp-class--is-active=\"state.isMenuActive\" data-wp-init=\"callbacks.initMenu\" data-wp-watch=\"callbacks.watchMenu\" id=\"wp-block-whitehouse-header-5__menu"
+        },
+        {
+          "target": [
+            "#uij-e403"
+          ],
+          "selector": "#uij-e403",
+          "bbox": null,
+          "html": "<div aria-labelledby=\"f250-modal-title\" class=\"f250-modal\" id=\"uij-e403\" role=\"dialog\">"
+        },
+        {
+          "target": [
+            "#f250-grid"
+          ],
+          "selector": "#f250-grid",
+          "bbox": null,
+          "html": "<div class=\"f250-cal-grid\" id=\"f250-grid\" role=\"grid\">"
+        },
+        {
+          "target": [
+            "#uij-e430"
+          ],
+          "selector": "#uij-e430",
+          "bbox": null,
+          "html": "<div aria-label=\"July 1, 2026, 3 events\" class=\"f250-cal-day has-event dim\" id=\"uij-e430\" role=\"button\" tabindex=\"0\">"
+        },
+        {
+          "target": [
+            "#uij-e435"
+          ],
+          "selector": "#uij-e435",
+          "bbox": null,
+          "html": "<div aria-label=\"July 2, 2026, 3 events\" class=\"f250-cal-day has-event dim\" id=\"uij-e435\" role=\"button\" tabindex=\"0\">"
+        },
+        {
+          "target": [
+            "#uij-e440"
+          ],
+          "selector": "#uij-e440",
+          "bbox": null,
+          "html": "<div aria-label=\"July 3, 2026, 4 events\" class=\"f250-cal-day has-event dim\" id=\"uij-e440\" role=\"button\" tabindex=\"0\">"
+        },
+        {
+          "target": [
+            "#uij-e445"
+          ],
+          "selector": "#uij-e445",
+          "bbox": null,
+          "html": "<div aria-label=\"July 4, 2026, 6 events\" class=\"f250-cal-day has-event dim has-feat\" id=\"uij-e445\" role=\"button\" tabindex=\"0\">"
+        },
+        {
+          "target": [
+            "#uij-e451"
+          ],
+          "selector": "#uij-e451",
+          "bbox": null,
+          "html": "<div aria-label=\"July 5, 2026, 3 events\" class=\"f250-cal-day has-event dim\" id=\"uij-e451\" role=\"button\" tabindex=\"0\">"
+        },
+        {
+          "target": [
+            "#uij-e456"
+          ],
+          "selector": "#uij-e456",
+          "bbox": null,
+          "html": "<div aria-label=\"July 6, 2026, 2 events\" class=\"f250-cal-day has-event dim\" id=\"uij-e456\" role=\"button\" tabindex=\"0\">"
+        },
+        {
+          "target": [
+            "#uij-e461"
+          ],
+          "selector": "#uij-e461",
+          "bbox": null,
+          "html": "<div aria-label=\"July 7, 2026, 2 events\" class=\"f250-cal-day has-event dim\" id=\"uij-e461\" role=\"button\" tabindex=\"0\">"
+        },
+        {
+          "target": [
+            "#uij-e466"
+          ],
+          "selector": "#uij-e466",
+          "bbox": null,
+          "html": "<div aria-label=\"July 8, 2026, 2 events\" class=\"f250-cal-day has-event dim\" id=\"uij-e466\" role=\"button\" tabindex=\"0\">"
+        },
+        {
+          "target": [
+            "#uij-e471"
+          ],
+          "selector": "#uij-e471",
+          "bbox": null,
+          "html": "<div aria-label=\"July 9, 2026, 2 events\" class=\"f250-cal-day has-event dim\" id=\"uij-e471\" role=\"button\" tabindex=\"0\">"
+        },
+        {
+          "target": [
+            "#uij-e476"
+          ],
+          "selector": "#uij-e476",
+          "bbox": null,
+          "html": "<div aria-label=\"July 10, 2026, 2 events\" class=\"f250-cal-day has-event dim\" id=\"uij-e476\" role=\"button\" tabindex=\"0\">"
+        },
+        {
+          "target": [
+            "#uij-e481"
+          ],
+          "selector": "#uij-e481",
+          "bbox": null,
+          "html": "<div aria-label=\"July 11, 2026, 1 event\" class=\"f250-cal-day has-event dim has-ongoing-only\" id=\"uij-e481\" role=\"button\" tabindex=\"0\"><div class=\"f250-cal-day-num\" id=\"uij-e482\">11</div><div class=\"f2"
+        },
+        {
+          "target": [
+            "#uij-e485"
+          ],
+          "selector": "#uij-e485",
+          "bbox": null,
+          "html": "<div aria-label=\"July 12, 2026, 1 event\" class=\"f250-cal-day has-event dim has-ongoing-only\" id=\"uij-e485\" role=\"button\" tabindex=\"0\"><div class=\"f250-cal-day-num\" id=\"uij-e486\">12</div><div class=\"f2"
+        },
+        {
+          "target": [
+            "#uij-e489"
+          ],
+          "selector": "#uij-e489",
+          "bbox": null,
+          "html": "<div aria-label=\"July 13, 2026, 1 event\" class=\"f250-cal-day has-event dim has-ongoing-only\" id=\"uij-e489\" role=\"button\" tabindex=\"0\"><div class=\"f250-cal-day-num\" id=\"uij-e490\">13</div><div class=\"f2"
+        },
+        {
+          "target": [
+            "#uij-e493"
+          ],
+          "selector": "#uij-e493",
+          "bbox": null,
+          "html": "<div aria-label=\"July 14, 2026, 1 event\" class=\"f250-cal-day has-event dim has-ongoing-only\" id=\"uij-e493\" role=\"button\" tabindex=\"0\"><div class=\"f250-cal-day-num\" id=\"uij-e494\">14</div><div class=\"f2"
+        },
+        {
+          "target": [
+            "#uij-e497"
+          ],
+          "selector": "#uij-e497",
+          "bbox": null,
+          "html": "<div aria-label=\"July 15, 2026, 1 event\" class=\"f250-cal-day has-event dim has-ongoing-only\" id=\"uij-e497\" role=\"button\" tabindex=\"0\"><div class=\"f250-cal-day-num\" id=\"uij-e498\">15</div><div class=\"f2"
+        },
+        {
+          "target": [
+            "#uij-e501"
+          ],
+          "selector": "#uij-e501",
+          "bbox": null,
+          "html": "<div aria-label=\"July 16, 2026, 1 event\" class=\"f250-cal-day has-event dim has-ongoing-only\" id=\"uij-e501\" role=\"button\" tabindex=\"0\"><div class=\"f250-cal-day-num\" id=\"uij-e502\">16</div><div class=\"f2"
+        },
+        {
+          "target": [
+            "#uij-e505"
+          ],
+          "selector": "#uij-e505",
+          "bbox": null,
+          "html": "<div aria-label=\"July 17, 2026, 1 event\" class=\"f250-cal-day has-event dim has-ongoing-only\" id=\"uij-e505\" role=\"button\" tabindex=\"0\"><div class=\"f250-cal-day-num\" id=\"uij-e506\">17</div><div class=\"f2"
+        },
+        {
+          "target": [
+            "#uij-e509"
+          ],
+          "selector": "#uij-e509",
+          "bbox": null,
+          "html": "<div aria-label=\"July 18, 2026, 1 event\" class=\"f250-cal-day has-event dim has-ongoing-only\" id=\"uij-e509\" role=\"button\" tabindex=\"0\"><div class=\"f250-cal-day-num\" id=\"uij-e510\">18</div><div class=\"f2"
+        },
+        {
+          "target": [
+            "#uij-e513"
+          ],
+          "selector": "#uij-e513",
+          "bbox": null,
+          "html": "<div aria-label=\"July 19, 2026, 1 event\" class=\"f250-cal-day has-event dim has-ongoing-only\" id=\"uij-e513\" role=\"button\" tabindex=\"0\"><div class=\"f250-cal-day-num\" id=\"uij-e514\">19</div><div class=\"f2"
+        },
+        {
+          "target": [
+            "#uij-e517"
+          ],
+          "selector": "#uij-e517",
+          "bbox": null,
+          "html": "<div aria-label=\"July 20, 2026, 1 event\" class=\"f250-cal-day has-event dim has-ongoing-only\" id=\"uij-e517\" role=\"button\" tabindex=\"0\"><div class=\"f250-cal-day-num\" id=\"uij-e518\">20</div><div class=\"f2"
+        },
+        {
+          "target": [
+            "#uij-e521"
+          ],
+          "selector": "#uij-e521",
+          "bbox": null,
+          "html": "<div aria-label=\"July 21, 2026, 1 event\" class=\"f250-cal-day has-event dim has-ongoing-only\" id=\"uij-e521\" role=\"button\" tabindex=\"0\"><div class=\"f250-cal-day-num\" id=\"uij-e522\">21</div><div class=\"f2"
+        },
+        {
+          "target": [
+            "#uij-e525"
+          ],
+          "selector": "#uij-e525",
+          "bbox": null,
+          "html": "<div aria-label=\"July 22, 2026, 1 event\" class=\"f250-cal-day has-event dim has-ongoing-only\" id=\"uij-e525\" role=\"button\" tabindex=\"0\"><div class=\"f250-cal-day-num\" id=\"uij-e526\">22</div><div class=\"f2"
+        },
+        {
+          "target": [
+            "#uij-e529"
+          ],
+          "selector": "#uij-e529",
+          "bbox": null,
+          "html": "<div aria-label=\"July 23, 2026, 1 event\" class=\"f250-cal-day has-event today has-ongoing-only\" id=\"uij-e529\" role=\"button\" tabindex=\"0\"><div class=\"f250-cal-day-num\" id=\"uij-e530\">23</div><div class=\""
+        },
+        {
+          "target": [
+            "#uij-e533"
+          ],
+          "selector": "#uij-e533",
+          "bbox": null,
+          "html": "<div aria-label=\"July 24, 2026, 1 event\" class=\"f250-cal-day has-event has-ongoing-only\" id=\"uij-e533\" role=\"button\" tabindex=\"0\"><div class=\"f250-cal-day-num\" id=\"uij-e534\">24</div><div class=\"f250-d"
+        },
+        {
+          "target": [
+            "#uij-e537"
+          ],
+          "selector": "#uij-e537",
+          "bbox": null,
+          "html": "<div aria-label=\"July 25, 2026, 1 event\" class=\"f250-cal-day has-event has-ongoing-only\" id=\"uij-e537\" role=\"button\" tabindex=\"0\"><div class=\"f250-cal-day-num\" id=\"uij-e538\">25</div><div class=\"f250-d"
+        },
+        {
+          "target": [
+            "#uij-e541"
+          ],
+          "selector": "#uij-e541",
+          "bbox": null,
+          "html": "<div aria-label=\"July 26, 2026, 1 event\" class=\"f250-cal-day has-event has-ongoing-only\" id=\"uij-e541\" role=\"button\" tabindex=\"0\"><div class=\"f250-cal-day-num\" id=\"uij-e542\">26</div><div class=\"f250-d"
+        },
+        {
+          "target": [
+            "#uij-e545"
+          ],
+          "selector": "#uij-e545",
+          "bbox": null,
+          "html": "<div aria-label=\"July 27, 2026, 1 event\" class=\"f250-cal-day has-event has-ongoing-only\" id=\"uij-e545\" role=\"button\" tabindex=\"0\"><div class=\"f250-cal-day-num\" id=\"uij-e546\">27</div><div class=\"f250-d"
+        },
+        {
+          "target": [
+            "#uij-e549"
+          ],
+          "selector": "#uij-e549",
+          "bbox": null,
+          "html": "<div aria-label=\"July 28, 2026, 1 event\" class=\"f250-cal-day has-event has-ongoing-only\" id=\"uij-e549\" role=\"button\" tabindex=\"0\"><div class=\"f250-cal-day-num\" id=\"uij-e550\">28</div><div class=\"f250-d"
+        },
+        {
+          "target": [
+            "#uij-e553"
+          ],
+          "selector": "#uij-e553",
+          "bbox": null,
+          "html": "<div aria-label=\"July 29, 2026, 1 event\" class=\"f250-cal-day has-event has-ongoing-only\" id=\"uij-e553\" role=\"button\" tabindex=\"0\"><div class=\"f250-cal-day-num\" id=\"uij-e554\">29</div><div class=\"f250-d"
+        },
+        {
+          "target": [
+            "#uij-e557"
+          ],
+          "selector": "#uij-e557",
+          "bbox": null,
+          "html": "<div aria-label=\"July 30, 2026, 1 event\" class=\"f250-cal-day has-event has-ongoing-only\" id=\"uij-e557\" role=\"button\" tabindex=\"0\"><div class=\"f250-cal-day-num\" id=\"uij-e558\">30</div><div class=\"f250-d"
+        },
+        {
+          "target": [
+            "#uij-e561"
+          ],
+          "selector": "#uij-e561",
+          "bbox": null,
+          "html": "<div aria-label=\"July 31, 2026, 1 event\" class=\"f250-cal-day has-event has-ongoing-only\" id=\"uij-e561\" role=\"button\" tabindex=\"0\"><div class=\"f250-cal-day-num\" id=\"uij-e562\">31</div><div class=\"f250-d"
+        }
+      ]
+    },
+    {
+      "rule_id": "aria-conditional-attr",
+      "impact": "",
+      "tags": [
+        "wcag2a",
+        "wcag412"
+      ],
+      "description": "Ensure ARIA attributes are used as described in the specification of the element's role",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/aria-conditional-attr?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e7"
+          ],
+          "selector": "#uij-e7",
+          "bbox": null,
+          "html": "<button aria-controls=\"wp-block-whitehouse-header-5__menu\" aria-haspopup=\"dialog\" class=\"button-icon\" data-wp-bind--aria-expanded=\"callbacks.isMenuActive\" data-wp-bind--title=\"callbacks.getMenuButtonT"
+        },
+        {
+          "target": [
+            "#uij-e25"
+          ],
+          "selector": "#uij-e25",
+          "bbox": null,
+          "html": "<button aria-controls=\"wp-block-whitehouse-header-5__search\" aria-haspopup=\"dialog\" class=\"button-icon\" data-wp-bind--aria-expanded=\"callbacks.isSearchActive\" data-wp-bind--title=\"callbacks.getSearchB"
+        },
+        {
+          "target": [
+            "#uij-e356"
+          ],
+          "selector": "#uij-e356",
+          "bbox": null,
+          "html": "<a aria-label=\"secure the border\" class=\"wp-block-whitehouse-video-accordion-item__link\" href=\"https://www.whitehouse.gov/priorities/border-immigration/\" id=\"uij-e356\"></a>"
+        },
+        {
+          "target": [
+            "#uij-e364"
+          ],
+          "selector": "#uij-e364",
+          "bbox": null,
+          "html": "<a aria-label=\"grow the economy\" class=\"wp-block-whitehouse-video-accordion-item__link\" href=\"https://www.whitehouse.gov/priorities/economy/\" id=\"uij-e364\"></a>"
+        },
+        {
+          "target": [
+            "#uij-e372"
+          ],
+          "selector": "#uij-e372",
+          "bbox": null,
+          "html": "<a aria-label=\"Strengthen national security\" class=\"wp-block-whitehouse-video-accordion-item__link\" href=\"https://www.whitehouse.gov/priorities/national-security/\" id=\"uij-e372\"></a>"
+        },
+        {
+          "target": [
+            "#uij-e380"
+          ],
+          "selector": "#uij-e380",
+          "bbox": null,
+          "html": "<a aria-label=\"unleash american energy\" class=\"wp-block-whitehouse-video-accordion-item__link\" href=\"https://www.whitehouse.gov/priorities/energy/\" id=\"uij-e380\"></a>"
+        },
+        {
+          "target": [
+            "#uij-e388"
+          ],
+          "selector": "#uij-e388",
+          "bbox": null,
+          "html": "<a aria-label=\"make america healthy again\" class=\"wp-block-whitehouse-video-accordion-item__link\" href=\"https://www.whitehouse.gov/priorities/maha/\" id=\"uij-e388\"></a>"
+        },
+        {
+          "target": [
+            "#f250-fab"
+          ],
+          "selector": "#f250-fab",
+          "bbox": null,
+          "html": "<button aria-controls=\"f250-modal-backdrop\" aria-expanded=\"false\" aria-label=\"Open Freedom 250 events calendar\" class=\"f250-fab\" id=\"f250-fab\" type=\"button\">"
+        }
+      ]
+    },
+    {
+      "rule_id": "aria-hidden-body",
+      "impact": "",
+      "tags": [
+        "wcag2a",
+        "wcag131",
+        "wcag412"
+      ],
+      "description": "Ensure aria-hidden=\"true\" is not present on the document body.",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/aria-hidden-body?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#top"
+          ],
+          "selector": "#top",
+          "bbox": null,
+          "html": "<body class=\"home wp-singular page-template-default page page-id-2 wp-embed-responsive wp-theme-whitehouse remove-content-margins has-immersive-header has-topper has-notification-bar has-dynamic-annou"
+        }
+      ]
+    },
+    {
+      "rule_id": "aria-hidden-focus",
+      "impact": "",
+      "tags": [
+        "wcag2a",
+        "wcag412"
+      ],
+      "description": "Ensure aria-hidden elements are not focusable nor contain focusable elements",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/aria-hidden-focus?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e72"
+          ],
+          "selector": "#uij-e72",
+          "bbox": null,
+          "html": "<span aria-hidden=\"true\" class=\"menu-item-submenu-indicator\" id=\"uij-e72\">"
+        },
+        {
+          "target": [
+            "#uij-e77"
+          ],
+          "selector": "#uij-e77",
+          "bbox": null,
+          "html": "<span aria-hidden=\"true\" class=\"menu-item-submenu-indicator\" id=\"uij-e77\">"
+        },
+        {
+          "target": [
+            "#uij-e93"
+          ],
+          "selector": "#uij-e93",
+          "bbox": null,
+          "html": "<span aria-hidden=\"true\" class=\"menu-item-submenu-indicator\" id=\"uij-e93\">"
+        },
+        {
+          "target": [
+            "#uij-e104"
+          ],
+          "selector": "#uij-e104",
+          "bbox": null,
+          "html": "<span aria-hidden=\"true\" class=\"menu-item-submenu-indicator\" id=\"uij-e104\">"
+        },
+        {
+          "target": [
+            "#uij-e114"
+          ],
+          "selector": "#uij-e114",
+          "bbox": null,
+          "html": "<span aria-hidden=\"true\" class=\"menu-item-submenu-indicator\" id=\"uij-e114\">"
+        },
+        {
+          "target": [
+            "#uij-e125"
+          ],
+          "selector": "#uij-e125",
+          "bbox": null,
+          "html": "<span aria-hidden=\"true\" class=\"menu-item-submenu-indicator\" id=\"uij-e125\">"
+        },
+        {
+          "target": [
+            "#uij-e135"
+          ],
+          "selector": "#uij-e135",
+          "bbox": null,
+          "html": "<span aria-hidden=\"true\" class=\"menu-item-submenu-indicator\" id=\"uij-e135\">"
+        },
+        {
+          "target": [
+            "#uij-e140"
+          ],
+          "selector": "#uij-e140",
+          "bbox": null,
+          "html": "<span aria-hidden=\"true\" class=\"menu-item-submenu-indicator\" id=\"uij-e140\">"
+        },
+        {
+          "target": [
+            "#uij-e154"
+          ],
+          "selector": "#uij-e154",
+          "bbox": null,
+          "html": "<span aria-hidden=\"true\" class=\"menu-item-submenu-indicator\" id=\"uij-e154\">"
+        },
+        {
+          "target": [
+            "#uij-e173"
+          ],
+          "selector": "#uij-e173",
+          "bbox": null,
+          "html": "<span aria-hidden=\"true\" class=\"menu-item-submenu-indicator\" id=\"uij-e173\">"
+        },
+        {
+          "target": [
+            "#uij-e184"
+          ],
+          "selector": "#uij-e184",
+          "bbox": null,
+          "html": "<span aria-hidden=\"true\" class=\"menu-item-submenu-indicator\" id=\"uij-e184\">"
+        },
+        {
+          "target": [
+            "#uij-e195"
+          ],
+          "selector": "#uij-e195",
+          "bbox": null,
+          "html": "<span aria-hidden=\"true\" class=\"menu-item-submenu-indicator\" id=\"uij-e195\">"
+        },
+        {
+          "target": [
+            "#uij-e202"
+          ],
+          "selector": "#uij-e202",
+          "bbox": null,
+          "html": "<span aria-hidden=\"true\" class=\"menu-item-submenu-indicator\" id=\"uij-e202\">"
+        },
+        {
+          "target": [
+            "#uij-e214"
+          ],
+          "selector": "#uij-e214",
+          "bbox": null,
+          "html": "<span aria-hidden=\"true\" class=\"menu-item-submenu-indicator\" id=\"uij-e214\">"
+        },
+        {
+          "target": [
+            "#uij-e221"
+          ],
+          "selector": "#uij-e221",
+          "bbox": null,
+          "html": "<span aria-hidden=\"true\" class=\"menu-item-submenu-indicator\" id=\"uij-e221\">"
+        },
+        {
+          "target": [
+            "#uij-e233"
+          ],
+          "selector": "#uij-e233",
+          "bbox": null,
+          "html": "<span aria-hidden=\"true\" class=\"menu-item-submenu-indicator\" id=\"uij-e233\">"
+        },
+        {
+          "target": [
+            "#uij-e245"
+          ],
+          "selector": "#uij-e245",
+          "bbox": null,
+          "html": "<svg aria-hidden=\"true\" focusable=\"false\" height=\"24\" id=\"uij-e245\" viewBox=\"0 0 24 24\" width=\"24\" xmlns=\"http://www.w3.org/2000/svg\">"
+        },
+        {
+          "target": [
+            "#uij-e250"
+          ],
+          "selector": "#uij-e250",
+          "bbox": null,
+          "html": "<svg aria-hidden=\"true\" focusable=\"false\" height=\"24\" id=\"uij-e250\" viewBox=\"0 0 24 24\" width=\"24\" xmlns=\"http://www.w3.org/2000/svg\">"
+        },
+        {
+          "target": [
+            "#uij-e255"
+          ],
+          "selector": "#uij-e255",
+          "bbox": null,
+          "html": "<svg aria-hidden=\"true\" focusable=\"false\" height=\"24\" id=\"uij-e255\" version=\"1.1\" viewBox=\"0 0 32 32\" width=\"24\" xmlns=\"http://www.w3.org/2000/svg\">"
+        },
+        {
+          "target": [
+            "#uij-e260"
+          ],
+          "selector": "#uij-e260",
+          "bbox": null,
+          "html": "<svg aria-hidden=\"true\" focusable=\"false\" height=\"24\" id=\"uij-e260\" viewBox=\"0 0 24 24\" width=\"24\" xmlns=\"http://www.w3.org/2000/svg\">"
+        },
+        {
+          "target": [
+            "#uij-e267"
+          ],
+          "selector": "#uij-e267",
+          "bbox": null,
+          "html": "<svg aria-hidden=\"true\" focusable=\"false\" height=\"24\" id=\"uij-e267\" viewBox=\"0 0 24 24\" width=\"24\" xmlns=\"http://www.w3.org/2000/svg\">"
+        },
+        {
+          "target": [
+            "#uij-e272"
+          ],
+          "selector": "#uij-e272",
+          "bbox": null,
+          "html": "<svg aria-hidden=\"true\" focusable=\"false\" height=\"24\" id=\"uij-e272\" viewBox=\"0 0 24 24\" width=\"24\" xmlns=\"http://www.w3.org/2000/svg\">"
+        },
+        {
+          "target": [
+            "#uij-e277"
+          ],
+          "selector": "#uij-e277",
+          "bbox": null,
+          "html": "<svg aria-hidden=\"true\" focusable=\"false\" height=\"24\" id=\"uij-e277\" viewBox=\"0 0 24 24\" width=\"24\" xmlns=\"http://www.w3.org/2000/svg\">"
+        },
+        {
+          "target": [
+            "#uij-e282"
+          ],
+          "selector": "#uij-e282",
+          "bbox": null,
+          "html": "<div aria-hidden=\"true\" class=\"wp-block-whitehouse-header__menu-feature-sentinel\" data-index=\"0\" id=\"uij-e282\">\n<span id=\"uij-e283\">Featured</span>\n</div>"
+        },
+        {
+          "target": [
+            "#uij-e284"
+          ],
+          "selector": "#uij-e284",
+          "bbox": null,
+          "html": "<div aria-hidden=\"true\" class=\"wp-block-whitehouse-header__menu-feature-sentinel\" data-index=\"1\" id=\"uij-e284\">\n<span id=\"uij-e285\">Featured</span>\n</div>"
+        },
+        {
+          "target": [
+            "#uij-e341"
+          ],
+          "selector": "#uij-e341",
+          "bbox": null,
+          "html": "<div aria-hidden=\"true\" class=\"wp-block-spacer\" id=\"uij-e341\" style=\"height:25px\"></div>"
+        },
+        {
+          "target": [
+            "#uij-e347"
+          ],
+          "selector": "#uij-e347",
+          "bbox": null,
+          "html": "<div aria-hidden=\"true\" class=\"wp-block-spacer\" id=\"uij-e347\" style=\"height:25px\"></div>"
+        },
+        {
+          "target": [
+            "#uij-e353"
+          ],
+          "selector": "#uij-e353",
+          "bbox": null,
+          "html": "<div aria-hidden=\"true\" class=\"wp-block-spacer\" id=\"uij-e353\" style=\"height:50px\"></div>"
+        },
+        {
+          "target": [
+            "#uij-e396"
+          ],
+          "selector": "#uij-e396",
+          "bbox": null,
+          "html": "<span aria-hidden=\"true\" class=\"f250-fab-pulse\" id=\"uij-e396\"></span>"
+        },
+        {
+          "target": [
+            "#uij-e397"
+          ],
+          "selector": "#uij-e397",
+          "bbox": null,
+          "html": "<svg aria-hidden=\"true\" fill=\"none\" id=\"uij-e397\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" viewBox=\"0 0 24 24\">"
+        },
+        {
+          "target": [
+            "#f250-modal-backdrop"
+          ],
+          "selector": "#f250-modal-backdrop",
+          "bbox": null,
+          "html": "<div aria-hidden=\"true\" class=\"f250-modal-backdrop\" id=\"f250-modal-backdrop\">"
+        },
+        {
+          "target": [
+            "#uij-e631"
+          ],
+          "selector": "#uij-e631",
+          "bbox": null,
+          "html": "<div aria-hidden=\"true\" class=\"wp-block-whitehouse-newsletter__form--field honeypot\" id=\"uij-e631\" style=\"position: absolute; left: -5000px;\">"
+        },
+        {
+          "target": [
+            "#uij-e652"
+          ],
+          "selector": "#uij-e652",
+          "bbox": null,
+          "html": "<svg aria-hidden=\"true\" focusable=\"false\" height=\"24\" id=\"uij-e652\" viewBox=\"0 0 24 24\" width=\"24\" xmlns=\"http://www.w3.org/2000/svg\">"
+        },
+        {
+          "target": [
+            "#uij-e657"
+          ],
+          "selector": "#uij-e657",
+          "bbox": null,
+          "html": "<svg aria-hidden=\"true\" focusable=\"false\" height=\"24\" id=\"uij-e657\" viewBox=\"0 0 24 24\" width=\"24\" xmlns=\"http://www.w3.org/2000/svg\">"
+        },
+        {
+          "target": [
+            "#uij-e662"
+          ],
+          "selector": "#uij-e662",
+          "bbox": null,
+          "html": "<svg aria-hidden=\"true\" focusable=\"false\" height=\"24\" id=\"uij-e662\" version=\"1.1\" viewBox=\"0 0 32 32\" width=\"24\" xmlns=\"http://www.w3.org/2000/svg\">"
+        },
+        {
+          "target": [
+            "#uij-e667"
+          ],
+          "selector": "#uij-e667",
+          "bbox": null,
+          "html": "<svg aria-hidden=\"true\" focusable=\"false\" height=\"24\" id=\"uij-e667\" viewBox=\"0 0 24 24\" width=\"24\" xmlns=\"http://www.w3.org/2000/svg\">"
+        },
+        {
+          "target": [
+            "#uij-e674"
+          ],
+          "selector": "#uij-e674",
+          "bbox": null,
+          "html": "<svg aria-hidden=\"true\" focusable=\"false\" height=\"24\" id=\"uij-e674\" viewBox=\"0 0 24 24\" width=\"24\" xmlns=\"http://www.w3.org/2000/svg\">"
+        },
+        {
+          "target": [
+            "#uij-e679"
+          ],
+          "selector": "#uij-e679",
+          "bbox": null,
+          "html": "<svg aria-hidden=\"true\" focusable=\"false\" height=\"24\" id=\"uij-e679\" viewBox=\"0 0 24 24\" width=\"24\" xmlns=\"http://www.w3.org/2000/svg\">"
+        },
+        {
+          "target": [
+            "#uij-e684"
+          ],
+          "selector": "#uij-e684",
+          "bbox": null,
+          "html": "<svg aria-hidden=\"true\" focusable=\"false\" height=\"24\" id=\"uij-e684\" viewBox=\"0 0 24 24\" width=\"24\" xmlns=\"http://www.w3.org/2000/svg\">"
+        }
+      ]
+    },
+    {
+      "rule_id": "aria-prohibited-attr",
+      "impact": "",
+      "tags": [
+        "wcag2a",
+        "wcag412"
+      ],
+      "description": "Ensure ARIA attributes are not prohibited for an element's role",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/aria-prohibited-attr?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e7"
+          ],
+          "selector": "#uij-e7",
+          "bbox": null,
+          "html": "<button aria-controls=\"wp-block-whitehouse-header-5__menu\" aria-haspopup=\"dialog\" class=\"button-icon\" data-wp-bind--aria-expanded=\"callbacks.isMenuActive\" data-wp-bind--title=\"callbacks.getMenuButtonT"
+        },
+        {
+          "target": [
+            "#uij-e25"
+          ],
+          "selector": "#uij-e25",
+          "bbox": null,
+          "html": "<button aria-controls=\"wp-block-whitehouse-header-5__search\" aria-haspopup=\"dialog\" class=\"button-icon\" data-wp-bind--aria-expanded=\"callbacks.isSearchActive\" data-wp-bind--title=\"callbacks.getSearchB"
+        },
+        {
+          "target": [
+            "#uij-e356"
+          ],
+          "selector": "#uij-e356",
+          "bbox": null,
+          "html": "<a aria-label=\"secure the border\" class=\"wp-block-whitehouse-video-accordion-item__link\" href=\"https://www.whitehouse.gov/priorities/border-immigration/\" id=\"uij-e356\"></a>"
+        },
+        {
+          "target": [
+            "#uij-e364"
+          ],
+          "selector": "#uij-e364",
+          "bbox": null,
+          "html": "<a aria-label=\"grow the economy\" class=\"wp-block-whitehouse-video-accordion-item__link\" href=\"https://www.whitehouse.gov/priorities/economy/\" id=\"uij-e364\"></a>"
+        },
+        {
+          "target": [
+            "#uij-e372"
+          ],
+          "selector": "#uij-e372",
+          "bbox": null,
+          "html": "<a aria-label=\"Strengthen national security\" class=\"wp-block-whitehouse-video-accordion-item__link\" href=\"https://www.whitehouse.gov/priorities/national-security/\" id=\"uij-e372\"></a>"
+        },
+        {
+          "target": [
+            "#uij-e380"
+          ],
+          "selector": "#uij-e380",
+          "bbox": null,
+          "html": "<a aria-label=\"unleash american energy\" class=\"wp-block-whitehouse-video-accordion-item__link\" href=\"https://www.whitehouse.gov/priorities/energy/\" id=\"uij-e380\"></a>"
+        },
+        {
+          "target": [
+            "#uij-e388"
+          ],
+          "selector": "#uij-e388",
+          "bbox": null,
+          "html": "<a aria-label=\"make america healthy again\" class=\"wp-block-whitehouse-video-accordion-item__link\" href=\"https://www.whitehouse.gov/priorities/maha/\" id=\"uij-e388\"></a>"
+        },
+        {
+          "target": [
+            "#f250-fab"
+          ],
+          "selector": "#f250-fab",
+          "bbox": null,
+          "html": "<button aria-controls=\"f250-modal-backdrop\" aria-expanded=\"false\" aria-label=\"Open Freedom 250 events calendar\" class=\"f250-fab\" id=\"f250-fab\" type=\"button\">"
+        }
+      ]
+    },
+    {
+      "rule_id": "aria-valid-attr-value",
+      "impact": "critical",
+      "tags": [
+        "wcag2a",
+        "wcag412"
+      ],
+      "description": "Ensure all ARIA attributes have valid values",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/aria-valid-attr-value?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e356"
+          ],
+          "selector": "#uij-e356",
+          "bbox": null,
+          "html": "<a aria-label=\"secure the border\" class=\"wp-block-whitehouse-video-accordion-item__link\" href=\"https://www.whitehouse.gov/priorities/border-immigration/\" id=\"uij-e356\"></a>"
+        },
+        {
+          "target": [
+            "#uij-e364"
+          ],
+          "selector": "#uij-e364",
+          "bbox": null,
+          "html": "<a aria-label=\"grow the economy\" class=\"wp-block-whitehouse-video-accordion-item__link\" href=\"https://www.whitehouse.gov/priorities/economy/\" id=\"uij-e364\"></a>"
+        },
+        {
+          "target": [
+            "#uij-e372"
+          ],
+          "selector": "#uij-e372",
+          "bbox": null,
+          "html": "<a aria-label=\"Strengthen national security\" class=\"wp-block-whitehouse-video-accordion-item__link\" href=\"https://www.whitehouse.gov/priorities/national-security/\" id=\"uij-e372\"></a>"
+        },
+        {
+          "target": [
+            "#uij-e380"
+          ],
+          "selector": "#uij-e380",
+          "bbox": null,
+          "html": "<a aria-label=\"unleash american energy\" class=\"wp-block-whitehouse-video-accordion-item__link\" href=\"https://www.whitehouse.gov/priorities/energy/\" id=\"uij-e380\"></a>"
+        },
+        {
+          "target": [
+            "#uij-e388"
+          ],
+          "selector": "#uij-e388",
+          "bbox": null,
+          "html": "<a aria-label=\"make america healthy again\" class=\"wp-block-whitehouse-video-accordion-item__link\" href=\"https://www.whitehouse.gov/priorities/maha/\" id=\"uij-e388\"></a>"
+        },
+        {
+          "target": [
+            "#f250-fab"
+          ],
+          "selector": "#f250-fab",
+          "bbox": null,
+          "html": "<button aria-controls=\"f250-modal-backdrop\" aria-expanded=\"false\" aria-label=\"Open Freedom 250 events calendar\" class=\"f250-fab\" id=\"f250-fab\" type=\"button\">"
+        }
+      ]
+    },
+    {
+      "rule_id": "aria-valid-attr",
+      "impact": "",
+      "tags": [
+        "wcag2a",
+        "wcag412"
+      ],
+      "description": "Ensure attributes that begin with aria- are valid ARIA attributes",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/aria-valid-attr?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e7"
+          ],
+          "selector": "#uij-e7",
+          "bbox": null,
+          "html": "<button aria-controls=\"wp-block-whitehouse-header-5__menu\" aria-haspopup=\"dialog\" class=\"button-icon\" data-wp-bind--aria-expanded=\"callbacks.isMenuActive\" data-wp-bind--title=\"callbacks.getMenuButtonT"
+        },
+        {
+          "target": [
+            "#uij-e25"
+          ],
+          "selector": "#uij-e25",
+          "bbox": null,
+          "html": "<button aria-controls=\"wp-block-whitehouse-header-5__search\" aria-haspopup=\"dialog\" class=\"button-icon\" data-wp-bind--aria-expanded=\"callbacks.isSearchActive\" data-wp-bind--title=\"callbacks.getSearchB"
+        },
+        {
+          "target": [
+            "#uij-e356"
+          ],
+          "selector": "#uij-e356",
+          "bbox": null,
+          "html": "<a aria-label=\"secure the border\" class=\"wp-block-whitehouse-video-accordion-item__link\" href=\"https://www.whitehouse.gov/priorities/border-immigration/\" id=\"uij-e356\"></a>"
+        },
+        {
+          "target": [
+            "#uij-e364"
+          ],
+          "selector": "#uij-e364",
+          "bbox": null,
+          "html": "<a aria-label=\"grow the economy\" class=\"wp-block-whitehouse-video-accordion-item__link\" href=\"https://www.whitehouse.gov/priorities/economy/\" id=\"uij-e364\"></a>"
+        },
+        {
+          "target": [
+            "#uij-e372"
+          ],
+          "selector": "#uij-e372",
+          "bbox": null,
+          "html": "<a aria-label=\"Strengthen national security\" class=\"wp-block-whitehouse-video-accordion-item__link\" href=\"https://www.whitehouse.gov/priorities/national-security/\" id=\"uij-e372\"></a>"
+        },
+        {
+          "target": [
+            "#uij-e380"
+          ],
+          "selector": "#uij-e380",
+          "bbox": null,
+          "html": "<a aria-label=\"unleash american energy\" class=\"wp-block-whitehouse-video-accordion-item__link\" href=\"https://www.whitehouse.gov/priorities/energy/\" id=\"uij-e380\"></a>"
+        },
+        {
+          "target": [
+            "#uij-e388"
+          ],
+          "selector": "#uij-e388",
+          "bbox": null,
+          "html": "<a aria-label=\"make america healthy again\" class=\"wp-block-whitehouse-video-accordion-item__link\" href=\"https://www.whitehouse.gov/priorities/maha/\" id=\"uij-e388\"></a>"
+        },
+        {
+          "target": [
+            "#f250-fab"
+          ],
+          "selector": "#f250-fab",
+          "bbox": null,
+          "html": "<button aria-controls=\"f250-modal-backdrop\" aria-expanded=\"false\" aria-label=\"Open Freedom 250 events calendar\" class=\"f250-fab\" id=\"f250-fab\" type=\"button\">"
+        }
+      ]
+    },
+    {
+      "rule_id": "avoid-inline-spacing",
+      "impact": "",
+      "tags": [
+        "wcag21aa",
+        "wcag1412"
+      ],
+      "description": "Ensure that text spacing set through style attributes can be adjusted with custom stylesheets",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/avoid-inline-spacing?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#top"
+          ],
+          "selector": "#top",
+          "bbox": null,
+          "html": "<body class=\"home wp-singular page-template-default page page-id-2 wp-embed-responsive wp-theme-whitehouse remove-content-margins has-immersive-header has-topper has-notification-bar has-dynamic-annou"
+        },
+        {
+          "target": [
+            "#uij-e354"
+          ],
+          "selector": "#uij-e354",
+          "bbox": null,
+          "html": "<div class=\"is-vertical alignfull wp-block-whitehouse-video-accordion is-content-justification-center is-layout-flex wp-container-whitehouse-video-accordion-is-layout-ce155fab wp-block-whitehouse-vide"
+        },
+        {
+          "target": [
+            "#uij-e358"
+          ],
+          "selector": "#uij-e358",
+          "bbox": null,
+          "html": "<video id=\"uij-e358\" loop=\"\" muted=\"\" playsinline=\"\" preload=\"metadata\" src=\"\" style=\"object-position:50% 30%;\" tabindex=\"-1\"></video>"
+        },
+        {
+          "target": [
+            "#uij-e366"
+          ],
+          "selector": "#uij-e366",
+          "bbox": null,
+          "html": "<video id=\"uij-e366\" loop=\"\" muted=\"\" playsinline=\"\" preload=\"metadata\" src=\"\" style=\"object-position:50% 30%;\" tabindex=\"-1\"></video>"
+        },
+        {
+          "target": [
+            "#uij-e374"
+          ],
+          "selector": "#uij-e374",
+          "bbox": null,
+          "html": "<video id=\"uij-e374\" loop=\"\" muted=\"\" playsinline=\"\" preload=\"metadata\" src=\"\" style=\"object-position:49% 28%;\" tabindex=\"-1\"></video>"
+        },
+        {
+          "target": [
+            "#uij-e382"
+          ],
+          "selector": "#uij-e382",
+          "bbox": null,
+          "html": "<video id=\"uij-e382\" loop=\"\" muted=\"\" playsinline=\"\" preload=\"metadata\" src=\"\" style=\"object-position:47% 67%;\" tabindex=\"-1\"></video>"
+        },
+        {
+          "target": [
+            "#uij-e390"
+          ],
+          "selector": "#uij-e390",
+          "bbox": null,
+          "html": "<video id=\"uij-e390\" loop=\"\" muted=\"\" playsinline=\"\" preload=\"metadata\" src=\"\" style=\"object-position:50% 40%;\" tabindex=\"-1\"></video>"
+        },
+        {
+          "target": [
+            "#uij-e395"
+          ],
+          "selector": "#uij-e395",
+          "bbox": null,
+          "html": "<div class=\"wp-block-whitehouse-raw-html\" id=\"uij-e395\" style=\"margin:0;\">"
+        },
+        {
+          "target": [
+            "#uij-e642"
+          ],
+          "selector": "#uij-e642",
+          "bbox": null,
+          "html": "<span id=\"uij-e642\" style=\"color: #FF0000\">45470</span>"
+        },
+        {
+          "target": [
+            "#mcforms-132923-353640"
+          ],
+          "selector": "#mcforms-132923-353640",
+          "bbox": null,
+          "html": "<div class=\"mcforms-wrapper needsclick\" id=\"mcforms-132923-353640\" style=\"display: block;\"></div>"
+        }
+      ]
+    },
+    {
+      "rule_id": "button-name",
+      "impact": "",
+      "tags": [
+        "wcag2a",
+        "wcag412",
+        "section508",
+        "section508.22.a"
+      ],
+      "description": "Ensure buttons have discernible text",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/button-name?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e7"
+          ],
+          "selector": "#uij-e7",
+          "bbox": null,
+          "html": "<button aria-controls=\"wp-block-whitehouse-header-5__menu\" aria-haspopup=\"dialog\" class=\"button-icon\" data-wp-bind--aria-expanded=\"callbacks.isMenuActive\" data-wp-bind--title=\"callbacks.getMenuButtonT"
+        },
+        {
+          "target": [
+            "#uij-e25"
+          ],
+          "selector": "#uij-e25",
+          "bbox": null,
+          "html": "<button aria-controls=\"wp-block-whitehouse-header-5__search\" aria-haspopup=\"dialog\" class=\"button-icon\" data-wp-bind--aria-expanded=\"callbacks.isSearchActive\" data-wp-bind--title=\"callbacks.getSearchB"
+        },
+        {
+          "target": [
+            "#f250-fab"
+          ],
+          "selector": "#f250-fab",
+          "bbox": null,
+          "html": "<button aria-controls=\"f250-modal-backdrop\" aria-expanded=\"false\" aria-label=\"Open Freedom 250 events calendar\" class=\"f250-fab\" id=\"f250-fab\" type=\"button\">"
+        }
+      ]
+    },
+    {
+      "rule_id": "bypass",
+      "impact": "",
+      "tags": [
+        "wcag2a",
+        "wcag241",
+        "section508",
+        "section508.22.o"
+      ],
+      "description": "Ensure each page has at least one mechanism for a user to bypass navigation and jump straight to the content",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/bypass?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "html"
+          ],
+          "selector": "html",
+          "bbox": null,
+          "html": "<html lang=\"en-US\">"
+        }
+      ]
+    },
+    {
+      "rule_id": "color-contrast",
+      "impact": "serious",
+      "tags": [
+        "wcag2aa",
+        "wcag143"
+      ],
+      "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e2"
+          ],
+          "selector": "#uij-e2",
+          "bbox": null,
+          "html": "<span class=\"announcement-bar__text\" id=\"uij-e2\">Ensuring the integrity of our elections is fundamental to preserving trust in American democracy. Learn more →</span>"
+        },
+        {
+          "target": [
+            "#wp-block-whitehouse-header-5__search-input"
+          ],
+          "selector": "#wp-block-whitehouse-header-5__search-input",
+          "bbox": null,
+          "html": "<input class=\"wp-block-whitehouse-header__search-input\" id=\"wp-block-whitehouse-header-5__search-input\" name=\"s\" title=\"Search for:\" type=\"search\" value=\"\">"
+        },
+        {
+          "target": [
+            "#uij-e601"
+          ],
+          "selector": "#uij-e601",
+          "bbox": null,
+          "html": "<h2 class=\"wp-block-whitehouse-footer__menu-heading\" id=\"uij-e601\">About</h2>"
+        },
+        {
+          "target": [
+            "#uij-e602"
+          ],
+          "selector": "#uij-e602",
+          "bbox": null,
+          "html": "<a data-wp-on-async--mouseenter=\"callbacks.handlePopoverMenuMouseover\" data-wp-on-async--mouseleave=\"callbacks.handlePopoverMenuMouseout\" href=\"https://www.whitehouse.gov/administration/\" id=\"uij-e602"
+        },
+        {
+          "target": [
+            "#uij-e603"
+          ],
+          "selector": "#uij-e603",
+          "bbox": null,
+          "html": "<a data-wp-on-async--mouseenter=\"callbacks.handlePopoverMenuMouseover\" data-wp-on-async--mouseleave=\"callbacks.handlePopoverMenuMouseout\" href=\"https://www.whitehouse.gov/contact/\" id=\"uij-e603\">Conta"
+        },
+        {
+          "target": [
+            "#uij-e604"
+          ],
+          "selector": "#uij-e604",
+          "bbox": null,
+          "html": "<a data-wp-on-async--mouseenter=\"callbacks.handlePopoverMenuMouseover\" data-wp-on-async--mouseleave=\"callbacks.handlePopoverMenuMouseout\" href=\"https://www.whitehouse.gov/internships/\" id=\"uij-e604\">I"
+        },
+        {
+          "target": [
+            "#uij-e605"
+          ],
+          "selector": "#uij-e605",
+          "bbox": null,
+          "html": "<a data-wp-on-async--mouseenter=\"callbacks.handlePopoverMenuMouseover\" data-wp-on-async--mouseleave=\"callbacks.handlePopoverMenuMouseout\" href=\"https://www.whitehouse.gov/subscribe\" id=\"uij-e605\" rel="
+        },
+        {
+          "target": [
+            "#uij-e606"
+          ],
+          "selector": "#uij-e606",
+          "bbox": null,
+          "html": "<a data-wp-on-async--mouseenter=\"callbacks.handlePopoverMenuMouseover\" data-wp-on-async--mouseleave=\"callbacks.handlePopoverMenuMouseout\" href=\"https://www.whitehouse.gov/privacy/\" id=\"uij-e606\">Priva"
+        },
+        {
+          "target": [
+            "#uij-e609"
+          ],
+          "selector": "#uij-e609",
+          "bbox": null,
+          "html": "<h2 class=\"wp-block-whitehouse-footer__menu-heading\" id=\"uij-e609\">Media</h2>"
+        },
+        {
+          "target": [
+            "#uij-e610"
+          ],
+          "selector": "#uij-e610",
+          "bbox": null,
+          "html": "<a data-wp-on-async--mouseenter=\"callbacks.handlePopoverMenuMouseover\" data-wp-on-async--mouseleave=\"callbacks.handlePopoverMenuMouseout\" href=\"https://www.whitehouse.gov/news/\" id=\"uij-e610\">News</a>"
+        },
+        {
+          "target": [
+            "#uij-e611"
+          ],
+          "selector": "#uij-e611",
+          "bbox": null,
+          "html": "<a data-wp-on-async--mouseenter=\"callbacks.handlePopoverMenuMouseover\" data-wp-on-async--mouseleave=\"callbacks.handlePopoverMenuMouseout\" href=\"https://www.whitehouse.gov/gallery/\" id=\"uij-e611\">Galle"
+        },
+        {
+          "target": [
+            "#uij-e612"
+          ],
+          "selector": "#uij-e612",
+          "bbox": null,
+          "html": "<a data-wp-on-async--mouseenter=\"callbacks.handlePopoverMenuMouseover\" data-wp-on-async--mouseleave=\"callbacks.handlePopoverMenuMouseout\" href=\"https://www.whitehouse.gov/videos/\" id=\"uij-e612\">Video "
+        },
+        {
+          "target": [
+            "#uij-e613"
+          ],
+          "selector": "#uij-e613",
+          "bbox": null,
+          "html": "<a data-wp-on-async--mouseenter=\"callbacks.handlePopoverMenuMouseover\" data-wp-on-async--mouseleave=\"callbacks.handlePopoverMenuMouseout\" href=\"https://www.whitehouse.gov/mediabias/\" id=\"uij-e613\">Med"
+        },
+        {
+          "target": [
+            "#uij-e614"
+          ],
+          "selector": "#uij-e614",
+          "bbox": null,
+          "html": "<a data-wp-on-async--mouseenter=\"callbacks.handlePopoverMenuMouseover\" data-wp-on-async--mouseleave=\"callbacks.handlePopoverMenuMouseout\" href=\"https://www.whitehouse.gov/wire/\" id=\"uij-e614\">White Ho"
+        },
+        {
+          "target": [
+            "#uij-e617"
+          ],
+          "selector": "#uij-e617",
+          "bbox": null,
+          "html": "<h2 class=\"wp-block-whitehouse-footer__menu-heading\" id=\"uij-e617\">Initiatives</h2>"
+        },
+        {
+          "target": [
+            "#uij-e618"
+          ],
+          "selector": "#uij-e618",
+          "bbox": null,
+          "html": "<a data-wp-on-async--mouseenter=\"callbacks.handlePopoverMenuMouseover\" data-wp-on-async--mouseleave=\"callbacks.handlePopoverMenuMouseout\" href=\"https://www.freedom250.org/\" id=\"uij-e618\" rel=\"noopener"
+        },
+        {
+          "target": [
+            "#uij-e619"
+          ],
+          "selector": "#uij-e619",
+          "bbox": null,
+          "html": "<a data-wp-on-async--mouseenter=\"callbacks.handlePopoverMenuMouseover\" data-wp-on-async--mouseleave=\"callbacks.handlePopoverMenuMouseout\" href=\"https://www.whitehouse.gov/investments/\" id=\"uij-e619\">I"
+        },
+        {
+          "target": [
+            "#uij-e620"
+          ],
+          "selector": "#uij-e620",
+          "bbox": null,
+          "html": "<a data-wp-on-async--mouseenter=\"callbacks.handlePopoverMenuMouseover\" data-wp-on-async--mouseleave=\"callbacks.handlePopoverMenuMouseout\" href=\"https://www.whitehouse.gov/obbb/\" id=\"uij-e620\">Working "
+        },
+        {
+          "target": [
+            "#uij-e621"
+          ],
+          "selector": "#uij-e621",
+          "bbox": null,
+          "html": "<a data-wp-on-async--mouseenter=\"callbacks.handlePopoverMenuMouseover\" data-wp-on-async--mouseleave=\"callbacks.handlePopoverMenuMouseout\" href=\"https://ai.gov\" id=\"uij-e621\" rel=\"noopener\" target=\"_bl"
+        },
+        {
+          "target": [
+            "#uij-e622"
+          ],
+          "selector": "#uij-e622",
+          "bbox": null,
+          "html": "<a data-wp-on-async--mouseenter=\"callbacks.handlePopoverMenuMouseover\" data-wp-on-async--mouseleave=\"callbacks.handlePopoverMenuMouseout\" href=\"https://www.whitehouse.gov/priorities/doge/\" id=\"uij-e62"
+        },
+        {
+          "target": [
+            "#uij-e625"
+          ],
+          "selector": "#uij-e625",
+          "bbox": null,
+          "html": "<h3 class=\"wp-block-whitehouse-footer__newsletter-heading wp-block-heading\" id=\"uij-e625\">Subscribe to the WH Newsletter</h3>"
+        },
+        {
+          "target": [
+            "#uij-e630"
+          ],
+          "selector": "#uij-e630",
+          "bbox": null,
+          "html": "<input id=\"uij-e630\" name=\"EMAIL\" placeholder=\"Your email\" required=\"\" title=\"Your email\" type=\"email\" value=\"\">"
+        },
+        {
+          "target": [
+            "#mailchimp-signup-form-6"
+          ],
+          "selector": "#mailchimp-signup-form-6",
+          "bbox": null,
+          "html": "<input id=\"mailchimp-signup-form-6\" name=\"b_255057cc391ca0facb169b81c_004f59aa22\" tabindex=\"-1\" type=\"text\" value=\"\">"
+        },
+        {
+          "target": [
+            "#uij-e634"
+          ],
+          "selector": "#uij-e634",
+          "bbox": null,
+          "html": "<input class=\"wp-element-button\" id=\"uij-e634\" type=\"submit\" value=\"Sign Up\">"
+        },
+        {
+          "target": [
+            "#uij-e636"
+          ],
+          "selector": "#uij-e636",
+          "bbox": null,
+          "html": "<div class=\"wp-block-whitehouse-footer__updates\" id=\"uij-e636\">"
+        },
+        {
+          "target": [
+            "#uij-e640"
+          ],
+          "selector": "#uij-e640",
+          "bbox": null,
+          "html": "<a href=\"https://my.community.com/realdonaldtrump?t=VICTORY\" id=\"uij-e640\" rel=\"noopener\" target=\"_blank\">Click here</a>"
+        },
+        {
+          "target": [
+            "#uij-e641"
+          ],
+          "selector": "#uij-e641",
+          "bbox": null,
+          "html": "<span id=\"uij-e641\">or text</span>"
+        },
+        {
+          "target": [
+            "#uij-e642"
+          ],
+          "selector": "#uij-e642",
+          "bbox": null,
+          "html": "<span id=\"uij-e642\" style=\"color: #FF0000\">45470</span>"
+        }
+      ]
+    },
+    {
+      "rule_id": "document-title",
+      "impact": "",
+      "tags": [
+        "wcag2a",
+        "wcag242"
+      ],
+      "description": "Ensure each HTML document contains a non-empty <title> element",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/document-title?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "html"
+          ],
+          "selector": "html",
+          "bbox": null,
+          "html": "<html lang=\"en-US\">"
+        }
+      ]
+    },
+    {
+      "rule_id": "duplicate-id-aria",
+      "impact": "",
+      "tags": [
+        "wcag2a",
+        "wcag412"
+      ],
+      "description": "Ensure every id attribute value used in ARIA and in labels is unique",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/duplicate-id-aria?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#wp-block-whitehouse-header-5__search"
+          ],
+          "selector": "#wp-block-whitehouse-header-5__search",
+          "bbox": null,
+          "html": "<search class=\"wp-block-whitehouse-header__search\" data-wp-class--is-active=\"state.isSearchActive\" data-wp-init=\"callbacks.initSearch\" data-wp-watch=\"callbacks.watchSearch\" id=\"wp-block-whitehouse-hea"
+        },
+        {
+          "target": [
+            "#wp-block-whitehouse-header-5__search-input"
+          ],
+          "selector": "#wp-block-whitehouse-header-5__search-input",
+          "bbox": null,
+          "html": "<input class=\"wp-block-whitehouse-header__search-input\" id=\"wp-block-whitehouse-header-5__search-input\" name=\"s\" title=\"Search for:\" type=\"search\" value=\"\">"
+        },
+        {
+          "target": [
+            "#wp-block-whitehouse-header-5__menu"
+          ],
+          "selector": "#wp-block-whitehouse-header-5__menu",
+          "bbox": null,
+          "html": "<div class=\"wp-block-whitehouse-header__menu\" data-wp-class--is-active=\"state.isMenuActive\" data-wp-init=\"callbacks.initMenu\" data-wp-watch=\"callbacks.watchMenu\" id=\"wp-block-whitehouse-header-5__menu"
+        },
+        {
+          "target": [
+            "#f250-modal-backdrop"
+          ],
+          "selector": "#f250-modal-backdrop",
+          "bbox": null,
+          "html": "<div aria-hidden=\"true\" class=\"f250-modal-backdrop\" id=\"f250-modal-backdrop\">"
+        },
+        {
+          "target": [
+            "#f250-modal-title"
+          ],
+          "selector": "#f250-modal-title",
+          "bbox": null,
+          "html": "<h2 class=\"f250-modal-title\" id=\"f250-modal-title\">Freedom <em id=\"uij-e406\">250</em></h2>"
+        },
+        {
+          "target": [
+            "#mailchimp-signup-form-6"
+          ],
+          "selector": "#mailchimp-signup-form-6",
+          "bbox": null,
+          "html": "<input id=\"mailchimp-signup-form-6\" name=\"b_255057cc391ca0facb169b81c_004f59aa22\" tabindex=\"-1\" type=\"text\" value=\"\">"
+        }
+      ]
+    },
+    {
+      "rule_id": "empty-heading",
+      "impact": "minor",
+      "tags": [],
+      "description": "Ensure headings have discernible text",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/empty-heading?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e349"
+          ],
+          "selector": "#uij-e349",
+          "bbox": null,
+          "html": "<h2 class=\"wp-block-heading has-text-align-center\" id=\"uij-e349\" style=\"font-size:30px\">Donald J. Trump</h2>"
+        },
+        {
+          "target": [
+            "#uij-e360"
+          ],
+          "selector": "#uij-e360",
+          "bbox": null,
+          "html": "<h3 class=\"wp-block-whitehouse-video-accordion-item__title\" id=\"uij-e360\">"
+        },
+        {
+          "target": [
+            "#uij-e368"
+          ],
+          "selector": "#uij-e368",
+          "bbox": null,
+          "html": "<h3 class=\"wp-block-whitehouse-video-accordion-item__title\" id=\"uij-e368\">"
+        },
+        {
+          "target": [
+            "#uij-e376"
+          ],
+          "selector": "#uij-e376",
+          "bbox": null,
+          "html": "<h3 class=\"wp-block-whitehouse-video-accordion-item__title\" id=\"uij-e376\">"
+        },
+        {
+          "target": [
+            "#uij-e384"
+          ],
+          "selector": "#uij-e384",
+          "bbox": null,
+          "html": "<h3 class=\"wp-block-whitehouse-video-accordion-item__title\" id=\"uij-e384\">"
+        },
+        {
+          "target": [
+            "#uij-e392"
+          ],
+          "selector": "#uij-e392",
+          "bbox": null,
+          "html": "<h3 class=\"wp-block-whitehouse-video-accordion-item__title\" id=\"uij-e392\">"
+        },
+        {
+          "target": [
+            "#uij-e601"
+          ],
+          "selector": "#uij-e601",
+          "bbox": null,
+          "html": "<h2 class=\"wp-block-whitehouse-footer__menu-heading\" id=\"uij-e601\">About</h2>"
+        },
+        {
+          "target": [
+            "#uij-e609"
+          ],
+          "selector": "#uij-e609",
+          "bbox": null,
+          "html": "<h2 class=\"wp-block-whitehouse-footer__menu-heading\" id=\"uij-e609\">Media</h2>"
+        },
+        {
+          "target": [
+            "#uij-e617"
+          ],
+          "selector": "#uij-e617",
+          "bbox": null,
+          "html": "<h2 class=\"wp-block-whitehouse-footer__menu-heading\" id=\"uij-e617\">Initiatives</h2>"
+        },
+        {
+          "target": [
+            "#uij-e625"
+          ],
+          "selector": "#uij-e625",
+          "bbox": null,
+          "html": "<h3 class=\"wp-block-whitehouse-footer__newsletter-heading wp-block-heading\" id=\"uij-e625\">Subscribe to the WH Newsletter</h3>"
+        }
+      ]
+    },
+    {
+      "rule_id": "form-field-multiple-labels",
+      "impact": "",
+      "tags": [
+        "wcag2a",
+        "wcag332"
+      ],
+      "description": "Ensure form field does not have multiple label elements",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/form-field-multiple-labels?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e630"
+          ],
+          "selector": "#uij-e630",
+          "bbox": null,
+          "html": "<input id=\"uij-e630\" name=\"EMAIL\" placeholder=\"Your email\" required=\"\" title=\"Your email\" type=\"email\" value=\"\">"
+        }
+      ]
+    },
+    {
+      "rule_id": "heading-order",
+      "impact": "",
+      "tags": [],
+      "description": "Ensure the order of headings is semantically correct",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/heading-order?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e333"
+          ],
+          "selector": "#uij-e333",
+          "bbox": null,
+          "html": "<h1 class=\"wp-block-whitehouse-topper__headline\" id=\"uij-e333\">\n</h1>"
+        },
+        {
+          "target": [
+            "#uij-e349"
+          ],
+          "selector": "#uij-e349",
+          "bbox": null,
+          "html": "<h2 class=\"wp-block-heading has-text-align-center\" id=\"uij-e349\" style=\"font-size:30px\">Donald J. Trump</h2>"
+        },
+        {
+          "target": [
+            "#uij-e360"
+          ],
+          "selector": "#uij-e360",
+          "bbox": null,
+          "html": "<h3 class=\"wp-block-whitehouse-video-accordion-item__title\" id=\"uij-e360\">"
+        },
+        {
+          "target": [
+            "#uij-e368"
+          ],
+          "selector": "#uij-e368",
+          "bbox": null,
+          "html": "<h3 class=\"wp-block-whitehouse-video-accordion-item__title\" id=\"uij-e368\">"
+        },
+        {
+          "target": [
+            "#uij-e376"
+          ],
+          "selector": "#uij-e376",
+          "bbox": null,
+          "html": "<h3 class=\"wp-block-whitehouse-video-accordion-item__title\" id=\"uij-e376\">"
+        },
+        {
+          "target": [
+            "#uij-e384"
+          ],
+          "selector": "#uij-e384",
+          "bbox": null,
+          "html": "<h3 class=\"wp-block-whitehouse-video-accordion-item__title\" id=\"uij-e384\">"
+        },
+        {
+          "target": [
+            "#uij-e392"
+          ],
+          "selector": "#uij-e392",
+          "bbox": null,
+          "html": "<h3 class=\"wp-block-whitehouse-video-accordion-item__title\" id=\"uij-e392\">"
+        },
+        {
+          "target": [
+            "#uij-e601"
+          ],
+          "selector": "#uij-e601",
+          "bbox": null,
+          "html": "<h2 class=\"wp-block-whitehouse-footer__menu-heading\" id=\"uij-e601\">About</h2>"
+        },
+        {
+          "target": [
+            "#uij-e609"
+          ],
+          "selector": "#uij-e609",
+          "bbox": null,
+          "html": "<h2 class=\"wp-block-whitehouse-footer__menu-heading\" id=\"uij-e609\">Media</h2>"
+        },
+        {
+          "target": [
+            "#uij-e617"
+          ],
+          "selector": "#uij-e617",
+          "bbox": null,
+          "html": "<h2 class=\"wp-block-whitehouse-footer__menu-heading\" id=\"uij-e617\">Initiatives</h2>"
+        },
+        {
+          "target": [
+            "#uij-e625"
+          ],
+          "selector": "#uij-e625",
+          "bbox": null,
+          "html": "<h3 class=\"wp-block-whitehouse-footer__newsletter-heading wp-block-heading\" id=\"uij-e625\">Subscribe to the WH Newsletter</h3>"
+        }
+      ]
+    },
+    {
+      "rule_id": "html-has-lang",
+      "impact": "",
+      "tags": [
+        "wcag2a",
+        "wcag311"
+      ],
+      "description": "Ensure every HTML document has a lang attribute",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/html-has-lang?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "html"
+          ],
+          "selector": "html",
+          "bbox": null,
+          "html": "<html lang=\"en-US\">"
+        }
+      ]
+    },
+    {
+      "rule_id": "html-lang-valid",
+      "impact": "",
+      "tags": [
+        "wcag2a",
+        "wcag311"
+      ],
+      "description": "Ensure the lang attribute of the <html> element has a valid value",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/html-lang-valid?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "html"
+          ],
+          "selector": "html",
+          "bbox": null,
+          "html": "<html lang=\"en-US\">"
+        }
+      ]
+    },
+    {
+      "rule_id": "image-alt",
+      "impact": "",
+      "tags": [
+        "wcag2a",
+        "wcag111",
+        "section508",
+        "section508.22.a"
+      ],
+      "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/image-alt?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e19"
+          ],
+          "selector": "#uij-e19",
+          "bbox": null,
+          "html": "<img alt=\"\" fetchpriority=\"high\" height=\"367\" id=\"uij-e19\" loading=\"eager\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk+P+/HgAFhAJ/wlseKgAAAABJRU5ErkJggg==\" "
+        },
+        {
+          "target": [
+            "#uij-e287"
+          ],
+          "selector": "#uij-e287",
+          "bbox": null,
+          "html": "<img alt=\"\" class=\"attachment-large size-large\" decoding=\"async\" height=\"1146\" id=\"uij-e287\" loading=\"lazy\" sizes=\"auto, (max-width: 1022px) 100vw, 1022px\" src=\"data:image/png;base64,iVBORw0KGgoAAAANS"
+        },
+        {
+          "target": [
+            "#uij-e290"
+          ],
+          "selector": "#uij-e290",
+          "bbox": null,
+          "html": "<img alt=\"\" class=\"attachment-large size-large\" decoding=\"async\" height=\"464\" id=\"uij-e290\" loading=\"lazy\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk+P+/Hg"
+        },
+        {
+          "target": [
+            "#uij-e352"
+          ],
+          "selector": "#uij-e352",
+          "bbox": null,
+          "html": "<img alt=\"\" class=\"wp-image-33496\" decoding=\"async\" fetchpriority=\"high\" height=\"450\" id=\"uij-e352\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk+P+/HgAFhAJ/w"
+        }
+      ]
+    },
+    {
+      "rule_id": "image-redundant-alt",
+      "impact": "",
+      "tags": [],
+      "description": "Ensure image alternative is not repeated as text",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/image-redundant-alt?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e19"
+          ],
+          "selector": "#uij-e19",
+          "bbox": null,
+          "html": "<img alt=\"\" fetchpriority=\"high\" height=\"367\" id=\"uij-e19\" loading=\"eager\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk+P+/HgAFhAJ/wlseKgAAAABJRU5ErkJggg==\" "
+        },
+        {
+          "target": [
+            "#uij-e287"
+          ],
+          "selector": "#uij-e287",
+          "bbox": null,
+          "html": "<img alt=\"\" class=\"attachment-large size-large\" decoding=\"async\" height=\"1146\" id=\"uij-e287\" loading=\"lazy\" sizes=\"auto, (max-width: 1022px) 100vw, 1022px\" src=\"data:image/png;base64,iVBORw0KGgoAAAANS"
+        },
+        {
+          "target": [
+            "#uij-e290"
+          ],
+          "selector": "#uij-e290",
+          "bbox": null,
+          "html": "<img alt=\"\" class=\"attachment-large size-large\" decoding=\"async\" height=\"464\" id=\"uij-e290\" loading=\"lazy\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk+P+/Hg"
+        },
+        {
+          "target": [
+            "#uij-e352"
+          ],
+          "selector": "#uij-e352",
+          "bbox": null,
+          "html": "<img alt=\"\" class=\"wp-image-33496\" decoding=\"async\" fetchpriority=\"high\" height=\"450\" id=\"uij-e352\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk+P+/HgAFhAJ/w"
+        }
+      ]
+    },
+    {
+      "rule_id": "input-button-name",
+      "impact": "",
+      "tags": [
+        "wcag2a",
+        "wcag412",
+        "section508",
+        "section508.22.a"
+      ],
+      "description": "Ensure input buttons have discernible text",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/input-button-name?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e634"
+          ],
+          "selector": "#uij-e634",
+          "bbox": null,
+          "html": "<input class=\"wp-element-button\" id=\"uij-e634\" type=\"submit\" value=\"Sign Up\">"
+        }
+      ]
+    },
+    {
+      "rule_id": "label",
+      "impact": "",
+      "tags": [
+        "wcag2a",
+        "wcag412",
+        "section508",
+        "section508.22.n"
+      ],
+      "description": "Ensure every form element has a label",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/label?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e630"
+          ],
+          "selector": "#uij-e630",
+          "bbox": null,
+          "html": "<input id=\"uij-e630\" name=\"EMAIL\" placeholder=\"Your email\" required=\"\" title=\"Your email\" type=\"email\" value=\"\">"
+        }
+      ]
+    },
+    {
+      "rule_id": "landmark-banner-is-top-level",
+      "impact": "",
+      "tags": [],
+      "description": "Ensure the banner landmark is at top level",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/landmark-banner-is-top-level?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e1"
+          ],
+          "selector": "#uij-e1",
+          "bbox": null,
+          "html": "<header class=\"alignfull site-header wp-block-template-part\" id=\"uij-e1\">"
+        }
+      ]
+    },
+    {
+      "rule_id": "landmark-contentinfo-is-top-level",
+      "impact": "",
+      "tags": [],
+      "description": "Ensure the contentinfo landmark is at top level",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/landmark-contentinfo-is-top-level?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e594"
+          ],
+          "selector": "#uij-e594",
+          "bbox": null,
+          "html": "<footer class=\"alignfull site-footer wp-block-template-part\" id=\"uij-e594\">"
+        }
+      ]
+    },
+    {
+      "rule_id": "landmark-main-is-top-level",
+      "impact": "",
+      "tags": [],
+      "description": "Ensure the main landmark is at top level",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/landmark-main-is-top-level?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#wp--skip-link--target"
+          ],
+          "selector": "#wp--skip-link--target",
+          "bbox": null,
+          "html": "<main class=\"wp-block-group site-content is-layout-flow wp-block-group-is-layout-flow\" id=\"wp--skip-link--target\">"
+        }
+      ]
+    },
+    {
+      "rule_id": "landmark-no-duplicate-banner",
+      "impact": "",
+      "tags": [],
+      "description": "Ensure the document has at most one banner landmark",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/landmark-no-duplicate-banner?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e1"
+          ],
+          "selector": "#uij-e1",
+          "bbox": null,
+          "html": "<header class=\"alignfull site-header wp-block-template-part\" id=\"uij-e1\">"
+        }
+      ]
+    },
+    {
+      "rule_id": "landmark-no-duplicate-contentinfo",
+      "impact": "",
+      "tags": [],
+      "description": "Ensure the document has at most one contentinfo landmark",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/landmark-no-duplicate-contentinfo?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e594"
+          ],
+          "selector": "#uij-e594",
+          "bbox": null,
+          "html": "<footer class=\"alignfull site-footer wp-block-template-part\" id=\"uij-e594\">"
+        }
+      ]
+    },
+    {
+      "rule_id": "landmark-no-duplicate-main",
+      "impact": "",
+      "tags": [],
+      "description": "Ensure the document has at most one main landmark",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/landmark-no-duplicate-main?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#wp--skip-link--target"
+          ],
+          "selector": "#wp--skip-link--target",
+          "bbox": null,
+          "html": "<main class=\"wp-block-group site-content is-layout-flow wp-block-group-is-layout-flow\" id=\"wp--skip-link--target\">"
+        }
+      ]
+    },
+    {
+      "rule_id": "landmark-one-main",
+      "impact": "",
+      "tags": [],
+      "description": "Ensure the document has a main landmark",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/landmark-one-main?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "html"
+          ],
+          "selector": "html",
+          "bbox": null,
+          "html": "<html lang=\"en-US\">"
+        }
+      ]
+    },
+    {
+      "rule_id": "landmark-unique",
+      "impact": "moderate",
+      "tags": [],
+      "description": "Ensure landmarks are unique",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/landmark-unique?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e1"
+          ],
+          "selector": "#uij-e1",
+          "bbox": null,
+          "html": "<header class=\"alignfull site-header wp-block-template-part\" id=\"uij-e1\">"
+        },
+        {
+          "target": [
+            "#wp--skip-link--target"
+          ],
+          "selector": "#wp--skip-link--target",
+          "bbox": null,
+          "html": "<main class=\"wp-block-group site-content is-layout-flow wp-block-group-is-layout-flow\" id=\"wp--skip-link--target\">"
+        },
+        {
+          "target": [
+            "#uij-e594"
+          ],
+          "selector": "#uij-e594",
+          "bbox": null,
+          "html": "<footer class=\"alignfull site-footer wp-block-template-part\" id=\"uij-e594\">"
+        }
+      ]
+    },
+    {
+      "rule_id": "link-in-text-block",
+      "impact": "",
+      "tags": [
+        "wcag2a",
+        "wcag141"
+      ],
+      "description": "Ensure links are distinguished from surrounding text in a way that does not rely on color",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/link-in-text-block?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e640"
+          ],
+          "selector": "#uij-e640",
+          "bbox": null,
+          "html": "<a href=\"https://my.community.com/realdonaldtrump?t=VICTORY\" id=\"uij-e640\" rel=\"noopener\" target=\"_blank\">Click here</a>"
+        }
+      ]
+    },
+    {
+      "rule_id": "link-name",
+      "impact": "",
+      "tags": [
+        "wcag2a",
+        "wcag244",
+        "wcag412",
+        "section508",
+        "section508.22.a"
+      ],
+      "description": "Ensure links have discernible text",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/link-name?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#wp-skip-link"
+          ],
+          "selector": "#wp-skip-link",
+          "bbox": null,
+          "html": "<a class=\"skip-link screen-reader-text\" href=\"#wp--skip-link--target\" id=\"wp-skip-link\">Skip to content</a>"
+        },
+        {
+          "target": [
+            "#announcement-bar"
+          ],
+          "selector": "#announcement-bar",
+          "bbox": null,
+          "html": "<a class=\"announcement-bar--link\" href=\"https://www.whitehouse.gov/election-integrity\" id=\"announcement-bar\"><span class=\"announcement-bar__text\" id=\"uij-e2\">Ensuring the integrity of our elections is"
+        },
+        {
+          "target": [
+            "#uij-e16"
+          ],
+          "selector": "#uij-e16",
+          "bbox": null,
+          "html": "<a class=\"wp-block-whitehouse-header__logo\" href=\"https://www.whitehouse.gov\" id=\"uij-e16\" rel=\"home\" title=\"The White House\">"
+        },
+        {
+          "target": [
+            "#uij-e44"
+          ],
+          "selector": "#uij-e44",
+          "bbox": null,
+          "html": "<a data-wp-on-async--mouseenter=\"callbacks.handlePopoverMenuMouseover\" data-wp-on-async--mouseleave=\"callbacks.handlePopoverMenuMouseout\" href=\"https://www.whitehouse.gov/news/\" id=\"uij-e44\">News</a>"
+        },
+        {
+          "target": [
+            "#uij-e45"
+          ],
+          "selector": "#uij-e45",
+          "bbox": null,
+          "html": "<a data-wp-on-async--mouseenter=\"callbacks.handlePopoverMenuMouseover\" data-wp-on-async--mouseleave=\"callbacks.handlePopoverMenuMouseout\" href=\"https://www.whitehouse.gov/gallery/\" id=\"uij-e45\">Galler"
+        },
+        {
+          "target": [
+            "#uij-e46"
+          ],
+          "selector": "#uij-e46",
+          "bbox": null,
+          "html": "<a data-wp-on-async--mouseenter=\"callbacks.handlePopoverMenuMouseover\" data-wp-on-async--mouseleave=\"callbacks.handlePopoverMenuMouseout\" href=\"https://www.whitehouse.gov/live/\" id=\"uij-e46\">Livestrea"
+        },
+        {
+          "target": [
+            "#uij-e47"
+          ],
+          "selector": "#uij-e47",
+          "bbox": null,
+          "html": "<a data-wp-on-async--mouseenter=\"callbacks.handlePopoverMenuMouseover\" data-wp-on-async--mouseleave=\"callbacks.handlePopoverMenuMouseout\" href=\"https://www.whitehouse.gov/election-integrity/\" id=\"uij-"
+        },
+        {
+          "target": [
+            "#uij-e48"
+          ],
+          "selector": "#uij-e48",
+          "bbox": null,
+          "html": "<a data-wp-on-async--mouseenter=\"callbacks.handlePopoverMenuMouseover\" data-wp-on-async--mouseleave=\"callbacks.handlePopoverMenuMouseout\" href=\"https://www.whitehouse.gov/saveamerica/\" id=\"uij-e48\">SA"
+        },
+        {
+          "target": [
+            "#uij-e49"
+          ],
+          "selector": "#uij-e49",
+          "bbox": null,
+          "html": "<a data-wp-on-async--mouseenter=\"callbacks.handlePopoverMenuMouseover\" data-wp-on-async--mouseleave=\"callbacks.handlePopoverMenuMouseout\" href=\"https://trumpaccounts.gov\" id=\"uij-e49\" rel=\"noopener\" t"
+        },
+        {
+          "target": [
+            "#uij-e50"
+          ],
+          "selector": "#uij-e50",
+          "bbox": null,
+          "html": "<a data-wp-on-async--mouseenter=\"callbacks.handlePopoverMenuMouseover\" data-wp-on-async--mouseleave=\"callbacks.handlePopoverMenuMouseout\" href=\"https://www.whitehouse.gov/ratepayer-protection-pledge/\""
+        },
+        {
+          "target": [
+            "#uij-e51"
+          ],
+          "selector": "#uij-e51",
+          "bbox": null,
+          "html": "<a data-wp-on-async--mouseenter=\"callbacks.handlePopoverMenuMouseover\" data-wp-on-async--mouseleave=\"callbacks.handlePopoverMenuMouseout\" href=\"https://www.whitehouse.gov/contact/\" id=\"uij-e51\">Contac"
+        },
+        {
+          "target": [
+            "#uij-e286"
+          ],
+          "selector": "#uij-e286",
+          "bbox": null,
+          "html": "<a class=\"wp-block-whitehouse-header__menu-feature is-active\" data-index=\"0\" data-menu-id=\"default\" data-wp-class--is-active=\"callbacks.isActiveMenuFeature\" data-wp-watch=\"callbacks.watchMenuFeature\" "
+        },
+        {
+          "target": [
+            "#uij-e289"
+          ],
+          "selector": "#uij-e289",
+          "bbox": null,
+          "html": "<a class=\"wp-block-whitehouse-header__menu-feature is-active\" data-index=\"1\" data-menu-id=\"default\" data-wp-class--is-active=\"callbacks.isActiveMenuFeature\" data-wp-watch=\"callbacks.watchMenuFeature\" "
+        },
+        {
+          "target": [
+            "#uij-e356"
+          ],
+          "selector": "#uij-e356",
+          "bbox": null,
+          "html": "<a aria-label=\"secure the border\" class=\"wp-block-whitehouse-video-accordion-item__link\" href=\"https://www.whitehouse.gov/priorities/border-immigration/\" id=\"uij-e356\"></a>"
+        },
+        {
+          "target": [
+            "#uij-e364"
+          ],
+          "selector": "#uij-e364",
+          "bbox": null,
+          "html": "<a aria-label=\"grow the economy\" class=\"wp-block-whitehouse-video-accordion-item__link\" href=\"https://www.whitehouse.gov/priorities/economy/\" id=\"uij-e364\"></a>"
+        },
+        {
+          "target": [
+            "#uij-e372"
+          ],
+          "selector": "#uij-e372",
+          "bbox": null,
+          "html": "<a aria-label=\"Strengthen national security\" class=\"wp-block-whitehouse-video-accordion-item__link\" href=\"https://www.whitehouse.gov/priorities/national-security/\" id=\"uij-e372\"></a>"
+        },
+        {
+          "target": [
+            "#uij-e380"
+          ],
+          "selector": "#uij-e380",
+          "bbox": null,
+          "html": "<a aria-label=\"unleash american energy\" class=\"wp-block-whitehouse-video-accordion-item__link\" href=\"https://www.whitehouse.gov/priorities/energy/\" id=\"uij-e380\"></a>"
+        },
+        {
+          "target": [
+            "#uij-e388"
+          ],
+          "selector": "#uij-e388",
+          "bbox": null,
+          "html": "<a aria-label=\"make america healthy again\" class=\"wp-block-whitehouse-video-accordion-item__link\" href=\"https://www.whitehouse.gov/priorities/maha/\" id=\"uij-e388\"></a>"
+        },
+        {
+          "target": [
+            "#uij-e602"
+          ],
+          "selector": "#uij-e602",
+          "bbox": null,
+          "html": "<a data-wp-on-async--mouseenter=\"callbacks.handlePopoverMenuMouseover\" data-wp-on-async--mouseleave=\"callbacks.handlePopoverMenuMouseout\" href=\"https://www.whitehouse.gov/administration/\" id=\"uij-e602"
+        },
+        {
+          "target": [
+            "#uij-e603"
+          ],
+          "selector": "#uij-e603",
+          "bbox": null,
+          "html": "<a data-wp-on-async--mouseenter=\"callbacks.handlePopoverMenuMouseover\" data-wp-on-async--mouseleave=\"callbacks.handlePopoverMenuMouseout\" href=\"https://www.whitehouse.gov/contact/\" id=\"uij-e603\">Conta"
+        },
+        {
+          "target": [
+            "#uij-e604"
+          ],
+          "selector": "#uij-e604",
+          "bbox": null,
+          "html": "<a data-wp-on-async--mouseenter=\"callbacks.handlePopoverMenuMouseover\" data-wp-on-async--mouseleave=\"callbacks.handlePopoverMenuMouseout\" href=\"https://www.whitehouse.gov/internships/\" id=\"uij-e604\">I"
+        },
+        {
+          "target": [
+            "#uij-e605"
+          ],
+          "selector": "#uij-e605",
+          "bbox": null,
+          "html": "<a data-wp-on-async--mouseenter=\"callbacks.handlePopoverMenuMouseover\" data-wp-on-async--mouseleave=\"callbacks.handlePopoverMenuMouseout\" href=\"https://www.whitehouse.gov/subscribe\" id=\"uij-e605\" rel="
+        },
+        {
+          "target": [
+            "#uij-e606"
+          ],
+          "selector": "#uij-e606",
+          "bbox": null,
+          "html": "<a data-wp-on-async--mouseenter=\"callbacks.handlePopoverMenuMouseover\" data-wp-on-async--mouseleave=\"callbacks.handlePopoverMenuMouseout\" href=\"https://www.whitehouse.gov/privacy/\" id=\"uij-e606\">Priva"
+        },
+        {
+          "target": [
+            "#uij-e610"
+          ],
+          "selector": "#uij-e610",
+          "bbox": null,
+          "html": "<a data-wp-on-async--mouseenter=\"callbacks.handlePopoverMenuMouseover\" data-wp-on-async--mouseleave=\"callbacks.handlePopoverMenuMouseout\" href=\"https://www.whitehouse.gov/news/\" id=\"uij-e610\">News</a>"
+        },
+        {
+          "target": [
+            "#uij-e611"
+          ],
+          "selector": "#uij-e611",
+          "bbox": null,
+          "html": "<a data-wp-on-async--mouseenter=\"callbacks.handlePopoverMenuMouseover\" data-wp-on-async--mouseleave=\"callbacks.handlePopoverMenuMouseout\" href=\"https://www.whitehouse.gov/gallery/\" id=\"uij-e611\">Galle"
+        },
+        {
+          "target": [
+            "#uij-e612"
+          ],
+          "selector": "#uij-e612",
+          "bbox": null,
+          "html": "<a data-wp-on-async--mouseenter=\"callbacks.handlePopoverMenuMouseover\" data-wp-on-async--mouseleave=\"callbacks.handlePopoverMenuMouseout\" href=\"https://www.whitehouse.gov/videos/\" id=\"uij-e612\">Video "
+        },
+        {
+          "target": [
+            "#uij-e613"
+          ],
+          "selector": "#uij-e613",
+          "bbox": null,
+          "html": "<a data-wp-on-async--mouseenter=\"callbacks.handlePopoverMenuMouseover\" data-wp-on-async--mouseleave=\"callbacks.handlePopoverMenuMouseout\" href=\"https://www.whitehouse.gov/mediabias/\" id=\"uij-e613\">Med"
+        },
+        {
+          "target": [
+            "#uij-e614"
+          ],
+          "selector": "#uij-e614",
+          "bbox": null,
+          "html": "<a data-wp-on-async--mouseenter=\"callbacks.handlePopoverMenuMouseover\" data-wp-on-async--mouseleave=\"callbacks.handlePopoverMenuMouseout\" href=\"https://www.whitehouse.gov/wire/\" id=\"uij-e614\">White Ho"
+        },
+        {
+          "target": [
+            "#uij-e618"
+          ],
+          "selector": "#uij-e618",
+          "bbox": null,
+          "html": "<a data-wp-on-async--mouseenter=\"callbacks.handlePopoverMenuMouseover\" data-wp-on-async--mouseleave=\"callbacks.handlePopoverMenuMouseout\" href=\"https://www.freedom250.org/\" id=\"uij-e618\" rel=\"noopener"
+        },
+        {
+          "target": [
+            "#uij-e619"
+          ],
+          "selector": "#uij-e619",
+          "bbox": null,
+          "html": "<a data-wp-on-async--mouseenter=\"callbacks.handlePopoverMenuMouseover\" data-wp-on-async--mouseleave=\"callbacks.handlePopoverMenuMouseout\" href=\"https://www.whitehouse.gov/investments/\" id=\"uij-e619\">I"
+        },
+        {
+          "target": [
+            "#uij-e620"
+          ],
+          "selector": "#uij-e620",
+          "bbox": null,
+          "html": "<a data-wp-on-async--mouseenter=\"callbacks.handlePopoverMenuMouseover\" data-wp-on-async--mouseleave=\"callbacks.handlePopoverMenuMouseout\" href=\"https://www.whitehouse.gov/obbb/\" id=\"uij-e620\">Working "
+        },
+        {
+          "target": [
+            "#uij-e621"
+          ],
+          "selector": "#uij-e621",
+          "bbox": null,
+          "html": "<a data-wp-on-async--mouseenter=\"callbacks.handlePopoverMenuMouseover\" data-wp-on-async--mouseleave=\"callbacks.handlePopoverMenuMouseout\" href=\"https://ai.gov\" id=\"uij-e621\" rel=\"noopener\" target=\"_bl"
+        },
+        {
+          "target": [
+            "#uij-e622"
+          ],
+          "selector": "#uij-e622",
+          "bbox": null,
+          "html": "<a data-wp-on-async--mouseenter=\"callbacks.handlePopoverMenuMouseover\" data-wp-on-async--mouseleave=\"callbacks.handlePopoverMenuMouseout\" href=\"https://www.whitehouse.gov/priorities/doge/\" id=\"uij-e62"
+        },
+        {
+          "target": [
+            "#uij-e640"
+          ],
+          "selector": "#uij-e640",
+          "bbox": null,
+          "html": "<a href=\"https://my.community.com/realdonaldtrump?t=VICTORY\" id=\"uij-e640\" rel=\"noopener\" target=\"_blank\">Click here</a>"
+        },
+        {
+          "target": [
+            "#uij-e645"
+          ],
+          "selector": "#uij-e645",
+          "bbox": null,
+          "html": "<a class=\"wp-block-whitehouse-footer__logo\" href=\"https://www.whitehouse.gov\" id=\"uij-e645\" rel=\"home\" title=\"The White House\">"
+        },
+        {
+          "target": [
+            "#uij-e651"
+          ],
+          "selector": "#uij-e651",
+          "bbox": null,
+          "html": "<a class=\"wp-block-social-link-anchor\" href=\"https://x.com/whitehouse\" id=\"uij-e651\" rel=\"noopener nofollow\" target=\"_blank\">"
+        },
+        {
+          "target": [
+            "#uij-e656"
+          ],
+          "selector": "#uij-e656",
+          "bbox": null,
+          "html": "<a class=\"wp-block-social-link-anchor\" href=\"https://www.instagram.com/whitehouse/\" id=\"uij-e656\" rel=\"noopener nofollow\" target=\"_blank\">"
+        },
+        {
+          "target": [
+            "#uij-e661"
+          ],
+          "selector": "#uij-e661",
+          "bbox": null,
+          "html": "<a class=\"wp-block-social-link-anchor\" href=\"https://www.tiktok.com/@WhiteHouse\" id=\"uij-e661\" rel=\"noopener nofollow\" target=\"_blank\">"
+        },
+        {
+          "target": [
+            "#uij-e666"
+          ],
+          "selector": "#uij-e666",
+          "bbox": null,
+          "html": "<a class=\"wp-block-social-link-anchor\" href=\"https://truthsocial.com/@WhiteHouse\" id=\"uij-e666\" rel=\"noopener nofollow\" target=\"_blank\">"
+        },
+        {
+          "target": [
+            "#uij-e673"
+          ],
+          "selector": "#uij-e673",
+          "bbox": null,
+          "html": "<a class=\"wp-block-social-link-anchor\" href=\"https://rumble.com/c/whitehouse\" id=\"uij-e673\" rel=\"noopener nofollow\" target=\"_blank\">"
+        },
+        {
+          "target": [
+            "#uij-e678"
+          ],
+          "selector": "#uij-e678",
+          "bbox": null,
+          "html": "<a class=\"wp-block-social-link-anchor\" href=\"https://www.facebook.com/WhiteHouse/\" id=\"uij-e678\" rel=\"noopener nofollow\" target=\"_blank\">"
+        },
+        {
+          "target": [
+            "#uij-e683"
+          ],
+          "selector": "#uij-e683",
+          "bbox": null,
+          "html": "<a class=\"wp-block-social-link-anchor\" href=\"https://www.youtube.com/@WhiteHouse\" id=\"uij-e683\" rel=\"noopener nofollow\" target=\"_blank\">"
+        }
+      ]
+    },
+    {
+      "rule_id": "list",
+      "impact": "",
+      "tags": [
+        "wcag2a",
+        "wcag131"
+      ],
+      "description": "Ensure that lists are structured correctly",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/list?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#menu-primary-navigation"
+          ],
+          "selector": "#menu-primary-navigation",
+          "bbox": null,
+          "html": "<ul class=\"menu menu--desktop\" id=\"menu-primary-navigation\">"
+        },
+        {
+          "target": [
+            "#menu-about"
+          ],
+          "selector": "#menu-about",
+          "bbox": null,
+          "html": "<ul class=\"menu\" id=\"menu-about\">"
+        },
+        {
+          "target": [
+            "#menu-media"
+          ],
+          "selector": "#menu-media",
+          "bbox": null,
+          "html": "<ul class=\"menu\" id=\"menu-media\">"
+        },
+        {
+          "target": [
+            "#menu-initiatives"
+          ],
+          "selector": "#menu-initiatives",
+          "bbox": null,
+          "html": "<ul class=\"menu\" id=\"menu-initiatives\">"
+        },
+        {
+          "target": [
+            "#uij-e649"
+          ],
+          "selector": "#uij-e649",
+          "bbox": null,
+          "html": "<ul class=\"wp-block-social-links is-layout-flex wp-block-social-links-is-layout-flex\" id=\"uij-e649\">"
+        }
+      ]
+    },
+    {
+      "rule_id": "listitem",
+      "impact": "",
+      "tags": [
+        "wcag2a",
+        "wcag131"
+      ],
+      "description": "Ensure <li> elements are used semantically",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/listitem?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#menu-item-37"
+          ],
+          "selector": "#menu-item-37",
+          "bbox": null,
+          "html": "<li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-37\" id=\"menu-item-37\">"
+        },
+        {
+          "target": [
+            "#menu-item-33713"
+          ],
+          "selector": "#menu-item-33713",
+          "bbox": null,
+          "html": "<li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-33713\" id=\"menu-item-33713\">"
+        },
+        {
+          "target": [
+            "#menu-item-33714"
+          ],
+          "selector": "#menu-item-33714",
+          "bbox": null,
+          "html": "<li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-33714\" id=\"menu-item-33714\">"
+        },
+        {
+          "target": [
+            "#menu-item-45021"
+          ],
+          "selector": "#menu-item-45021",
+          "bbox": null,
+          "html": "<li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-45021\" id=\"menu-item-45021\">"
+        },
+        {
+          "target": [
+            "#menu-item-35725"
+          ],
+          "selector": "#menu-item-35725",
+          "bbox": null,
+          "html": "<li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-35725\" id=\"menu-item-35725\">"
+        },
+        {
+          "target": [
+            "#menu-item-42517"
+          ],
+          "selector": "#menu-item-42517",
+          "bbox": null,
+          "html": "<li class=\"menu-item menu-item-type-custom menu-item-object-custom menu-item-42517\" id=\"menu-item-42517\">"
+        },
+        {
+          "target": [
+            "#menu-item-45837"
+          ],
+          "selector": "#menu-item-45837",
+          "bbox": null,
+          "html": "<li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-45837\" id=\"menu-item-45837\">"
+        },
+        {
+          "target": [
+            "#menu-item-33716"
+          ],
+          "selector": "#menu-item-33716",
+          "bbox": null,
+          "html": "<li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-33716\" id=\"menu-item-33716\">"
+        },
+        {
+          "target": [
+            "#menu-item-33104"
+          ],
+          "selector": "#menu-item-33104",
+          "bbox": null,
+          "html": "<li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-33104\" id=\"menu-item-33104\">"
+        },
+        {
+          "target": [
+            "#menu-item-22561"
+          ],
+          "selector": "#menu-item-22561",
+          "bbox": null,
+          "html": "<li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-22561\" id=\"menu-item-22561\">"
+        },
+        {
+          "target": [
+            "#menu-item-33103"
+          ],
+          "selector": "#menu-item-33103",
+          "bbox": null,
+          "html": "<li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-33103\" id=\"menu-item-33103\">"
+        },
+        {
+          "target": [
+            "#menu-item-33105"
+          ],
+          "selector": "#menu-item-33105",
+          "bbox": null,
+          "html": "<li class=\"menu-item menu-item-type-custom menu-item-object-custom menu-item-33105\" id=\"menu-item-33105\">"
+        },
+        {
+          "target": [
+            "#menu-item-34488"
+          ],
+          "selector": "#menu-item-34488",
+          "bbox": null,
+          "html": "<li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-34488\" id=\"menu-item-34488\">"
+        },
+        {
+          "target": [
+            "#menu-item-33107"
+          ],
+          "selector": "#menu-item-33107",
+          "bbox": null,
+          "html": "<li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-33107\" id=\"menu-item-33107\">"
+        },
+        {
+          "target": [
+            "#menu-item-8468"
+          ],
+          "selector": "#menu-item-8468",
+          "bbox": null,
+          "html": "<li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-8468\" id=\"menu-item-8468\">"
+        },
+        {
+          "target": [
+            "#menu-item-12364"
+          ],
+          "selector": "#menu-item-12364",
+          "bbox": null,
+          "html": "<li class=\"menu-item menu-item-type-post_type_archive menu-item-object-past_event menu-item-12364\" id=\"menu-item-12364\">"
+        },
+        {
+          "target": [
+            "#menu-item-33108"
+          ],
+          "selector": "#menu-item-33108",
+          "bbox": null,
+          "html": "<li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-33108\" id=\"menu-item-33108\">"
+        },
+        {
+          "target": [
+            "#menu-item-33106"
+          ],
+          "selector": "#menu-item-33106",
+          "bbox": null,
+          "html": "<li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-33106\" id=\"menu-item-33106\">"
+        },
+        {
+          "target": [
+            "#menu-item-33109"
+          ],
+          "selector": "#menu-item-33109",
+          "bbox": null,
+          "html": "<li class=\"menu-item menu-item-type-custom menu-item-object-custom menu-item-33109\" id=\"menu-item-33109\">"
+        },
+        {
+          "target": [
+            "#menu-item-33110"
+          ],
+          "selector": "#menu-item-33110",
+          "bbox": null,
+          "html": "<li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-33110\" id=\"menu-item-33110\">"
+        },
+        {
+          "target": [
+            "#menu-item-33111"
+          ],
+          "selector": "#menu-item-33111",
+          "bbox": null,
+          "html": "<li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-33111\" id=\"menu-item-33111\">"
+        },
+        {
+          "target": [
+            "#menu-item-33112"
+          ],
+          "selector": "#menu-item-33112",
+          "bbox": null,
+          "html": "<li class=\"menu-item menu-item-type-custom menu-item-object-custom menu-item-33112\" id=\"menu-item-33112\">"
+        },
+        {
+          "target": [
+            "#menu-item-33113"
+          ],
+          "selector": "#menu-item-33113",
+          "bbox": null,
+          "html": "<li class=\"menu-item menu-item-type-post_type menu-item-object-issue menu-item-33113\" id=\"menu-item-33113\">"
+        },
+        {
+          "target": [
+            "#uij-e650"
+          ],
+          "selector": "#uij-e650",
+          "bbox": null,
+          "html": "<li class=\"wp-social-link wp-social-link-x wp-block-social-link\" id=\"uij-e650\">"
+        },
+        {
+          "target": [
+            "#uij-e655"
+          ],
+          "selector": "#uij-e655",
+          "bbox": null,
+          "html": "<li class=\"wp-social-link wp-social-link-instagram wp-block-social-link\" id=\"uij-e655\">"
+        },
+        {
+          "target": [
+            "#uij-e660"
+          ],
+          "selector": "#uij-e660",
+          "bbox": null,
+          "html": "<li class=\"wp-social-link wp-social-link-tiktok wp-block-social-link\" id=\"uij-e660\">"
+        },
+        {
+          "target": [
+            "#uij-e665"
+          ],
+          "selector": "#uij-e665",
+          "bbox": null,
+          "html": "<li class=\"wp-social-link wp-social-link-truth-social wp-block-social-link\" id=\"uij-e665\">"
+        },
+        {
+          "target": [
+            "#uij-e672"
+          ],
+          "selector": "#uij-e672",
+          "bbox": null,
+          "html": "<li class=\"wp-social-link wp-social-link-rumble wp-block-social-link\" id=\"uij-e672\">"
+        },
+        {
+          "target": [
+            "#uij-e677"
+          ],
+          "selector": "#uij-e677",
+          "bbox": null,
+          "html": "<li class=\"wp-social-link wp-social-link-facebook wp-block-social-link\" id=\"uij-e677\">"
+        },
+        {
+          "target": [
+            "#uij-e682"
+          ],
+          "selector": "#uij-e682",
+          "bbox": null,
+          "html": "<li class=\"wp-social-link wp-social-link-youtube wp-block-social-link\" id=\"uij-e682\">"
+        }
+      ]
+    },
+    {
+      "rule_id": "meta-viewport-large",
+      "impact": "",
+      "tags": [],
+      "description": "Ensure <meta name=\"viewport\"> can scale a significant amount",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/meta-viewport-large?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "meta[name=\"viewport\"]"
+          ],
+          "selector": "meta[name=\"viewport\"]",
+          "bbox": null,
+          "html": "<meta content=\"width=device-width, initial-scale=1\" name=\"viewport\">"
+        }
+      ]
+    },
+    {
+      "rule_id": "meta-viewport",
+      "impact": "",
+      "tags": [
+        "wcag2aa",
+        "wcag144"
+      ],
+      "description": "Ensure <meta name=\"viewport\"> does not disable text scaling and zooming",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/meta-viewport?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "meta[name=\"viewport\"]"
+          ],
+          "selector": "meta[name=\"viewport\"]",
+          "bbox": null,
+          "html": "<meta content=\"width=device-width, initial-scale=1\" name=\"viewport\">"
+        }
+      ]
+    },
+    {
+      "rule_id": "nested-interactive",
+      "impact": "",
+      "tags": [
+        "wcag2a",
+        "wcag412"
+      ],
+      "description": "Ensure interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/nested-interactive?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e7"
+          ],
+          "selector": "#uij-e7",
+          "bbox": null,
+          "html": "<button aria-controls=\"wp-block-whitehouse-header-5__menu\" aria-haspopup=\"dialog\" class=\"button-icon\" data-wp-bind--aria-expanded=\"callbacks.isMenuActive\" data-wp-bind--title=\"callbacks.getMenuButtonT"
+        },
+        {
+          "target": [
+            "#uij-e25"
+          ],
+          "selector": "#uij-e25",
+          "bbox": null,
+          "html": "<button aria-controls=\"wp-block-whitehouse-header-5__search\" aria-haspopup=\"dialog\" class=\"button-icon\" data-wp-bind--aria-expanded=\"callbacks.isSearchActive\" data-wp-bind--title=\"callbacks.getSearchB"
+        },
+        {
+          "target": [
+            "#f250-fab"
+          ],
+          "selector": "#f250-fab",
+          "bbox": null,
+          "html": "<button aria-controls=\"f250-modal-backdrop\" aria-expanded=\"false\" aria-label=\"Open Freedom 250 events calendar\" class=\"f250-fab\" id=\"f250-fab\" type=\"button\">"
+        },
+        {
+          "target": [
+            "#uij-e634"
+          ],
+          "selector": "#uij-e634",
+          "bbox": null,
+          "html": "<input class=\"wp-element-button\" id=\"uij-e634\" type=\"submit\" value=\"Sign Up\">"
+        }
+      ]
+    },
+    {
+      "rule_id": "page-has-heading-one",
+      "impact": "",
+      "tags": [],
+      "description": "Ensure that the page, or at least one of its frames contains a level-one heading",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/page-has-heading-one?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "html"
+          ],
+          "selector": "html",
+          "bbox": null,
+          "html": "<html lang=\"en-US\">"
+        }
+      ]
+    },
+    {
+      "rule_id": "presentation-role-conflict",
+      "impact": "",
+      "tags": [],
+      "description": "Elements marked as presentational should not have global ARIA or tabindex to ensure all screen readers ignore them",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/presentation-role-conflict?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e19"
+          ],
+          "selector": "#uij-e19",
+          "bbox": null,
+          "html": "<img alt=\"\" fetchpriority=\"high\" height=\"367\" id=\"uij-e19\" loading=\"eager\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk+P+/HgAFhAJ/wlseKgAAAABJRU5ErkJggg==\" "
+        },
+        {
+          "target": [
+            "#uij-e287"
+          ],
+          "selector": "#uij-e287",
+          "bbox": null,
+          "html": "<img alt=\"\" class=\"attachment-large size-large\" decoding=\"async\" height=\"1146\" id=\"uij-e287\" loading=\"lazy\" sizes=\"auto, (max-width: 1022px) 100vw, 1022px\" src=\"data:image/png;base64,iVBORw0KGgoAAAANS"
+        },
+        {
+          "target": [
+            "#uij-e290"
+          ],
+          "selector": "#uij-e290",
+          "bbox": null,
+          "html": "<img alt=\"\" class=\"attachment-large size-large\" decoding=\"async\" height=\"464\" id=\"uij-e290\" loading=\"lazy\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk+P+/Hg"
+        },
+        {
+          "target": [
+            "#uij-e352"
+          ],
+          "selector": "#uij-e352",
+          "bbox": null,
+          "html": "<img alt=\"\" class=\"wp-image-33496\" decoding=\"async\" fetchpriority=\"high\" height=\"450\" id=\"uij-e352\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk+P+/HgAFhAJ/w"
+        }
+      ]
+    },
+    {
+      "rule_id": "region",
+      "impact": "",
+      "tags": [],
+      "description": "Ensure all page content is contained by landmarks",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/region?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#wp-skip-link"
+          ],
+          "selector": "#wp-skip-link",
+          "bbox": null,
+          "html": "<a class=\"skip-link screen-reader-text\" href=\"#wp--skip-link--target\" id=\"wp-skip-link\">Skip to content</a>"
+        },
+        {
+          "target": [
+            "#uij-e0"
+          ],
+          "selector": "#uij-e0",
+          "bbox": null,
+          "html": "<div class=\"wp-site-blocks\" id=\"uij-e0\">"
+        },
+        {
+          "target": [
+            "#uij-e1"
+          ],
+          "selector": "#uij-e1",
+          "bbox": null,
+          "html": "<header class=\"alignfull site-header wp-block-template-part\" id=\"uij-e1\">"
+        },
+        {
+          "target": [
+            "#announcement-bar"
+          ],
+          "selector": "#announcement-bar",
+          "bbox": null,
+          "html": "<a class=\"announcement-bar--link\" href=\"https://www.whitehouse.gov/election-integrity\" id=\"announcement-bar\"><span class=\"announcement-bar__text\" id=\"uij-e2\">Ensuring the integrity of our elections is"
+        },
+        {
+          "target": [
+            "#uij-e2"
+          ],
+          "selector": "#uij-e2",
+          "bbox": null,
+          "html": "<span class=\"announcement-bar__text\" id=\"uij-e2\">Ensuring the integrity of our elections is fundamental to preserving trust in American democracy. Learn more →</span>"
+        },
+        {
+          "target": [
+            "#uij-e3"
+          ],
+          "selector": "#uij-e3",
+          "bbox": null,
+          "html": "<div class=\"wp-block-whitehouse-header wp-block-whitehouse-header-v2 immersive-active is-ready\" data-wp-class--immersive-active=\"state.isImmersiveActive\" data-wp-class--is-ready=\"state.isReady\" data-w"
+        },
+        {
+          "target": [
+            "#wp-block-whitehouse-header-5__main"
+          ],
+          "selector": "#wp-block-whitehouse-header-5__main",
+          "bbox": null,
+          "html": "<div class=\"wp-block-whitehouse-header__main\" id=\"wp-block-whitehouse-header-5__main\">"
+        },
+        {
+          "target": [
+            "#uij-e4"
+          ],
+          "selector": "#uij-e4",
+          "bbox": null,
+          "html": "<div class=\"wp-block-whitehouse-header__main-content\" id=\"uij-e4\">"
+        },
+        {
+          "target": [
+            "#uij-e5"
+          ],
+          "selector": "#uij-e5",
+          "bbox": null,
+          "html": "<div class=\"wp-block-whitehouse-header__left\" id=\"uij-e5\">"
+        },
+        {
+          "target": [
+            "#uij-e6"
+          ],
+          "selector": "#uij-e6",
+          "bbox": null,
+          "html": "<div class=\"wp-block-whitehouse-header__menu-toggle\" id=\"uij-e6\">"
+        },
+        {
+          "target": [
+            "#uij-e7"
+          ],
+          "selector": "#uij-e7",
+          "bbox": null,
+          "html": "<button aria-controls=\"wp-block-whitehouse-header-5__menu\" aria-haspopup=\"dialog\" class=\"button-icon\" data-wp-bind--aria-expanded=\"callbacks.isMenuActive\" data-wp-bind--title=\"callbacks.getMenuButtonT"
+        },
+        {
+          "target": [
+            "#uij-e8"
+          ],
+          "selector": "#uij-e8",
+          "bbox": null,
+          "html": "<svg class=\"button-icon--open\" height=\"20\" id=\"uij-e8\" viewBox=\"0 0 20 20\" width=\"20\" xmlns=\"http://www.w3.org/2000/svg\">"
+        },
+        {
+          "target": [
+            "#uij-e9"
+          ],
+          "selector": "#uij-e9",
+          "bbox": null,
+          "html": "<rect fill=\"currentColor\" height=\"3.1\" id=\"uij-e9\" rx=\"1.5\" ry=\"1.5\" width=\"20\" y=\"5\"></rect>"
+        },
+        {
+          "target": [
+            "#uij-e10"
+          ],
+          "selector": "#uij-e10",
+          "bbox": null,
+          "html": "<rect fill=\"currentColor\" height=\"3.1\" id=\"uij-e10\" rx=\"1.5\" ry=\"1.5\" width=\"20\" y=\"12.4\"></rect>"
+        },
+        {
+          "target": [
+            "#uij-e14"
+          ],
+          "selector": "#uij-e14",
+          "bbox": null,
+          "html": "<span data-wp-watch=\"callbacks.getMenuButtonLabel\" id=\"uij-e14\">Menu</span>"
+        },
+        {
+          "target": [
+            "#uij-e15"
+          ],
+          "selector": "#uij-e15",
+          "bbox": null,
+          "html": "<div class=\"wp-block-whitehouse-header__center\" id=\"uij-e15\">"
+        },
+        {
+          "target": [
+            "#uij-e16"
+          ],
+          "selector": "#uij-e16",
+          "bbox": null,
+          "html": "<a class=\"wp-block-whitehouse-header__logo\" href=\"https://www.whitehouse.gov\" id=\"uij-e16\" rel=\"home\" title=\"The White House\">"
+        },
+        {
+          "target": [
+            "#uij-e17"
+          ],
+          "selector": "#uij-e17",
+          "bbox": null,
+          "html": "<picture class=\"wp-block-whitehouse-header__logo-img wp-block-whitehouse-header__logo-img--white\" id=\"uij-e17\">"
+        },
+        {
+          "target": [
+            "#uij-e18"
+          ],
+          "selector": "#uij-e18",
+          "bbox": null,
+          "html": "<source id=\"uij-e18\" type=\"image/webp\">"
+        },
+        {
+          "target": [
+            "#uij-e19"
+          ],
+          "selector": "#uij-e19",
+          "bbox": null,
+          "html": "<img alt=\"\" fetchpriority=\"high\" height=\"367\" id=\"uij-e19\" loading=\"eager\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk+P+/HgAFhAJ/wlseKgAAAABJRU5ErkJggg==\" "
+        },
+        {
+          "target": [
+            "#uij-e23"
+          ],
+          "selector": "#uij-e23",
+          "bbox": null,
+          "html": "<div class=\"wp-block-whitehouse-header__right\" id=\"uij-e23\">"
+        },
+        {
+          "target": [
+            "#uij-e24"
+          ],
+          "selector": "#uij-e24",
+          "bbox": null,
+          "html": "<div class=\"wp-block-whitehouse-header__search-toggle\" id=\"uij-e24\">"
+        },
+        {
+          "target": [
+            "#uij-e25"
+          ],
+          "selector": "#uij-e25",
+          "bbox": null,
+          "html": "<button aria-controls=\"wp-block-whitehouse-header-5__search\" aria-haspopup=\"dialog\" class=\"button-icon\" data-wp-bind--aria-expanded=\"callbacks.isSearchActive\" data-wp-bind--title=\"callbacks.getSearchB"
+        },
+        {
+          "target": [
+            "#uij-e26"
+          ],
+          "selector": "#uij-e26",
+          "bbox": null,
+          "html": "<span data-wp-watch=\"callbacks.getSearchButtonLabel\" id=\"uij-e26\">Search</span>"
+        },
+        {
+          "target": [
+            "#uij-e27"
+          ],
+          "selector": "#uij-e27",
+          "bbox": null,
+          "html": "<svg class=\"button-icon--open\" fill=\"none\" height=\"20\" id=\"uij-e27\" viewBox=\"0 0 20 20\" width=\"20\" xmlns=\"http://www.w3.org/2000/svg\">"
+        },
+        {
+          "target": [
+            "#uij-e28"
+          ],
+          "selector": "#uij-e28",
+          "bbox": null,
+          "html": "<path d=\"M18.3929 18.306L13.8709 13.6029C15.0336 12.2207 15.6706 10.4817 15.6706 8.67124C15.6706 4.44139 12.2292 1 7.99937 1C3.76951 1 0.328125 4.44139 0.328125 8.67124C0.328125 12.9011 3.76951 16.342"
+        },
+        {
+          "target": [
+            "#wp-block-whitehouse-header-5__primary"
+          ],
+          "selector": "#wp-block-whitehouse-header-5__primary",
+          "bbox": null,
+          "html": "<div class=\"wp-block-whitehouse-header__primary is-active is-ready\" data-wp-class--is-active=\"state.isPrimaryActive\" data-wp-class--is-ready=\"state.isReady\" data-wp-init=\"callbacks.initPrimary\" id=\"wp"
+        },
+        {
+          "target": [
+            "#uij-e39"
+          ],
+          "selector": "#uij-e39",
+          "bbox": null,
+          "html": "<nav class=\"wp-block-whitehouse-header__primary-navigation\" data-wp-init=\"callbacks.initPrimaryNavigation\" data-wp-on-async--scroll=\"callbacks.handlePrimaryNavigationScroll\" data-wp-on-async-window--r"
+        },
+        {
+          "target": [
+            "#menu-primary-navigation"
+          ],
+          "selector": "#menu-primary-navigation",
+          "bbox": null,
+          "html": "<ul class=\"menu menu--desktop\" id=\"menu-primary-navigation\">"
+        },
+        {
+          "target": [
+            "#menu-item-37"
+          ],
+          "selector": "#menu-item-37",
+          "bbox": null,
+          "html": "<li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-37\" id=\"menu-item-37\">"
+        },
+        {
+          "target": [
+            "#uij-e44"
+          ],
+          "selector": "#uij-e44",
+          "bbox": null,
+          "html": "<a data-wp-on-async--mouseenter=\"callbacks.handlePopoverMenuMouseover\" data-wp-on-async--mouseleave=\"callbacks.handlePopoverMenuMouseout\" href=\"https://www.whitehouse.gov/news/\" id=\"uij-e44\">News</a>"
+        },
+        {
+          "target": [
+            "#menu-item-33713"
+          ],
+          "selector": "#menu-item-33713",
+          "bbox": null,
+          "html": "<li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-33713\" id=\"menu-item-33713\">"
+        },
+        {
+          "target": [
+            "#uij-e45"
+          ],
+          "selector": "#uij-e45",
+          "bbox": null,
+          "html": "<a data-wp-on-async--mouseenter=\"callbacks.handlePopoverMenuMouseover\" data-wp-on-async--mouseleave=\"callbacks.handlePopoverMenuMouseout\" href=\"https://www.whitehouse.gov/gallery/\" id=\"uij-e45\">Galler"
+        },
+        {
+          "target": [
+            "#menu-item-33714"
+          ],
+          "selector": "#menu-item-33714",
+          "bbox": null,
+          "html": "<li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-33714\" id=\"menu-item-33714\">"
+        },
+        {
+          "target": [
+            "#uij-e46"
+          ],
+          "selector": "#uij-e46",
+          "bbox": null,
+          "html": "<a data-wp-on-async--mouseenter=\"callbacks.handlePopoverMenuMouseover\" data-wp-on-async--mouseleave=\"callbacks.handlePopoverMenuMouseout\" href=\"https://www.whitehouse.gov/live/\" id=\"uij-e46\">Livestrea"
+        },
+        {
+          "target": [
+            "#menu-item-45021"
+          ],
+          "selector": "#menu-item-45021",
+          "bbox": null,
+          "html": "<li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-45021\" id=\"menu-item-45021\">"
+        },
+        {
+          "target": [
+            "#uij-e47"
+          ],
+          "selector": "#uij-e47",
+          "bbox": null,
+          "html": "<a data-wp-on-async--mouseenter=\"callbacks.handlePopoverMenuMouseover\" data-wp-on-async--mouseleave=\"callbacks.handlePopoverMenuMouseout\" href=\"https://www.whitehouse.gov/election-integrity/\" id=\"uij-"
+        },
+        {
+          "target": [
+            "#menu-item-35725"
+          ],
+          "selector": "#menu-item-35725",
+          "bbox": null,
+          "html": "<li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-35725\" id=\"menu-item-35725\">"
+        },
+        {
+          "target": [
+            "#uij-e48"
+          ],
+          "selector": "#uij-e48",
+          "bbox": null,
+          "html": "<a data-wp-on-async--mouseenter=\"callbacks.handlePopoverMenuMouseover\" data-wp-on-async--mouseleave=\"callbacks.handlePopoverMenuMouseout\" href=\"https://www.whitehouse.gov/saveamerica/\" id=\"uij-e48\">SA"
+        },
+        {
+          "target": [
+            "#menu-item-42517"
+          ],
+          "selector": "#menu-item-42517",
+          "bbox": null,
+          "html": "<li class=\"menu-item menu-item-type-custom menu-item-object-custom menu-item-42517\" id=\"menu-item-42517\">"
+        },
+        {
+          "target": [
+            "#uij-e49"
+          ],
+          "selector": "#uij-e49",
+          "bbox": null,
+          "html": "<a data-wp-on-async--mouseenter=\"callbacks.handlePopoverMenuMouseover\" data-wp-on-async--mouseleave=\"callbacks.handlePopoverMenuMouseout\" href=\"https://trumpaccounts.gov\" id=\"uij-e49\" rel=\"noopener\" t"
+        },
+        {
+          "target": [
+            "#menu-item-45837"
+          ],
+          "selector": "#menu-item-45837",
+          "bbox": null,
+          "html": "<li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-45837\" id=\"menu-item-45837\">"
+        },
+        {
+          "target": [
+            "#uij-e50"
+          ],
+          "selector": "#uij-e50",
+          "bbox": null,
+          "html": "<a data-wp-on-async--mouseenter=\"callbacks.handlePopoverMenuMouseover\" data-wp-on-async--mouseleave=\"callbacks.handlePopoverMenuMouseout\" href=\"https://www.whitehouse.gov/ratepayer-protection-pledge/\""
+        },
+        {
+          "target": [
+            "#menu-item-33716"
+          ],
+          "selector": "#menu-item-33716",
+          "bbox": null,
+          "html": "<li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-33716\" id=\"menu-item-33716\">"
+        },
+        {
+          "target": [
+            "#uij-e51"
+          ],
+          "selector": "#uij-e51",
+          "bbox": null,
+          "html": "<a data-wp-on-async--mouseenter=\"callbacks.handlePopoverMenuMouseover\" data-wp-on-async--mouseleave=\"callbacks.handlePopoverMenuMouseout\" href=\"https://www.whitehouse.gov/contact/\" id=\"uij-e51\">Contac"
+        },
+        {
+          "target": [
+            "#uij-e286"
+          ],
+          "selector": "#uij-e286",
+          "bbox": null,
+          "html": "<a class=\"wp-block-whitehouse-header__menu-feature is-active\" data-index=\"0\" data-menu-id=\"default\" data-wp-class--is-active=\"callbacks.isActiveMenuFeature\" data-wp-watch=\"callbacks.watchMenuFeature\" "
+        },
+        {
+          "target": [
+            "#uij-e287"
+          ],
+          "selector": "#uij-e287",
+          "bbox": null,
+          "html": "<img alt=\"\" class=\"attachment-large size-large\" decoding=\"async\" height=\"1146\" id=\"uij-e287\" loading=\"lazy\" sizes=\"auto, (max-width: 1022px) 100vw, 1022px\" src=\"data:image/png;base64,iVBORw0KGgoAAAANS"
+        },
+        {
+          "target": [
+            "#uij-e288"
+          ],
+          "selector": "#uij-e288",
+          "bbox": null,
+          "html": "<span id=\"uij-e288\">Official White House App</span>"
+        },
+        {
+          "target": [
+            "#uij-e289"
+          ],
+          "selector": "#uij-e289",
+          "bbox": null,
+          "html": "<a class=\"wp-block-whitehouse-header__menu-feature is-active\" data-index=\"1\" data-menu-id=\"default\" data-wp-class--is-active=\"callbacks.isActiveMenuFeature\" data-wp-watch=\"callbacks.watchMenuFeature\" "
+        },
+        {
+          "target": [
+            "#uij-e290"
+          ],
+          "selector": "#uij-e290",
+          "bbox": null,
+          "html": "<img alt=\"\" class=\"attachment-large size-large\" decoding=\"async\" height=\"464\" id=\"uij-e290\" loading=\"lazy\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk+P+/Hg"
+        },
+        {
+          "target": [
+            "#uij-e291"
+          ],
+          "selector": "#uij-e291",
+          "bbox": null,
+          "html": "<span id=\"uij-e291\">365 Days of Wins</span>"
+        },
+        {
+          "target": [
+            "#wp--skip-link--target"
+          ],
+          "selector": "#wp--skip-link--target",
+          "bbox": null,
+          "html": "<main class=\"wp-block-group site-content is-layout-flow wp-block-group-is-layout-flow\" id=\"wp--skip-link--target\">"
+        },
+        {
+          "target": [
+            "#uij-e329"
+          ],
+          "selector": "#uij-e329",
+          "bbox": null,
+          "html": "<div class=\"entry-content wp-block-post-content has-global-padding is-layout-constrained wp-block-post-content-is-layout-constrained\" id=\"uij-e329\">"
+        },
+        {
+          "target": [
+            "#uij-e330"
+          ],
+          "selector": "#uij-e330",
+          "bbox": null,
+          "html": "<div class=\"alignfull has-wide-width has-min-height-full has-media has-media-fixed is-immersive-header-element is-style-full-media wp-block-whitehouse-topper\" id=\"uij-e330\">"
+        },
+        {
+          "target": [
+            "#uij-e331"
+          ],
+          "selector": "#uij-e331",
+          "bbox": null,
+          "html": "<div class=\"wp-block-whitehouse-topper__inner-container\" id=\"uij-e331\">"
+        },
+        {
+          "target": [
+            "#uij-e332"
+          ],
+          "selector": "#uij-e332",
+          "bbox": null,
+          "html": "<div class=\"wp-block-whitehouse-topper__content\" id=\"uij-e332\">"
+        },
+        {
+          "target": [
+            "#uij-e333"
+          ],
+          "selector": "#uij-e333",
+          "bbox": null,
+          "html": "<h1 class=\"wp-block-whitehouse-topper__headline\" id=\"uij-e333\">\n</h1>"
+        },
+        {
+          "target": [
+            "#uij-e334"
+          ],
+          "selector": "#uij-e334",
+          "bbox": null,
+          "html": "<div class=\"wp-block-whitehouse-topper__deck\" id=\"uij-e334\">\n<p class=\"has-nord-font-family has-large-font-size\" id=\"uij-e335\" style=\"font-style:normal;font-weight:100;letter-spacing:12px\"></p>\n</div>"
+        },
+        {
+          "target": [
+            "#uij-e336"
+          ],
+          "selector": "#uij-e336",
+          "bbox": null,
+          "html": "<div class=\"wp-block-whitehouse-topper__media\" id=\"uij-e336\">"
+        },
+        {
+          "target": [
+            "#uij-e337"
+          ],
+          "selector": "#uij-e337",
+          "bbox": null,
+          "html": "<figure class=\"wp-block-whitehouse-topper__media--figure\" id=\"uij-e337\">"
+        },
+        {
+          "target": [
+            "#uij-e338"
+          ],
+          "selector": "#uij-e338",
+          "bbox": null,
+          "html": "<video autoplay=\"autoplay\" class=\"wp-block-whitehouse-topper__media--video\" height=\"1080\" id=\"uij-e338\" loop=\"loop\" muted=\"muted\" playsinline=\"playsinline\" preload=\"metadata\" width=\"1920\">"
+        },
+        {
+          "target": [
+            "#uij-e339"
+          ],
+          "selector": "#uij-e339",
+          "bbox": null,
+          "html": "<source id=\"uij-e339\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk+P+/HgAFhAJ/wlseKgAAAABJRU5ErkJggg==\" type=\"video/mp4\">"
+        },
+        {
+          "target": [
+            "#uij-e340"
+          ],
+          "selector": "#uij-e340",
+          "bbox": null,
+          "html": "<div class=\"wp-block-whitehouse-topper__after alignfull\" id=\"uij-e340\"></div>"
+        },
+        {
+          "target": [
+            "#uij-e342"
+          ],
+          "selector": "#uij-e342",
+          "bbox": null,
+          "html": "<div class=\"wp-block-group has-medium-font-size has-global-padding is-layout-constrained wp-container-core-group-is-layout-ed92f1a2 wp-block-group-is-layout-constrained\" id=\"uij-e342\">"
+        },
+        {
+          "target": [
+            "#uij-e343"
+          ],
+          "selector": "#uij-e343",
+          "bbox": null,
+          "html": "<p class=\"justified fade-in-on-scroll\" id=\"uij-e343\" style=\"font-size:14px\">"
+        },
+        {
+          "target": [
+            "#uij-e344"
+          ],
+          "selector": "#uij-e344",
+          "bbox": null,
+          "html": "<p class=\"justified fade-in-on-scroll\" id=\"uij-e344\" style=\"font-size:14px\">The nation has solidified its position as the global leader in artificial intelligence, with record-setting capital expendit"
+        },
+        {
+          "target": [
+            "#uij-e345"
+          ],
+          "selector": "#uij-e345",
+          "bbox": null,
+          "html": "<p class=\"justified fade-in-on-scroll\" id=\"uij-e345\" style=\"font-size:14px\">"
+        },
+        {
+          "target": [
+            "#uij-e346"
+          ],
+          "selector": "#uij-e346",
+          "bbox": null,
+          "html": "<p class=\"justified fade-in-on-scroll\" id=\"uij-e346\" style=\"font-size:14px\">"
+        },
+        {
+          "target": [
+            "#uij-e348"
+          ],
+          "selector": "#uij-e348",
+          "bbox": null,
+          "html": "<div class=\"wp-block-group fade-in-on-scroll has-global-padding is-layout-constrained wp-container-core-group-is-layout-e0082cf6 wp-block-group-is-layout-constrained\" id=\"uij-e348\">"
+        },
+        {
+          "target": [
+            "#uij-e349"
+          ],
+          "selector": "#uij-e349",
+          "bbox": null,
+          "html": "<h2 class=\"wp-block-heading has-text-align-center\" id=\"uij-e349\" style=\"font-size:30px\">Donald J. Trump</h2>"
+        },
+        {
+          "target": [
+            "#uij-e350"
+          ],
+          "selector": "#uij-e350",
+          "bbox": null,
+          "html": "<p class=\"has-text-align-center has-instrument-serif-font-family\" id=\"uij-e350\" style=\"letter-spacing:-0.5px;line-height:0\">45th &amp; 47th President of the United States</p>"
+        },
+        {
+          "target": [
+            "#uij-e351"
+          ],
+          "selector": "#uij-e351",
+          "bbox": null,
+          "html": "<figure class=\"wp-block-image aligncenter size-full is-resized\" id=\"uij-e351\">"
+        },
+        {
+          "target": [
+            "#uij-e352"
+          ],
+          "selector": "#uij-e352",
+          "bbox": null,
+          "html": "<img alt=\"\" class=\"wp-image-33496\" decoding=\"async\" fetchpriority=\"high\" height=\"450\" id=\"uij-e352\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk+P+/HgAFhAJ/w"
+        },
+        {
+          "target": [
+            "#uij-e354"
+          ],
+          "selector": "#uij-e354",
+          "bbox": null,
+          "html": "<div class=\"is-vertical alignfull wp-block-whitehouse-video-accordion is-content-justification-center is-layout-flex wp-container-whitehouse-video-accordion-is-layout-ce155fab wp-block-whitehouse-vide"
+        },
+        {
+          "target": [
+            "#uij-e355"
+          ],
+          "selector": "#uij-e355",
+          "bbox": null,
+          "html": "<div class=\"has-link wp-block-whitehouse-video-accordion-item has-text-align-right is-layout-flex wp-container-whitehouse-video-accordion-item-is-layout-ce155fab wp-block-whitehouse-video-accordion-it"
+        },
+        {
+          "target": [
+            "#uij-e356"
+          ],
+          "selector": "#uij-e356",
+          "bbox": null,
+          "html": "<a aria-label=\"secure the border\" class=\"wp-block-whitehouse-video-accordion-item__link\" href=\"https://www.whitehouse.gov/priorities/border-immigration/\" id=\"uij-e356\"></a>"
+        },
+        {
+          "target": [
+            "#uij-e357"
+          ],
+          "selector": "#uij-e357",
+          "bbox": null,
+          "html": "<div class=\"wp-block-whitehouse-video-accordion-item__media\" id=\"uij-e357\" show-title-both=\"\">\n<video id=\"uij-e358\" loop=\"\" muted=\"\" playsinline=\"\" preload=\"metadata\" src=\"\" style=\"object-position:50%"
+        },
+        {
+          "target": [
+            "#uij-e358"
+          ],
+          "selector": "#uij-e358",
+          "bbox": null,
+          "html": "<video id=\"uij-e358\" loop=\"\" muted=\"\" playsinline=\"\" preload=\"metadata\" src=\"\" style=\"object-position:50% 30%;\" tabindex=\"-1\"></video>"
+        },
+        {
+          "target": [
+            "#uij-e359"
+          ],
+          "selector": "#uij-e359",
+          "bbox": null,
+          "html": "<div class=\"wp-block-whitehouse-video-accordion-item__content\" id=\"uij-e359\" show-title-both=\"\">"
+        },
+        {
+          "target": [
+            "#uij-e360"
+          ],
+          "selector": "#uij-e360",
+          "bbox": null,
+          "html": "<h3 class=\"wp-block-whitehouse-video-accordion-item__title\" id=\"uij-e360\">"
+        },
+        {
+          "target": [
+            "#uij-e363"
+          ],
+          "selector": "#uij-e363",
+          "bbox": null,
+          "html": "<div class=\"has-link wp-block-whitehouse-video-accordion-item has-text-align-right is-layout-flex wp-container-whitehouse-video-accordion-item-is-layout-ce155fab wp-block-whitehouse-video-accordion-it"
+        },
+        {
+          "target": [
+            "#uij-e364"
+          ],
+          "selector": "#uij-e364",
+          "bbox": null,
+          "html": "<a aria-label=\"grow the economy\" class=\"wp-block-whitehouse-video-accordion-item__link\" href=\"https://www.whitehouse.gov/priorities/economy/\" id=\"uij-e364\"></a>"
+        },
+        {
+          "target": [
+            "#uij-e365"
+          ],
+          "selector": "#uij-e365",
+          "bbox": null,
+          "html": "<div class=\"wp-block-whitehouse-video-accordion-item__media\" id=\"uij-e365\" show-title-both=\"\">\n<video id=\"uij-e366\" loop=\"\" muted=\"\" playsinline=\"\" preload=\"metadata\" src=\"\" style=\"object-position:50%"
+        },
+        {
+          "target": [
+            "#uij-e366"
+          ],
+          "selector": "#uij-e366",
+          "bbox": null,
+          "html": "<video id=\"uij-e366\" loop=\"\" muted=\"\" playsinline=\"\" preload=\"metadata\" src=\"\" style=\"object-position:50% 30%;\" tabindex=\"-1\"></video>"
+        },
+        {
+          "target": [
+            "#uij-e367"
+          ],
+          "selector": "#uij-e367",
+          "bbox": null,
+          "html": "<div class=\"wp-block-whitehouse-video-accordion-item__content\" id=\"uij-e367\" show-title-both=\"\">"
+        },
+        {
+          "target": [
+            "#uij-e368"
+          ],
+          "selector": "#uij-e368",
+          "bbox": null,
+          "html": "<h3 class=\"wp-block-whitehouse-video-accordion-item__title\" id=\"uij-e368\">"
+        },
+        {
+          "target": [
+            "#uij-e371"
+          ],
+          "selector": "#uij-e371",
+          "bbox": null,
+          "html": "<div class=\"has-link wp-block-whitehouse-video-accordion-item has-text-align-right is-layout-flex wp-container-whitehouse-video-accordion-item-is-layout-ce155fab wp-block-whitehouse-video-accordion-it"
+        },
+        {
+          "target": [
+            "#uij-e372"
+          ],
+          "selector": "#uij-e372",
+          "bbox": null,
+          "html": "<a aria-label=\"Strengthen national security\" class=\"wp-block-whitehouse-video-accordion-item__link\" href=\"https://www.whitehouse.gov/priorities/national-security/\" id=\"uij-e372\"></a>"
+        },
+        {
+          "target": [
+            "#uij-e373"
+          ],
+          "selector": "#uij-e373",
+          "bbox": null,
+          "html": "<div class=\"wp-block-whitehouse-video-accordion-item__media\" id=\"uij-e373\" show-title-both=\"\">\n<video id=\"uij-e374\" loop=\"\" muted=\"\" playsinline=\"\" preload=\"metadata\" src=\"\" style=\"object-position:49%"
+        },
+        {
+          "target": [
+            "#uij-e374"
+          ],
+          "selector": "#uij-e374",
+          "bbox": null,
+          "html": "<video id=\"uij-e374\" loop=\"\" muted=\"\" playsinline=\"\" preload=\"metadata\" src=\"\" style=\"object-position:49% 28%;\" tabindex=\"-1\"></video>"
+        },
+        {
+          "target": [
+            "#uij-e375"
+          ],
+          "selector": "#uij-e375",
+          "bbox": null,
+          "html": "<div class=\"wp-block-whitehouse-video-accordion-item__content\" id=\"uij-e375\" show-title-both=\"\">"
+        },
+        {
+          "target": [
+            "#uij-e376"
+          ],
+          "selector": "#uij-e376",
+          "bbox": null,
+          "html": "<h3 class=\"wp-block-whitehouse-video-accordion-item__title\" id=\"uij-e376\">"
+        },
+        {
+          "target": [
+            "#uij-e379"
+          ],
+          "selector": "#uij-e379",
+          "bbox": null,
+          "html": "<div class=\"has-link wp-block-whitehouse-video-accordion-item has-text-align-right is-layout-flex wp-container-whitehouse-video-accordion-item-is-layout-ce155fab wp-block-whitehouse-video-accordion-it"
+        },
+        {
+          "target": [
+            "#uij-e380"
+          ],
+          "selector": "#uij-e380",
+          "bbox": null,
+          "html": "<a aria-label=\"unleash american energy\" class=\"wp-block-whitehouse-video-accordion-item__link\" href=\"https://www.whitehouse.gov/priorities/energy/\" id=\"uij-e380\"></a>"
+        },
+        {
+          "target": [
+            "#uij-e381"
+          ],
+          "selector": "#uij-e381",
+          "bbox": null,
+          "html": "<div class=\"wp-block-whitehouse-video-accordion-item__media\" id=\"uij-e381\" show-title-both=\"\">\n<video id=\"uij-e382\" loop=\"\" muted=\"\" playsinline=\"\" preload=\"metadata\" src=\"\" style=\"object-position:47%"
+        },
+        {
+          "target": [
+            "#uij-e382"
+          ],
+          "selector": "#uij-e382",
+          "bbox": null,
+          "html": "<video id=\"uij-e382\" loop=\"\" muted=\"\" playsinline=\"\" preload=\"metadata\" src=\"\" style=\"object-position:47% 67%;\" tabindex=\"-1\"></video>"
+        },
+        {
+          "target": [
+            "#uij-e383"
+          ],
+          "selector": "#uij-e383",
+          "bbox": null,
+          "html": "<div class=\"wp-block-whitehouse-video-accordion-item__content\" id=\"uij-e383\" show-title-both=\"\">"
+        },
+        {
+          "target": [
+            "#uij-e384"
+          ],
+          "selector": "#uij-e384",
+          "bbox": null,
+          "html": "<h3 class=\"wp-block-whitehouse-video-accordion-item__title\" id=\"uij-e384\">"
+        },
+        {
+          "target": [
+            "#uij-e387"
+          ],
+          "selector": "#uij-e387",
+          "bbox": null,
+          "html": "<div class=\"has-link wp-block-whitehouse-video-accordion-item has-text-align-right is-layout-flex wp-container-whitehouse-video-accordion-item-is-layout-ce155fab wp-block-whitehouse-video-accordion-it"
+        },
+        {
+          "target": [
+            "#uij-e388"
+          ],
+          "selector": "#uij-e388",
+          "bbox": null,
+          "html": "<a aria-label=\"make america healthy again\" class=\"wp-block-whitehouse-video-accordion-item__link\" href=\"https://www.whitehouse.gov/priorities/maha/\" id=\"uij-e388\"></a>"
+        },
+        {
+          "target": [
+            "#uij-e389"
+          ],
+          "selector": "#uij-e389",
+          "bbox": null,
+          "html": "<div class=\"wp-block-whitehouse-video-accordion-item__media\" id=\"uij-e389\" show-title-both=\"\">\n<video id=\"uij-e390\" loop=\"\" muted=\"\" playsinline=\"\" preload=\"metadata\" src=\"\" style=\"object-position:50%"
+        },
+        {
+          "target": [
+            "#uij-e390"
+          ],
+          "selector": "#uij-e390",
+          "bbox": null,
+          "html": "<video id=\"uij-e390\" loop=\"\" muted=\"\" playsinline=\"\" preload=\"metadata\" src=\"\" style=\"object-position:50% 40%;\" tabindex=\"-1\"></video>"
+        },
+        {
+          "target": [
+            "#uij-e391"
+          ],
+          "selector": "#uij-e391",
+          "bbox": null,
+          "html": "<div class=\"wp-block-whitehouse-video-accordion-item__content\" id=\"uij-e391\" show-title-both=\"\">"
+        },
+        {
+          "target": [
+            "#uij-e392"
+          ],
+          "selector": "#uij-e392",
+          "bbox": null,
+          "html": "<h3 class=\"wp-block-whitehouse-video-accordion-item__title\" id=\"uij-e392\">"
+        },
+        {
+          "target": [
+            "#uij-e395"
+          ],
+          "selector": "#uij-e395",
+          "bbox": null,
+          "html": "<div class=\"wp-block-whitehouse-raw-html\" id=\"uij-e395\" style=\"margin:0;\">"
+        },
+        {
+          "target": [
+            "#f250-widget"
+          ],
+          "selector": "#f250-widget",
+          "bbox": null,
+          "html": "<div id=\"f250-widget\">"
+        },
+        {
+          "target": [
+            "#f250-fab"
+          ],
+          "selector": "#f250-fab",
+          "bbox": null,
+          "html": "<button aria-controls=\"f250-modal-backdrop\" aria-expanded=\"false\" aria-label=\"Open Freedom 250 events calendar\" class=\"f250-fab\" id=\"f250-fab\" type=\"button\">"
+        },
+        {
+          "target": [
+            "#uij-e402"
+          ],
+          "selector": "#uij-e402",
+          "bbox": null,
+          "html": "<span class=\"f250-fab-label\" id=\"uij-e402\">Freedom 250 Events</span>"
+        },
+        {
+          "target": [
+            "#uij-e594"
+          ],
+          "selector": "#uij-e594",
+          "bbox": null,
+          "html": "<footer class=\"alignfull site-footer wp-block-template-part\" id=\"uij-e594\">"
+        },
+        {
+          "target": [
+            "#uij-e595"
+          ],
+          "selector": "#uij-e595",
+          "bbox": null,
+          "html": "<div class=\"wp-block-whitehouse-footer wp-block-whitehouse-footer-v2\" id=\"uij-e595\">"
+        },
+        {
+          "target": [
+            "#uij-e596"
+          ],
+          "selector": "#uij-e596",
+          "bbox": null,
+          "html": "<div class=\"wp-block-whitehouse-footer__inner-container\" id=\"uij-e596\">"
+        },
+        {
+          "target": [
+            "#uij-e597"
+          ],
+          "selector": "#uij-e597",
+          "bbox": null,
+          "html": "<div class=\"wp-block-whitehouse-footer__navigation has-3-menus-with-end\" id=\"uij-e597\">"
+        },
+        {
+          "target": [
+            "#uij-e598"
+          ],
+          "selector": "#uij-e598",
+          "bbox": null,
+          "html": "<div class=\"wp-block-whitehouse-footer__navigation--inner-container\" id=\"uij-e598\">"
+        },
+        {
+          "target": [
+            "#uij-e599"
+          ],
+          "selector": "#uij-e599",
+          "bbox": null,
+          "html": "<div class=\"wp-block-whitehouse-footer__menu\" id=\"uij-e599\">"
+        },
+        {
+          "target": [
+            "#uij-e600"
+          ],
+          "selector": "#uij-e600",
+          "bbox": null,
+          "html": "<nav class=\"wp-block-whitehouse-footer__menu-navigation\" id=\"uij-e600\">"
+        },
+        {
+          "target": [
+            "#uij-e601"
+          ],
+          "selector": "#uij-e601",
+          "bbox": null,
+          "html": "<h2 class=\"wp-block-whitehouse-footer__menu-heading\" id=\"uij-e601\">About</h2>"
+        },
+        {
+          "target": [
+            "#menu-about"
+          ],
+          "selector": "#menu-about",
+          "bbox": null,
+          "html": "<ul class=\"menu\" id=\"menu-about\">"
+        },
+        {
+          "target": [
+            "#menu-item-33104"
+          ],
+          "selector": "#menu-item-33104",
+          "bbox": null,
+          "html": "<li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-33104\" id=\"menu-item-33104\">"
+        },
+        {
+          "target": [
+            "#uij-e602"
+          ],
+          "selector": "#uij-e602",
+          "bbox": null,
+          "html": "<a data-wp-on-async--mouseenter=\"callbacks.handlePopoverMenuMouseover\" data-wp-on-async--mouseleave=\"callbacks.handlePopoverMenuMouseout\" href=\"https://www.whitehouse.gov/administration/\" id=\"uij-e602"
+        },
+        {
+          "target": [
+            "#menu-item-22561"
+          ],
+          "selector": "#menu-item-22561",
+          "bbox": null,
+          "html": "<li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-22561\" id=\"menu-item-22561\">"
+        },
+        {
+          "target": [
+            "#uij-e603"
+          ],
+          "selector": "#uij-e603",
+          "bbox": null,
+          "html": "<a data-wp-on-async--mouseenter=\"callbacks.handlePopoverMenuMouseover\" data-wp-on-async--mouseleave=\"callbacks.handlePopoverMenuMouseout\" href=\"https://www.whitehouse.gov/contact/\" id=\"uij-e603\">Conta"
+        },
+        {
+          "target": [
+            "#menu-item-33103"
+          ],
+          "selector": "#menu-item-33103",
+          "bbox": null,
+          "html": "<li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-33103\" id=\"menu-item-33103\">"
+        },
+        {
+          "target": [
+            "#uij-e604"
+          ],
+          "selector": "#uij-e604",
+          "bbox": null,
+          "html": "<a data-wp-on-async--mouseenter=\"callbacks.handlePopoverMenuMouseover\" data-wp-on-async--mouseleave=\"callbacks.handlePopoverMenuMouseout\" href=\"https://www.whitehouse.gov/internships/\" id=\"uij-e604\">I"
+        },
+        {
+          "target": [
+            "#menu-item-33105"
+          ],
+          "selector": "#menu-item-33105",
+          "bbox": null,
+          "html": "<li class=\"menu-item menu-item-type-custom menu-item-object-custom menu-item-33105\" id=\"menu-item-33105\">"
+        },
+        {
+          "target": [
+            "#uij-e605"
+          ],
+          "selector": "#uij-e605",
+          "bbox": null,
+          "html": "<a data-wp-on-async--mouseenter=\"callbacks.handlePopoverMenuMouseover\" data-wp-on-async--mouseleave=\"callbacks.handlePopoverMenuMouseout\" href=\"https://www.whitehouse.gov/subscribe\" id=\"uij-e605\" rel="
+        },
+        {
+          "target": [
+            "#menu-item-34488"
+          ],
+          "selector": "#menu-item-34488",
+          "bbox": null,
+          "html": "<li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-34488\" id=\"menu-item-34488\">"
+        },
+        {
+          "target": [
+            "#uij-e606"
+          ],
+          "selector": "#uij-e606",
+          "bbox": null,
+          "html": "<a data-wp-on-async--mouseenter=\"callbacks.handlePopoverMenuMouseover\" data-wp-on-async--mouseleave=\"callbacks.handlePopoverMenuMouseout\" href=\"https://www.whitehouse.gov/privacy/\" id=\"uij-e606\">Priva"
+        },
+        {
+          "target": [
+            "#uij-e607"
+          ],
+          "selector": "#uij-e607",
+          "bbox": null,
+          "html": "<div class=\"wp-block-whitehouse-footer__menu\" id=\"uij-e607\">"
+        },
+        {
+          "target": [
+            "#uij-e608"
+          ],
+          "selector": "#uij-e608",
+          "bbox": null,
+          "html": "<nav class=\"wp-block-whitehouse-footer__menu-navigation\" id=\"uij-e608\">"
+        },
+        {
+          "target": [
+            "#uij-e609"
+          ],
+          "selector": "#uij-e609",
+          "bbox": null,
+          "html": "<h2 class=\"wp-block-whitehouse-footer__menu-heading\" id=\"uij-e609\">Media</h2>"
+        },
+        {
+          "target": [
+            "#menu-media"
+          ],
+          "selector": "#menu-media",
+          "bbox": null,
+          "html": "<ul class=\"menu\" id=\"menu-media\">"
+        },
+        {
+          "target": [
+            "#menu-item-33107"
+          ],
+          "selector": "#menu-item-33107",
+          "bbox": null,
+          "html": "<li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-33107\" id=\"menu-item-33107\">"
+        },
+        {
+          "target": [
+            "#uij-e610"
+          ],
+          "selector": "#uij-e610",
+          "bbox": null,
+          "html": "<a data-wp-on-async--mouseenter=\"callbacks.handlePopoverMenuMouseover\" data-wp-on-async--mouseleave=\"callbacks.handlePopoverMenuMouseout\" href=\"https://www.whitehouse.gov/news/\" id=\"uij-e610\">News</a>"
+        },
+        {
+          "target": [
+            "#menu-item-8468"
+          ],
+          "selector": "#menu-item-8468",
+          "bbox": null,
+          "html": "<li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-8468\" id=\"menu-item-8468\">"
+        },
+        {
+          "target": [
+            "#uij-e611"
+          ],
+          "selector": "#uij-e611",
+          "bbox": null,
+          "html": "<a data-wp-on-async--mouseenter=\"callbacks.handlePopoverMenuMouseover\" data-wp-on-async--mouseleave=\"callbacks.handlePopoverMenuMouseout\" href=\"https://www.whitehouse.gov/gallery/\" id=\"uij-e611\">Galle"
+        },
+        {
+          "target": [
+            "#menu-item-12364"
+          ],
+          "selector": "#menu-item-12364",
+          "bbox": null,
+          "html": "<li class=\"menu-item menu-item-type-post_type_archive menu-item-object-past_event menu-item-12364\" id=\"menu-item-12364\">"
+        },
+        {
+          "target": [
+            "#uij-e612"
+          ],
+          "selector": "#uij-e612",
+          "bbox": null,
+          "html": "<a data-wp-on-async--mouseenter=\"callbacks.handlePopoverMenuMouseover\" data-wp-on-async--mouseleave=\"callbacks.handlePopoverMenuMouseout\" href=\"https://www.whitehouse.gov/videos/\" id=\"uij-e612\">Video "
+        },
+        {
+          "target": [
+            "#menu-item-33108"
+          ],
+          "selector": "#menu-item-33108",
+          "bbox": null,
+          "html": "<li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-33108\" id=\"menu-item-33108\">"
+        },
+        {
+          "target": [
+            "#uij-e613"
+          ],
+          "selector": "#uij-e613",
+          "bbox": null,
+          "html": "<a data-wp-on-async--mouseenter=\"callbacks.handlePopoverMenuMouseover\" data-wp-on-async--mouseleave=\"callbacks.handlePopoverMenuMouseout\" href=\"https://www.whitehouse.gov/mediabias/\" id=\"uij-e613\">Med"
+        },
+        {
+          "target": [
+            "#menu-item-33106"
+          ],
+          "selector": "#menu-item-33106",
+          "bbox": null,
+          "html": "<li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-33106\" id=\"menu-item-33106\">"
+        },
+        {
+          "target": [
+            "#uij-e614"
+          ],
+          "selector": "#uij-e614",
+          "bbox": null,
+          "html": "<a data-wp-on-async--mouseenter=\"callbacks.handlePopoverMenuMouseover\" data-wp-on-async--mouseleave=\"callbacks.handlePopoverMenuMouseout\" href=\"https://www.whitehouse.gov/wire/\" id=\"uij-e614\">White Ho"
+        },
+        {
+          "target": [
+            "#uij-e615"
+          ],
+          "selector": "#uij-e615",
+          "bbox": null,
+          "html": "<div class=\"wp-block-whitehouse-footer__menu\" id=\"uij-e615\">"
+        },
+        {
+          "target": [
+            "#uij-e616"
+          ],
+          "selector": "#uij-e616",
+          "bbox": null,
+          "html": "<nav class=\"wp-block-whitehouse-footer__menu-navigation\" id=\"uij-e616\">"
+        },
+        {
+          "target": [
+            "#uij-e617"
+          ],
+          "selector": "#uij-e617",
+          "bbox": null,
+          "html": "<h2 class=\"wp-block-whitehouse-footer__menu-heading\" id=\"uij-e617\">Initiatives</h2>"
+        },
+        {
+          "target": [
+            "#menu-initiatives"
+          ],
+          "selector": "#menu-initiatives",
+          "bbox": null,
+          "html": "<ul class=\"menu\" id=\"menu-initiatives\">"
+        },
+        {
+          "target": [
+            "#menu-item-33109"
+          ],
+          "selector": "#menu-item-33109",
+          "bbox": null,
+          "html": "<li class=\"menu-item menu-item-type-custom menu-item-object-custom menu-item-33109\" id=\"menu-item-33109\">"
+        },
+        {
+          "target": [
+            "#uij-e618"
+          ],
+          "selector": "#uij-e618",
+          "bbox": null,
+          "html": "<a data-wp-on-async--mouseenter=\"callbacks.handlePopoverMenuMouseover\" data-wp-on-async--mouseleave=\"callbacks.handlePopoverMenuMouseout\" href=\"https://www.freedom250.org/\" id=\"uij-e618\" rel=\"noopener"
+        },
+        {
+          "target": [
+            "#menu-item-33110"
+          ],
+          "selector": "#menu-item-33110",
+          "bbox": null,
+          "html": "<li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-33110\" id=\"menu-item-33110\">"
+        },
+        {
+          "target": [
+            "#uij-e619"
+          ],
+          "selector": "#uij-e619",
+          "bbox": null,
+          "html": "<a data-wp-on-async--mouseenter=\"callbacks.handlePopoverMenuMouseover\" data-wp-on-async--mouseleave=\"callbacks.handlePopoverMenuMouseout\" href=\"https://www.whitehouse.gov/investments/\" id=\"uij-e619\">I"
+        },
+        {
+          "target": [
+            "#menu-item-33111"
+          ],
+          "selector": "#menu-item-33111",
+          "bbox": null,
+          "html": "<li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-33111\" id=\"menu-item-33111\">"
+        },
+        {
+          "target": [
+            "#uij-e620"
+          ],
+          "selector": "#uij-e620",
+          "bbox": null,
+          "html": "<a data-wp-on-async--mouseenter=\"callbacks.handlePopoverMenuMouseover\" data-wp-on-async--mouseleave=\"callbacks.handlePopoverMenuMouseout\" href=\"https://www.whitehouse.gov/obbb/\" id=\"uij-e620\">Working "
+        },
+        {
+          "target": [
+            "#menu-item-33112"
+          ],
+          "selector": "#menu-item-33112",
+          "bbox": null,
+          "html": "<li class=\"menu-item menu-item-type-custom menu-item-object-custom menu-item-33112\" id=\"menu-item-33112\">"
+        },
+        {
+          "target": [
+            "#uij-e621"
+          ],
+          "selector": "#uij-e621",
+          "bbox": null,
+          "html": "<a data-wp-on-async--mouseenter=\"callbacks.handlePopoverMenuMouseover\" data-wp-on-async--mouseleave=\"callbacks.handlePopoverMenuMouseout\" href=\"https://ai.gov\" id=\"uij-e621\" rel=\"noopener\" target=\"_bl"
+        },
+        {
+          "target": [
+            "#menu-item-33113"
+          ],
+          "selector": "#menu-item-33113",
+          "bbox": null,
+          "html": "<li class=\"menu-item menu-item-type-post_type menu-item-object-issue menu-item-33113\" id=\"menu-item-33113\">"
+        },
+        {
+          "target": [
+            "#uij-e622"
+          ],
+          "selector": "#uij-e622",
+          "bbox": null,
+          "html": "<a data-wp-on-async--mouseenter=\"callbacks.handlePopoverMenuMouseover\" data-wp-on-async--mouseleave=\"callbacks.handlePopoverMenuMouseout\" href=\"https://www.whitehouse.gov/priorities/doge/\" id=\"uij-e62"
+        },
+        {
+          "target": [
+            "#uij-e623"
+          ],
+          "selector": "#uij-e623",
+          "bbox": null,
+          "html": "<div class=\"wp-block-whitehouse-footer__menu-end\" id=\"uij-e623\">"
+        },
+        {
+          "target": [
+            "#uij-e624"
+          ],
+          "selector": "#uij-e624",
+          "bbox": null,
+          "html": "<div class=\"wp-block-whitehouse-footer__newsletter\" id=\"uij-e624\">"
+        },
+        {
+          "target": [
+            "#uij-e625"
+          ],
+          "selector": "#uij-e625",
+          "bbox": null,
+          "html": "<h3 class=\"wp-block-whitehouse-footer__newsletter-heading wp-block-heading\" id=\"uij-e625\">Subscribe to the WH Newsletter</h3>"
+        },
+        {
+          "target": [
+            "#uij-e626"
+          ],
+          "selector": "#uij-e626",
+          "bbox": null,
+          "html": "<div class=\"wp-block-whitehouse-newsletter__form wp-block-whitehouse-newsletter-field\" data-wp-context=\"{ &quot;formAction&quot;: &quot;https://wdg.us10.list-manage.com/subscribe/post?u=255057cc391ca0"
+        },
+        {
+          "target": [
+            "#uij-e627"
+          ],
+          "selector": "#uij-e627",
+          "bbox": null,
+          "html": "<form action=\"https://wdg.us10.list-manage.com/subscribe/post?u=255057cc391ca0facb169b81c&amp;id=004f59aa22&amp;f_id=00b5c6e5f0\" data-wp-bind--action=\"context.formAction\" data-wp-on--submit=\"actions.s"
+        },
+        {
+          "target": [
+            "#uij-e628"
+          ],
+          "selector": "#uij-e628",
+          "bbox": null,
+          "html": "<fieldset class=\"wp-block-whitehouse-newsletter__form--fieldset\" id=\"uij-e628\">"
+        },
+        {
+          "target": [
+            "#uij-e629"
+          ],
+          "selector": "#uij-e629",
+          "bbox": null,
+          "html": "<div class=\"wp-block-whitehouse-newsletter__form--field\" id=\"uij-e629\">\n<input id=\"uij-e630\" name=\"EMAIL\" placeholder=\"Your email\" required=\"\" title=\"Your email\" type=\"email\" value=\"\">\n</div>"
+        },
+        {
+          "target": [
+            "#uij-e630"
+          ],
+          "selector": "#uij-e630",
+          "bbox": null,
+          "html": "<input id=\"uij-e630\" name=\"EMAIL\" placeholder=\"Your email\" required=\"\" title=\"Your email\" type=\"email\" value=\"\">"
+        },
+        {
+          "target": [
+            "#uij-e633"
+          ],
+          "selector": "#uij-e633",
+          "bbox": null,
+          "html": "<div class=\"wp-block-whitehouse-newsletter__form--submit-wrapper\" id=\"uij-e633\">\n<input class=\"wp-element-button\" id=\"uij-e634\" type=\"submit\" value=\"Sign Up\">\n</div>"
+        },
+        {
+          "target": [
+            "#uij-e634"
+          ],
+          "selector": "#uij-e634",
+          "bbox": null,
+          "html": "<input class=\"wp-element-button\" id=\"uij-e634\" type=\"submit\" value=\"Sign Up\">"
+        },
+        {
+          "target": [
+            "#uij-e635"
+          ],
+          "selector": "#uij-e635",
+          "bbox": null,
+          "html": "<div class=\"wp-block-whitehouse-newsletter__form--responses\" id=\"uij-e635\">\n</div>"
+        },
+        {
+          "target": [
+            "#uij-e636"
+          ],
+          "selector": "#uij-e636",
+          "bbox": null,
+          "html": "<div class=\"wp-block-whitehouse-footer__updates\" id=\"uij-e636\">"
+        },
+        {
+          "target": [
+            "#uij-e637"
+          ],
+          "selector": "#uij-e637",
+          "bbox": null,
+          "html": "<svg class=\"wp-block-whitehouse-footer__updates-icon\" id=\"uij-e637\" stroke-width=\"0\" viewBox=\"0 0 16 16\" xmlns=\"http://www.w3.org/2000/svg\">"
+        },
+        {
+          "target": [
+            "#uij-e638"
+          ],
+          "selector": "#uij-e638",
+          "bbox": null,
+          "html": "<path d=\"M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h6zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z\" id=\"uij-e638\"></path>"
+        },
+        {
+          "target": [
+            "#uij-e639"
+          ],
+          "selector": "#uij-e639",
+          "bbox": null,
+          "html": "<path d=\"M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z\" id=\"uij-e639\"></path>"
+        },
+        {
+          "target": [
+            "#uij-e640"
+          ],
+          "selector": "#uij-e640",
+          "bbox": null,
+          "html": "<a href=\"https://my.community.com/realdonaldtrump?t=VICTORY\" id=\"uij-e640\" rel=\"noopener\" target=\"_blank\">Click here</a>"
+        },
+        {
+          "target": [
+            "#uij-e641"
+          ],
+          "selector": "#uij-e641",
+          "bbox": null,
+          "html": "<span id=\"uij-e641\">or text</span>"
+        },
+        {
+          "target": [
+            "#uij-e642"
+          ],
+          "selector": "#uij-e642",
+          "bbox": null,
+          "html": "<span id=\"uij-e642\" style=\"color: #FF0000\">45470</span>"
+        },
+        {
+          "target": [
+            "#uij-e643"
+          ],
+          "selector": "#uij-e643",
+          "bbox": null,
+          "html": "<div class=\"wp-block-whitehouse-footer__bottom\" id=\"uij-e643\">"
+        },
+        {
+          "target": [
+            "#uij-e644"
+          ],
+          "selector": "#uij-e644",
+          "bbox": null,
+          "html": "<div class=\"wp-block-whitehouse-footer__bottom--inner-container\" id=\"uij-e644\">"
+        },
+        {
+          "target": [
+            "#uij-e645"
+          ],
+          "selector": "#uij-e645",
+          "bbox": null,
+          "html": "<a class=\"wp-block-whitehouse-footer__logo\" href=\"https://www.whitehouse.gov\" id=\"uij-e645\" rel=\"home\" title=\"The White House\">"
+        },
+        {
+          "target": [
+            "#uij-e646"
+          ],
+          "selector": "#uij-e646",
+          "bbox": null,
+          "html": "<svg class=\"wp-block-whitehouse-footer__logo-icon\" height=\"34.819\" id=\"uij-e646\" viewBox=\"0 0 300 34.819\" width=\"300\" xmlns=\"http://www.w3.org/2000/svg\">"
+        },
+        {
+          "target": [
+            "#uij-e647"
+          ],
+          "selector": "#uij-e647",
+          "bbox": null,
+          "html": "<path d=\"M4.96 34.35q-.704.001-.703-.514c0-.345.201-.528.608-.56l2.105-.325c.622-.094 1.046-.25 1.26-.47q.329-.376.327-1.354V3.084c0-.438-.094-.746-.281-.934q-.282-.282-1.167-.282-1.728 0-3.41 1.498Q2"
+        },
+        {
+          "target": [
+            "#uij-e648"
+          ],
+          "selector": "#uij-e648",
+          "bbox": null,
+          "html": "<div class=\"wp-block-whitehouse-footer__social-links\" id=\"uij-e648\">"
+        },
+        {
+          "target": [
+            "#uij-e649"
+          ],
+          "selector": "#uij-e649",
+          "bbox": null,
+          "html": "<ul class=\"wp-block-social-links is-layout-flex wp-block-social-links-is-layout-flex\" id=\"uij-e649\">"
+        },
+        {
+          "target": [
+            "#uij-e650"
+          ],
+          "selector": "#uij-e650",
+          "bbox": null,
+          "html": "<li class=\"wp-social-link wp-social-link-x wp-block-social-link\" id=\"uij-e650\">"
+        },
+        {
+          "target": [
+            "#uij-e651"
+          ],
+          "selector": "#uij-e651",
+          "bbox": null,
+          "html": "<a class=\"wp-block-social-link-anchor\" href=\"https://x.com/whitehouse\" id=\"uij-e651\" rel=\"noopener nofollow\" target=\"_blank\">"
+        },
+        {
+          "target": [
+            "#uij-e654"
+          ],
+          "selector": "#uij-e654",
+          "bbox": null,
+          "html": "<span class=\"wp-block-social-link-label screen-reader-text\" id=\"uij-e654\">X</span>"
+        },
+        {
+          "target": [
+            "#uij-e655"
+          ],
+          "selector": "#uij-e655",
+          "bbox": null,
+          "html": "<li class=\"wp-social-link wp-social-link-instagram wp-block-social-link\" id=\"uij-e655\">"
+        },
+        {
+          "target": [
+            "#uij-e656"
+          ],
+          "selector": "#uij-e656",
+          "bbox": null,
+          "html": "<a class=\"wp-block-social-link-anchor\" href=\"https://www.instagram.com/whitehouse/\" id=\"uij-e656\" rel=\"noopener nofollow\" target=\"_blank\">"
+        },
+        {
+          "target": [
+            "#uij-e659"
+          ],
+          "selector": "#uij-e659",
+          "bbox": null,
+          "html": "<span class=\"wp-block-social-link-label screen-reader-text\" id=\"uij-e659\">Instagram</span>"
+        },
+        {
+          "target": [
+            "#uij-e660"
+          ],
+          "selector": "#uij-e660",
+          "bbox": null,
+          "html": "<li class=\"wp-social-link wp-social-link-tiktok wp-block-social-link\" id=\"uij-e660\">"
+        },
+        {
+          "target": [
+            "#uij-e661"
+          ],
+          "selector": "#uij-e661",
+          "bbox": null,
+          "html": "<a class=\"wp-block-social-link-anchor\" href=\"https://www.tiktok.com/@WhiteHouse\" id=\"uij-e661\" rel=\"noopener nofollow\" target=\"_blank\">"
+        },
+        {
+          "target": [
+            "#uij-e664"
+          ],
+          "selector": "#uij-e664",
+          "bbox": null,
+          "html": "<span class=\"wp-block-social-link-label screen-reader-text\" id=\"uij-e664\">TikTok</span>"
+        },
+        {
+          "target": [
+            "#uij-e665"
+          ],
+          "selector": "#uij-e665",
+          "bbox": null,
+          "html": "<li class=\"wp-social-link wp-social-link-truth-social wp-block-social-link\" id=\"uij-e665\">"
+        },
+        {
+          "target": [
+            "#uij-e666"
+          ],
+          "selector": "#uij-e666",
+          "bbox": null,
+          "html": "<a class=\"wp-block-social-link-anchor\" href=\"https://truthsocial.com/@WhiteHouse\" id=\"uij-e666\" rel=\"noopener nofollow\" target=\"_blank\">"
+        },
+        {
+          "target": [
+            "#uij-e671"
+          ],
+          "selector": "#uij-e671",
+          "bbox": null,
+          "html": "<span class=\"wp-block-social-link-label screen-reader-text\" id=\"uij-e671\">Share Icon</span>"
+        },
+        {
+          "target": [
+            "#uij-e672"
+          ],
+          "selector": "#uij-e672",
+          "bbox": null,
+          "html": "<li class=\"wp-social-link wp-social-link-rumble wp-block-social-link\" id=\"uij-e672\">"
+        },
+        {
+          "target": [
+            "#uij-e673"
+          ],
+          "selector": "#uij-e673",
+          "bbox": null,
+          "html": "<a class=\"wp-block-social-link-anchor\" href=\"https://rumble.com/c/whitehouse\" id=\"uij-e673\" rel=\"noopener nofollow\" target=\"_blank\">"
+        },
+        {
+          "target": [
+            "#uij-e676"
+          ],
+          "selector": "#uij-e676",
+          "bbox": null,
+          "html": "<span class=\"wp-block-social-link-label screen-reader-text\" id=\"uij-e676\">Share Icon</span>"
+        },
+        {
+          "target": [
+            "#uij-e677"
+          ],
+          "selector": "#uij-e677",
+          "bbox": null,
+          "html": "<li class=\"wp-social-link wp-social-link-facebook wp-block-social-link\" id=\"uij-e677\">"
+        },
+        {
+          "target": [
+            "#uij-e678"
+          ],
+          "selector": "#uij-e678",
+          "bbox": null,
+          "html": "<a class=\"wp-block-social-link-anchor\" href=\"https://www.facebook.com/WhiteHouse/\" id=\"uij-e678\" rel=\"noopener nofollow\" target=\"_blank\">"
+        },
+        {
+          "target": [
+            "#uij-e681"
+          ],
+          "selector": "#uij-e681",
+          "bbox": null,
+          "html": "<span class=\"wp-block-social-link-label screen-reader-text\" id=\"uij-e681\">Facebook</span>"
+        },
+        {
+          "target": [
+            "#uij-e682"
+          ],
+          "selector": "#uij-e682",
+          "bbox": null,
+          "html": "<li class=\"wp-social-link wp-social-link-youtube wp-block-social-link\" id=\"uij-e682\">"
+        },
+        {
+          "target": [
+            "#uij-e683"
+          ],
+          "selector": "#uij-e683",
+          "bbox": null,
+          "html": "<a class=\"wp-block-social-link-anchor\" href=\"https://www.youtube.com/@WhiteHouse\" id=\"uij-e683\" rel=\"noopener nofollow\" target=\"_blank\">"
+        },
+        {
+          "target": [
+            "#uij-e686"
+          ],
+          "selector": "#uij-e686",
+          "bbox": null,
+          "html": "<span class=\"wp-block-social-link-label screen-reader-text\" id=\"uij-e686\">YouTube</span>"
+        },
+        {
+          "target": [
+            "#mcforms-132923-353640"
+          ],
+          "selector": "#mcforms-132923-353640",
+          "bbox": null,
+          "html": "<div class=\"mcforms-wrapper needsclick\" id=\"mcforms-132923-353640\" style=\"display: block;\"></div>"
+        }
+      ]
+    },
+    {
+      "rule_id": "skip-link",
+      "impact": "",
+      "tags": [],
+      "description": "Ensure all skip links have a focusable target",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/skip-link?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#wp-skip-link"
+          ],
+          "selector": "#wp-skip-link",
+          "bbox": null,
+          "html": "<a class=\"skip-link screen-reader-text\" href=\"#wp--skip-link--target\" id=\"wp-skip-link\">Skip to content</a>"
+        }
+      ]
+    },
+    {
+      "rule_id": "tabindex",
+      "impact": "",
+      "tags": [],
+      "description": "Ensure tabindex attribute values are not greater than 0",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/tabindex?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e358"
+          ],
+          "selector": "#uij-e358",
+          "bbox": null,
+          "html": "<video id=\"uij-e358\" loop=\"\" muted=\"\" playsinline=\"\" preload=\"metadata\" src=\"\" style=\"object-position:50% 30%;\" tabindex=\"-1\"></video>"
+        },
+        {
+          "target": [
+            "#uij-e366"
+          ],
+          "selector": "#uij-e366",
+          "bbox": null,
+          "html": "<video id=\"uij-e366\" loop=\"\" muted=\"\" playsinline=\"\" preload=\"metadata\" src=\"\" style=\"object-position:50% 30%;\" tabindex=\"-1\"></video>"
+        },
+        {
+          "target": [
+            "#uij-e374"
+          ],
+          "selector": "#uij-e374",
+          "bbox": null,
+          "html": "<video id=\"uij-e374\" loop=\"\" muted=\"\" playsinline=\"\" preload=\"metadata\" src=\"\" style=\"object-position:49% 28%;\" tabindex=\"-1\"></video>"
+        },
+        {
+          "target": [
+            "#uij-e382"
+          ],
+          "selector": "#uij-e382",
+          "bbox": null,
+          "html": "<video id=\"uij-e382\" loop=\"\" muted=\"\" playsinline=\"\" preload=\"metadata\" src=\"\" style=\"object-position:47% 67%;\" tabindex=\"-1\"></video>"
+        },
+        {
+          "target": [
+            "#uij-e390"
+          ],
+          "selector": "#uij-e390",
+          "bbox": null,
+          "html": "<video id=\"uij-e390\" loop=\"\" muted=\"\" playsinline=\"\" preload=\"metadata\" src=\"\" style=\"object-position:50% 40%;\" tabindex=\"-1\"></video>"
+        }
+      ]
+    }
+  ]
+}

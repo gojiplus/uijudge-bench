@@ -1,0 +1,5221 @@
+{
+  "element_count": 348,
+  "doc_width": 1920,
+  "doc_height": 2492,
+  "captured": [
+    {
+      "selector": "#uij-e0",
+      "tag": "a",
+      "id": "uij-e0",
+      "class": "usa-skipnav usa-sr-only focusable",
+      "role": null,
+      "text_prefix": "Skip to main content",
+      "bbox": {
+        "desktop": [
+          0,
+          -61,
+          199,
+          44
+        ],
+        "mobile": [
+          0,
+          -61,
+          199,
+          44
+        ]
+      }
+    },
+    {
+      "selector": "#header",
+      "tag": "header",
+      "id": "header",
+      "class": "usa-header usa-header--extended",
+      "role": null,
+      "text_prefix": "An official website of the United States government Here's how you know Here's h",
+      "bbox": {
+        "desktop": [
+          0,
+          0,
+          1920,
+          245
+        ],
+        "mobile": [
+          0,
+          0,
+          375,
+          125
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e2",
+      "tag": "div",
+      "id": "uij-e2",
+      "class": "usa-banner-inner",
+      "role": null,
+      "text_prefix": "An official website of the United States government Here's how you know Here's h",
+      "bbox": {
+        "desktop": [
+          0,
+          0,
+          1920,
+          52
+        ],
+        "mobile": [
+          0,
+          0,
+          375,
+          57
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e3",
+      "tag": "div",
+      "id": "uij-e3",
+      "class": null,
+      "role": null,
+      "text_prefix": "An official website of the United States government Here's how you know Here's h",
+      "bbox": {
+        "desktop": [
+          0,
+          0,
+          1920,
+          52
+        ],
+        "mobile": [
+          0,
+          0,
+          375,
+          57
+        ]
+      }
+    },
+    {
+      "selector": "#usagov-banner",
+      "tag": "section",
+      "id": "usagov-banner",
+      "class": "usa-banner",
+      "role": null,
+      "text_prefix": "An official website of the United States government Here's how you know Here's h",
+      "bbox": {
+        "desktop": [
+          0,
+          0,
+          1920,
+          52
+        ],
+        "mobile": [
+          0,
+          0,
+          375,
+          57
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e4",
+      "tag": "div",
+      "id": "uij-e4",
+      "class": "usa-accordion",
+      "role": null,
+      "text_prefix": "An official website of the United States government Here's how you know Here's h",
+      "bbox": {
+        "desktop": [
+          0,
+          0,
+          1920,
+          52
+        ],
+        "mobile": [
+          0,
+          0,
+          375,
+          57
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e5",
+      "tag": "div",
+      "id": "uij-e5",
+      "class": "usa-banner__header",
+      "role": "banner",
+      "text_prefix": "An official website of the United States government Here's how you know Here's h",
+      "bbox": {
+        "desktop": [
+          0,
+          0,
+          1920,
+          52
+        ],
+        "mobile": [
+          0,
+          0,
+          375,
+          57
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e6",
+      "tag": "div",
+      "id": "uij-e6",
+      "class": "usa-banner__inner",
+      "role": null,
+      "text_prefix": "An official website of the United States government Here's how you know Here's h",
+      "bbox": {
+        "desktop": [
+          366,
+          4,
+          1188,
+          44
+        ],
+        "mobile": [
+          0,
+          8,
+          375,
+          41
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e9",
+      "tag": "div",
+      "id": "uij-e9",
+      "class": "grid-col-fill tablet:grid-col-auto",
+      "role": null,
+      "text_prefix": "An official website of the United States government Here's how you know",
+      "bbox": {
+        "desktop": [
+          422,
+          16,
+          294,
+          19
+        ],
+        "mobile": [
+          40,
+          8,
+          335,
+          41
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e10",
+      "tag": "p",
+      "id": "uij-e10",
+      "class": "usa-banner__header-text",
+      "role": null,
+      "text_prefix": "An official website of the United States government",
+      "bbox": {
+        "desktop": [
+          422,
+          16,
+          294,
+          19
+        ],
+        "mobile": [
+          40,
+          8,
+          335,
+          19
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e15",
+      "tag": "button",
+      "id": "uij-e15",
+      "class": "usa-accordion__button usa-banner__button",
+      "role": null,
+      "text_prefix": "Here's how you know",
+      "bbox": {
+        "desktop": [
+          724,
+          4,
+          140,
+          44
+        ],
+        "mobile": [
+          0,
+          0,
+          375,
+          57
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e16",
+      "tag": "span",
+      "id": "uij-e16",
+      "class": "usa-banner__button-text",
+      "role": null,
+      "text_prefix": "Here's how you know",
+      "bbox": {
+        "desktop": [
+          724,
+          16,
+          124,
+          19
+        ],
+        "mobile": [
+          -12787,
+          28,
+          124,
+          19
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e74",
+      "tag": "div",
+      "id": "uij-e74",
+      "class": "usa-navbar",
+      "role": null,
+      "text_prefix": "Español Menu Call us at 1-844-USAGOV1 Search",
+      "bbox": {
+        "desktop": [
+          366,
+          52,
+          1188,
+          148
+        ],
+        "mobile": [
+          0,
+          57,
+          375,
+          68
+        ]
+      }
+    },
+    {
+      "selector": "#extended-logo",
+      "tag": "div",
+      "id": "extended-logo",
+      "class": "usa-logo",
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          398,
+          60,
+          80,
+          80
+        ],
+        "mobile": [
+          16,
+          65,
+          164,
+          51
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e75",
+      "tag": "em",
+      "id": "uij-e75",
+      "class": "usa-logo-text",
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          398,
+          60,
+          80,
+          80
+        ],
+        "mobile": [
+          16,
+          65,
+          164,
+          51
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e76",
+      "tag": "a",
+      "id": "uij-e76",
+      "class": null,
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          398,
+          60,
+          80,
+          80
+        ],
+        "mobile": [
+          16,
+          65,
+          51,
+          51
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e77",
+      "tag": "img",
+      "id": "uij-e77",
+      "class": null,
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          398,
+          60,
+          80,
+          80
+        ],
+        "mobile": [
+          16,
+          65,
+          51,
+          51
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e78",
+      "tag": "div",
+      "id": "uij-e78",
+      "class": "navbar-right",
+      "role": null,
+      "text_prefix": "Español Menu Call us at 1-844-USAGOV1 Search",
+      "bbox": {
+        "desktop": [
+          979,
+          60,
+          543,
+          132
+        ],
+        "mobile": [
+          180,
+          66,
+          179,
+          48
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e79",
+      "tag": "a",
+      "id": "uij-e79",
+      "class": "usa-button language-link",
+      "role": "button",
+      "text_prefix": "Español",
+      "bbox": {
+        "desktop": [
+          1421,
+          60,
+          101,
+          44
+        ],
+        "mobile": [
+          180,
+          66,
+          105,
+          48
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e81",
+      "tag": "div",
+      "id": "uij-e81",
+      "class": "usa-nav__secondary",
+      "role": null,
+      "text_prefix": "Call us at 1-844-USAGOV1 Search",
+      "bbox": {
+        "desktop": [
+          979,
+          104,
+          543,
+          88
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e82",
+      "tag": "div",
+      "id": "uij-e82",
+      "class": "usa-nav__secondary-links",
+      "role": null,
+      "text_prefix": "Call us at 1-844-USAGOV1",
+      "bbox": {
+        "desktop": [
+          979,
+          110,
+          228,
+          82
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e83",
+      "tag": "div",
+      "id": "uij-e83",
+      "class": null,
+      "role": null,
+      "text_prefix": "Call us at 1-844-USAGOV1",
+      "bbox": {
+        "desktop": [
+          979,
+          110,
+          228,
+          44
+        ]
+      }
+    },
+    {
+      "selector": "#top-phone",
+      "tag": "span",
+      "id": "top-phone",
+      "class": "usa-nav__secondary-item",
+      "role": null,
+      "text_prefix": "Call us at 1-844-USAGOV1",
+      "bbox": {
+        "desktop": [
+          979,
+          126,
+          228,
+          17
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e84",
+      "tag": "a",
+      "id": "uij-e84",
+      "class": null,
+      "role": null,
+      "text_prefix": "Call us at 1-844-USAGOV1",
+      "bbox": {
+        "desktop": [
+          979,
+          110,
+          228,
+          44
+        ]
+      }
+    },
+    {
+      "selector": "#usagov_all_gov-desktop",
+      "tag": "form",
+      "id": "usagov_all_gov-desktop",
+      "class": "usa-search usa-search--small",
+      "role": "search",
+      "text_prefix": "Search",
+      "bbox": {
+        "desktop": [
+          1206,
+          112,
+          316,
+          44
+        ]
+      }
+    },
+    {
+      "selector": "#top-srch",
+      "tag": "label",
+      "id": "top-srch",
+      "class": "usa-sr-only",
+      "role": null,
+      "text_prefix": "Search",
+      "bbox": {
+        "desktop": [
+          -16856,
+          112,
+          57,
+          27
+        ]
+      }
+    },
+    {
+      "selector": "#search-field-small",
+      "tag": "input",
+      "id": "search-field-small",
+      "class": "usa-input text usagov-search-autocomplete ui-autocomplete-input",
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          1206,
+          112,
+          271,
+          44
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e85",
+      "tag": "button",
+      "id": "uij-e85",
+      "class": "usa-button",
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          1478,
+          112,
+          44,
+          44
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e86",
+      "tag": "img",
+      "id": "uij-e86",
+      "class": "usa-search__submit-icon",
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          1490,
+          122,
+          20,
+          24
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e87",
+      "tag": "nav",
+      "id": "uij-e87",
+      "class": "usa-nav",
+      "role": null,
+      "text_prefix": "All topics and services The U.S. and its government Government benefits Immigrat",
+      "bbox": {
+        "desktop": [
+          0,
+          200,
+          1920,
+          45
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e88",
+      "tag": "div",
+      "id": "uij-e88",
+      "class": "usa-nav__inner",
+      "role": null,
+      "text_prefix": "All topics and services The U.S. and its government Government benefits Immigrat",
+      "bbox": {
+        "desktop": [
+          366,
+          201,
+          1188,
+          44
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e91",
+      "tag": "ul",
+      "id": "uij-e91",
+      "class": "usa-nav__primary usa-accordion",
+      "role": null,
+      "text_prefix": "All topics and services The U.S. and its government Government benefits Immigrat",
+      "bbox": {
+        "desktop": [
+          387,
+          201,
+          1135,
+          44
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e92",
+      "tag": "li",
+      "id": "uij-e92",
+      "class": "usa-nav__primary-item usa-nav___primary-item-smaller-padding",
+      "role": null,
+      "text_prefix": "All topics and services",
+      "bbox": {
+        "desktop": [
+          387,
+          201,
+          182,
+          44
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e93",
+      "tag": "a",
+      "id": "uij-e93",
+      "class": "usa-nav__link",
+      "role": null,
+      "text_prefix": "All topics and services",
+      "bbox": {
+        "desktop": [
+          387,
+          201,
+          182,
+          44
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e94",
+      "tag": "span",
+      "id": "uij-e94",
+      "class": null,
+      "role": null,
+      "text_prefix": "All topics and services",
+      "bbox": {
+        "desktop": [
+          398,
+          215,
+          160,
+          16
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e95",
+      "tag": "li",
+      "id": "uij-e95",
+      "class": "usa-nav__primary-item usa-nav___primary-item-smaller-padding",
+      "role": null,
+      "text_prefix": "The U.S. and its government",
+      "bbox": {
+        "desktop": [
+          574,
+          201,
+          223,
+          44
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e96",
+      "tag": "a",
+      "id": "uij-e96",
+      "class": "usa-nav__link",
+      "role": null,
+      "text_prefix": "The U.S. and its government",
+      "bbox": {
+        "desktop": [
+          574,
+          201,
+          223,
+          44
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e97",
+      "tag": "span",
+      "id": "uij-e97",
+      "class": null,
+      "role": null,
+      "text_prefix": "The U.S. and its government",
+      "bbox": {
+        "desktop": [
+          585,
+          215,
+          201,
+          16
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e98",
+      "tag": "li",
+      "id": "uij-e98",
+      "class": "usa-nav__primary-item usa-nav___primary-item-smaller-padding",
+      "role": null,
+      "text_prefix": "Government benefits",
+      "bbox": {
+        "desktop": [
+          803,
+          201,
+          171,
+          44
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e99",
+      "tag": "a",
+      "id": "uij-e99",
+      "class": "usa-nav__link",
+      "role": null,
+      "text_prefix": "Government benefits",
+      "bbox": {
+        "desktop": [
+          803,
+          201,
+          171,
+          44
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e100",
+      "tag": "span",
+      "id": "uij-e100",
+      "class": null,
+      "role": null,
+      "text_prefix": "Government benefits",
+      "bbox": {
+        "desktop": [
+          814,
+          215,
+          149,
+          16
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e101",
+      "tag": "li",
+      "id": "uij-e101",
+      "class": "usa-nav__primary-item usa-nav___primary-item-smaller-padding",
+      "role": null,
+      "text_prefix": "Immigration and U.S. citizenship",
+      "bbox": {
+        "desktop": [
+          980,
+          201,
+          252,
+          44
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e102",
+      "tag": "a",
+      "id": "uij-e102",
+      "class": "usa-nav__link",
+      "role": null,
+      "text_prefix": "Immigration and U.S. citizenship",
+      "bbox": {
+        "desktop": [
+          980,
+          201,
+          252,
+          44
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e103",
+      "tag": "span",
+      "id": "uij-e103",
+      "class": null,
+      "role": null,
+      "text_prefix": "Immigration and U.S. citizenship",
+      "bbox": {
+        "desktop": [
+          991,
+          215,
+          230,
+          16
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e104",
+      "tag": "li",
+      "id": "uij-e104",
+      "class": "usa-nav__primary-item usa-nav___primary-item-smaller-padding",
+      "role": null,
+      "text_prefix": "Money and credit",
+      "bbox": {
+        "desktop": [
+          1238,
+          201,
+          146,
+          44
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e105",
+      "tag": "a",
+      "id": "uij-e105",
+      "class": "usa-nav__link",
+      "role": null,
+      "text_prefix": "Money and credit",
+      "bbox": {
+        "desktop": [
+          1238,
+          201,
+          146,
+          44
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e106",
+      "tag": "span",
+      "id": "uij-e106",
+      "class": null,
+      "role": null,
+      "text_prefix": "Money and credit",
+      "bbox": {
+        "desktop": [
+          1249,
+          215,
+          123,
+          16
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e107",
+      "tag": "li",
+      "id": "uij-e107",
+      "class": "usa-nav__primary-item usa-nav___primary-item-smaller-padding",
+      "role": null,
+      "text_prefix": "Taxes",
+      "bbox": {
+        "desktop": [
+          1389,
+          201,
+          63,
+          44
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e108",
+      "tag": "a",
+      "id": "uij-e108",
+      "class": "usa-nav__link",
+      "role": null,
+      "text_prefix": "Taxes",
+      "bbox": {
+        "desktop": [
+          1389,
+          201,
+          63,
+          44
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e109",
+      "tag": "span",
+      "id": "uij-e109",
+      "class": null,
+      "role": null,
+      "text_prefix": "Taxes",
+      "bbox": {
+        "desktop": [
+          1400,
+          215,
+          41,
+          16
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e110",
+      "tag": "li",
+      "id": "uij-e110",
+      "class": "usa-nav__primary-item usa-nav___primary-item-smaller-padding",
+      "role": null,
+      "text_prefix": "Travel",
+      "bbox": {
+        "desktop": [
+          1457,
+          201,
+          65,
+          44
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e111",
+      "tag": "a",
+      "id": "uij-e111",
+      "class": "usa-nav__link",
+      "role": null,
+      "text_prefix": "Travel",
+      "bbox": {
+        "desktop": [
+          1457,
+          201,
+          65,
+          44
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e112",
+      "tag": "span",
+      "id": "uij-e112",
+      "class": null,
+      "role": null,
+      "text_prefix": "Travel",
+      "bbox": {
+        "desktop": [
+          1469,
+          215,
+          42,
+          16
+        ]
+      }
+    },
+    {
+      "selector": "#main-content",
+      "tag": "main",
+      "id": "main-content",
+      "class": "main-content usa-layout-docs usa-section",
+      "role": null,
+      "text_prefix": "Home Complaints Consumer product and service complaints File a complaint about y",
+      "bbox": {
+        "desktop": [
+          0,
+          245,
+          1920,
+          1580
+        ],
+        "mobile": [
+          0,
+          125,
+          375,
+          2313
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e113",
+      "tag": "div",
+      "id": "uij-e113",
+      "class": "grid-container",
+      "role": null,
+      "text_prefix": "Home Complaints Consumer product and service complaints File a complaint about y",
+      "bbox": {
+        "desktop": [
+          448,
+          273,
+          1024,
+          1489
+        ],
+        "mobile": [
+          0,
+          157,
+          375,
+          2249
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e114",
+      "tag": "div",
+      "id": "uij-e114",
+      "class": "grid-row breadcrumb-spacing",
+      "role": null,
+      "text_prefix": "Home Complaints Consumer product and service complaints File a complaint about y",
+      "bbox": {
+        "desktop": [
+          480,
+          273,
+          960,
+          64
+        ],
+        "mobile": [
+          16,
+          157,
+          343,
+          56
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e115",
+      "tag": "div",
+      "id": "uij-e115",
+      "class": null,
+      "role": null,
+      "text_prefix": "Home Complaints Consumer product and service complaints File a complaint about y",
+      "bbox": {
+        "desktop": [
+          480,
+          273,
+          726,
+          64
+        ],
+        "mobile": [
+          16,
+          157,
+          325,
+          56
+        ]
+      }
+    },
+    {
+      "selector": "#block-usagov-breadcrumbs",
+      "tag": "div",
+      "id": "block-usagov-breadcrumbs",
+      "class": "settings-tray-editable block block-system block-system-breadcrumb-block",
+      "role": null,
+      "text_prefix": "Home Complaints Consumer product and service complaints File a complaint about y",
+      "bbox": {
+        "desktop": [
+          480,
+          273,
+          726,
+          64
+        ],
+        "mobile": [
+          16,
+          133,
+          325,
+          80
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e116",
+      "tag": "nav",
+      "id": "uij-e116",
+      "class": "margin-top-neg-3 mobile-lg:margin-top-2 tablet:margin-top-neg-3 desktop:margin-top-0 margin-bottom-2",
+      "role": null,
+      "text_prefix": "Home Complaints Consumer product and service complaints File a complaint about y",
+      "bbox": {
+        "desktop": [
+          480,
+          273,
+          726,
+          32
+        ],
+        "mobile": [
+          16,
+          133,
+          325,
+          64
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e117",
+      "tag": "ol",
+      "id": "uij-e117",
+      "class": "usa-breadcrumb__list",
+      "role": null,
+      "text_prefix": "Home Complaints Consumer product and service complaints File a complaint about y",
+      "bbox": {
+        "desktop": [
+          476,
+          273,
+          734,
+          32
+        ],
+        "mobile": [
+          12,
+          133,
+          333,
+          64
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e118",
+      "tag": "li",
+      "id": "uij-e118",
+      "class": "usa-breadcrumb__list-item",
+      "role": null,
+      "text_prefix": "Home",
+      "bbox": {
+        "desktop": [
+          480,
+          280,
+          64,
+          18
+        ],
+        "mobile": [
+          -15984,
+          137,
+          43,
+          24
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e119",
+      "tag": "a",
+      "id": "uij-e119",
+      "class": "usa-breadcrumb__link",
+      "role": null,
+      "text_prefix": "Home",
+      "bbox": {
+        "desktop": [
+          480,
+          280,
+          47,
+          18
+        ],
+        "mobile": [
+          -15984,
+          140,
+          43,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e120",
+      "tag": "span",
+      "id": "uij-e120",
+      "class": null,
+      "role": null,
+      "text_prefix": "Home",
+      "bbox": {
+        "desktop": [
+          480,
+          280,
+          43,
+          18
+        ],
+        "mobile": [
+          -15984,
+          140,
+          43,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e122",
+      "tag": "li",
+      "id": "uij-e122",
+      "class": "usa-breadcrumb__list-item",
+      "role": null,
+      "text_prefix": "Complaints",
+      "bbox": {
+        "desktop": [
+          548,
+          280,
+          103,
+          18
+        ],
+        "mobile": [
+          -15984,
+          137,
+          82,
+          24
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e123",
+      "tag": "a",
+      "id": "uij-e123",
+      "class": "usa-breadcrumb__link",
+      "role": null,
+      "text_prefix": "Complaints",
+      "bbox": {
+        "desktop": [
+          548,
+          280,
+          86,
+          18
+        ],
+        "mobile": [
+          -15984,
+          140,
+          82,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e124",
+      "tag": "span",
+      "id": "uij-e124",
+      "class": null,
+      "role": null,
+      "text_prefix": "Complaints",
+      "bbox": {
+        "desktop": [
+          548,
+          280,
+          82,
+          18
+        ],
+        "mobile": [
+          -15984,
+          140,
+          82,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e126",
+      "tag": "li",
+      "id": "uij-e126",
+      "class": "usa-breadcrumb__list-item",
+      "role": null,
+      "text_prefix": "Consumer product and service complaints",
+      "bbox": {
+        "desktop": [
+          655,
+          280,
+          325,
+          18
+        ],
+        "mobile": [
+          16,
+          156,
+          325,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e127",
+      "tag": "a",
+      "id": "uij-e127",
+      "class": "usa-breadcrumb__link",
+      "role": null,
+      "text_prefix": "Consumer product and service complaints",
+      "bbox": {
+        "desktop": [
+          655,
+          280,
+          308,
+          18
+        ],
+        "mobile": [
+          16,
+          137,
+          325,
+          56
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e128",
+      "tag": "span",
+      "id": "uij-e128",
+      "class": null,
+      "role": null,
+      "text_prefix": "Consumer product and service complaints",
+      "bbox": {
+        "desktop": [
+          655,
+          280,
+          304,
+          18
+        ],
+        "mobile": [
+          37,
+          156,
+          304,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e130",
+      "tag": "li",
+      "id": "uij-e130",
+      "class": "usa-breadcrumb__list-item usa-breadcrumb__currrent",
+      "role": null,
+      "text_prefix": "File a complaint about your car",
+      "bbox": {
+        "desktop": [
+          985,
+          280,
+          221,
+          18
+        ],
+        "mobile": [
+          -15984,
+          137,
+          221,
+          24
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e131",
+      "tag": "span",
+      "id": "uij-e131",
+      "class": null,
+      "role": null,
+      "text_prefix": "File a complaint about your car",
+      "bbox": {
+        "desktop": [
+          985,
+          280,
+          221,
+          18
+        ],
+        "mobile": [
+          -15984,
+          140,
+          221,
+          18
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e135",
+      "tag": "div",
+      "id": "uij-e135",
+      "class": "grid-row grid-gap",
+      "role": null,
+      "text_prefix": "Complaints Complaints against the government Consumer product and service compla",
+      "bbox": {
+        "desktop": [
+          464,
+          337,
+          992,
+          1425
+        ],
+        "mobile": [
+          8,
+          213,
+          359,
+          2193
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e136",
+      "tag": "aside",
+      "id": "uij-e136",
+      "class": "usa-layout-docs__sidenav desktop:grid-col-4 layout-sidebar-first",
+      "role": null,
+      "text_prefix": "Complaints Complaints against the government Consumer product and service compla",
+      "bbox": {
+        "desktop": [
+          464,
+          337,
+          331,
+          1425
+        ],
+        "mobile": [
+          8,
+          2374,
+          359,
+          32
+        ]
+      }
+    },
+    {
+      "selector": "#block-usagov-leftmenusidebarblock",
+      "tag": "div",
+      "id": "block-usagov-leftmenusidebarblock",
+      "class": "settings-tray-editable block block-usagov-menus block-usagov-sidebarfirst-block",
+      "role": null,
+      "text_prefix": "Complaints Complaints against the government Consumer product and service compla",
+      "bbox": {
+        "desktop": [
+          480,
+          337,
+          299,
+          716
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e137",
+      "tag": "nav",
+      "id": "uij-e137",
+      "class": null,
+      "role": null,
+      "text_prefix": "Complaints Complaints against the government Consumer product and service compla",
+      "bbox": {
+        "desktop": [
+          480,
+          337,
+          299,
+          716
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e138",
+      "tag": "ul",
+      "id": "uij-e138",
+      "class": "usa-sidenav",
+      "role": null,
+      "text_prefix": "Complaints Complaints against the government Consumer product and service compla",
+      "bbox": {
+        "desktop": [
+          480,
+          337,
+          299,
+          716
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e139",
+      "tag": "li",
+      "id": "uij-e139",
+      "class": "usa-sidenav__item",
+      "role": null,
+      "text_prefix": "Complaints Complaints against the government Consumer product and service compla",
+      "bbox": {
+        "desktop": [
+          480,
+          337,
+          299,
+          715
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e140",
+      "tag": "a",
+      "id": "uij-e140",
+      "class": "active-trail",
+      "role": null,
+      "text_prefix": "Complaints",
+      "bbox": {
+        "desktop": [
+          480,
+          338,
+          299,
+          41
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e141",
+      "tag": "ul",
+      "id": "uij-e141",
+      "class": "usa-sidenav__sublist",
+      "role": null,
+      "text_prefix": "Complaints against the government Consumer product and service complaints Compla",
+      "bbox": {
+        "desktop": [
+          480,
+          379,
+          299,
+          673
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e142",
+      "tag": "li",
+      "id": "uij-e142",
+      "class": "usa-sidenav__item",
+      "role": null,
+      "text_prefix": "Complaints against the government",
+      "bbox": {
+        "desktop": [
+          480,
+          379,
+          299,
+          65
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e143",
+      "tag": "a",
+      "id": "uij-e143",
+      "class": null,
+      "role": null,
+      "text_prefix": "Complaints against the government",
+      "bbox": {
+        "desktop": [
+          480,
+          380,
+          299,
+          64
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e144",
+      "tag": "li",
+      "id": "uij-e144",
+      "class": "usa-sidenav__item",
+      "role": null,
+      "text_prefix": "Consumer product and service complaints Complaints about online purchases Compla",
+      "bbox": {
+        "desktop": [
+          480,
+          444,
+          299,
+          420
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e145",
+      "tag": "a",
+      "id": "uij-e145",
+      "class": "active-trail",
+      "role": null,
+      "text_prefix": "Consumer product and service complaints",
+      "bbox": {
+        "desktop": [
+          480,
+          445,
+          299,
+          64
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e146",
+      "tag": "ul",
+      "id": "uij-e146",
+      "class": "usa-sidenav__sublist",
+      "role": null,
+      "text_prefix": "Complaints about online purchases Complaint about a company’s products or servic",
+      "bbox": {
+        "desktop": [
+          480,
+          509,
+          299,
+          355
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e147",
+      "tag": "li",
+      "id": "uij-e147",
+      "class": "usa-sidenav__item",
+      "role": null,
+      "text_prefix": "Complaints about online purchases",
+      "bbox": {
+        "desktop": [
+          480,
+          509,
+          299,
+          65
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e148",
+      "tag": "a",
+      "id": "uij-e148",
+      "class": null,
+      "role": null,
+      "text_prefix": "Complaints about online purchases",
+      "bbox": {
+        "desktop": [
+          480,
+          510,
+          299,
+          64
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e149",
+      "tag": "li",
+      "id": "uij-e149",
+      "class": "usa-sidenav__item",
+      "role": null,
+      "text_prefix": "Complaint about a company’s products or services",
+      "bbox": {
+        "desktop": [
+          480,
+          574,
+          299,
+          64
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e150",
+      "tag": "a",
+      "id": "uij-e150",
+      "class": null,
+      "role": null,
+      "text_prefix": "Complaint about a company’s products or services",
+      "bbox": {
+        "desktop": [
+          480,
+          574,
+          299,
+          64
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e151",
+      "tag": "li",
+      "id": "uij-e151",
+      "class": "usa-sidenav__item",
+      "role": null,
+      "text_prefix": "current page File a complaint about your car",
+      "bbox": {
+        "desktop": [
+          480,
+          638,
+          299,
+          58
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e152",
+      "tag": "div",
+      "id": "uij-e152",
+      "class": "active-trail usa-current",
+      "role": null,
+      "text_prefix": "current page File a complaint about your car",
+      "bbox": {
+        "desktop": [
+          480,
+          638,
+          299,
+          58
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e153",
+      "tag": "p",
+      "id": "uij-e153",
+      "class": "usa-sr-only",
+      "role": null,
+      "text_prefix": "current page",
+      "bbox": {
+        "desktop": [
+          -15504,
+          662,
+          98,
+          24
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e154",
+      "tag": "li",
+      "id": "uij-e154",
+      "class": "usa-sidenav__item",
+      "role": null,
+      "text_prefix": "Telemarketer and scam call complaints",
+      "bbox": {
+        "desktop": [
+          480,
+          696,
+          299,
+          64
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e155",
+      "tag": "a",
+      "id": "uij-e155",
+      "class": null,
+      "role": null,
+      "text_prefix": "Telemarketer and scam call complaints",
+      "bbox": {
+        "desktop": [
+          480,
+          696,
+          299,
+          64
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e156",
+      "tag": "li",
+      "id": "uij-e156",
+      "class": "usa-sidenav__item",
+      "role": null,
+      "text_prefix": "Phone company complaints",
+      "bbox": {
+        "desktop": [
+          480,
+          760,
+          299,
+          40
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e157",
+      "tag": "a",
+      "id": "uij-e157",
+      "class": null,
+      "role": null,
+      "text_prefix": "Phone company complaints",
+      "bbox": {
+        "desktop": [
+          480,
+          760,
+          299,
+          40
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e158",
+      "tag": "li",
+      "id": "uij-e158",
+      "class": "usa-sidenav__item",
+      "role": null,
+      "text_prefix": "Complaints about cable or satellite television",
+      "bbox": {
+        "desktop": [
+          480,
+          800,
+          299,
+          64
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e159",
+      "tag": "a",
+      "id": "uij-e159",
+      "class": null,
+      "role": null,
+      "text_prefix": "Complaints about cable or satellite television",
+      "bbox": {
+        "desktop": [
+          480,
+          800,
+          299,
+          64
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e160",
+      "tag": "li",
+      "id": "uij-e160",
+      "class": "usa-sidenav__item",
+      "role": null,
+      "text_prefix": "Bank, credit, and securities complaints",
+      "bbox": {
+        "desktop": [
+          480,
+          864,
+          299,
+          65
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e161",
+      "tag": "a",
+      "id": "uij-e161",
+      "class": null,
+      "role": null,
+      "text_prefix": "Bank, credit, and securities complaints",
+      "bbox": {
+        "desktop": [
+          480,
+          865,
+          299,
+          64
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e162",
+      "tag": "li",
+      "id": "uij-e162",
+      "class": "usa-sidenav__item",
+      "role": null,
+      "text_prefix": "Housing complaints",
+      "bbox": {
+        "desktop": [
+          480,
+          929,
+          299,
+          41
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e163",
+      "tag": "a",
+      "id": "uij-e163",
+      "class": null,
+      "role": null,
+      "text_prefix": "Housing complaints",
+      "bbox": {
+        "desktop": [
+          480,
+          930,
+          299,
+          40
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e164",
+      "tag": "li",
+      "id": "uij-e164",
+      "class": "usa-sidenav__item",
+      "role": null,
+      "text_prefix": "Complaints about travel",
+      "bbox": {
+        "desktop": [
+          480,
+          970,
+          299,
+          41
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e165",
+      "tag": "a",
+      "id": "uij-e165",
+      "class": null,
+      "role": null,
+      "text_prefix": "Complaints about travel",
+      "bbox": {
+        "desktop": [
+          480,
+          971,
+          299,
+          40
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e166",
+      "tag": "li",
+      "id": "uij-e166",
+      "class": "usa-sidenav__item",
+      "role": null,
+      "text_prefix": "State consumer protection offices",
+      "bbox": {
+        "desktop": [
+          480,
+          1011,
+          299,
+          41
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e167",
+      "tag": "a",
+      "id": "uij-e167",
+      "class": null,
+      "role": null,
+      "text_prefix": "State consumer protection offices",
+      "bbox": {
+        "desktop": [
+          480,
+          1012,
+          299,
+          40
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e168",
+      "tag": "div",
+      "id": "uij-e168",
+      "class": "usa-layout-docs__main usa-prose desktop:grid-col-8",
+      "role": null,
+      "text_prefix": "Where to file a complaint about your car Learn where to file a complaint about y",
+      "bbox": {
+        "desktop": [
+          795,
+          337,
+          661,
+          1425
+        ],
+        "mobile": [
+          8,
+          213,
+          359,
+          2161
+        ]
+      }
+    },
+    {
+      "selector": "#skip-to-h1",
+      "tag": "h1",
+      "id": "skip-to-h1",
+      "class": "text-red-50",
+      "role": null,
+      "text_prefix": "Where to file a complaint about your car",
+      "bbox": {
+        "desktop": [
+          811,
+          337,
+          629,
+          75
+        ],
+        "mobile": [
+          16,
+          213,
+          343,
+          112
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e169",
+      "tag": "span",
+      "id": "uij-e169",
+      "class": null,
+      "role": null,
+      "text_prefix": "Where to file a complaint about your car",
+      "bbox": {
+        "desktop": [
+          811,
+          337,
+          588,
+          73
+        ],
+        "mobile": [
+          16,
+          213,
+          263,
+          111
+        ]
+      }
+    },
+    {
+      "selector": "#block-usagov-content",
+      "tag": "div",
+      "id": "block-usagov-content",
+      "class": "block block-system block-system-main-block",
+      "role": null,
+      "text_prefix": "Learn where to file a complaint about your car if you cannot get your issue reso",
+      "bbox": {
+        "desktop": [
+          811,
+          430,
+          629,
+          814
+        ],
+        "mobile": [
+          16,
+          343,
+          343,
+          1459
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e170",
+      "tag": "div",
+      "id": "uij-e170",
+      "class": "content-wrapper",
+      "role": null,
+      "text_prefix": "Learn where to file a complaint about your car if you cannot get your issue reso",
+      "bbox": {
+        "desktop": [
+          811,
+          430,
+          629,
+          814
+        ],
+        "mobile": [
+          16,
+          343,
+          343,
+          1459
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e171",
+      "tag": "div",
+      "id": "uij-e171",
+      "class": "usa-prose",
+      "role": null,
+      "text_prefix": "Learn where to file a complaint about your car if you cannot get your issue reso",
+      "bbox": {
+        "desktop": [
+          811,
+          430,
+          629,
+          50
+        ],
+        "mobile": [
+          16,
+          343,
+          343,
+          75
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e172",
+      "tag": "p",
+      "id": "uij-e172",
+      "class": "usa-intro font-serif-md",
+      "role": null,
+      "text_prefix": "Learn where to file a complaint about your car if you cannot get your issue reso",
+      "bbox": {
+        "desktop": [
+          811,
+          430,
+          629,
+          50
+        ],
+        "mobile": [
+          16,
+          343,
+          343,
+          75
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e173",
+      "tag": "div",
+      "id": "uij-e173",
+      "class": "usa-prose body-copy",
+      "role": null,
+      "text_prefix": "The federal or state agency you contact will depend on the nature of your compla",
+      "bbox": {
+        "desktop": [
+          811,
+          519,
+          629,
+          725
+        ],
+        "mobile": [
+          16,
+          458,
+          343,
+          1344
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e174",
+      "tag": "p",
+      "id": "uij-e174",
+      "class": null,
+      "role": null,
+      "text_prefix": "The federal or state agency you contact will depend on the nature of your compla",
+      "bbox": {
+        "desktop": [
+          811,
+          519,
+          629,
+          81
+        ],
+        "mobile": [
+          16,
+          458,
+          343,
+          163
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e175",
+      "tag": "div",
+      "id": "uij-e175",
+      "class": null,
+      "role": null,
+      "text_prefix": "Car complaintFile your complaint withDeceptive car ads or dealersYour state cons",
+      "bbox": {
+        "desktop": [
+          811,
+          621,
+          629,
+          576
+        ],
+        "mobile": [
+          16,
+          641,
+          343,
+          1115
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e176",
+      "tag": "table",
+      "id": "uij-e176",
+      "class": "usa-table--borderless usa-table",
+      "role": null,
+      "text_prefix": "Car complaintFile your complaint withDeceptive car ads or dealersYour state cons",
+      "bbox": {
+        "desktop": [
+          811,
+          621,
+          629,
+          576
+        ],
+        "mobile": [
+          16,
+          641,
+          343,
+          1115
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e177",
+      "tag": "caption",
+      "id": "uij-e177",
+      "class": null,
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          811,
+          621,
+          629,
+          24
+        ],
+        "mobile": [
+          16,
+          641,
+          343,
+          24
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e178",
+      "tag": "thead",
+      "id": "uij-e178",
+      "class": null,
+      "role": null,
+      "text_prefix": "Car complaintFile your complaint with",
+      "bbox": {
+        "desktop": [
+          811,
+          657,
+          629,
+          40
+        ],
+        "mobile": [
+          16,
+          677,
+          343,
+          64
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e179",
+      "tag": "tr",
+      "id": "uij-e179",
+      "class": null,
+      "role": null,
+      "text_prefix": "Car complaintFile your complaint with",
+      "bbox": {
+        "desktop": [
+          811,
+          657,
+          629,
+          40
+        ],
+        "mobile": [
+          16,
+          677,
+          343,
+          64
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e180",
+      "tag": "th",
+      "id": "uij-e180",
+      "class": null,
+      "role": null,
+      "text_prefix": "Car complaint",
+      "bbox": {
+        "desktop": [
+          811,
+          657,
+          224,
+          40
+        ],
+        "mobile": [
+          16,
+          677,
+          134,
+          64
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e181",
+      "tag": "strong",
+      "id": "uij-e181",
+      "class": null,
+      "role": null,
+      "text_prefix": "Car complaint",
+      "bbox": {
+        "desktop": [
+          827,
+          665,
+          121,
+          22
+        ],
+        "mobile": [
+          32,
+          685,
+          86,
+          46
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e182",
+      "tag": "th",
+      "id": "uij-e182",
+      "class": null,
+      "role": null,
+      "text_prefix": "File your complaint with",
+      "bbox": {
+        "desktop": [
+          1035,
+          657,
+          405,
+          40
+        ],
+        "mobile": [
+          150,
+          677,
+          209,
+          64
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e183",
+      "tag": "strong",
+      "id": "uij-e183",
+      "class": null,
+      "role": null,
+      "text_prefix": "File your complaint with",
+      "bbox": {
+        "desktop": [
+          1051,
+          665,
+          206,
+          22
+        ],
+        "mobile": [
+          166,
+          685,
+          164,
+          46
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e184",
+      "tag": "tbody",
+      "id": "uij-e184",
+      "class": null,
+      "role": null,
+      "text_prefix": "Deceptive car ads or dealersYour state consumer protection agencyThe Federal Tra",
+      "bbox": {
+        "desktop": [
+          811,
+          697,
+          629,
+          500
+        ],
+        "mobile": [
+          16,
+          740,
+          343,
+          1015
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e185",
+      "tag": "tr",
+      "id": "uij-e185",
+      "class": null,
+      "role": null,
+      "text_prefix": "Deceptive car ads or dealersYour state consumer protection agencyThe Federal Tra",
+      "bbox": {
+        "desktop": [
+          811,
+          697,
+          629,
+          107
+        ],
+        "mobile": [
+          16,
+          740,
+          343,
+          243
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e186",
+      "tag": "td",
+      "id": "uij-e186",
+      "class": null,
+      "role": null,
+      "text_prefix": "Deceptive car ads or dealers",
+      "bbox": {
+        "desktop": [
+          811,
+          697,
+          224,
+          107
+        ],
+        "mobile": [
+          16,
+          740,
+          134,
+          243
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e187",
+      "tag": "td",
+      "id": "uij-e187",
+      "class": null,
+      "role": null,
+      "text_prefix": "Your state consumer protection agencyThe Federal Trade Commission",
+      "bbox": {
+        "desktop": [
+          1035,
+          697,
+          405,
+          107
+        ],
+        "mobile": [
+          150,
+          740,
+          209,
+          243
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e188",
+      "tag": "ul",
+      "id": "uij-e188",
+      "class": null,
+      "role": null,
+      "text_prefix": "Your state consumer protection agencyThe Federal Trade Commission",
+      "bbox": {
+        "desktop": [
+          1051,
+          723,
+          373,
+          54
+        ],
+        "mobile": [
+          166,
+          767,
+          177,
+          190
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e189",
+      "tag": "li",
+      "id": "uij-e189",
+      "class": null,
+      "role": null,
+      "text_prefix": "Your state consumer protection agency",
+      "bbox": {
+        "desktop": [
+          1091,
+          723,
+          333,
+          27
+        ],
+        "mobile": [
+          206,
+          767,
+          137,
+          108
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e190",
+      "tag": "a",
+      "id": "uij-e190",
+      "class": null,
+      "role": null,
+      "text_prefix": "state consumer protection agency",
+      "bbox": {
+        "desktop": [
+          1132,
+          726,
+          276,
+          21
+        ],
+        "mobile": [
+          206,
+          770,
+          82,
+          102
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e191",
+      "tag": "li",
+      "id": "uij-e191",
+      "class": null,
+      "role": null,
+      "text_prefix": "The Federal Trade Commission",
+      "bbox": {
+        "desktop": [
+          1091,
+          750,
+          333,
+          27
+        ],
+        "mobile": [
+          206,
+          875,
+          137,
+          81
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e192",
+      "tag": "a",
+      "id": "uij-e192",
+      "class": null,
+      "role": null,
+      "text_prefix": "Federal Trade Commission",
+      "bbox": {
+        "desktop": [
+          1126,
+          753,
+          216,
+          21
+        ],
+        "mobile": [
+          206,
+          878,
+          101,
+          75
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e193",
+      "tag": "tr",
+      "id": "uij-e193",
+      "class": null,
+      "role": null,
+      "text_prefix": "Auto repair shopsYour state consumer protection agency",
+      "bbox": {
+        "desktop": [
+          811,
+          804,
+          629,
+          44
+        ],
+        "mobile": [
+          16,
+          983,
+          343,
+          71
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e194",
+      "tag": "td",
+      "id": "uij-e194",
+      "class": null,
+      "role": null,
+      "text_prefix": "Auto repair shops",
+      "bbox": {
+        "desktop": [
+          811,
+          804,
+          224,
+          44
+        ],
+        "mobile": [
+          16,
+          983,
+          134,
+          71
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e195",
+      "tag": "td",
+      "id": "uij-e195",
+      "class": null,
+      "role": null,
+      "text_prefix": "Your state consumer protection agency",
+      "bbox": {
+        "desktop": [
+          1035,
+          804,
+          405,
+          44
+        ],
+        "mobile": [
+          150,
+          983,
+          209,
+          71
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e196",
+      "tag": "a",
+      "id": "uij-e196",
+      "class": null,
+      "role": null,
+      "text_prefix": "state consumer protection agency",
+      "bbox": {
+        "desktop": [
+          1092,
+          816,
+          276,
+          21
+        ],
+        "mobile": [
+          166,
+          995,
+          166,
+          48
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e197",
+      "tag": "tr",
+      "id": "uij-e197",
+      "class": null,
+      "role": null,
+      "text_prefix": "Car rentalsYour state consumer protection agencyThe Federal Trade Commission",
+      "bbox": {
+        "desktop": [
+          811,
+          848,
+          629,
+          107
+        ],
+        "mobile": [
+          16,
+          1055,
+          343,
+          243
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e198",
+      "tag": "td",
+      "id": "uij-e198",
+      "class": null,
+      "role": null,
+      "text_prefix": "Car rentals",
+      "bbox": {
+        "desktop": [
+          811,
+          848,
+          224,
+          107
+        ],
+        "mobile": [
+          16,
+          1055,
+          134,
+          243
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e199",
+      "tag": "td",
+      "id": "uij-e199",
+      "class": null,
+      "role": null,
+      "text_prefix": "Your state consumer protection agencyThe Federal Trade Commission",
+      "bbox": {
+        "desktop": [
+          1035,
+          848,
+          405,
+          107
+        ],
+        "mobile": [
+          150,
+          1055,
+          209,
+          243
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e200",
+      "tag": "ul",
+      "id": "uij-e200",
+      "class": null,
+      "role": null,
+      "text_prefix": "Your state consumer protection agencyThe Federal Trade Commission",
+      "bbox": {
+        "desktop": [
+          1051,
+          875,
+          373,
+          54
+        ],
+        "mobile": [
+          166,
+          1081,
+          177,
+          190
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e201",
+      "tag": "li",
+      "id": "uij-e201",
+      "class": null,
+      "role": null,
+      "text_prefix": "Your state consumer protection agency",
+      "bbox": {
+        "desktop": [
+          1091,
+          875,
+          333,
+          27
+        ],
+        "mobile": [
+          206,
+          1081,
+          137,
+          108
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e202",
+      "tag": "a",
+      "id": "uij-e202",
+      "class": null,
+      "role": null,
+      "text_prefix": "state consumer protection agency",
+      "bbox": {
+        "desktop": [
+          1132,
+          878,
+          276,
+          21
+        ],
+        "mobile": [
+          206,
+          1084,
+          82,
+          102
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e203",
+      "tag": "li",
+      "id": "uij-e203",
+      "class": null,
+      "role": null,
+      "text_prefix": "The Federal Trade Commission",
+      "bbox": {
+        "desktop": [
+          1091,
+          902,
+          333,
+          27
+        ],
+        "mobile": [
+          206,
+          1190,
+          137,
+          81
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e204",
+      "tag": "a",
+      "id": "uij-e204",
+      "class": null,
+      "role": null,
+      "text_prefix": "Federal Trade Commission",
+      "bbox": {
+        "desktop": [
+          1126,
+          905,
+          216,
+          21
+        ],
+        "mobile": [
+          206,
+          1193,
+          101,
+          75
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e205",
+      "tag": "tr",
+      "id": "uij-e205",
+      "class": null,
+      "role": null,
+      "text_prefix": "Auto loans or paymentsThe Consumer Financial Protection Bureau",
+      "bbox": {
+        "desktop": [
+          811,
+          956,
+          629,
+          44
+        ],
+        "mobile": [
+          16,
+          1298,
+          343,
+          98
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e206",
+      "tag": "td",
+      "id": "uij-e206",
+      "class": null,
+      "role": null,
+      "text_prefix": "Auto loans or payments",
+      "bbox": {
+        "desktop": [
+          811,
+          956,
+          224,
+          44
+        ],
+        "mobile": [
+          16,
+          1298,
+          134,
+          98
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e207",
+      "tag": "td",
+      "id": "uij-e207",
+      "class": null,
+      "role": null,
+      "text_prefix": "The Consumer Financial Protection Bureau",
+      "bbox": {
+        "desktop": [
+          1035,
+          956,
+          405,
+          44
+        ],
+        "mobile": [
+          150,
+          1298,
+          209,
+          98
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e208",
+      "tag": "a",
+      "id": "uij-e208",
+      "class": null,
+      "role": null,
+      "text_prefix": "Consumer Financial Protection Bureau",
+      "bbox": {
+        "desktop": [
+          1086,
+          967,
+          311,
+          21
+        ],
+        "mobile": [
+          166,
+          1309,
+          160,
+          75
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e209",
+      "tag": "tr",
+      "id": "uij-e209",
+      "class": null,
+      "role": null,
+      "text_prefix": "Car warrantyYour state's attorney general. (If you bought a used car from a priv",
+      "bbox": {
+        "desktop": [
+          811,
+          1000,
+          629,
+          98
+        ],
+        "mobile": [
+          16,
+          1396,
+          343,
+          180
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e210",
+      "tag": "td",
+      "id": "uij-e210",
+      "class": null,
+      "role": null,
+      "text_prefix": "Car warranty",
+      "bbox": {
+        "desktop": [
+          811,
+          1000,
+          224,
+          98
+        ],
+        "mobile": [
+          16,
+          1396,
+          134,
+          180
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e211",
+      "tag": "td",
+      "id": "uij-e211",
+      "class": null,
+      "role": null,
+      "text_prefix": "Your state's attorney general. (If you bought a used car from a private owner, t",
+      "bbox": {
+        "desktop": [
+          1035,
+          1000,
+          405,
+          98
+        ],
+        "mobile": [
+          150,
+          1396,
+          209,
+          180
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e212",
+      "tag": "a",
+      "id": "uij-e212",
+      "class": null,
+      "role": null,
+      "text_prefix": "state's attorney general",
+      "bbox": {
+        "desktop": [
+          1092,
+          1011,
+          190,
+          21
+        ],
+        "mobile": [
+          166,
+          1407,
+          167,
+          48
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e213",
+      "tag": "tr",
+      "id": "uij-e213",
+      "class": null,
+      "role": null,
+      "text_prefix": "Safety issues related to cars, child car seats, or tiresThe National Highway Tra",
+      "bbox": {
+        "desktop": [
+          811,
+          1098,
+          629,
+          98
+        ],
+        "mobile": [
+          16,
+          1576,
+          343,
+          180
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e214",
+      "tag": "td",
+      "id": "uij-e214",
+      "class": null,
+      "role": null,
+      "text_prefix": "Safety issues related to cars, child car seats, or tires",
+      "bbox": {
+        "desktop": [
+          811,
+          1098,
+          224,
+          98
+        ],
+        "mobile": [
+          16,
+          1576,
+          134,
+          180
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e215",
+      "tag": "td",
+      "id": "uij-e215",
+      "class": null,
+      "role": null,
+      "text_prefix": "The National Highway Traffic Safety Administration",
+      "bbox": {
+        "desktop": [
+          1035,
+          1098,
+          405,
+          98
+        ],
+        "mobile": [
+          150,
+          1576,
+          209,
+          180
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e216",
+      "tag": "a",
+      "id": "uij-e216",
+      "class": null,
+      "role": null,
+      "text_prefix": "National Highway Traffic Safety Administration",
+      "bbox": {
+        "desktop": [
+          1051,
+          1123,
+          287,
+          48
+        ],
+        "mobile": [
+          166,
+          1628,
+          177,
+          75
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e217",
+      "tag": "p",
+      "id": "uij-e217",
+      "class": null,
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          811,
+          1217,
+          629,
+          27
+        ],
+        "mobile": [
+          16,
+          1776,
+          343,
+          27
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e220",
+      "tag": "div",
+      "id": "uij-e220",
+      "class": "additional_body_info",
+      "role": null,
+      "text_prefix": "LAST UPDATED: November 17, 2025 SHARE THIS PAGE: Have a question? Ask a real per",
+      "bbox": {
+        "desktop": [
+          811,
+          1244,
+          629,
+          453
+        ],
+        "mobile": [
+          16,
+          1803,
+          343,
+          507
+        ]
+      }
+    },
+    {
+      "selector": "#last-updated",
+      "tag": "p",
+      "id": "last-updated",
+      "class": null,
+      "role": null,
+      "text_prefix": "LAST UPDATED: November 17, 2025",
+      "bbox": {
+        "desktop": [
+          811,
+          1335,
+          629,
+          24
+        ],
+        "mobile": [
+          16,
+          1894,
+          343,
+          24
+        ]
+      }
+    },
+    {
+      "selector": "#sm-share",
+      "tag": "div",
+      "id": "sm-share",
+      "class": null,
+      "role": null,
+      "text_prefix": "SHARE THIS PAGE:",
+      "bbox": {
+        "desktop": [
+          811,
+          1375,
+          629,
+          66
+        ],
+        "mobile": [
+          16,
+          1934,
+          343,
+          66
+        ]
+      }
+    },
+    {
+      "selector": "#share-page",
+      "tag": "span",
+      "id": "share-page",
+      "class": null,
+      "role": null,
+      "text_prefix": "SHARE THIS PAGE:",
+      "bbox": {
+        "desktop": [
+          811,
+          1385,
+          143,
+          24
+        ],
+        "mobile": [
+          16,
+          1944,
+          143,
+          24
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e221",
+      "tag": "div",
+      "id": "uij-e221",
+      "class": "share-icons",
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          964,
+          1375,
+          132,
+          44
+        ],
+        "mobile": [
+          169,
+          1934,
+          132,
+          44
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e222",
+      "tag": "a",
+      "id": "uij-e222",
+      "class": null,
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          964,
+          1375,
+          44,
+          44
+        ],
+        "mobile": [
+          169,
+          1934,
+          44,
+          44
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e223",
+      "tag": "div",
+      "id": "uij-e223",
+      "class": "share-icon-div",
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          964,
+          1381,
+          44,
+          32
+        ],
+        "mobile": [
+          169,
+          1940,
+          44,
+          32
+        ]
+      }
+    },
+    {
+      "selector": "#fb",
+      "tag": "img",
+      "id": "fb",
+      "class": "share-icon",
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          970,
+          1381,
+          32,
+          32
+        ],
+        "mobile": [
+          175,
+          1940,
+          32,
+          32
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e224",
+      "tag": "a",
+      "id": "uij-e224",
+      "class": null,
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          1008,
+          1375,
+          44,
+          44
+        ],
+        "mobile": [
+          213,
+          1934,
+          44,
+          44
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e225",
+      "tag": "div",
+      "id": "uij-e225",
+      "class": "share-icon-div",
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          1008,
+          1381,
+          44,
+          32
+        ],
+        "mobile": [
+          213,
+          1940,
+          44,
+          32
+        ]
+      }
+    },
+    {
+      "selector": "#twr",
+      "tag": "img",
+      "id": "twr",
+      "class": "share-icon",
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          1014,
+          1381,
+          32,
+          32
+        ],
+        "mobile": [
+          219,
+          1940,
+          32,
+          32
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e226",
+      "tag": "a",
+      "id": "uij-e226",
+      "class": null,
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          1052,
+          1375,
+          44,
+          44
+        ],
+        "mobile": [
+          257,
+          1934,
+          44,
+          44
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e227",
+      "tag": "div",
+      "id": "uij-e227",
+      "class": "share-icon-div",
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          1052,
+          1381,
+          44,
+          32
+        ],
+        "mobile": [
+          257,
+          1940,
+          44,
+          32
+        ]
+      }
+    },
+    {
+      "selector": "#em",
+      "tag": "img",
+      "id": "em",
+      "class": "share-icon",
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          1058,
+          1381,
+          32,
+          32
+        ],
+        "mobile": [
+          263,
+          1940,
+          32,
+          32
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e228",
+      "tag": "div",
+      "id": "uij-e228",
+      "class": "border-top-05 border-base-lightest",
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          811,
+          1441,
+          629,
+          4
+        ],
+        "mobile": [
+          16,
+          2000,
+          343,
+          4
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e229",
+      "tag": "div",
+      "id": "uij-e229",
+      "class": null,
+      "role": null,
+      "text_prefix": "Have a question? Ask a real person any government-related question for free. The",
+      "bbox": {
+        "desktop": [
+          811,
+          1509,
+          629,
+          188
+        ],
+        "mobile": [
+          16,
+          2068,
+          343,
+          242
+        ]
+      }
+    },
+    {
+      "selector": "#question-box",
+      "tag": "div",
+      "id": "question-box",
+      "class": null,
+      "role": null,
+      "text_prefix": "Have a question? Ask a real person any government-related question for free. The",
+      "bbox": {
+        "desktop": [
+          811,
+          1509,
+          629,
+          188
+        ],
+        "mobile": [
+          16,
+          2068,
+          343,
+          242
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e230",
+      "tag": "div",
+      "id": "uij-e230",
+      "class": "usa-prose border-left-1 padding-left-205 border-cyan-10 margin-top-8 margin-bottom-9 padding-bottom-2",
+      "role": null,
+      "text_prefix": "Have a question? Ask a real person any government-related question for free. The",
+      "bbox": {
+        "desktop": [
+          811,
+          1509,
+          629,
+          188
+        ],
+        "mobile": [
+          16,
+          2068,
+          343,
+          242
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e231",
+      "tag": "h2",
+      "id": "uij-e231",
+      "class": "font-family-heading margin-top-0",
+      "role": null,
+      "text_prefix": "Have a question?",
+      "bbox": {
+        "desktop": [
+          839,
+          1509,
+          601,
+          26
+        ],
+        "mobile": [
+          44,
+          2068,
+          315,
+          26
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e232",
+      "tag": "p",
+      "id": "uij-e232",
+      "class": null,
+      "role": null,
+      "text_prefix": "Ask a real person any government-related question for free. They will get you th",
+      "bbox": {
+        "desktop": [
+          839,
+          1553,
+          601,
+          54
+        ],
+        "mobile": [
+          44,
+          2112,
+          315,
+          108
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e233",
+      "tag": "div",
+      "id": "uij-e233",
+      "class": "grid-row grid-gap",
+      "role": null,
+      "text_prefix": "Call USAGov Chat with USAGov",
+      "bbox": {
+        "desktop": [
+          823,
+          1625,
+          633,
+          56
+        ],
+        "mobile": [
+          36,
+          2238,
+          331,
+          56
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e234",
+      "tag": "div",
+      "id": "uij-e234",
+      "class": "tablet:grid-col-4 margin-bottom-2",
+      "role": null,
+      "text_prefix": "Call USAGov",
+      "bbox": {
+        "desktop": [
+          823,
+          1625,
+          197,
+          40
+        ],
+        "mobile": [
+          36,
+          2238,
+          181,
+          40
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e235",
+      "tag": "a",
+      "id": "uij-e235",
+      "class": "question-icon",
+      "role": null,
+      "text_prefix": "Call USAGov",
+      "bbox": {
+        "desktop": [
+          839,
+          1625,
+          165,
+          40
+        ],
+        "mobile": [
+          44,
+          2238,
+          165,
+          40
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e236",
+      "tag": "img",
+      "id": "uij-e236",
+      "class": "chat-icon",
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          839,
+          1625,
+          60,
+          40
+        ],
+        "mobile": [
+          44,
+          2238,
+          60,
+          40
+        ]
+      }
+    },
+    {
+      "selector": "#back-to-top",
+      "tag": "a",
+      "id": "back-to-top",
+      "class": null,
+      "role": null,
+      "text_prefix": "Top",
+      "bbox": {
+        "desktop": [
+          1930,
+          950,
+          90,
+          50
+        ],
+        "mobile": [
+          385,
+          537,
+          90,
+          50
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e240",
+      "tag": "footer",
+      "id": "uij-e240",
+      "class": "usa-footer usa-footer--big",
+      "role": null,
+      "text_prefix": "Government information All topics and services Directory of U.S. government agen",
+      "bbox": {
+        "desktop": [
+          0,
+          1825,
+          1920,
+          667
+        ],
+        "mobile": [
+          0,
+          2438,
+          375,
+          1232
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e241",
+      "tag": "div",
+      "id": "uij-e241",
+      "class": "usa-footer__primary-section",
+      "role": null,
+      "text_prefix": "Government information All topics and services Directory of U.S. government agen",
+      "bbox": {
+        "desktop": [
+          0,
+          1857,
+          1920,
+          336
+        ],
+        "mobile": [
+          0,
+          2470,
+          375,
+          662
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e242",
+      "tag": "div",
+      "id": "uij-e242",
+      "class": "grid-container",
+      "role": null,
+      "text_prefix": "Government information All topics and services Directory of U.S. government agen",
+      "bbox": {
+        "desktop": [
+          366,
+          1857,
+          1188,
+          336
+        ],
+        "mobile": [
+          0,
+          2470,
+          375,
+          662
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e243",
+      "tag": "div",
+      "id": "uij-e243",
+      "class": "grid-row grid-gap",
+      "role": null,
+      "text_prefix": "Government information All topics and services Directory of U.S. government agen",
+      "bbox": {
+        "desktop": [
+          382,
+          1857,
+          1156,
+          304
+        ],
+        "mobile": [
+          11,
+          2470,
+          354,
+          630
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e244",
+      "tag": "div",
+      "id": "uij-e244",
+      "class": "tablet:grid-col-12",
+      "role": null,
+      "text_prefix": "Government information All topics and services Directory of U.S. government agen",
+      "bbox": {
+        "desktop": [
+          382,
+          1857,
+          1156,
+          304
+        ],
+        "mobile": [
+          11,
+          2470,
+          354,
+          630
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e245",
+      "tag": "nav",
+      "id": "uij-e245",
+      "class": "usa-footer__nav",
+      "role": null,
+      "text_prefix": "Government information All topics and services Directory of U.S. government agen",
+      "bbox": {
+        "desktop": [
+          398,
+          1857,
+          1024,
+          304
+        ],
+        "mobile": [
+          3,
+          2470,
+          370,
+          630
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e246",
+      "tag": "div",
+      "id": "uij-e246",
+      "class": "grid-row grid-gap-4",
+      "role": null,
+      "text_prefix": "Government information All topics and services Directory of U.S. government agen",
+      "bbox": {
+        "desktop": [
+          382,
+          1889,
+          1056,
+          272
+        ],
+        "mobile": [
+          -13,
+          2470,
+          402,
+          629
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e247",
+      "tag": "div",
+      "id": "uij-e247",
+      "class": "mobile-lg:grid-col-6 desktop:grid-col-3",
+      "role": null,
+      "text_prefix": "Government information All topics and services Directory of U.S. government agen",
+      "bbox": {
+        "desktop": [
+          382,
+          1889,
+          264,
+          272
+        ],
+        "mobile": [
+          -13,
+          2470,
+          402,
+          199
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e248",
+      "tag": "section",
+      "id": "uij-e248",
+      "class": "usa-footer__primary-content usa-footer__primary-content--collapsible",
+      "role": null,
+      "text_prefix": "Government information All topics and services Directory of U.S. government agen",
+      "bbox": {
+        "desktop": [
+          398,
+          1889,
+          232,
+          272
+        ],
+        "mobile": [
+          3,
+          2470,
+          370,
+          199
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e249",
+      "tag": "h3",
+      "id": "uij-e249",
+      "class": "usa-gov-footer__primary-link",
+      "role": null,
+      "text_prefix": "Government information",
+      "bbox": {
+        "desktop": [
+          398,
+          1889,
+          232,
+          44
+        ],
+        "mobile": [
+          3,
+          2471,
+          370,
+          22
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e250",
+      "tag": "ul",
+      "id": "uij-e250",
+      "class": "usa-list usa-list--unstyled",
+      "role": null,
+      "text_prefix": "All topics and services Directory of U.S. government agencies and departments Br",
+      "bbox": {
+        "desktop": [
+          398,
+          1949,
+          232,
+          212
+        ],
+        "mobile": [
+          3,
+          2509,
+          370,
+          160
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e251",
+      "tag": "li",
+      "id": "uij-e251",
+      "class": "usa-footer__secondary-link",
+      "role": null,
+      "text_prefix": "All topics and services",
+      "bbox": {
+        "desktop": [
+          398,
+          1961,
+          232,
+          27
+        ],
+        "mobile": [
+          35,
+          2509,
+          322,
+          27
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e252",
+      "tag": "a",
+      "id": "uij-e252",
+      "class": null,
+      "role": null,
+      "text_prefix": "All topics and services",
+      "bbox": {
+        "desktop": [
+          398,
+          1964,
+          181,
+          21
+        ],
+        "mobile": [
+          35,
+          2512,
+          181,
+          21
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e253",
+      "tag": "li",
+      "id": "uij-e253",
+      "class": "usa-footer__secondary-link",
+      "role": null,
+      "text_prefix": "Directory of U.S. government agencies and departments",
+      "bbox": {
+        "desktop": [
+          398,
+          1988,
+          232,
+          97
+        ],
+        "mobile": [
+          35,
+          2536,
+          322,
+          70
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e254",
+      "tag": "a",
+      "id": "uij-e254",
+      "class": null,
+      "role": null,
+      "text_prefix": "Directory of U.S. government agencies and departments",
+      "bbox": {
+        "desktop": [
+          398,
+          2007,
+          210,
+          75
+        ],
+        "mobile": [
+          35,
+          2555,
+          313,
+          48
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e255",
+      "tag": "li",
+      "id": "uij-e255",
+      "class": "usa-footer__secondary-link",
+      "role": null,
+      "text_prefix": "Branches of government",
+      "bbox": {
+        "desktop": [
+          398,
+          2086,
+          232,
+          43
+        ],
+        "mobile": [
+          35,
+          2606,
+          322,
+          43
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e256",
+      "tag": "a",
+      "id": "uij-e256",
+      "class": null,
+      "role": null,
+      "text_prefix": "Branches of government",
+      "bbox": {
+        "desktop": [
+          398,
+          2105,
+          199,
+          21
+        ],
+        "mobile": [
+          35,
+          2625,
+          199,
+          21
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e257",
+      "tag": "div",
+      "id": "uij-e257",
+      "class": "mobile-lg:grid-col-6 desktop:grid-col-3",
+      "role": null,
+      "text_prefix": "About us About USAGov Report a website issue Website usage data",
+      "bbox": {
+        "desktop": [
+          646,
+          1889,
+          264,
+          272
+        ],
+        "mobile": [
+          -13,
+          2669,
+          402,
+          172
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e258",
+      "tag": "section",
+      "id": "uij-e258",
+      "class": "usa-footer__primary-content usa-footer__primary-content--collapsible",
+      "role": null,
+      "text_prefix": "About us About USAGov Report a website issue Website usage data",
+      "bbox": {
+        "desktop": [
+          662,
+          1889,
+          232,
+          217
+        ],
+        "mobile": [
+          3,
+          2669,
+          370,
+          172
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e259",
+      "tag": "h3",
+      "id": "uij-e259",
+      "class": "usa-gov-footer__primary-link",
+      "role": null,
+      "text_prefix": "About us",
+      "bbox": {
+        "desktop": [
+          662,
+          1889,
+          232,
+          44
+        ],
+        "mobile": [
+          3,
+          2670,
+          370,
+          22
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e260",
+      "tag": "ul",
+      "id": "uij-e260",
+      "class": "usa-list usa-list--unstyled",
+      "role": null,
+      "text_prefix": "About USAGov Report a website issue Website usage data",
+      "bbox": {
+        "desktop": [
+          662,
+          1949,
+          232,
+          157
+        ],
+        "mobile": [
+          3,
+          2708,
+          370,
+          133
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e261",
+      "tag": "li",
+      "id": "uij-e261",
+      "class": "usa-footer__secondary-link",
+      "role": null,
+      "text_prefix": "About USAGov",
+      "bbox": {
+        "desktop": [
+          662,
+          1961,
+          232,
+          27
+        ],
+        "mobile": [
+          35,
+          2708,
+          322,
+          27
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e262",
+      "tag": "a",
+      "id": "uij-e262",
+      "class": null,
+      "role": null,
+      "text_prefix": "About USAGov",
+      "bbox": {
+        "desktop": [
+          662,
+          1964,
+          123,
+          21
+        ],
+        "mobile": [
+          35,
+          2711,
+          123,
+          21
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e263",
+      "tag": "li",
+      "id": "uij-e263",
+      "class": "usa-footer__secondary-link",
+      "role": null,
+      "text_prefix": "Report a website issue",
+      "bbox": {
+        "desktop": [
+          662,
+          1988,
+          232,
+          43
+        ],
+        "mobile": [
+          35,
+          2735,
+          322,
+          43
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e264",
+      "tag": "a",
+      "id": "uij-e264",
+      "class": null,
+      "role": null,
+      "text_prefix": "Report a website issue",
+      "bbox": {
+        "desktop": [
+          662,
+          2007,
+          184,
+          21
+        ],
+        "mobile": [
+          35,
+          2754,
+          184,
+          21
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e265",
+      "tag": "li",
+      "id": "uij-e265",
+      "class": "usa-footer__secondary-link",
+      "role": null,
+      "text_prefix": "Website usage data",
+      "bbox": {
+        "desktop": [
+          662,
+          2031,
+          232,
+          43
+        ],
+        "mobile": [
+          35,
+          2778,
+          322,
+          43
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e266",
+      "tag": "a",
+      "id": "uij-e266",
+      "class": null,
+      "role": null,
+      "text_prefix": "Website usage data",
+      "bbox": {
+        "desktop": [
+          662,
+          2050,
+          159,
+          21
+        ],
+        "mobile": [
+          35,
+          2797,
+          159,
+          21
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e267",
+      "tag": "div",
+      "id": "uij-e267",
+      "class": "mobile-lg:grid-col-6 desktop:grid-col-3",
+      "role": null,
+      "text_prefix": "For federal agencies Partner with us Read our blog",
+      "bbox": {
+        "desktop": [
+          910,
+          1889,
+          264,
+          272
+        ],
+        "mobile": [
+          -13,
+          2841,
+          402,
+          129
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e268",
+      "tag": "section",
+      "id": "uij-e268",
+      "class": "usa-footer__primary-content usa-footer__primary-content--collapsible",
+      "role": null,
+      "text_prefix": "For federal agencies Partner with us Read our blog",
+      "bbox": {
+        "desktop": [
+          926,
+          1889,
+          232,
+          174
+        ],
+        "mobile": [
+          3,
+          2841,
+          370,
+          129
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e269",
+      "tag": "h3",
+      "id": "uij-e269",
+      "class": "usa-gov-footer__primary-link",
+      "role": null,
+      "text_prefix": "For federal agencies",
+      "bbox": {
+        "desktop": [
+          926,
+          1889,
+          232,
+          44
+        ],
+        "mobile": [
+          3,
+          2842,
+          370,
+          22
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e270",
+      "tag": "ul",
+      "id": "uij-e270",
+      "class": "usa-list usa-list--unstyled",
+      "role": null,
+      "text_prefix": "Partner with us Read our blog",
+      "bbox": {
+        "desktop": [
+          926,
+          1949,
+          232,
+          114
+        ],
+        "mobile": [
+          3,
+          2880,
+          370,
+          90
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e271",
+      "tag": "li",
+      "id": "uij-e271",
+      "class": "usa-footer__secondary-link",
+      "role": null,
+      "text_prefix": "Partner with us",
+      "bbox": {
+        "desktop": [
+          926,
+          1961,
+          232,
+          27
+        ],
+        "mobile": [
+          35,
+          2880,
+          322,
+          27
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e272",
+      "tag": "a",
+      "id": "uij-e272",
+      "class": null,
+      "role": null,
+      "text_prefix": "Partner with us",
+      "bbox": {
+        "desktop": [
+          926,
+          1964,
+          122,
+          21
+        ],
+        "mobile": [
+          35,
+          2883,
+          122,
+          21
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e273",
+      "tag": "li",
+      "id": "uij-e273",
+      "class": "usa-footer__secondary-link",
+      "role": null,
+      "text_prefix": "Read our blog",
+      "bbox": {
+        "desktop": [
+          926,
+          1988,
+          232,
+          43
+        ],
+        "mobile": [
+          35,
+          2907,
+          322,
+          43
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e274",
+      "tag": "a",
+      "id": "uij-e274",
+      "class": null,
+      "role": null,
+      "text_prefix": "Read our blog",
+      "bbox": {
+        "desktop": [
+          926,
+          2007,
+          115,
+          21
+        ],
+        "mobile": [
+          35,
+          2926,
+          115,
+          21
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e275",
+      "tag": "div",
+      "id": "uij-e275",
+      "class": "mobile-lg:grid-col-6 desktop:grid-col-3",
+      "role": null,
+      "text_prefix": "For media USAGov Outreach Feature articles",
+      "bbox": {
+        "desktop": [
+          1174,
+          1889,
+          264,
+          272
+        ],
+        "mobile": [
+          -13,
+          2970,
+          402,
+          129
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e276",
+      "tag": "section",
+      "id": "uij-e276",
+      "class": "usa-footer__primary-content usa-footer__primary-content--collapsible",
+      "role": null,
+      "text_prefix": "For media USAGov Outreach Feature articles",
+      "bbox": {
+        "desktop": [
+          1190,
+          1889,
+          232,
+          174
+        ],
+        "mobile": [
+          3,
+          2970,
+          370,
+          129
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e277",
+      "tag": "h3",
+      "id": "uij-e277",
+      "class": "usa-gov-footer__primary-link",
+      "role": null,
+      "text_prefix": "For media",
+      "bbox": {
+        "desktop": [
+          1190,
+          1889,
+          232,
+          44
+        ],
+        "mobile": [
+          3,
+          2971,
+          370,
+          22
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e278",
+      "tag": "ul",
+      "id": "uij-e278",
+      "class": "usa-list usa-list--unstyled",
+      "role": null,
+      "text_prefix": "USAGov Outreach Feature articles",
+      "bbox": {
+        "desktop": [
+          1190,
+          1949,
+          232,
+          114
+        ],
+        "mobile": [
+          3,
+          3009,
+          370,
+          90
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e279",
+      "tag": "li",
+      "id": "uij-e279",
+      "class": "usa-footer__secondary-link",
+      "role": null,
+      "text_prefix": "USAGov Outreach",
+      "bbox": {
+        "desktop": [
+          1190,
+          1961,
+          232,
+          27
+        ],
+        "mobile": [
+          35,
+          3009,
+          322,
+          27
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e280",
+      "tag": "a",
+      "id": "uij-e280",
+      "class": null,
+      "role": null,
+      "text_prefix": "USAGov Outreach",
+      "bbox": {
+        "desktop": [
+          1190,
+          1964,
+          149,
+          21
+        ],
+        "mobile": [
+          35,
+          3012,
+          149,
+          21
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e281",
+      "tag": "li",
+      "id": "uij-e281",
+      "class": "usa-footer__secondary-link",
+      "role": null,
+      "text_prefix": "Feature articles",
+      "bbox": {
+        "desktop": [
+          1190,
+          1988,
+          232,
+          43
+        ],
+        "mobile": [
+          35,
+          3036,
+          322,
+          43
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e282",
+      "tag": "a",
+      "id": "uij-e282",
+      "class": null,
+      "role": null,
+      "text_prefix": "Feature articles",
+      "bbox": {
+        "desktop": [
+          1190,
+          2007,
+          124,
+          21
+        ],
+        "mobile": [
+          35,
+          3055,
+          124,
+          21
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e283",
+      "tag": "div",
+      "id": "uij-e283",
+      "class": "usa-footer__secondary-section",
+      "role": null,
+      "text_prefix": "USAGov Contact Center Ask USA.gov a question at 1-844-USAGOV1 (1-844-872-4681)",
+      "bbox": {
+        "desktop": [
+          0,
+          2193,
+          1920,
+          169
+        ],
+        "mobile": [
+          0,
+          3132,
+          375,
+          240
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e284",
+      "tag": "div",
+      "id": "uij-e284",
+      "class": "grid-container",
+      "role": null,
+      "text_prefix": "USAGov Contact Center Ask USA.gov a question at 1-844-USAGOV1 (1-844-872-4681)",
+      "bbox": {
+        "desktop": [
+          366,
+          2213,
+          1188,
+          129
+        ],
+        "mobile": [
+          0,
+          3152,
+          375,
+          200
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e285",
+      "tag": "div",
+      "id": "uij-e285",
+      "class": "grid-row grid-gap",
+      "role": null,
+      "text_prefix": "USAGov Contact Center Ask USA.gov a question at 1-844-USAGOV1 (1-844-872-4681)",
+      "bbox": {
+        "desktop": [
+          382,
+          2213,
+          1156,
+          97
+        ],
+        "mobile": [
+          11,
+          3152,
+          354,
+          168
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e286",
+      "tag": "div",
+      "id": "uij-e286",
+      "class": "usa-footer__logo grid-row mobile-lg:grid-col-6",
+      "role": null,
+      "text_prefix": "USAGov Contact Center Ask USA.gov a question at 1-844-USAGOV1 (1-844-872-4681)",
+      "bbox": {
+        "desktop": [
+          382,
+          2213,
+          578,
+          97
+        ],
+        "mobile": [
+          11,
+          3160,
+          354,
+          117
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e287",
+      "tag": "div",
+      "id": "uij-e287",
+      "class": null,
+      "role": null,
+      "text_prefix": "USAGov Contact Center Ask USA.gov a question at 1-844-USAGOV1 (1-844-872-4681)",
+      "bbox": {
+        "desktop": [
+          398,
+          2213,
+          285,
+          97
+        ],
+        "mobile": [
+          19,
+          3160,
+          285,
+          97
+        ]
+      }
+    },
+    {
+      "selector": "#footer-phone",
+      "tag": "div",
+      "id": "footer-phone",
+      "class": null,
+      "role": null,
+      "text_prefix": "USAGov Contact Center Ask USA.gov a question at 1-844-USAGOV1 (1-844-872-4681)",
+      "bbox": {
+        "desktop": [
+          398,
+          2221,
+          285,
+          89
+        ],
+        "mobile": [
+          19,
+          3168,
+          285,
+          89
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e288",
+      "tag": "div",
+      "id": "uij-e288",
+      "class": "mobile-lg:grid-col-auto",
+      "role": null,
+      "text_prefix": "USAGov Contact Center",
+      "bbox": {
+        "desktop": [
+          398,
+          2221,
+          285,
+          16
+        ],
+        "mobile": [
+          19,
+          3168,
+          285,
+          16
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e289",
+      "tag": "h4",
+      "id": "uij-e289",
+      "class": "usa-footer__logo-heading",
+      "role": null,
+      "text_prefix": "USAGov Contact Center",
+      "bbox": {
+        "desktop": [
+          398,
+          2221,
+          285,
+          16
+        ],
+        "mobile": [
+          19,
+          3168,
+          285,
+          16
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e290",
+      "tag": "div",
+      "id": "uij-e290",
+      "class": "mobile-lg:grid-col-auto",
+      "role": null,
+      "text_prefix": "Ask USA.gov a question at 1-844-USAGOV1 (1-844-872-4681)",
+      "bbox": {
+        "desktop": [
+          398,
+          2255,
+          285,
+          54
+        ],
+        "mobile": [
+          19,
+          3202,
+          285,
+          54
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e291",
+      "tag": "p",
+      "id": "uij-e291",
+      "class": "footer-question",
+      "role": null,
+      "text_prefix": "Ask USA.gov a question at",
+      "bbox": {
+        "desktop": [
+          398,
+          2255,
+          285,
+          27
+        ],
+        "mobile": [
+          19,
+          3202,
+          285,
+          27
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e292",
+      "tag": "address",
+      "id": "uij-e292",
+      "class": "usa-footer__address",
+      "role": null,
+      "text_prefix": "1-844-USAGOV1 (1-844-872-4681)",
+      "bbox": {
+        "desktop": [
+          398,
+          2282,
+          285,
+          27
+        ],
+        "mobile": [
+          19,
+          3230,
+          285,
+          27
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e293",
+      "tag": "div",
+      "id": "uij-e293",
+      "class": "usa-footer__contact-info",
+      "role": null,
+      "text_prefix": "1-844-USAGOV1 (1-844-872-4681)",
+      "bbox": {
+        "desktop": [
+          398,
+          2282,
+          285,
+          27
+        ],
+        "mobile": [
+          19,
+          3230,
+          285,
+          27
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e294",
+      "tag": "a",
+      "id": "uij-e294",
+      "class": null,
+      "role": null,
+      "text_prefix": "1-844-USAGOV1 (1-844-872-4681)",
+      "bbox": {
+        "desktop": [
+          398,
+          2285,
+          285,
+          21
+        ],
+        "mobile": [
+          19,
+          3233,
+          285,
+          21
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e295",
+      "tag": "div",
+      "id": "uij-e295",
+      "class": "usa-footer__contact-links mobile-lg:grid-col-6",
+      "role": null,
+      "text_prefix": "",
+      "bbox": {
+        "desktop": [
+          960,
+          2213,
+          578,
+          97
+        ],
+        "mobile": [
+          11,
+          3285,
+          354,
+          35
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e297",
+      "tag": "div",
+      "id": "uij-e297",
+      "class": "usa-identifier",
+      "role": null,
+      "text_prefix": "USAGov is the official guide to government information and services An official ",
+      "bbox": {
+        "desktop": [
+          0,
+          2361,
+          1920,
+          131
+        ],
+        "mobile": [
+          0,
+          3372,
+          375,
+          298
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e298",
+      "tag": "section",
+      "id": "uij-e298",
+      "class": "usa-identifier__section usa-identifier__section--usagov",
+      "role": null,
+      "text_prefix": "USAGov is the official guide to government information and services An official ",
+      "bbox": {
+        "desktop": [
+          0,
+          2361,
+          1920,
+          67
+        ],
+        "mobile": [
+          0,
+          3372,
+          375,
+          150
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e299",
+      "tag": "div",
+      "id": "uij-e299",
+      "class": "usa-identifier__container",
+      "role": null,
+      "text_prefix": "USAGov is the official guide to government information and services An official ",
+      "bbox": {
+        "desktop": [
+          366,
+          2377,
+          1188,
+          51
+        ],
+        "mobile": [
+          0,
+          3404,
+          375,
+          118
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e300",
+      "tag": "section",
+      "id": "uij-e300",
+      "class": "usa-identifier__identity",
+      "role": null,
+      "text_prefix": "USAGov is the official guide to government information and services An official ",
+      "bbox": {
+        "desktop": [
+          398,
+          2377,
+          1124,
+          51
+        ],
+        "mobile": [
+          19,
+          3404,
+          338,
+          118
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e301",
+      "tag": "p",
+      "id": "uij-e301",
+      "class": "usa-identifier__identity-disclaimer",
+      "role": null,
+      "text_prefix": "USAGov is the official guide to government information and services",
+      "bbox": {
+        "desktop": [
+          398,
+          2377,
+          1124,
+          25
+        ],
+        "mobile": [
+          19,
+          3404,
+          338,
+          51
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e302",
+      "tag": "p",
+      "id": "uij-e302",
+      "class": "usa-identifier__identity-disclaimer",
+      "role": null,
+      "text_prefix": "An official website of the U.S. General Services Administration",
+      "bbox": {
+        "desktop": [
+          398,
+          2403,
+          1124,
+          25
+        ],
+        "mobile": [
+          19,
+          3455,
+          338,
+          67
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e303",
+      "tag": "a",
+      "id": "uij-e303",
+      "class": null,
+      "role": null,
+      "text_prefix": "U.S. General Services Administration",
+      "bbox": {
+        "desktop": [
+          588,
+          2405,
+          280,
+          20
+        ],
+        "mobile": [
+          19,
+          3473,
+          287,
+          45
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e304",
+      "tag": "nav",
+      "id": "uij-e304",
+      "class": "usa-identifier__section usa-identifier__section--required-links",
+      "role": null,
+      "text_prefix": "Accessibility policy Privacy and security policies FOIA requests",
+      "bbox": {
+        "desktop": [
+          0,
+          2428,
+          1920,
+          32
+        ],
+        "mobile": [
+          0,
+          3521,
+          375,
+          116
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e305",
+      "tag": "div",
+      "id": "uij-e305",
+      "class": "usa-identifier__container",
+      "role": null,
+      "text_prefix": "Accessibility policy Privacy and security policies FOIA requests",
+      "bbox": {
+        "desktop": [
+          366,
+          2436,
+          1188,
+          24
+        ],
+        "mobile": [
+          0,
+          3537,
+          375,
+          100
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e306",
+      "tag": "ul",
+      "id": "uij-e306",
+      "class": "usa-identifier__required-links-list",
+      "role": null,
+      "text_prefix": "Accessibility policy Privacy and security policies FOIA requests",
+      "bbox": {
+        "desktop": [
+          398,
+          2436,
+          1124,
+          24
+        ],
+        "mobile": [
+          19,
+          3537,
+          338,
+          100
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e307",
+      "tag": "li",
+      "id": "uij-e307",
+      "class": "usa-identifier__required-links-item",
+      "role": null,
+      "text_prefix": "Accessibility policy",
+      "bbox": {
+        "desktop": [
+          398,
+          2436,
+          257,
+          24
+        ],
+        "mobile": [
+          19,
+          3537,
+          338,
+          25
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e308",
+      "tag": "a",
+      "id": "uij-e308",
+      "class": "usa-identifier__required-link usa-link",
+      "role": null,
+      "text_prefix": "Accessibility policy",
+      "bbox": {
+        "desktop": [
+          398,
+          2436,
+          136,
+          24
+        ],
+        "mobile": [
+          19,
+          3537,
+          144,
+          25
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e309",
+      "tag": "li",
+      "id": "uij-e309",
+      "class": "usa-identifier__required-links-item",
+      "role": null,
+      "text_prefix": "Privacy and security policies",
+      "bbox": {
+        "desktop": [
+          687,
+          2436,
+          257,
+          24
+        ],
+        "mobile": [
+          19,
+          3575,
+          338,
+          25
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e310",
+      "tag": "a",
+      "id": "uij-e310",
+      "class": "usa-identifier__required-link usa-link",
+      "role": null,
+      "text_prefix": "Privacy and security policies",
+      "bbox": {
+        "desktop": [
+          687,
+          2436,
+          203,
+          24
+        ],
+        "mobile": [
+          19,
+          3575,
+          215,
+          25
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e311",
+      "tag": "li",
+      "id": "uij-e311",
+      "class": "usa-identifier__required-links-item",
+      "role": null,
+      "text_prefix": "FOIA requests",
+      "bbox": {
+        "desktop": [
+          976,
+          2436,
+          257,
+          24
+        ],
+        "mobile": [
+          19,
+          3612,
+          338,
+          25
+        ]
+      }
+    },
+    {
+      "selector": "#uij-e312",
+      "tag": "a",
+      "id": "uij-e312",
+      "class": "usa-identifier__required-link usa-link",
+      "role": null,
+      "text_prefix": "FOIA requests",
+      "bbox": {
+        "desktop": [
+          976,
+          2436,
+          102,
+          24
+        ],
+        "mobile": [
+          19,
+          3612,
+          108,
+          25
+        ]
+      }
+    }
+  ]
+}

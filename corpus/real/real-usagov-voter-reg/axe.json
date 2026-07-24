@@ -1,0 +1,5616 @@
+{
+  "engine": "axe-core",
+  "engine_version": "4.10.3",
+  "violations": [
+    {
+      "rule_id": "landmark-banner-is-top-level",
+      "impact": "moderate",
+      "tags": [],
+      "description": "Ensure the banner landmark is at top level",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/landmark-banner-is-top-level?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e5"
+          ],
+          "selector": "#uij-e5",
+          "bbox": [
+            0,
+            0,
+            1920,
+            52
+          ],
+          "html": "<div class=\"usa-banner__header\" id=\"uij-e5\" role=\"banner\">"
+        }
+      ]
+    },
+    {
+      "rule_id": "landmark-no-duplicate-banner",
+      "impact": "moderate",
+      "tags": [],
+      "description": "Ensure the document has at most one banner landmark",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/landmark-no-duplicate-banner?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#header"
+          ],
+          "selector": "#header",
+          "bbox": [
+            0,
+            0,
+            1920,
+            245
+          ],
+          "html": "<header class=\"usa-header usa-header--extended\" id=\"header\">"
+        }
+      ]
+    },
+    {
+      "rule_id": "landmark-unique",
+      "impact": "moderate",
+      "tags": [],
+      "description": "Ensure landmarks are unique",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/landmark-unique?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#header"
+          ],
+          "selector": "#header",
+          "bbox": [
+            0,
+            0,
+            1920,
+            245
+          ],
+          "html": "<header class=\"usa-header usa-header--extended\" id=\"header\">"
+        }
+      ]
+    }
+  ],
+  "incomplete": [],
+  "passes": [
+    {
+      "rule_id": "aria-allowed-attr",
+      "impact": "",
+      "tags": [
+        "wcag2a",
+        "wcag412"
+      ],
+      "description": "Ensure an element's role supports its ARIA attributes",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/aria-allowed-attr?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#usagov-banner"
+          ],
+          "selector": "#usagov-banner",
+          "bbox": null,
+          "html": "<section aria-label=\"An official website of the United States government\" class=\"usa-banner\" id=\"usagov-banner\">"
+        },
+        {
+          "target": [
+            "#uij-e15"
+          ],
+          "selector": "#uij-e15",
+          "bbox": null,
+          "html": "<button aria-controls=\"gov-banner-default\" aria-expanded=\"false\" class=\"usa-accordion__button usa-banner__button\" id=\"uij-e15\" type=\"button\">"
+        },
+        {
+          "target": [
+            "#uij-e85"
+          ],
+          "selector": "#uij-e85",
+          "bbox": null,
+          "html": "<nav aria-label=\"Primary navigation\" class=\"usa-nav\" id=\"uij-e85\">"
+        },
+        {
+          "target": [
+            "#uij-e114"
+          ],
+          "selector": "#uij-e114",
+          "bbox": null,
+          "html": "<nav aria-label=\"Breadcrumb\" class=\"margin-top-neg-3 mobile-lg:margin-top-2 tablet:margin-top-neg-3 desktop:margin-top-0 margin-bottom-2\" id=\"uij-e114\">"
+        },
+        {
+          "target": [
+            "#uij-e135"
+          ],
+          "selector": "#uij-e135",
+          "bbox": null,
+          "html": "<nav aria-label=\"Secondary\" id=\"uij-e135\">"
+        },
+        {
+          "target": [
+            "#uij-e210"
+          ],
+          "selector": "#uij-e210",
+          "bbox": null,
+          "html": "<a aria-labelledby=\"share-page fb\" href=\"https://www.facebook.com/sharer/sharer.php?u=https://www.usa.gov/register-to-vote&amp;v=3\" id=\"uij-e210\">"
+        },
+        {
+          "target": [
+            "#uij-e212"
+          ],
+          "selector": "#uij-e212",
+          "bbox": null,
+          "html": "<a aria-labelledby=\"share-page twr\" href=\"https://x.com/intent/post?url=https%3A%2F%2Fwww.usa.gov%2Fregister-to-vote\" id=\"uij-e212\">"
+        },
+        {
+          "target": [
+            "#uij-e214"
+          ],
+          "selector": "#uij-e214",
+          "bbox": null,
+          "html": "<a aria-labelledby=\"share-page em\" href=\"mailto:?subject=https://www.usa.gov/register-to-vote\" id=\"uij-e214\">"
+        },
+        {
+          "target": [
+            "#back-to-top"
+          ],
+          "selector": "#back-to-top",
+          "bbox": null,
+          "html": "<a aria-label=\"Back to top\" href=\"#main-content\" id=\"back-to-top\">\n\t\t\tTop\n\t\t</a>"
+        },
+        {
+          "target": [
+            "#uij-e233"
+          ],
+          "selector": "#uij-e233",
+          "bbox": null,
+          "html": "<nav aria-label=\"Footer navigation\" class=\"usa-footer__nav\" id=\"uij-e233\">"
+        },
+        {
+          "target": [
+            "#uij-e286"
+          ],
+          "selector": "#uij-e286",
+          "bbox": null,
+          "html": "<section aria-label=\"USAGov is the official guide to government information and services\" class=\"usa-identifier__section usa-identifier__section--usagov\" id=\"uij-e286\">"
+        },
+        {
+          "target": [
+            "#uij-e288"
+          ],
+          "selector": "#uij-e288",
+          "bbox": null,
+          "html": "<section aria-label=\"An official website of the U.S. General Services Administration\" class=\"usa-identifier__identity\" id=\"uij-e288\">"
+        },
+        {
+          "target": [
+            "#uij-e292"
+          ],
+          "selector": "#uij-e292",
+          "bbox": null,
+          "html": "<nav aria-label=\"Important links\" class=\"usa-identifier__section usa-identifier__section--required-links\" id=\"uij-e292\">"
+        }
+      ]
+    },
+    {
+      "rule_id": "aria-allowed-role",
+      "impact": "",
+      "tags": [],
+      "description": "Ensure role attribute has an appropriate value for the element",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/aria-allowed-role?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e5"
+          ],
+          "selector": "#uij-e5",
+          "bbox": null,
+          "html": "<div class=\"usa-banner__header\" id=\"uij-e5\" role=\"banner\">"
+        },
+        {
+          "target": [
+            "#usagov_all_gov-mobile"
+          ],
+          "selector": "#usagov_all_gov-mobile",
+          "bbox": null,
+          "html": "<form accept-charset=\"UTF-8\" action=\"https://search.usa.gov/search\" class=\"usa-search usa-search--small\" id=\"usagov_all_gov-mobile\" method=\"get\" name=\"usagov_all_gov-mobile\" role=\"search\">"
+        },
+        {
+          "target": [
+            "#uij-e77"
+          ],
+          "selector": "#uij-e77",
+          "bbox": null,
+          "html": "<a class=\"usa-button language-link\" href=\"/es/registro-inscripcion-votar\" hreflang=\"es\" id=\"uij-e77\" role=\"button\">Español</a>"
+        },
+        {
+          "target": [
+            "#usagov_all_gov-desktop"
+          ],
+          "selector": "#usagov_all_gov-desktop",
+          "bbox": null,
+          "html": "<form accept-charset=\"UTF-8\" action=\"https://search.usa.gov/search\" class=\"usa-search usa-search--small\" id=\"usagov_all_gov-desktop\" method=\"get\" name=\"usagov_all_gov-desktop\" role=\"search\">"
+        }
+      ]
+    },
+    {
+      "rule_id": "aria-conditional-attr",
+      "impact": "",
+      "tags": [
+        "wcag2a",
+        "wcag412"
+      ],
+      "description": "Ensure ARIA attributes are used as described in the specification of the element's role",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/aria-conditional-attr?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#usagov-banner"
+          ],
+          "selector": "#usagov-banner",
+          "bbox": null,
+          "html": "<section aria-label=\"An official website of the United States government\" class=\"usa-banner\" id=\"usagov-banner\">"
+        },
+        {
+          "target": [
+            "#uij-e15"
+          ],
+          "selector": "#uij-e15",
+          "bbox": null,
+          "html": "<button aria-controls=\"gov-banner-default\" aria-expanded=\"false\" class=\"usa-accordion__button usa-banner__button\" id=\"uij-e15\" type=\"button\">"
+        },
+        {
+          "target": [
+            "#uij-e85"
+          ],
+          "selector": "#uij-e85",
+          "bbox": null,
+          "html": "<nav aria-label=\"Primary navigation\" class=\"usa-nav\" id=\"uij-e85\">"
+        },
+        {
+          "target": [
+            "#uij-e114"
+          ],
+          "selector": "#uij-e114",
+          "bbox": null,
+          "html": "<nav aria-label=\"Breadcrumb\" class=\"margin-top-neg-3 mobile-lg:margin-top-2 tablet:margin-top-neg-3 desktop:margin-top-0 margin-bottom-2\" id=\"uij-e114\">"
+        },
+        {
+          "target": [
+            "#uij-e135"
+          ],
+          "selector": "#uij-e135",
+          "bbox": null,
+          "html": "<nav aria-label=\"Secondary\" id=\"uij-e135\">"
+        },
+        {
+          "target": [
+            "#uij-e210"
+          ],
+          "selector": "#uij-e210",
+          "bbox": null,
+          "html": "<a aria-labelledby=\"share-page fb\" href=\"https://www.facebook.com/sharer/sharer.php?u=https://www.usa.gov/register-to-vote&amp;v=3\" id=\"uij-e210\">"
+        },
+        {
+          "target": [
+            "#uij-e212"
+          ],
+          "selector": "#uij-e212",
+          "bbox": null,
+          "html": "<a aria-labelledby=\"share-page twr\" href=\"https://x.com/intent/post?url=https%3A%2F%2Fwww.usa.gov%2Fregister-to-vote\" id=\"uij-e212\">"
+        },
+        {
+          "target": [
+            "#uij-e214"
+          ],
+          "selector": "#uij-e214",
+          "bbox": null,
+          "html": "<a aria-labelledby=\"share-page em\" href=\"mailto:?subject=https://www.usa.gov/register-to-vote\" id=\"uij-e214\">"
+        },
+        {
+          "target": [
+            "#back-to-top"
+          ],
+          "selector": "#back-to-top",
+          "bbox": null,
+          "html": "<a aria-label=\"Back to top\" href=\"#main-content\" id=\"back-to-top\">\n\t\t\tTop\n\t\t</a>"
+        },
+        {
+          "target": [
+            "#uij-e233"
+          ],
+          "selector": "#uij-e233",
+          "bbox": null,
+          "html": "<nav aria-label=\"Footer navigation\" class=\"usa-footer__nav\" id=\"uij-e233\">"
+        },
+        {
+          "target": [
+            "#uij-e286"
+          ],
+          "selector": "#uij-e286",
+          "bbox": null,
+          "html": "<section aria-label=\"USAGov is the official guide to government information and services\" class=\"usa-identifier__section usa-identifier__section--usagov\" id=\"uij-e286\">"
+        },
+        {
+          "target": [
+            "#uij-e288"
+          ],
+          "selector": "#uij-e288",
+          "bbox": null,
+          "html": "<section aria-label=\"An official website of the U.S. General Services Administration\" class=\"usa-identifier__identity\" id=\"uij-e288\">"
+        },
+        {
+          "target": [
+            "#uij-e292"
+          ],
+          "selector": "#uij-e292",
+          "bbox": null,
+          "html": "<nav aria-label=\"Important links\" class=\"usa-identifier__section usa-identifier__section--required-links\" id=\"uij-e292\">"
+        }
+      ]
+    },
+    {
+      "rule_id": "aria-deprecated-role",
+      "impact": "",
+      "tags": [
+        "wcag2a",
+        "wcag412"
+      ],
+      "description": "Ensure elements do not use deprecated roles",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/aria-deprecated-role?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e5"
+          ],
+          "selector": "#uij-e5",
+          "bbox": null,
+          "html": "<div class=\"usa-banner__header\" id=\"uij-e5\" role=\"banner\">"
+        },
+        {
+          "target": [
+            "#uij-e77"
+          ],
+          "selector": "#uij-e77",
+          "bbox": null,
+          "html": "<a class=\"usa-button language-link\" href=\"/es/registro-inscripcion-votar\" hreflang=\"es\" id=\"uij-e77\" role=\"button\">Español</a>"
+        },
+        {
+          "target": [
+            "#usagov_all_gov-desktop"
+          ],
+          "selector": "#usagov_all_gov-desktop",
+          "bbox": null,
+          "html": "<form accept-charset=\"UTF-8\" action=\"https://search.usa.gov/search\" class=\"usa-search usa-search--small\" id=\"usagov_all_gov-desktop\" method=\"get\" name=\"usagov_all_gov-desktop\" role=\"search\">"
+        }
+      ]
+    },
+    {
+      "rule_id": "aria-hidden-body",
+      "impact": "",
+      "tags": [
+        "wcag2a",
+        "wcag131",
+        "wcag412"
+      ],
+      "description": "Ensure aria-hidden=\"true\" is not present on the document body.",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/aria-hidden-body?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "body"
+          ],
+          "selector": "body",
+          "bbox": null,
+          "html": "<body>"
+        }
+      ]
+    },
+    {
+      "rule_id": "aria-hidden-focus",
+      "impact": "",
+      "tags": [
+        "wcag2a",
+        "wcag412"
+      ],
+      "description": "Ensure aria-hidden elements are not focusable nor contain focusable elements",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/aria-hidden-focus?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e8"
+          ],
+          "selector": "#uij-e8",
+          "bbox": null,
+          "html": "<img alt=\"\" aria-hidden=\"true\" class=\"usa-banner__header-flag\" id=\"uij-e8\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADkAAAA5CAYAAACMGIOFAAAB1UlEQVR4Ae2YJ0xEQRCGn/eSst6C5p0Dn9AcCkf1Yn1yRdJxeP"
+        },
+        {
+          "target": [
+            "#uij-e22"
+          ],
+          "selector": "#uij-e22",
+          "bbox": null,
+          "html": "<img alt=\"\" aria-hidden=\"true\" class=\"usa-banner__icon usa-media-block__img\" id=\"uij-e22\" src=\"data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48c3ZnIHhtbG5zPSJodHRwOi8vd3d"
+        },
+        {
+          "target": [
+            "#uij-e29"
+          ],
+          "selector": "#uij-e29",
+          "bbox": null,
+          "html": "<img alt=\"\" aria-hidden=\"true\" class=\"usa-banner__icon usa-media-block__img\" id=\"uij-e29\" src=\"data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48c3ZnIHhtbG5zPSJodHRwOi8vd3d"
+        }
+      ]
+    },
+    {
+      "rule_id": "aria-prohibited-attr",
+      "impact": "",
+      "tags": [
+        "wcag2a",
+        "wcag412"
+      ],
+      "description": "Ensure ARIA attributes are not prohibited for an element's role",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/aria-prohibited-attr?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#usagov-banner"
+          ],
+          "selector": "#usagov-banner",
+          "bbox": null,
+          "html": "<section aria-label=\"An official website of the United States government\" class=\"usa-banner\" id=\"usagov-banner\">"
+        },
+        {
+          "target": [
+            "#uij-e15"
+          ],
+          "selector": "#uij-e15",
+          "bbox": null,
+          "html": "<button aria-controls=\"gov-banner-default\" aria-expanded=\"false\" class=\"usa-accordion__button usa-banner__button\" id=\"uij-e15\" type=\"button\">"
+        },
+        {
+          "target": [
+            "#uij-e85"
+          ],
+          "selector": "#uij-e85",
+          "bbox": null,
+          "html": "<nav aria-label=\"Primary navigation\" class=\"usa-nav\" id=\"uij-e85\">"
+        },
+        {
+          "target": [
+            "#uij-e114"
+          ],
+          "selector": "#uij-e114",
+          "bbox": null,
+          "html": "<nav aria-label=\"Breadcrumb\" class=\"margin-top-neg-3 mobile-lg:margin-top-2 tablet:margin-top-neg-3 desktop:margin-top-0 margin-bottom-2\" id=\"uij-e114\">"
+        },
+        {
+          "target": [
+            "#uij-e135"
+          ],
+          "selector": "#uij-e135",
+          "bbox": null,
+          "html": "<nav aria-label=\"Secondary\" id=\"uij-e135\">"
+        },
+        {
+          "target": [
+            "#uij-e210"
+          ],
+          "selector": "#uij-e210",
+          "bbox": null,
+          "html": "<a aria-labelledby=\"share-page fb\" href=\"https://www.facebook.com/sharer/sharer.php?u=https://www.usa.gov/register-to-vote&amp;v=3\" id=\"uij-e210\">"
+        },
+        {
+          "target": [
+            "#uij-e212"
+          ],
+          "selector": "#uij-e212",
+          "bbox": null,
+          "html": "<a aria-labelledby=\"share-page twr\" href=\"https://x.com/intent/post?url=https%3A%2F%2Fwww.usa.gov%2Fregister-to-vote\" id=\"uij-e212\">"
+        },
+        {
+          "target": [
+            "#uij-e214"
+          ],
+          "selector": "#uij-e214",
+          "bbox": null,
+          "html": "<a aria-labelledby=\"share-page em\" href=\"mailto:?subject=https://www.usa.gov/register-to-vote\" id=\"uij-e214\">"
+        },
+        {
+          "target": [
+            "#back-to-top"
+          ],
+          "selector": "#back-to-top",
+          "bbox": null,
+          "html": "<a aria-label=\"Back to top\" href=\"#main-content\" id=\"back-to-top\">\n\t\t\tTop\n\t\t</a>"
+        },
+        {
+          "target": [
+            "#uij-e233"
+          ],
+          "selector": "#uij-e233",
+          "bbox": null,
+          "html": "<nav aria-label=\"Footer navigation\" class=\"usa-footer__nav\" id=\"uij-e233\">"
+        },
+        {
+          "target": [
+            "#uij-e286"
+          ],
+          "selector": "#uij-e286",
+          "bbox": null,
+          "html": "<section aria-label=\"USAGov is the official guide to government information and services\" class=\"usa-identifier__section usa-identifier__section--usagov\" id=\"uij-e286\">"
+        },
+        {
+          "target": [
+            "#uij-e288"
+          ],
+          "selector": "#uij-e288",
+          "bbox": null,
+          "html": "<section aria-label=\"An official website of the U.S. General Services Administration\" class=\"usa-identifier__identity\" id=\"uij-e288\">"
+        },
+        {
+          "target": [
+            "#uij-e292"
+          ],
+          "selector": "#uij-e292",
+          "bbox": null,
+          "html": "<nav aria-label=\"Important links\" class=\"usa-identifier__section usa-identifier__section--required-links\" id=\"uij-e292\">"
+        }
+      ]
+    },
+    {
+      "rule_id": "aria-required-attr",
+      "impact": "",
+      "tags": [
+        "wcag2a",
+        "wcag412"
+      ],
+      "description": "Ensure elements with ARIA roles have all required ARIA attributes",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/aria-required-attr?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e5"
+          ],
+          "selector": "#uij-e5",
+          "bbox": null,
+          "html": "<div class=\"usa-banner__header\" id=\"uij-e5\" role=\"banner\">"
+        },
+        {
+          "target": [
+            "#uij-e77"
+          ],
+          "selector": "#uij-e77",
+          "bbox": null,
+          "html": "<a class=\"usa-button language-link\" href=\"/es/registro-inscripcion-votar\" hreflang=\"es\" id=\"uij-e77\" role=\"button\">Español</a>"
+        },
+        {
+          "target": [
+            "#usagov_all_gov-desktop"
+          ],
+          "selector": "#usagov_all_gov-desktop",
+          "bbox": null,
+          "html": "<form accept-charset=\"UTF-8\" action=\"https://search.usa.gov/search\" class=\"usa-search usa-search--small\" id=\"usagov_all_gov-desktop\" method=\"get\" name=\"usagov_all_gov-desktop\" role=\"search\">"
+        }
+      ]
+    },
+    {
+      "rule_id": "aria-roles",
+      "impact": "",
+      "tags": [
+        "wcag2a",
+        "wcag412"
+      ],
+      "description": "Ensure all elements with a role attribute use a valid value",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/aria-roles?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e5"
+          ],
+          "selector": "#uij-e5",
+          "bbox": null,
+          "html": "<div class=\"usa-banner__header\" id=\"uij-e5\" role=\"banner\">"
+        },
+        {
+          "target": [
+            "#uij-e77"
+          ],
+          "selector": "#uij-e77",
+          "bbox": null,
+          "html": "<a class=\"usa-button language-link\" href=\"/es/registro-inscripcion-votar\" hreflang=\"es\" id=\"uij-e77\" role=\"button\">Español</a>"
+        },
+        {
+          "target": [
+            "#usagov_all_gov-desktop"
+          ],
+          "selector": "#usagov_all_gov-desktop",
+          "bbox": null,
+          "html": "<form accept-charset=\"UTF-8\" action=\"https://search.usa.gov/search\" class=\"usa-search usa-search--small\" id=\"usagov_all_gov-desktop\" method=\"get\" name=\"usagov_all_gov-desktop\" role=\"search\">"
+        }
+      ]
+    },
+    {
+      "rule_id": "aria-valid-attr-value",
+      "impact": "",
+      "tags": [
+        "wcag2a",
+        "wcag412"
+      ],
+      "description": "Ensure all ARIA attributes have valid values",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/aria-valid-attr-value?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#usagov-banner"
+          ],
+          "selector": "#usagov-banner",
+          "bbox": null,
+          "html": "<section aria-label=\"An official website of the United States government\" class=\"usa-banner\" id=\"usagov-banner\">"
+        },
+        {
+          "target": [
+            "#uij-e15"
+          ],
+          "selector": "#uij-e15",
+          "bbox": null,
+          "html": "<button aria-controls=\"gov-banner-default\" aria-expanded=\"false\" class=\"usa-accordion__button usa-banner__button\" id=\"uij-e15\" type=\"button\">"
+        },
+        {
+          "target": [
+            "#uij-e85"
+          ],
+          "selector": "#uij-e85",
+          "bbox": null,
+          "html": "<nav aria-label=\"Primary navigation\" class=\"usa-nav\" id=\"uij-e85\">"
+        },
+        {
+          "target": [
+            "#uij-e114"
+          ],
+          "selector": "#uij-e114",
+          "bbox": null,
+          "html": "<nav aria-label=\"Breadcrumb\" class=\"margin-top-neg-3 mobile-lg:margin-top-2 tablet:margin-top-neg-3 desktop:margin-top-0 margin-bottom-2\" id=\"uij-e114\">"
+        },
+        {
+          "target": [
+            "#uij-e135"
+          ],
+          "selector": "#uij-e135",
+          "bbox": null,
+          "html": "<nav aria-label=\"Secondary\" id=\"uij-e135\">"
+        },
+        {
+          "target": [
+            "#uij-e210"
+          ],
+          "selector": "#uij-e210",
+          "bbox": null,
+          "html": "<a aria-labelledby=\"share-page fb\" href=\"https://www.facebook.com/sharer/sharer.php?u=https://www.usa.gov/register-to-vote&amp;v=3\" id=\"uij-e210\">"
+        },
+        {
+          "target": [
+            "#uij-e212"
+          ],
+          "selector": "#uij-e212",
+          "bbox": null,
+          "html": "<a aria-labelledby=\"share-page twr\" href=\"https://x.com/intent/post?url=https%3A%2F%2Fwww.usa.gov%2Fregister-to-vote\" id=\"uij-e212\">"
+        },
+        {
+          "target": [
+            "#uij-e214"
+          ],
+          "selector": "#uij-e214",
+          "bbox": null,
+          "html": "<a aria-labelledby=\"share-page em\" href=\"mailto:?subject=https://www.usa.gov/register-to-vote\" id=\"uij-e214\">"
+        },
+        {
+          "target": [
+            "#back-to-top"
+          ],
+          "selector": "#back-to-top",
+          "bbox": null,
+          "html": "<a aria-label=\"Back to top\" href=\"#main-content\" id=\"back-to-top\">\n\t\t\tTop\n\t\t</a>"
+        },
+        {
+          "target": [
+            "#uij-e233"
+          ],
+          "selector": "#uij-e233",
+          "bbox": null,
+          "html": "<nav aria-label=\"Footer navigation\" class=\"usa-footer__nav\" id=\"uij-e233\">"
+        },
+        {
+          "target": [
+            "#uij-e286"
+          ],
+          "selector": "#uij-e286",
+          "bbox": null,
+          "html": "<section aria-label=\"USAGov is the official guide to government information and services\" class=\"usa-identifier__section usa-identifier__section--usagov\" id=\"uij-e286\">"
+        },
+        {
+          "target": [
+            "#uij-e288"
+          ],
+          "selector": "#uij-e288",
+          "bbox": null,
+          "html": "<section aria-label=\"An official website of the U.S. General Services Administration\" class=\"usa-identifier__identity\" id=\"uij-e288\">"
+        },
+        {
+          "target": [
+            "#uij-e292"
+          ],
+          "selector": "#uij-e292",
+          "bbox": null,
+          "html": "<nav aria-label=\"Important links\" class=\"usa-identifier__section usa-identifier__section--required-links\" id=\"uij-e292\">"
+        }
+      ]
+    },
+    {
+      "rule_id": "aria-valid-attr",
+      "impact": "",
+      "tags": [
+        "wcag2a",
+        "wcag412"
+      ],
+      "description": "Ensure attributes that begin with aria- are valid ARIA attributes",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/aria-valid-attr?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#usagov-banner"
+          ],
+          "selector": "#usagov-banner",
+          "bbox": null,
+          "html": "<section aria-label=\"An official website of the United States government\" class=\"usa-banner\" id=\"usagov-banner\">"
+        },
+        {
+          "target": [
+            "#uij-e15"
+          ],
+          "selector": "#uij-e15",
+          "bbox": null,
+          "html": "<button aria-controls=\"gov-banner-default\" aria-expanded=\"false\" class=\"usa-accordion__button usa-banner__button\" id=\"uij-e15\" type=\"button\">"
+        },
+        {
+          "target": [
+            "#uij-e85"
+          ],
+          "selector": "#uij-e85",
+          "bbox": null,
+          "html": "<nav aria-label=\"Primary navigation\" class=\"usa-nav\" id=\"uij-e85\">"
+        },
+        {
+          "target": [
+            "#uij-e114"
+          ],
+          "selector": "#uij-e114",
+          "bbox": null,
+          "html": "<nav aria-label=\"Breadcrumb\" class=\"margin-top-neg-3 mobile-lg:margin-top-2 tablet:margin-top-neg-3 desktop:margin-top-0 margin-bottom-2\" id=\"uij-e114\">"
+        },
+        {
+          "target": [
+            "#uij-e135"
+          ],
+          "selector": "#uij-e135",
+          "bbox": null,
+          "html": "<nav aria-label=\"Secondary\" id=\"uij-e135\">"
+        },
+        {
+          "target": [
+            "#uij-e210"
+          ],
+          "selector": "#uij-e210",
+          "bbox": null,
+          "html": "<a aria-labelledby=\"share-page fb\" href=\"https://www.facebook.com/sharer/sharer.php?u=https://www.usa.gov/register-to-vote&amp;v=3\" id=\"uij-e210\">"
+        },
+        {
+          "target": [
+            "#uij-e212"
+          ],
+          "selector": "#uij-e212",
+          "bbox": null,
+          "html": "<a aria-labelledby=\"share-page twr\" href=\"https://x.com/intent/post?url=https%3A%2F%2Fwww.usa.gov%2Fregister-to-vote\" id=\"uij-e212\">"
+        },
+        {
+          "target": [
+            "#uij-e214"
+          ],
+          "selector": "#uij-e214",
+          "bbox": null,
+          "html": "<a aria-labelledby=\"share-page em\" href=\"mailto:?subject=https://www.usa.gov/register-to-vote\" id=\"uij-e214\">"
+        },
+        {
+          "target": [
+            "#back-to-top"
+          ],
+          "selector": "#back-to-top",
+          "bbox": null,
+          "html": "<a aria-label=\"Back to top\" href=\"#main-content\" id=\"back-to-top\">\n\t\t\tTop\n\t\t</a>"
+        },
+        {
+          "target": [
+            "#uij-e233"
+          ],
+          "selector": "#uij-e233",
+          "bbox": null,
+          "html": "<nav aria-label=\"Footer navigation\" class=\"usa-footer__nav\" id=\"uij-e233\">"
+        },
+        {
+          "target": [
+            "#uij-e286"
+          ],
+          "selector": "#uij-e286",
+          "bbox": null,
+          "html": "<section aria-label=\"USAGov is the official guide to government information and services\" class=\"usa-identifier__section usa-identifier__section--usagov\" id=\"uij-e286\">"
+        },
+        {
+          "target": [
+            "#uij-e288"
+          ],
+          "selector": "#uij-e288",
+          "bbox": null,
+          "html": "<section aria-label=\"An official website of the U.S. General Services Administration\" class=\"usa-identifier__identity\" id=\"uij-e288\">"
+        },
+        {
+          "target": [
+            "#uij-e292"
+          ],
+          "selector": "#uij-e292",
+          "bbox": null,
+          "html": "<nav aria-label=\"Important links\" class=\"usa-identifier__section usa-identifier__section--required-links\" id=\"uij-e292\">"
+        }
+      ]
+    },
+    {
+      "rule_id": "autocomplete-valid",
+      "impact": "",
+      "tags": [
+        "wcag21aa",
+        "wcag135"
+      ],
+      "description": "Ensure the autocomplete attribute is correct and suitable for the form field",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/autocomplete-valid?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#search-field-small"
+          ],
+          "selector": "#search-field-small",
+          "bbox": null,
+          "html": "<input autocomplete=\"off\" class=\"usa-input text usagov-search-autocomplete ui-autocomplete-input\" id=\"search-field-small\" name=\"query\" type=\"search\">"
+        }
+      ]
+    },
+    {
+      "rule_id": "avoid-inline-spacing",
+      "impact": "",
+      "tags": [
+        "wcag21aa",
+        "wcag1412"
+      ],
+      "description": "Ensure that text spacing set through style attributes can be adjusted with custom stylesheets",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/avoid-inline-spacing?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "html"
+          ],
+          "selector": "html",
+          "bbox": null,
+          "html": "<html class=\"js\" dir=\"ltr\" lang=\"en\" style=\"scroll-padding-top: 10px !important;\">"
+        },
+        {
+          "target": [
+            "#uij-e82"
+          ],
+          "selector": "#uij-e82",
+          "bbox": null,
+          "html": "<a href=\"/phone\" id=\"uij-e82\" style=\"white-space: nowrap;\">Call us at 1-844-USAGOV1</a>"
+        }
+      ]
+    },
+    {
+      "rule_id": "button-name",
+      "impact": "",
+      "tags": [
+        "wcag2a",
+        "wcag412",
+        "section508",
+        "section508.22.a"
+      ],
+      "description": "Ensure buttons have discernible text",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/button-name?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e15"
+          ],
+          "selector": "#uij-e15",
+          "bbox": null,
+          "html": "<button aria-controls=\"gov-banner-default\" aria-expanded=\"false\" class=\"usa-accordion__button usa-banner__button\" id=\"uij-e15\" type=\"button\">"
+        },
+        {
+          "target": [
+            "#uij-e83"
+          ],
+          "selector": "#uij-e83",
+          "bbox": null,
+          "html": "<button class=\"usa-button\" id=\"uij-e83\" type=\"submit\">"
+        }
+      ]
+    },
+    {
+      "rule_id": "bypass",
+      "impact": "",
+      "tags": [
+        "wcag2a",
+        "wcag241",
+        "section508",
+        "section508.22.o"
+      ],
+      "description": "Ensure each page has at least one mechanism for a user to bypass navigation and jump straight to the content",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/bypass?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "html"
+          ],
+          "selector": "html",
+          "bbox": null,
+          "html": "<html class=\"js\" dir=\"ltr\" lang=\"en\" style=\"scroll-padding-top: 10px !important;\">"
+        }
+      ]
+    },
+    {
+      "rule_id": "color-contrast",
+      "impact": "",
+      "tags": [
+        "wcag2aa",
+        "wcag143"
+      ],
+      "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e10"
+          ],
+          "selector": "#uij-e10",
+          "bbox": null,
+          "html": "<p class=\"usa-banner__header-text\" id=\"uij-e10\">\n\t\t\t\t\t\tAn official website of the United States government\n\t\t\t\t\t</p>"
+        },
+        {
+          "target": [
+            "#uij-e16"
+          ],
+          "selector": "#uij-e16",
+          "bbox": null,
+          "html": "<span class=\"usa-banner__button-text\" id=\"uij-e16\">Here's how you know</span>"
+        },
+        {
+          "target": [
+            "#search-field-small-mobile-menu"
+          ],
+          "selector": "#search-field-small-mobile-menu",
+          "bbox": null,
+          "html": "<input autocomplete=\"off\" class=\"usa-input text ui-autocomplete-input\" id=\"search-field-small-mobile-menu\" name=\"query\" type=\"search\">"
+        },
+        {
+          "target": [
+            "#uij-e77"
+          ],
+          "selector": "#uij-e77",
+          "bbox": null,
+          "html": "<a class=\"usa-button language-link\" href=\"/es/registro-inscripcion-votar\" hreflang=\"es\" id=\"uij-e77\" role=\"button\">Español</a>"
+        },
+        {
+          "target": [
+            "#uij-e82"
+          ],
+          "selector": "#uij-e82",
+          "bbox": null,
+          "html": "<a href=\"/phone\" id=\"uij-e82\" style=\"white-space: nowrap;\">Call us at 1-844-USAGOV1</a>"
+        },
+        {
+          "target": [
+            "#search-field-small"
+          ],
+          "selector": "#search-field-small",
+          "bbox": null,
+          "html": "<input autocomplete=\"off\" class=\"usa-input text usagov-search-autocomplete ui-autocomplete-input\" id=\"search-field-small\" name=\"query\" type=\"search\">"
+        },
+        {
+          "target": [
+            "#uij-e92"
+          ],
+          "selector": "#uij-e92",
+          "bbox": null,
+          "html": "<span id=\"uij-e92\">All topics and services</span>"
+        },
+        {
+          "target": [
+            "#uij-e95"
+          ],
+          "selector": "#uij-e95",
+          "bbox": null,
+          "html": "<span id=\"uij-e95\">The U.S. and its government</span>"
+        },
+        {
+          "target": [
+            "#uij-e98"
+          ],
+          "selector": "#uij-e98",
+          "bbox": null,
+          "html": "<span id=\"uij-e98\">Government benefits</span>"
+        },
+        {
+          "target": [
+            "#uij-e101"
+          ],
+          "selector": "#uij-e101",
+          "bbox": null,
+          "html": "<span id=\"uij-e101\">Immigration and U.S. citizenship</span>"
+        },
+        {
+          "target": [
+            "#uij-e104"
+          ],
+          "selector": "#uij-e104",
+          "bbox": null,
+          "html": "<span id=\"uij-e104\">Money and credit</span>"
+        },
+        {
+          "target": [
+            "#uij-e107"
+          ],
+          "selector": "#uij-e107",
+          "bbox": null,
+          "html": "<span id=\"uij-e107\">Taxes</span>"
+        },
+        {
+          "target": [
+            "#uij-e110"
+          ],
+          "selector": "#uij-e110",
+          "bbox": null,
+          "html": "<span id=\"uij-e110\">Travel</span>"
+        },
+        {
+          "target": [
+            "#uij-e118"
+          ],
+          "selector": "#uij-e118",
+          "bbox": null,
+          "html": "<span id=\"uij-e118\" itemprop=\"name\">Home</span>"
+        },
+        {
+          "target": [
+            "#uij-e122"
+          ],
+          "selector": "#uij-e122",
+          "bbox": null,
+          "html": "<span id=\"uij-e122\" itemprop=\"name\">Voting and elections</span>"
+        },
+        {
+          "target": [
+            "#uij-e126"
+          ],
+          "selector": "#uij-e126",
+          "bbox": null,
+          "html": "<span id=\"uij-e126\" itemprop=\"name\">Voter registration</span>"
+        },
+        {
+          "target": [
+            "#uij-e129"
+          ],
+          "selector": "#uij-e129",
+          "bbox": null,
+          "html": "<span id=\"uij-e129\" itemprop=\"name\">Register to vote</span>"
+        },
+        {
+          "target": [
+            "#uij-e138"
+          ],
+          "selector": "#uij-e138",
+          "bbox": null,
+          "html": "<a class=\"active-trail\" href=\"/voting-and-elections\" id=\"uij-e138\">\n        Voting and elections\n      </a>"
+        },
+        {
+          "target": [
+            "#uij-e141"
+          ],
+          "selector": "#uij-e141",
+          "bbox": null,
+          "html": "<a class=\"active-trail\" href=\"/voter-registration\" id=\"uij-e141\">\n        Voter registration\n      </a>"
+        },
+        {
+          "target": [
+            "#uij-e144"
+          ],
+          "selector": "#uij-e144",
+          "bbox": null,
+          "html": "<div class=\"active-trail usa-current\" id=\"uij-e144\">\n<p class=\"usa-sr-only\" id=\"uij-e145\">current page</p>\n        Register to vote\n      </div>"
+        },
+        {
+          "target": [
+            "#uij-e147"
+          ],
+          "selector": "#uij-e147",
+          "bbox": null,
+          "html": "<a href=\"/change-voter-registration\" id=\"uij-e147\">\n        Change your voter registration\n      </a>"
+        },
+        {
+          "target": [
+            "#uij-e149"
+          ],
+          "selector": "#uij-e149",
+          "bbox": null,
+          "html": "<a href=\"/confirm-voter-registration\" id=\"uij-e149\">\n        Confirm your voter registration\n      </a>"
+        },
+        {
+          "target": [
+            "#uij-e151"
+          ],
+          "selector": "#uij-e151",
+          "bbox": null,
+          "html": "<a href=\"/voter-registration-card\" id=\"uij-e151\">\n        Voter registration card\n      </a>"
+        },
+        {
+          "target": [
+            "#uij-e153"
+          ],
+          "selector": "#uij-e153",
+          "bbox": null,
+          "html": "<a href=\"/voter-registration-deadlines\" id=\"uij-e153\">\n        Voter registration deadlines\n      </a>"
+        },
+        {
+          "target": [
+            "#uij-e155"
+          ],
+          "selector": "#uij-e155",
+          "bbox": null,
+          "html": "<a href=\"/how-to-vote\" id=\"uij-e155\">\n        How, when, and where to vote\n      </a>"
+        },
+        {
+          "target": [
+            "#uij-e157"
+          ],
+          "selector": "#uij-e157",
+          "bbox": null,
+          "html": "<a href=\"/voter-research\" id=\"uij-e157\">\n        Decide who to vote for\n      </a>"
+        },
+        {
+          "target": [
+            "#uij-e159"
+          ],
+          "selector": "#uij-e159",
+          "bbox": null,
+          "html": "<a href=\"/state-election-office\" id=\"uij-e159\">\n        Find my state or local election office\n      </a>"
+        },
+        {
+          "target": [
+            "#uij-e161"
+          ],
+          "selector": "#uij-e161",
+          "bbox": null,
+          "html": "<a href=\"/midterm-state-and-local-elections\" id=\"uij-e161\">\n        Congressional, state, and local elections\n      </a>"
+        },
+        {
+          "target": [
+            "#uij-e163"
+          ],
+          "selector": "#uij-e163",
+          "bbox": null,
+          "html": "<a href=\"/voting-laws\" id=\"uij-e163\">\n        Voting and election laws\n      </a>"
+        },
+        {
+          "target": [
+            "#uij-e165"
+          ],
+          "selector": "#uij-e165",
+          "bbox": null,
+          "html": "<a href=\"/election\" id=\"uij-e165\">\n        How the president is elected\n      </a>"
+        },
+        {
+          "target": [
+            "#uij-e167"
+          ],
+          "selector": "#uij-e167",
+          "bbox": null,
+          "html": "<a href=\"/inauguration\" id=\"uij-e167\">\n        Inauguration of the president\n      </a>"
+        },
+        {
+          "target": [
+            "#uij-e169"
+          ],
+          "selector": "#uij-e169",
+          "bbox": null,
+          "html": "<a href=\"/election-results\" id=\"uij-e169\">\n        Results of past elections\n      </a>"
+        },
+        {
+          "target": [
+            "#uij-e171"
+          ],
+          "selector": "#uij-e171",
+          "bbox": null,
+          "html": "<span id=\"uij-e171\">How to register to vote</span>"
+        },
+        {
+          "target": [
+            "#uij-e174"
+          ],
+          "selector": "#uij-e174",
+          "bbox": null,
+          "html": "<p class=\"usa-intro font-serif-md\" id=\"uij-e174\">\n            Learn how to register so you can vote in federal, state, and local elections.\n        </p>"
+        },
+        {
+          "target": [
+            "#uij-e177"
+          ],
+          "selector": "#uij-e177",
+          "bbox": null,
+          "html": "<strong id=\"uij-e177\">Register through vote.gov</strong>"
+        },
+        {
+          "target": [
+            "#uij-e178"
+          ],
+          "selector": "#uij-e178",
+          "bbox": null,
+          "html": "<p id=\"uij-e178\">Visit vote.gov to begin the voter registration process. Select your state or territory. Depending on its rules, you will find instructions on how to register:</p>"
+        },
+        {
+          "target": [
+            "#uij-e180"
+          ],
+          "selector": "#uij-e180",
+          "bbox": null,
+          "html": "<li id=\"uij-e180\">Online</li>"
+        },
+        {
+          "target": [
+            "#uij-e181"
+          ],
+          "selector": "#uij-e181",
+          "bbox": null,
+          "html": "<li id=\"uij-e181\">By mail</li>"
+        },
+        {
+          "target": [
+            "#uij-e182"
+          ],
+          "selector": "#uij-e182",
+          "bbox": null,
+          "html": "<li id=\"uij-e182\">In person at your local election office</li>"
+        },
+        {
+          "target": [
+            "#uij-e184"
+          ],
+          "selector": "#uij-e184",
+          "bbox": null,
+          "html": "<a class=\"usa-button usa-button--secondary usa-button--big\" href=\"https://vote.gov/\" id=\"uij-e184\">Start your registration on vote.gov</a>"
+        },
+        {
+          "target": [
+            "#uij-e185"
+          ],
+          "selector": "#uij-e185",
+          "bbox": null,
+          "html": "<h2 id=\"uij-e185\">Other ways to register to vote</h2>"
+        },
+        {
+          "target": [
+            "#uij-e187"
+          ],
+          "selector": "#uij-e187",
+          "bbox": null,
+          "html": "<li id=\"uij-e187\">"
+        },
+        {
+          "target": [
+            "#uij-e188"
+          ],
+          "selector": "#uij-e188",
+          "bbox": null,
+          "html": "<a href=\"https://www.eac.gov/voters/national-mail-voter-registration-form\" id=\"uij-e188\">Download the National Mail Voter Registration Form.</a>"
+        },
+        {
+          "target": [
+            "#uij-e189"
+          ],
+          "selector": "#uij-e189",
+          "bbox": null,
+          "html": "<li id=\"uij-e189\">"
+        },
+        {
+          "target": [
+            "#uij-e192"
+          ],
+          "selector": "#uij-e192",
+          "bbox": null,
+          "html": "<a href=\"/state-motor-vehicle-services\" id=\"uij-e192\">Find your&nbsp;department of motor vehicles&nbsp;office.</a>"
+        },
+        {
+          "target": [
+            "#uij-e193"
+          ],
+          "selector": "#uij-e193",
+          "bbox": null,
+          "html": "<li id=\"uij-e193\">Contact state and county public assistance offices such as <a href=\"https://www.fns.usda.gov/snap/state-directory\" id=\"uij-e194\">SNAP/food stamps</a>.</li>"
+        },
+        {
+          "target": [
+            "#uij-e194"
+          ],
+          "selector": "#uij-e194",
+          "bbox": null,
+          "html": "<a href=\"https://www.fns.usda.gov/snap/state-directory\" id=\"uij-e194\">SNAP/food stamps</a>"
+        },
+        {
+          "target": [
+            "#uij-e195"
+          ],
+          "selector": "#uij-e195",
+          "bbox": null,
+          "html": "<h2 id=\"uij-e195\">Abroad and military voters</h2>"
+        },
+        {
+          "target": [
+            "#uij-e196"
+          ],
+          "selector": "#uij-e196",
+          "bbox": null,
+          "html": "<p id=\"uij-e196\">The Federal Voting Assistance Program lets you <a href=\"https://www.fvap.gov/fpca-privacy-notice\" id=\"uij-e197\">register to vote and request an absentee ballot</a> if you are a:</p>"
+        },
+        {
+          "target": [
+            "#uij-e197"
+          ],
+          "selector": "#uij-e197",
+          "bbox": null,
+          "html": "<a href=\"https://www.fvap.gov/fpca-privacy-notice\" id=\"uij-e197\">register to vote and request an absentee ballot</a>"
+        },
+        {
+          "target": [
+            "#uij-e199"
+          ],
+          "selector": "#uij-e199",
+          "bbox": null,
+          "html": "<li id=\"uij-e199\">U.S. citizen living outside the U.S.</li>"
+        },
+        {
+          "target": [
+            "#uij-e200"
+          ],
+          "selector": "#uij-e200",
+          "bbox": null,
+          "html": "<li id=\"uij-e200\">Service member stationed abroad</li>"
+        },
+        {
+          "target": [
+            "#uij-e201"
+          ],
+          "selector": "#uij-e201",
+          "bbox": null,
+          "html": "<li id=\"uij-e201\">Spouse or eligible family member of a service member stationed abroad</li>"
+        },
+        {
+          "target": [
+            "#uij-e203"
+          ],
+          "selector": "#uij-e203",
+          "bbox": null,
+          "html": "<strong id=\"uij-e203\">What documents do you need to register to vote?</strong>"
+        },
+        {
+          "target": [
+            "#uij-e204"
+          ],
+          "selector": "#uij-e204",
+          "bbox": null,
+          "html": "<p id=\"uij-e204\">"
+        },
+        {
+          "target": [
+            "#uij-e205"
+          ],
+          "selector": "#uij-e205",
+          "bbox": null,
+          "html": "<a href=\"/state-election-office\" id=\"uij-e205\">Check with your state’s election office to find out what documentation they accept.</a>"
+        },
+        {
+          "target": [
+            "#last-updated"
+          ],
+          "selector": "#last-updated",
+          "bbox": null,
+          "html": "<p id=\"last-updated\">LAST UPDATED: \n                                                                                      July 15, 2026\n\n                  </p>"
+        },
+        {
+          "target": [
+            "#share-page"
+          ],
+          "selector": "#share-page",
+          "bbox": null,
+          "html": "<span id=\"share-page\">SHARE THIS PAGE:</span>"
+        },
+        {
+          "target": [
+            "#uij-e219"
+          ],
+          "selector": "#uij-e219",
+          "bbox": null,
+          "html": "<h2 class=\"font-family-heading margin-top-0\" id=\"uij-e219\">\n         Have a question?\n      </h2>"
+        },
+        {
+          "target": [
+            "#uij-e220"
+          ],
+          "selector": "#uij-e220",
+          "bbox": null,
+          "html": "<p id=\"uij-e220\">Ask a real person any government-related question for free. They will get you the answer or let you know where to find it.</p>"
+        },
+        {
+          "target": [
+            "#uij-e223"
+          ],
+          "selector": "#uij-e223",
+          "bbox": null,
+          "html": "<a class=\"question-icon\" href=\"/phone\" id=\"uij-e223\">"
+        },
+        {
+          "target": [
+            "#back-to-top"
+          ],
+          "selector": "#back-to-top",
+          "bbox": null,
+          "html": "<a aria-label=\"Back to top\" href=\"#main-content\" id=\"back-to-top\">\n\t\t\tTop\n\t\t</a>"
+        },
+        {
+          "target": [
+            "#uij-e237"
+          ],
+          "selector": "#uij-e237",
+          "bbox": null,
+          "html": "<h3 class=\"usa-gov-footer__primary-link\" id=\"uij-e237\">Government information</h3>"
+        },
+        {
+          "target": [
+            "#uij-e240"
+          ],
+          "selector": "#uij-e240",
+          "bbox": null,
+          "html": "<a href=\"/#all-topics-header\" id=\"uij-e240\">All topics and services</a>"
+        },
+        {
+          "target": [
+            "#uij-e242"
+          ],
+          "selector": "#uij-e242",
+          "bbox": null,
+          "html": "<a href=\"/agency-index\" id=\"uij-e242\">Directory of U.S. government agencies and departments</a>"
+        },
+        {
+          "target": [
+            "#uij-e244"
+          ],
+          "selector": "#uij-e244",
+          "bbox": null,
+          "html": "<a href=\"/branches-of-government\" id=\"uij-e244\">Branches of government</a>"
+        },
+        {
+          "target": [
+            "#uij-e247"
+          ],
+          "selector": "#uij-e247",
+          "bbox": null,
+          "html": "<h3 class=\"usa-gov-footer__primary-link\" id=\"uij-e247\">About us</h3>"
+        },
+        {
+          "target": [
+            "#uij-e250"
+          ],
+          "selector": "#uij-e250",
+          "bbox": null,
+          "html": "<a href=\"/about\" id=\"uij-e250\">About USAGov</a>"
+        },
+        {
+          "target": [
+            "#uij-e252"
+          ],
+          "selector": "#uij-e252",
+          "bbox": null,
+          "html": "<a href=\"/site-issue-report-form\" id=\"uij-e252\">Report a website issue</a>"
+        },
+        {
+          "target": [
+            "#uij-e254"
+          ],
+          "selector": "#uij-e254",
+          "bbox": null,
+          "html": "<a href=\"/website-analytics/\" id=\"uij-e254\">Website usage data</a>"
+        },
+        {
+          "target": [
+            "#uij-e257"
+          ],
+          "selector": "#uij-e257",
+          "bbox": null,
+          "html": "<h3 class=\"usa-gov-footer__primary-link\" id=\"uij-e257\">For federal agencies</h3>"
+        },
+        {
+          "target": [
+            "#uij-e260"
+          ],
+          "selector": "#uij-e260",
+          "bbox": null,
+          "html": "<a href=\"/partner-with-usagov\" id=\"uij-e260\">Partner with us</a>"
+        },
+        {
+          "target": [
+            "#uij-e262"
+          ],
+          "selector": "#uij-e262",
+          "bbox": null,
+          "html": "<a href=\"/blog\" id=\"uij-e262\">Read our blog</a>"
+        },
+        {
+          "target": [
+            "#uij-e265"
+          ],
+          "selector": "#uij-e265",
+          "bbox": null,
+          "html": "<h3 class=\"usa-gov-footer__primary-link\" id=\"uij-e265\">For media</h3>"
+        },
+        {
+          "target": [
+            "#uij-e268"
+          ],
+          "selector": "#uij-e268",
+          "bbox": null,
+          "html": "<a href=\"/outreach\" id=\"uij-e268\">USAGov Outreach</a>"
+        },
+        {
+          "target": [
+            "#uij-e270"
+          ],
+          "selector": "#uij-e270",
+          "bbox": null,
+          "html": "<a href=\"/features\" id=\"uij-e270\">Feature articles</a>"
+        },
+        {
+          "target": [
+            "#uij-e277"
+          ],
+          "selector": "#uij-e277",
+          "bbox": null,
+          "html": "<h4 class=\"usa-footer__logo-heading\" id=\"uij-e277\">USAGov Contact Center</h4>"
+        },
+        {
+          "target": [
+            "#uij-e279"
+          ],
+          "selector": "#uij-e279",
+          "bbox": null,
+          "html": "<p class=\"footer-question\" id=\"uij-e279\">Ask USA.gov a question at</p>"
+        },
+        {
+          "target": [
+            "#uij-e282"
+          ],
+          "selector": "#uij-e282",
+          "bbox": null,
+          "html": "<a href=\"/phone\" id=\"uij-e282\">1-844-USAGOV1 (1-844-872-4681)</a>"
+        },
+        {
+          "target": [
+            "#uij-e289"
+          ],
+          "selector": "#uij-e289",
+          "bbox": null,
+          "html": "<p class=\"usa-identifier__identity-disclaimer\" id=\"uij-e289\">USAGov is the official guide to government information and services</p>"
+        },
+        {
+          "target": [
+            "#uij-e290"
+          ],
+          "selector": "#uij-e290",
+          "bbox": null,
+          "html": "<p class=\"usa-identifier__identity-disclaimer\" id=\"uij-e290\">An official website of the <a href=\"https://www.gsa.gov/\" id=\"uij-e291\">U.S. General Services Administration</a></p>"
+        },
+        {
+          "target": [
+            "#uij-e291"
+          ],
+          "selector": "#uij-e291",
+          "bbox": null,
+          "html": "<a href=\"https://www.gsa.gov/\" id=\"uij-e291\">U.S. General Services Administration</a>"
+        },
+        {
+          "target": [
+            "#uij-e296"
+          ],
+          "selector": "#uij-e296",
+          "bbox": null,
+          "html": "<a class=\"usa-identifier__required-link usa-link\" href=\"/accessibility-policy\" id=\"uij-e296\">Accessibility policy</a>"
+        },
+        {
+          "target": [
+            "#uij-e298"
+          ],
+          "selector": "#uij-e298",
+          "bbox": null,
+          "html": "<a class=\"usa-identifier__required-link usa-link\" href=\"/privacy-security\" id=\"uij-e298\">Privacy and security policies</a>"
+        },
+        {
+          "target": [
+            "#uij-e300"
+          ],
+          "selector": "#uij-e300",
+          "bbox": null,
+          "html": "<a class=\"usa-identifier__required-link usa-link\" href=\"https://www.gsa.gov/reference/freedom-of-information-act-foia\" id=\"uij-e300\">FOIA requests</a>"
+        }
+      ]
+    },
+    {
+      "rule_id": "document-title",
+      "impact": "",
+      "tags": [
+        "wcag2a",
+        "wcag242"
+      ],
+      "description": "Ensure each HTML document contains a non-empty <title> element",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/document-title?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "html"
+          ],
+          "selector": "html",
+          "bbox": null,
+          "html": "<html class=\"js\" dir=\"ltr\" lang=\"en\" style=\"scroll-padding-top: 10px !important;\">"
+        }
+      ]
+    },
+    {
+      "rule_id": "duplicate-id-aria",
+      "impact": "",
+      "tags": [
+        "wcag2a",
+        "wcag412"
+      ],
+      "description": "Ensure every id attribute value used in ARIA and in labels is unique",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/duplicate-id-aria?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#gov-banner-default"
+          ],
+          "selector": "#gov-banner-default",
+          "bbox": null,
+          "html": "<div class=\"usa-banner__content usa-accordion__content\" hidden=\"\" id=\"gov-banner-default\">"
+        },
+        {
+          "target": [
+            "#banner-lock-description-default"
+          ],
+          "selector": "#banner-lock-description-default",
+          "bbox": null,
+          "html": "<desc id=\"banner-lock-description-default\">Locked padlock icon</desc>"
+        },
+        {
+          "target": [
+            "#search-field-small-mobile-menu"
+          ],
+          "selector": "#search-field-small-mobile-menu",
+          "bbox": null,
+          "html": "<input autocomplete=\"off\" class=\"usa-input text ui-autocomplete-input\" id=\"search-field-small-mobile-menu\" name=\"query\" type=\"search\">"
+        },
+        {
+          "target": [
+            "#search-field-small"
+          ],
+          "selector": "#search-field-small",
+          "bbox": null,
+          "html": "<input autocomplete=\"off\" class=\"usa-input text usagov-search-autocomplete ui-autocomplete-input\" id=\"search-field-small\" name=\"query\" type=\"search\">"
+        },
+        {
+          "target": [
+            "#share-page"
+          ],
+          "selector": "#share-page",
+          "bbox": null,
+          "html": "<span id=\"share-page\">SHARE THIS PAGE:</span>"
+        },
+        {
+          "target": [
+            "#fb"
+          ],
+          "selector": "#fb",
+          "bbox": null,
+          "html": "<img alt=\"Facebook\" class=\"share-icon\" id=\"fb\" src=\"data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDI3LjQuMSwgU1ZHIEV4cG9ydC"
+        },
+        {
+          "target": [
+            "#twr"
+          ],
+          "selector": "#twr",
+          "bbox": null,
+          "html": "<img alt=\"X Twitter USAGov\" class=\"share-icon\" id=\"twr\" src=\"data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyAgcm9sZT0iaW1nIiBhcmlhLWxhYmVsbGVkYnk9Imljb25Ud2l0dGVyV"
+        },
+        {
+          "target": [
+            "#em"
+          ],
+          "selector": "#em",
+          "bbox": null,
+          "html": "<img alt=\"Email\" class=\"share-icon\" id=\"em\" src=\"data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDI3LjQuMSwgU1ZHIEV4cG9ydCBQb"
+        }
+      ]
+    },
+    {
+      "rule_id": "empty-heading",
+      "impact": "",
+      "tags": [],
+      "description": "Ensure headings have discernible text",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/empty-heading?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#skip-to-h1"
+          ],
+          "selector": "#skip-to-h1",
+          "bbox": null,
+          "html": "<h1 class=\"text-red-50\" id=\"skip-to-h1\">\n<span id=\"uij-e171\">How to register to vote</span>\n</h1>"
+        },
+        {
+          "target": [
+            "#uij-e176"
+          ],
+          "selector": "#uij-e176",
+          "bbox": null,
+          "html": "<h2 id=\"uij-e176\"><strong id=\"uij-e177\">Register through vote.gov</strong></h2>"
+        },
+        {
+          "target": [
+            "#uij-e185"
+          ],
+          "selector": "#uij-e185",
+          "bbox": null,
+          "html": "<h2 id=\"uij-e185\">Other ways to register to vote</h2>"
+        },
+        {
+          "target": [
+            "#uij-e195"
+          ],
+          "selector": "#uij-e195",
+          "bbox": null,
+          "html": "<h2 id=\"uij-e195\">Abroad and military voters</h2>"
+        },
+        {
+          "target": [
+            "#uij-e202"
+          ],
+          "selector": "#uij-e202",
+          "bbox": null,
+          "html": "<h2 id=\"uij-e202\"><strong id=\"uij-e203\">What documents do you need to register to vote?</strong></h2>"
+        },
+        {
+          "target": [
+            "#uij-e219"
+          ],
+          "selector": "#uij-e219",
+          "bbox": null,
+          "html": "<h2 class=\"font-family-heading margin-top-0\" id=\"uij-e219\">\n         Have a question?\n      </h2>"
+        },
+        {
+          "target": [
+            "#uij-e237"
+          ],
+          "selector": "#uij-e237",
+          "bbox": null,
+          "html": "<h3 class=\"usa-gov-footer__primary-link\" id=\"uij-e237\">Government information</h3>"
+        },
+        {
+          "target": [
+            "#uij-e247"
+          ],
+          "selector": "#uij-e247",
+          "bbox": null,
+          "html": "<h3 class=\"usa-gov-footer__primary-link\" id=\"uij-e247\">About us</h3>"
+        },
+        {
+          "target": [
+            "#uij-e257"
+          ],
+          "selector": "#uij-e257",
+          "bbox": null,
+          "html": "<h3 class=\"usa-gov-footer__primary-link\" id=\"uij-e257\">For federal agencies</h3>"
+        },
+        {
+          "target": [
+            "#uij-e265"
+          ],
+          "selector": "#uij-e265",
+          "bbox": null,
+          "html": "<h3 class=\"usa-gov-footer__primary-link\" id=\"uij-e265\">For media</h3>"
+        },
+        {
+          "target": [
+            "#uij-e277"
+          ],
+          "selector": "#uij-e277",
+          "bbox": null,
+          "html": "<h4 class=\"usa-footer__logo-heading\" id=\"uij-e277\">USAGov Contact Center</h4>"
+        }
+      ]
+    },
+    {
+      "rule_id": "form-field-multiple-labels",
+      "impact": "",
+      "tags": [
+        "wcag2a",
+        "wcag332"
+      ],
+      "description": "Ensure form field does not have multiple label elements",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/form-field-multiple-labels?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#search-field-small"
+          ],
+          "selector": "#search-field-small",
+          "bbox": null,
+          "html": "<input autocomplete=\"off\" class=\"usa-input text usagov-search-autocomplete ui-autocomplete-input\" id=\"search-field-small\" name=\"query\" type=\"search\">"
+        }
+      ]
+    },
+    {
+      "rule_id": "heading-order",
+      "impact": "",
+      "tags": [],
+      "description": "Ensure the order of headings is semantically correct",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/heading-order?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#skip-to-h1"
+          ],
+          "selector": "#skip-to-h1",
+          "bbox": null,
+          "html": "<h1 class=\"text-red-50\" id=\"skip-to-h1\">\n<span id=\"uij-e171\">How to register to vote</span>\n</h1>"
+        },
+        {
+          "target": [
+            "#uij-e176"
+          ],
+          "selector": "#uij-e176",
+          "bbox": null,
+          "html": "<h2 id=\"uij-e176\"><strong id=\"uij-e177\">Register through vote.gov</strong></h2>"
+        },
+        {
+          "target": [
+            "#uij-e185"
+          ],
+          "selector": "#uij-e185",
+          "bbox": null,
+          "html": "<h2 id=\"uij-e185\">Other ways to register to vote</h2>"
+        },
+        {
+          "target": [
+            "#uij-e195"
+          ],
+          "selector": "#uij-e195",
+          "bbox": null,
+          "html": "<h2 id=\"uij-e195\">Abroad and military voters</h2>"
+        },
+        {
+          "target": [
+            "#uij-e202"
+          ],
+          "selector": "#uij-e202",
+          "bbox": null,
+          "html": "<h2 id=\"uij-e202\"><strong id=\"uij-e203\">What documents do you need to register to vote?</strong></h2>"
+        },
+        {
+          "target": [
+            "#uij-e219"
+          ],
+          "selector": "#uij-e219",
+          "bbox": null,
+          "html": "<h2 class=\"font-family-heading margin-top-0\" id=\"uij-e219\">\n         Have a question?\n      </h2>"
+        },
+        {
+          "target": [
+            "#uij-e237"
+          ],
+          "selector": "#uij-e237",
+          "bbox": null,
+          "html": "<h3 class=\"usa-gov-footer__primary-link\" id=\"uij-e237\">Government information</h3>"
+        },
+        {
+          "target": [
+            "#uij-e247"
+          ],
+          "selector": "#uij-e247",
+          "bbox": null,
+          "html": "<h3 class=\"usa-gov-footer__primary-link\" id=\"uij-e247\">About us</h3>"
+        },
+        {
+          "target": [
+            "#uij-e257"
+          ],
+          "selector": "#uij-e257",
+          "bbox": null,
+          "html": "<h3 class=\"usa-gov-footer__primary-link\" id=\"uij-e257\">For federal agencies</h3>"
+        },
+        {
+          "target": [
+            "#uij-e265"
+          ],
+          "selector": "#uij-e265",
+          "bbox": null,
+          "html": "<h3 class=\"usa-gov-footer__primary-link\" id=\"uij-e265\">For media</h3>"
+        },
+        {
+          "target": [
+            "#uij-e277"
+          ],
+          "selector": "#uij-e277",
+          "bbox": null,
+          "html": "<h4 class=\"usa-footer__logo-heading\" id=\"uij-e277\">USAGov Contact Center</h4>"
+        }
+      ]
+    },
+    {
+      "rule_id": "html-has-lang",
+      "impact": "",
+      "tags": [
+        "wcag2a",
+        "wcag311"
+      ],
+      "description": "Ensure every HTML document has a lang attribute",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/html-has-lang?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "html"
+          ],
+          "selector": "html",
+          "bbox": null,
+          "html": "<html class=\"js\" dir=\"ltr\" lang=\"en\" style=\"scroll-padding-top: 10px !important;\">"
+        }
+      ]
+    },
+    {
+      "rule_id": "html-lang-valid",
+      "impact": "",
+      "tags": [
+        "wcag2a",
+        "wcag311"
+      ],
+      "description": "Ensure the lang attribute of the <html> element has a valid value",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/html-lang-valid?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "html"
+          ],
+          "selector": "html",
+          "bbox": null,
+          "html": "<html class=\"js\" dir=\"ltr\" lang=\"en\" style=\"scroll-padding-top: 10px !important;\">"
+        }
+      ]
+    },
+    {
+      "rule_id": "image-alt",
+      "impact": "",
+      "tags": [
+        "wcag2a",
+        "wcag111",
+        "section508",
+        "section508.22.a"
+      ],
+      "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/image-alt?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e75"
+          ],
+          "selector": "#uij-e75",
+          "bbox": null,
+          "html": "<img alt=\"USAGov Logo\" id=\"uij-e75\" sizes=\"(min-width: 1024px) 80px, 51px\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANYAAADUCAYAAAGXLO2zAAAACXBIWXMAAC4jAAAuIwF4pT92AAAgAElEQVR4nO2df3QUVbbvv2"
+        },
+        {
+          "target": [
+            "#uij-e84"
+          ],
+          "selector": "#uij-e84",
+          "bbox": null,
+          "html": "<img alt=\"Search\" class=\"usa-search__submit-icon\" id=\"uij-e84\" src=\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDIxNi"
+        },
+        {
+          "target": [
+            "#fb"
+          ],
+          "selector": "#fb",
+          "bbox": null,
+          "html": "<img alt=\"Facebook\" class=\"share-icon\" id=\"fb\" src=\"data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDI3LjQuMSwgU1ZHIEV4cG9ydC"
+        },
+        {
+          "target": [
+            "#twr"
+          ],
+          "selector": "#twr",
+          "bbox": null,
+          "html": "<img alt=\"X Twitter USAGov\" class=\"share-icon\" id=\"twr\" src=\"data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyAgcm9sZT0iaW1nIiBhcmlhLWxhYmVsbGVkYnk9Imljb25Ud2l0dGVyV"
+        },
+        {
+          "target": [
+            "#em"
+          ],
+          "selector": "#em",
+          "bbox": null,
+          "html": "<img alt=\"Email\" class=\"share-icon\" id=\"em\" src=\"data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDI3LjQuMSwgU1ZHIEV4cG9ydCBQb"
+        },
+        {
+          "target": [
+            "#uij-e224"
+          ],
+          "selector": "#uij-e224",
+          "bbox": null,
+          "html": "<img alt=\"talk icon\" class=\"chat-icon\" id=\"uij-e224\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKsAAACoCAYAAACffB63AAAACXBIWXMAAC4jAAAuIwF4pT92AAANzklEQVR4nO2dX4gdVx3HT6UgJIVEkqoc027EPymkmEUf"
+        }
+      ]
+    },
+    {
+      "rule_id": "image-redundant-alt",
+      "impact": "",
+      "tags": [],
+      "description": "Ensure image alternative is not repeated as text",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/image-redundant-alt?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e75"
+          ],
+          "selector": "#uij-e75",
+          "bbox": null,
+          "html": "<img alt=\"USAGov Logo\" id=\"uij-e75\" sizes=\"(min-width: 1024px) 80px, 51px\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANYAAADUCAYAAAGXLO2zAAAACXBIWXMAAC4jAAAuIwF4pT92AAAgAElEQVR4nO2df3QUVbbvv2"
+        },
+        {
+          "target": [
+            "#uij-e84"
+          ],
+          "selector": "#uij-e84",
+          "bbox": null,
+          "html": "<img alt=\"Search\" class=\"usa-search__submit-icon\" id=\"uij-e84\" src=\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDIxNi"
+        },
+        {
+          "target": [
+            "#fb"
+          ],
+          "selector": "#fb",
+          "bbox": null,
+          "html": "<img alt=\"Facebook\" class=\"share-icon\" id=\"fb\" src=\"data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDI3LjQuMSwgU1ZHIEV4cG9ydC"
+        },
+        {
+          "target": [
+            "#twr"
+          ],
+          "selector": "#twr",
+          "bbox": null,
+          "html": "<img alt=\"X Twitter USAGov\" class=\"share-icon\" id=\"twr\" src=\"data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyAgcm9sZT0iaW1nIiBhcmlhLWxhYmVsbGVkYnk9Imljb25Ud2l0dGVyV"
+        },
+        {
+          "target": [
+            "#em"
+          ],
+          "selector": "#em",
+          "bbox": null,
+          "html": "<img alt=\"Email\" class=\"share-icon\" id=\"em\" src=\"data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDI3LjQuMSwgU1ZHIEV4cG9ydCBQb"
+        },
+        {
+          "target": [
+            "#uij-e224"
+          ],
+          "selector": "#uij-e224",
+          "bbox": null,
+          "html": "<img alt=\"talk icon\" class=\"chat-icon\" id=\"uij-e224\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKsAAACoCAYAAACffB63AAAACXBIWXMAAC4jAAAuIwF4pT92AAANzklEQVR4nO2dX4gdVx3HT6UgJIVEkqoc027EPymkmEUf"
+        }
+      ]
+    },
+    {
+      "rule_id": "label-title-only",
+      "impact": "",
+      "tags": [],
+      "description": "Ensure that every form element has a visible label and is not solely labeled using hidden labels, or the title or aria-describedby attributes",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/label-title-only?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#search-field-small"
+          ],
+          "selector": "#search-field-small",
+          "bbox": null,
+          "html": "<input autocomplete=\"off\" class=\"usa-input text usagov-search-autocomplete ui-autocomplete-input\" id=\"search-field-small\" name=\"query\" type=\"search\">"
+        }
+      ]
+    },
+    {
+      "rule_id": "label",
+      "impact": "",
+      "tags": [
+        "wcag2a",
+        "wcag412",
+        "section508",
+        "section508.22.n"
+      ],
+      "description": "Ensure every form element has a label",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/label?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#search-field-small"
+          ],
+          "selector": "#search-field-small",
+          "bbox": null,
+          "html": "<input autocomplete=\"off\" class=\"usa-input text usagov-search-autocomplete ui-autocomplete-input\" id=\"search-field-small\" name=\"query\" type=\"search\">"
+        }
+      ]
+    },
+    {
+      "rule_id": "landmark-banner-is-top-level",
+      "impact": "moderate",
+      "tags": [],
+      "description": "Ensure the banner landmark is at top level",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/landmark-banner-is-top-level?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#header"
+          ],
+          "selector": "#header",
+          "bbox": null,
+          "html": "<header class=\"usa-header usa-header--extended\" id=\"header\">"
+        }
+      ]
+    },
+    {
+      "rule_id": "landmark-complementary-is-top-level",
+      "impact": "",
+      "tags": [],
+      "description": "Ensure the complementary landmark or aside is at top level",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/landmark-complementary-is-top-level?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e134"
+          ],
+          "selector": "#uij-e134",
+          "bbox": null,
+          "html": "<aside class=\"usa-layout-docs__sidenav desktop:grid-col-4 layout-sidebar-first\" id=\"uij-e134\">"
+        }
+      ]
+    },
+    {
+      "rule_id": "landmark-contentinfo-is-top-level",
+      "impact": "",
+      "tags": [],
+      "description": "Ensure the contentinfo landmark is at top level",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/landmark-contentinfo-is-top-level?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e228"
+          ],
+          "selector": "#uij-e228",
+          "bbox": null,
+          "html": "<footer class=\"usa-footer usa-footer--big\" id=\"uij-e228\">"
+        }
+      ]
+    },
+    {
+      "rule_id": "landmark-main-is-top-level",
+      "impact": "",
+      "tags": [],
+      "description": "Ensure the main landmark is at top level",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/landmark-main-is-top-level?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#main-content"
+          ],
+          "selector": "#main-content",
+          "bbox": null,
+          "html": "<main class=\"main-content usa-layout-docs usa-section\" data-pagetype=\"Standard Page\" id=\"main-content\">"
+        }
+      ]
+    },
+    {
+      "rule_id": "landmark-no-duplicate-contentinfo",
+      "impact": "",
+      "tags": [],
+      "description": "Ensure the document has at most one contentinfo landmark",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/landmark-no-duplicate-contentinfo?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e228"
+          ],
+          "selector": "#uij-e228",
+          "bbox": null,
+          "html": "<footer class=\"usa-footer usa-footer--big\" id=\"uij-e228\">"
+        }
+      ]
+    },
+    {
+      "rule_id": "landmark-no-duplicate-main",
+      "impact": "",
+      "tags": [],
+      "description": "Ensure the document has at most one main landmark",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/landmark-no-duplicate-main?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#main-content"
+          ],
+          "selector": "#main-content",
+          "bbox": null,
+          "html": "<main class=\"main-content usa-layout-docs usa-section\" data-pagetype=\"Standard Page\" id=\"main-content\">"
+        }
+      ]
+    },
+    {
+      "rule_id": "landmark-one-main",
+      "impact": "",
+      "tags": [],
+      "description": "Ensure the document has a main landmark",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/landmark-one-main?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "html"
+          ],
+          "selector": "html",
+          "bbox": null,
+          "html": "<html class=\"js\" dir=\"ltr\" lang=\"en\" style=\"scroll-padding-top: 10px !important;\">"
+        }
+      ]
+    },
+    {
+      "rule_id": "landmark-unique",
+      "impact": "moderate",
+      "tags": [],
+      "description": "Ensure landmarks are unique",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/landmark-unique?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#usagov-banner"
+          ],
+          "selector": "#usagov-banner",
+          "bbox": null,
+          "html": "<section aria-label=\"An official website of the United States government\" class=\"usa-banner\" id=\"usagov-banner\">"
+        },
+        {
+          "target": [
+            "#uij-e85"
+          ],
+          "selector": "#uij-e85",
+          "bbox": null,
+          "html": "<nav aria-label=\"Primary navigation\" class=\"usa-nav\" id=\"uij-e85\">"
+        },
+        {
+          "target": [
+            "#main-content"
+          ],
+          "selector": "#main-content",
+          "bbox": null,
+          "html": "<main class=\"main-content usa-layout-docs usa-section\" data-pagetype=\"Standard Page\" id=\"main-content\">"
+        },
+        {
+          "target": [
+            "#uij-e114"
+          ],
+          "selector": "#uij-e114",
+          "bbox": null,
+          "html": "<nav aria-label=\"Breadcrumb\" class=\"margin-top-neg-3 mobile-lg:margin-top-2 tablet:margin-top-neg-3 desktop:margin-top-0 margin-bottom-2\" id=\"uij-e114\">"
+        },
+        {
+          "target": [
+            "#uij-e134"
+          ],
+          "selector": "#uij-e134",
+          "bbox": null,
+          "html": "<aside class=\"usa-layout-docs__sidenav desktop:grid-col-4 layout-sidebar-first\" id=\"uij-e134\">"
+        },
+        {
+          "target": [
+            "#uij-e135"
+          ],
+          "selector": "#uij-e135",
+          "bbox": null,
+          "html": "<nav aria-label=\"Secondary\" id=\"uij-e135\">"
+        },
+        {
+          "target": [
+            "#uij-e228"
+          ],
+          "selector": "#uij-e228",
+          "bbox": null,
+          "html": "<footer class=\"usa-footer usa-footer--big\" id=\"uij-e228\">"
+        },
+        {
+          "target": [
+            "#uij-e233"
+          ],
+          "selector": "#uij-e233",
+          "bbox": null,
+          "html": "<nav aria-label=\"Footer navigation\" class=\"usa-footer__nav\" id=\"uij-e233\">"
+        },
+        {
+          "target": [
+            "#uij-e286"
+          ],
+          "selector": "#uij-e286",
+          "bbox": null,
+          "html": "<section aria-label=\"USAGov is the official guide to government information and services\" class=\"usa-identifier__section usa-identifier__section--usagov\" id=\"uij-e286\">"
+        },
+        {
+          "target": [
+            "#uij-e288"
+          ],
+          "selector": "#uij-e288",
+          "bbox": null,
+          "html": "<section aria-label=\"An official website of the U.S. General Services Administration\" class=\"usa-identifier__identity\" id=\"uij-e288\">"
+        },
+        {
+          "target": [
+            "#uij-e292"
+          ],
+          "selector": "#uij-e292",
+          "bbox": null,
+          "html": "<nav aria-label=\"Important links\" class=\"usa-identifier__section usa-identifier__section--required-links\" id=\"uij-e292\">"
+        }
+      ]
+    },
+    {
+      "rule_id": "link-in-text-block",
+      "impact": "",
+      "tags": [
+        "wcag2a",
+        "wcag141"
+      ],
+      "description": "Ensure links are distinguished from surrounding text in a way that does not rely on color",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/link-in-text-block?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e188"
+          ],
+          "selector": "#uij-e188",
+          "bbox": null,
+          "html": "<a href=\"https://www.eac.gov/voters/national-mail-voter-registration-form\" id=\"uij-e188\">Download the National Mail Voter Registration Form.</a>"
+        },
+        {
+          "target": [
+            "#uij-e194"
+          ],
+          "selector": "#uij-e194",
+          "bbox": null,
+          "html": "<a href=\"https://www.fns.usda.gov/snap/state-directory\" id=\"uij-e194\">SNAP/food stamps</a>"
+        },
+        {
+          "target": [
+            "#uij-e197"
+          ],
+          "selector": "#uij-e197",
+          "bbox": null,
+          "html": "<a href=\"https://www.fvap.gov/fpca-privacy-notice\" id=\"uij-e197\">register to vote and request an absentee ballot</a>"
+        },
+        {
+          "target": [
+            "#uij-e205"
+          ],
+          "selector": "#uij-e205",
+          "bbox": null,
+          "html": "<a href=\"/state-election-office\" id=\"uij-e205\">Check with your state’s election office to find out what documentation they accept.</a>"
+        }
+      ]
+    },
+    {
+      "rule_id": "link-name",
+      "impact": "",
+      "tags": [
+        "wcag2a",
+        "wcag244",
+        "wcag412",
+        "section508",
+        "section508.22.a"
+      ],
+      "description": "Ensure links have discernible text",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/link-name?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e0"
+          ],
+          "selector": "#uij-e0",
+          "bbox": null,
+          "html": "<a class=\"usa-skipnav usa-sr-only focusable\" href=\"#skip-to-h1\" id=\"uij-e0\">\n Skip to main content\n</a>"
+        },
+        {
+          "target": [
+            "#uij-e74"
+          ],
+          "selector": "#uij-e74",
+          "bbox": null,
+          "html": "<a href=\"/\" id=\"uij-e74\" title=\"USAGov Logo\">"
+        },
+        {
+          "target": [
+            "#uij-e77"
+          ],
+          "selector": "#uij-e77",
+          "bbox": null,
+          "html": "<a class=\"usa-button language-link\" href=\"/es/registro-inscripcion-votar\" hreflang=\"es\" id=\"uij-e77\" role=\"button\">Español</a>"
+        },
+        {
+          "target": [
+            "#uij-e82"
+          ],
+          "selector": "#uij-e82",
+          "bbox": null,
+          "html": "<a href=\"/phone\" id=\"uij-e82\" style=\"white-space: nowrap;\">Call us at 1-844-USAGOV1</a>"
+        },
+        {
+          "target": [
+            "#uij-e91"
+          ],
+          "selector": "#uij-e91",
+          "bbox": null,
+          "html": "<a class=\"usa-nav__link\" href=\"/#all-topics-header\" id=\"uij-e91\">\n<span id=\"uij-e92\">All topics and services</span>\n</a>"
+        },
+        {
+          "target": [
+            "#uij-e94"
+          ],
+          "selector": "#uij-e94",
+          "bbox": null,
+          "html": "<a class=\"usa-nav__link\" href=\"/about-the-us\" id=\"uij-e94\">\n<span id=\"uij-e95\">The U.S. and its government</span>\n</a>"
+        },
+        {
+          "target": [
+            "#uij-e97"
+          ],
+          "selector": "#uij-e97",
+          "bbox": null,
+          "html": "<a class=\"usa-nav__link\" href=\"/benefits\" id=\"uij-e97\">\n<span id=\"uij-e98\">Government benefits</span>\n</a>"
+        },
+        {
+          "target": [
+            "#uij-e100"
+          ],
+          "selector": "#uij-e100",
+          "bbox": null,
+          "html": "<a class=\"usa-nav__link\" href=\"/immigration-and-citizenship\" id=\"uij-e100\">\n<span id=\"uij-e101\">Immigration and U.S. citizenship</span>\n</a>"
+        },
+        {
+          "target": [
+            "#uij-e103"
+          ],
+          "selector": "#uij-e103",
+          "bbox": null,
+          "html": "<a class=\"usa-nav__link\" href=\"/money\" id=\"uij-e103\">\n<span id=\"uij-e104\">Money and credit</span>\n</a>"
+        },
+        {
+          "target": [
+            "#uij-e106"
+          ],
+          "selector": "#uij-e106",
+          "bbox": null,
+          "html": "<a class=\"usa-nav__link\" href=\"/taxes\" id=\"uij-e106\">\n<span id=\"uij-e107\">Taxes</span>\n</a>"
+        },
+        {
+          "target": [
+            "#uij-e109"
+          ],
+          "selector": "#uij-e109",
+          "bbox": null,
+          "html": "<a class=\"usa-nav__link\" href=\"/travel\" id=\"uij-e109\">\n<span id=\"uij-e110\">Travel</span>\n</a>"
+        },
+        {
+          "target": [
+            "#uij-e117"
+          ],
+          "selector": "#uij-e117",
+          "bbox": null,
+          "html": "<a class=\"usa-breadcrumb__link\" href=\"/\" id=\"uij-e117\" itemprop=\"item\">\n<span id=\"uij-e118\" itemprop=\"name\">Home</span>\n</a>"
+        },
+        {
+          "target": [
+            "#uij-e121"
+          ],
+          "selector": "#uij-e121",
+          "bbox": null,
+          "html": "<a class=\"usa-breadcrumb__link\" href=\"/voting-and-elections\" id=\"uij-e121\" itemprop=\"item\">\n<span id=\"uij-e122\" itemprop=\"name\">Voting and elections</span>\n</a>"
+        },
+        {
+          "target": [
+            "#uij-e125"
+          ],
+          "selector": "#uij-e125",
+          "bbox": null,
+          "html": "<a class=\"usa-breadcrumb__link\" href=\"/voter-registration\" id=\"uij-e125\" itemprop=\"item\">\n<span id=\"uij-e126\" itemprop=\"name\">Voter registration</span>\n</a>"
+        },
+        {
+          "target": [
+            "#uij-e138"
+          ],
+          "selector": "#uij-e138",
+          "bbox": null,
+          "html": "<a class=\"active-trail\" href=\"/voting-and-elections\" id=\"uij-e138\">\n        Voting and elections\n      </a>"
+        },
+        {
+          "target": [
+            "#uij-e141"
+          ],
+          "selector": "#uij-e141",
+          "bbox": null,
+          "html": "<a class=\"active-trail\" href=\"/voter-registration\" id=\"uij-e141\">\n        Voter registration\n      </a>"
+        },
+        {
+          "target": [
+            "#uij-e147"
+          ],
+          "selector": "#uij-e147",
+          "bbox": null,
+          "html": "<a href=\"/change-voter-registration\" id=\"uij-e147\">\n        Change your voter registration\n      </a>"
+        },
+        {
+          "target": [
+            "#uij-e149"
+          ],
+          "selector": "#uij-e149",
+          "bbox": null,
+          "html": "<a href=\"/confirm-voter-registration\" id=\"uij-e149\">\n        Confirm your voter registration\n      </a>"
+        },
+        {
+          "target": [
+            "#uij-e151"
+          ],
+          "selector": "#uij-e151",
+          "bbox": null,
+          "html": "<a href=\"/voter-registration-card\" id=\"uij-e151\">\n        Voter registration card\n      </a>"
+        },
+        {
+          "target": [
+            "#uij-e153"
+          ],
+          "selector": "#uij-e153",
+          "bbox": null,
+          "html": "<a href=\"/voter-registration-deadlines\" id=\"uij-e153\">\n        Voter registration deadlines\n      </a>"
+        },
+        {
+          "target": [
+            "#uij-e155"
+          ],
+          "selector": "#uij-e155",
+          "bbox": null,
+          "html": "<a href=\"/how-to-vote\" id=\"uij-e155\">\n        How, when, and where to vote\n      </a>"
+        },
+        {
+          "target": [
+            "#uij-e157"
+          ],
+          "selector": "#uij-e157",
+          "bbox": null,
+          "html": "<a href=\"/voter-research\" id=\"uij-e157\">\n        Decide who to vote for\n      </a>"
+        },
+        {
+          "target": [
+            "#uij-e159"
+          ],
+          "selector": "#uij-e159",
+          "bbox": null,
+          "html": "<a href=\"/state-election-office\" id=\"uij-e159\">\n        Find my state or local election office\n      </a>"
+        },
+        {
+          "target": [
+            "#uij-e161"
+          ],
+          "selector": "#uij-e161",
+          "bbox": null,
+          "html": "<a href=\"/midterm-state-and-local-elections\" id=\"uij-e161\">\n        Congressional, state, and local elections\n      </a>"
+        },
+        {
+          "target": [
+            "#uij-e163"
+          ],
+          "selector": "#uij-e163",
+          "bbox": null,
+          "html": "<a href=\"/voting-laws\" id=\"uij-e163\">\n        Voting and election laws\n      </a>"
+        },
+        {
+          "target": [
+            "#uij-e165"
+          ],
+          "selector": "#uij-e165",
+          "bbox": null,
+          "html": "<a href=\"/election\" id=\"uij-e165\">\n        How the president is elected\n      </a>"
+        },
+        {
+          "target": [
+            "#uij-e167"
+          ],
+          "selector": "#uij-e167",
+          "bbox": null,
+          "html": "<a href=\"/inauguration\" id=\"uij-e167\">\n        Inauguration of the president\n      </a>"
+        },
+        {
+          "target": [
+            "#uij-e169"
+          ],
+          "selector": "#uij-e169",
+          "bbox": null,
+          "html": "<a href=\"/election-results\" id=\"uij-e169\">\n        Results of past elections\n      </a>"
+        },
+        {
+          "target": [
+            "#uij-e184"
+          ],
+          "selector": "#uij-e184",
+          "bbox": null,
+          "html": "<a class=\"usa-button usa-button--secondary usa-button--big\" href=\"https://vote.gov/\" id=\"uij-e184\">Start your registration on vote.gov</a>"
+        },
+        {
+          "target": [
+            "#uij-e188"
+          ],
+          "selector": "#uij-e188",
+          "bbox": null,
+          "html": "<a href=\"https://www.eac.gov/voters/national-mail-voter-registration-form\" id=\"uij-e188\">Download the National Mail Voter Registration Form.</a>"
+        },
+        {
+          "target": [
+            "#uij-e192"
+          ],
+          "selector": "#uij-e192",
+          "bbox": null,
+          "html": "<a href=\"/state-motor-vehicle-services\" id=\"uij-e192\">Find your&nbsp;department of motor vehicles&nbsp;office.</a>"
+        },
+        {
+          "target": [
+            "#uij-e194"
+          ],
+          "selector": "#uij-e194",
+          "bbox": null,
+          "html": "<a href=\"https://www.fns.usda.gov/snap/state-directory\" id=\"uij-e194\">SNAP/food stamps</a>"
+        },
+        {
+          "target": [
+            "#uij-e197"
+          ],
+          "selector": "#uij-e197",
+          "bbox": null,
+          "html": "<a href=\"https://www.fvap.gov/fpca-privacy-notice\" id=\"uij-e197\">register to vote and request an absentee ballot</a>"
+        },
+        {
+          "target": [
+            "#uij-e205"
+          ],
+          "selector": "#uij-e205",
+          "bbox": null,
+          "html": "<a href=\"/state-election-office\" id=\"uij-e205\">Check with your state’s election office to find out what documentation they accept.</a>"
+        },
+        {
+          "target": [
+            "#uij-e210"
+          ],
+          "selector": "#uij-e210",
+          "bbox": null,
+          "html": "<a aria-labelledby=\"share-page fb\" href=\"https://www.facebook.com/sharer/sharer.php?u=https://www.usa.gov/register-to-vote&amp;v=3\" id=\"uij-e210\">"
+        },
+        {
+          "target": [
+            "#uij-e212"
+          ],
+          "selector": "#uij-e212",
+          "bbox": null,
+          "html": "<a aria-labelledby=\"share-page twr\" href=\"https://x.com/intent/post?url=https%3A%2F%2Fwww.usa.gov%2Fregister-to-vote\" id=\"uij-e212\">"
+        },
+        {
+          "target": [
+            "#uij-e214"
+          ],
+          "selector": "#uij-e214",
+          "bbox": null,
+          "html": "<a aria-labelledby=\"share-page em\" href=\"mailto:?subject=https://www.usa.gov/register-to-vote\" id=\"uij-e214\">"
+        },
+        {
+          "target": [
+            "#uij-e223"
+          ],
+          "selector": "#uij-e223",
+          "bbox": null,
+          "html": "<a class=\"question-icon\" href=\"/phone\" id=\"uij-e223\">"
+        },
+        {
+          "target": [
+            "#back-to-top"
+          ],
+          "selector": "#back-to-top",
+          "bbox": null,
+          "html": "<a aria-label=\"Back to top\" href=\"#main-content\" id=\"back-to-top\">\n\t\t\tTop\n\t\t</a>"
+        },
+        {
+          "target": [
+            "#uij-e240"
+          ],
+          "selector": "#uij-e240",
+          "bbox": null,
+          "html": "<a href=\"/#all-topics-header\" id=\"uij-e240\">All topics and services</a>"
+        },
+        {
+          "target": [
+            "#uij-e242"
+          ],
+          "selector": "#uij-e242",
+          "bbox": null,
+          "html": "<a href=\"/agency-index\" id=\"uij-e242\">Directory of U.S. government agencies and departments</a>"
+        },
+        {
+          "target": [
+            "#uij-e244"
+          ],
+          "selector": "#uij-e244",
+          "bbox": null,
+          "html": "<a href=\"/branches-of-government\" id=\"uij-e244\">Branches of government</a>"
+        },
+        {
+          "target": [
+            "#uij-e250"
+          ],
+          "selector": "#uij-e250",
+          "bbox": null,
+          "html": "<a href=\"/about\" id=\"uij-e250\">About USAGov</a>"
+        },
+        {
+          "target": [
+            "#uij-e252"
+          ],
+          "selector": "#uij-e252",
+          "bbox": null,
+          "html": "<a href=\"/site-issue-report-form\" id=\"uij-e252\">Report a website issue</a>"
+        },
+        {
+          "target": [
+            "#uij-e254"
+          ],
+          "selector": "#uij-e254",
+          "bbox": null,
+          "html": "<a href=\"/website-analytics/\" id=\"uij-e254\">Website usage data</a>"
+        },
+        {
+          "target": [
+            "#uij-e260"
+          ],
+          "selector": "#uij-e260",
+          "bbox": null,
+          "html": "<a href=\"/partner-with-usagov\" id=\"uij-e260\">Partner with us</a>"
+        },
+        {
+          "target": [
+            "#uij-e262"
+          ],
+          "selector": "#uij-e262",
+          "bbox": null,
+          "html": "<a href=\"/blog\" id=\"uij-e262\">Read our blog</a>"
+        },
+        {
+          "target": [
+            "#uij-e268"
+          ],
+          "selector": "#uij-e268",
+          "bbox": null,
+          "html": "<a href=\"/outreach\" id=\"uij-e268\">USAGov Outreach</a>"
+        },
+        {
+          "target": [
+            "#uij-e270"
+          ],
+          "selector": "#uij-e270",
+          "bbox": null,
+          "html": "<a href=\"/features\" id=\"uij-e270\">Feature articles</a>"
+        },
+        {
+          "target": [
+            "#uij-e282"
+          ],
+          "selector": "#uij-e282",
+          "bbox": null,
+          "html": "<a href=\"/phone\" id=\"uij-e282\">1-844-USAGOV1 (1-844-872-4681)</a>"
+        },
+        {
+          "target": [
+            "#uij-e291"
+          ],
+          "selector": "#uij-e291",
+          "bbox": null,
+          "html": "<a href=\"https://www.gsa.gov/\" id=\"uij-e291\">U.S. General Services Administration</a>"
+        },
+        {
+          "target": [
+            "#uij-e296"
+          ],
+          "selector": "#uij-e296",
+          "bbox": null,
+          "html": "<a class=\"usa-identifier__required-link usa-link\" href=\"/accessibility-policy\" id=\"uij-e296\">Accessibility policy</a>"
+        },
+        {
+          "target": [
+            "#uij-e298"
+          ],
+          "selector": "#uij-e298",
+          "bbox": null,
+          "html": "<a class=\"usa-identifier__required-link usa-link\" href=\"/privacy-security\" id=\"uij-e298\">Privacy and security policies</a>"
+        },
+        {
+          "target": [
+            "#uij-e300"
+          ],
+          "selector": "#uij-e300",
+          "bbox": null,
+          "html": "<a class=\"usa-identifier__required-link usa-link\" href=\"https://www.gsa.gov/reference/freedom-of-information-act-foia\" id=\"uij-e300\">FOIA requests</a>"
+        }
+      ]
+    },
+    {
+      "rule_id": "list",
+      "impact": "",
+      "tags": [
+        "wcag2a",
+        "wcag131"
+      ],
+      "description": "Ensure that lists are structured correctly",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/list?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e89"
+          ],
+          "selector": "#uij-e89",
+          "bbox": null,
+          "html": "<ul class=\"usa-nav__primary usa-accordion\" id=\"uij-e89\">"
+        },
+        {
+          "target": [
+            "#uij-e115"
+          ],
+          "selector": "#uij-e115",
+          "bbox": null,
+          "html": "<ol class=\"usa-breadcrumb__list\" id=\"uij-e115\" itemscope=\"\" itemtype=\"http://schema.org/BreadcrumbList\">"
+        },
+        {
+          "target": [
+            "#uij-e136"
+          ],
+          "selector": "#uij-e136",
+          "bbox": null,
+          "html": "<ul class=\"usa-sidenav\" id=\"uij-e136\">"
+        },
+        {
+          "target": [
+            "#uij-e139"
+          ],
+          "selector": "#uij-e139",
+          "bbox": null,
+          "html": "<ul class=\"usa-sidenav__sublist\" id=\"uij-e139\">"
+        },
+        {
+          "target": [
+            "#uij-e142"
+          ],
+          "selector": "#uij-e142",
+          "bbox": null,
+          "html": "<ul class=\"usa-sidenav__sublist\" id=\"uij-e142\">"
+        },
+        {
+          "target": [
+            "#uij-e179"
+          ],
+          "selector": "#uij-e179",
+          "bbox": null,
+          "html": "<ul id=\"uij-e179\"><li id=\"uij-e180\">Online</li><li id=\"uij-e181\">By mail</li><li id=\"uij-e182\">In person at your local election office</li></ul>"
+        },
+        {
+          "target": [
+            "#uij-e186"
+          ],
+          "selector": "#uij-e186",
+          "bbox": null,
+          "html": "<ul id=\"uij-e186\">"
+        },
+        {
+          "target": [
+            "#uij-e190"
+          ],
+          "selector": "#uij-e190",
+          "bbox": null,
+          "html": "<ul id=\"uij-e190\">"
+        },
+        {
+          "target": [
+            "#uij-e198"
+          ],
+          "selector": "#uij-e198",
+          "bbox": null,
+          "html": "<ul id=\"uij-e198\"><li id=\"uij-e199\">U.S. citizen living outside the U.S.</li><li id=\"uij-e200\">Service member stationed abroad</li><li id=\"uij-e201\">Spouse or eligible family member of a service membe"
+        },
+        {
+          "target": [
+            "#uij-e238"
+          ],
+          "selector": "#uij-e238",
+          "bbox": null,
+          "html": "<ul class=\"usa-list usa-list--unstyled\" id=\"uij-e238\">"
+        },
+        {
+          "target": [
+            "#uij-e248"
+          ],
+          "selector": "#uij-e248",
+          "bbox": null,
+          "html": "<ul class=\"usa-list usa-list--unstyled\" id=\"uij-e248\">"
+        },
+        {
+          "target": [
+            "#uij-e258"
+          ],
+          "selector": "#uij-e258",
+          "bbox": null,
+          "html": "<ul class=\"usa-list usa-list--unstyled\" id=\"uij-e258\">\n<li class=\"usa-footer__secondary-link\" id=\"uij-e259\">\n<a href=\"/partner-with-usagov\" id=\"uij-e260\">Partner with us</a>\n</li>\n<li class=\"usa-foote"
+        },
+        {
+          "target": [
+            "#uij-e266"
+          ],
+          "selector": "#uij-e266",
+          "bbox": null,
+          "html": "<ul class=\"usa-list usa-list--unstyled\" id=\"uij-e266\">\n<li class=\"usa-footer__secondary-link\" id=\"uij-e267\">\n<a href=\"/outreach\" id=\"uij-e268\">USAGov Outreach</a>\n</li>\n<li class=\"usa-footer__secondar"
+        },
+        {
+          "target": [
+            "#uij-e294"
+          ],
+          "selector": "#uij-e294",
+          "bbox": null,
+          "html": "<ul class=\"usa-identifier__required-links-list\" id=\"uij-e294\">"
+        }
+      ]
+    },
+    {
+      "rule_id": "listitem",
+      "impact": "",
+      "tags": [
+        "wcag2a",
+        "wcag131"
+      ],
+      "description": "Ensure <li> elements are used semantically",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/listitem?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e90"
+          ],
+          "selector": "#uij-e90",
+          "bbox": null,
+          "html": "<li class=\"usa-nav__primary-item usa-nav___primary-item-smaller-padding\" id=\"uij-e90\">\n<a class=\"usa-nav__link\" href=\"/#all-topics-header\" id=\"uij-e91\">\n<span id=\"uij-e92\">All topics and services</spa"
+        },
+        {
+          "target": [
+            "#uij-e93"
+          ],
+          "selector": "#uij-e93",
+          "bbox": null,
+          "html": "<li class=\"usa-nav__primary-item usa-nav___primary-item-smaller-padding\" id=\"uij-e93\">\n<a class=\"usa-nav__link\" href=\"/about-the-us\" id=\"uij-e94\">\n<span id=\"uij-e95\">The U.S. and its government</span>"
+        },
+        {
+          "target": [
+            "#uij-e96"
+          ],
+          "selector": "#uij-e96",
+          "bbox": null,
+          "html": "<li class=\"usa-nav__primary-item usa-nav___primary-item-smaller-padding\" id=\"uij-e96\">\n<a class=\"usa-nav__link\" href=\"/benefits\" id=\"uij-e97\">\n<span id=\"uij-e98\">Government benefits</span>\n</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e99"
+          ],
+          "selector": "#uij-e99",
+          "bbox": null,
+          "html": "<li class=\"usa-nav__primary-item usa-nav___primary-item-smaller-padding\" id=\"uij-e99\">\n<a class=\"usa-nav__link\" href=\"/immigration-and-citizenship\" id=\"uij-e100\">\n<span id=\"uij-e101\">Immigration and U"
+        },
+        {
+          "target": [
+            "#uij-e102"
+          ],
+          "selector": "#uij-e102",
+          "bbox": null,
+          "html": "<li class=\"usa-nav__primary-item usa-nav___primary-item-smaller-padding\" id=\"uij-e102\">\n<a class=\"usa-nav__link\" href=\"/money\" id=\"uij-e103\">\n<span id=\"uij-e104\">Money and credit</span>\n</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e105"
+          ],
+          "selector": "#uij-e105",
+          "bbox": null,
+          "html": "<li class=\"usa-nav__primary-item usa-nav___primary-item-smaller-padding\" id=\"uij-e105\">\n<a class=\"usa-nav__link\" href=\"/taxes\" id=\"uij-e106\">\n<span id=\"uij-e107\">Taxes</span>\n</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e108"
+          ],
+          "selector": "#uij-e108",
+          "bbox": null,
+          "html": "<li class=\"usa-nav__primary-item usa-nav___primary-item-smaller-padding\" id=\"uij-e108\">\n<a class=\"usa-nav__link\" href=\"/travel\" id=\"uij-e109\">\n<span id=\"uij-e110\">Travel</span>\n</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e116"
+          ],
+          "selector": "#uij-e116",
+          "bbox": null,
+          "html": "<li class=\"usa-breadcrumb__list-item\" id=\"uij-e116\" itemprop=\"itemListElement\" itemscope=\"\" itemtype=\"http://schema.org/ListItem\">"
+        },
+        {
+          "target": [
+            "#uij-e120"
+          ],
+          "selector": "#uij-e120",
+          "bbox": null,
+          "html": "<li class=\"usa-breadcrumb__list-item\" id=\"uij-e120\" itemprop=\"itemListElement\" itemscope=\"\" itemtype=\"http://schema.org/ListItem\">"
+        },
+        {
+          "target": [
+            "#uij-e124"
+          ],
+          "selector": "#uij-e124",
+          "bbox": null,
+          "html": "<li class=\"usa-breadcrumb__list-item\" id=\"uij-e124\" itemprop=\"itemListElement\" itemscope=\"\" itemtype=\"http://schema.org/ListItem\">"
+        },
+        {
+          "target": [
+            "#uij-e128"
+          ],
+          "selector": "#uij-e128",
+          "bbox": null,
+          "html": "<li class=\"usa-breadcrumb__list-item usa-breadcrumb__currrent\" id=\"uij-e128\" itemprop=\"itemListElement\" itemscope=\"\" itemtype=\"http://schema.org/ListItem\"> <span id=\"uij-e129\" itemprop=\"name\">Register"
+        },
+        {
+          "target": [
+            "#uij-e137"
+          ],
+          "selector": "#uij-e137",
+          "bbox": null,
+          "html": "<li class=\"usa-sidenav__item\" id=\"uij-e137\">"
+        },
+        {
+          "target": [
+            "#uij-e140"
+          ],
+          "selector": "#uij-e140",
+          "bbox": null,
+          "html": "<li class=\"usa-sidenav__item\" id=\"uij-e140\">"
+        },
+        {
+          "target": [
+            "#uij-e143"
+          ],
+          "selector": "#uij-e143",
+          "bbox": null,
+          "html": "<li class=\"usa-sidenav__item\" id=\"uij-e143\">\n<div class=\"active-trail usa-current\" id=\"uij-e144\">\n<p class=\"usa-sr-only\" id=\"uij-e145\">current page</p>\n        Register to vote\n      </div>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e146"
+          ],
+          "selector": "#uij-e146",
+          "bbox": null,
+          "html": "<li class=\"usa-sidenav__item\" id=\"uij-e146\">\n<a href=\"/change-voter-registration\" id=\"uij-e147\">\n        Change your voter registration\n      </a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e148"
+          ],
+          "selector": "#uij-e148",
+          "bbox": null,
+          "html": "<li class=\"usa-sidenav__item\" id=\"uij-e148\">\n<a href=\"/confirm-voter-registration\" id=\"uij-e149\">\n        Confirm your voter registration\n      </a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e150"
+          ],
+          "selector": "#uij-e150",
+          "bbox": null,
+          "html": "<li class=\"usa-sidenav__item\" id=\"uij-e150\">\n<a href=\"/voter-registration-card\" id=\"uij-e151\">\n        Voter registration card\n      </a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e152"
+          ],
+          "selector": "#uij-e152",
+          "bbox": null,
+          "html": "<li class=\"usa-sidenav__item\" id=\"uij-e152\">\n<a href=\"/voter-registration-deadlines\" id=\"uij-e153\">\n        Voter registration deadlines\n      </a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e154"
+          ],
+          "selector": "#uij-e154",
+          "bbox": null,
+          "html": "<li class=\"usa-sidenav__item\" id=\"uij-e154\">\n<a href=\"/how-to-vote\" id=\"uij-e155\">\n        How, when, and where to vote\n      </a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e156"
+          ],
+          "selector": "#uij-e156",
+          "bbox": null,
+          "html": "<li class=\"usa-sidenav__item\" id=\"uij-e156\">\n<a href=\"/voter-research\" id=\"uij-e157\">\n        Decide who to vote for\n      </a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e158"
+          ],
+          "selector": "#uij-e158",
+          "bbox": null,
+          "html": "<li class=\"usa-sidenav__item\" id=\"uij-e158\">\n<a href=\"/state-election-office\" id=\"uij-e159\">\n        Find my state or local election office\n      </a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e160"
+          ],
+          "selector": "#uij-e160",
+          "bbox": null,
+          "html": "<li class=\"usa-sidenav__item\" id=\"uij-e160\">\n<a href=\"/midterm-state-and-local-elections\" id=\"uij-e161\">\n        Congressional, state, and local elections\n      </a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e162"
+          ],
+          "selector": "#uij-e162",
+          "bbox": null,
+          "html": "<li class=\"usa-sidenav__item\" id=\"uij-e162\">\n<a href=\"/voting-laws\" id=\"uij-e163\">\n        Voting and election laws\n      </a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e164"
+          ],
+          "selector": "#uij-e164",
+          "bbox": null,
+          "html": "<li class=\"usa-sidenav__item\" id=\"uij-e164\">\n<a href=\"/election\" id=\"uij-e165\">\n        How the president is elected\n      </a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e166"
+          ],
+          "selector": "#uij-e166",
+          "bbox": null,
+          "html": "<li class=\"usa-sidenav__item\" id=\"uij-e166\">\n<a href=\"/inauguration\" id=\"uij-e167\">\n        Inauguration of the president\n      </a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e168"
+          ],
+          "selector": "#uij-e168",
+          "bbox": null,
+          "html": "<li class=\"usa-sidenav__item\" id=\"uij-e168\">\n<a href=\"/election-results\" id=\"uij-e169\">\n        Results of past elections\n      </a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e180"
+          ],
+          "selector": "#uij-e180",
+          "bbox": null,
+          "html": "<li id=\"uij-e180\">Online</li>"
+        },
+        {
+          "target": [
+            "#uij-e181"
+          ],
+          "selector": "#uij-e181",
+          "bbox": null,
+          "html": "<li id=\"uij-e181\">By mail</li>"
+        },
+        {
+          "target": [
+            "#uij-e182"
+          ],
+          "selector": "#uij-e182",
+          "bbox": null,
+          "html": "<li id=\"uij-e182\">In person at your local election office</li>"
+        },
+        {
+          "target": [
+            "#uij-e187"
+          ],
+          "selector": "#uij-e187",
+          "bbox": null,
+          "html": "<li id=\"uij-e187\">"
+        },
+        {
+          "target": [
+            "#uij-e189"
+          ],
+          "selector": "#uij-e189",
+          "bbox": null,
+          "html": "<li id=\"uij-e189\">"
+        },
+        {
+          "target": [
+            "#uij-e191"
+          ],
+          "selector": "#uij-e191",
+          "bbox": null,
+          "html": "<li id=\"uij-e191\"><a href=\"/state-motor-vehicle-services\" id=\"uij-e192\">Find your&nbsp;department of motor vehicles&nbsp;office.</a></li>"
+        },
+        {
+          "target": [
+            "#uij-e193"
+          ],
+          "selector": "#uij-e193",
+          "bbox": null,
+          "html": "<li id=\"uij-e193\">Contact state and county public assistance offices such as <a href=\"https://www.fns.usda.gov/snap/state-directory\" id=\"uij-e194\">SNAP/food stamps</a>.</li>"
+        },
+        {
+          "target": [
+            "#uij-e199"
+          ],
+          "selector": "#uij-e199",
+          "bbox": null,
+          "html": "<li id=\"uij-e199\">U.S. citizen living outside the U.S.</li>"
+        },
+        {
+          "target": [
+            "#uij-e200"
+          ],
+          "selector": "#uij-e200",
+          "bbox": null,
+          "html": "<li id=\"uij-e200\">Service member stationed abroad</li>"
+        },
+        {
+          "target": [
+            "#uij-e201"
+          ],
+          "selector": "#uij-e201",
+          "bbox": null,
+          "html": "<li id=\"uij-e201\">Spouse or eligible family member of a service member stationed abroad</li>"
+        },
+        {
+          "target": [
+            "#uij-e239"
+          ],
+          "selector": "#uij-e239",
+          "bbox": null,
+          "html": "<li class=\"usa-footer__secondary-link\" id=\"uij-e239\">\n<a href=\"/#all-topics-header\" id=\"uij-e240\">All topics and services</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e241"
+          ],
+          "selector": "#uij-e241",
+          "bbox": null,
+          "html": "<li class=\"usa-footer__secondary-link\" id=\"uij-e241\">\n<a href=\"/agency-index\" id=\"uij-e242\">Directory of U.S. government agencies and departments</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e243"
+          ],
+          "selector": "#uij-e243",
+          "bbox": null,
+          "html": "<li class=\"usa-footer__secondary-link\" id=\"uij-e243\">\n<a href=\"/branches-of-government\" id=\"uij-e244\">Branches of government</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e249"
+          ],
+          "selector": "#uij-e249",
+          "bbox": null,
+          "html": "<li class=\"usa-footer__secondary-link\" id=\"uij-e249\">\n<a href=\"/about\" id=\"uij-e250\">About USAGov</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e251"
+          ],
+          "selector": "#uij-e251",
+          "bbox": null,
+          "html": "<li class=\"usa-footer__secondary-link\" id=\"uij-e251\">\n<a href=\"/site-issue-report-form\" id=\"uij-e252\">Report a website issue</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e253"
+          ],
+          "selector": "#uij-e253",
+          "bbox": null,
+          "html": "<li class=\"usa-footer__secondary-link\" id=\"uij-e253\">\n<a href=\"/website-analytics/\" id=\"uij-e254\">Website usage data</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e259"
+          ],
+          "selector": "#uij-e259",
+          "bbox": null,
+          "html": "<li class=\"usa-footer__secondary-link\" id=\"uij-e259\">\n<a href=\"/partner-with-usagov\" id=\"uij-e260\">Partner with us</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e261"
+          ],
+          "selector": "#uij-e261",
+          "bbox": null,
+          "html": "<li class=\"usa-footer__secondary-link\" id=\"uij-e261\">\n<a href=\"/blog\" id=\"uij-e262\">Read our blog</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e267"
+          ],
+          "selector": "#uij-e267",
+          "bbox": null,
+          "html": "<li class=\"usa-footer__secondary-link\" id=\"uij-e267\">\n<a href=\"/outreach\" id=\"uij-e268\">USAGov Outreach</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e269"
+          ],
+          "selector": "#uij-e269",
+          "bbox": null,
+          "html": "<li class=\"usa-footer__secondary-link\" id=\"uij-e269\">\n<a href=\"/features\" id=\"uij-e270\">Feature articles</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e295"
+          ],
+          "selector": "#uij-e295",
+          "bbox": null,
+          "html": "<li class=\"usa-identifier__required-links-item\" id=\"uij-e295\">\n<a class=\"usa-identifier__required-link usa-link\" href=\"/accessibility-policy\" id=\"uij-e296\">Accessibility policy</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e297"
+          ],
+          "selector": "#uij-e297",
+          "bbox": null,
+          "html": "<li class=\"usa-identifier__required-links-item\" id=\"uij-e297\">\n<a class=\"usa-identifier__required-link usa-link\" href=\"/privacy-security\" id=\"uij-e298\">Privacy and security policies</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e299"
+          ],
+          "selector": "#uij-e299",
+          "bbox": null,
+          "html": "<li class=\"usa-identifier__required-links-item\" id=\"uij-e299\">\n<a class=\"usa-identifier__required-link usa-link\" href=\"https://www.gsa.gov/reference/freedom-of-information-act-foia\" id=\"uij-e300\">FOIA"
+        }
+      ]
+    },
+    {
+      "rule_id": "meta-viewport-large",
+      "impact": "",
+      "tags": [],
+      "description": "Ensure <meta name=\"viewport\"> can scale a significant amount",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/meta-viewport-large?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "meta[name=\"viewport\"]"
+          ],
+          "selector": "meta[name=\"viewport\"]",
+          "bbox": null,
+          "html": "<meta content=\"width=device-width, initial-scale=1.0\" name=\"viewport\">"
+        }
+      ]
+    },
+    {
+      "rule_id": "meta-viewport",
+      "impact": "",
+      "tags": [
+        "wcag2aa",
+        "wcag144"
+      ],
+      "description": "Ensure <meta name=\"viewport\"> does not disable text scaling and zooming",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/meta-viewport?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "meta[name=\"viewport\"]"
+          ],
+          "selector": "meta[name=\"viewport\"]",
+          "bbox": null,
+          "html": "<meta content=\"width=device-width, initial-scale=1.0\" name=\"viewport\">"
+        }
+      ]
+    },
+    {
+      "rule_id": "nested-interactive",
+      "impact": "",
+      "tags": [
+        "wcag2a",
+        "wcag412"
+      ],
+      "description": "Ensure interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/nested-interactive?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e15"
+          ],
+          "selector": "#uij-e15",
+          "bbox": null,
+          "html": "<button aria-controls=\"gov-banner-default\" aria-expanded=\"false\" class=\"usa-accordion__button usa-banner__button\" id=\"uij-e15\" type=\"button\">"
+        },
+        {
+          "target": [
+            "#uij-e75"
+          ],
+          "selector": "#uij-e75",
+          "bbox": null,
+          "html": "<img alt=\"USAGov Logo\" id=\"uij-e75\" sizes=\"(min-width: 1024px) 80px, 51px\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANYAAADUCAYAAAGXLO2zAAAACXBIWXMAAC4jAAAuIwF4pT92AAAgAElEQVR4nO2df3QUVbbvv2"
+        },
+        {
+          "target": [
+            "#uij-e77"
+          ],
+          "selector": "#uij-e77",
+          "bbox": null,
+          "html": "<a class=\"usa-button language-link\" href=\"/es/registro-inscripcion-votar\" hreflang=\"es\" id=\"uij-e77\" role=\"button\">Español</a>"
+        },
+        {
+          "target": [
+            "#uij-e83"
+          ],
+          "selector": "#uij-e83",
+          "bbox": null,
+          "html": "<button class=\"usa-button\" id=\"uij-e83\" type=\"submit\">"
+        },
+        {
+          "target": [
+            "#uij-e84"
+          ],
+          "selector": "#uij-e84",
+          "bbox": null,
+          "html": "<img alt=\"Search\" class=\"usa-search__submit-icon\" id=\"uij-e84\" src=\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDIxNi"
+        },
+        {
+          "target": [
+            "#fb"
+          ],
+          "selector": "#fb",
+          "bbox": null,
+          "html": "<img alt=\"Facebook\" class=\"share-icon\" id=\"fb\" src=\"data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDI3LjQuMSwgU1ZHIEV4cG9ydC"
+        },
+        {
+          "target": [
+            "#twr"
+          ],
+          "selector": "#twr",
+          "bbox": null,
+          "html": "<img alt=\"X Twitter USAGov\" class=\"share-icon\" id=\"twr\" src=\"data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyAgcm9sZT0iaW1nIiBhcmlhLWxhYmVsbGVkYnk9Imljb25Ud2l0dGVyV"
+        },
+        {
+          "target": [
+            "#em"
+          ],
+          "selector": "#em",
+          "bbox": null,
+          "html": "<img alt=\"Email\" class=\"share-icon\" id=\"em\" src=\"data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDI3LjQuMSwgU1ZHIEV4cG9ydCBQb"
+        },
+        {
+          "target": [
+            "#uij-e224"
+          ],
+          "selector": "#uij-e224",
+          "bbox": null,
+          "html": "<img alt=\"talk icon\" class=\"chat-icon\" id=\"uij-e224\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKsAAACoCAYAAACffB63AAAACXBIWXMAAC4jAAAuIwF4pT92AAANzklEQVR4nO2dX4gdVx3HT6UgJIVEkqoc027EPymkmEUf"
+        }
+      ]
+    },
+    {
+      "rule_id": "page-has-heading-one",
+      "impact": "",
+      "tags": [],
+      "description": "Ensure that the page, or at least one of its frames contains a level-one heading",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/page-has-heading-one?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "html"
+          ],
+          "selector": "html",
+          "bbox": null,
+          "html": "<html class=\"js\" dir=\"ltr\" lang=\"en\" style=\"scroll-padding-top: 10px !important;\">"
+        }
+      ]
+    },
+    {
+      "rule_id": "region",
+      "impact": "",
+      "tags": [],
+      "description": "Ensure all page content is contained by landmarks",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/region?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e0"
+          ],
+          "selector": "#uij-e0",
+          "bbox": null,
+          "html": "<a class=\"usa-skipnav usa-sr-only focusable\" href=\"#skip-to-h1\" id=\"uij-e0\">\n Skip to main content\n</a>"
+        },
+        {
+          "target": [
+            "#header"
+          ],
+          "selector": "#header",
+          "bbox": null,
+          "html": "<header class=\"usa-header usa-header--extended\" id=\"header\">"
+        },
+        {
+          "target": [
+            "#uij-e2"
+          ],
+          "selector": "#uij-e2",
+          "bbox": null,
+          "html": "<div class=\"usa-banner-inner\" id=\"uij-e2\">"
+        },
+        {
+          "target": [
+            "#uij-e3"
+          ],
+          "selector": "#uij-e3",
+          "bbox": null,
+          "html": "<div id=\"uij-e3\">"
+        },
+        {
+          "target": [
+            "#usagov-banner"
+          ],
+          "selector": "#usagov-banner",
+          "bbox": null,
+          "html": "<section aria-label=\"An official website of the United States government\" class=\"usa-banner\" id=\"usagov-banner\">"
+        },
+        {
+          "target": [
+            "#uij-e4"
+          ],
+          "selector": "#uij-e4",
+          "bbox": null,
+          "html": "<div class=\"usa-accordion\" id=\"uij-e4\">"
+        },
+        {
+          "target": [
+            "#uij-e5"
+          ],
+          "selector": "#uij-e5",
+          "bbox": null,
+          "html": "<div class=\"usa-banner__header\" id=\"uij-e5\" role=\"banner\">"
+        },
+        {
+          "target": [
+            "#uij-e6"
+          ],
+          "selector": "#uij-e6",
+          "bbox": null,
+          "html": "<div class=\"usa-banner__inner\" id=\"uij-e6\">"
+        },
+        {
+          "target": [
+            "#uij-e7"
+          ],
+          "selector": "#uij-e7",
+          "bbox": null,
+          "html": "<div class=\"grid-col-auto\" id=\"uij-e7\">"
+        },
+        {
+          "target": [
+            "#uij-e9"
+          ],
+          "selector": "#uij-e9",
+          "bbox": null,
+          "html": "<div class=\"grid-col-fill tablet:grid-col-auto\" id=\"uij-e9\">"
+        },
+        {
+          "target": [
+            "#uij-e10"
+          ],
+          "selector": "#uij-e10",
+          "bbox": null,
+          "html": "<p class=\"usa-banner__header-text\" id=\"uij-e10\">\n\t\t\t\t\t\tAn official website of the United States government\n\t\t\t\t\t</p>"
+        },
+        {
+          "target": [
+            "#uij-e15"
+          ],
+          "selector": "#uij-e15",
+          "bbox": null,
+          "html": "<button aria-controls=\"gov-banner-default\" aria-expanded=\"false\" class=\"usa-accordion__button usa-banner__button\" id=\"uij-e15\" type=\"button\">"
+        },
+        {
+          "target": [
+            "#uij-e16"
+          ],
+          "selector": "#uij-e16",
+          "bbox": null,
+          "html": "<span class=\"usa-banner__button-text\" id=\"uij-e16\">Here's how you know</span>"
+        },
+        {
+          "target": [
+            "#uij-e17"
+          ],
+          "selector": "#uij-e17",
+          "bbox": null,
+          "html": "<svg class=\"usa-banner_expand_arrow usa-banner__button-text\" height=\"16\" id=\"uij-e17\" viewBox=\"0 0 24 24\" width=\"16\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M0 0h24v24H0z\" fill=\"none\" id=\"uij-e18"
+        },
+        {
+          "target": [
+            "#uij-e18"
+          ],
+          "selector": "#uij-e18",
+          "bbox": null,
+          "html": "<path d=\"M0 0h24v24H0z\" fill=\"none\" id=\"uij-e18\"></path>"
+        },
+        {
+          "target": [
+            "#uij-e19"
+          ],
+          "selector": "#uij-e19",
+          "bbox": null,
+          "html": "<path d=\"M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z\" id=\"uij-e19\"></path>"
+        },
+        {
+          "target": [
+            "#block-usagov-mobilemenublock"
+          ],
+          "selector": "#block-usagov-mobilemenublock",
+          "bbox": null,
+          "html": "<div class=\"settings-tray-editable block block-usagov-menus block-usagov-mobile-menu-block\" data-drupal-settingstray=\"editable\" id=\"block-usagov-mobilemenublock\">"
+        },
+        {
+          "target": [
+            "#uij-e72"
+          ],
+          "selector": "#uij-e72",
+          "bbox": null,
+          "html": "<div class=\"usa-navbar\" id=\"uij-e72\">"
+        },
+        {
+          "target": [
+            "#extended-logo"
+          ],
+          "selector": "#extended-logo",
+          "bbox": null,
+          "html": "<div class=\"usa-logo\" id=\"extended-logo\">"
+        },
+        {
+          "target": [
+            "#uij-e73"
+          ],
+          "selector": "#uij-e73",
+          "bbox": null,
+          "html": "<em class=\"usa-logo-text\" id=\"uij-e73\">"
+        },
+        {
+          "target": [
+            "#uij-e74"
+          ],
+          "selector": "#uij-e74",
+          "bbox": null,
+          "html": "<a href=\"/\" id=\"uij-e74\" title=\"USAGov Logo\">"
+        },
+        {
+          "target": [
+            "#uij-e75"
+          ],
+          "selector": "#uij-e75",
+          "bbox": null,
+          "html": "<img alt=\"USAGov Logo\" id=\"uij-e75\" sizes=\"(min-width: 1024px) 80px, 51px\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANYAAADUCAYAAAGXLO2zAAAACXBIWXMAAC4jAAAuIwF4pT92AAAgAElEQVR4nO2df3QUVbbvv2"
+        },
+        {
+          "target": [
+            "#uij-e76"
+          ],
+          "selector": "#uij-e76",
+          "bbox": null,
+          "html": "<div class=\"navbar-right\" id=\"uij-e76\">"
+        },
+        {
+          "target": [
+            "#uij-e77"
+          ],
+          "selector": "#uij-e77",
+          "bbox": null,
+          "html": "<a class=\"usa-button language-link\" href=\"/es/registro-inscripcion-votar\" hreflang=\"es\" id=\"uij-e77\" role=\"button\">Español</a>"
+        },
+        {
+          "target": [
+            "#uij-e79"
+          ],
+          "selector": "#uij-e79",
+          "bbox": null,
+          "html": "<div class=\"usa-nav__secondary\" id=\"uij-e79\">"
+        },
+        {
+          "target": [
+            "#uij-e80"
+          ],
+          "selector": "#uij-e80",
+          "bbox": null,
+          "html": "<div class=\"usa-nav__secondary-links\" id=\"uij-e80\">\n<div id=\"uij-e81\">\n<span class=\"usa-nav__secondary-item\" data-contact-callout=\"visible\" id=\"top-phone\">\n<a href=\"/phone\" id=\"uij-e82\" style=\"white-s"
+        },
+        {
+          "target": [
+            "#uij-e81"
+          ],
+          "selector": "#uij-e81",
+          "bbox": null,
+          "html": "<div id=\"uij-e81\">\n<span class=\"usa-nav__secondary-item\" data-contact-callout=\"visible\" id=\"top-phone\">\n<a href=\"/phone\" id=\"uij-e82\" style=\"white-space: nowrap;\">Call us at 1-844-USAGOV1</a>\n</span>\n"
+        },
+        {
+          "target": [
+            "#top-phone"
+          ],
+          "selector": "#top-phone",
+          "bbox": null,
+          "html": "<span class=\"usa-nav__secondary-item\" data-contact-callout=\"visible\" id=\"top-phone\">\n<a href=\"/phone\" id=\"uij-e82\" style=\"white-space: nowrap;\">Call us at 1-844-USAGOV1</a>\n</span>"
+        },
+        {
+          "target": [
+            "#uij-e82"
+          ],
+          "selector": "#uij-e82",
+          "bbox": null,
+          "html": "<a href=\"/phone\" id=\"uij-e82\" style=\"white-space: nowrap;\">Call us at 1-844-USAGOV1</a>"
+        },
+        {
+          "target": [
+            "#usagov_all_gov-desktop"
+          ],
+          "selector": "#usagov_all_gov-desktop",
+          "bbox": null,
+          "html": "<form accept-charset=\"UTF-8\" action=\"https://search.usa.gov/search\" class=\"usa-search usa-search--small\" id=\"usagov_all_gov-desktop\" method=\"get\" name=\"usagov_all_gov-desktop\" role=\"search\">"
+        },
+        {
+          "target": [
+            "#top-srch"
+          ],
+          "selector": "#top-srch",
+          "bbox": null,
+          "html": "<label class=\"usa-sr-only\" for=\"search-field-small\" id=\"top-srch\">Search</label>"
+        },
+        {
+          "target": [
+            "#search-field-small"
+          ],
+          "selector": "#search-field-small",
+          "bbox": null,
+          "html": "<input autocomplete=\"off\" class=\"usa-input text usagov-search-autocomplete ui-autocomplete-input\" id=\"search-field-small\" name=\"query\" type=\"search\">"
+        },
+        {
+          "target": [
+            "#uij-e83"
+          ],
+          "selector": "#uij-e83",
+          "bbox": null,
+          "html": "<button class=\"usa-button\" id=\"uij-e83\" type=\"submit\">"
+        },
+        {
+          "target": [
+            "#uij-e84"
+          ],
+          "selector": "#uij-e84",
+          "bbox": null,
+          "html": "<img alt=\"Search\" class=\"usa-search__submit-icon\" id=\"uij-e84\" src=\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDIxNi"
+        },
+        {
+          "target": [
+            "#uij-e85"
+          ],
+          "selector": "#uij-e85",
+          "bbox": null,
+          "html": "<nav aria-label=\"Primary navigation\" class=\"usa-nav\" id=\"uij-e85\">"
+        },
+        {
+          "target": [
+            "#uij-e86"
+          ],
+          "selector": "#uij-e86",
+          "bbox": null,
+          "html": "<div class=\"usa-nav__inner\" id=\"uij-e86\">"
+        },
+        {
+          "target": [
+            "#uij-e89"
+          ],
+          "selector": "#uij-e89",
+          "bbox": null,
+          "html": "<ul class=\"usa-nav__primary usa-accordion\" id=\"uij-e89\">"
+        },
+        {
+          "target": [
+            "#uij-e90"
+          ],
+          "selector": "#uij-e90",
+          "bbox": null,
+          "html": "<li class=\"usa-nav__primary-item usa-nav___primary-item-smaller-padding\" id=\"uij-e90\">\n<a class=\"usa-nav__link\" href=\"/#all-topics-header\" id=\"uij-e91\">\n<span id=\"uij-e92\">All topics and services</spa"
+        },
+        {
+          "target": [
+            "#uij-e91"
+          ],
+          "selector": "#uij-e91",
+          "bbox": null,
+          "html": "<a class=\"usa-nav__link\" href=\"/#all-topics-header\" id=\"uij-e91\">\n<span id=\"uij-e92\">All topics and services</span>\n</a>"
+        },
+        {
+          "target": [
+            "#uij-e92"
+          ],
+          "selector": "#uij-e92",
+          "bbox": null,
+          "html": "<span id=\"uij-e92\">All topics and services</span>"
+        },
+        {
+          "target": [
+            "#uij-e93"
+          ],
+          "selector": "#uij-e93",
+          "bbox": null,
+          "html": "<li class=\"usa-nav__primary-item usa-nav___primary-item-smaller-padding\" id=\"uij-e93\">\n<a class=\"usa-nav__link\" href=\"/about-the-us\" id=\"uij-e94\">\n<span id=\"uij-e95\">The U.S. and its government</span>"
+        },
+        {
+          "target": [
+            "#uij-e94"
+          ],
+          "selector": "#uij-e94",
+          "bbox": null,
+          "html": "<a class=\"usa-nav__link\" href=\"/about-the-us\" id=\"uij-e94\">\n<span id=\"uij-e95\">The U.S. and its government</span>\n</a>"
+        },
+        {
+          "target": [
+            "#uij-e95"
+          ],
+          "selector": "#uij-e95",
+          "bbox": null,
+          "html": "<span id=\"uij-e95\">The U.S. and its government</span>"
+        },
+        {
+          "target": [
+            "#uij-e96"
+          ],
+          "selector": "#uij-e96",
+          "bbox": null,
+          "html": "<li class=\"usa-nav__primary-item usa-nav___primary-item-smaller-padding\" id=\"uij-e96\">\n<a class=\"usa-nav__link\" href=\"/benefits\" id=\"uij-e97\">\n<span id=\"uij-e98\">Government benefits</span>\n</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e97"
+          ],
+          "selector": "#uij-e97",
+          "bbox": null,
+          "html": "<a class=\"usa-nav__link\" href=\"/benefits\" id=\"uij-e97\">\n<span id=\"uij-e98\">Government benefits</span>\n</a>"
+        },
+        {
+          "target": [
+            "#uij-e98"
+          ],
+          "selector": "#uij-e98",
+          "bbox": null,
+          "html": "<span id=\"uij-e98\">Government benefits</span>"
+        },
+        {
+          "target": [
+            "#uij-e99"
+          ],
+          "selector": "#uij-e99",
+          "bbox": null,
+          "html": "<li class=\"usa-nav__primary-item usa-nav___primary-item-smaller-padding\" id=\"uij-e99\">\n<a class=\"usa-nav__link\" href=\"/immigration-and-citizenship\" id=\"uij-e100\">\n<span id=\"uij-e101\">Immigration and U"
+        },
+        {
+          "target": [
+            "#uij-e100"
+          ],
+          "selector": "#uij-e100",
+          "bbox": null,
+          "html": "<a class=\"usa-nav__link\" href=\"/immigration-and-citizenship\" id=\"uij-e100\">\n<span id=\"uij-e101\">Immigration and U.S. citizenship</span>\n</a>"
+        },
+        {
+          "target": [
+            "#uij-e101"
+          ],
+          "selector": "#uij-e101",
+          "bbox": null,
+          "html": "<span id=\"uij-e101\">Immigration and U.S. citizenship</span>"
+        },
+        {
+          "target": [
+            "#uij-e102"
+          ],
+          "selector": "#uij-e102",
+          "bbox": null,
+          "html": "<li class=\"usa-nav__primary-item usa-nav___primary-item-smaller-padding\" id=\"uij-e102\">\n<a class=\"usa-nav__link\" href=\"/money\" id=\"uij-e103\">\n<span id=\"uij-e104\">Money and credit</span>\n</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e103"
+          ],
+          "selector": "#uij-e103",
+          "bbox": null,
+          "html": "<a class=\"usa-nav__link\" href=\"/money\" id=\"uij-e103\">\n<span id=\"uij-e104\">Money and credit</span>\n</a>"
+        },
+        {
+          "target": [
+            "#uij-e104"
+          ],
+          "selector": "#uij-e104",
+          "bbox": null,
+          "html": "<span id=\"uij-e104\">Money and credit</span>"
+        },
+        {
+          "target": [
+            "#uij-e105"
+          ],
+          "selector": "#uij-e105",
+          "bbox": null,
+          "html": "<li class=\"usa-nav__primary-item usa-nav___primary-item-smaller-padding\" id=\"uij-e105\">\n<a class=\"usa-nav__link\" href=\"/taxes\" id=\"uij-e106\">\n<span id=\"uij-e107\">Taxes</span>\n</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e106"
+          ],
+          "selector": "#uij-e106",
+          "bbox": null,
+          "html": "<a class=\"usa-nav__link\" href=\"/taxes\" id=\"uij-e106\">\n<span id=\"uij-e107\">Taxes</span>\n</a>"
+        },
+        {
+          "target": [
+            "#uij-e107"
+          ],
+          "selector": "#uij-e107",
+          "bbox": null,
+          "html": "<span id=\"uij-e107\">Taxes</span>"
+        },
+        {
+          "target": [
+            "#uij-e108"
+          ],
+          "selector": "#uij-e108",
+          "bbox": null,
+          "html": "<li class=\"usa-nav__primary-item usa-nav___primary-item-smaller-padding\" id=\"uij-e108\">\n<a class=\"usa-nav__link\" href=\"/travel\" id=\"uij-e109\">\n<span id=\"uij-e110\">Travel</span>\n</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e109"
+          ],
+          "selector": "#uij-e109",
+          "bbox": null,
+          "html": "<a class=\"usa-nav__link\" href=\"/travel\" id=\"uij-e109\">\n<span id=\"uij-e110\">Travel</span>\n</a>"
+        },
+        {
+          "target": [
+            "#uij-e110"
+          ],
+          "selector": "#uij-e110",
+          "bbox": null,
+          "html": "<span id=\"uij-e110\">Travel</span>"
+        },
+        {
+          "target": [
+            "#main-content"
+          ],
+          "selector": "#main-content",
+          "bbox": null,
+          "html": "<main class=\"main-content usa-layout-docs usa-section\" data-pagetype=\"Standard Page\" id=\"main-content\">"
+        },
+        {
+          "target": [
+            "#uij-e111"
+          ],
+          "selector": "#uij-e111",
+          "bbox": null,
+          "html": "<div class=\"grid-container\" id=\"uij-e111\">"
+        },
+        {
+          "target": [
+            "#uij-e112"
+          ],
+          "selector": "#uij-e112",
+          "bbox": null,
+          "html": "<div class=\"grid-row breadcrumb-spacing\" id=\"uij-e112\">"
+        },
+        {
+          "target": [
+            "#uij-e113"
+          ],
+          "selector": "#uij-e113",
+          "bbox": null,
+          "html": "<div id=\"uij-e113\">"
+        },
+        {
+          "target": [
+            "#block-usagov-breadcrumbs"
+          ],
+          "selector": "#block-usagov-breadcrumbs",
+          "bbox": null,
+          "html": "<div class=\"settings-tray-editable block block-system block-system-breadcrumb-block\" data-drupal-settingstray=\"editable\" id=\"block-usagov-breadcrumbs\">"
+        },
+        {
+          "target": [
+            "#uij-e114"
+          ],
+          "selector": "#uij-e114",
+          "bbox": null,
+          "html": "<nav aria-label=\"Breadcrumb\" class=\"margin-top-neg-3 mobile-lg:margin-top-2 tablet:margin-top-neg-3 desktop:margin-top-0 margin-bottom-2\" id=\"uij-e114\">"
+        },
+        {
+          "target": [
+            "#uij-e115"
+          ],
+          "selector": "#uij-e115",
+          "bbox": null,
+          "html": "<ol class=\"usa-breadcrumb__list\" id=\"uij-e115\" itemscope=\"\" itemtype=\"http://schema.org/BreadcrumbList\">"
+        },
+        {
+          "target": [
+            "#uij-e116"
+          ],
+          "selector": "#uij-e116",
+          "bbox": null,
+          "html": "<li class=\"usa-breadcrumb__list-item\" id=\"uij-e116\" itemprop=\"itemListElement\" itemscope=\"\" itemtype=\"http://schema.org/ListItem\">"
+        },
+        {
+          "target": [
+            "#uij-e117"
+          ],
+          "selector": "#uij-e117",
+          "bbox": null,
+          "html": "<a class=\"usa-breadcrumb__link\" href=\"/\" id=\"uij-e117\" itemprop=\"item\">\n<span id=\"uij-e118\" itemprop=\"name\">Home</span>\n</a>"
+        },
+        {
+          "target": [
+            "#uij-e118"
+          ],
+          "selector": "#uij-e118",
+          "bbox": null,
+          "html": "<span id=\"uij-e118\" itemprop=\"name\">Home</span>"
+        },
+        {
+          "target": [
+            "#uij-e120"
+          ],
+          "selector": "#uij-e120",
+          "bbox": null,
+          "html": "<li class=\"usa-breadcrumb__list-item\" id=\"uij-e120\" itemprop=\"itemListElement\" itemscope=\"\" itemtype=\"http://schema.org/ListItem\">"
+        },
+        {
+          "target": [
+            "#uij-e121"
+          ],
+          "selector": "#uij-e121",
+          "bbox": null,
+          "html": "<a class=\"usa-breadcrumb__link\" href=\"/voting-and-elections\" id=\"uij-e121\" itemprop=\"item\">\n<span id=\"uij-e122\" itemprop=\"name\">Voting and elections</span>\n</a>"
+        },
+        {
+          "target": [
+            "#uij-e122"
+          ],
+          "selector": "#uij-e122",
+          "bbox": null,
+          "html": "<span id=\"uij-e122\" itemprop=\"name\">Voting and elections</span>"
+        },
+        {
+          "target": [
+            "#uij-e124"
+          ],
+          "selector": "#uij-e124",
+          "bbox": null,
+          "html": "<li class=\"usa-breadcrumb__list-item\" id=\"uij-e124\" itemprop=\"itemListElement\" itemscope=\"\" itemtype=\"http://schema.org/ListItem\">"
+        },
+        {
+          "target": [
+            "#uij-e125"
+          ],
+          "selector": "#uij-e125",
+          "bbox": null,
+          "html": "<a class=\"usa-breadcrumb__link\" href=\"/voter-registration\" id=\"uij-e125\" itemprop=\"item\">\n<span id=\"uij-e126\" itemprop=\"name\">Voter registration</span>\n</a>"
+        },
+        {
+          "target": [
+            "#uij-e126"
+          ],
+          "selector": "#uij-e126",
+          "bbox": null,
+          "html": "<span id=\"uij-e126\" itemprop=\"name\">Voter registration</span>"
+        },
+        {
+          "target": [
+            "#uij-e128"
+          ],
+          "selector": "#uij-e128",
+          "bbox": null,
+          "html": "<li class=\"usa-breadcrumb__list-item usa-breadcrumb__currrent\" id=\"uij-e128\" itemprop=\"itemListElement\" itemscope=\"\" itemtype=\"http://schema.org/ListItem\"> <span id=\"uij-e129\" itemprop=\"name\">Register"
+        },
+        {
+          "target": [
+            "#uij-e129"
+          ],
+          "selector": "#uij-e129",
+          "bbox": null,
+          "html": "<span id=\"uij-e129\" itemprop=\"name\">Register to vote</span>"
+        },
+        {
+          "target": [
+            "#uij-e131"
+          ],
+          "selector": "#uij-e131",
+          "bbox": null,
+          "html": "<div class=\"\" id=\"uij-e131\">\n<div class=\"hidden\" data-drupal-messages-fallback=\"\" id=\"uij-e132\"></div>\n</div>"
+        },
+        {
+          "target": [
+            "#uij-e133"
+          ],
+          "selector": "#uij-e133",
+          "bbox": null,
+          "html": "<div class=\"grid-row grid-gap\" id=\"uij-e133\">"
+        },
+        {
+          "target": [
+            "#uij-e134"
+          ],
+          "selector": "#uij-e134",
+          "bbox": null,
+          "html": "<aside class=\"usa-layout-docs__sidenav desktop:grid-col-4 layout-sidebar-first\" id=\"uij-e134\">"
+        },
+        {
+          "target": [
+            "#block-usagov-leftmenusidebarblock"
+          ],
+          "selector": "#block-usagov-leftmenusidebarblock",
+          "bbox": null,
+          "html": "<div class=\"settings-tray-editable block block-usagov-menus block-usagov-sidebarfirst-block\" data-drupal-settingstray=\"editable\" id=\"block-usagov-leftmenusidebarblock\">"
+        },
+        {
+          "target": [
+            "#uij-e135"
+          ],
+          "selector": "#uij-e135",
+          "bbox": null,
+          "html": "<nav aria-label=\"Secondary\" id=\"uij-e135\">"
+        },
+        {
+          "target": [
+            "#uij-e136"
+          ],
+          "selector": "#uij-e136",
+          "bbox": null,
+          "html": "<ul class=\"usa-sidenav\" id=\"uij-e136\">"
+        },
+        {
+          "target": [
+            "#uij-e137"
+          ],
+          "selector": "#uij-e137",
+          "bbox": null,
+          "html": "<li class=\"usa-sidenav__item\" id=\"uij-e137\">"
+        },
+        {
+          "target": [
+            "#uij-e138"
+          ],
+          "selector": "#uij-e138",
+          "bbox": null,
+          "html": "<a class=\"active-trail\" href=\"/voting-and-elections\" id=\"uij-e138\">\n        Voting and elections\n      </a>"
+        },
+        {
+          "target": [
+            "#uij-e139"
+          ],
+          "selector": "#uij-e139",
+          "bbox": null,
+          "html": "<ul class=\"usa-sidenav__sublist\" id=\"uij-e139\">"
+        },
+        {
+          "target": [
+            "#uij-e140"
+          ],
+          "selector": "#uij-e140",
+          "bbox": null,
+          "html": "<li class=\"usa-sidenav__item\" id=\"uij-e140\">"
+        },
+        {
+          "target": [
+            "#uij-e141"
+          ],
+          "selector": "#uij-e141",
+          "bbox": null,
+          "html": "<a class=\"active-trail\" href=\"/voter-registration\" id=\"uij-e141\">\n        Voter registration\n      </a>"
+        },
+        {
+          "target": [
+            "#uij-e142"
+          ],
+          "selector": "#uij-e142",
+          "bbox": null,
+          "html": "<ul class=\"usa-sidenav__sublist\" id=\"uij-e142\">"
+        },
+        {
+          "target": [
+            "#uij-e143"
+          ],
+          "selector": "#uij-e143",
+          "bbox": null,
+          "html": "<li class=\"usa-sidenav__item\" id=\"uij-e143\">\n<div class=\"active-trail usa-current\" id=\"uij-e144\">\n<p class=\"usa-sr-only\" id=\"uij-e145\">current page</p>\n        Register to vote\n      </div>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e144"
+          ],
+          "selector": "#uij-e144",
+          "bbox": null,
+          "html": "<div class=\"active-trail usa-current\" id=\"uij-e144\">\n<p class=\"usa-sr-only\" id=\"uij-e145\">current page</p>\n        Register to vote\n      </div>"
+        },
+        {
+          "target": [
+            "#uij-e145"
+          ],
+          "selector": "#uij-e145",
+          "bbox": null,
+          "html": "<p class=\"usa-sr-only\" id=\"uij-e145\">current page</p>"
+        },
+        {
+          "target": [
+            "#uij-e146"
+          ],
+          "selector": "#uij-e146",
+          "bbox": null,
+          "html": "<li class=\"usa-sidenav__item\" id=\"uij-e146\">\n<a href=\"/change-voter-registration\" id=\"uij-e147\">\n        Change your voter registration\n      </a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e147"
+          ],
+          "selector": "#uij-e147",
+          "bbox": null,
+          "html": "<a href=\"/change-voter-registration\" id=\"uij-e147\">\n        Change your voter registration\n      </a>"
+        },
+        {
+          "target": [
+            "#uij-e148"
+          ],
+          "selector": "#uij-e148",
+          "bbox": null,
+          "html": "<li class=\"usa-sidenav__item\" id=\"uij-e148\">\n<a href=\"/confirm-voter-registration\" id=\"uij-e149\">\n        Confirm your voter registration\n      </a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e149"
+          ],
+          "selector": "#uij-e149",
+          "bbox": null,
+          "html": "<a href=\"/confirm-voter-registration\" id=\"uij-e149\">\n        Confirm your voter registration\n      </a>"
+        },
+        {
+          "target": [
+            "#uij-e150"
+          ],
+          "selector": "#uij-e150",
+          "bbox": null,
+          "html": "<li class=\"usa-sidenav__item\" id=\"uij-e150\">\n<a href=\"/voter-registration-card\" id=\"uij-e151\">\n        Voter registration card\n      </a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e151"
+          ],
+          "selector": "#uij-e151",
+          "bbox": null,
+          "html": "<a href=\"/voter-registration-card\" id=\"uij-e151\">\n        Voter registration card\n      </a>"
+        },
+        {
+          "target": [
+            "#uij-e152"
+          ],
+          "selector": "#uij-e152",
+          "bbox": null,
+          "html": "<li class=\"usa-sidenav__item\" id=\"uij-e152\">\n<a href=\"/voter-registration-deadlines\" id=\"uij-e153\">\n        Voter registration deadlines\n      </a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e153"
+          ],
+          "selector": "#uij-e153",
+          "bbox": null,
+          "html": "<a href=\"/voter-registration-deadlines\" id=\"uij-e153\">\n        Voter registration deadlines\n      </a>"
+        },
+        {
+          "target": [
+            "#uij-e154"
+          ],
+          "selector": "#uij-e154",
+          "bbox": null,
+          "html": "<li class=\"usa-sidenav__item\" id=\"uij-e154\">\n<a href=\"/how-to-vote\" id=\"uij-e155\">\n        How, when, and where to vote\n      </a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e155"
+          ],
+          "selector": "#uij-e155",
+          "bbox": null,
+          "html": "<a href=\"/how-to-vote\" id=\"uij-e155\">\n        How, when, and where to vote\n      </a>"
+        },
+        {
+          "target": [
+            "#uij-e156"
+          ],
+          "selector": "#uij-e156",
+          "bbox": null,
+          "html": "<li class=\"usa-sidenav__item\" id=\"uij-e156\">\n<a href=\"/voter-research\" id=\"uij-e157\">\n        Decide who to vote for\n      </a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e157"
+          ],
+          "selector": "#uij-e157",
+          "bbox": null,
+          "html": "<a href=\"/voter-research\" id=\"uij-e157\">\n        Decide who to vote for\n      </a>"
+        },
+        {
+          "target": [
+            "#uij-e158"
+          ],
+          "selector": "#uij-e158",
+          "bbox": null,
+          "html": "<li class=\"usa-sidenav__item\" id=\"uij-e158\">\n<a href=\"/state-election-office\" id=\"uij-e159\">\n        Find my state or local election office\n      </a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e159"
+          ],
+          "selector": "#uij-e159",
+          "bbox": null,
+          "html": "<a href=\"/state-election-office\" id=\"uij-e159\">\n        Find my state or local election office\n      </a>"
+        },
+        {
+          "target": [
+            "#uij-e160"
+          ],
+          "selector": "#uij-e160",
+          "bbox": null,
+          "html": "<li class=\"usa-sidenav__item\" id=\"uij-e160\">\n<a href=\"/midterm-state-and-local-elections\" id=\"uij-e161\">\n        Congressional, state, and local elections\n      </a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e161"
+          ],
+          "selector": "#uij-e161",
+          "bbox": null,
+          "html": "<a href=\"/midterm-state-and-local-elections\" id=\"uij-e161\">\n        Congressional, state, and local elections\n      </a>"
+        },
+        {
+          "target": [
+            "#uij-e162"
+          ],
+          "selector": "#uij-e162",
+          "bbox": null,
+          "html": "<li class=\"usa-sidenav__item\" id=\"uij-e162\">\n<a href=\"/voting-laws\" id=\"uij-e163\">\n        Voting and election laws\n      </a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e163"
+          ],
+          "selector": "#uij-e163",
+          "bbox": null,
+          "html": "<a href=\"/voting-laws\" id=\"uij-e163\">\n        Voting and election laws\n      </a>"
+        },
+        {
+          "target": [
+            "#uij-e164"
+          ],
+          "selector": "#uij-e164",
+          "bbox": null,
+          "html": "<li class=\"usa-sidenav__item\" id=\"uij-e164\">\n<a href=\"/election\" id=\"uij-e165\">\n        How the president is elected\n      </a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e165"
+          ],
+          "selector": "#uij-e165",
+          "bbox": null,
+          "html": "<a href=\"/election\" id=\"uij-e165\">\n        How the president is elected\n      </a>"
+        },
+        {
+          "target": [
+            "#uij-e166"
+          ],
+          "selector": "#uij-e166",
+          "bbox": null,
+          "html": "<li class=\"usa-sidenav__item\" id=\"uij-e166\">\n<a href=\"/inauguration\" id=\"uij-e167\">\n        Inauguration of the president\n      </a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e167"
+          ],
+          "selector": "#uij-e167",
+          "bbox": null,
+          "html": "<a href=\"/inauguration\" id=\"uij-e167\">\n        Inauguration of the president\n      </a>"
+        },
+        {
+          "target": [
+            "#uij-e168"
+          ],
+          "selector": "#uij-e168",
+          "bbox": null,
+          "html": "<li class=\"usa-sidenav__item\" id=\"uij-e168\">\n<a href=\"/election-results\" id=\"uij-e169\">\n        Results of past elections\n      </a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e169"
+          ],
+          "selector": "#uij-e169",
+          "bbox": null,
+          "html": "<a href=\"/election-results\" id=\"uij-e169\">\n        Results of past elections\n      </a>"
+        },
+        {
+          "target": [
+            "#uij-e170"
+          ],
+          "selector": "#uij-e170",
+          "bbox": null,
+          "html": "<div class=\"usa-layout-docs__main usa-prose desktop:grid-col-8\" id=\"uij-e170\">"
+        },
+        {
+          "target": [
+            "#skip-to-h1"
+          ],
+          "selector": "#skip-to-h1",
+          "bbox": null,
+          "html": "<h1 class=\"text-red-50\" id=\"skip-to-h1\">\n<span id=\"uij-e171\">How to register to vote</span>\n</h1>"
+        },
+        {
+          "target": [
+            "#uij-e171"
+          ],
+          "selector": "#uij-e171",
+          "bbox": null,
+          "html": "<span id=\"uij-e171\">How to register to vote</span>"
+        },
+        {
+          "target": [
+            "#block-usagov-content"
+          ],
+          "selector": "#block-usagov-content",
+          "bbox": null,
+          "html": "<div class=\"block block-system block-system-main-block\" id=\"block-usagov-content\">"
+        },
+        {
+          "target": [
+            "#uij-e172"
+          ],
+          "selector": "#uij-e172",
+          "bbox": null,
+          "html": "<div class=\"content-wrapper\" id=\"uij-e172\">"
+        },
+        {
+          "target": [
+            "#uij-e173"
+          ],
+          "selector": "#uij-e173",
+          "bbox": null,
+          "html": "<div class=\"usa-prose\" id=\"uij-e173\">\n<p class=\"usa-intro font-serif-md\" id=\"uij-e174\">\n            Learn how to register so you can vote in federal, state, and local elections.\n        </p>\n</div>"
+        },
+        {
+          "target": [
+            "#uij-e174"
+          ],
+          "selector": "#uij-e174",
+          "bbox": null,
+          "html": "<p class=\"usa-intro font-serif-md\" id=\"uij-e174\">\n            Learn how to register so you can vote in federal, state, and local elections.\n        </p>"
+        },
+        {
+          "target": [
+            "#uij-e175"
+          ],
+          "selector": "#uij-e175",
+          "bbox": null,
+          "html": "<div class=\"usa-prose body-copy\" id=\"uij-e175\">"
+        },
+        {
+          "target": [
+            "#uij-e176"
+          ],
+          "selector": "#uij-e176",
+          "bbox": null,
+          "html": "<h2 id=\"uij-e176\"><strong id=\"uij-e177\">Register through vote.gov</strong></h2>"
+        },
+        {
+          "target": [
+            "#uij-e177"
+          ],
+          "selector": "#uij-e177",
+          "bbox": null,
+          "html": "<strong id=\"uij-e177\">Register through vote.gov</strong>"
+        },
+        {
+          "target": [
+            "#uij-e178"
+          ],
+          "selector": "#uij-e178",
+          "bbox": null,
+          "html": "<p id=\"uij-e178\">Visit vote.gov to begin the voter registration process. Select your state or territory. Depending on its rules, you will find instructions on how to register:</p>"
+        },
+        {
+          "target": [
+            "#uij-e179"
+          ],
+          "selector": "#uij-e179",
+          "bbox": null,
+          "html": "<ul id=\"uij-e179\"><li id=\"uij-e180\">Online</li><li id=\"uij-e181\">By mail</li><li id=\"uij-e182\">In person at your local election office</li></ul>"
+        },
+        {
+          "target": [
+            "#uij-e180"
+          ],
+          "selector": "#uij-e180",
+          "bbox": null,
+          "html": "<li id=\"uij-e180\">Online</li>"
+        },
+        {
+          "target": [
+            "#uij-e181"
+          ],
+          "selector": "#uij-e181",
+          "bbox": null,
+          "html": "<li id=\"uij-e181\">By mail</li>"
+        },
+        {
+          "target": [
+            "#uij-e182"
+          ],
+          "selector": "#uij-e182",
+          "bbox": null,
+          "html": "<li id=\"uij-e182\">In person at your local election office</li>"
+        },
+        {
+          "target": [
+            "#uij-e183"
+          ],
+          "selector": "#uij-e183",
+          "bbox": null,
+          "html": "<p id=\"uij-e183\"><a class=\"usa-button usa-button--secondary usa-button--big\" href=\"https://vote.gov/\" id=\"uij-e184\">Start your registration on vote.gov</a></p>"
+        },
+        {
+          "target": [
+            "#uij-e184"
+          ],
+          "selector": "#uij-e184",
+          "bbox": null,
+          "html": "<a class=\"usa-button usa-button--secondary usa-button--big\" href=\"https://vote.gov/\" id=\"uij-e184\">Start your registration on vote.gov</a>"
+        },
+        {
+          "target": [
+            "#uij-e185"
+          ],
+          "selector": "#uij-e185",
+          "bbox": null,
+          "html": "<h2 id=\"uij-e185\">Other ways to register to vote</h2>"
+        },
+        {
+          "target": [
+            "#uij-e186"
+          ],
+          "selector": "#uij-e186",
+          "bbox": null,
+          "html": "<ul id=\"uij-e186\">"
+        },
+        {
+          "target": [
+            "#uij-e187"
+          ],
+          "selector": "#uij-e187",
+          "bbox": null,
+          "html": "<li id=\"uij-e187\">"
+        },
+        {
+          "target": [
+            "#uij-e188"
+          ],
+          "selector": "#uij-e188",
+          "bbox": null,
+          "html": "<a href=\"https://www.eac.gov/voters/national-mail-voter-registration-form\" id=\"uij-e188\">Download the National Mail Voter Registration Form.</a>"
+        },
+        {
+          "target": [
+            "#uij-e189"
+          ],
+          "selector": "#uij-e189",
+          "bbox": null,
+          "html": "<li id=\"uij-e189\">"
+        },
+        {
+          "target": [
+            "#uij-e190"
+          ],
+          "selector": "#uij-e190",
+          "bbox": null,
+          "html": "<ul id=\"uij-e190\">"
+        },
+        {
+          "target": [
+            "#uij-e191"
+          ],
+          "selector": "#uij-e191",
+          "bbox": null,
+          "html": "<li id=\"uij-e191\"><a href=\"/state-motor-vehicle-services\" id=\"uij-e192\">Find your&nbsp;department of motor vehicles&nbsp;office.</a></li>"
+        },
+        {
+          "target": [
+            "#uij-e192"
+          ],
+          "selector": "#uij-e192",
+          "bbox": null,
+          "html": "<a href=\"/state-motor-vehicle-services\" id=\"uij-e192\">Find your&nbsp;department of motor vehicles&nbsp;office.</a>"
+        },
+        {
+          "target": [
+            "#uij-e193"
+          ],
+          "selector": "#uij-e193",
+          "bbox": null,
+          "html": "<li id=\"uij-e193\">Contact state and county public assistance offices such as <a href=\"https://www.fns.usda.gov/snap/state-directory\" id=\"uij-e194\">SNAP/food stamps</a>.</li>"
+        },
+        {
+          "target": [
+            "#uij-e194"
+          ],
+          "selector": "#uij-e194",
+          "bbox": null,
+          "html": "<a href=\"https://www.fns.usda.gov/snap/state-directory\" id=\"uij-e194\">SNAP/food stamps</a>"
+        },
+        {
+          "target": [
+            "#uij-e195"
+          ],
+          "selector": "#uij-e195",
+          "bbox": null,
+          "html": "<h2 id=\"uij-e195\">Abroad and military voters</h2>"
+        },
+        {
+          "target": [
+            "#uij-e196"
+          ],
+          "selector": "#uij-e196",
+          "bbox": null,
+          "html": "<p id=\"uij-e196\">The Federal Voting Assistance Program lets you <a href=\"https://www.fvap.gov/fpca-privacy-notice\" id=\"uij-e197\">register to vote and request an absentee ballot</a> if you are a:</p>"
+        },
+        {
+          "target": [
+            "#uij-e197"
+          ],
+          "selector": "#uij-e197",
+          "bbox": null,
+          "html": "<a href=\"https://www.fvap.gov/fpca-privacy-notice\" id=\"uij-e197\">register to vote and request an absentee ballot</a>"
+        },
+        {
+          "target": [
+            "#uij-e198"
+          ],
+          "selector": "#uij-e198",
+          "bbox": null,
+          "html": "<ul id=\"uij-e198\"><li id=\"uij-e199\">U.S. citizen living outside the U.S.</li><li id=\"uij-e200\">Service member stationed abroad</li><li id=\"uij-e201\">Spouse or eligible family member of a service membe"
+        },
+        {
+          "target": [
+            "#uij-e199"
+          ],
+          "selector": "#uij-e199",
+          "bbox": null,
+          "html": "<li id=\"uij-e199\">U.S. citizen living outside the U.S.</li>"
+        },
+        {
+          "target": [
+            "#uij-e200"
+          ],
+          "selector": "#uij-e200",
+          "bbox": null,
+          "html": "<li id=\"uij-e200\">Service member stationed abroad</li>"
+        },
+        {
+          "target": [
+            "#uij-e201"
+          ],
+          "selector": "#uij-e201",
+          "bbox": null,
+          "html": "<li id=\"uij-e201\">Spouse or eligible family member of a service member stationed abroad</li>"
+        },
+        {
+          "target": [
+            "#uij-e202"
+          ],
+          "selector": "#uij-e202",
+          "bbox": null,
+          "html": "<h2 id=\"uij-e202\"><strong id=\"uij-e203\">What documents do you need to register to vote?</strong></h2>"
+        },
+        {
+          "target": [
+            "#uij-e203"
+          ],
+          "selector": "#uij-e203",
+          "bbox": null,
+          "html": "<strong id=\"uij-e203\">What documents do you need to register to vote?</strong>"
+        },
+        {
+          "target": [
+            "#uij-e204"
+          ],
+          "selector": "#uij-e204",
+          "bbox": null,
+          "html": "<p id=\"uij-e204\">"
+        },
+        {
+          "target": [
+            "#uij-e205"
+          ],
+          "selector": "#uij-e205",
+          "bbox": null,
+          "html": "<a href=\"/state-election-office\" id=\"uij-e205\">Check with your state’s election office to find out what documentation they accept.</a>"
+        },
+        {
+          "target": [
+            "#block-views-block-wizard-step-test-block-1"
+          ],
+          "selector": "#block-views-block-wizard-step-test-block-1",
+          "bbox": null,
+          "html": "<div class=\"views-element-container settings-tray-editable block block-views block-views-blockwizard-step-test-block-1\" data-drupal-settingstray=\"editable\" id=\"block-views-block-wizard-step-test-block"
+        },
+        {
+          "target": [
+            "#uij-e206"
+          ],
+          "selector": "#uij-e206",
+          "bbox": null,
+          "html": "<div id=\"uij-e206\"><div class=\"js-view-dom-id-d3792fa1526062f5de59e4378992da08b0c4fb5afd56dda9f31acf886f43295f\" id=\"uij-e207\">\n</div>\n</div>"
+        },
+        {
+          "target": [
+            "#uij-e207"
+          ],
+          "selector": "#uij-e207",
+          "bbox": null,
+          "html": "<div class=\"js-view-dom-id-d3792fa1526062f5de59e4378992da08b0c4fb5afd56dda9f31acf886f43295f\" id=\"uij-e207\">\n</div>"
+        },
+        {
+          "target": [
+            "#uij-e208"
+          ],
+          "selector": "#uij-e208",
+          "bbox": null,
+          "html": "<div class=\"additional_body_info\" id=\"uij-e208\">"
+        },
+        {
+          "target": [
+            "#last-updated"
+          ],
+          "selector": "#last-updated",
+          "bbox": null,
+          "html": "<p id=\"last-updated\">LAST UPDATED: \n                                                                                      July 15, 2026\n\n                  </p>"
+        },
+        {
+          "target": [
+            "#sm-share"
+          ],
+          "selector": "#sm-share",
+          "bbox": null,
+          "html": "<div id=\"sm-share\">"
+        },
+        {
+          "target": [
+            "#share-page"
+          ],
+          "selector": "#share-page",
+          "bbox": null,
+          "html": "<span id=\"share-page\">SHARE THIS PAGE:</span>"
+        },
+        {
+          "target": [
+            "#uij-e209"
+          ],
+          "selector": "#uij-e209",
+          "bbox": null,
+          "html": "<div class=\"share-icons\" id=\"uij-e209\">"
+        },
+        {
+          "target": [
+            "#uij-e210"
+          ],
+          "selector": "#uij-e210",
+          "bbox": null,
+          "html": "<a aria-labelledby=\"share-page fb\" href=\"https://www.facebook.com/sharer/sharer.php?u=https://www.usa.gov/register-to-vote&amp;v=3\" id=\"uij-e210\">"
+        },
+        {
+          "target": [
+            "#uij-e211"
+          ],
+          "selector": "#uij-e211",
+          "bbox": null,
+          "html": "<div class=\"share-icon-div\" id=\"uij-e211\">"
+        },
+        {
+          "target": [
+            "#fb"
+          ],
+          "selector": "#fb",
+          "bbox": null,
+          "html": "<img alt=\"Facebook\" class=\"share-icon\" id=\"fb\" src=\"data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDI3LjQuMSwgU1ZHIEV4cG9ydC"
+        },
+        {
+          "target": [
+            "#uij-e212"
+          ],
+          "selector": "#uij-e212",
+          "bbox": null,
+          "html": "<a aria-labelledby=\"share-page twr\" href=\"https://x.com/intent/post?url=https%3A%2F%2Fwww.usa.gov%2Fregister-to-vote\" id=\"uij-e212\">"
+        },
+        {
+          "target": [
+            "#uij-e213"
+          ],
+          "selector": "#uij-e213",
+          "bbox": null,
+          "html": "<div class=\"share-icon-div\" id=\"uij-e213\">"
+        },
+        {
+          "target": [
+            "#twr"
+          ],
+          "selector": "#twr",
+          "bbox": null,
+          "html": "<img alt=\"X Twitter USAGov\" class=\"share-icon\" id=\"twr\" src=\"data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyAgcm9sZT0iaW1nIiBhcmlhLWxhYmVsbGVkYnk9Imljb25Ud2l0dGVyV"
+        },
+        {
+          "target": [
+            "#uij-e214"
+          ],
+          "selector": "#uij-e214",
+          "bbox": null,
+          "html": "<a aria-labelledby=\"share-page em\" href=\"mailto:?subject=https://www.usa.gov/register-to-vote\" id=\"uij-e214\">"
+        },
+        {
+          "target": [
+            "#uij-e215"
+          ],
+          "selector": "#uij-e215",
+          "bbox": null,
+          "html": "<div class=\"share-icon-div\" id=\"uij-e215\">"
+        },
+        {
+          "target": [
+            "#em"
+          ],
+          "selector": "#em",
+          "bbox": null,
+          "html": "<img alt=\"Email\" class=\"share-icon\" id=\"em\" src=\"data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDI3LjQuMSwgU1ZHIEV4cG9ydCBQb"
+        },
+        {
+          "target": [
+            "#uij-e216"
+          ],
+          "selector": "#uij-e216",
+          "bbox": null,
+          "html": "<div class=\"border-top-05 border-base-lightest\" id=\"uij-e216\"></div>"
+        },
+        {
+          "target": [
+            "#uij-e217"
+          ],
+          "selector": "#uij-e217",
+          "bbox": null,
+          "html": "<div id=\"uij-e217\">"
+        },
+        {
+          "target": [
+            "#question-box"
+          ],
+          "selector": "#question-box",
+          "bbox": null,
+          "html": "<div data-contact-callout=\"visible\" id=\"question-box\">"
+        },
+        {
+          "target": [
+            "#uij-e218"
+          ],
+          "selector": "#uij-e218",
+          "bbox": null,
+          "html": "<div class=\"usa-prose border-left-1 padding-left-205 border-cyan-10 margin-top-8 margin-bottom-9 padding-bottom-2\" id=\"uij-e218\">"
+        },
+        {
+          "target": [
+            "#uij-e219"
+          ],
+          "selector": "#uij-e219",
+          "bbox": null,
+          "html": "<h2 class=\"font-family-heading margin-top-0\" id=\"uij-e219\">\n         Have a question?\n      </h2>"
+        },
+        {
+          "target": [
+            "#uij-e220"
+          ],
+          "selector": "#uij-e220",
+          "bbox": null,
+          "html": "<p id=\"uij-e220\">Ask a real person any government-related question for free. They will get you the answer or let you know where to find it.</p>"
+        },
+        {
+          "target": [
+            "#uij-e221"
+          ],
+          "selector": "#uij-e221",
+          "bbox": null,
+          "html": "<div class=\"grid-row grid-gap\" id=\"uij-e221\">"
+        },
+        {
+          "target": [
+            "#uij-e222"
+          ],
+          "selector": "#uij-e222",
+          "bbox": null,
+          "html": "<div class=\"tablet:grid-col-4 margin-bottom-2\" id=\"uij-e222\">"
+        },
+        {
+          "target": [
+            "#uij-e223"
+          ],
+          "selector": "#uij-e223",
+          "bbox": null,
+          "html": "<a class=\"question-icon\" href=\"/phone\" id=\"uij-e223\">"
+        },
+        {
+          "target": [
+            "#uij-e224"
+          ],
+          "selector": "#uij-e224",
+          "bbox": null,
+          "html": "<img alt=\"talk icon\" class=\"chat-icon\" id=\"uij-e224\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKsAAACoCAYAAACffB63AAAACXBIWXMAAC4jAAAuIwF4pT92AAANzklEQVR4nO2dX4gdVx3HT6UgJIVEkqoc027EPymkmEUf"
+        },
+        {
+          "target": [
+            "#pagesurvey-qual-container"
+          ],
+          "selector": "#pagesurvey-qual-container",
+          "bbox": null,
+          "html": "<div id=\"pagesurvey-qual-container\"></div>"
+        },
+        {
+          "target": [
+            "#back-to-top"
+          ],
+          "selector": "#back-to-top",
+          "bbox": null,
+          "html": "<a aria-label=\"Back to top\" href=\"#main-content\" id=\"back-to-top\">\n\t\t\tTop\n\t\t</a>"
+        },
+        {
+          "target": [
+            "#uij-e228"
+          ],
+          "selector": "#uij-e228",
+          "bbox": null,
+          "html": "<footer class=\"usa-footer usa-footer--big\" id=\"uij-e228\">"
+        },
+        {
+          "target": [
+            "#uij-e229"
+          ],
+          "selector": "#uij-e229",
+          "bbox": null,
+          "html": "<div class=\"usa-footer__primary-section\" id=\"uij-e229\">"
+        },
+        {
+          "target": [
+            "#uij-e230"
+          ],
+          "selector": "#uij-e230",
+          "bbox": null,
+          "html": "<div class=\"grid-container\" id=\"uij-e230\">"
+        },
+        {
+          "target": [
+            "#uij-e231"
+          ],
+          "selector": "#uij-e231",
+          "bbox": null,
+          "html": "<div class=\"grid-row grid-gap\" id=\"uij-e231\">"
+        },
+        {
+          "target": [
+            "#uij-e232"
+          ],
+          "selector": "#uij-e232",
+          "bbox": null,
+          "html": "<div class=\"tablet:grid-col-12\" id=\"uij-e232\">"
+        },
+        {
+          "target": [
+            "#uij-e233"
+          ],
+          "selector": "#uij-e233",
+          "bbox": null,
+          "html": "<nav aria-label=\"Footer navigation\" class=\"usa-footer__nav\" id=\"uij-e233\">"
+        },
+        {
+          "target": [
+            "#uij-e234"
+          ],
+          "selector": "#uij-e234",
+          "bbox": null,
+          "html": "<div class=\"grid-row grid-gap-4\" id=\"uij-e234\">"
+        },
+        {
+          "target": [
+            "#uij-e235"
+          ],
+          "selector": "#uij-e235",
+          "bbox": null,
+          "html": "<div class=\"mobile-lg:grid-col-6 desktop:grid-col-3\" id=\"uij-e235\">"
+        },
+        {
+          "target": [
+            "#uij-e236"
+          ],
+          "selector": "#uij-e236",
+          "bbox": null,
+          "html": "<section class=\"usa-footer__primary-content usa-footer__primary-content--collapsible\" id=\"uij-e236\">"
+        },
+        {
+          "target": [
+            "#uij-e237"
+          ],
+          "selector": "#uij-e237",
+          "bbox": null,
+          "html": "<h3 class=\"usa-gov-footer__primary-link\" id=\"uij-e237\">Government information</h3>"
+        },
+        {
+          "target": [
+            "#uij-e238"
+          ],
+          "selector": "#uij-e238",
+          "bbox": null,
+          "html": "<ul class=\"usa-list usa-list--unstyled\" id=\"uij-e238\">"
+        },
+        {
+          "target": [
+            "#uij-e239"
+          ],
+          "selector": "#uij-e239",
+          "bbox": null,
+          "html": "<li class=\"usa-footer__secondary-link\" id=\"uij-e239\">\n<a href=\"/#all-topics-header\" id=\"uij-e240\">All topics and services</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e240"
+          ],
+          "selector": "#uij-e240",
+          "bbox": null,
+          "html": "<a href=\"/#all-topics-header\" id=\"uij-e240\">All topics and services</a>"
+        },
+        {
+          "target": [
+            "#uij-e241"
+          ],
+          "selector": "#uij-e241",
+          "bbox": null,
+          "html": "<li class=\"usa-footer__secondary-link\" id=\"uij-e241\">\n<a href=\"/agency-index\" id=\"uij-e242\">Directory of U.S. government agencies and departments</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e242"
+          ],
+          "selector": "#uij-e242",
+          "bbox": null,
+          "html": "<a href=\"/agency-index\" id=\"uij-e242\">Directory of U.S. government agencies and departments</a>"
+        },
+        {
+          "target": [
+            "#uij-e243"
+          ],
+          "selector": "#uij-e243",
+          "bbox": null,
+          "html": "<li class=\"usa-footer__secondary-link\" id=\"uij-e243\">\n<a href=\"/branches-of-government\" id=\"uij-e244\">Branches of government</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e244"
+          ],
+          "selector": "#uij-e244",
+          "bbox": null,
+          "html": "<a href=\"/branches-of-government\" id=\"uij-e244\">Branches of government</a>"
+        },
+        {
+          "target": [
+            "#uij-e245"
+          ],
+          "selector": "#uij-e245",
+          "bbox": null,
+          "html": "<div class=\"mobile-lg:grid-col-6 desktop:grid-col-3\" id=\"uij-e245\">"
+        },
+        {
+          "target": [
+            "#uij-e246"
+          ],
+          "selector": "#uij-e246",
+          "bbox": null,
+          "html": "<section class=\"usa-footer__primary-content usa-footer__primary-content--collapsible\" id=\"uij-e246\">"
+        },
+        {
+          "target": [
+            "#uij-e247"
+          ],
+          "selector": "#uij-e247",
+          "bbox": null,
+          "html": "<h3 class=\"usa-gov-footer__primary-link\" id=\"uij-e247\">About us</h3>"
+        },
+        {
+          "target": [
+            "#uij-e248"
+          ],
+          "selector": "#uij-e248",
+          "bbox": null,
+          "html": "<ul class=\"usa-list usa-list--unstyled\" id=\"uij-e248\">"
+        },
+        {
+          "target": [
+            "#uij-e249"
+          ],
+          "selector": "#uij-e249",
+          "bbox": null,
+          "html": "<li class=\"usa-footer__secondary-link\" id=\"uij-e249\">\n<a href=\"/about\" id=\"uij-e250\">About USAGov</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e250"
+          ],
+          "selector": "#uij-e250",
+          "bbox": null,
+          "html": "<a href=\"/about\" id=\"uij-e250\">About USAGov</a>"
+        },
+        {
+          "target": [
+            "#uij-e251"
+          ],
+          "selector": "#uij-e251",
+          "bbox": null,
+          "html": "<li class=\"usa-footer__secondary-link\" id=\"uij-e251\">\n<a href=\"/site-issue-report-form\" id=\"uij-e252\">Report a website issue</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e252"
+          ],
+          "selector": "#uij-e252",
+          "bbox": null,
+          "html": "<a href=\"/site-issue-report-form\" id=\"uij-e252\">Report a website issue</a>"
+        },
+        {
+          "target": [
+            "#uij-e253"
+          ],
+          "selector": "#uij-e253",
+          "bbox": null,
+          "html": "<li class=\"usa-footer__secondary-link\" id=\"uij-e253\">\n<a href=\"/website-analytics/\" id=\"uij-e254\">Website usage data</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e254"
+          ],
+          "selector": "#uij-e254",
+          "bbox": null,
+          "html": "<a href=\"/website-analytics/\" id=\"uij-e254\">Website usage data</a>"
+        },
+        {
+          "target": [
+            "#uij-e255"
+          ],
+          "selector": "#uij-e255",
+          "bbox": null,
+          "html": "<div class=\"mobile-lg:grid-col-6 desktop:grid-col-3\" id=\"uij-e255\">"
+        },
+        {
+          "target": [
+            "#uij-e256"
+          ],
+          "selector": "#uij-e256",
+          "bbox": null,
+          "html": "<section class=\"usa-footer__primary-content usa-footer__primary-content--collapsible\" id=\"uij-e256\">"
+        },
+        {
+          "target": [
+            "#uij-e257"
+          ],
+          "selector": "#uij-e257",
+          "bbox": null,
+          "html": "<h3 class=\"usa-gov-footer__primary-link\" id=\"uij-e257\">For federal agencies</h3>"
+        },
+        {
+          "target": [
+            "#uij-e258"
+          ],
+          "selector": "#uij-e258",
+          "bbox": null,
+          "html": "<ul class=\"usa-list usa-list--unstyled\" id=\"uij-e258\">\n<li class=\"usa-footer__secondary-link\" id=\"uij-e259\">\n<a href=\"/partner-with-usagov\" id=\"uij-e260\">Partner with us</a>\n</li>\n<li class=\"usa-foote"
+        },
+        {
+          "target": [
+            "#uij-e259"
+          ],
+          "selector": "#uij-e259",
+          "bbox": null,
+          "html": "<li class=\"usa-footer__secondary-link\" id=\"uij-e259\">\n<a href=\"/partner-with-usagov\" id=\"uij-e260\">Partner with us</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e260"
+          ],
+          "selector": "#uij-e260",
+          "bbox": null,
+          "html": "<a href=\"/partner-with-usagov\" id=\"uij-e260\">Partner with us</a>"
+        },
+        {
+          "target": [
+            "#uij-e261"
+          ],
+          "selector": "#uij-e261",
+          "bbox": null,
+          "html": "<li class=\"usa-footer__secondary-link\" id=\"uij-e261\">\n<a href=\"/blog\" id=\"uij-e262\">Read our blog</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e262"
+          ],
+          "selector": "#uij-e262",
+          "bbox": null,
+          "html": "<a href=\"/blog\" id=\"uij-e262\">Read our blog</a>"
+        },
+        {
+          "target": [
+            "#uij-e263"
+          ],
+          "selector": "#uij-e263",
+          "bbox": null,
+          "html": "<div class=\"mobile-lg:grid-col-6 desktop:grid-col-3\" id=\"uij-e263\">"
+        },
+        {
+          "target": [
+            "#uij-e264"
+          ],
+          "selector": "#uij-e264",
+          "bbox": null,
+          "html": "<section class=\"usa-footer__primary-content usa-footer__primary-content--collapsible\" id=\"uij-e264\">"
+        },
+        {
+          "target": [
+            "#uij-e265"
+          ],
+          "selector": "#uij-e265",
+          "bbox": null,
+          "html": "<h3 class=\"usa-gov-footer__primary-link\" id=\"uij-e265\">For media</h3>"
+        },
+        {
+          "target": [
+            "#uij-e266"
+          ],
+          "selector": "#uij-e266",
+          "bbox": null,
+          "html": "<ul class=\"usa-list usa-list--unstyled\" id=\"uij-e266\">\n<li class=\"usa-footer__secondary-link\" id=\"uij-e267\">\n<a href=\"/outreach\" id=\"uij-e268\">USAGov Outreach</a>\n</li>\n<li class=\"usa-footer__secondar"
+        },
+        {
+          "target": [
+            "#uij-e267"
+          ],
+          "selector": "#uij-e267",
+          "bbox": null,
+          "html": "<li class=\"usa-footer__secondary-link\" id=\"uij-e267\">\n<a href=\"/outreach\" id=\"uij-e268\">USAGov Outreach</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e268"
+          ],
+          "selector": "#uij-e268",
+          "bbox": null,
+          "html": "<a href=\"/outreach\" id=\"uij-e268\">USAGov Outreach</a>"
+        },
+        {
+          "target": [
+            "#uij-e269"
+          ],
+          "selector": "#uij-e269",
+          "bbox": null,
+          "html": "<li class=\"usa-footer__secondary-link\" id=\"uij-e269\">\n<a href=\"/features\" id=\"uij-e270\">Feature articles</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e270"
+          ],
+          "selector": "#uij-e270",
+          "bbox": null,
+          "html": "<a href=\"/features\" id=\"uij-e270\">Feature articles</a>"
+        },
+        {
+          "target": [
+            "#uij-e271"
+          ],
+          "selector": "#uij-e271",
+          "bbox": null,
+          "html": "<div class=\"usa-footer__secondary-section\" id=\"uij-e271\">"
+        },
+        {
+          "target": [
+            "#uij-e272"
+          ],
+          "selector": "#uij-e272",
+          "bbox": null,
+          "html": "<div class=\"grid-container\" id=\"uij-e272\">"
+        },
+        {
+          "target": [
+            "#uij-e273"
+          ],
+          "selector": "#uij-e273",
+          "bbox": null,
+          "html": "<div class=\"grid-row grid-gap\" id=\"uij-e273\">"
+        },
+        {
+          "target": [
+            "#uij-e274"
+          ],
+          "selector": "#uij-e274",
+          "bbox": null,
+          "html": "<div class=\"usa-footer__logo grid-row mobile-lg:grid-col-6\" id=\"uij-e274\">"
+        },
+        {
+          "target": [
+            "#uij-e275"
+          ],
+          "selector": "#uij-e275",
+          "bbox": null,
+          "html": "<div id=\"uij-e275\">"
+        },
+        {
+          "target": [
+            "#footer-phone"
+          ],
+          "selector": "#footer-phone",
+          "bbox": null,
+          "html": "<div data-contact-callout=\"visible\" id=\"footer-phone\">"
+        },
+        {
+          "target": [
+            "#uij-e276"
+          ],
+          "selector": "#uij-e276",
+          "bbox": null,
+          "html": "<div class=\"mobile-lg:grid-col-auto\" id=\"uij-e276\">\n<h4 class=\"usa-footer__logo-heading\" id=\"uij-e277\">USAGov Contact Center</h4>\n</div>"
+        },
+        {
+          "target": [
+            "#uij-e277"
+          ],
+          "selector": "#uij-e277",
+          "bbox": null,
+          "html": "<h4 class=\"usa-footer__logo-heading\" id=\"uij-e277\">USAGov Contact Center</h4>"
+        },
+        {
+          "target": [
+            "#uij-e278"
+          ],
+          "selector": "#uij-e278",
+          "bbox": null,
+          "html": "<div class=\"mobile-lg:grid-col-auto\" id=\"uij-e278\">"
+        },
+        {
+          "target": [
+            "#uij-e279"
+          ],
+          "selector": "#uij-e279",
+          "bbox": null,
+          "html": "<p class=\"footer-question\" id=\"uij-e279\">Ask USA.gov a question at</p>"
+        },
+        {
+          "target": [
+            "#uij-e280"
+          ],
+          "selector": "#uij-e280",
+          "bbox": null,
+          "html": "<address class=\"usa-footer__address\" id=\"uij-e280\">\n<div class=\"usa-footer__contact-info\" id=\"uij-e281\">\n<a href=\"/phone\" id=\"uij-e282\">1-844-USAGOV1 (1-844-872-4681)</a>\n</div>\n</address>"
+        },
+        {
+          "target": [
+            "#uij-e281"
+          ],
+          "selector": "#uij-e281",
+          "bbox": null,
+          "html": "<div class=\"usa-footer__contact-info\" id=\"uij-e281\">\n<a href=\"/phone\" id=\"uij-e282\">1-844-USAGOV1 (1-844-872-4681)</a>\n</div>"
+        },
+        {
+          "target": [
+            "#uij-e282"
+          ],
+          "selector": "#uij-e282",
+          "bbox": null,
+          "html": "<a href=\"/phone\" id=\"uij-e282\">1-844-USAGOV1 (1-844-872-4681)</a>"
+        },
+        {
+          "target": [
+            "#uij-e283"
+          ],
+          "selector": "#uij-e283",
+          "bbox": null,
+          "html": "<div class=\"usa-footer__contact-links mobile-lg:grid-col-6\" id=\"uij-e283\">\n<div class=\"footer-social-block\" id=\"uij-e284\">\n\n</div>\n</div>"
+        },
+        {
+          "target": [
+            "#uij-e284"
+          ],
+          "selector": "#uij-e284",
+          "bbox": null,
+          "html": "<div class=\"footer-social-block\" id=\"uij-e284\">\n\n</div>"
+        },
+        {
+          "target": [
+            "#uij-e285"
+          ],
+          "selector": "#uij-e285",
+          "bbox": null,
+          "html": "<div class=\"usa-identifier\" id=\"uij-e285\">"
+        },
+        {
+          "target": [
+            "#uij-e286"
+          ],
+          "selector": "#uij-e286",
+          "bbox": null,
+          "html": "<section aria-label=\"USAGov is the official guide to government information and services\" class=\"usa-identifier__section usa-identifier__section--usagov\" id=\"uij-e286\">"
+        },
+        {
+          "target": [
+            "#uij-e287"
+          ],
+          "selector": "#uij-e287",
+          "bbox": null,
+          "html": "<div class=\"usa-identifier__container\" id=\"uij-e287\">"
+        },
+        {
+          "target": [
+            "#uij-e288"
+          ],
+          "selector": "#uij-e288",
+          "bbox": null,
+          "html": "<section aria-label=\"An official website of the U.S. General Services Administration\" class=\"usa-identifier__identity\" id=\"uij-e288\">"
+        },
+        {
+          "target": [
+            "#uij-e289"
+          ],
+          "selector": "#uij-e289",
+          "bbox": null,
+          "html": "<p class=\"usa-identifier__identity-disclaimer\" id=\"uij-e289\">USAGov is the official guide to government information and services</p>"
+        },
+        {
+          "target": [
+            "#uij-e290"
+          ],
+          "selector": "#uij-e290",
+          "bbox": null,
+          "html": "<p class=\"usa-identifier__identity-disclaimer\" id=\"uij-e290\">An official website of the <a href=\"https://www.gsa.gov/\" id=\"uij-e291\">U.S. General Services Administration</a></p>"
+        },
+        {
+          "target": [
+            "#uij-e291"
+          ],
+          "selector": "#uij-e291",
+          "bbox": null,
+          "html": "<a href=\"https://www.gsa.gov/\" id=\"uij-e291\">U.S. General Services Administration</a>"
+        },
+        {
+          "target": [
+            "#uij-e292"
+          ],
+          "selector": "#uij-e292",
+          "bbox": null,
+          "html": "<nav aria-label=\"Important links\" class=\"usa-identifier__section usa-identifier__section--required-links\" id=\"uij-e292\">"
+        },
+        {
+          "target": [
+            "#uij-e293"
+          ],
+          "selector": "#uij-e293",
+          "bbox": null,
+          "html": "<div class=\"usa-identifier__container\" id=\"uij-e293\">"
+        },
+        {
+          "target": [
+            "#uij-e294"
+          ],
+          "selector": "#uij-e294",
+          "bbox": null,
+          "html": "<ul class=\"usa-identifier__required-links-list\" id=\"uij-e294\">"
+        },
+        {
+          "target": [
+            "#uij-e295"
+          ],
+          "selector": "#uij-e295",
+          "bbox": null,
+          "html": "<li class=\"usa-identifier__required-links-item\" id=\"uij-e295\">\n<a class=\"usa-identifier__required-link usa-link\" href=\"/accessibility-policy\" id=\"uij-e296\">Accessibility policy</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e296"
+          ],
+          "selector": "#uij-e296",
+          "bbox": null,
+          "html": "<a class=\"usa-identifier__required-link usa-link\" href=\"/accessibility-policy\" id=\"uij-e296\">Accessibility policy</a>"
+        },
+        {
+          "target": [
+            "#uij-e297"
+          ],
+          "selector": "#uij-e297",
+          "bbox": null,
+          "html": "<li class=\"usa-identifier__required-links-item\" id=\"uij-e297\">\n<a class=\"usa-identifier__required-link usa-link\" href=\"/privacy-security\" id=\"uij-e298\">Privacy and security policies</a>\n</li>"
+        },
+        {
+          "target": [
+            "#uij-e298"
+          ],
+          "selector": "#uij-e298",
+          "bbox": null,
+          "html": "<a class=\"usa-identifier__required-link usa-link\" href=\"/privacy-security\" id=\"uij-e298\">Privacy and security policies</a>"
+        },
+        {
+          "target": [
+            "#uij-e299"
+          ],
+          "selector": "#uij-e299",
+          "bbox": null,
+          "html": "<li class=\"usa-identifier__required-links-item\" id=\"uij-e299\">\n<a class=\"usa-identifier__required-link usa-link\" href=\"https://www.gsa.gov/reference/freedom-of-information-act-foia\" id=\"uij-e300\">FOIA"
+        },
+        {
+          "target": [
+            "#uij-e300"
+          ],
+          "selector": "#uij-e300",
+          "bbox": null,
+          "html": "<a class=\"usa-identifier__required-link usa-link\" href=\"https://www.gsa.gov/reference/freedom-of-information-act-foia\" id=\"uij-e300\">FOIA requests</a>"
+        },
+        {
+          "target": [
+            "#ZN_baBNRoqFfO1D7xQ"
+          ],
+          "selector": "#ZN_baBNRoqFfO1D7xQ",
+          "bbox": null,
+          "html": "<div id=\"ZN_baBNRoqFfO1D7xQ\"></div>"
+        }
+      ]
+    },
+    {
+      "rule_id": "skip-link",
+      "impact": "",
+      "tags": [],
+      "description": "Ensure all skip links have a focusable target",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/skip-link?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            "#uij-e0"
+          ],
+          "selector": "#uij-e0",
+          "bbox": null,
+          "html": "<a class=\"usa-skipnav usa-sr-only focusable\" href=\"#skip-to-h1\" id=\"uij-e0\">\n Skip to main content\n</a>"
+        }
+      ]
+    }
+  ]
+}
