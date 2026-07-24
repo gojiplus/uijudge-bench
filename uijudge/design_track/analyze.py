@@ -77,6 +77,37 @@ def _coded_side(choice: str, member_a_id: str) -> str | None:
     return "A" if choice == member_a_id else "B"
 
 
+def prepare_judgments(judgments: list[dict[str, Any]], pairs: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    """Dedup and re-derive authoritative fields once, so all consumers see clean data.
+
+    Two integrity steps, applied at load time:
+
+    1. **Dedup** on ``(rater, pair_id, dimension)`` keeping the LAST record. The judgments
+       journal is append-only, so a double-POST or back-button would otherwise inflate
+       ``n_judgments``, agreement, and catch denominators.
+    2. **Re-derive** ``pair_type`` / ``known_worse`` / ``is_catch`` from the authoritative
+       ``pairs`` by ``pair_id`` — never trusting the client-written value on the record — so a
+       tampered POST cannot move a trial between the validity and preference buckets.
+
+    Records whose ``pair_id`` is absent from ``pairs`` are dropped (they cannot be scored).
+    """
+    by_pair = {p["pair_id"]: p for p in pairs}
+    deduped: dict[tuple[str, str, str], dict[str, Any]] = {}
+    for j in judgments:
+        deduped[(j["rater"], j["pair_id"], j["dimension"])] = j
+    out: list[dict[str, Any]] = []
+    for j in deduped.values():
+        pair = by_pair.get(j["pair_id"])
+        if pair is None:
+            continue
+        clean = dict(j)
+        clean["pair_type"] = pair["pair_type"]
+        clean["known_worse"] = pair.get("known_worse")
+        clean["is_catch"] = pair["pair_type"] == "validity"
+        out.append(clean)
+    return out
+
+
 # --------------------------------------------------------------------------------------
 # Statistics
 # --------------------------------------------------------------------------------------
@@ -166,18 +197,57 @@ def cannot_tell_rates(judgments: list[dict[str, Any]]) -> dict[str, float]:
     return {k: (ct[k] / total[k] if total[k] else 0.0) for k in total}
 
 
+def position_bias(judgments: list[dict[str, Any]]) -> dict[str, Any]:
+    """Left-choice rate overall and per rater, against the 50% no-bias baseline.
+
+    Because the on-screen side is randomized per trial, a rater with no position bias should
+    pick the left page ~50% of the time. A rate far from 0.5 flags a rater (or the pool)
+    favouring a side irrespective of content. ``cannot_tell`` responses are excluded from the
+    denominator (no side was chosen).
+    """
+    per_rater: dict[str, dict[str, int]] = defaultdict(lambda: {"left": 0, "decided": 0})
+    for j in judgments:
+        side = j.get("chosen_side")
+        if side not in ("left", "right"):
+            continue
+        per_rater[j["rater"]]["decided"] += 1
+        if side == "left":
+            per_rater[j["rater"]]["left"] += 1
+    overall_left = sum(s["left"] for s in per_rater.values())
+    overall_decided = sum(s["decided"] for s in per_rater.values())
+    return {
+        "expected_left_rate": 0.5,
+        "overall_left_rate": (overall_left / overall_decided if overall_decided else None),
+        "n_decided": overall_decided,
+        "per_rater": {
+            r: {
+                "left_rate": (s["left"] / s["decided"] if s["decided"] else None),
+                "n_decided": s["decided"],
+            }
+            for r, s in sorted(per_rater.items())
+        },
+    }
+
+
 # --------------------------------------------------------------------------------------
 # Report
 # --------------------------------------------------------------------------------------
 def analyze_report(
     judgments: list[dict[str, Any]], pairs: list[dict[str, Any]], *, catch_threshold: float = CATCH_THRESHOLD
 ) -> dict[str, Any]:
-    """Build the full analysis report dict from judgments + pairs."""
+    """Build the full analysis report dict from judgments + pairs.
+
+    Judgments are deduped and their pair_type/known_worse re-derived from the authoritative
+    ``pairs`` once, up front (:func:`prepare_judgments`), so every statistic below sees clean,
+    tamper-proof data.
+    """
+    judgments = prepare_judgments(judgments, pairs)
     alphas = alpha_by_dimension(judgments, pairs)
     bts = bt_by_dimension(judgments, pairs)
     rates = catch_pass_rates(judgments, pairs)
     flagged = flagged_raters(rates, catch_threshold)
     ct = cannot_tell_rates(judgments)
+    pos = position_bias(judgments)
 
     per_dim: dict[str, Any] = {}
     for dim in DIMENSIONS_BY_KEY:
@@ -198,6 +268,7 @@ def analyze_report(
         "raters": {r: {**s, "flagged": r in flagged} for r, s in rates.items()},
         "flagged_raters": sorted(flagged),
         "cannot_tell_rate_overall": ct.get("_overall", 0.0),
+        "position_bias": pos,
     }
 
 
@@ -219,6 +290,10 @@ def human_summary(report: dict[str, Any]) -> str:
         lines.append(f"  Flagged raters (catch < {report['catch_threshold']}): {report['flagged_raters']}")
     else:
         lines.append("  Flagged raters: none")
+    pos = report["position_bias"]
+    lr = pos["overall_left_rate"]
+    lrstr = "n/a" if lr is None else f"{lr:.1%}"
+    lines.append(f"  Position bias: overall left-choice={lrstr} (expected 50.0%, n={pos['n_decided']})")
     return "\n".join(lines)
 
 
@@ -294,7 +369,8 @@ def promote(
     under-agreed preference pairs are refused. Validity pairs always promote from construction
     ground truth with ``door=mutation``.
     """
-    judgments = load_judgments(judgments_dir)
+    # Dedup + re-derive authoritative pair_type/known_worse once, before any scoring.
+    judgments = prepare_judgments(load_judgments(judgments_dir), pairs)
     rates = catch_pass_rates(judgments, pairs)
     flagged = flagged_raters(rates, catch_threshold)
     kept = [j for j in judgments if j["rater"] not in flagged]

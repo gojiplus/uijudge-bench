@@ -142,29 +142,37 @@ def test_http_round_trip(tmp_path):
         # Log in.
         data = urllib.parse.urlencode({"rater_id": "http_rater", "demographics": "colleague"}).encode()
         urllib.request.urlopen(f"{base}/login", data=data)  # noqa: S310
-        # Fetch a trial page.
+        # Fetch a trial page — it must not leak that any trial is a catch.
         html = urllib.request.urlopen(f"{base}/trial?rater_id=http_rater").read().decode()  # noqa: S310
         assert "trial_id" in html and "iframe" in html.lower()
-        # Post a judgment.
+        for marker in ("is_catch", "known_worse", "pair_type", "left_page_id", "right_page_id"):
+            assert marker not in html, f"served trial HTML must not contain catch marker {marker!r}"
+
+        # Post a judgment WITHOUT any authoritative fields — and even a falsified pair_type
+        # must be ignored: the server derives everything from the pair set.
+        trial_id = "dp-v-twin::spacing_alignment"
         payload = urllib.parse.urlencode(
             {
                 "rater_id": "http_rater",
-                "trial_id": "trial-http",
+                "trial_id": trial_id,
                 "pair_id": "dp-v-twin",
-                "pair_type": "validity",
+                "pair_type": "preference",  # falsified — must be ignored
                 "dimension": "spacing_alignment",
                 "viewport": "desktop",
-                "left_page_id": "cleanP",
-                "right_page_id": "twinP",
                 "chosen_side": "left",
                 "ms_elapsed": "3300",
-                "is_catch": "1",
-                "known_worse": "B",
             }
         ).encode()
         urllib.request.urlopen(f"{base}/judge", data=payload)  # noqa: S310
         recs = [json.loads(x) for x in (tmp_path / "http_rater.jsonl").read_text().splitlines()]
-        assert recs and recs[-1]["choice"] == "cleanP"
-        assert recs[-1]["side_assignment"] == {"left": "cleanP", "right": "twinP"}
+        rec = recs[-1]
+        # Side assignment recomputed server-side from the deterministic assign_sides.
+        left, right = A.assign_sides("http_rater", trial_id, "cleanP", "twinP")
+        assert rec["side_assignment"] == {"left": left, "right": right}
+        assert rec["choice"] == left  # a page_id, not a side
+        # pair_type / is_catch / known_worse are the authoritative pair values, not the payload.
+        assert rec["pair_type"] == "validity"
+        assert rec["is_catch"] is True
+        assert rec["known_worse"] == "B"
     finally:
         server.shutdown()

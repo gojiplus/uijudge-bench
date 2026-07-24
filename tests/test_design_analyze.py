@@ -131,3 +131,101 @@ def test_promoted_items_appended_to_labels_file(tmp_path):
     assert len(lines) == len(promoted)
     for line in lines:
         validate_item(json.loads(line))
+
+
+def test_prepare_dedups_last_wins_and_restores_authoritative_pair_type():
+    pairs = P.build_pairs(seed=1, n_validity=2, n_preference=2)
+    val = next(p for p in pairs if p["pair_type"] == "validity")
+    clean_id = val["member_a"]["page_id"] if val["known_worse"] == "B" else val["member_b"]["page_id"]
+    # A tampered record: falsified pair_type, and an earlier stale choice for the same key.
+    stale = {
+        "rater": "r1",
+        "pair_id": val["pair_id"],
+        "dimension": val["dimension_scope"][0],
+        "choice": "wrong",
+        "chosen_side": "left",
+        "side_assignment": {"left": "x", "right": "y"},
+        "pair_type": "preference",
+        "is_catch": False,
+        "known_worse": None,
+    }
+    fresh = {**stale, "choice": clean_id}
+    prepared = AN.prepare_judgments([stale, fresh], pairs)
+    assert len(prepared) == 1  # deduped on (rater, pair_id, dimension)
+    assert prepared[0]["choice"] == clean_id  # last record wins
+    assert prepared[0]["pair_type"] == "validity"  # restored from pairs, not the falsified "preference"
+    assert prepared[0]["known_worse"] == val["known_worse"]
+
+
+def test_falsified_pair_type_scored_per_pairs_truth():
+    # A validity trial whose record claims pair_type="preference" must still be scored as a catch.
+    pairs = P.build_pairs(seed=1, n_validity=1, n_preference=0)
+    val = pairs[0]
+    mutated_id = val["member_b"]["page_id"] if val["known_worse"] == "B" else val["member_a"]["page_id"]
+    tampered = {
+        "rater": "cheat",
+        "pair_id": val["pair_id"],
+        "dimension": val["dimension_scope"][0],
+        "choice": mutated_id,
+        "chosen_side": "left",
+        "side_assignment": {"left": mutated_id, "right": "z"},
+        "pair_type": "preference",
+        "is_catch": False,
+        "known_worse": None,  # falsified
+    }
+    report = AN.analyze_report([tampered], pairs)
+    # Counted as a catch (n=1) despite the falsified pair_type, and scored a miss (chose mutated).
+    assert report["raters"]["cheat"]["n"] == 1
+    assert report["raters"]["cheat"]["pass_rate"] == 0.0
+
+
+def test_duplicates_do_not_change_analysis_or_promotion(tmp_path):
+    pairs = P.build_pairs(seed=1, n_validity=4, n_preference=6)
+    singles = AN.synth_judgments(pairs, n_raters=12, seed=3, accuracy=1.0)
+    dups = singles + list(singles)  # every record appears twice
+
+    r_single = AN.analyze_report(singles, pairs)
+    r_dup = AN.analyze_report(dups, pairs)
+    assert r_single["n_judgments"] == r_dup["n_judgments"]
+    assert r_single["per_dimension"] == r_dup["per_dimension"]
+    assert r_single["raters"] == r_dup["raters"]
+    assert r_single["position_bias"] == r_dup["position_bias"]
+
+    d_single = tmp_path / "single"
+    d_dup = tmp_path / "dup"
+    d_single.mkdir()
+    d_dup.mkdir()
+    _write_judgments(d_single, singles)
+    _write_judgments(d_dup, dups)
+    p_single = AN.promote(d_single, pairs, d_single / "items.jsonl", n_min=10, alpha_min=0.667, rater_pool_desc="t")
+    p_dup = AN.promote(d_dup, pairs, d_dup / "items.jsonl", n_min=10, alpha_min=0.667, rater_pool_desc="t")
+    assert [i["item_id"] for i in p_single] == [i["item_id"] for i in p_dup]
+    assert [i["receipt"].get("n_judgments") for i in p_single] == [i["receipt"].get("n_judgments") for i in p_dup]
+
+
+def test_position_bias_measures_left_choice_rate():
+    def rec(rater, side):
+        return {
+            "rater": rater,
+            "pair_id": "p",
+            "dimension": "color_use",
+            "choice": "x",
+            "chosen_side": side,
+            "side_assignment": {"left": "x", "right": "y"},
+        }
+
+    judgments = [
+        rec("a", "left"),
+        rec("a", "left"),
+        rec("a", "right"),  # 2/3 left
+        rec("b", "right"),
+        rec("b", "right"),  # 0/2 left
+        rec("c", "cannot_tell"),  # excluded from denominator
+    ]
+    pos = AN.position_bias(judgments)
+    assert pos["expected_left_rate"] == 0.5
+    assert pos["n_decided"] == 5
+    assert pos["overall_left_rate"] == pytest.approx(2 / 5)
+    assert pos["per_rater"]["a"]["left_rate"] == pytest.approx(2 / 3)
+    assert pos["per_rater"]["b"]["left_rate"] == pytest.approx(0.0)
+    assert "c" not in pos["per_rater"]
