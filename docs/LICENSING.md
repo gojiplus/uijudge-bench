@@ -73,12 +73,57 @@ clearly permitted we ship the download script instead of the data (the "LAION mo
 - **Attribution (required by CC BY 4.0):** Fathallah, N., Hernández, D., & Staab, S.,
   *"AccessGuru: Leveraging LLMs to Detect and Correct Web Accessibility Violations in
   HTML Code"*, DaRUS, DOI 10.18419/DARUS-5177, CC BY 4.0.
-- **P1 status:** license investigation complete; a runnable download-at-build module is
-  provided (`uijudge/engine/ingest/accessguru.py`). Downloaded data lands under
-  `corpus/_downloads/` (git-ignored). Full ingestion into labels is P2 scale work.
+- **Status (P3):** license verified; the download-at-build module
+  (`uijudge/engine/ingest/accessguru.py`) now also **maps a curated slice of 133 violations**
+  (Layout 50, Semantic 33, Syntax 50, across 62 pages) into `ingested`-door L1 items.
+  Because the tabular data gives the affected element only as an HTML fragment (no CSS
+  selector, no bbox), items map to `annotation_unit=page` with the element fragment + axe
+  rule + taxonomy class preserved in the receipt (see `docs/UNITS.md`). Attribution is
+  recorded in every item's provenance. Bulk data (screenshots + page archive) is never
+  committed; the ~20 MB tabular file lands under `corpus/_downloads/` (git-ignored).
 
-## Real-page policy (future phases)
+## Real-page policy (P3)
 
-Prefer redistributable sources (US .gov public-domain, open-source project sites,
-CC-licensed pages). Otherwise ship URL + deterministic capture script instead of the
-page content. Synthetic corpus will be CC-BY. Provenance recorded per page.
+Real web pages enter the corpus under a strict two-tier policy driven by
+`uijudge/engine/real_manifest_v1.json`.
+
+### Tier-A — redistributable, committed
+
+Frozen into self-contained artifacts (`corpus/real/<page_id>/`) and committed, with the
+canary injected and stable `uij-e*` element ids assigned (see `docs/UNITS.md`). Sources:
+
+- **US federal `.gov` pages** — public domain under **17 U.S.C. § 105** (works of the U.S.
+  federal government are not subject to copyright). Text and layout are PD; embedded
+  third-party assets are excepted, and our inlining caps bound what is mirrored while
+  provenance records the source URL. This is the bulk of the roster (~50 pages spanning
+  usa.gov, cdc.gov, nih.gov / medlineplus.gov, nasa.gov, ada.gov, section508.gov,
+  digital.gov, and others), tagged across genres (landing, gov-service, docs, blog).
+- **Explicitly permissive OSS docs** — SQLite docs (**public domain**), Python docs
+  (**PSF License Agreement**, reproduction permitted with notice), Django docs
+  (**BSD-3-Clause**). Each carries its specific license URL + evidence quote in the manifest.
+
+Every included URL records its license, license URL, and an evidence string. Per-page
+`provenance.json` and every emitted item's provenance repeat the license.
+
+### Tier-B — ship script, not content
+
+Proprietary pages (e.g. github.com, nytimes.com, airbnb.com marketing pages) with no
+redistribution grant. The freeze CLI writes them to **`corpus/real/tier_b/`**, which is
+**git-ignored** (`.gitignore`), so their content never lands in the repo — we ship only the
+URL + the deterministic freeze script (the "LAION model"). The manifest carries 2–3 tier-B
+examples to exercise this path; a test asserts `git check-ignore` excludes the path.
+
+### Rejected candidates (honesty artifact)
+
+Recorded in the manifest's `rejected` list with a reason each. We declined:
+
+- **MDN** and **Wikipedia** (CC-BY-**SA**) and **Stack Overflow** (CC-BY-SA) — the
+  share-alike clause would force our snapshot/corpus under copyleft, conflicting with the
+  corpus's uniform CC-BY/MIT licensing. Not forbidden reuse; a deliberate
+  copyleft-entanglement avoidance.
+- **Smashing Magazine** — no blanket redistribution license found (all-rights-reserved by
+  default); license uncertain, so excluded rather than guessed.
+- **Bootstrap docs** — code is MIT but the docs content is CC-BY-3.0 with a separate
+  attribution requirement; excluded to keep corpus licensing clean.
+
+Synthetic corpus is CC-BY-4.0. Provenance is recorded per page and per item.
