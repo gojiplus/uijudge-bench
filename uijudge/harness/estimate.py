@@ -126,14 +126,19 @@ _W, _H = ASSUMED_IMAGE_DIMS
 PRICES: dict[str, dict] = {
     # PRIMARY TARGETS -------------------------------------------------------
     "gemini-3-flash": {
-        "litellm_model": "gemini/gemini-3-flash",
+        # NOTE: the GA slug ``gemini/gemini-3-flash`` 404s on the owner's AI Studio key
+        # (ListModels 2026-07-25 exposes only ``gemini-3-flash-preview``); we run the
+        # preview slug and record it verbatim in every artifact.
+        "litellm_model": "gemini/gemini-3-flash-preview",
         "provider": "google",
         "input": 0.50,
         "output": 3.00,
         # gemini_image_tokens(1280,1600): crop=floor(1280/1.5)=853; ceil(1280/853)*ceil(1600/853)=2*2=4; 4*258
         "image_tokens": gemini_image_tokens(_W, _H),  # == 1032
         "source": "https://ai.google.dev/gemini-api/docs/pricing",
-        "price_note": "Gemini 3 Flash standard tier; verified 2026-07-24 ($0.50 in / $3.00 out).",
+        "price_note": "Gemini 3 Flash standard tier; verified 2026-07-24 ($0.50 in / $3.00 out). "
+        "Reasoning-by-default: completion tokens include thinking (observed ~55 on a trivial call), "
+        "so the 40-60 output assumption understates; smoke measures actuals pre-spend.",
     },
     "qwen3-vl-235b": {
         "litellm_model": "openrouter/qwen/qwen3-vl-235b-a22b-instruct",
