@@ -146,3 +146,21 @@ framing-only control v1b sits between v1 and v2). "1 point of F1" = 0.01 on the 
 | v1b | _pending_ | _pending_ | _pending_ | _pending_ | |
 | v2 | _pending_ | _pending_ | _pending_ | _pending_ | |
 | v3 | _pending_ | _pending_ | _pending_ | _pending_ | |
+
+## Amendment 1 — single-model start (recorded BEFORE the ablation run, 2026-07-24)
+
+The pre-registered decision rule averages per-track macro-F1 across two models (Gemini 3
+Flash, Qwen3-VL). The owner directed a Gemini-first start; no Qwen key exists yet. Amendment,
+recorded before any ablation data was collected:
+
+- The ablation runs on **one model** (`gemini/gemini-3-flash-preview` — the GA slug is not
+  exposed to the owner's key). The decision rule applies with the mean-over-models reduced to
+  this single model. All other elements (variants v1/v1b/v2/v3, 180-item sample, parse-rate
+  gate ≥98%, tie→simpler, ECE/refusals reported-not-selective) are unchanged.
+- If Qwen is added later, its calibration will be run and reported separately; the frozen
+  prompt version will NOT be revisited on Qwen data (no post-hoc re-selection).
+- Instrument configuration (fixed for ablation AND test run, chosen from smoke evidence, not
+  accuracy data): completion budget 8,000 tokens (model thinks ~2.7k/judgment; L3 up to ~8k),
+  timeout 120s, model default thinking/temperature policy (no thinking cap), concurrency 3.
+- Cost basis revision: measured output ≈2,776 tok/call (vs 52 assumed) → ablation ≈ $6.5,
+  test N=1 ≈ $13.4. Owner approved proceeding at default config (2026-07-24).
