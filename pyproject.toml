@@ -41,10 +41,10 @@ dependencies = [
 ]
 
 [project.optional-dependencies]
-# LayoutLens-backed judge adapter (uijudge.harness.judges.layoutlens_judge). Optional: the
-# core bench never imports layoutlens. Requires the v1.8 faithful judge() interface; until
-# 1.8.0 is on PyPI, install locally with `uv pip install -e ../layoutlens`.
-judge = ["layoutlens>=1.8.0"]
+# LayoutLens-backed judge adapters (uijudge.harness.judges.layoutlens_judge / layoutlens_batch).
+# Optional: the core bench never imports layoutlens. Requires the v1.8 judge()/judge_batch()
+# interface (on PyPI since 2026-07-25). The batch adapter needs the AI-Studio Gemini extra.
+judge = ["layoutlens[gemini]>=1.8.0"]
 
 [project.urls]
 "Homepage" = "https://github.com/gojiplus/uijudge-bench"
@@ -59,14 +59,6 @@ dev = [
     "ruff>=0.7.0",
 ]
 
-[tool.uv]
-# The optional `judge` extra requires layoutlens>=1.8.0 (the faithful judge() interface),
-# but PyPI currently tops out at 1.7.0, so uv's universal lock would be unsatisfiable. Relax
-# the constraint LOCALLY so `uv sync`/`uv run` work; the published package metadata still
-# advertises >=1.8.0 for pip consumers. Local dev installs the real interface out-of-band
-# (`uv pip install -e ../layoutlens`), and the judge tests skip unless LayoutLens.judge exists.
-# REMOVE this override once layoutlens 1.8.0 is on PyPI.
-override-dependencies = ["layoutlens>=1.7.0"]
 
 [tool.uv.build-backend]
 module-root = ""
