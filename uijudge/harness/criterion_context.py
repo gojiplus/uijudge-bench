@@ -416,12 +416,12 @@ def _label(criterion_code: str) -> str:
 def render_criterion_context(prompt_version: str, criterion_code: str) -> str:
     """Render the ``{criterion_context}`` block for a prompt version and criterion code.
 
-    v1 never carries criterion context (returns ``""``). v2 renders the definition (plus a
-    ``Not this criterion:`` fence where present). v3 renders the v2 block plus a behavioral
-    anchor line when the criterion has one. An unregistered code returns ``""`` and logs a
-    warning — it never raises.
+    Only v2 and v3 carry criterion context; every other version (v1, the framing-control v1b)
+    returns ``""``. v2 renders the definition (plus a ``Not this criterion:`` fence where present).
+    v3 renders the v2 block plus a behavioral anchor line when the criterion has one. An
+    unregistered code returns ``""`` and logs a warning — it never raises.
     """
-    if prompt_version == "v1":
+    if prompt_version not in ("v2", "v3"):
         return ""
     ctx = lookup(criterion_code)
     if ctx is None:

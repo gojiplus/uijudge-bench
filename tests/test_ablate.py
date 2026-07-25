@@ -174,7 +174,7 @@ def _cell(parse, mean):
     }
 
 
-def _artifact(table, models=("m1", "m2"), variants=("v1", "v2", "v3")):
+def _artifact(table, models=("m1", "m2"), variants=("v1", "v1b", "v2", "v3")):
     return {
         "models": list(models),
         "variants": list(variants),
@@ -185,78 +185,65 @@ def _artifact(table, models=("m1", "m2"), variants=("v1", "v2", "v3")):
     }
 
 
+def _full(v1, v1b, v2, v3, parse=1.0):
+    """4-variant table with each variant's score equal across both models."""
+    return {
+        "v1": {"m1": _cell(parse, v1), "m2": _cell(1.0, v1)},
+        "v1b": {"m1": _cell(1.0, v1b), "m2": _cell(1.0, v1b)},
+        "v2": {"m1": _cell(1.0, v2), "m2": _cell(1.0, v2)},
+        "v3": {"m1": _cell(1.0, v3), "m2": _cell(1.0, v3)},
+    }
+
+
 def test_decision_highest_qualified_wins():
-    art = _artifact(
-        {
-            "v1": {"m1": _cell(1.0, 0.70), "m2": _cell(1.0, 0.70)},
-            "v2": {"m1": _cell(1.0, 0.75), "m2": _cell(1.0, 0.75)},
-            "v3": {"m1": _cell(1.0, 0.82), "m2": _cell(1.0, 0.82)},
-        }
-    )
-    d = ablate.apply_decision(art)
+    d = ablate.apply_decision(_artifact(_full(0.70, 0.72, 0.75, 0.82)))
     assert d["winner"] == "v3"
     assert d["disqualified"] == []
 
 
 def test_decision_tie_within_one_point_prefers_simpler():
-    art = _artifact(
-        {
-            "v1": {"m1": _cell(1.0, 0.70), "m2": _cell(1.0, 0.70)},
-            "v2": {"m1": _cell(1.0, 0.800), "m2": _cell(1.0, 0.800)},
-            "v3": {"m1": _cell(1.0, 0.805), "m2": _cell(1.0, 0.805)},
-        }
-    )
-    d = ablate.apply_decision(art)
-    assert d["winner"] == "v2"  # 0.805 vs 0.800 within 0.01 -> lower-numbered
+    # v2 (0.800) and v3 (0.805) tie within 0.01 -> simpler (v2) wins over v3.
+    d = ablate.apply_decision(_artifact(_full(0.70, 0.72, 0.800, 0.805)))
+    assert d["winner"] == "v2"
     assert set(d["contenders"]) == {"v2", "v3"}
 
 
+def test_decision_tie_prefers_v1b_over_v2():
+    # v1b (0.800) and v2 (0.805) tie within 0.01 -> v1b wins (v1 < v1b < v2 < v3).
+    d = ablate.apply_decision(_artifact(_full(0.70, 0.800, 0.805, 0.60)))
+    assert d["winner"] == "v1b"
+    assert set(d["contenders"]) == {"v1b", "v2"}
+
+
 def test_decision_parse_rate_disqualifies_top_variant():
-    art = _artifact(
-        {
-            "v1": {"m1": _cell(1.0, 0.70), "m2": _cell(1.0, 0.70)},
-            "v2": {"m1": _cell(1.0, 0.75), "m2": _cell(1.0, 0.75)},
-            "v3": {"m1": _cell(0.90, 0.82), "m2": _cell(1.0, 0.82)},  # m1 parse < 0.98
-        }
-    )
-    d = ablate.apply_decision(art)
+    table = _full(0.70, 0.72, 0.75, 0.82)
+    table["v3"]["m1"] = _cell(0.90, 0.82)  # m1 parse < 0.98
+    d = ablate.apply_decision(_artifact(table))
     assert "v3" in d["disqualified"]
     assert d["winner"] == "v2"
 
 
 def test_decision_all_disqualified_gives_no_winner():
-    art = _artifact(
-        {
-            "v1": {"m1": _cell(0.50, 0.70), "m2": _cell(1.0, 0.70)},
-            "v2": {"m1": _cell(0.90, 0.75), "m2": _cell(1.0, 0.75)},
-            "v3": {"m1": _cell(0.97, 0.82), "m2": _cell(1.0, 0.82)},
-        }
-    )
-    d = ablate.apply_decision(art)
+    table = _full(0.70, 0.72, 0.75, 0.82)
+    for v in ("v1", "v1b", "v2", "v3"):
+        table[v]["m1"] = _cell(0.90, table[v]["m1"]["mean_track_macro_f1"])
+    d = ablate.apply_decision(_artifact(table))
     assert d["winner"] is None
     assert d["qualified"] == []
 
 
 def test_render_markdown_has_row_per_cell():
-    art = _artifact(
-        {v: {"m1": _cell(1.0, 0.7), "m2": _cell(1.0, 0.7)} for v in ("v1", "v2", "v3")},
-    )
+    art = _artifact({v: {"m1": _cell(1.0, 0.7), "m2": _cell(1.0, 0.7)} for v in ("v1", "v1b", "v2", "v3")})
     md = ablate.render_markdown(art)
-    # header + separator + 3 variants x 2 models = 8 lines
-    assert len([ln for ln in md.strip().splitlines() if ln.startswith("|")]) == 8
+    # header + separator + 4 variants x 2 models = 10 lines
+    assert len([ln for ln in md.strip().splitlines() if ln.startswith("|")]) == 10
     assert "macroF1_mean" in md
 
 
 def test_write_decision_appends_block(tmp_path):
     cal = tmp_path / "CALIBRATION.md"
     cal.write_text("# pre-registration\n\n## Decision\n\n_pending_\n", encoding="utf-8")
-    art = _artifact(
-        {
-            "v1": {"m1": _cell(1.0, 0.70), "m2": _cell(1.0, 0.70)},
-            "v2": {"m1": _cell(1.0, 0.75), "m2": _cell(1.0, 0.75)},
-            "v3": {"m1": _cell(1.0, 0.82), "m2": _cell(1.0, 0.82)},
-        }
-    )
+    art = _artifact(_full(0.70, 0.72, 0.75, 0.82))
     d = ablate.apply_decision(art)
     before = cal.read_text(encoding="utf-8")
     ablate.write_decision(d, art, path=cal)
