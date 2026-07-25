@@ -292,8 +292,12 @@ class GeminiBatchJudge:
         client = self._client()
         collected: dict[str, dict[str, Any]] = self._collect_existing(client) if resume else {}
         remaining = [(it, req) for it, req in payloads if it.item_id not in collected]
-        for chunk in self._chunk(remaining):
-            job_name = self._submit_chunk(client, chunk)
+        # Submit ALL remaining chunks first (fast — each ~1 API call, flushed to the manifest),
+        # so the jobs run in parallel server-side; THEN poll+collect. This decouples submission
+        # from the slow polling, so a kill during polling leaves every job submitted (the next
+        # resume just collects), and total wait is ~the slowest chunk, not the sum.
+        new_jobs = [self._submit_chunk(client, chunk) for chunk in self._chunk(remaining)]
+        for job_name in new_jobs:
             collected.update(self._await_and_collect(client, job_name))
 
         rows: list[dict[str, Any]] = []
