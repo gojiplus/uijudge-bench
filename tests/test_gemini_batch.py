@@ -114,6 +114,9 @@ def test_run_maps_responses_by_metadata_with_fake_client(monkeypatch):
             ]
             return _Job(name, _Dest(inlined))
 
+        def list(self, config=None):
+            return []  # no prior jobs
+
     class _FakeClient:
         def __init__(self):
             self.batches = _Batches(self)
@@ -121,6 +124,7 @@ def test_run_maps_responses_by_metadata_with_fake_client(monkeypatch):
     j = GeminiBatchJudge(prompt_version="v1", poll_interval=0.0)
     # _submit_chunk uses google.genai types — bypass it with a shim that skips the SDK wrap
     monkeypatch.setattr(j, "_client", lambda: _FakeClient())
+    monkeypatch.setattr(j, "_collect_existing", lambda client: {})  # isolate from real manifests/jobs
 
     def _fake_submit(client, chunk):
         return client.batches.create(
@@ -139,9 +143,29 @@ def test_missing_screenshot_yields_unknown_without_batch(monkeypatch):
     item = _first("L1")
     j = GeminiBatchJudge()
     monkeypatch.setattr(j, "_screenshot_for", lambda it: None)
+    monkeypatch.setattr(j, "_collect_existing", lambda client: {})
 
     called = {"n": 0}
     monkeypatch.setattr(j, "_client", lambda: called.__setitem__("n", called["n"] + 1))
     rows = j.run([item])
     assert rows[0]["answer"] == "unknown"
     assert called["n"] == 1  # client built but no chunk submitted (payloads empty)
+
+
+def test_resume_recovers_prior_jobs_without_resubmitting(monkeypatch):
+    """A prior job covering the item is collected on resume; no new chunk is submitted."""
+    item = _first("L1")
+    j = GeminiBatchJudge(prompt_version="v1")
+
+    # A prior job already covered this item.
+    prior = {item.item_id: {"text": '{"answer":"yes","confidence":0.8,"rationale":"r"}',
+                            "usage": {"prompt_tokens": 1000, "completion_tokens": 500, "total_tokens": 1500},
+                            "refused": False, "error": None}}
+    monkeypatch.setattr(j, "_client", lambda: object())
+    monkeypatch.setattr(j, "_collect_existing", lambda client: dict(prior))
+
+    submits = {"n": 0}
+    monkeypatch.setattr(j, "_submit_chunk", lambda client, chunk: submits.__setitem__("n", submits["n"] + 1))
+    rows = j.run([item], resume=True)
+    assert submits["n"] == 0  # nothing re-submitted — recovered from prior job
+    assert rows[0]["answer"] == "yes"
