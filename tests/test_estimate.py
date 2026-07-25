@@ -128,7 +128,7 @@ def test_estimate_cost_gemini3flash_hand_computation():
 
     assert est.input_tokens == expected_in
     assert est.usd == expected_usd
-    assert est.litellm_model == "gemini/gemini-3-flash"
+    assert est.litellm_model == "gemini/gemini-3-flash-preview"
 
 
 def test_estimate_cost_qwen_applies_platform_fee():
