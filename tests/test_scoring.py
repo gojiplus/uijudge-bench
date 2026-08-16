@@ -162,3 +162,21 @@ def test_per_defect_class_pairs_mutated_with_clean_twin():
     assert m["recall"] == 0.5
     assert m["false_positive_rate"] == 0.5
     assert m["support"] == 4
+
+
+def test_protrusion_evidence_names_the_recorded_edge():
+    from uijudge.engine.items import _evidence
+
+    left_receipt = {
+        "measured": {
+            "edge": "left",
+            "edge_px": -96,
+            "right_px": 80,
+            "viewport_width_px": 1920,
+            "overflow_px": 96,
+        }
+    }
+    text = _evidence("protrude:viewport", left_receipt, "#hero-text")
+    assert "left" in text
+    assert "-96" in text
+    assert "right edge" not in text

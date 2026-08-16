@@ -310,8 +310,11 @@ def _protrude_viewport(soup: Soup, severity: str, rng: random.Random) -> dict:
         prior = _add_style(tag, f"display:block;width:{width}px;max-width:none")
         after = {"width": f"{width}px"}
     else:
-        # Left-edge protrusion: keep the width but pull the block past x=0.
-        offset = {"mild": 120, "moderate": 240, "severe": 400}[severity]
+        # Left-edge protrusion: pull the block past x=0. The offset must clear
+        # the target's layout position (centered template content starts near
+        # x~500 at the desktop viewport), so anything below ~600px never
+        # crosses the edge and the verifier rightly discards it.
+        offset = {"mild": 700, "moderate": 900, "severe": 1100}[severity]
         prior = _add_style(tag, f"display:block;position:relative;left:-{offset}px")
         after = {"left": f"-{offset}px"}
     return {

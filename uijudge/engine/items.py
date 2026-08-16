@@ -70,7 +70,12 @@ def _evidence(defect_class: str, receipt: dict, selector: str) -> str:
     if defect_class == "clip:overflow":
         return f"Content at {selector} is clipped: scrollHeight {m.get('scroll_height_px')} > clientHeight {m.get('client_height_px')}px."
     if defect_class == "protrude:viewport":
-        return f"Element {selector} right edge {m.get('right_px')}px exceeds viewport {m.get('viewport_width_px')}px."
+        edge = m.get("edge", "right")
+        return (
+            f"Element {selector} protrudes {m.get('overflow_px')}px past the {edge} "
+            f"edge of the {m.get('viewport_width_px')}px viewport "
+            f"({edge} coordinate {m.get('edge_px')}px)."
+        )
     if defect_class == "z:occlude":
         return f"Overlay covers {selector} (elementFromPoint at centre returns the overlay)."
     if defect_class == "align:break":
