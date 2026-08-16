@@ -115,8 +115,8 @@ def test_random_judge_answer_space_per_level():
     assert rj.judge(l4, PageAssets(page_id="a"))["answer"] in ("yes", "no")
 
 
-def test_fit_floors_returns_all_three():
+def test_fit_floors_returns_all_four():
     dev = _dev_l1(6, 4)
     floors = fit_floors(dev, seed=0)
     names = {j.name for j in floors}
-    assert {"random", "majority", "axe"} <= names
+    assert {"random", "majority", "axe", "layoutlens-layout"} <= names

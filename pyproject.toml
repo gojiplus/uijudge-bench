@@ -40,6 +40,9 @@ dependencies = [
     "beautifulsoup4>=4.12.0",
     # Pixel-confinement grounding gate (engine.verify._confinement_verdict).
     "pillow>=10.0.0",
+    # Single measurement source (docs/SCORERS.md): the keyless geometry/contrast
+    # scorers, and the layout-track rules floor (judges/layoutlens_layout.py).
+    "layoutlens>=2.0.0",
 ]
 
 [project.optional-dependencies]

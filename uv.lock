@@ -986,7 +986,7 @@ wheels = [
 
 [[package]]
 name = "layoutlens"
-version = "1.8.0"
+version = "2.0.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "beautifulsoup4" },
@@ -998,9 +998,9 @@ dependencies = [
     { name = "pyyaml" },
     { name = "rich" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/e3/8a/dc4e60075c145945d0fa9c37bf41bf1a1d13a368c13fda794177b5711cf0/layoutlens-1.8.0.tar.gz", hash = "sha256:fd68c080248990e8478cdcdd3ddedbbca845e0849e48bb1fb463ea1e4bba315d", size = 252614, upload-time = "2026-07-25T06:17:35.182Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/63/f9/4f315319d93c42a6db2414156ed22a47a06d53a1fc0809eedaf7577c06c9/layoutlens-2.0.0.tar.gz", hash = "sha256:fc517261bc0edba6bb62c549c27bcc1a3c4a5c94acaac0461e55601ee96d90a5", size = 708862, upload-time = "2026-08-16T00:39:54.545Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/12/c0/ecd56cba4a4cda2ff27928f040825307bb441223da504282662bf6ec71d2/layoutlens-1.8.0-py3-none-any.whl", hash = "sha256:180488ce1822baf9a2cfbacbecc07f9d8272e114096f57e88b42ccafadaf4b7d", size = 267284, upload-time = "2026-07-25T06:17:33.625Z" },
+    { url = "https://files.pythonhosted.org/packages/1a/1a/a082b1c0f1201c6a84046a64fffdc2e877d450eec6caae7ef890648979b6/layoutlens-2.0.0-py3-none-any.whl", hash = "sha256:1f3b851d374d7456b104156bd9e270f8e6e47c3d0a3e1183f3679126ec16a52e", size = 274409, upload-time = "2026-08-16T00:39:52.9Z" },
 ]
 
 [package.optional-dependencies]
@@ -2205,6 +2205,7 @@ source = { editable = "." }
 dependencies = [
     { name = "beautifulsoup4" },
     { name = "httpx" },
+    { name = "layoutlens" },
     { name = "litellm" },
     { name = "pillow" },
     { name = "playwright" },
@@ -2227,6 +2228,7 @@ dev = [
 requires-dist = [
     { name = "beautifulsoup4", specifier = ">=4.12.0" },
     { name = "httpx", specifier = ">=0.27.0" },
+    { name = "layoutlens", specifier = ">=2.0.0" },
     { name = "layoutlens", extras = ["gemini"], marker = "extra == 'judge'", specifier = ">=1.8.0" },
     { name = "litellm", specifier = ">=1.80.0" },
     { name = "pillow", specifier = ">=10.0.0" },
