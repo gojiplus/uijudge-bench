@@ -265,18 +265,63 @@ def _clip_overflow(soup: Soup, severity: str, rng: random.Random) -> dict:
     }
 
 
-@mutator("protrude:viewport", "redecheck:viewport-protrusion", "layout")
-def _protrude_viewport(soup: Soup, severity: str, rng: random.Random) -> dict:
-    """Force a block wider than the viewport, causing horizontal overflow."""
-    width = {"mild": 2000, "moderate": 2200, "severe": 2600}[severity]
-    tid = _choose(rng, ["hero-text", *_ids_matching(soup, "para-")], "block")
+@mutator("overflow:page", "layout:page-overflow", "layout")
+def _overflow_page(soup: Soup, severity: str, rng: random.Random) -> dict:
+    """Widen a whole section past the viewport so the document scrolls horizontally."""
+    width = {"mild": 2100, "moderate": 2500, "severe": 3000}[severity]
+    sections = [t["id"] for t in soup.find_all(attrs={"id": True}) if t.name == "section"]
+    tid = _choose(rng, sections or ["hero"], "section")
     tag = _by_id(soup, tid)
-    prior = _add_style(tag, f"display:block;width:{width}px;max-width:none")
+    prior = _add_style(tag, f"width:{width}px;max-width:none")
     return {
         "selector": f"#{tid}",
         "before": {"style": prior or "(none)"},
         "after": {"width": f"{width}px"},
         "params": {"forced_width_px": width},
+    }
+
+
+@mutator("truncate:ellipsis", "layout:truncation", "layout")
+def _truncate_ellipsis(soup: Soup, severity: str, rng: random.Random) -> dict:
+    """Ellipsis-truncate a text block by forcing nowrap + a narrow width."""
+    width = {"mild": 160, "moderate": 110, "severe": 70}[severity]
+    tid = _choose(rng, ["hero-text", *_ids_matching(soup, "para-")], "text block")
+    tag = _by_id(soup, tid)
+    prior = _add_style(
+        tag,
+        f"display:block;width:{width}px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis",
+    )
+    return {
+        "selector": f"#{tid}",
+        "before": {"style": prior or "(none)"},
+        "after": {"width": f"{width}px", "text-overflow": "ellipsis"},
+        "params": {"forced_width_px": width},
+    }
+
+
+@mutator("protrude:viewport", "redecheck:viewport-protrusion", "layout")
+def _protrude_viewport(soup: Soup, severity: str, rng: random.Random) -> dict:
+    """Force a block past a horizontal viewport edge (right or left, rng-chosen)."""
+    width = {"mild": 2000, "moderate": 2200, "severe": 2600}[severity]
+    edge = rng.choice(["right", "left"])
+    tid = _choose(rng, ["hero-text", *_ids_matching(soup, "para-")], "block")
+    tag = _by_id(soup, tid)
+    if edge == "right":
+        prior = _add_style(tag, f"display:block;width:{width}px;max-width:none")
+        after = {"width": f"{width}px"}
+    else:
+        # Left-edge protrusion: pull the block past x=0. The offset must clear
+        # the target's layout position (centered template content starts near
+        # x~500 at the desktop viewport), so anything below ~600px never
+        # crosses the edge and the verifier rightly discards it.
+        offset = {"mild": 700, "moderate": 900, "severe": 1100}[severity]
+        prior = _add_style(tag, f"display:block;position:relative;left:-{offset}px")
+        after = {"left": f"-{offset}px"}
+    return {
+        "selector": f"#{tid}",
+        "before": {"style": prior or "(none)"},
+        "after": after,
+        "params": {"forced_width_px": width, "edge": edge},
     }
 
 
