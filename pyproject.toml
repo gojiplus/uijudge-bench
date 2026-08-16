@@ -38,6 +38,8 @@ dependencies = [
     "litellm>=1.80.0",
     "httpx>=0.27.0",
     "beautifulsoup4>=4.12.0",
+    # Pixel-confinement grounding gate (engine.verify._confinement_verdict).
+    "pillow>=10.0.0",
 ]
 
 [project.optional-dependencies]

@@ -157,11 +157,27 @@ async def build_corpus(manifest_path: Path | str = MANIFEST_PATH, seed_count: in
                 html_file = page_dir / "page.html"
                 html_file.write_text(result.mutated_html, encoding="utf-8")
 
-                receipt = await verifier.verify(html_file, result.injection_record)
+                clean_file = CORPUS_DIR / "synthetic" / clean_page_id / "page.html"
+                receipt = await verifier.verify(html_file, result.injection_record, clean_source=clean_file)
                 if receipt is None:
                     shutil.rmtree(page_dir)
                     discarded.append(
                         {"page": mutated_page_id, "defect_class": defect_class, "reason": "not render-verified"}
+                    )
+                    continue
+                confinement = receipt.get("confinement", {})
+                if confinement.get("confined") is False:
+                    # The DiffSpot-style gate: an element-local mutation whose
+                    # pixel delta escaped the target bbox is spillover noise,
+                    # not the labeled defect. Discard loudly, never keep.
+                    shutil.rmtree(page_dir)
+                    discarded.append(
+                        {
+                            "page": mutated_page_id,
+                            "defect_class": defect_class,
+                            "reason": "not pixel-confined",
+                            "confinement": confinement,
+                        }
                     )
                     continue
 

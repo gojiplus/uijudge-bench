@@ -148,3 +148,140 @@ def test_clean_twin_receipts_are_measured_not_fabricated(monkeypatch, tmp_path):
     c = report["clean_negative_controls"]
     assert c["ran"] >= 1
     assert c["passed"] == c["ran"] - c["discarded"]
+
+
+def test_protrusion_reports_the_offending_edge(tmp_path):
+    """Both horizontal edges fire, and the receipt names the edge + coordinate."""
+    right_html = (
+        "<html><head><title>r</title></head><body>"
+        '<div id="wide" style="width:3000px;height:20px;background:green"></div>'
+        "</body></html>"
+    )
+    left_html = (
+        "<html><head><title>l</title></head><body>"
+        '<div id="off" style="position:absolute;left:-120px;width:200px;height:20px;background:red"></div>'
+        "</body></html>"
+    )
+    rp = tmp_path / "right.html"
+    rp.write_text(right_html, encoding="utf-8")
+    lp = tmp_path / "left.html"
+    lp.write_text(left_html, encoding="utf-8")
+
+    async def run():
+        async with Verifier() as v:
+            right = await v.verify(
+                rp,
+                {
+                    "defect_class": "protrude:viewport",
+                    "criterion_code": "redecheck:viewport-protrusion",
+                    "selector": "#wide",
+                    "params": {},
+                },
+            )
+            left = await v.verify(
+                lp,
+                {
+                    "defect_class": "protrude:viewport",
+                    "criterion_code": "redecheck:viewport-protrusion",
+                    "selector": "#off",
+                    "params": {},
+                },
+            )
+        return right, left
+
+    right, left = asyncio.run(run())
+    assert right is not None and right["measured"]["edge"] == "right"
+    assert right["measured"]["overflow_px"] > 0
+    assert left is not None, "left-edge protrusion must render-verify"
+    assert left["measured"]["edge"] == "left"
+    assert left["measured"]["edge_px"] <= -119
+    assert left["measured"]["overflow_px"] >= 119
+
+
+def test_page_overflow_and_truncation_measure(tmp_path):
+    """The two new classes fire with their measured receipts on planted pages."""
+    overflow_html = (
+        '<html><head><title>o</title></head><body><section id="wide-sec" style="width:3000px">x</section></body></html>'
+    )
+    truncate_html = (
+        "<html><head><title>t</title></head><body>"
+        '<p id="cut" style="display:block;width:80px;white-space:nowrap;'
+        'overflow:hidden;text-overflow:ellipsis">This sentence is far too long to fit</p>'
+        "</body></html>"
+    )
+    op = tmp_path / "overflow.html"
+    op.write_text(overflow_html, encoding="utf-8")
+    tp = tmp_path / "truncate.html"
+    tp.write_text(truncate_html, encoding="utf-8")
+
+    async def run():
+        async with Verifier() as v:
+            o = await v.verify(
+                op,
+                {
+                    "defect_class": "overflow:page",
+                    "criterion_code": "layout:page-overflow",
+                    "selector": "#wide-sec",
+                    "params": {},
+                },
+            )
+            t = await v.verify(
+                tp,
+                {
+                    "defect_class": "truncate:ellipsis",
+                    "criterion_code": "layout:truncation",
+                    "selector": "#cut",
+                    "params": {},
+                },
+            )
+        return o, t
+
+    o, t = asyncio.run(run())
+    assert o is not None and o["measured"]["overflow_px"] > 0
+    assert o["measured"]["scroll_width_px"] > o["measured"]["viewport_width_px"]
+    assert t is not None and t["measured"]["hidden_px"] > 0
+    assert "This sentence" in t["measured"]["text_preview"]
+
+
+def test_confinement_gate_passes_local_and_rejects_spillover(tmp_path):
+    """A local mutation is confined; a page-wide restyle on a 'local' class is not."""
+    clean = build_page_html(_SEED)
+    cp = tmp_path / "clean.html"
+    cp.write_text(clean, encoding="utf-8")
+
+    async def run():
+        results = {}
+        async with Verifier() as v:
+            # Local: a genuine contrast degrade must pass the gate.
+            res = M.mutate(clean, "contrast:degrade", "severe", _SEED)
+            mp = tmp_path / "local.html"
+            mp.write_text(res.mutated_html, encoding="utf-8")
+            results["local"] = await v.verify(mp, res.injection_record, clean_source=cp)
+
+            # Spillover: same class claim, but the page ALSO restyles globally.
+            spill = res.mutated_html.replace(
+                "</head>",
+                "<style>body { margin: 60px !important; background: #ffe0e0; }</style></head>",
+            )
+            sp = tmp_path / "spill.html"
+            sp.write_text(spill, encoding="utf-8")
+            results["spill"] = await v.verify(sp, res.injection_record, clean_source=cp)
+
+            # Global class: gate is skipped with a reason, never applied.
+            res2 = M.mutate(clean, "protrude:viewport", "moderate", _SEED)
+            gp = tmp_path / "global.html"
+            gp.write_text(res2.mutated_html, encoding="utf-8")
+            results["global"] = await v.verify(gp, res2.injection_record, clean_source=cp)
+        return results
+
+    results = asyncio.run(run())
+    local = results["local"]
+    assert local is not None and local["confinement"]["confined"] is True
+    assert local["severity"] == "severe"
+
+    spill = results["spill"]
+    assert spill is not None, "the contrast claim itself still verifies"
+    assert spill["confinement"]["confined"] is False, "page-wide delta must fail the gate"
+
+    glob = results["global"]
+    assert glob is not None and "skipped" in glob["confinement"]
