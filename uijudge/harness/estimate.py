@@ -136,14 +136,17 @@ PRICES: dict[str, dict] = {
         # gemini_image_tokens(1280,1600): crop=floor(1280/1.5)=853; ceil(1280/853)*ceil(1600/853)=2*2=4; 4*258
         "image_tokens": gemini_image_tokens(_W, _H),  # == 1032
         "source": "https://ai.google.dev/gemini-api/docs/pricing",
-        "price_note": "Gemini 3 Flash standard tier; verified 2026-07-24 ($0.50 in / $3.00 out). "
+        "price_note": "Gemini 3 Flash standard tier; verified 2026-07-24, re-verified 2026-08-15 "
+        "($0.50 in / $3.00 out for the preview slug; the newer 3.6/3.7 Flash models bill "
+        "$0.75/$3.75 intro and are NOT what this slug runs). "
         "Reasoning-by-default: completion tokens include thinking (observed ~55 on a trivial call), "
         "so the 40-60 output assumption understates; smoke measures actuals pre-spend.",
     },
     "qwen3-vl-235b": {
         "litellm_model": "openrouter/qwen/qwen3-vl-235b-a22b-instruct",
         "provider": "openrouter",
-        # Verified OpenRouter list price for qwen/qwen3-vl-235b-a22b-instruct on 2026-07-24
+        # Verified OpenRouter list price for qwen/qwen3-vl-235b-a22b-instruct on 2026-07-24,
+        # re-verified unchanged 2026-08-15
         # ($0.20 in / $0.88 out) — NOT the brief's assumed $0.30/$2.40. OpenRouter routes across
         # providers, so the realized price can vary by the provider actually served.
         "input": 0.20,
