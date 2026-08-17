@@ -13,6 +13,7 @@ venv/
 .ruff_cache/
 .coverage
 htmlcov/
+layoutlens_output/
 
 # Superpowers workspace
 .superpowers/

@@ -28,6 +28,12 @@ from uijudge.harness.judges.llm import LLMJudge, load_prompt  # noqa: E402
 from uijudge.schema import validate_item  # noqa: E402
 
 
+@pytest.mark.parametrize("kwargs", [{"n_runs": 0}, {"concurrency": 0}])
+def test_constructor_rejects_nonpositive_execution_controls(kwargs):
+    with pytest.raises(ValueError, match="must be at least 1"):
+        LayoutLensJudge(model="gpt-4o-mini", **kwargs)
+
+
 def _item(item_id="a-L1", task_level="L1", gt="no", *, page_id="real-ada-home", question="Is it good?"):
     return validate_item(
         {

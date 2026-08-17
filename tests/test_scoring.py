@@ -98,6 +98,18 @@ def test_missing_result_counts_as_missing():
     assert report.abstained == 9  # only i01 answered; the other 9 abstain
 
 
+def test_non_string_l1_answer_is_ambiguous_not_an_exception():
+    item = validate_item(_item("bad-shape", "no"))
+    report = score_l1(
+        [item],
+        [{"item_id": item.item_id, "answer": {"unexpected": "shape"}, "judge": "bad"}],
+    )
+
+    assert report.scored == 1
+    assert report.ambiguous == 1
+    assert report.overall.fn == 1
+
+
 def test_confusion_handles_empty():
     c = Confusion()
     assert c.f1 == 0.0

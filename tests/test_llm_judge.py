@@ -12,9 +12,16 @@ from __future__ import annotations
 import asyncio
 from unittest import mock
 
+import pytest
+
 from uijudge.constants import CANARY_GUID
 from uijudge.harness.judges.llm import LLMJudge, parse_response
 from uijudge.schema import validate_item
+
+
+def test_judge_rejects_nonpositive_run_count():
+    with pytest.raises(ValueError, match="n_runs must be at least 1"):
+        LLMJudge(model="gpt-4o-mini", n_runs=0)
 
 
 def _item(item_id, task_level, gt, *, anchor=None, question="Is it good?"):
@@ -107,6 +114,7 @@ def test_plan_enumerates_calls_without_network():
     sentinel.assert_not_called()
     assert len(plan) == 2  # one item x n_runs=2
     assert plan[0].model == "gpt-4o"
+    assert plan[0].max_tokens == 300
 
 
 # --------------------------------------------------------------------------- real path with mock
@@ -115,14 +123,20 @@ def test_plan_enumerates_calls_without_network():
 class _CannedLiteLLM:
     """Replacement for litellm.acompletion returning fixed message strings in sequence."""
 
-    def __init__(self, replies):
+    def __init__(self, replies, usage=None):
         self.replies = list(replies)
+        self.usage = usage
         self.calls = 0
+        self.call_kwargs = []
 
     async def __call__(self, *args, **kwargs):
         reply = self.replies[min(self.calls, len(self.replies) - 1)]
         self.calls += 1
-        return {"choices": [{"message": {"content": reply}}]}
+        self.call_kwargs.append(kwargs)
+        response = {"choices": [{"message": {"content": reply}}]}
+        if self.usage is not None:
+            response["usage"] = self.usage
+        return response
 
 
 def test_single_run_parses_mocked_response():
@@ -135,6 +149,38 @@ def test_single_run_parses_mocked_response():
     assert rows[0]["answer"] == "no"
     assert rows[0]["confidence"] == 0.9
     assert rows[0]["judge"] == "llm:gpt-4o-mini:v1"
+    assert "usage" not in rows[0]["runs"][0]
+
+
+def test_completion_forwards_token_cap_and_preserves_provider_usage():
+    item = _item("a-L1", "L1", "no")
+    judge = LLMJudge(model="gpt-4o-mini", n_runs=1, max_tokens=123)
+    canned = _CannedLiteLLM(
+        ['{"answer": "no", "confidence": 0.9}'],
+        usage={
+            "prompt_tokens": 41,
+            "completion_tokens": 12,
+            "total_tokens": 53,
+            "completion_tokens_details": {"reasoning_tokens": 7},
+        },
+    )
+    with mock.patch("litellm.acompletion", canned):
+        rows = asyncio.run(judge.run([item]))
+
+    assert canned.call_kwargs == [
+        {
+            "model": "gpt-4o-mini",
+            "messages": mock.ANY,
+            "temperature": 0.0,
+            "max_tokens": 123,
+        }
+    ]
+    assert rows[0]["runs"][0]["usage"] == {
+        "prompt_tokens": 41,
+        "completion_tokens": 12,
+        "total_tokens": 53,
+        "thought_tokens": 7,
+    }
 
 
 def test_n_run_aggregation_majority_and_agreement():

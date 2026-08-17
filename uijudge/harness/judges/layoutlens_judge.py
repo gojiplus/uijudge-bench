@@ -30,11 +30,19 @@ from __future__ import annotations
 import asyncio
 from dataclasses import dataclass, field
 from pathlib import Path
-from typing import Any
+from typing import Any, cast
 
 from ...schema import Item
 from .aggregate import aggregate_runs
-from .llm import DEFAULT_CORPUS_ROOT, _item_viewport, build_prompt, parse_response, screenshot_path
+from .llm import (
+    AUTO_MAX_TOKENS,
+    DEFAULT_CORPUS_ROOT,
+    _item_viewport,
+    build_prompt,
+    parse_response,
+    resolve_max_tokens,
+    screenshot_path,
+)
 
 
 @dataclass
@@ -47,6 +55,8 @@ class LayoutLensJudge:
         n_runs: Independent runs per item (>1 gives across-run agreement).
         api_base: Optional OpenAI-compatible base URL forwarded to LayoutLens.
         provider: LayoutLens provider string (default ``"litellm"`` for unified routing).
+        max_tokens: Completion-token budget forwarded to LayoutLens. ``None`` selects
+            LayoutLens's reasoning-aware per-model default.
         corpus_root: Root of the corpus tree (for screenshot resolution).
     """
 
@@ -58,13 +68,16 @@ class LayoutLensJudge:
     corpus_root: Path = DEFAULT_CORPUS_ROOT
     name: str = ""
     requires: set[str] = field(default_factory=set)
-    # Reasoning-by-default models (e.g. Gemini 3) spend thinking tokens inside the completion
-    # budget; 300 can truncate the JSON verdict. Judges may raise this per model.
-    max_tokens: int = 300
+    max_tokens: int | None = AUTO_MAX_TOKENS
     # Bounded parallelism across items (rate-limit friendly; 1 = sequential).
     concurrency: int = 3
 
     def __post_init__(self):
+        if self.n_runs < 1:
+            raise ValueError("n_runs must be at least 1")
+        if self.concurrency < 1:
+            raise ValueError("concurrency must be at least 1")
+        self.max_tokens = resolve_max_tokens(self.model, self.max_tokens)
         if not self.name:
             self.name = f"layoutlens:{self.model}:{self.prompt_version}"
         self.corpus_root = Path(self.corpus_root)
@@ -115,17 +128,23 @@ class LayoutLensJudge:
                 "image_order": [item.page_id],
             }
 
-        result = await self._get_lens().judge(screenshot, self.build_prompt(item), max_tokens=self.max_tokens)
+        result = await self._get_lens().judge(
+            screenshot,
+            self.build_prompt(item),
+            max_tokens=cast(int, self.max_tokens),
+        )
         parsed = parse_response(result.raw, item.task_level)
-        return {
+        run = {
             "answer": parsed["answer"],
             "confidence": parsed["confidence"],
             "refused": bool(result.refused),  # passthrough from JudgeResult
             "raw": result.raw,
             "rationale": result.rationale,
-            "usage": dict(result.usage),
             "image_order": [item.page_id],
         }
+        if result.usage:
+            run["usage"] = dict(result.usage)
+        return run
 
     async def run(self, items: list[Item]) -> list[dict[str, Any]]:
         """Run the judge over ``items`` → one aggregated result row per item.

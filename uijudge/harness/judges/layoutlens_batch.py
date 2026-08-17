@@ -30,11 +30,19 @@ from __future__ import annotations
 
 from dataclasses import dataclass, field
 from pathlib import Path
-from typing import Any
+from typing import Any, cast
 
 from ...schema import Item
 from .aggregate import aggregate_runs
-from .llm import DEFAULT_CORPUS_ROOT, _item_viewport, build_prompt, parse_response, screenshot_path
+from .llm import (
+    AUTO_MAX_TOKENS,
+    DEFAULT_CORPUS_ROOT,
+    _item_viewport,
+    build_prompt,
+    parse_response,
+    resolve_max_tokens,
+    screenshot_path,
+)
 
 # Gemini bills at these per-1e6-token rates for gemini-3-flash STANDARD; batch = 50% off.
 # (These equal PRICES["gemini-3-flash"] input/output; kept here so cost accounting is identical
@@ -54,19 +62,20 @@ class LayoutLensBatchJudge:
             google-genai inline batch backend; other ids route through LayoutLens's litellm
             file-based batch.
         prompt_version: Prompt template version (the frozen calibration winner, ``"v1"``).
-        max_tokens: Per-request completion budget forwarded to ``judge_batch`` (reasoning models
-            spend thinking tokens inside it; 8000 avoids truncated verdicts).
+        max_tokens: Completion-token budget forwarded to ``judge_batch``. ``None`` selects
+            LayoutLens's reasoning-aware per-model default.
         corpus_root: Root of the corpus tree (for screenshot resolution).
     """
 
     model: str = "gemini/gemini-3-flash-preview"
     prompt_version: str = "v1"
-    max_tokens: int = 8000
+    max_tokens: int | None = AUTO_MAX_TOKENS
     corpus_root: Path = DEFAULT_CORPUS_ROOT
     name: str = ""
     requires: set[str] = field(default_factory=set)
 
     def __post_init__(self):
+        self.max_tokens = resolve_max_tokens(self.model, self.max_tokens)
         if not self.name:
             self.name = f"layoutlens-batch:{self.model}:{self.prompt_version}"
         self.corpus_root = Path(self.corpus_root)
@@ -121,19 +130,30 @@ class LayoutLensBatchJudge:
             "confidence": parsed["confidence"],
             "refused": bool(result.refused),  # passthrough from JudgeResult
             "raw": result.raw or "",
-            "usage": dict(result.usage),
             "image_order": [item.page_id],
         }
+        if result.usage:
+            run["usage"] = dict(result.usage)
         return aggregate_runs(item, [run], self.name)
 
-    def batch_cost_usd(self, rows: list[dict[str, Any]]) -> float:
-        """Total batch-rate USD across all rows' recorded usage (50% of standard)."""
+    def batch_cost_usd(self, rows: list[dict[str, Any]]) -> float | None:
+        """Total batch-rate USD, or ``None`` when any submitted call lacks usage."""
         pin = pout = 0
+        measured_calls = 0
         for row in rows:
             for run in row.get("runs", []):
+                if run.get("error"):
+                    continue
                 u = run.get("usage") or {}
-                pin += u.get("prompt_tokens", 0)
-                pout += u.get("completion_tokens", 0)
+                prompt = u.get("prompt_tokens")
+                completion = u.get("completion_tokens")
+                if not isinstance(prompt, (int, float)) or not isinstance(completion, (int, float)):
+                    return None
+                pin += prompt
+                pout += completion
+                measured_calls += 1
+        if measured_calls == 0:
+            return None
         usd = (pin / 1e6 * _STD_INPUT_USD + pout / 1e6 * _STD_OUTPUT_USD) * _BATCH_DISCOUNT
         return round(usd, 4)
 
@@ -162,7 +182,10 @@ class LayoutLensBatchJudge:
 
         results: dict[str, Any] = {}
         if batch_requests:
-            results = await self._get_lens().judge_batch(batch_requests, max_tokens=self.max_tokens)
+            results = await self._get_lens().judge_batch(
+                batch_requests,
+                max_tokens=cast(int, self.max_tokens),
+            )
 
         rows: list[dict[str, Any]] = []
         for item in items:
