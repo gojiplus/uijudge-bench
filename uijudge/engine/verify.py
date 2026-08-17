@@ -24,7 +24,7 @@ from __future__ import annotations
 import logging
 from dataclasses import dataclass
 from pathlib import Path
-from typing import Any
+from typing import Any, cast
 
 from playwright.async_api import Browser, BrowserContext, Page, async_playwright
 
@@ -107,10 +107,14 @@ _JS_PROTRUDE = """(sel) => {
 
 # Page-level horizontal overflow (ported from layoutlens 2.0.0 _JS_PAGE_OVERFLOW):
 # the DOCUMENT is wider than the viewport, regardless of which element causes it.
-_JS_PAGE_OVERFLOW = """() => {
+_JS_PAGE_OVERFLOW = """(sel) => {
   const sw = Math.max(document.documentElement.scrollWidth,
                       document.body ? document.body.scrollWidth : 0);
-  return { scrollWidth: sw, bbox: [0, 0, sw, 0] };
+  const el = sel ? document.querySelector(sel) : null;
+  const r = el ? el.getBoundingClientRect() : null;
+  return { scrollWidth: sw, bbox: [0, 0, sw, 0],
+           target: r ? {left: r.left, right: r.right,
+                        bbox: [r.x, r.y, r.width, r.height]} : null };
 }"""
 
 # Ellipsis truncation (ported from layoutlens 2.0.0 _JS_TRUNCATION): the element
@@ -201,7 +205,7 @@ async def _measure(page: Page, defect_class: str, rec: dict) -> dict | None:
     if defect_class in ("protrude:viewport", "responsive:fixed-width"):
         return await page.evaluate(_JS_PROTRUDE, sel)
     if defect_class == "overflow:page":
-        return await page.evaluate(_JS_PAGE_OVERFLOW)
+        return await page.evaluate(_JS_PAGE_OVERFLOW, sel)
     if defect_class == "truncate:ellipsis":
         return await page.evaluate(_JS_TRUNCATE, sel)
     if defect_class == "z:occlude":
@@ -310,6 +314,8 @@ def _decide(defect_class: str, per_vp: dict[str, dict | None], rec: dict) -> tup
             "right_px": round(m["right"]),
             "viewport_width_px": device_w,
             "overflow_px": round(overflow),
+            "document_scroll_width_px": round(m["scrollWidth"]),
+            "page_overflows": m["scrollWidth"] > device_w + 1,
             "bbox": _round_bbox(m["bbox"]),
         }
 
@@ -319,10 +325,14 @@ def _decide(defect_class: str, per_vp: dict[str, dict | None], rec: dict) -> tup
             return False, {}
         device_w = m["deviceWidth"]
         overflows = m["scrollWidth"] > device_w + 1
+        target = m.get("target")
+        target_protrudes = bool(target and (target["right"] > device_w + 1 or target["left"] < -1))
         return overflows, {
             "scroll_width_px": round(m["scrollWidth"]),
             "viewport_width_px": device_w,
             "overflow_px": round(m["scrollWidth"] - device_w),
+            "target_protrudes": target_protrudes,
+            "target_bbox": _round_bbox(target["bbox"]) if target else None,
             "bbox": _round_bbox(m["bbox"]),
         }
 
@@ -378,11 +388,17 @@ def _decide(defect_class: str, per_vp: dict[str, dict | None], rec: dict) -> tup
                     "right_px": round(mob["right"]),
                     "viewport_width_px": mob["deviceWidth"],
                     "protrudes": present_mobile,
+                    "scroll_width_px": round(mob["scrollWidth"]),
+                    "page_overflows": mob["scrollWidth"] > mob["deviceWidth"] + 1,
+                    "bbox": _round_bbox(mob["bbox"]),
                 },
                 "desktop": {
                     "right_px": round(desk["right"]),
                     "viewport_width_px": desk["deviceWidth"],
                     "protrudes": not absent_desktop,
+                    "scroll_width_px": round(desk["scrollWidth"]),
+                    "page_overflows": desk["scrollWidth"] > desk["deviceWidth"] + 1,
+                    "bbox": _round_bbox(desk["bbox"]),
                 },
             },
         }
@@ -396,6 +412,36 @@ def _decide(defect_class: str, per_vp: dict[str, dict | None], rec: dict) -> tup
         return (got == expected), {"property": rec["params"]["property"], "computed": got, "expected": expected}
 
     raise KeyError(f"no decision rule for defect class {defect_class!r}")
+
+
+def _verified_criterion_codes(defect_class: str, primary: str, measured: dict[str, Any]) -> list[str]:
+    """Return deterministic, exhaustive L2 labels supported by a verifier receipt.
+
+    Ordering is stable: the planted primary criterion comes first, followed by broader
+    criteria whose predicates were independently measured on the same rendering.
+    """
+    codes = [primary]
+    if defect_class == "label:orphan":
+        # W3C failure F68 applies a broken programmatic label association to both
+        # 1.3.1 (Info and Relationships) and 4.1.2 (Name, Role, Value).
+        codes.append("wcag:1.3.1")
+    elif defect_class == "overlap:shift":
+        codes.append("layout:occlusion")
+    elif defect_class == "z:occlude":
+        codes.append("redecheck:element-collision")
+    elif defect_class == "truncate:ellipsis":
+        codes.append("redecheck:element-protrusion")
+    elif defect_class == "overflow:page" and measured.get("target_protrudes"):
+        codes.append("redecheck:viewport-protrusion")
+    elif defect_class == "protrude:viewport" and measured.get("page_overflows"):
+        codes.append("layout:page-overflow")
+    elif defect_class == "responsive:fixed-width":
+        mobile = measured.get("per_viewport", {}).get("mobile", {})
+        if mobile.get("protrudes"):
+            codes.append("redecheck:viewport-protrusion")
+        if mobile.get("page_overflows"):
+            codes.append("layout:page-overflow")
+    return list(dict.fromkeys(codes))
 
 
 # --------------------------------------------------------------------------- Verifier
@@ -482,7 +528,7 @@ def _confinement_verdict(clean_png: bytes, mutated_png: bytes, bbox: list[int], 
             "confined": False,
             "note": f"screenshot sizes differ: {a.size} vs {b.size}",
         }
-    diff = ImageChops.difference(a, b).point(lambda p: 255 if p > _CONFINE_DIFF_THRESHOLD else 0)
+    diff = ImageChops.difference(a, b).point(lambda p: 255 if cast(Any, p) > _CONFINE_DIFF_THRESHOLD else 0)
     x, y, w, h = bbox
     left = max(0, round(x) - pad)
     top = max(0, round(y) - pad)
@@ -546,6 +592,7 @@ class Verifier:
         per_vp: dict[str, dict | None] = {}
         axe_info: dict | None = None
         primary_bbox: list | None = None
+        localization_viewport = "mobile" if defect_class == "responsive:fixed-width" else "desktop"
         for vp in viewports:
             ctx = await self._cache.context(vp)
             page = await ctx.new_page()
@@ -558,7 +605,7 @@ class Verifier:
                     # width, not innerWidth. Attach it for the decision rules that need it.
                     measured["deviceWidth"] = resolve_viewport(vp).width
                 per_vp[vp] = measured
-                if vp == "desktop":
+                if vp == localization_viewport:
                     # Primary-target bbox for L3 localization ground truth (every class).
                     if injection_record.get("selector"):
                         raw = await page.evaluate(_JS_BBOX, injection_record["selector"])
@@ -632,6 +679,11 @@ class Verifier:
             "selector": injection_record.get("selector"),
             "verified": True,
             "measured": measured,
+            "criterion_codes": _verified_criterion_codes(
+                defect_class,
+                injection_record["criterion_code"],
+                measured,
+            ),
         }
         if injection_record.get("severity"):
             # Severity travels into the label so difficulty curves are possible.
@@ -713,6 +765,9 @@ class Verifier:
             "selector": injection_record.get("selector"),
             "fires": fires,
             "measured": measured,
+            "criterion_codes": (
+                _verified_criterion_codes(defect_class, injection_record["criterion_code"], measured) if fires else []
+            ),
         }
         if defect_class == "responsive:fixed-width":
             control["viewports"] = injection_record.get("verify_viewports", ["desktop"])

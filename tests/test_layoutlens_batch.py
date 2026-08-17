@@ -107,7 +107,7 @@ def test_rows_byte_compatible_with_llm_judge(monkeypatch):
     llm = LLMJudge(model=_MODEL, prompt_version="v1")
 
     async def _fake_complete(_messages):
-        return raw
+        return raw, {}
 
     monkeypatch.setattr(llm, "_complete", _fake_complete)
     llm_rows = asyncio.run(llm.run([item]))
@@ -181,3 +181,10 @@ def test_batch_cost_is_half_of_standard():
     j = LayoutLensBatchJudge()
     rows = [{"runs": [{"usage": {"prompt_tokens": 1_000_000, "completion_tokens": 1_000_000}}]}]
     assert j.batch_cost_usd(rows) == pytest.approx(1.75)
+
+
+def test_batch_cost_fails_closed_when_usage_is_missing():
+    j = LayoutLensBatchJudge()
+    rows = [{"runs": [{"answer": "no", "confidence": 1.0, "refused": False}]}]
+
+    assert j.batch_cost_usd(rows) is None
