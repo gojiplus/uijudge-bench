@@ -79,7 +79,18 @@ _JS_HEADINGS = """() => {
 _JS_BBOX = """(sel) => {
   const el = document.querySelector(sel); if (!el) return null;
   const r = el.getBoundingClientRect();
-  return { width: r.width, height: r.height, x: r.x, y: r.y, right: r.right, bottom: r.bottom };
+  const style = getComputedStyle(el);
+  const x = r.x + window.scrollX, y = r.y + window.scrollY;
+  const documentWidth = Math.max(document.documentElement.scrollWidth,
+                                 document.body ? document.body.scrollWidth : 0);
+  const documentHeight = Math.max(document.documentElement.scrollHeight,
+                                  document.body ? document.body.scrollHeight : 0);
+  const intersectsDocument = r.width > 0 && r.height > 0 &&
+    x + r.width > 0 && y + r.height > 0 && x < documentWidth && y < documentHeight;
+  const rendered = style.display !== 'none' && style.visibility !== 'hidden' &&
+    Number.parseFloat(style.opacity || '1') > 0 && intersectsDocument;
+  return { width: r.width, height: r.height, x, y,
+           right: x + r.width, bottom: y + r.height, rendered };
 }"""
 
 _JS_INTERSECT = """([a, b]) => {
@@ -615,6 +626,25 @@ _CONFINED_CLASSES = frozenset(
         "z:occlude",
     }
 )
+_REQUIRES_RENDERED_TARGET = frozenset(
+    {
+        "align:break",
+        "align:flip",
+        "chart:label-occlude",
+        "clip:overflow",
+        "contrast:degrade",
+        "focus:obscure",
+        "overflow:page",
+        "overlap:shift",
+        "protrude:viewport",
+        "responsive:fixed-width",
+        "size:jitter",
+        "target:shrink",
+        "truncate:ellipsis",
+        "weight:strip",
+        "z:occlude",
+    }
+)
 _CONFINEMENT_SKIP_REASON = {
     "protrude:viewport": "global reflow (element crosses the viewport edge)",
     "overflow:page": "global reflow (document-level overflow)",
@@ -740,8 +770,14 @@ class Verifier:
                     # Primary-target bbox for L3 localization ground truth (every class).
                     if injection_record.get("selector"):
                         raw = await page.evaluate(_JS_BBOX, injection_record["selector"])
-                        if raw is not None:
+                        if raw is not None and (raw["rendered"] or defect_class not in _REQUIRES_RENDERED_TARGET):
                             primary_bbox = [round(raw["x"]), round(raw["y"]), round(raw["width"]), round(raw["height"])]
+                        elif defect_class in _REQUIRES_RENDERED_TARGET:
+                            # A selector that exists only outside the rendered document (or is
+                            # hidden) cannot substantiate a visual or accessibility mutation.
+                            # Treat it as an unverified target rather than emitting an oracle for
+                            # pixels no user can encounter.
+                            per_vp[vp] = None
                     if defect_class in _AXE_RULE:
                         axe_info = await self._axe_check(page, _AXE_RULE[defect_class])
             finally:

@@ -1,6 +1,6 @@
 # Next release: model-assisted benchmark generation
 
-This is a design note for work after the v0.3 standards release. It authorizes no model
+This is a design note for work after the v0.4 screenshot-contract release. It authorizes no model
 calls and adds no generated items to the current benchmark.
 
 ## Recommended role

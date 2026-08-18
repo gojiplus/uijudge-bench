@@ -100,7 +100,8 @@ _KNOWN_LIMITS = {
 }
 
 
-def _modality(code: str) -> str:
+def criterion_modality(code: str) -> str:
+    """Return the evidence modality required by one WCAG 2.2 success criterion."""
     if code in _TIMED_MEDIA:
         return "timed-media-or-temporal"
     if code in _MULTI_PAGE_OR_PROCESS:
@@ -195,7 +196,7 @@ def _evidence(code: str, items: list[Item]) -> dict[str, Any]:
 
 
 def _status_and_reason(code: str, evidence: dict[str, Any]) -> tuple[str, str]:
-    modality = _modality(code)
+    modality = criterion_modality(code)
     if modality == "timed-media-or-temporal":
         return (
             "not-representable",
@@ -260,7 +261,7 @@ def build_wcag22_coverage(items: list[Item]) -> dict[str, Any]:
                 "criterion": code,
                 "title": title,
                 "conformance_level": WCAG_CONFORMANCE_LEVELS[code],
-                "modality": _modality(code),
+                "modality": criterion_modality(code),
                 "status": status,
                 "reason": reason,
                 "evidence": evidence,

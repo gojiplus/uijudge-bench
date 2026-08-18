@@ -30,3 +30,9 @@ corpus/real/tier_b/
 # Generated (not committed) screenshots for synthetic/ingested pages — see `make screenshots`.
 corpus/synthetic/**/screenshot_*.png
 corpus/ingested/**/screenshot_*.png
+
+# Versioned paid-judge inputs are derived from frozen HTML and locally audited via JSON sidecars.
+# They are deliberately separate from the historical corpus screenshots and are not Git/LFS data.
+corpus/**/judge_v*_*.png
+corpus/**/judge_v*_*.jpg
+corpus/**/judge_v*_*.json
