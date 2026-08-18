@@ -5,6 +5,11 @@ from __future__ import annotations
 import pytest
 
 from uijudge.criteria import (
+    WCAG_CONFORMANCE_LEVELS,
+    WCAG_STANDARD_URI,
+    WCAG_STANDARD_VERSION,
+    WCAG_SUCCESS_CRITERIA,
+    criterion_standard_metadata,
     is_valid_criterion,
     parse_criterion,
     wcag_axe_tag,
@@ -44,3 +49,25 @@ def test_wcag_axe_tag_mapping():
 def test_wcag_axe_tag_rejects_non_wcag():
     with pytest.raises(ValueError):
         wcag_axe_tag("redecheck:element-collision")
+
+
+def test_wcag_registry_is_complete_and_locked_to_22():
+    assert WCAG_STANDARD_VERSION == "2.2"
+    assert WCAG_STANDARD_URI == "https://www.w3.org/TR/2024/REC-WCAG22-20241212/"
+    assert set(WCAG_CONFORMANCE_LEVELS) == set(WCAG_SUCCESS_CRITERIA)
+    assert len(WCAG_SUCCESS_CRITERIA) == 86
+    assert "4.1.1" not in WCAG_SUCCESS_CRITERIA
+    assert WCAG_SUCCESS_CRITERIA["2.4.12"] == "Focus Not Obscured (Enhanced)"
+    assert WCAG_SUCCESS_CRITERIA["2.4.13"] == "Focus Appearance"
+    assert WCAG_SUCCESS_CRITERIA["3.3.9"] == "Accessible Authentication (Enhanced)"
+
+
+def test_wcag_standard_metadata_is_normative_and_not_applied_to_layout():
+    assert criterion_standard_metadata("wcag:2.5.8") == {
+        "title": "Web Content Accessibility Guidelines (WCAG) 2.2",
+        "version": "2.2",
+        "uri": WCAG_STANDARD_URI,
+        "success_criterion": "2.5.8",
+        "conformance_level": "AA",
+    }
+    assert criterion_standard_metadata("layout:occlusion") is None

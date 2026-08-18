@@ -181,6 +181,12 @@ _WCAG: dict[str, CriterionContext] = {
         "The purpose of each link must be determinable from the link text alone.",
         anchor="a link whose text does not describe its destination.",
     ),
+    "2.4.11": CriterionContext(
+        "When a user-interface component receives keyboard focus, it must not be entirely "
+        "hidden by author-created content.",
+        non_criteria="content opened by the user or interfaces whose position the user can configure.",
+        anchor="a focused control fully covered by a persistent banner or overlay.",
+    ),
     "2.5.3": CriterionContext(
         "A control's accessible name must contain the text that is presented to the user visually on the control.",
     ),

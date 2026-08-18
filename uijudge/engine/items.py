@@ -25,7 +25,7 @@ from __future__ import annotations
 
 from typing import Any
 
-from ..criteria import L2_VOCABULARY_VERSION, criterion_title
+from ..criteria import L2_VOCABULARY_VERSION, criterion_standard_metadata, criterion_title
 
 # L1 question per criterion, phrased so that YES = the page satisfies the criterion (clean)
 # and NO = a violation is present (mutated). The scorer's positive class is "violation".
@@ -34,12 +34,13 @@ _L1_QUESTIONS: dict[str, str] = {
     "wcag:1.1.1": "Does every content image on this page have appropriate, descriptive alternative text (WCAG 1.1.1 Non-text Content)?",
     "wcag:4.1.2": "Is every form input on this page programmatically associated with a label (WCAG 4.1.2 Name, Role, Value)?",
     "wcag:1.3.1": "Do the headings on this page follow a correct hierarchy with no skipped levels (WCAG 1.3.1 Info and Relationships)?",
-    "wcag:2.5.8": "Is every interactive target on this page at least 24x24 CSS pixels (WCAG 2.5.8 Target Size Minimum)?",
+    "wcag:2.5.8": "Does every pointer target satisfy WCAG 2.5.8 Target Size Minimum by containing a 24x24 CSS-pixel area or meeting a stated exception?",
+    "wcag:2.4.11": "When a user-interface component receives keyboard focus, is it not entirely hidden by author-created content (WCAG 2.4.11 Focus Not Obscured Minimum)?",
     "redecheck:element-collision": "Are the elements on this page laid out without any overlapping or colliding with one another?",
     "redecheck:element-protrusion": "Is all text on this page fully visible, with no content clipped or hidden by its container?",
     "redecheck:viewport-protrusion": "Does this page fit within the viewport width with no element causing horizontal overflow?",
     "redecheck:small-range": "Does this page's layout stay free of horizontal overflow at a mobile viewport width?",
-    "layout:occlusion": "Is the page's main heading fully visible and not covered by any overlapping element?",
+    "layout:occlusion": "Is all content intended to remain readable fully visible and free from covering elements?",
     "layout:alignment": "Are the cards in the card row aligned consistently along a common top edge?",
     "layout:page-overflow": "Does this page's content fit the viewport width without making the whole page scroll horizontally?",
     "layout:truncation": "Is all single-line text on this page shown in full, with nothing cut off by an ellipsis?",
@@ -63,7 +64,16 @@ def _evidence(defect_class: str, receipt: dict, selector: str) -> str:
     if defect_class == "heading:skip":
         return f"Heading sequence {m.get('heading_sequence')} skips a level at {m.get('skips')}."
     if defect_class == "target:shrink":
-        return f"Target {selector} measures {m.get('width_px')}x{m.get('height_px')}px, below 24x24."
+        return (
+            f"Target {selector} measures {m.get('width_px')}x{m.get('height_px')}px, its "
+            f"24px spacing circle intersects a neighboring target, and no recorded SC 2.5.8 exception applies."
+        )
+    if defect_class == "focus:obscure":
+        return (
+            f"Focused component {selector} has {m.get('visible_sample_points')} of "
+            f"{m.get('sampled_points')} sampled points visible and is entirely hidden "
+            "by persistent author-created content."
+        )
     if defect_class == "overlap:shift":
         return f"Elements overlap by {m.get('intersection_px2')}px^2 at {selector}."
     if defect_class == "clip:overflow":
@@ -77,6 +87,11 @@ def _evidence(defect_class: str, receipt: dict, selector: str) -> str:
         )
     if defect_class == "z:occlude":
         return f"Overlay covers {selector} (elementFromPoint at centre returns the overlay)."
+    if defect_class == "chart:label-occlude":
+        return (
+            f"Plotted line covers chart label {selector}: centre hit-testing returns the line and "
+            f"the measured intersection is {m.get('intersection_px2')}px^2."
+        )
     if defect_class == "align:break":
         return f"Card {selector} top offset {m.get('y_offset_px')}px from its siblings' median."
     if defect_class == "overflow:page":
@@ -103,11 +118,23 @@ def _title(code: str) -> str:
     return criterion_title(code) or code
 
 
-def _metadata(criterion_code: str, task_level: str) -> dict[str, Any]:
+def _metadata(criterion_code: str, task_level: str, receipt: dict[str, Any]) -> dict[str, Any]:
     """Return reproducibility metadata shared by generated items."""
     metadata: dict[str, Any] = {"criterion_title": _title(criterion_code)}
+    standard = criterion_standard_metadata(criterion_code)
+    if standard is not None:
+        metadata["standard"] = standard
     if criterion_code == "redecheck:small-range":
         metadata["viewport"] = "mobile"
+    if criterion_code == "wcag:2.4.11":
+        selector = receipt.get("selector")
+        if not isinstance(selector, str) or not selector:
+            raise ValueError("WCAG 2.4.11 items require a focus-target selector in the receipt")
+        metadata["render_state"] = {
+            "name": "keyboard-focus",
+            "selector": selector,
+            "viewport": "desktop",
+        }
     if task_level == "L2":
         metadata["l2_vocabulary_version"] = L2_VOCABULARY_VERSION
     return metadata
@@ -155,7 +182,7 @@ def l1_item(
         "evidence": evidence,
         "split": split,
         "provenance": provenance,
-        "metadata": _metadata(criterion_code, "L1"),
+        "metadata": _metadata(criterion_code, "L1", receipt),
     }
 
 
@@ -185,7 +212,7 @@ def l2_item(
         "evidence": evidence,
         "split": split,
         "provenance": provenance,
-        "metadata": _metadata(criterion_code, "L2"),
+        "metadata": _metadata(criterion_code, "L2", receipt),
     }
 
 
@@ -217,7 +244,7 @@ def l3_item(
         "evidence": evidence,
         "split": split,
         "provenance": provenance,
-        "metadata": _metadata(criterion_code, "L3"),
+        "metadata": _metadata(criterion_code, "L3", receipt),
     }
 
 
@@ -293,7 +320,10 @@ def _control_evidence(criterion_code: str, control_receipt: dict) -> str:
     if criterion_code == "wcag:1.3.1" and "skips" in m:
         return f"Negative control: heading sequence {m.get('heading_sequence')} has no skips; check does not fire."
     if criterion_code == "wcag:2.5.8" and "width_px" in m:
-        return f"Negative control: target measures {m.get('width_px')}x{m.get('height_px')}px (>= 24); check does not fire."
+        return (
+            f"Negative control: target measures {m.get('width_px')}x{m.get('height_px')}px; "
+            f"undersized={m.get('undersized')}, spacing_exception={m.get('spacing_exception')}; check does not fire."
+        )
     if "intersection_px2" in m:
         return f"Negative control: measured overlap {m['intersection_px2']}px^2; check does not fire."
     if "scroll_height_px" in m:

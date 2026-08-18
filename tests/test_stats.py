@@ -9,8 +9,11 @@ from __future__ import annotations
 
 import math
 
+import pytest
+
 from uijudge.harness.stats import (
     bootstrap_ci,
+    cluster_bootstrap_ci,
     ece,
     iou,
     mcnemar,
@@ -57,6 +60,23 @@ def test_bootstrap_ci_accepts_bool_indicator():
 
 def test_bootstrap_ci_empty_is_zero():
     assert bootstrap_ci([]) == (0.0, 0.0)
+
+
+def test_cluster_bootstrap_ci_is_seeded_and_resamples_whole_pages():
+    values = [1.0, 1.0, 0.0, 0.0]
+    pages = ["page-a", "page-a", "page-b", "page-b"]
+    first = cluster_bootstrap_ci(values, pages, n_resamples=2_000, seed=42)
+    second = cluster_bootstrap_ci(values, pages, n_resamples=2_000, seed=42)
+
+    assert first == second
+    assert first == (0.0, 1.0)
+
+
+def test_cluster_bootstrap_ci_validates_cluster_contract():
+    with pytest.raises(ValueError, match="equal length"):
+        cluster_bootstrap_ci([1.0], [])
+    with pytest.raises(ValueError, match="non-empty strings"):
+        cluster_bootstrap_ci([1.0], [""])
 
 
 # ---------------------------------------------------------------------------

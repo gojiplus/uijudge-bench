@@ -986,7 +986,7 @@ wheels = [
 
 [[package]]
 name = "layoutlens"
-version = "2.0.0"
+version = "2.1.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "beautifulsoup4" },
@@ -998,9 +998,9 @@ dependencies = [
     { name = "pyyaml" },
     { name = "rich" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/63/f9/4f315319d93c42a6db2414156ed22a47a06d53a1fc0809eedaf7577c06c9/layoutlens-2.0.0.tar.gz", hash = "sha256:fc517261bc0edba6bb62c549c27bcc1a3c4a5c94acaac0461e55601ee96d90a5", size = 708862, upload-time = "2026-08-16T00:39:54.545Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/a1/95/84d421bdc3e52edd8b928187f79f4cf4b6b7f5d69defd6554b8575fb5123/layoutlens-2.1.0.tar.gz", hash = "sha256:7e5ecf0627dd4786cad9eccda74ee098390f2c9b39ed45a62bc9126eb159dba6", size = 717255, upload-time = "2026-08-18T02:01:58.925Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/1a/1a/a082b1c0f1201c6a84046a64fffdc2e877d450eec6caae7ef890648979b6/layoutlens-2.0.0-py3-none-any.whl", hash = "sha256:1f3b851d374d7456b104156bd9e270f8e6e47c3d0a3e1183f3679126ec16a52e", size = 274409, upload-time = "2026-08-16T00:39:52.9Z" },
+    { url = "https://files.pythonhosted.org/packages/c2/4c/08572a4a08db27c3ca2a2251e3b30736b73b2ab7985e611d32936626ce17/layoutlens-2.1.0-py3-none-any.whl", hash = "sha256:924706385630e3f184799011df5b4a114216e947d6424f213b1ee98f43442514", size = 279516, upload-time = "2026-08-18T02:01:57.449Z" },
 ]
 
 [package.optional-dependencies]
@@ -2200,7 +2200,7 @@ wheels = [
 
 [[package]]
 name = "uijudge-bench"
-version = "0.2.0"
+version = "0.3.0"
 source = { editable = "." }
 dependencies = [
     { name = "beautifulsoup4" },
@@ -2228,8 +2228,8 @@ dev = [
 requires-dist = [
     { name = "beautifulsoup4", specifier = ">=4.12.0" },
     { name = "httpx", specifier = ">=0.27.0" },
-    { name = "layoutlens", specifier = ">=2.0.0" },
-    { name = "layoutlens", extras = ["gemini"], marker = "extra == 'judge'", specifier = ">=1.8.0" },
+    { name = "layoutlens", specifier = ">=2.1.0" },
+    { name = "layoutlens", extras = ["gemini"], marker = "extra == 'judge'", specifier = ">=2.1.0" },
     { name = "litellm", specifier = ">=1.80.0" },
     { name = "pillow", specifier = ">=10.0.0" },
     { name = "playwright", specifier = ">=1.40.0" },

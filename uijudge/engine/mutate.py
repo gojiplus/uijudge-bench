@@ -15,10 +15,11 @@ receipt is discarded upstream — never silently kept.
 Defect-class -> (criterion_code, track):
 
 a11y      contrast:degrade  wcag:1.4.3 | alt:strip/alt:garble wcag:1.1.1 |
-          label:orphan wcag:4.1.2 | heading:skip wcag:1.3.1 | target:shrink wcag:2.5.8
+          label:orphan wcag:4.1.2 | heading:skip wcag:1.3.1 | target:shrink wcag:2.5.8 |
+          focus:obscure wcag:2.4.11
 layout    overlap:shift redecheck:element-collision | clip:overflow redecheck:element-protrusion |
           protrude:viewport redecheck:viewport-protrusion | responsive:fixed-width redecheck:small-range |
-          z:occlude layout:occlusion | align:break layout:alignment
+          z:occlude/chart:label-occlude layout:occlusion | align:break layout:alignment
 referring align:flip style:text-align | weight:strip style:font-weight | size:jitter style:font-size
           (style feeders: they don't assert an a11y/layout defect; they diversify computed
           styles so the L4 generator sees both true and false property assertions.)
@@ -211,20 +212,93 @@ def _heading_skip(soup: Soup, severity: str, rng: random.Random) -> dict:
 
 @mutator("target:shrink", "wcag:2.5.8", "a11y")
 def _target_shrink(soup: Soup, severity: str, rng: random.Random) -> dict:
-    """Shrink an interactive element below the 24x24 minimum target size."""
+    """Create an undersized, insufficiently spaced navigation target with no exception."""
     size = {"mild": 22, "moderate": 18, "severe": 12}[severity]
-    tid = _choose(rng, ["submit-btn", *_ids_matching(soup, "nav-")], "interactive element")
+    nav_targets = _ids_matching(soup, "nav-")
+    if len(nav_targets) < 2:
+        raise MutationError("need two navigation targets for the WCAG 2.5.8 spacing check")
+    tid, neighbor_id = nav_targets[0], nav_targets[1]
     tag = _by_id(soup, tid)
+    nav_list = tag.find_parent("ul")
+    if nav_list is None:
+        raise MutationError("navigation target has no list container")
     prior = _add_style(
         tag,
         f"min-width:0;min-height:0;width:{size}px;height:{size}px;padding:0;"
         f"font-size:8px;line-height:1;overflow:hidden;box-sizing:border-box",
     )
+    prior_list = _add_style(nav_list, "gap:0")
     return {
         "selector": f"#{tid}",
-        "before": {"style": prior or "(stylesheet default)"},
-        "after": {"width": f"{size}px", "height": f"{size}px"},
-        "params": {"threshold_px": 24},
+        "selector_b": f"#{neighbor_id}",
+        "before": {
+            "target_style": prior or "(stylesheet default)",
+            "container_style": prior_list or "(stylesheet default)",
+        },
+        "after": {"width": f"{size}px", "height": f"{size}px", "target_gap": "0px"},
+        "params": {
+            "threshold_px": 24,
+            "rectangular_target": True,
+            "inline_exception": False,
+            "equivalent_control_exception": False,
+            "user_agent_exception": False,
+            "essential_exception": False,
+        },
+    }
+
+
+@mutator("focus:obscure", "wcag:2.4.11", "a11y")
+def _focus_obscure(soup: Soup, severity: str, rng: random.Random) -> dict:
+    """Add a persistent author-created banner that fully hides a focused control."""
+    _by_id(soup, "submit-btn")
+    if soup.find(id="focus-obscurer") is not None:
+        raise MutationError("focus obscurer already exists")
+    height = {"mild": 96, "moderate": 144, "severe": 192}[severity]
+    obscurer = soup.new_tag("div", id="focus-obscurer")
+    obscurer["aria-hidden"] = "true"
+    obscurer["style"] = (
+        f"position:fixed;inset:auto 0 0 0;height:{height}px;z-index:9999;"
+        "background:#243447;color:#fff;display:flex;align-items:center;"
+        "justify-content:center;font:600 16px sans-serif"
+    )
+    obscurer.string = "Persistent site notice"
+    if soup.body is None:
+        raise MutationError("page has no body")
+    soup.body.append(obscurer)
+    return {
+        "selector": "#submit-btn",
+        "occluder_selector": "#focus-obscurer",
+        "before": {"focused_component_obscured": False},
+        "after": {"focused_component_obscured": True, "banner_height_px": height},
+        "params": {
+            "author_created": True,
+            "opened_by_user": False,
+            "configurable_interface": False,
+            "reveal_without_advancing_focus": False,
+        },
+    }
+
+
+@mutator("chart:label-occlude", "layout:occlusion", "layout")
+def _chart_label_occlude(soup: Soup, severity: str, rng: random.Random) -> dict:
+    """Draw a plotted line over a chart's text label."""
+    _by_id(soup, "chart-label")
+    plot = _by_id(soup, "chart-plot")
+    if soup.find(id="chart-line-occluder") is not None:
+        raise MutationError("chart line occluder already exists")
+    thickness = {"mild": 2, "moderate": 4, "severe": 8}[severity]
+    line = soup.new_tag("div", id="chart-line-occluder")
+    line["aria-hidden"] = "true"
+    line["style"] = (
+        f"position:absolute;left:260px;top:109px;width:260px;height:{thickness}px;z-index:6;background:#b42318"
+    )
+    plot.append(line)
+    return {
+        "selector": "#chart-label",
+        "occluder_selector": "#chart-line-occluder",
+        "before": {"line_crosses_label": False},
+        "after": {"line_crosses_label": True, "line_thickness_px": thickness},
+        "params": {"line_thickness_px": thickness, "min_intersection_px2": 1},
     }
 
 

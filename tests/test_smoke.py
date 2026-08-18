@@ -58,9 +58,10 @@ def test_all_paid_execution_defaults_use_reasoning_aware_budget():
     assert LayoutLensJudge(model="gpt-4o-mini").max_tokens == 300
     assert LayoutLensBatchJudge(model="gemini/gemini-3-flash-preview").max_tokens == 8000
 
-    for kind in ("llm", "layoutlens", "layoutlens-batch"):
-        judge = smoke._build_judge(kind, "gpt-4o-mini", "v4", n_runs=1)
-        assert judge.max_tokens == 300
+    judge = smoke._build_judge("layoutlens-batch", "gpt-4o-mini", "v4", n_runs=1)
+    assert judge.max_tokens == 300
+    with pytest.raises(ValueError, match="provider-native Batch"):
+        smoke._build_judge("llm", "gpt-4o-mini", "v4", n_runs=1)
     assert ablate.default_judge_factory()("gemini-3-flash", "v4").max_tokens == 8000
 
     assert smoke._build_parser().parse_args(["--model", "gemini-3-flash"]).max_tokens is None
@@ -173,7 +174,7 @@ def test_report_math_matches_hand_computation():
     assert report["full_dev_split"]["projected_usd_from_actual"] is None
 
 
-def test_projection_applies_platform_fee_for_openrouter():
+def test_projection_uses_batch_discount():
     items = read_items()
     a = _item("A")
     row_a = aggregate_runs(
@@ -188,12 +189,12 @@ def test_projection_applies_platform_fee_for_openrouter():
         ],
         "canned",
     )
-    report = summarize_smoke([row_a], [a], "qwen3-vl-235b", n_runs=1, prompt_version="v1", all_items=items)
+    report = summarize_smoke([row_a], [a], "gemini-3-flash", n_runs=1, prompt_version="v1", all_items=items)
 
-    price = PRICES["qwen3-vl-235b"]
+    price = PRICES["gemini-3-flash"]
     dev_n = sum(1 for i in items if i.split == "dev")
     base = (1000 / 1e6 * price["input"] + 40 / 1e6 * price["output"]) * dev_n
-    expected = round(base * (1 + price["platform_fee_pct"]), 2)
+    expected = round(base * price["batch_discount"], 2)
     assert report["full_dev_split"]["projected_usd_from_actual"] == expected
 
 

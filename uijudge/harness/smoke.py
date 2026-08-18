@@ -1,4 +1,4 @@
-"""Pre-spend smoke harness: run a judge over 20 stratified dev items, report ACTUAL cost.
+"""Pre-spend Batch canary: run 20 stratified dev items and report ACTUAL cost.
 
 The estimator (:mod:`uijudge.harness.estimate`) projects spend from *assumed* per-call token
 counts. Before committing to a full paid run, this smoke harness runs the real judge over a
@@ -13,8 +13,8 @@ What it prints / writes:
     * projected full-dev-split cost from ACTUAL mean usage (alongside the estimator figure).
 
 The report math and the deterministic stratification are unit-tested with a canned judge — no
-network. Running the CLI against a real model DOES spend (20 x n_runs calls); that is the
-point of a smoke run, and it is orders of magnitude cheaper than the full split.
+network. The CLI only permits a provider-native asynchronous Batch transport. Running it DOES
+spend money; it submits one batch containing the deterministic sample.
 """
 
 from __future__ import annotations
@@ -100,6 +100,8 @@ def summarize_smoke(
     and from the ACTUAL mean measured usage (when the judge records ``usage`` per run).
     """
     price = PRICES[model_key]
+    if not price.get("batch_supported", False):
+        raise ValueError(f"model {model_key!r} is not eligible for provider-native Batch")
     runs = list(_iter_runs(rows))
     n_calls = len(runs)
 
@@ -133,8 +135,15 @@ def summarize_smoke(
     dev_items = filter_items(all_items if all_items is not None else read_items(), split="dev")
     full_calls = len(dev_items) * n_runs
     fee = 1 + price.get("platform_fee_pct", 0.0)
+    batch_discount = float(price["batch_discount"])
     projected_from_actual = (
-        round((mean_prompt / 1e6 * price["input"] + mean_completion / 1e6 * price["output"]) * full_calls * fee, 2)
+        round(
+            (mean_prompt / 1e6 * price["input"] + mean_completion / 1e6 * price["output"])
+            * full_calls
+            * batch_discount
+            * fee,
+            2,
+        )
         if usage_complete
         else None
     )
@@ -245,31 +254,21 @@ def _build_judge(
     n_runs: int,
     max_tokens: int | None = AUTO_MAX_TOKENS,
 ):
-    """Construct the requested judge (imports layoutlens only for the layoutlens* kinds)."""
-    if n_runs < 1:
-        raise ValueError("n_runs must be at least 1")
-    if judge_kind == "layoutlens-batch" and n_runs != 1:
+    """Construct the sole public paid transport: LayoutLens provider-native Batch."""
+    if judge_kind != "layoutlens-batch":
+        raise ValueError("paid smoke runs require provider-native Batch via judge_kind='layoutlens-batch'")
+    if n_runs != 1:
         raise ValueError("layoutlens-batch submits one provider batch and requires n_runs=1")
-    if judge_kind == "layoutlens":
-        from .judges.layoutlens_judge import LayoutLensJudge
+    from .judges.layoutlens_batch import LayoutLensBatchJudge
 
-        return LayoutLensJudge(model=litellm_model, prompt_version=prompt_version, n_runs=n_runs, max_tokens=max_tokens)
-    if judge_kind == "layoutlens-batch":
-        from .judges.layoutlens_batch import LayoutLensBatchJudge
-
-        return LayoutLensBatchJudge(model=litellm_model, prompt_version=prompt_version, max_tokens=max_tokens)
-    if judge_kind == "llm":
-        from .judges.llm import LLMJudge
-
-        return LLMJudge(model=litellm_model, prompt_version=prompt_version, n_runs=n_runs, max_tokens=max_tokens)
-    raise ValueError(f"unknown judge kind {judge_kind!r}; use 'layoutlens', 'layoutlens-batch', or 'llm'")
+    return LayoutLensBatchJudge(model=litellm_model, prompt_version=prompt_version, max_tokens=max_tokens)
 
 
 def _build_parser() -> argparse.ArgumentParser:
     """Build the CLI parser so defaults can be verified without making paid calls."""
-    parser = argparse.ArgumentParser(description="Pre-spend smoke run over 20 stratified dev items.")
-    parser.add_argument("--model", required=True, help="PRICES model key (e.g. gemini-3-flash, qwen3-vl-235b).")
-    parser.add_argument("--judge", default="layoutlens", choices=("layoutlens", "layoutlens-batch", "llm"))
+    parser = argparse.ArgumentParser(description="Provider-native Batch canary over 20 stratified dev items.")
+    parser.add_argument("--model", required=True, help="Batch-eligible PRICES model key (e.g. gemini-3-flash).")
+    parser.add_argument("--judge", default="layoutlens-batch", choices=("layoutlens-batch",))
     parser.add_argument("--prompt-version", default="v1")
     parser.add_argument("--n-runs", type=int, default=1)
     parser.add_argument(
@@ -283,7 +282,7 @@ def _build_parser() -> argparse.ArgumentParser:
 
 
 def main(argv: list[str] | None = None) -> int:
-    """CLI: ``python -m uijudge.harness.smoke --model gemini-3-flash --judge layoutlens``.
+    """CLI: ``python -m uijudge.harness.smoke --model gemini-3-flash``.
 
     This DOES make paid calls (20 x n_runs) against the real model — it is the pre-spend
     validation run, deliberately tiny.
@@ -293,10 +292,10 @@ def main(argv: list[str] | None = None) -> int:
 
     if args.model not in PRICES:
         parser.error(f"unknown model {args.model!r}; known: {sorted(PRICES)}")
-    if args.n_runs < 1:
-        parser.error("--n-runs must be at least 1")
-    if args.judge == "layoutlens-batch" and args.n_runs != 1:
-        parser.error("--judge layoutlens-batch requires --n-runs 1")
+    if not PRICES[args.model].get("batch_supported", False):
+        parser.error(f"model {args.model!r} is not eligible for provider-native Batch")
+    if args.n_runs != 1:
+        parser.error("provider-native Batch smoke requires --n-runs 1")
     litellm_model = PRICES[args.model]["litellm_model"]
     judge = _build_judge(args.judge, litellm_model, args.prompt_version, args.n_runs, args.max_tokens)
 

@@ -119,7 +119,7 @@ def test_abstains_off_track_unmapped_and_without_report():
     abstain = {"answer": "unknown", "confidence": 0.0}
     a11y = _item("L1", "a11y", "wcag:1.4.3", "no")
     assert judge.judge(a11y, _assets(_finding("contrast"))) == abstain
-    unmapped = _item("L1", "layout", "layout:occlusion", "no")
+    unmapped = _item("L1", "layout", "layout:alignment", "no")
     assert judge.judge(unmapped, _assets(_finding("overlap"))) == abstain
     no_report = _item("L1", "layout", "redecheck:element-collision", "no")
     assert judge.judge(no_report, PageAssets(page_id="p1")) == abstain
@@ -138,5 +138,6 @@ def test_every_mapped_criterion_is_a_known_defect_class():
         ll_types.TRUNCATION,
         ll_types.CONTRAST,
         ll_types.TARGET_SIZE,
+        ll_types.TEXT_OCCLUSION,
     }
     assert set(CRITERION_TO_DEFECT_CLASS.values()) <= known
