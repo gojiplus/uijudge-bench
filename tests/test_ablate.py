@@ -11,6 +11,8 @@ from __future__ import annotations
 
 import asyncio
 
+import pytest
+
 from uijudge.constants import CANARY_GUID
 from uijudge.harness import ablate
 from uijudge.harness.estimate import PRICES
@@ -138,17 +140,18 @@ def test_run_ablation_table_math_with_canned_judge():
 
     # cost: 5 calls x (100 in, 10 out); gemini 0.50/3.00 per 1e6, no platform fee.
     price = PRICES["gemini-3-flash"]
-    expected = round((500 / 1e6 * price["input"] + 50 / 1e6 * price["output"]), 4)
+    expected = round(
+        (500 / 1e6 * price["input"] + 50 / 1e6 * price["output"]) * price["batch_discount"],
+        4,
+    )
     assert cell["cost_usd_actual"] == expected
 
 
-def test_actual_cost_applies_platform_fee():
+def test_actual_cost_rejects_non_batch_route():
     a1 = _item("a1", "L1", "a11y", "wcag:1.4.3", "no")
     rows = [_row(a1, "no", usage=(1000, 40))]
-    price = PRICES["qwen3-vl-235b"]
-    base = 1000 / 1e6 * price["input"] + 40 / 1e6 * price["output"]
-    expected = round(base * (1 + price["platform_fee_pct"]), 4)
-    assert ablate.actual_cost(rows, "qwen3-vl-235b") == expected
+    with pytest.raises(ValueError, match="not eligible for provider-native Batch"):
+        ablate.actual_cost(rows, "qwen3-vl-235b")
 
 
 def test_actual_cost_fails_closed_when_usage_is_missing():
@@ -171,14 +174,16 @@ def test_estimate_gate_is_positive_and_zero_calls():
 def test_estimate_gate_and_paid_judge_share_completion_budget():
     sample = ablate.select_sample(read_items())[:3]
     cap = 123
-    gate = ablate.estimate_gate(sample, ["gemini-3-flash"], ["v1"], n_runs=2, max_tokens=cap)
-    judge = ablate.default_judge_factory(n_runs=2, max_tokens=cap)("gemini-3-flash", "v1")
+    gate = ablate.estimate_gate(sample, ["gemini-3-flash"], ["v1"], n_runs=1, max_tokens=cap)
+    judge = ablate.default_judge_factory(n_runs=1, max_tokens=cap)("gemini-3-flash", "v1")
 
     cell = gate["per_cell"]["v1"]["gemini-3-flash"]
     assert judge.max_tokens == cap
     assert cell["max_tokens_per_call"] == cap
     assert cell["completion_budget_tokens"] == cell["n_calls"] * judge.max_tokens
     assert ablate.default_judge_factory()("gemini-3-flash", "v1").max_tokens == 8000
+    with pytest.raises(ValueError, match="requires n_runs=1"):
+        ablate.default_judge_factory(n_runs=2)
 
 
 # --------------------------------------------------------------------------- decision rule

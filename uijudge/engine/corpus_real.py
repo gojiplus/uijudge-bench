@@ -39,11 +39,11 @@ from bs4 import BeautifulSoup
 
 from ..constants import CANARY_GUID
 from ..criteria import WCAG_SUCCESS_CRITERIA, wcag_axe_tag
-from ..schema import PageRecord, validate_item
+from ..schema import Item, PageRecord, validate_item
 from .freeze import USER_AGENT, Freezer, FreezeResult, check_robots
 from .ingest._common import CORPUS_DIR, REPORTS_DIR, load_items, replace_source_items
 from .items import clean_l1_item, items_for_mutation, l3_item
-from .real_mutate import applicable_classes, real_mutate
+from .real_mutate import REAL_CLASSES, applicable_classes, real_mutate
 from .referring import ProbeSpec, build_l4_items, read_probe_values
 from .verify import Verifier
 
@@ -367,11 +367,19 @@ async def reverify_frozen_mutations() -> dict[str, Any]:
     """
     raw_items = load_items()
     real_items = [validate_item(raw) for raw in raw_items if (raw.get("provenance") or {}).get("source") == SOURCE]
-    mutation_pages = [
+    all_mutation_pages = [
         item for item in real_items if item.door == "mutation" and item.task_level == "L1" and item.ground_truth == "no"
     ]
-    if not mutation_pages:
+    if not all_mutation_pages:
         raise RuntimeError("no frozen-real mutation items found")
+
+    unsupported_pages = {
+        item.page_id: str(item.receipt.get("defect_class"))
+        for item in all_mutation_pages
+        if item.receipt.get("defect_class") not in REAL_CLASSES
+    }
+    unsupported_families = set(unsupported_pages.values())
+    mutation_pages = [item for item in all_mutation_pages if item.page_id not in unsupported_pages]
 
     existing_ids = {item.item_id for item in real_items}
     replacements: dict[str, Any] = {}
@@ -415,29 +423,84 @@ async def reverify_frozen_mutations() -> dict[str, Any]:
                 if code != item.criterion_code:
                     secondary_labels[code] += 1
 
+    def unsupported_item(item: Item) -> bool:
+        family = str(item.receipt.get("defect_class", "")).removesuffix(":clean-control")
+        return item.page_id in unsupported_pages or family in unsupported_families
+
     updated_real = [
         replacements.get(item.item_id, item)
         for item in real_items
-        if not (item.door == "mutation" and item.task_level == "L2")
+        if not (item.door == "mutation" and item.task_level == "L2") and not unsupported_item(item)
     ]
+    unsupported_items_pruned = (
+        len(real_items)
+        - len(updated_real)
+        - sum(item.door == "mutation" and item.task_level == "L2" for item in real_items)
+    )
     written = replace_source_items(SOURCE, updated_real)
+    for page_id in unsupported_pages:
+        page_dir = CORPUS_DIR / "real" / page_id
+        if page_dir.exists():
+            shutil.rmtree(page_dir)
+    report_path = REPORTS_DIR / "corpus_real.json"
+    report = json.loads(report_path.read_text(encoding="utf-8")) if report_path.exists() else None
+    prior_reverification = (report or {}).get("mutation_label_reverification", {})
+    recorded_unsupported_pages = max(
+        len(unsupported_pages), prior_reverification.get("unsupported_mutation_pages_pruned", 0)
+    )
+    recorded_unsupported_items = max(unsupported_items_pruned, prior_reverification.get("unsupported_items_pruned", 0))
+    recorded_unsupported_families = sorted(
+        unsupported_families | set(prior_reverification.get("unsupported_families_pruned", []))
+    )
     stats = {
         "mode": "committed-frozen-html",
         "network_calls": 0,
         "mutation_pages_reverified": len(mutation_pages),
         "positive_items_rebuilt": len(replacements),
-        "nonexhaustive_l2_items_excluded": len(mutation_pages),
+        "nonexhaustive_l2_items_excluded": sum(
+            item.door == "mutation" and item.task_level == "L2" for item in real_items
+        ),
+        "unsupported_mutation_pages_pruned": recorded_unsupported_pages,
+        "unsupported_items_pruned": recorded_unsupported_items,
+        "unsupported_families_pruned": recorded_unsupported_families,
         "source_items_written": written,
         "secondary_labels": dict(sorted(secondary_labels.items())),
     }
-    report_path = REPORTS_DIR / "corpus_real.json"
-    if report_path.exists():
-        report = json.loads(report_path.read_text(encoding="utf-8"))
+    if report is not None:
         report["items_written"] = written
         report["items_by_level"] = dict(sorted(Counter(item.task_level for item in updated_real).items()))
         report["items_by_door"] = dict(sorted(Counter(item.door for item in updated_real).items()))
         report["items_by_track"] = dict(sorted(Counter(item.track for item in updated_real).items()))
         report["items_by_split"] = dict(sorted(Counter(item.split for item in updated_real).items()))
+        removed_control_attempts = sum(
+            report["mutations"]["per_class"].get(family, {}).get("verified", 0) for family in unsupported_families
+        )
+        for family in unsupported_families:
+            report["mutations"]["per_class"].pop(family, None)
+        mutation_classes = report["mutations"]["per_class"].values()
+        report["mutations"]["attempted"] = sum(row["attempted"] for row in mutation_classes)
+        report["mutations"]["verified"] = sum(row["verified"] for row in mutation_classes)
+        report["mutations"]["discarded"] = sum(row["discarded"] for row in mutation_classes)
+        report["mutations"]["discarded_detail"] = [
+            row
+            for row in report["mutations"]["discarded_detail"]
+            if row.get("defect_class") not in unsupported_families
+        ]
+        removed_control_discards = [
+            row
+            for row in report["clean_negative_controls"]["discarded_detail"]
+            if row.get("defect_class") in unsupported_families
+        ]
+        report["clean_negative_controls"]["discarded_detail"] = [
+            row
+            for row in report["clean_negative_controls"]["discarded_detail"]
+            if row.get("defect_class") not in unsupported_families
+        ]
+        report["clean_negative_controls"]["ran"] -= removed_control_attempts
+        report["clean_negative_controls"]["discarded"] -= len(removed_control_discards)
+        report["clean_negative_controls"]["passed"] = (
+            report["clean_negative_controls"]["ran"] - report["clean_negative_controls"]["discarded"]
+        )
         report["mutation_label_reverification"] = stats
         report_path.write_text(json.dumps(report, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     return stats

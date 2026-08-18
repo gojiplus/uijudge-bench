@@ -252,14 +252,17 @@ def test_existing_png_dimensions_override_fallback_and_are_reported(tmp_path):
 
 
 def test_estimate_cost_gpt4o_hand_computation():
-    """One L1 item, gpt-4o, n_runs=1 (no platform fee)."""
+    """One L1 item at the documented OpenAI Batch discount."""
     item = _l1_item(0)
     est = estimate_model("gpt-4o", [item], n_runs=1, prompt_version="v1")
     price = PRICES["gpt-4o"]
 
     expected_in = _text_tokens_L1() + price["fallback_image_tokens"]["desktop"]
     expected_out = 40
-    expected_usd = round(expected_in / 1e6 * price["input"] + expected_out / 1e6 * price["output"], 2)
+    expected_usd = round(
+        (expected_in / 1e6 * price["input"] + expected_out / 1e6 * price["output"]) * price["batch_discount"],
+        2,
+    )
 
     assert est.input_tokens == expected_in
     assert est.expected_visible_output_tokens == expected_out
@@ -268,7 +271,10 @@ def test_estimate_cost_gpt4o_hand_computation():
     assert est.expected_usd == expected_usd
     assert est.max_tokens_per_call == 300
     assert est.completion_budget_tokens == 300
-    expected_cap_usd = round(expected_in / 1e6 * price["input"] + 300 / 1e6 * price["output"], 2)
+    expected_cap_usd = round(
+        (expected_in / 1e6 * price["input"] + 300 / 1e6 * price["output"]) * price["batch_discount"],
+        2,
+    )
     assert est.completion_budget_usd == expected_cap_usd
 
 
@@ -279,7 +285,7 @@ def test_estimate_cost_gemini3flash_hand_computation():
 
     expected_in = _text_tokens_L1() + 1032
     expected_out = 40 + 2700
-    expected_usd = round(expected_in / 1e6 * 0.50 + expected_out / 1e6 * 3.00, 2)
+    expected_usd = round((expected_in / 1e6 * 0.50 + expected_out / 1e6 * 3.00) * 0.50, 2)
 
     assert est.input_tokens == expected_in
     assert est.expected_visible_output_tokens == 40
@@ -290,31 +296,21 @@ def test_estimate_cost_gemini3flash_hand_computation():
     assert est.litellm_model == "gemini/gemini-3-flash-preview"
 
 
-def test_estimate_cost_qwen_applies_platform_fee():
-    """qwen3-vl-235b target: in $0.20/out $0.88, image 2668, +5.5% Stripe top-up fee."""
-    item = _l1_item(0)
-    est = estimate_model("qwen3-vl-235b", [item], n_runs=1, prompt_version="v1")
-
-    expected_in = _text_tokens_L1() + 2668
-    expected_out = 40
-    base_usd = expected_in / 1e6 * 0.20 + expected_out / 1e6 * 0.88
-    expected_usd = round(base_usd * 1.055, 2)
-
-    assert est.input_tokens == expected_in
-    assert est.expected_usd == expected_usd
-    assert est.litellm_model == "openrouter/qwen/qwen3-vl-235b-a22b-instruct"
-    # The fee must actually move the number vs. the un-feed base (sanity that it is applied).
-    assert est.expected_usd == round(base_usd * (1 + PRICES["qwen3-vl-235b"]["platform_fee_pct"]), 2)
+def test_estimate_rejects_qwen_route_without_provider_native_batch():
+    with pytest.raises(ValueError, match="not eligible for provider-native Batch"):
+        estimate_model("qwen3-vl-235b", [_l1_item(0)], n_runs=1, prompt_version="v1")
 
 
 def test_sonnet_5_uses_current_promotion_and_records_post_promotion_rates():
     price = PRICES["claude-sonnet-5"]
     assert (price["input"], price["output"]) == (2.0, 10.0)
+    assert price["batch_supported"] is True
+    assert price["batch_discount"] == 0.5
     assert price["promotion_until"] == "2026-08-31"
     assert (price["post_promotion_input"], price["post_promotion_output"]) == (3.0, 15.0)
 
 
-def test_markdown_report_headlines_combined_primary_targets_and_caveat():
+def test_markdown_report_headlines_batch_target_exclusion_and_caveat():
     def row(expected_usd, completion_budget_usd):
         return {
             "n_items": 10,
@@ -331,21 +327,25 @@ def test_markdown_report_headlines_combined_primary_targets_and_caveat():
         }
 
     result = {
-        "generated": "2026-08-16",
-        "price_capture_date": "2026-08-16",
+        "generated": "2026-08-17",
+        "price_capture_date": "2026-08-17",
         "prompt_version": "v4",
         "n_runs": 3,
         "completion_budget_policy": "reasoning-aware AUTO",
+        "pricing_mode": "provider-native asynchronous Batch API only",
+        "excluded_models": {"qwen3-vl-235b": "Alibaba explicitly marks this model's Batch Inference unsupported."},
         "estimates": {
             "test": {
                 "gemini-3-flash": row(1.11, 3.33),
-                "qwen3-vl-235b": row(2.22, 4.44),
             }
         },
     }
 
     report = _render_markdown(result)
-    assert "| **combined** | **$3.33** | **$7.77** |" in report
+    assert "| **total** | **$1.11** | **$3.33** |" in report
+    assert "Batch-ineligible routes" in report
+    assert "qwen3-vl-235b" in report
+    assert "provider-native asynchronous Batch API" in report
     assert "2,700 reasoning tokens/call" in report
     assert "configured-budget column" in report
     assert "**21 exact PNG headers**, **9 explicit CAPTURE_DIMS fallbacks**" in report

@@ -16,10 +16,11 @@ redecheck:element-protrusion    clipping
 redecheck:viewport-protrusion   viewport-protrusion
 layout:page-overflow            page-overflow
 layout:truncation               truncation
+layout:occlusion                text-occlusion
 ==============================  =====================
 
-``layout:occlusion``, ``layout:alignment`` (no layoutlens detector) and
-``redecheck:small-range`` (needs a viewport sweep; the provisioned scan is
+``layout:alignment`` (no layoutlens detector) and ``redecheck:small-range``
+(needs a viewport sweep; the provisioned scan is
 desktop-only) abstain, as does everything off the layout track.
 
 **Circularity disclosure** (mirrors the axe-vs-axe note, datasheet limitation
@@ -45,6 +46,7 @@ CRITERION_TO_DEFECT_CLASS: dict[str, str] = {
     "redecheck:viewport-protrusion": "viewport-protrusion",
     "layout:page-overflow": "page-overflow",
     "layout:truncation": "truncation",
+    "layout:occlusion": "text-occlusion",
 }
 
 # L3 needs an element bbox.  LayoutLens's page-overflow finding deliberately describes

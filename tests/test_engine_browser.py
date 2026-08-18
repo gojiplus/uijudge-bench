@@ -79,6 +79,132 @@ def test_contrast_receipt_records_measured_ratio(tmp_path):
     assert receipt["axe"]["violation"] is True  # axe catches contrast (construct validity)
 
 
+def test_focus_not_obscured_mft_invariance_and_direction(tmp_path):
+    """SC 2.4.11 has a clean control, an invariant source edit, and ordered failures."""
+    clean = build_page_html(_SEED)
+    clean_path = tmp_path / "focus_clean.html"
+    clean_path.write_text(clean, encoding="utf-8")
+    cases = []
+    for severity in ("mild", "moderate", "severe"):
+        result = M.mutate(clean, "focus:obscure", severity, _SEED)
+        path = tmp_path / f"focus_{severity}.html"
+        path.write_text(result.mutated_html, encoding="utf-8")
+        invariant_path = tmp_path / f"focus_{severity}_invariant.html"
+        invariant_path.write_text(
+            result.mutated_html.replace("</head>", '<meta name="irrelevant" content="invariant">\n</head>'),
+            encoding="utf-8",
+        )
+        cases.append((result, path, invariant_path))
+
+    async def run():
+        async with Verifier() as verifier:
+            receipts = []
+            for result, path, invariant_path in cases:
+                receipt = await verifier.verify(path, result.injection_record)
+                invariant = await verifier.verify(invariant_path, result.injection_record)
+                receipts.append((receipt, invariant))
+            control, fires = await verifier.verify_control(clean_path, cases[0][0].injection_record)
+        return receipts, control, fires
+
+    receipts, control, control_fires = asyncio.run(run())
+    assert control_fires is False
+    assert control["measured"]["entirely_hidden"] is False
+    for receipt, invariant in receipts:
+        assert receipt is not None and invariant is not None
+        assert receipt["behavioral_tests"] == ["MFT", "INV", "DIR"]
+        assert receipt["measured"] == invariant["measured"]
+        assert receipt["measured"]["keyboard_focus_active"] is True
+        assert receipt["measured"]["entirely_hidden"] is True
+        assert receipt["measured"]["visible_sample_points"] == 0
+
+
+def test_target_size_exceptions_mft_invariance_and_direction(tmp_path):
+    """SC 2.5.8 fails only when size and spacing fail and no other exception applies."""
+    clean = build_page_html(_SEED)
+    clean_path = tmp_path / "target_clean.html"
+    clean_path.write_text(clean, encoding="utf-8")
+    cases = []
+    for severity in ("mild", "moderate", "severe"):
+        result = M.mutate(clean, "target:shrink", severity, _SEED)
+        path = tmp_path / f"target_{severity}.html"
+        path.write_text(result.mutated_html, encoding="utf-8")
+        invariant_path = tmp_path / f"target_{severity}_invariant.html"
+        invariant_path.write_text(
+            result.mutated_html.replace("</head>", '<meta name="irrelevant" content="invariant">\n</head>'),
+            encoding="utf-8",
+        )
+        cases.append((result, path, invariant_path))
+
+    async def run():
+        async with Verifier() as verifier:
+            receipts = []
+            for result, path, invariant_path in cases:
+                receipt = await verifier.verify(path, result.injection_record)
+                invariant = await verifier.verify(invariant_path, result.injection_record)
+                receipts.append((receipt, invariant))
+            control, fires = await verifier.verify_control(clean_path, cases[0][0].injection_record)
+        return receipts, control, fires
+
+    receipts, control, control_fires = asyncio.run(run())
+    assert control_fires is False
+    assert control["measured"]["undersized"] is False
+    widths = []
+    for receipt, invariant in receipts:
+        assert receipt is not None and invariant is not None
+        assert receipt["behavioral_tests"] == ["MFT", "INV", "DIR"]
+        assert receipt["measured"] == invariant["measured"]
+        measured = receipt["measured"]
+        assert measured["undersized"] is True
+        assert measured["spacing_circle_intersects_neighbor"] is True
+        assert measured["spacing_exception"] is False
+        assert not any(measured["other_exceptions"].values())
+        widths.append(measured["width_px"])
+    assert widths == sorted(widths, reverse=True)
+
+
+def test_chart_label_occlusion_mft_invariance_and_direction(tmp_path):
+    """A plotted line crosses a readable label, survives irrelevant edits, and worsens."""
+    clean = build_page_html(_SEED)
+    clean_path = tmp_path / "chart_clean.html"
+    clean_path.write_text(clean, encoding="utf-8")
+    cases = []
+    for severity in ("mild", "moderate", "severe"):
+        result = M.mutate(clean, "chart:label-occlude", severity, _SEED)
+        path = tmp_path / f"chart_{severity}.html"
+        path.write_text(result.mutated_html, encoding="utf-8")
+        invariant_path = tmp_path / f"chart_{severity}_invariant.html"
+        invariant_path.write_text(
+            result.mutated_html.replace("</head>", '<meta name="irrelevant" content="invariant">\n</head>'),
+            encoding="utf-8",
+        )
+        cases.append((result, path, invariant_path))
+
+    async def run():
+        async with Verifier() as verifier:
+            receipts = []
+            for result, path, invariant_path in cases:
+                receipt = await verifier.verify(path, result.injection_record)
+                invariant = await verifier.verify(invariant_path, result.injection_record)
+                receipts.append((receipt, invariant))
+            control, fires = await verifier.verify_control(clean_path, cases[0][0].injection_record)
+        return receipts, control, fires
+
+    receipts, control, control_fires = asyncio.run(run())
+    assert control_fires is False
+    assert control["measured"]["covered_at_center"] is False
+    intersections = []
+    for receipt, invariant in receipts:
+        assert receipt is not None and invariant is not None
+        assert receipt["behavioral_tests"] == ["MFT", "INV", "DIR"]
+        assert receipt["measured"] == invariant["measured"]
+        measured = receipt["measured"]
+        assert measured["covered_at_center"] is True
+        assert measured["top_element_id"] == "chart-line-occluder"
+        intersections.append(measured["intersection_px2"])
+    assert intersections == sorted(intersections)
+    assert len(set(intersections)) == len(intersections)
+
+
 def _build_small(monkeypatch, tmp_path, seed_count=3):
     """Run a small deterministic build redirected into ``tmp_path``; return report + labels text."""
     from uijudge.engine import corpus_synth

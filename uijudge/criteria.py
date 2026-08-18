@@ -16,8 +16,15 @@ from a known registry — no free-text criteria. Codes are namespaced:
 
 from __future__ import annotations
 
-# --- WCAG 2.1 success criteria (superset of 2.0); a few 2.2 additions included. ---
-# code -> short title. This is the authoritative closed set for ``wcag:`` codes.
+# --- WCAG 2.2 Recommendation (current benchmark accessibility standard). ---
+# Freeze the normative dated Recommendation rather than silently following the editor's
+# draft. A later WCAG release is a versioned benchmark change.
+WCAG_STANDARD_TITLE = "Web Content Accessibility Guidelines (WCAG) 2.2"
+WCAG_STANDARD_VERSION = "2.2"
+WCAG_STANDARD_URI = "https://www.w3.org/TR/2024/REC-WCAG22-20241212/"
+
+# code -> short title. This is the authoritative WCAG 2.2 closed set. SC 4.1.1 Parsing
+# is deliberately absent because WCAG 2.2 removed it as obsolete.
 WCAG_SUCCESS_CRITERIA: dict[str, str] = {
     "1.1.1": "Non-text Content",
     "1.2.1": "Audio-only and Video-only (Prerecorded)",
@@ -72,11 +79,13 @@ WCAG_SUCCESS_CRITERIA: dict[str, str] = {
     "2.4.9": "Link Purpose (Link Only)",
     "2.4.10": "Section Headings",
     "2.4.11": "Focus Not Obscured (Minimum)",
+    "2.4.12": "Focus Not Obscured (Enhanced)",
+    "2.4.13": "Focus Appearance",
     "2.5.1": "Pointer Gestures",
     "2.5.2": "Pointer Cancellation",
     "2.5.3": "Label in Name",
     "2.5.4": "Motion Actuation",
-    "2.5.5": "Target Size",
+    "2.5.5": "Target Size (Enhanced)",
     "2.5.6": "Concurrent Input Mechanisms",
     "2.5.7": "Dragging Movements",
     "2.5.8": "Target Size (Minimum)",
@@ -100,10 +109,110 @@ WCAG_SUCCESS_CRITERIA: dict[str, str] = {
     "3.3.6": "Error Prevention (All)",
     "3.3.7": "Redundant Entry",
     "3.3.8": "Accessible Authentication (Minimum)",
-    "4.1.1": "Parsing",
+    "3.3.9": "Accessible Authentication (Enhanced)",
     "4.1.2": "Name, Role, Value",
     "4.1.3": "Status Messages",
 }
+
+# WCAG conformance level for every success criterion in the frozen 2.2 registry.
+_WCAG_LEVEL_GROUPS: dict[str, tuple[str, ...]] = {
+    "A": (
+        "1.1.1",
+        "1.2.1",
+        "1.2.2",
+        "1.2.3",
+        "1.3.1",
+        "1.3.2",
+        "1.3.3",
+        "1.4.1",
+        "1.4.2",
+        "2.1.1",
+        "2.1.2",
+        "2.1.4",
+        "2.2.1",
+        "2.2.2",
+        "2.3.1",
+        "2.4.1",
+        "2.4.2",
+        "2.4.3",
+        "2.4.4",
+        "2.5.1",
+        "2.5.2",
+        "2.5.3",
+        "2.5.4",
+        "3.1.1",
+        "3.2.1",
+        "3.2.2",
+        "3.2.6",
+        "3.3.1",
+        "3.3.2",
+        "3.3.7",
+        "4.1.2",
+    ),
+    "AA": (
+        "1.2.4",
+        "1.2.5",
+        "1.3.4",
+        "1.3.5",
+        "1.4.3",
+        "1.4.4",
+        "1.4.5",
+        "1.4.10",
+        "1.4.11",
+        "1.4.12",
+        "1.4.13",
+        "2.4.5",
+        "2.4.6",
+        "2.4.7",
+        "2.4.11",
+        "2.5.7",
+        "2.5.8",
+        "3.1.2",
+        "3.2.3",
+        "3.2.4",
+        "3.3.3",
+        "3.3.4",
+        "3.3.8",
+        "4.1.3",
+    ),
+    "AAA": (
+        "1.2.6",
+        "1.2.7",
+        "1.2.8",
+        "1.2.9",
+        "1.3.6",
+        "1.4.6",
+        "1.4.7",
+        "1.4.8",
+        "1.4.9",
+        "2.1.3",
+        "2.2.3",
+        "2.2.4",
+        "2.2.5",
+        "2.2.6",
+        "2.3.2",
+        "2.3.3",
+        "2.4.8",
+        "2.4.9",
+        "2.4.10",
+        "2.4.12",
+        "2.4.13",
+        "2.5.5",
+        "2.5.6",
+        "3.1.3",
+        "3.1.4",
+        "3.1.5",
+        "3.1.6",
+        "3.2.5",
+        "3.3.5",
+        "3.3.6",
+        "3.3.9",
+    ),
+}
+WCAG_CONFORMANCE_LEVELS: dict[str, str] = {code: level for level, codes in _WCAG_LEVEL_GROUPS.items() for code in codes}
+
+if set(WCAG_CONFORMANCE_LEVELS) != set(WCAG_SUCCESS_CRITERIA):
+    raise RuntimeError("WCAG 2.2 title and conformance-level registries are out of sync")
 
 # --- ReDeCheck responsive-layout-failure taxonomy (5 classes). ---
 REDECHECK_CLASSES: dict[str, str] = {
@@ -235,6 +344,7 @@ L2_VOCABULARIES: dict[str, dict[str, tuple[str, ...]]] = {
             "wcag:1.3.1",
             "wcag:1.4.3",
             "wcag:2.5.8",
+            "wcag:2.4.11",
             "wcag:4.1.2",
         ),
         "layout": (
@@ -289,6 +399,37 @@ def criterion_title(code: str) -> str | None:
     except ValueError:
         return None
     return _NAMESPACES.get(namespace, {}).get(local)
+
+
+def criterion_standard_metadata(code: str) -> dict[str, str] | None:
+    """Return frozen normative-standard metadata for a WCAG criterion.
+
+    Taxonomies such as ReDeCheck and the project-local layout vocabulary are not
+    represented as WCAG standards. They return ``None`` so callers cannot accidentally
+    describe a layout heuristic as an accessibility-conformance requirement.
+
+    Args:
+        code: A registered criterion code.
+
+    Returns:
+        WCAG title, version, dated Recommendation URI, success criterion, and
+        conformance level for a ``wcag:`` code; otherwise ``None``.
+
+    Raises:
+        ValueError: If a ``wcag:`` code is not in the frozen 2.2 registry.
+    """
+    namespace, local = parse_criterion(code)
+    if namespace != "wcag":
+        return None
+    if local not in WCAG_SUCCESS_CRITERIA:
+        raise ValueError(f"unknown WCAG {WCAG_STANDARD_VERSION} success criterion {local!r}")
+    return {
+        "title": WCAG_STANDARD_TITLE,
+        "version": WCAG_STANDARD_VERSION,
+        "uri": WCAG_STANDARD_URI,
+        "success_criterion": local,
+        "conformance_level": WCAG_CONFORMANCE_LEVELS[local],
+    }
 
 
 def wcag_axe_tag(code: str) -> str:

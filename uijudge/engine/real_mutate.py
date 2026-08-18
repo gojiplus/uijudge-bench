@@ -14,7 +14,7 @@ on any mutated copy — which is exactly what the clean-twin control needs.
 
 Only the subset of defect classes that generalise to arbitrary DOM are offered here:
 
-    a11y:   contrast:degrade, alt:strip, alt:garble, heading:skip, target:shrink
+    a11y:   contrast:degrade, alt:strip, alt:garble, heading:skip
     layout: clip:overflow, protrude:viewport
 
 Classes that need synthetic-specific structure (card rows, a hero, a bound label/input
@@ -39,7 +39,6 @@ REAL_CLASSES = (
     "alt:strip",
     "alt:garble",
     "heading:skip",
-    "target:shrink",
     "clip:overflow",
     "protrude:viewport",
 )
@@ -66,7 +65,6 @@ _TEXT_TAGS = {
     "h6",
 }
 _HEADING_TAGS = {"h1", "h2", "h3", "h4"}
-_INTERACTIVE_TAGS = {"a", "button"}
 _SEVERITY = "moderate"
 
 
@@ -101,8 +99,6 @@ def _candidates(defect_class: str, dom: dict, soup: BeautifulSoup) -> list[dict]
         cands = [e for e in els if e["tag"] == "img" and _img_has_alt(soup, e["selector"])]
     elif defect_class == "heading:skip":
         cands = [e for e in els if e["tag"] in _HEADING_TAGS]
-    elif defect_class == "target:shrink":
-        cands = [e for e in els if e["tag"] in _INTERACTIVE_TAGS and _area(e) >= 24 * 24]
     elif defect_class == "clip:overflow":
         cands = [
             e for e in els if e["tag"] in _TEXT_TAGS and _area(e) >= 24 * 60 and (e.get("text_prefix") or "").strip()
@@ -205,19 +201,6 @@ def _apply(defect_class: str, soup: BeautifulSoup, tag: Any, target: dict, rng: 
             "before": {"tag": before},
             "after": {"tag": f"h{new_level}"},
             "params": {"skipped_level": f"h{int(before[1]) + 1}"},
-        }
-
-    if defect_class == "target:shrink":
-        size = 12
-        prior = _add_style(
-            tag,
-            f"min-width:0;min-height:0;width:{size}px;height:{size}px;padding:0;"
-            f"font-size:8px;line-height:1;overflow:hidden;box-sizing:border-box;display:inline-block",
-        )
-        return {
-            "before": {"style": prior or "(stylesheet default)"},
-            "after": {"width": f"{size}px", "height": f"{size}px"},
-            "params": {"threshold_px": 24},
         }
 
     if defect_class == "clip:overflow":
