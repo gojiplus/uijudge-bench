@@ -986,7 +986,7 @@ wheels = [
 
 [[package]]
 name = "layoutlens"
-version = "2.1.0"
+version = "2.2.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "beautifulsoup4" },
@@ -998,9 +998,9 @@ dependencies = [
     { name = "pyyaml" },
     { name = "rich" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/a1/95/84d421bdc3e52edd8b928187f79f4cf4b6b7f5d69defd6554b8575fb5123/layoutlens-2.1.0.tar.gz", hash = "sha256:7e5ecf0627dd4786cad9eccda74ee098390f2c9b39ed45a62bc9126eb159dba6", size = 717255, upload-time = "2026-08-18T02:01:58.925Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/5a/98/b7c864c0a83c664267e9fdf7414fe91d6f132c28abe481b9eacbe9f8d696/layoutlens-2.2.0.tar.gz", hash = "sha256:a7ffd25e840886bcb18b833b60227b1f08ff2517b1a096bbf3e8cb32487e58c4", size = 281815, upload-time = "2026-08-18T09:39:37.16Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/c2/4c/08572a4a08db27c3ca2a2251e3b30736b73b2ab7985e611d32936626ce17/layoutlens-2.1.0-py3-none-any.whl", hash = "sha256:924706385630e3f184799011df5b4a114216e947d6424f213b1ee98f43442514", size = 279516, upload-time = "2026-08-18T02:01:57.449Z" },
+    { url = "https://files.pythonhosted.org/packages/65/ef/683504a15db3053a2a781c98d76733b1b2e66eb04a4a1af63e784c714c78/layoutlens-2.2.0-py3-none-any.whl", hash = "sha256:5077016b000d388052d3d5340dbee8ffacfc029c24b9eb13489d4a8431a276d6", size = 288405, upload-time = "2026-08-18T09:39:35.682Z" },
 ]
 
 [package.optional-dependencies]
@@ -1252,7 +1252,7 @@ wheels = [
 
 [[package]]
 name = "openai"
-version = "2.47.0"
+version = "2.54.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "anyio" },
@@ -1264,9 +1264,9 @@ dependencies = [
     { name = "tqdm" },
     { name = "typing-extensions" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/bf/61/9aeef14de759306e85175126d3d6d56ee4f5072a9512c6c171d58d02a62d/openai-2.47.0.tar.gz", hash = "sha256:4e205548acd4304f235b86202269912e55bc88270b15d2a051fa2b53b90343a6", size = 1089906, upload-time = "2026-07-22T17:47:29.723Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/50/9a/8c75e8c8a5b407a0586faeb2afac91674ff955c191ecc1d6d3b6669f6788/openai-2.54.0.tar.gz", hash = "sha256:e3e6f8bc1ba30ddf381ace1a14340eed381cb984a1a59bd0f34b5be3b5d49cfa", size = 1100285, upload-time = "2026-08-11T18:46:59.035Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/41/69/26b032059273ad798d18fbcdbe369e871181841fd8bcb5caee32b7510039/openai-2.47.0-py3-none-any.whl", hash = "sha256:b3a1a7ad974092427ccb46d89f8852bdb67866680bcabeecc3ff5a3fdd71b15b", size = 1639987, upload-time = "2026-07-22T17:47:27.873Z" },
+    { url = "https://files.pythonhosted.org/packages/64/a8/bb76c7356de8ad57f59d5ff993d434df0607f07f08bcc9c9a5c275e399c0/openai-2.54.0-py3-none-any.whl", hash = "sha256:89089789197ccdb87f173a03145ed1598d00795220c93e96cf712b1cbf5e5f2b", size = 1660351, upload-time = "2026-08-11T18:46:56.684Z" },
 ]
 
 [[package]]
@@ -2200,7 +2200,7 @@ wheels = [
 
 [[package]]
 name = "uijudge-bench"
-version = "0.3.0"
+version = "0.4.0"
 source = { editable = "." }
 dependencies = [
     { name = "beautifulsoup4" },
@@ -2228,8 +2228,8 @@ dev = [
 requires-dist = [
     { name = "beautifulsoup4", specifier = ">=4.12.0" },
     { name = "httpx", specifier = ">=0.27.0" },
-    { name = "layoutlens", specifier = ">=2.1.0" },
-    { name = "layoutlens", extras = ["gemini"], marker = "extra == 'judge'", specifier = ">=2.1.0" },
+    { name = "layoutlens", specifier = ">=2.2.0" },
+    { name = "layoutlens", extras = ["gemini"], marker = "extra == 'judge'", specifier = ">=2.2.0" },
     { name = "litellm", specifier = ">=1.80.0" },
     { name = "pillow", specifier = ">=10.0.0" },
     { name = "playwright", specifier = ">=1.40.0" },

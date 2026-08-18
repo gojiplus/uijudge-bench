@@ -17,6 +17,7 @@ import json
 import pytest
 
 from uijudge.engine import mutate as M
+from uijudge.engine.referring import ProbeSpec, read_probe_values
 from uijudge.engine.synth import build_page_html
 from uijudge.engine.verify import Verifier
 from uijudge.schema import validate_item
@@ -24,6 +25,46 @@ from uijudge.schema import validate_item
 pytestmark = pytest.mark.browser
 
 _SEED = 1000
+
+
+def test_referring_probes_admit_only_visible_document_intersections():
+    """L4 anchors use page coordinates and reject hidden/off-document elements."""
+
+    async def run():
+        from playwright.async_api import async_playwright
+
+        async with async_playwright() as playwright:
+            browser = await playwright.chromium.launch(headless=True)
+            page = await browser.new_page(viewport={"width": 800, "height": 600})
+            await page.set_content(
+                """
+                <style>
+                  body { margin: 0; min-height: 2400px; }
+                  #below { position: absolute; top: 1800px; left: 30px; width: 200px; height: 40px; margin: 0; }
+                  #hidden { display: none; }
+                  #outside { position: absolute; left: -10000px; top: 20px; width: 100px; height: 20px; }
+                </style>
+                <p id="below">Visible below the fold</p>
+                <p id="hidden">Hidden</p>
+                <p id="outside">Off document</p>
+                """
+            )
+            values = await read_probe_values(
+                page,
+                [
+                    ProbeSpec("#below", "font-size", "element"),
+                    ProbeSpec("#hidden", "font-size", "element"),
+                    ProbeSpec("#outside", "font-size", "element"),
+                ],
+            )
+            await browser.close()
+            return values
+
+    visible, hidden, outside = asyncio.run(run())
+    assert visible is not None
+    assert visible["bbox"] == [30, 1800, 200, 40]
+    assert hidden is None
+    assert outside is None
 
 
 def test_every_mutation_class_verifies_and_clean_control_passes(tmp_path):
@@ -77,6 +118,25 @@ def test_contrast_receipt_records_measured_ratio(tmp_path):
     assert ratio < 4.5
     assert receipt["axe"]["rule"] == "color-contrast"
     assert receipt["axe"]["violation"] is True  # axe catches contrast (construct validity)
+
+
+def test_visual_mutation_rejects_target_outside_rendered_document(tmp_path):
+    """A numerically failing style is not evidence when its target has no rendered pixels."""
+    clean = build_page_html(_SEED)
+    result = M.mutate(clean, "contrast:degrade", "severe", _SEED)
+    selector = result.injection_record["selector"]
+    off_document = result.mutated_html.replace(
+        "</head>",
+        f"<style>{selector} {{ position: absolute !important; left: -10000px !important; }}</style></head>",
+    )
+    mutated_path = tmp_path / "off_document_contrast.html"
+    mutated_path.write_text(off_document, encoding="utf-8")
+
+    async def run():
+        async with Verifier() as verifier:
+            return await verifier.verify(mutated_path, result.injection_record)
+
+    assert asyncio.run(run()) is None
 
 
 def test_focus_not_obscured_mft_invariance_and_direction(tmp_path):
