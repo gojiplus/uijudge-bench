@@ -64,7 +64,7 @@ record. Axe L3 = 0.0 is the bbox-IoU-only scoring rule, not a regression
 
 ## LayoutLens 2.2.0 and historical Batch diagnostic (2026-08-18)
 
-The lockfile resolves published `layoutlens==2.2.0`. Two complete floor runs under that wheel
+For this recorded run, the lockfile resolved published `layoutlens==2.2.0`. Two complete floor runs under that wheel
 produced byte-identical reports at the hashes recorded above. The current corpus contains
 3,830 items on 665 pages; its target-crop screenshot contract is separately exercised by the
 browser suite and audited before any provider client is constructed.
@@ -120,7 +120,7 @@ performance. No further paid model run is admissible until the screenshot-frame 
 `.github/workflows/ci.yml` runs the same checks on every push/PR to `main`:
 
 - **lint job** — `ruff check` + `ruff format --check` over `uijudge/` and `tests/`.
-- **test job** — matrix over Python 3.11, 3.12, 3.13, and 3.14: locked sync,
+- **test job** — matrix over Python 3.12, 3.13, and 3.14: locked sync,
   `playwright install chromium --with-deps`, then `uv run pytest -v` (offline **and**
   browser-marked tests). This mirrors steps 1–2 above in a clean CI runner.
 - **package job** — builds the wheel and sdist, validates their metadata with Twine, then
