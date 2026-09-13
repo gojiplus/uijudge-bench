@@ -26,19 +26,19 @@ jobs:
           persist-credentials: false
 
       - name: Install uv
-        uses: astral-sh/setup-uv@20cfd1bf945f4377ade1205e4dbc17946fc9a30d # v10.0.1
+        uses: astral-sh/setup-uv@bec219d24cd3e171d82865faccec33120bb574f4 # v10.1.0
         with:
           version: "0.12.5"
           cache-suffix: lint
 
       - name: Set up Python
-        run: uv python install 3.11
+        run: uv python install 3.12
 
       - name: Check lockfile
         run: uv lock --check
 
       - name: Install dependencies
-        run: uv sync --locked --group dev --python 3.11
+        run: uv sync --locked --group dev --python 3.12
 
       - name: Ruff check
         run: uv run ruff check uijudge/ tests/
@@ -51,7 +51,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        python-version: ['3.11', '3.12', '3.13', '3.14']
+        python-version: ['3.12', '3.13', '3.14']
     steps:
       - name: Checkout repository
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
@@ -59,7 +59,7 @@ jobs:
           persist-credentials: false
 
       - name: Install uv
-        uses: astral-sh/setup-uv@20cfd1bf945f4377ade1205e4dbc17946fc9a30d # v10.0.1
+        uses: astral-sh/setup-uv@bec219d24cd3e171d82865faccec33120bb574f4 # v10.1.0
         with:
           version: "0.12.5"
           cache-suffix: test-${{ matrix.python-version }}
@@ -85,13 +85,13 @@ jobs:
           persist-credentials: false
 
       - name: Install uv
-        uses: astral-sh/setup-uv@20cfd1bf945f4377ade1205e4dbc17946fc9a30d # v10.0.1
+        uses: astral-sh/setup-uv@bec219d24cd3e171d82865faccec33120bb574f4 # v10.1.0
         with:
           version: "0.12.5"
           cache-suffix: package
 
       - name: Set up Python
-        run: uv python install 3.11
+        run: uv python install 3.12
 
       - name: Build distributions
         run: uv build
@@ -101,7 +101,7 @@ jobs:
 
       - name: Install wheel in an isolated environment
         run: |
-          uv venv "${{ runner.temp }}/uijudge-package-smoke" --python 3.11
+          uv venv "${{ runner.temp }}/uijudge-package-smoke" --python 3.12
           uv pip install --python "${{ runner.temp }}/uijudge-package-smoke/bin/python" dist/*.whl
 
       - name: Smoke test installed wheel
