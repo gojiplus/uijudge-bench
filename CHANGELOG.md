@@ -8,6 +8,9 @@ All notable changes to UIJudgeBench are documented here. The format follows
 
 ### Changed
 
+- Allow LayoutLens 4 for the existing judge adapters. Historical benchmark
+  results retain their recorded package versions.
+
 - Require Python 3.12+ and LayoutLens 3.0.0; refresh the registry lockfile and remove
   the retired LayoutLens Gemini extra. Existing benchmark results remain historical.
 

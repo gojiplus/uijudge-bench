@@ -43,12 +43,12 @@ dependencies = [
     "pillow>=10.0.0",
     # Single measurement source (docs/SCORERS.md): the keyless geometry/contrast
     # scorers and the layout/WCAG rules floors.
-    "layoutlens>=3.0.0,<4",
+    "layoutlens>=3.0.0,<5",
 ]
 
 [project.optional-dependencies]
 # LayoutLens includes the provider adapters in its base dependencies.
-judge = ["layoutlens>=3.0.0,<4"]
+judge = ["layoutlens>=3.0.0,<5"]
 
 [project.urls]
 "Homepage" = "https://github.com/gojiplus/uijudge-bench"
