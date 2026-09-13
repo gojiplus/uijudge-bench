@@ -21,7 +21,7 @@ and generalised from *verifying one claimed selector* to *scanning a whole page*
 
 ## Current adoption status
 
-- **Current dependency:** `layoutlens>=3.0.0,<4` is a core dependency. `uijudge/engine/wcag.py`
+- **Current dependency:** `layoutlens>=3.0.0,<5` is a core dependency. `uijudge/engine/wcag.py`
   re-exports the contrast math (`relative_luminance`, `contrast_ratio`,
   `parse_css_color`, `AA_NORMAL_TEXT`) from `layoutlens.layout.contrast` — one
   implementation, asserted against the published WCAG example pairs by this repo's
