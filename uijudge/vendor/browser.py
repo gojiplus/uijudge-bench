@@ -13,8 +13,8 @@ import logging
 import socket
 import socketserver
 import threading
-from collections.abc import AsyncIterator
-from contextlib import asynccontextmanager
+from collections.abc import AsyncIterator, Iterator
+from contextlib import ExitStack, asynccontextmanager, contextmanager
 from dataclasses import dataclass
 from pathlib import Path
 from urllib.parse import urlparse
@@ -94,7 +94,7 @@ def _make_server(html_file_path: Path) -> socketserver.TCPServer:
             super().__init__(*args, directory=str(html_file_path.parent), **kwargs)
 
         def do_GET(self):
-            if self.path in ("/", ""):
+            if urlparse(self.path).path in ("/", ""):
                 self.send_response(200)
                 self.send_header("Content-type", "text/html")
                 self.end_headers()
@@ -107,6 +107,30 @@ def _make_server(html_file_path: Path) -> socketserver.TCPServer:
             return
 
     return socketserver.TCPServer(("", port), LocalFileHandler)
+
+
+@contextmanager
+def serve_file(html_file_path: Path) -> Iterator[str]:
+    """Serve a local HTML file over HTTP from a background thread.
+
+    ``/`` returns the file, with or without a query string; other paths are
+    served from the file's directory, so relative assets load.
+
+    Args:
+        html_file_path: The page to serve.
+
+    Yields:
+        The base URL, ``http://localhost:<port>/``.
+    """
+    httpd = _make_server(html_file_path)
+    thread = threading.Thread(target=httpd.serve_forever, daemon=True)
+    thread.start()
+    try:
+        yield f"http://localhost:{httpd.server_address[1]}/"
+    finally:
+        httpd.shutdown()
+        httpd.server_close()
+        thread.join(timeout=1)
 
 
 @asynccontextmanager
@@ -137,24 +161,17 @@ async def open_page(
     viewport_config = resolve_viewport(viewport)
 
     source_str = str(source)
-    httpd: socketserver.TCPServer | None = None
-    server_thread: threading.Thread | None = None
+    with ExitStack() as stack:
+        if _is_url(source_str):
+            target_url = source_str
+        else:
+            html_file_path = Path(source).resolve()
+            if not html_file_path.exists():
+                raise FileNotFoundError(f"HTML file not found: {html_file_path}")
+            target_url = stack.enter_context(serve_file(html_file_path))
+            await asyncio.sleep(0.3)
+            logger.debug("Serving %s at %s", html_file_path, target_url)
 
-    if _is_url(source_str):
-        target_url = source_str
-    else:
-        html_file_path = Path(source).resolve()
-        if not html_file_path.exists():
-            raise FileNotFoundError(f"HTML file not found: {html_file_path}")
-        httpd = _make_server(html_file_path)
-        port = httpd.server_address[1]
-        server_thread = threading.Thread(target=httpd.serve_forever, daemon=True)
-        server_thread.start()
-        await asyncio.sleep(0.3)
-        target_url = f"http://localhost:{port}/"
-        logger.debug("Serving %s at %s", html_file_path, target_url)
-
-    try:
         async with async_playwright() as p:
             browser = await p.chromium.launch(headless=True)
             context = await browser.new_context(
@@ -172,9 +189,3 @@ async def open_page(
             finally:
                 await context.close()
                 await browser.close()
-    finally:
-        if httpd is not None:
-            httpd.shutdown()
-            httpd.server_close()
-        if server_thread is not None:
-            server_thread.join(timeout=1)

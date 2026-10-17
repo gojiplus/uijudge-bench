@@ -17,12 +17,7 @@ Two judges ship in P1:
 from __future__ import annotations
 
 import asyncio
-import http.server
 import logging
-import socket
-import socketserver
-import threading
-from contextlib import contextmanager
 from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Any, Protocol, runtime_checkable
@@ -32,6 +27,7 @@ from layoutlens.layout import LayoutReport, LayoutScorer
 from ..criteria import parse_criterion, wcag_axe_tag
 from ..schema import Item
 from ..vendor.a11y import A11yReport, AxeAuditor
+from ..vendor.browser import serve_file
 
 logger = logging.getLogger("uijudge.harness.runner")
 
@@ -130,46 +126,6 @@ class AxeJudge:
         return {"answer": "unknown", "confidence": 0.0}
 
 
-def _find_free_port() -> int:
-    """Find and return an available TCP port on localhost."""
-    with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
-        s.bind(("", 0))
-        s.listen(1)
-        return s.getsockname()[1]
-
-
-@contextmanager
-def _serve(html_file: Path):
-    """Serve ``html_file`` at ``/`` from a background thread; yield the base URL."""
-    port = _find_free_port()
-
-    class Handler(http.server.SimpleHTTPRequestHandler):
-        def __init__(self, *args, **kwargs):
-            super().__init__(*args, directory=str(html_file.parent), **kwargs)
-
-        def do_GET(self):
-            if self.path in ("/", ""):
-                self.send_response(200)
-                self.send_header("Content-type", "text/html")
-                self.end_headers()
-                self.wfile.write(html_file.read_bytes())
-            else:
-                super().do_GET()
-
-        def log_message(self, format: str, *args: Any) -> None:
-            return
-
-    httpd = socketserver.TCPServer(("", port), Handler)
-    thread = threading.Thread(target=httpd.serve_forever, daemon=True)
-    thread.start()
-    try:
-        yield f"http://localhost:{port}/"
-    finally:
-        httpd.shutdown()
-        httpd.server_close()
-        thread.join(timeout=1)
-
-
 async def _audit_pages(
     page_ids: list[str], corpus_root: Path, audit_stats: dict[str, Any] | None = None
 ) -> dict[str, A11yReport]:
@@ -205,7 +161,7 @@ async def _audit_pages(
                     missing_html.append(page_id)
                     logger.warning("axe audit: no page.html on disk for page %s (skipping)", page_id)
                     continue
-                with _serve(html_file) as url:
+                with serve_file(html_file) as url:
                     page = await context.new_page()
                     try:
                         await page.goto(url, wait_until="load", timeout=30000)
@@ -255,7 +211,7 @@ async def _scan_pages(
                 if html_file is None:
                     missing_html.append(page_id)
                     continue
-                with _serve(html_file) as url:
+                with serve_file(html_file) as url:
                     page = await context.new_page()
                     try:
                         await page.goto(url, wait_until="load", timeout=30000)
