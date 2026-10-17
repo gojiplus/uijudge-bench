@@ -9,7 +9,7 @@ produces the standard corpus layout under ``corpus/real/<page_id>/``:
 - ``screenshot_<viewport>.png`` — one viewport screenshot per requested viewport.
 - ``dom.json``    — the serialized element tree (tag, id, class, role, text-prefix, and
   per-viewport bbox) for elements above a size floor.
-- ``computed_styles.json`` — a computed-style snapshot (colour, background, font size /
+- ``computed_styles.json`` — a computed-style snapshot (color, background, font size /
   weight, text-align, display, position, dimensions) per recorded element.
 - ``axe.json``    — the axe-core report (violations + passes + incomplete, with node
   targets and bboxes) run on the **frozen** page (the artifact that ships, not the live
@@ -185,7 +185,7 @@ class Freezer:
     """Reusable page freezer over one headless browser (async context manager)."""
 
     def __init__(self, max_page_bytes: int = DEFAULT_MAX_PAGE_BYTES) -> None:
-        """Initialise an unstarted freezer."""
+        """Initialize an unstarted freezer."""
         self._pw = None
         self._browser: Browser | None = None
         self._contexts: dict[str, BrowserContext] = {}

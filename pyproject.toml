@@ -127,3 +127,10 @@ ignore = [
 
 [tool.ruff.lint.isort]
 known-first-party = ["uijudge"]
+
+[tool.codespell]
+# Metric abbreviations, fixture identifiers, and parser terminology.
+ignore-words-list = "fpr,cleanp,ans,unparseable"
+builtin = "clear,rare,en-GB_to_en-US"
+# Preserve source criterion names and the upstream license filename.
+ignore-regex = '''"colour-and-contrast": "Colour and Contrast"|\bLICENCE\b'''

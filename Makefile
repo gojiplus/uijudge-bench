@@ -3,7 +3,7 @@
 help:
 	@echo "UIJudgeBench make targets:"
 	@echo "  install           uv sync (dev) + playwright chromium"
-	@echo "  lint              ruff check + ruff format --check"
+	@echo "  lint              ruff check + ruff format --check + codespell"
 	@echo "  fmt               ruff format (apply)"
 	@echo "  test              pytest (all, incl. browser-marked)"
 	@echo "  test-offline      pytest excluding browser-marked tests (no chromium needed)"
@@ -27,6 +27,7 @@ install:
 	uv run playwright install chromium
 
 lint:
+	uvx --from preen==0.6.2 preen check --only codespell --strict
 	uv run ruff check uijudge/ tests/
 	uv run ruff format --check uijudge/ tests/
 

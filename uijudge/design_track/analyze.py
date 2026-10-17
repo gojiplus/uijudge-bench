@@ -202,7 +202,7 @@ def position_bias(judgments: list[dict[str, Any]]) -> dict[str, Any]:
 
     Because the on-screen side is randomized per trial, a rater with no position bias should
     pick the left page ~50% of the time. A rate far from 0.5 flags a rater (or the pool)
-    favouring a side irrespective of content. ``cannot_tell`` responses are excluded from the
+    favoring a side irrespective of content. ``cannot_tell`` responses are excluded from the
     denominator (no side was chosen).
     """
     per_rater: dict[str, dict[str, int]] = defaultdict(lambda: {"left": 0, "decided": 0})

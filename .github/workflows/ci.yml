@@ -40,6 +40,9 @@ jobs:
       - name: Install dependencies
         run: uv sync --locked --group dev --python 3.12
 
+      - name: Check spelling
+        run: uvx --from preen==0.6.2 preen check --only codespell --strict
+
       - name: Ruff check
         run: uv run ruff check uijudge/ tests/
 

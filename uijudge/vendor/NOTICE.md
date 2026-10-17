@@ -13,7 +13,7 @@ https://github.com/gojiplus/layoutlens
 
 These modules were **vendored** (copied and trimmed to self-contained form) rather than
 imported as a dependency, to keep UIJudgeBench decoupled from LayoutLens's release
-cadence and its heavier dependency set (openai, rich, pydantic, etc.). Behaviour is
+cadence and its heavier dependency set (openai, rich, pydantic, etc.). Behavior is
 unchanged; internal LayoutLens imports were inlined.
 
 ## axe-core

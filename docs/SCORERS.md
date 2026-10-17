@@ -17,7 +17,7 @@ copies.
 The a11y scorer already flows LayoutLens → bench. As of LayoutLens **v1.9.0**,
 the geometry/contrast measurement math is also available as a first-class,
 keyless product API (`layoutlens.layout`), ported from this repo's render-verifier
-and generalised from *verifying one claimed selector* to *scanning a whole page*.
+and generalized from *verifying one claimed selector* to *scanning a whole page*.
 
 ## Current adoption status
 

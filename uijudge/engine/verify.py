@@ -2,7 +2,7 @@
 
 A mutation is a *claim*. This module opens the mutated page in a real headless browser and
 *measures* the claim with the browser's own layout/paint engine — bounding-box intersection,
-``scrollHeight`` vs ``clientHeight``, WCAG contrast from computed colours, computed-style
+``scrollHeight`` vs ``clientHeight``, WCAG contrast from computed colors, computed-style
 values — and returns a **receipt** carrying the measured numbers. If the measurement does
 not confirm the claim, :func:`verify` returns ``None`` and the mutation must be discarded
 (never silently kept). Run against the *clean* page, the same check must not fire — that is
@@ -64,9 +64,9 @@ _JS_LABEL = """(inputSel) => {
   const input = document.querySelector(inputSel); if (!input) return { present: false };
   const id = input.id;
   const boundLabel = id ? !!document.querySelector('label[for="' + CSS.escape(id) + '"]') : false;
-  const labelled = boundLabel || !!input.closest('label') ||
+  const labeled = boundLabel || !!input.closest('label') ||
     input.hasAttribute('aria-label') || input.hasAttribute('aria-labelledby');
-  return { present: true, inputLabelled: labelled, boundLabel };
+  return { present: true, inputLabelled: labeled, boundLabel };
 }"""
 
 _JS_HEADINGS = """() => {
@@ -306,7 +306,7 @@ def _decide(defect_class: str, per_vp: dict[str, dict | None], rec: dict) -> tup
         try:
             ratio = contrast_ratio(parse_css_color(m["fg"]), parse_css_color(m["bg"]))
         except ValueError:
-            return False, {"fg": m["fg"], "bg": m["bg"], "note": "unparseable colour"}
+            return False, {"fg": m["fg"], "bg": m["bg"], "note": "unparseable color"}
         threshold = 3.0 if _is_large_text(m["fontSize"], m["fontWeight"]) else AA_NORMAL_TEXT
         return ratio < threshold, {
             "contrast_ratio": round(ratio, 2),
@@ -717,7 +717,7 @@ class Verifier:
     """
 
     def __init__(self) -> None:
-        """Initialise an unstarted verifier."""
+        """Initialize an unstarted verifier."""
         self._pw = None
         self._cache: _CtxCache | None = None
 
