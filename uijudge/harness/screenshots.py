@@ -12,15 +12,10 @@ import argparse
 import asyncio
 import base64
 import errno
-import http.server
 import io
 import json
 import logging
 import shutil
-import socket
-import socketserver
-import threading
-from contextlib import contextmanager
 from dataclasses import dataclass, replace
 from pathlib import Path
 from urllib.parse import urlparse
@@ -28,7 +23,7 @@ from urllib.parse import urlparse
 from PIL import Image
 
 from ..schema import Item
-from ..vendor.browser import DEFAULT_USER_AGENT, resolve_viewport
+from ..vendor.browser import DEFAULT_USER_AGENT, resolve_viewport, serve_file
 from .judges.llm import _item_render_state, _item_viewport
 from .screenshot_contract import (
     CAPTURE_SCHEMA_VERSION,
@@ -65,45 +60,6 @@ class CaptureSpec:
     focus_selector: str | None = None
     localization: bool = False
     item_ids: tuple[str, ...] = ()
-
-
-def _find_free_port() -> int:
-    with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as sock:
-        sock.bind(("", 0))
-        sock.listen(1)
-        return int(sock.getsockname()[1])
-
-
-@contextmanager
-def _serve(html_file: Path):
-    """Serve one frozen page and its local assets from a temporary localhost origin."""
-    port = _find_free_port()
-
-    class Handler(http.server.SimpleHTTPRequestHandler):
-        def __init__(self, *args, **kwargs):
-            super().__init__(*args, directory=str(html_file.parent), **kwargs)
-
-        def do_GET(self):
-            if urlparse(self.path).path in ("/", ""):
-                self.send_response(200)
-                self.send_header("Content-type", "text/html")
-                self.end_headers()
-                self.wfile.write(html_file.read_bytes())
-            else:
-                super().do_GET()
-
-        def log_message(self, format: str, *args: object) -> None:  # noqa: A002
-            return
-
-    httpd = socketserver.TCPServer(("", port), Handler)
-    thread = threading.Thread(target=httpd.serve_forever, daemon=True)
-    thread.start()
-    try:
-        yield f"http://localhost:{port}/"
-    finally:
-        httpd.shutdown()
-        httpd.server_close()
-        thread.join(timeout=1)
 
 
 def _capture_is_current(spec: CaptureSpec) -> bool:
@@ -271,7 +227,7 @@ async def _render(specs: list[CaptureSpec], viewport: str) -> int:
                     raise OSError("refusing screenshot render with less than 32 MiB free disk")
                 html = spec.page_dir / "page.html"
                 output = spec.page_dir / spec.output_name
-                with _serve(html) as url:
+                with serve_file(html) as url:
                     page = await context.new_page()
                     try:
                         await page.goto(url, wait_until="load", timeout=30_000)
