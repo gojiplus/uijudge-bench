@@ -49,3 +49,31 @@ def test_the_port_is_released_on_exit(page: Path) -> None:
     with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as sock:
         sock.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
         sock.bind(("", port))
+
+
+def test_cancelling_open_page_during_startup_stops_the_server(page: Path, monkeypatch: pytest.MonkeyPatch) -> None:
+    import asyncio
+
+    from uijudge.vendor import browser
+
+    servers = []
+    make_server = browser._make_server
+
+    def recording_make_server(path: Path):
+        servers.append(make_server(path))
+        return servers[-1]
+
+    async def cancelled_sleep(_: float) -> None:
+        raise asyncio.CancelledError
+
+    monkeypatch.setattr(browser, "_make_server", recording_make_server)
+    monkeypatch.setattr(browser.asyncio, "sleep", cancelled_sleep)
+
+    async def open_and_use() -> None:
+        async with browser.open_page(page):
+            pass
+
+    with pytest.raises(asyncio.CancelledError):
+        asyncio.run(open_and_use())
+    assert len(servers) == 1
+    assert servers[0].socket.fileno() == -1
