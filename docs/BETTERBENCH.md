@@ -109,7 +109,7 @@ gated on owner decisions (rater pool, LLM spend), not on missing engineering.
 |---|---|---|---|
 | M1 | Code usability was checked within the last year | **Met** | CI green; active 2026 development; `docs/REPRODUCING.md` clean-checkout run |
 | M2 | Maintained feedback channel for users is available | **Met** | Public issue tracker live at <https://github.com/gojiplus/uijudge-bench/issues> |
-| M3 | Contact person is listed | **Met** | Gaurav Sood, contact@gsood.com (`pyproject.toml`, `CITATION.cff`, `datasheet.md`) |
+| M3 | Contact person is listed | **Met** | Gaurav Sood ([issue tracker](https://github.com/gojiplus/uijudge-bench/issues)) (`pyproject.toml`, `CITATION.cff`, `datasheet.md`) |
 
 ## The 6 non-gradable (category (b)) criteria
 
