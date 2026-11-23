@@ -56,7 +56,7 @@ jobs:
           enable-cache: false
 
       - name: Set up Python
-        run: uv python install 3.12
+        run: uv python install 3.13
 
       - name: Check lockfile
         run: uv lock --check
