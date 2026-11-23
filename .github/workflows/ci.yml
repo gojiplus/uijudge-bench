@@ -38,7 +38,7 @@ jobs:
         run: uv lock --check
 
       - name: Install dependencies
-        run: uv sync --locked --group dev --python 3.12
+        run: uv sync --locked --group dev --python 3.13
 
       - name: Check spelling
         run: uvx --from preen==0.6.2 preen check --only codespell --strict
@@ -104,7 +104,7 @@ jobs:
 
       - name: Install wheel in an isolated environment
         run: |
-          uv venv "${{ runner.temp }}/uijudge-package-smoke" --python 3.12
+          uv venv "${{ runner.temp }}/uijudge-package-smoke" --python 3.13
           uv pip install --python "${{ runner.temp }}/uijudge-package-smoke/bin/python" dist/*.whl
 
       - name: Smoke test installed wheel

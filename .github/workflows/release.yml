@@ -62,7 +62,7 @@ jobs:
         run: uv lock --check
 
       - name: Install dependencies
-        run: uv sync --locked --group dev --python 3.12
+        run: uv sync --locked --group dev --python 3.13
 
       - name: Install Playwright chromium
         run: uv run playwright install chromium --with-deps
