@@ -1980,7 +1980,7 @@ requires-dist = [
     { name = "layoutlens", specifier = ">=3.0.0,<5" },
     { name = "layoutlens", marker = "extra == 'judge'", specifier = ">=3.0.0,<5" },
     { name = "litellm", specifier = ">=1.93.2" },
-    { name = "pillow", specifier = ">=10.0.0" },
+    { name = "pillow", specifier = ">=10.4.0" },
     { name = "playwright", specifier = ">=1.40.0" },
 ]
 provides-extras = ["judge"]
